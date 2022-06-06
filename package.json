@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "main": "",
-  "scripts": {
-    "test": "mocha --config .mocharc.js"
-  },
+  "scripts": {},
   "peerDependencies": {},
   "dependencies": {},
   "devDependencies": {
