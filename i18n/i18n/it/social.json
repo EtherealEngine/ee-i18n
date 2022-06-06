@@ -1,0 +1,202 @@
+{
+  "addComment": "Aggiungi commento...",
+  "share": "Condividi",
+  "suggestions": "Suggerimenti per te",
+  "seeAll": "Vedi tutto",
+  "likes": "Preferenza",
+  "viewComments": "Visualizza tutti i commenti {{count}}",
+  "more": "più",
+  "username": "nome utente",
+  "fullName": "Nome Cognome",
+  "reportInApporpriate": "Segnala inappropriato",
+  "unfollow": "Smetti di seguire",
+  "goToPost": "Vai a Post",
+  "shareModal": "Condividi",
+  "copyLink": "Copia link",
+  "embed": "Incorpora",
+  "cancel": "Annulla",
+  "confirm": "Confermare",
+  "save": "Salvare",
+  "profilePic": "foto del profilo di {{user}}",
+  "ara": "Altare",
+  "follow": "Seguire",
+  "flames": "Fiamme",
+  "continue": "Continuare",
+  "partyInvitationSent": "Invito alla festa inviato",
+  "arMedia": {
+    "back": "Indietro",
+    "clip": "Morsetto",
+    "backgrounds": "Sfondi",
+    "start": "Inizio"
+  },
+  "arMediaform": {
+    "title": "Titolo",
+    "type": "Digitare",
+    "clip": "Morsetto",
+    "background": "Sfondo",
+    "scene": "Scena",
+    "save": "Salvare",
+    "manifest-file": "File manifest manifest",
+    "audio-file": "File Mp4",
+    "dracosis-file": "Dracosis .uvol file",
+    "preview-file": "Anteprima del file immagine"
+  },
+  "creator": {
+    "myVideos": "I miei video",
+    "savedVideos": "Video salvati",
+    "back": "Indietro",
+    "blocked-list": "Elenco bloccati",
+    "block-user": "Blocca utente",
+    "dialog-content": "Non vedrai il profilo e il contenuto dell'utente"
+  },
+  "creatorForm": {
+    "back": "Indietro",
+    "edit": "Modifica profilo",
+    "save": "Salvare",
+    "changeAvatar": "Cambia immagine avatar",
+    "ph-selectPreview": "Seleziona anteprima",
+    "ph-name": "Il tuo nome",
+    "ph-username": "Il tuo nome utente",
+    "ph-email": "La tua email",
+    "ph-tags": "Tag",
+    "ph-link": "Collegamento",
+    "ph-aboutYou": "Di più su di te",
+    "ph-twitter": "cinguettare",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Esci"
+  },
+  "dashboard": {
+    "title": "Cruscotto",
+    "dashboard": "Cruscotto",
+    "users": "Gli utenti",
+    "feeds": "Feed",
+    "arMedia": "Supporti video",
+    "editor": "Editore",
+    "creator": "Creatore"
+  },
+  "featured": {
+    "empty-list": "Nessun feed per ora ..."
+  },
+  "feed": {
+    "back": "Indietro",
+    "related": "Feed correlati",
+    "is-repoted-message": "Il feed è segnalato!"
+  },
+  "feedForm": {
+    "back": "Indietro",
+    "thanks": "Grazie per aver condiviso e migliorato la nostra community",
+    "share": "Condividere qualcosa con la community",
+    "upload": "Carica video",
+    "ph-selectVideo": "Seleziona Video",
+    "preview": "Anteprima immagine",
+    "ph-selectPreview": "Seleziona anteprima",
+    "createFeed": "Per creare un feed devi avere un video e un'immagine di anteprima!!!",
+    "ph-videoName": "Il nome del tuo video",
+    "ph-type": "Digita ciò che vuoi condividere con la community ... ",
+    "lbl-share": "Condividi",
+    "save": "Salva e vai Avanti"
+  },
+  "feedMenu": {
+    "featured": "In primo piano",
+    "creators": "Creatori",
+    "feed": "Il Feed"
+  },
+  "header": {
+    "lbl-volumetric": "Volumetrico"
+  },
+  "login": {
+    "account": "Hai un account?",
+    "login": "Accesso",
+    "resetPassword": "Pulsante Reimposta password falsa (qui sarebbe un link dall'e-mail)",
+    "notHavingAccount": "Non hai un account?",
+    "signUp": "Registrati",
+    "forgotPassword": "Hai dimenticato la password?",
+    "back": "Indietro",
+    "or": "O"
+  },
+  "comment": {
+    "add": "Aggiungi il tuo commento..."
+  },
+  "notification": {
+    "feedFire": " ha attivato il tuo feed",
+    "feedBookmarked": " aggiunto ai segnalibri del feed",
+    "comment": " ha commentato il tuo feed:",
+    "commentFire": " ha attivato il tuo commento per il feed",
+    "follow": " ha iniziato a seguirti",
+    "unfollow": " ha smesso di seguirti",
+    "followed": " ti ha seguito",
+    "activity": "Attività"
+  },
+  "onBoarding": {
+    "welcome": "Benvenuto!",
+    "description": "La più grande collezione di oltre 370 layout per la prototipazione iOS.",
+    "next": "Prossimo",
+    "discover": "Scopri gli articoli,",
+    "news": "news & post",
+    "lines": "Sono quei sentimenti che guidano il nostro amore per l'astronomia e il nostro desiderio.",
+    "getStarted": "Inizia subito",
+    "meetUp": "Incontra",
+    "friends": "amici.",
+    "meet": "Incontra gli amici"
+  },
+  "shareForm": {
+    "arcMedia": "Condividi",
+    "videoCreated": "Ho creato questo video",
+    "shareWithBuddies": "Condividi con gli amici",
+    "shareVideo": "Condividi video",
+    "save": "Salva nel rullino fotografico",
+    "cancel": "Annulla",
+    "close": "Chiudere",
+    "addFeed": "Aggiungi feed"
+  },
+  "simpleModal": {
+    "emptyList": "Elenco vuoto",
+    "followers": " seguente",
+    "following": " Seguaci",
+    "flames": " Fiamme"
+  },
+  "splash": {
+    "screen": "Schermata iniziale",
+    "logo": "Logo"
+  },
+  "story": {
+    "profilePic": "foto del profilo di {{user}}"
+  },
+  "view": {
+    "cancel": "Annulla",
+    "choice": "Hai due diverse modalità di registrazione tra cui scegliere",
+    "verticalMode": "La modalità verticale ha un tempo record di 30 secondi",
+    "horizontalMode": "La modalità orizzontale ha un tempo di registrazione illimitato",
+    "start": "Inizio",
+    "not-show": "Non mostrarlo più",
+    "welcome": "Benvenuto in ARC!  Realizza video personali con uno dei nostri ologrammi e pubblicali sui tuoi canali di social media!",
+    "step": "PASSO {{step}}",
+    "text-step-1": "Scegli un ologramma dalla libreria.",
+    "text-step-2": "Questa è la realtà aumentata, quindi scansiona lo spazio con la tua fotocamera da un lato all'altro per 3-5 secondi dove vuoi che siano le prestazioni dell'ologramma.",
+    "text-step-3-part-1": "Tocca lo schermo una volta nella posizione in cui desideri ancorare l'ologramma.",
+    "text-step-3-part-2": "MANCIA!  Tocca una volta altrove per spostare l'ologramma in un'altra posizione.",
+    "text-step-3-part-3": "MANCIA!  È possibile ridimensionare l'ologramma pizzicando o espandendo lo schermo con il pollice e l'indice.",
+    "text-step-4-part-1": "Tocca due volte il pulsante rosso di registrazione per AVVIARE la registrazione video.",
+    "text-step-4-part-2": "Tocca due volte il pulsante rosso di registrazione per STOP."
+  },
+  "video": {
+    "back": "Indietro"
+  },
+  "terms": {
+    "confirmTerms": "Accetto i Termini di servizio",
+    "confirmPolicy": "Accetto l'Informativa sulla privacy"
+  },
+  "registration": {
+    "ph-phoneEmail": "Usa telefono / e-mail",
+    "facebook": "Continua con Facebook",
+    "google": "Continua con Google",
+    "linkedin": "Continua con Linkedin",
+    "twitter": "Continua con Twitter",
+    "gitHub": "Continua con GitHub",
+    "connect": "Collega la tua e-mail o il tuo numero di telefono",
+    "logIn": "Accedi",
+    "LogInTo": "Accedi a",
+    "continueAsGuest": "Continua come ospite"
+  }
+}

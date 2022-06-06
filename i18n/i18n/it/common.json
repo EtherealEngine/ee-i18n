@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Caricamento pagina..."
+  },
+  "tooltip": {
+    "pressKey": "Premere {{tip}} per {{message}}"
+  },
+  "toast": {
+    "joined": "unito",
+    "left": "A sinistra"
+  },
+  "navUserWidget": {
+    "login": "Accedi"
+  },
+  "loader": {
+    "connecting": "Connettersi al mondo...",
+    "entering": "Entrare nel mondo...",
+    "loading": "Caricamento...",
+    "objectRemaining": "{{count}} 'oggetto rimanente",
+    "objectRemainingPlural": "{{count}} oggetti rimanenti",
+    "loadingObjects": "Caricamento di oggetti",
+    "loadingComplete": "Caricamento completato",
+    "joiningWorld": "Entrare nel mondo"
+  },
+  "alert": {
+    "eventWasSuccess": "L'evento ha avuto successo",
+    "errorWasEncountered": "Si è verificato un errore",
+    "eventInProgress": "Evento in corso",
+    "seconds": "Secondi",
+    "cancelCountdown": "La chiusura di questo modale annullerà il conto alla rovescia"
+  },
+  "debug": {
+    "refresh": "Aggiornare",
+    "stats": "Statistiche",
+    "debugOptions": "Opzioni di debug",
+    "physicsDebug": "Fisica",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Helper del nodo",
+    "gridDebug": "Griglia",
+    "simpleMaterials": "Materiali semplici",
+    "tick": "Spuntare",
+    "worldStore": "Negozio mondiale",
+    "engineStore": "Negozio motori",
+    "namedEntities": "Entità denominate",
+    "networkObject": "Oggetto Network",
+    "networkClients": "Client di rete"
+  },
+  "recording": {
+    "videoRecorder": "Videoregistratore",
+    "waitingForPermissions": "In attesa di autorizzazioni",
+    "selectVideoSource": "Seleziona la sorgente video",
+    "screen": "Schermo",
+    "camera": "Macchina fotografica",
+    "microphone": "Microfono",
+    "startRecording": "Avvia la registrazione",
+    "pauseRecording": "Metti in pausa la registrazione",
+    "resumeRecording": "Riprendi la registrazione",
+    "stopRecording": "Interrompi registrazione"
+  },
+  "typing": "Dattilografia...",
+  "gameServer": {
+    "browserError": "Errore del browser",
+    "browserErrorMessage": "Il tuo browser non supporta l'archiviazione in modalità di navigazione privata. Prova un altro browser o esci dalla modalità di navigazione privata.",
+    "noAvailableServers": "Nessun server disponibile",
+    "noAvailableServersMessage": "Non sono disponibili server a cui connettersi. Tentativo di riconnettersi in",
+    "worldDisconnected": "Mondo disconnesso",
+    "worldDisconnectedMessage": "Hai perso la connessione con il mondo. Cercheremo di riconnetterci prima che scada il tempo successivo, altrimenti verrai inoltrato a un'altra istanza.",
+    "webGLNotEnabled": "WebGL non abilitato",
+    "webGLNotEnabledMessage": "Il tuo browser non supporta WebGL o è disabilitato. Abilita WebGL o prendi in considerazione l'aggiornamento alla versione più recente del tuo browser.",
+    "youKickedFromWorld": "Sei stato cacciato dal mondo",
+    "youKickedFromWorldMessage": "Sei stato cacciato da questo mondo per il seguente motivo",
+    "invalidLocation": "Posizione non valida",
+    "cantFindLocation": "Non riusciamo a trovare la posizione",
+    "misspelledOrNotExist": "Potrebbe essere errato o potrebbe non esistere.",
+    "loading": "caricamento",
+    "low-frame-error": "Rilevata una prestazione scadente, considera l'abilitazione Usa l'accelerazione hardware nel tuo browser e ripristina il tuo browser",
+    "low-frame-title": "Abilita l'accelerazione hardware per un'esperienza migliore!"
+  },
+  "error": {
+    "loading-error": "Impossibile caricare i dati utente",
+    "validation-error": "Inserisci {{type}} validi",
+    "login-error": "Impossibile accedere"
+  }
+}

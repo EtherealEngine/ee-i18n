@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Bestätigungs-E-Mail",
+      "resendEmail": "Bitte überprüfen Sie Ihre E-Mails, um Ihr Konto zu bestätigen. Wenn Sie keine E-Mail erhalten haben, klicken Sie bitte auf {{here}} , um die Bestätigungs-E-Mail erneut zu senden.",
+      "haveAnAccount": "Haben Sie ein Konto?"
+    },
+    "forgotPassword": {
+      "header": "Passwort vergessen",
+      "enterEmail": "Bitte geben Sie Ihre registrierte E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen des Passworts.",
+      "lbl-email": "E-Mail-Adresse",
+      "lbl-submit": "Link senden",
+      "emailSent": "Passwort zurücksetzen E-Mail wurde gesendet. Bitte überprüfen Sie Ihre E-Mails."
+    },
+    "login": {
+      "email": "| per E-Mail versenden SMS",
+      "username": "Benutzername + Passwort",
+      "social": "Sozial"
+    },
+    "magiklink": {
+      "header": "Login-Link",
+      "descriptionEmail": "Bitte geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Login-Link per E-Mail zu.",
+      "descriptionSMS": "Bitte geben Sie Ihre Telefonnummer ein und wir senden Ihnen einen Login-Link per SMS zu.",
+      "descriptionEmailSMS": "Bitte geben Sie Ihre E-Mail-Adresse oder Telefonnummer (10-stellig, nur USA) ein und wir senden Ihnen einen Login-Link per E-Mail oder SMS.",
+      "descriptionSMSUS": "Bitte geben Sie Ihre Telefonnummer ein (10-stellig, nur USA) und wir senden Ihnen einen Login-Link per SMS zu.",
+      "lbl-email": "E-Mail-Adresse",
+      "lbl-emailPhone": "E-Mail-Adresse oder Telefonnummer",
+      "lbl-phone": "Telefonnummer",
+      "agree": "Ich stimme der ",
+      "terms": "Allgemeine Geschäftsbedingungen (AGB)",
+      "lbl-submit": "Login-Link senden",
+      "email-sent-msg": "Login Magic Link wurde gesendet. Bitte überprüfen Sie Ihre E-Mails.",
+      "success-msg": "Login Magic Link wurde gesendet. Bitte überprüfen Sie Ihre E-Mail oder SMS.",
+      "sms-sent-msg": "Login Magic Link wurde gesendet. Bitte überprüfen Sie Ihre SMS."
+    },
+    "passwordLogin": {
+      "header": "Anmelden",
+      "lbl-email": "E-Mail-Adresse",
+      "lbl-password": "Passwort",
+      "lbl-rememberMe": "Erinnern Sie sich an mich",
+      "lbl-signin": "Anmelden",
+      "forgotPassword": "Passwort vergessen?",
+      "signup": "Sie haben noch kein Konto? Anmelden",
+      "lbl-login": "Anmelden",
+      "ph-password": "Passwort",
+      "ph-email": "E-Mail"
+    },
+    "social": {
+      "gitHub": "Login mit GitHub",
+      "google": "Login mit Google",
+      "facebook": "Login mit Facebook",
+      "linkedin": "Login mit Linkedin",
+      "twitter": "Login mit Twitter"
+    },
+    "register": {
+      "header": "Anmelden",
+      "login": "Anmelden",
+      "lbl-signup": "Anmelden",
+      "lbl-password": "Passwort",
+      "lbl-email": "E-Mail-Adresse",
+      "passwordNotMatch": "Kennwörter stimmen nicht überein",
+      "ph-password": "Passwort",
+      "ph-confirmPassword": "Passwort bestätigen",
+      "ph-email": "E-Mail"
+    },
+    "resetPassword": {
+      "header": "Passwort zurücksetzen",
+      "description": "Bitte geben Sie Ihr Passwort für Ihre E-Mail-Adresse ein",
+      "lbl-submit": "Passwort zurücksetzen",
+      "lbl-password": "Passwort",
+      "lbl-confirmPassword": "Passwort bestätigen",
+      "passwordNotMatch": "Kennwörter stimmen nicht überein",
+      "nowLoginYourAccount": "Sie können sich jetzt in Ihr Konto einloggen",
+      "yourPasswordResetSuccess": "Ihr Passwort wurde erfolgreich zurückgesetzt!"
+    },
+    "verifyEmail": {
+      "header": "E-Mail bestätigen",
+      "processing": "Bitte warten Sie einen Moment während der Bearbeitung..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Orte",
+      "loading": "Laden",
+      "col-name": "Name",
+      "col-scene": "Szene",
+      "col-maxuser": "Max. Benutzer",
+      "lbl-search": "Suche nach Standorten",
+      "lbl-new": "Neu"
+    },
+    "newLocation": {
+      "title": "Ort",
+      "success": "Erfolgreich gespeichert.",
+      "failure": "Etwas ist schief gelaufen.",
+      "removeSuccess": "Speicherort erfolgreich entfernt.",
+      "nameInUse": "Name wird verwendet.",
+      "nameRequire": "Name ist erforderlich.",
+      "validNumber": "Nur Zahlen (0-9) sind erlaubt.",
+      "lbl-name": "Name",
+      "lbl-maxuser": "Max. Benutzer",
+      "lbl-scene": "Szene",
+      "lbl-type": "Art",
+      "lbl-ve": "Video aktiviert",
+      "lbl-gme": "Globale Medien aktiviert",
+      "lbl-update": "Aktualisieren",
+      "lbl-create": "Schaffen",
+      "tooltipCanNotBeDeleted": "Lobby kann nicht gelöscht werden",
+      "confirmation": "Bist du sicher?",
+      "lbl-yes": "Ja",
+      "lbl-no": "Nein"
+    },
+    "share": {
+      "lbl-share": "Freigeben",
+      "ph-phoneEmail": "Einladung per E-Mail oder Telefonnummer",
+      "lbl-phoneEmail": "An E-Mail-Adresse oder Telefonnummer senden",
+      "lbl-copy": "Kopieren",
+      "lbl-send-invite": "Einladung senden",
+      "title": "Teilen Sie Ihre Standort-URL mit Ihrem Team",
+      "linkCopied": "Link in die Zwischenablage kopiert."
+    },
+    "setting": {
+      "audio": "Audio",
+      "lbl-volume": "Volumen",
+      "lbl-microphone": "Mikrofon",
+      "graphics": "Graphik",
+      "controls": "Steuerung",
+      "lbl-control-type": "Controller-Typ",
+      "lbl-control-scheme": "Kontrollschema",
+      "lbl-resolution": "Auflösung",
+      "lbl-shadow": "Schatten",
+      "lbl-pp": "Nachbearbeitung",
+      "lbl-pbr": "Vollständiger Züchterhaushalt",
+      "lbl-automatic": "Automatisch",
+      "xrusersetting": "XR-Benutzereinstellungen",
+      "rotation": "Drehung",
+      "rotation-smooth-speed": "Gleichmäßige Drehzahl",
+      "rotation-angle": "Drehwinkel",
+      "moving": "Verschieben",
+      "user-avatar": "Avatar-Einstellung",
+      "invert-rotation": "Rotation umkehren und Sticks bewegen",
+      "show-avatar": "Avatar anzeigen"
+    },
+    "profile": {
+      "lbl-profile": "Profil",
+      "lbl-settings": "Einstellungen",
+      "lbl-username": "Nutzername",
+      "update-msg": "Benutzername aktualisiert",
+      "inviteCode": "Einladungscode",
+      "youAreAn": "Sie sind ein",
+      "youAreA": "Sie sind ein",
+      "showUserId": "Benutzer-ID anzeigen",
+      "hideUserId": "Benutzer-ID ausblenden",
+      "showApiKey": "API-Schlüssel anzeigen",
+      "hideApiKey": "API-Schlüssel ausblenden",
+      "apiKey": "API-Schlüssel",
+      "logout": "Ausloggen",
+      "connectPhone": "Verbinden Sie Ihre Telefonnummer",
+      "connectEmail": "Verbinden Sie Ihre E-Mails",
+      "connectPhoneEmail": "Verbinden Sie Ihre E-Mail-Adresse oder Telefonnummer",
+      "or": "Oder",
+      "lbl-wallet": "Login mit Wallet",
+      "ph-email": "E-Mail",
+      "ph-phone": "Telefonnummer",
+      "ph-phoneEmail": "Telefonnummer / E-Mail",
+      "phoneEmailError": "Ungültiges Telefon # oder E-Mail-Adresse",
+      "phoneError": "Ungültiges Telefon #",
+      "emailError": "Ungültige E-Mail-Adresse",
+      "loginWithReadyPlayerMe": "Melden Sie sich mit Ready Player Me an",
+      "connectSocial": "Verbinden Sie sich mit sozialen Konten",
+      "createOne": "Wenn Sie noch kein Konto haben, wird ein neues Konto für Sie erstellt.",
+      "connections": {
+        "title": "Verbindungen",
+        "ipError": "Aktiver Identitätsanbieter kann nicht entfernt werden",
+        "disconnect": "trennen",
+        "connect": "Verbinden"
+      },
+      "profileDropdown": {
+        "avatar": "Benutzer-Avatar-Symbol",
+        "profile": "Profil",
+        "adminConsole": "Admin-Konsole",
+        "logout": "Abmeldung"
+      },
+      "userIcon": {
+        "lbl-name": "Ihr Name",
+        "lbl-update": "Aktualisieren",
+        "userId": "Benutzer-ID",
+        "ph-uploadImg": "Produktbild hochladen",
+        "lbl-selectAcvatar": "Avatar auswählen",
+        "lbl-submit": "Senden"
+      },
+      "userSettings": {
+        "volume": "Volumen",
+        "microphone": "Mikrofon",
+        "resolution": "Auflösung",
+        "high": "Hoch",
+        "low": "Niedrig",
+        "spatialAudio": "Verwenden von räumlichem Audio",
+        "enterMuted": "Betreten des Raums stummgeschaltet"
+      }
+    },
+    "oauth": {
+      "authenticating": "Beglaubigend...",
+      "authFailed": "{{service}} Authentifizierung fehlgeschlagen."
+    },
+    "magikLink": {
+      "wait": "Bitte warten Sie einen Moment während der Bearbeitung..."
+    },
+    "dashboard": {
+      "header": "Instrumententafel",
+      "dashboard": "Instrumententafel",
+      "users": "Benutzer",
+      "feeds": "Ernährt",
+      "instance": "Beispiel",
+      "locations": "Orte",
+      "invites": "Lädt",
+      "sessions": "Sitzungen",
+      "groups": "Gruppen",
+      "parties": "Parteien",
+      "chats": "Plaudert",
+      "content": "Inhaltspakete",
+      "projects": "Projekte",
+      "scenes": "Szenen",
+      "avatars": "Offenbarungen",
+      "benchmarking": "Benchmarking",
+      "bots": "Bots"
+    }
+  },
+  "oauth": {
+    "authenticating": "Beglaubigend...",
+    "authFailed": "{{service}} Authentifizierung fehlgeschlagen."
+  },
+  "magikLink": {
+    "wait": "Bitte warten Sie einen Moment während der Bearbeitung..."
+  },
+  "dashboard": {
+    "header": "Instrumententafel",
+    "dashboard": "Instrumententafel",
+    "users": "Benutzer",
+    "feeds": "Ernährt",
+    "instance": "Beispiel",
+    "locations": "Orte",
+    "routes": "Routen",
+    "projects": "Projekte",
+    "invites": "Lädt",
+    "sessions": "Sitzungen",
+    "groups": "Gruppen",
+    "parties": "Parteien",
+    "chats": "Plaudert",
+    "content": "Inhaltspakete",
+    "scenes": "Szenen",
+    "avatars": "Offenbarungen",
+    "benchmarking": "Benchmarking",
+    "bots": "Bots",
+    "setting": "Einstellungen"
+  },
+  "avatar": {
+    "title": "Avatar hochladen",
+    "lbl-browse": "Blättern",
+    "lbl-thumbnail": "Daumennagel",
+    "lbl-upload": "Hochladen",
+    "selectAvatar": "Avatar auswählen...",
+    "selectThumbnail": "Wählen Sie Miniaturansicht...",
+    "rotate": "Drehen",
+    "pan": "Pfanne",
+    "noBone": "Obejct enthält keine Knochen oder Haut",
+    "outOfBound": "Das Objekt ist nicht zulässig.",
+    "emptyObj": "Objekt ist leer.",
+    "maxTriangleError": "Das Objekt enthält mehr als {{allowedTriangles}} Flächen.",
+    "selectValidFile": "Wählen Sie eine gültige 3D-Avatardatei aus.",
+    "selectValidThumbnail": "Gültige Miniaturansichtsdatei ausgewählt.",
+    "fileOversized": "Die Größe der Avatar-Datei muss zwischen {{minSize}} MB und {{maxSize}} MB liegen.",
+    "confirmation": "Bist du sicher?",
+    "canNotBeRemoved": "Aktiver Avatar kann nicht entfernt werden",
+    "remove": "Avatar entfernen",
+    "uploadFiles": "Dateien hochladen",
+    "useUrlInstead": "Verwenden Sie stattdessen die URL",
+    "avatar": "Avatar",
+    "cancel": "Abbrechen",
+    "createAvatar": "Avatar erstellen",
+    "delete": "Löschen",
+    "view": "Ansehen",
+    "uploadAvatarInfo": "Avatar-Informationen aktualisieren",
+    "name": "Name",
+    "enterName": "Name eingeben",
+    "avatarInformation": "Avatar-Informationen",
+    "description": "Beschreibung",
+    "key": "Schlüssel",
+    "none": "Nichts",
+    "submit": "Senden",
+    "edit": "Redigieren",
+    "avatarUrl": "Avatar-URL",
+    "upload-success-msg": "Avatar erfolgreich hochgeladen.",
+    "remove-success-msg": "Avatar erfolgreich hochgeladen.",
+    "warning-msg": "Avatar-Ressource ist leer, haben Sie Avatare mit Ihrem statischen Dateispeicher synchronisiert?"
+  },
+  "personMenu": {
+    "inviteToParty": "Zur Party einladen",
+    "addAsFriend": "Als Freund hinzufügen",
+    "mute": "Stumm",
+    "block": "Block"
+  },
+  "person": {
+    "you": "Du",
+    "yourScreen": "Ihr Bildschirm",
+    "muteForEveryone": "Stummschaltung für alle",
+    "unmuteForEveryone": "Stummschaltung für alle aufheben",
+    "muteMe": "Mich stummschalten",
+    "unmuteMe": "Stummschaltung aufheben",
+    "muteThisPerson": "Diese Person stummschalten",
+    "unmuteThisPerson": "Stummschaltung dieser Person aufheben",
+    "openPictureInPicture": "Bild im Bild öffnen"
+  }
+}

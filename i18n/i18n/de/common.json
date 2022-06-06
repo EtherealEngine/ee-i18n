@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Seite wird geladen..."
+  },
+  "tooltip": {
+    "pressKey": "Drücken Sie {{tip}} zu {{message}}"
+  },
+  "toast": {
+    "joined": "angegliedert",
+    "left": "Links"
+  },
+  "navUserWidget": {
+    "login": "Anmelden"
+  },
+  "loader": {
+    "connecting": "Verbindung zur Welt...",
+    "entering": "Betreten der Welt...",
+    "loading": "Laden...",
+    "objectRemaining": "{{count}} verbleibendes Objekt",
+    "objectRemainingPlural": "{{count}} verbleibenden Objekte",
+    "loadingObjects": "Laden von Objekten",
+    "loadingComplete": "Laden abgeschlossen",
+    "joiningWorld": "Der Welt beitreten"
+  },
+  "alert": {
+    "eventWasSuccess": "Veranstaltung war erfolgreich",
+    "errorWasEncountered": "Es ist ein Fehler aufgetreten",
+    "eventInProgress": "Ereignis in Bearbeitung",
+    "seconds": "Nachschlag",
+    "cancelCountdown": "Wenn Sie dieses Modal schließen, wird der Countdown abgebrochen."
+  },
+  "debug": {
+    "refresh": "Auffrischen",
+    "stats": "Statistiken",
+    "debugOptions": "Debug-Optionen",
+    "physicsDebug": "Physik",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Knoten-Helfer",
+    "gridDebug": "Gitter",
+    "simpleMaterials": "Einfache Materialien",
+    "tick": "Ticken",
+    "worldStore": "Weltspeicher",
+    "engineStore": "Motorenlager",
+    "namedEntities": "Benannte Entitäten",
+    "networkObject": "Netzwerkobjekt",
+    "networkClients": "Netzwerk-Clients"
+  },
+  "recording": {
+    "videoRecorder": "Videorekorder",
+    "waitingForPermissions": "Warten auf Berechtigungen",
+    "selectVideoSource": "Videoquelle auswählen",
+    "screen": "Bildschirm",
+    "camera": "Kamera",
+    "microphone": "Mikrofon",
+    "startRecording": "Aufnahme starten",
+    "pauseRecording": "Aufnahme anhalten",
+    "resumeRecording": "Aufnahme fortsetzen",
+    "stopRecording": "Aufnahme stoppen"
+  },
+  "typing": "Typisierung...",
+  "gameServer": {
+    "browserError": "Browser-Fehler",
+    "browserErrorMessage": "Ihr Browser unterstützt keine Speicherung im privaten Browsermodus. Versuchen Sie es entweder mit einem anderen Browser, oder beenden Sie den privaten Browsermodus.",
+    "noAvailableServers": "Keine verfügbaren Server",
+    "noAvailableServersMessage": "Es stehen keine Server zur Verfügung, mit denen Sie eine Verbindung herstellen können. Versuch, die Verbindung wieder herzustellen",
+    "worldDisconnected": "Welt getrennt",
+    "worldDisconnectedMessage": "Du hast deine Verbindung zur Welt verloren. Wir werden versuchen, die Verbindung wiederherzustellen, bevor die folgende Zeit abläuft, andernfalls werden Sie zu einer anderen Instanz weitergeleitet.",
+    "webGLNotEnabled": "WebGL nicht aktiviert",
+    "webGLNotEnabledMessage": "Ihr Browser unterstützt WebGL nicht oder ist deaktiviert. Bitte aktivieren Sie WebGL oder erwägen Sie ein Upgrade auf die neueste Version Ihres Browsers.",
+    "youKickedFromWorld": "Du wurdest aus der Welt geworfen",
+    "youKickedFromWorldMessage": "Du wurdest aus folgendem Grund aus dieser Welt geworfen",
+    "invalidLocation": "Ungültiger Speicherort",
+    "cantFindLocation": "Wir können den Standort nicht finden",
+    "misspelledOrNotExist": "Es kann falsch geschrieben sein, oder es kann nicht existieren.",
+    "loading": "Laden",
+    "low-frame-error": "Es wurde eine schlechte Leistung festgestellt, wenn Sie die Hardwarebeschleunigung verwenden in Ihrem Browser aktivieren und Ihren Browser erneut aktivieren",
+    "low-frame-title": "Aktivieren Sie Hardwarebeschleunigung für eine bessere Erfahrung!"
+  },
+  "error": {
+    "loading-error": "Fehler beim Laden von Benutzerdaten",
+    "validation-error": "Bitte geben Sie gültige {{type}} ein",
+    "login-error": "Anmeldung fehlgeschlagen"
+  }
+}

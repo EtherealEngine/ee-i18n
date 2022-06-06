@@ -1,0 +1,81 @@
+{
+  "404": {
+    "msg": "404 - Pagina non trovata"
+  },
+  "503": {
+    "msg": "503 - Servizio non disponibile"
+  },
+  "location": {
+    "youHaveBeenBannedMsg": "Sei stato bandito da questa posizione",
+    "locationName": {
+      "pageTitle": "Casa"
+    }
+  },
+  "editor": {
+    "projects": {
+      "title": "Progetti",
+      "header": "Effettua il login",
+      "welcomeMsg": "Benvenuto",
+      "locationHeader": "Luoghi",
+      "projectHeader": "Progetti",
+      "sceneHeader": "Scene",
+      "description": "Se sei nuovo qui ti consigliamo di seguire il tutorial. Altrimenti, entra subito e crea un progetto da zero o da uno dei nostri modelli.",
+      "lbl-startTutorial": "Avvia tutorial",
+      "lbl-newProject": "Nuovo Progetto",
+      "lbl-createProject": "Creare",
+      "lbl-newScene": "Nuova scena",
+      "lbl-searchProject": "Cerca progetti esistenti...",
+      "back": "Indietro",
+      "contextMenu": "Elimina progetto",
+      "installed": "Progetti installati",
+      "official": "Progetti Ufficiali",
+      "community": "Progetti Comunitari",
+      "install": "Installare",
+      "uninstall": "Disinstalla",
+      "rename": "Ribattezzare",
+      "createProject": "Crea progetto",
+      "installProject": "Installa progetto",
+      "processing": "Elaborazione",
+      "projectName": "Nome del progetto",
+      "projectURL": "URL del progetto"
+    }
+  },
+  "error": {
+    "goHomeLink": "Va' a casa",
+    "withStatusCode": "Si è verificato un errore {{code}} sul server",
+    "withoutStatusCode": "Si è verificato un errore sul server"
+  },
+  "no-projects": {
+    "msg": "Errore: Nessun progetto installato - contattare un amministratore del sito"
+  },
+  "dev": {
+    "pageTitle": "Casa"
+  },
+  "login": {
+    "pageTitle": "Accesso"
+  },
+  "workerTest": {
+    "pageTitle": "Test del lavoratore"
+  },
+  "index": {
+    "by": "PRESSO",
+    "xr": "XR",
+    "foundation": "Fondazione",
+    "description": "Applicazioni social 3D in tempo reale per il divertimento di tutti."
+  },
+  "xrengineContact": {
+    "header": "Mettiti in contatto!",
+    "description": "Ci piacerebbe aiutarti con i tuoi eventi virtuali, la vendita al dettaglio digitale, l'intrattenimento e altre esigenze.",
+    "lbl-name": "Nome",
+    "lbl-email": "E-mail",
+    "lbl-company": "Società",
+    "lbl-project": "Descrivi il tuo progetto",
+    "lbl-send": "Invia",
+    "lbl-ok": "Ok",
+    "lbl-success": "Messaggio inviato, ti risponderemo a breve.",
+    "lbl-failure": "Si è verificato un errore, Plese riprova",
+    "err-username": "Inserisci il tuo nome.",
+    "err-email": "L'e-mail è obbligatoria.",
+    "err-msg": "Fornisci una breve descrizione del tuo progetto."
+  }
+}
