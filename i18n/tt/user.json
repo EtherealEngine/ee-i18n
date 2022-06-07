@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Раслау электрон почтасы",
+      "resendEmail": "Аккаунтны тикшерү өчен электрон почтаңны тикшереп чыгып алыгыз. Электрон почта ала алмасаң, тикшерү электрон почтасын кабатлап торыр өчен {{here}} басыгыз.",
+      "haveAnAccount": "Хисаб вә ґәзаб бармы?"
+    },
+    "forgotPassword": {
+      "header": "Оныткан сүзне оныткан",
+      "enterEmail": "Теркәлгән электрон почта адресына керегез һәм без сезгә исереп җибәрү сылтамасын җибәрәбез.",
+      "lbl-email": "Электрон почта адресы",
+      "lbl-submit": "Җибәр",
+      "emailSent": "Ысыру корилдык электрон хат җибәрелде. Электрон почтаңны тикшереп чыкыгыз."
+    },
+    "login": {
+      "email": "Электрон почта | СМС",
+      "username": "UserName + иң яхшысы",
+      "social": "Иҗтимагый"
+    },
+    "magiklink": {
+      "header": "Логин Линк",
+      "descriptionEmail": "Электрон адресыгызга керегез һәм без сезгә электрон почта аша логин сылтамасын җибәрәбез.",
+      "descriptionSMS": "Телефон номерына кереп, сезгә SС аша логин сылтасын җибәрәбез.",
+      "descriptionEmailSMS": "Электрон почта адресына яки телефон номерына (10 сан, АКШ гына) керегез һәм без сезгә электрон почта яки SС аша логин сылтамасын җибәрәчәкбез.",
+      "descriptionSMSUS": "Телефон номерын (10 сан, АКШ гына) керегез һәм без сезгә SС аша логин элемтәсен җибәрәчәкбез.",
+      "lbl-email": "Электрон почта адресы",
+      "lbl-emailPhone": "Электрон почта яки телефон номеры",
+      "lbl-phone": "Телефон номеры",
+      "agree": "Мин ризамын ",
+      "terms": "Терминнар һәм шартлар",
+      "lbl-submit": "Логин бәйләнешен җибәр",
+      "email-sent-msg": "Логгин Тылсымлы сылтама җибәрелде. Электрон почтаңны тикшереп чылтаныгыз.",
+      "success-msg": "Логгин Тылсымлы сылтама җибәрелде. Электрон почтаны яки ЧЕМС-ны тикшереп алыгыз.",
+      "sms-sent-msg": "Логгин Тылсымлы сылтама җибәрелде. Зинһар өчен, ЧЕМС-ны тикшереп алыгыз."
+    },
+    "passwordLogin": {
+      "header": "Керегез",
+      "lbl-email": "Электрон почта адресы",
+      "lbl-password": "Пысый",
+      "lbl-rememberMe": "Хәтерләгез",
+      "lbl-signin": "Керегез",
+      "forgotPassword": "Изге язманы оныттыгызмы?",
+      "signup": "Хисап юкмы? Теркәлергә",
+      "lbl-login": "Керергә",
+      "ph-password": "Пысый",
+      "ph-email": "Электрон почта"
+    },
+    "social": {
+      "gitHub": "ГитХуб белән логин",
+      "google": "Google белән логин",
+      "facebook": "Facebook белән логин",
+      "linkedin": "Синден белән логин",
+      "twitter": "Твиттер белән логин"
+    },
+    "register": {
+      "header": "Теркәлергә",
+      "login": "Керергә",
+      "lbl-signup": "Теркәлергә",
+      "lbl-password": "Пысый",
+      "lbl-email": "Электрон почта адресы",
+      "passwordNotMatch": "Игезәкләр бернәрсәгә дә туры килмәмәгез",
+      "ph-password": "Пысый",
+      "ph-confirmPassword": "Исүзне раслау",
+      "ph-email": "Электрон почта"
+    },
+    "resetPassword": {
+      "header": "Сүзне яңадан кабызу",
+      "description": "Электрон почта адресы өчен исүзегезне кертегез",
+      "lbl-submit": "Сүзне яңадан кабызу",
+      "lbl-password": "Пысый",
+      "lbl-confirmPassword": "Исүзне раслау",
+      "passwordNotMatch": "Игезәкләр бернәрсәгә дә туры килмәмәгез",
+      "nowLoginYourAccount": "Үзегезнең хәбәрегезне хәзер язып була .",
+      "yourPasswordResetSuccess": "Синең сүзең уңышлы яңадан кабызды!"
+    },
+    "verifyEmail": {
+      "header": "Электрон почтаны тикшерегез",
+      "processing": "Эшкәртә торган бер мизгелне көтәм..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Урыннар",
+      "loading": "Йөкләү",
+      "col-name": "Исем",
+      "col-scene": "Сәхнә",
+      "col-maxuser": "Макс Кулланучылар",
+      "lbl-search": "Урыннар эзләгез",
+      "lbl-new": "Яңа"
+    },
+    "newLocation": {
+      "title": "Урын",
+      "success": "Уңышлы коткарылган.",
+      "failure": "Нәрсәдер ялгышты.",
+      "removeSuccess": "Урын уңышлы алынды.",
+      "nameInUse": "Исем куллануда.",
+      "nameRequire": "Исем таләп ителә.",
+      "validNumber": "Тик саннар гына рөхсәт ителә (0-9).",
+      "lbl-name": "Исем",
+      "lbl-maxuser": "Макс Кулланучылар",
+      "lbl-scene": "Сәхнә",
+      "lbl-type": "Төр",
+      "lbl-ve": "Видео",
+      "lbl-gme": "Бөтендөнья медиалары булышлык иткән",
+      "lbl-update": "Яңартырга",
+      "lbl-create": "Барлыкка китерегез",
+      "tooltipCanNotBeDeleted": "Лоббины бетерә алмый",
+      "confirmation": "Чыннан да шулай мы?",
+      "lbl-yes": "Әйе",
+      "lbl-no": "Юк"
+    },
+    "share": {
+      "lbl-share": "Уртаклык",
+      "ph-phoneEmail": "Электрон почта я телефон номеры белән чакыру",
+      "lbl-phoneEmail": "Электрон почтага яки телефон номерына җибәрегез",
+      "lbl-copy": "Күчермә",
+      "lbl-send-invite": "Чакыруны җибәр",
+      "title": "Урыныгызның URL УРЫНЫн команда белән уртаклашыгыз",
+      "linkCopied": "Клип тактага күчерелмә."
+    },
+    "setting": {
+      "audio": "Аудио",
+      "lbl-volume": "Том",
+      "lbl-microphone": "Микрофон",
+      "graphics": "Графика",
+      "controls": "Идарә итә торган идарә",
+      "lbl-control-type": "Контроллер тибы",
+      "lbl-control-scheme": "Идарә итү схемасы",
+      "lbl-resolution": "Резолюция",
+      "lbl-shadow": "Күләгәләр",
+      "lbl-pp": "Пост эшкәртү",
+      "lbl-pbr": "Тулы ПБР",
+      "lbl-automatic": "Автомат",
+      "xrusersetting": "XR кулланучыларның көймәләре",
+      "rotation": "Әйләнү",
+      "rotation-smooth-speed": "Әйләнү тизлеге",
+      "rotation-angle": "Әйләнү английы",
+      "moving": "Хәрәкәт",
+      "user-avatar": "Аватар куелу",
+      "invert-rotation": "Әйе , әйләнү һәм хәрәкәт итү",
+      "show-avatar": "Аватар"
+    },
+    "profile": {
+      "lbl-profile": "Профиль",
+      "lbl-settings": "Көйләр",
+      "lbl-username": "Username",
+      "update-msg": "Яңарынды",
+      "inviteCode": "Чакыру кодексы",
+      "youAreAn": "Син - ан",
+      "youAreA": "Син а",
+      "showUserId": "Кулланучылар иден күрсәт",
+      "hideUserId": "Кулланучылар иден яшерегез",
+      "showApiKey": "API ачкычын күрсәт",
+      "hideApiKey": "API ачкычын яшерегез",
+      "apiKey": "API ачкычы",
+      "logout": "Язып куегыз",
+      "connectPhone": "Телефон номерын тоташыгыз",
+      "connectEmail": "Электрон почтаңны тоташ",
+      "connectPhoneEmail": "Электрон почтаны яки телефон номерын тоташыгыз",
+      "or": "Ор",
+      "lbl-wallet": "Янчыгы белән логин",
+      "ph-email": "Электрон почта",
+      "ph-phone": "Телефон номеры",
+      "ph-phoneEmail": "Телефон номеры / Электрон почта",
+      "phoneEmailError": "Чыныксыз телефон # яки электрон почта адресы",
+      "phoneError": "Юккагы телефон #",
+      "emailError": "Чыныксыз электрон почта адресы",
+      "loginWithReadyPlayerMe": "Әзер уенчы белән логин",
+      "connectSocial": "Социаль хисаплар белән тоташ",
+      "createOne": "Хисап булмаса, сезнең өчен яңа кеше булдырылачак",
+      "connections": {
+        "title": "Бәйләнешләр",
+        "ipError": "Актив Шәхес бирүчене юк итә алмый",
+        "disconnect": "чылпыта.",
+        "connect": "Тоташ"
+      },
+      "profileDropdown": {
+        "avatar": "Кулланучылар Аватар икәсе",
+        "profile": "Профиль",
+        "adminConsole": "Админатратор консл",
+        "logout": "Логу"
+      },
+      "userIcon": {
+        "lbl-name": "Исемегез",
+        "lbl-update": "Яңартырга",
+        "userId": "User id",
+        "ph-uploadImg": "Продуктны сурәтләү",
+        "lbl-selectAcvatar": "Аватар сайлагыз",
+        "lbl-submit": "Тапшыр"
+      },
+      "userSettings": {
+        "volume": "Том",
+        "microphone": "Микрофон",
+        "resolution": "Резолюция",
+        "high": "Югары",
+        "low": "Түбән",
+        "spatialAudio": "Киңлек аудиосын куллану",
+        "enterMuted": "Бүлмәне тыелган"
+      }
+    },
+    "oauth": {
+      "authenticating": "Ентиферлык ...",
+      "authFailed": "{{service}} аутентификация уңышсыз булды."
+    },
+    "magikLink": {
+      "wait": "Эшкәртә торган бер мизгелне көтәм..."
+    },
+    "dashboard": {
+      "header": "Плеека",
+      "dashboard": "Плеека",
+      "users": "Кулланучылар",
+      "feeds": "Ашамлыклар",
+      "instance": "Мәсәлән ,",
+      "locations": "Урыннар",
+      "invites": "Чакырулар",
+      "sessions": "Сессияләр",
+      "groups": "Төркемнәр",
+      "parties": "Фиркаләр",
+      "chats": "Чатс",
+      "content": "Эчтәлек",
+      "projects": "Проектлар",
+      "scenes": "Сәхнәләр",
+      "avatars": "Аватар",
+      "benchmarking": "Чыңгылык",
+      "bots": "Ботс"
+    }
+  },
+  "oauth": {
+    "authenticating": "Ентиферлык ...",
+    "authFailed": "{{service}} аутентификация уңышсыз булды."
+  },
+  "magikLink": {
+    "wait": "Эшкәртә торган бер мизгелне көтәм..."
+  },
+  "dashboard": {
+    "header": "Плеека",
+    "dashboard": "Плеека",
+    "users": "Кулланучылар",
+    "feeds": "Ашамлыклар",
+    "instance": "Мәсәлән ,",
+    "locations": "Урыннар",
+    "routes": "Маршрутлар",
+    "projects": "Проектлар",
+    "invites": "Чакырулар",
+    "sessions": "Сессияләр",
+    "groups": "Төркемнәр",
+    "parties": "Фиркаләр",
+    "chats": "Чатс",
+    "content": "Эчтәлек",
+    "scenes": "Сәхнәләр",
+    "avatars": "Аватар",
+    "benchmarking": "Чыңгылык",
+    "bots": "Ботс",
+    "setting": "Көйләр"
+  },
+  "avatar": {
+    "title": "Каватар",
+    "lbl-browse": "Челл",
+    "lbl-thumbnail": "Племне",
+    "lbl-upload": "Йөкләү",
+    "selectAvatar": "Аватар сайлагыз...",
+    "selectThumbnail": "Кабызыр сайлагыз...",
+    "rotate": "Бот",
+    "pan": "Пан",
+    "noBone": "Җиргә сөякләр дә, тире дә юк",
+    "outOfBound": "Объект чиктән тыш.",
+    "emptyObj": "Объект буш.",
+    "maxTriangleError": "Объектта {{allowedTriangles}} йөзләреннән зуррак.",
+    "selectValidFile": "3d аватар файлын сайлагыз.",
+    "selectValidThumbnail": "Сайланган нигезле Барменей файлы.",
+    "fileOversized": "Аватар файл күләме {{minSize}} Мб белән {{maxSize}} МБ арасында булырга тиеш",
+    "confirmation": "Чыннан да шулай мы?",
+    "canNotBeRemoved": "Актив Аватар юкка чыга алмый",
+    "remove": "Аватар бетерегез",
+    "uploadFiles": "Файлларны йөкләү",
+    "useUrlInstead": "Урны кулланыгыз",
+    "avatar": "Аватар",
+    "cancel": "Баш тарту",
+    "createAvatar": "Аватар булдырыгыз",
+    "delete": "Юк",
+    "view": "Караш",
+    "uploadAvatarInfo": "Аватар мәгълүматын яңартырга",
+    "name": "Исем",
+    "enterName": "Исемне керт",
+    "avatarInformation": "Аватар мәгълүматы",
+    "description": "Тасвирлама",
+    "key": "Төймә",
+    "none": "Юк",
+    "submit": "Тапшыр",
+    "edit": "Эдит",
+    "avatarUrl": "Аватар уры",
+    "upload-success-msg": "Аватар уңышлы йөкләнде.",
+    "remove-success-msg": "Аватар уңышлы йөкләнде.",
+    "warning-msg": "Аватар ресурсы буш, статик файл саклауга аватарлар синхронландыгызмы?"
+  },
+  "personMenu": {
+    "inviteToParty": "Партиягә чакыру",
+    "addAsFriend": "Дусларча өстәгез",
+    "mute": "Муте",
+    "block": "Блок"
+  },
+  "person": {
+    "you": "Сез",
+    "yourScreen": "Экран",
+    "muteForEveryone": "Барча кешеләргә дә ґәзабны ко",
+    "unmuteForEveryone": "Һәркемгә дә үзгәрми",
+    "muteMe": "Тәхкыйк мине вә аның",
+    "unmuteMe": "Миңа үзгәрми",
+    "muteThisPerson": "Тәхкыйк бу кеше",
+    "unmuteThisPerson": "Бу кешегә үзгәрми",
+    "openPictureInPicture": "Рәсемдә ачык рәсем"
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "loading": "Йөкләү проекты",
+  "loadingMsg": "Йөкләү проекты...",
+  "loadingError": "Хаталар йөкләү проекты",
+  "loadingErrorMsg": "Проектны йөкләгәндә хата булды.",
+  "selectSceneMsg": "Двигатель белән уйный башлар өчен күренешне сайлагыз",
+  "error": "Хата",
+  "errorMsg": "Ул кәферләрнең– әүвәлгеләрнең адашканлыклары, әлбәттә",
+  "generateScreenshot": "Барлыкка китерүче проект скриншринт",
+  "generateScreenshotMsg": "Генератив проект скриншринт...",
+  "newScene": "Сәхнәне барлыкка китер",
+  "saving": "Коткара торган проект",
+  "savingMsg": "Проектны саклап калыр...",
+  "savingError": "Хатаны саклау проекты",
+  "savingErrorMsg": "Проектны коткарганда хата булды.",
+  "savingSceneErrorMsg": "Күренеш тиешенчә йөкләнми. Күренешне яңадан йөкләргә тырышыгыз.",
+  "duplicating": "Проектны яңартыр өчен",
+  "duplicatingMsg": "Проектны яңартырлык...",
+  "exporting": "Экспортлау проекты",
+  "exportingMsg": "Проектны экспортлау...",
+  "exportingError": "Хатаны экспортлау проекты",
+  "exportingErrorMsg": "Проектны экспортлаганда хата булды.",
+  "importLegacy": "Мирасны дөньяны импорт",
+  "importLegacyMsg": "Аллаһ ґәзабы Бу сезнең хәзерге күренешегезне яңадан язар! Әллә ґәзаб килмәсме?",
+  "publishingError": "Хаталар чыгару проекты",
+  "publishingErrorMsg": "Ул кәферләрнең– әүвәлгеләрнең адашканлыклары, әлбәттә",
+  "publishingScene": "Сәхнәне бастыру",
+  "publishingSceneMsg": "Күренешне бастыру...",
+  "uploadingThumbnailMsg": "Бармакны йөкләү...",
+  "uploadingSceneMsg": "Йөкләү күренеше: {{percentage}}%",
+  "envMapError": "Кубемак сурәтләрен хаталы йөкләү {{files}}",
+  "lbl-return": "Кире кайту",
+  "menubar": {
+    "newScene": "Яңа күренеш",
+    "saveScene": "Күренешне саклагыз",
+    "saveAs": "Коткарыгыз",
+    "importAsset": "Импорт активы",
+    "exportGLB": "Бинар глФ дип экспортлау (.глб) ...",
+    "importScene": "Күз алдына китерегез",
+    "exportScene": "Экспорт күренеше",
+    "quit": "Кит"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Файл өчен урынсыз файл тибы: \"{{name}}\". Файл образ, видео яки глб моделе булырга тиеш.",
+    "addObject": "addObject: объект табылмаганчы",
+    "removeObject": "Objectны алып ташлыйлар: төен табылмады. Бу инде урында булмаган төенне бетерү белән бәйле.",
+    "noParent": "{{node}} \"{{name}}\" әти-әнисе юк. Репарент хәзерге вакытта булган объектларда гына эшли.",
+    "undefinedParent": "редактор.репарент: яңаParent ачыкланган",
+    "notAuthenticated": "Үз-үзегезгә ышанмаганнар",
+    "fetchingProjectError": "Хаталы проектлар: {{error}}",
+    "fetchingRouteError": "Хаталы маршрутлар: {{error}}",
+    "unknownError": "Билгесез хата",
+    "resolveURL": "«{{url}}» урын хата хәл итү:",
+    "mediaSearchAborted": "Медиалар эзләүгә",
+    "methodNotImplemented": "Ысул тормышка ашырылмады.",
+    "saveProjectAborted": "Юкка чыккан күренешне саклап калу",
+    "unsavedChanges": "Бозылмаган үзгәрешләр",
+    "unsavedChangesMsg": "Күренеш үзгәртелгән. Үзгәрешләрне саклап калуны зинһар.",
+    "projectCreationFail": "Проект булдыру уңышсыз булды. {{reason}}",
+    "projectDeletionFail": "Проектны бетерү уңышсыз булды. {{reason}}",
+    "savingProjectFail": "Проектны саклау уңышсыз булды. {{reason}}",
+    "sceneTooLarge": "Күренеш бик зур ({{size}} МБ) чыгарырга. Максималь зурлык - {{maxSize}} МБ.",
+    "sceneCreationFail": "Сәхнә иҗатлары уңышсыз булды. {{reason}}",
+    "uploadAborted": "Йөкләү",
+    "uploadFailed": "Йөкләү уңышсыз {{reason}}",
+    "assetDeletionFail": "Активны бетерү уңышсыз булды. {{reason}}",
+    "projectAssetDeletionFail": "Проект активын бетерү уңышсыз булды. {{reason}}",
+    "networkError": "Челтәр хатасы: {{status}}. {{text}}",
+    "unknownStatus": "Билгесез статус",
+    "CORS": "БӘЛКИ, CORS хатасы",
+    "urlFetchError": "«{{url}}» дип әйтмәгән"
+  },
+  "viewport": {
+    "title": "Чеңңпорт",
+    "command": {
+      "movecamera": "Камераны күчерегез",
+      "flyFast": "Тизрәк очкын",
+      "orbit": "Орбита / Сайлагыз",
+      "pan": "Пан",
+      "fly": "Очкы",
+      "focus": "Игътибар",
+      "rotateLeft": "Сул якка әйләнмәгез",
+      "rotateRight": "Уң якка әйлән",
+      "cancelPlacement": "Урнаштырудан туктагыз",
+      "placeDuplicate": "Кабатланыгыз",
+      "cancelGrab": "Граграмны гамәлдән кабызыгыз",
+      "grab": "Граб",
+      "deselectAll": "Бар нәрсәне деселект"
+    },
+    "state": {
+      "header": "Статистика",
+      "memory": "Хәтер",
+      "geometries": "Геометрия",
+      "textures": "Текстур",
+      "render": "Тәрҗемә",
+      "FPS": "ФПС",
+      "frameTime": "Вакыт",
+      "calls": "Шалтыратулар",
+      "triangles": "Өчпочмаклар",
+      "points": "Очлар",
+      "lines": "Сызыклар"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Бастырыгыз",
+    "lbl-published": "Бастырылган",
+    "command": {
+      "translate": "Тәрҗемә итү",
+      "rotate": "Бот",
+      "scale": "Масштаб",
+      "toggleSpace": "Тоггле трансформаль берәмеге",
+      "togglePivot": "Тоггле трансформаль Пивот",
+      "toggleSnapMode": "Тыела торган режим",
+      "toggleGrid": "Тор торыгызны кадерләмәгез",
+      "increaseGridSize": "Челтәр күләмен арттыру",
+      "descreaseGridSize": "Челтәрнең зурлыгын киметегез",
+      "stopPreview": "Алдан ук уйланыгыз",
+      "playPreview": "Алдану күренеше"
+    }
+  },
+  "properties": {
+    "title": "Үзенчәлекләре",
+    "lbl-visible": "Күзгә күренми",
+    "lbl-preventBake": "Бакыны юлдан яздырмагыз",
+    "lbl-persist": "Дәвамлылык",
+    "multipleNodeSelected": "Төрле төрдәге күпкыр төймәләре сайланган",
+    "noNodeSelected": "Сайланган төймә юк",
+    "ambientLight": {
+      "name": "Амбиент яктылыгы",
+      "description": "Сезнең күренешләрегездә барлык әйберләрне яктыручы яктырткыч.",
+      "lbl-intensity": "Интенсивлык",
+      "lbl-color": "Төс"
+    },
+    "envmap": {
+      "name": "Әйләнә-тирә мохит картасы",
+      "description": "әйләнә-тирәдәге карта үзлекләре"
+    },
+    "asset": {
+      "name": "Актив",
+      "description": "Сәхнә компонентларын төркемгә бүлеп кую , аны тулысынча йөкләргә һәм йөкләргә мөмкин .",
+      "lbl-options": "Вариантлар",
+      "lbl-assetPath": "Активлык юлы",
+      "lbl-assetName": "Экспорт исеме",
+      "lbl-exportOptions": "Экспорт вариантлары",
+      "lbl-export": "Экспорт активы",
+      "lbl-load": "Күренешкә йөк салу",
+      "lbl-unload": "Сызык",
+      "lbl-reload": "Реңклер"
+    },
+    "audio": {
+      "name": "Аудио",
+      "description": "Динамик рәвештә аудио йөкләнә.",
+      "lbl-audiourl": "Аудио-уры",
+      "lbl-controls": "идарә итә",
+      "info-controls": "Медиалар белән идарә итүнең гаепсезлеген тыяр өчен.",
+      "lbl-autoplay": "Авто пьеса",
+      "info-autoplay": "Дөрес икән, матбугат чаралары беренче тапкыр күренешкә кергәндә уйнаячак.",
+      "lbl-synchronize": "Синхрон",
+      "info-synchronize": "Дөрес булса, матбугат чаралары барлык тоташкан клиентларда синхрон булачак.",
+      "lbl-loop": "Тәгәрмәче",
+      "info-loop": "Чыннан да, матбугат чаралары мәңгегә әйләнәчәк.",
+      "lbl-audioType": "Аудио тибы",
+      "lbl-distanceModel": "Ераклык моделе",
+      "info-distanceModel": "Алгоритим аудио роллоуны санап чыгару өчен кулланган.",
+      "lbl-rolloffFactor": "Роллофф факторы",
+      "info-rolloffFactor": "Чыганак тыңлаучыдан читкә киткәндә томның никадәр тиз киметелгәнен сурәтләүче ике кыйммәт. 0 - 1",
+      "info-rfInfinity": "Чыганак тыңлаучыдан читкә киткәндә томның никадәр тиз киметелгәнен сурәтләүче ике кыйммәт. 0 — Чыдамлылык",
+      "lbl-refDistance": "Ераклык",
+      "info-refDistance": "Аудио чыганак тыңлаучыдан алга таба хәрәкәт иткәнгә томны киметү өчен сылтама аралыгын күрсәтүче ике кыйммәт.",
+      "lbl-maxDistance": "Макс ераклык",
+      "info-maxDistance": "Аудио чыганак белән тыңлаучы арасындагы максималь араны күрсәтүче ике кыйммәт, аннан соң том тагын да кимелми.",
+      "lbl-coneInnerAngle": "Эчке почмак",
+      "info-coneInnerAngle": "Почмакны сурәтләгән икеләтә кыйммәт, дәрәҗәләре, эчендә конус күләме кимемәячәк.",
+      "lbl-coneOuterAngle": "Тышкы англ",
+      "info-coneOuterAngle": "Почмакны сурәтләгән икеләтә кыйммәт, тышкы конус, аның тышында том даими кыйммәткә киметеләчәк, конутерГаин атрибуты белән билгеләнгән.",
+      "lbl-coreOuterGain": "Тышкы чыдамлылык",
+      "info-coreOuterGain": "ConeOuterAngle атрибуты белән билгеләнгән конустан читтә томны киметү күләмен сурәтләгән икеләтә кыйммәт. Аның туры килгән кыйммәте 0, мәгънәсе бернинди тавыш ишетелми дигәнне аңлата.",
+      "lbl-volume": "Том",
+      "lbl-play": "Пьеса",
+      "lbl-pause": "Пауза",
+      "error-url": "URL - дән хата"
+    },
+    "boxCollider": {
+      "description": "Әйберләрнең өстендә сызык яки ял итә торган күзгә күренмәс тартма.\nБәрелешүсез әйберләр идәнгә төшәчәк һәм диварлар аша үтәчәк.",
+      "lbl-isTrigger": "Ысыйка"
+    },
+    "camera": {
+      "name": "Камера",
+      "description": "Камераның көймәләре.",
+      "lbl-camera-raycast": "Камера Рэйкасинг",
+      "lbl-camera-raycast-toggle": "Ярдәм",
+      "lbl-camera-raycast-frequency": "Ешлык",
+      "lbl-camera-raycast-count": "Рэй графы",
+      "lbl-camera-raycast-length": "Рэй озынлыгы"
+    },
+    "directionalLight": {
+      "name": "Җитәкчелек яктылыгы",
+      "description": "Бөтен күренешне яктыртып торган яктылык, ләкин бер юнәлеш буенча үтеп керә.",
+      "lbl-color": "Төс",
+      "lbl-intensity": "Интенсивлык",
+      "lbl-cameraFar": "Камера ерак",
+      "lbl-cameraNear": "Камера якын",
+      "lbl-cameraTop": "Камера топ",
+      "lbl-cameraBottom": "Камера төбе",
+      "lbl-cameraLeft": "Камера сулга",
+      "lbl-cameraRight": "Камера уңда",
+      "lbl-useInCSM": "CSMда куллану",
+      "lbl-castShadow": "Каст-күләгә",
+      "lbl-disableForCSM": "Инвалид, чөнки Каскад күләгәсе картасы булыша.",
+      "lbl-shadowmapResolution": "Күләгә картасының резолюциясе",
+      "lbl-shadowBias": "Күләгә биас",
+      "lbl-shadowRadius": "Күләгә радиусы",
+      "lbl-showCameraHelper": "Фотоаппарат ярдәмчене күрсәт"
+    },
+    "groundPlane": {
+      "name": "Җир яссылыгы",
+      "description": "Еракка сузылган яссы җир яссы очкычы.",
+      "lbl-color": "Төс",
+      "lbl-receiveShadow": "Күләгә алыгыз",
+      "lbl-generateNavmesh": "Навемеш"
+    },
+    "link": {
+      "description": "Бүлмә яки сайт белән бәйләнеш.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "E.g. шәһәрнең 3D геоспатиаль картасы."
+    },
+    "model": {
+      "description": "GLTF URL яки файлдан йөкләнгән урында 3D моделе.",
+      "lbl-usingGPUInstancingFlag": "ГПУ инстанкинг",
+      "lbl-modelurl": "Үрнәк уры",
+      "lbl-envmapUrl": "Әйләнә-тирә мохит картасы уры",
+      "lbl-textureOverride": "Овердрид Текстур",
+      "lbl-materialOverride": "Материаль оверридлар",
+      "error-url": "URL - дән хата",
+      "lbl-loopAnimation": "Анимация",
+      "lbl-isAvatar": "Аватар",
+      "lbl-isGPUInstancing": "ГПУ - ны кулланабыз",
+      "lbl-isDynamic": "Динамик",
+      "lbl-castShadow": "Каст-күләгә",
+      "lbl-receiveShadow": "Күләгә алыгыз",
+      "lbl-interactable": "Үзара аралашып була",
+      "lbl-matrixAutoUpdate": "МатрицаУтоУпдате",
+      "lbl-name": "Исем",
+      "lbl-url": "Үрнәк уры",
+      "lbl-buy": "Урны сатып ал",
+      "lbl-learnMore": "Күбрәк белегез",
+      "lbl-htmlContent": "Яхшы эчтәлек",
+      "lbl-interactionText": "Үзара аралашу тексты",
+      "lbl-interactionType": "Үзара аралашу тибы"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Материал",
+      "error-materialID": "Материалны хаталар табу",
+      "placeholder-materialID": "Материал сайлагыз",
+      "lbl-patternTarget": "Үрнәкләр матчы",
+      "lbl-pattern": "Үрнәк",
+      "lbl-isRegex": "Регекс"
+    },
+    "interaction": {
+      "type": "Үзара аралашу тибы",
+      "text": "Үзара аралашу тексты",
+      "distance": "Үзара бәйләнеш арасы",
+      "theme": "Үзара аралашу темасы",
+      "name": "Үзара бәйләнешләрнең исеме",
+      "description": "Үзара бәйләнешләрнең тасвирламасы",
+      "images": "Үзара бәйләнеш сурәтләре",
+      "videos": "Үзара аралашу видеолары",
+      "urls": "Үзара бәйләнешләр",
+      "models": "Үзара аралашу модельләре"
+    },
+    "group": {
+      "name": "Төркем",
+      "description": "Бер төркем берничә объект бергә күчереп яки кабатлап була.\nИерархиядәге әйберләрне Төркемгә ыргытыгыз һәм ташлагыз."
+    },
+    "hemisphere": {
+      "name": "Ярымшар яктылыгы",
+      "description": "Күренешне турыдан-туры каплый торган яктылык.",
+      "lbl-skyColor": "Күк төсләре",
+      "lbl-groundColor": "Җир төсе",
+      "lbl-intensity": "Интенсивлык"
+    },
+    "image": {
+      "name": "Образ",
+      "description": "Динамик рәвештә образны йөкли.",
+      "lbl-imgURL": "Образның уры",
+      "lbl-transparency": "Гапсилек режимы",
+      "lbl-alphaCutoff": "Альфа-Кутоф",
+      "lbl-projection": "Проекция",
+      "lbl-side": "Сызык",
+      "info-controls": "Медиалар белән идарә итүнең гаепсезлеген тыяр өчен.",
+      "info-transparency": "Гакышлылыкны ничек кулланырга:",
+      "info-opaque": "'opaque' = мөгаенлек юк",
+      "info-blend": "\"Ыгы- зыгы\" = альфа-канал сурәтләрен куллану",
+      "info-mask": "\"Битлек\" = Акцентны (күбрәк башкаручы) өчен билгеле кисү кыйммәтен кулланыгыз",
+      "info-alphaCutoff": "Альфа кыйммәтләре түбән пикселләр ачык булачак",
+      "error-url": "Юкка чыдамлы URL"
+    },
+    "name": {
+      "lbl-name": "Исем"
+    },
+    "partileEmitter": {
+      "description": "Кисәкчәләр булдыру өчен кисәкчәләр эритрүче.",
+      "lbl-particleCount": "Кисәкчәләр санау",
+      "lbl-image": "Образ",
+      "lbl-ageRandomness": "Яшь очраклы рәвештә",
+      "lbl-lifetime": "Гомер",
+      "lbl-lifetimeRandomness": "Гомерлек очраклы рәвештә",
+      "lbl-sizeCurve": "Зурлык кәкре",
+      "lbl-startPSize": "Кисәкчәләрнең зурлыгы",
+      "lbl-endPSize": "Ахыр кисәкчәләрнең зурлыгы",
+      "lbl-sizeRandomness": "Зурлык очраклылыгы",
+      "lbl-colorCurve": "Төсле кәкре",
+      "lbl-startColor": "Төсләрегезне башлагыз",
+      "lbl-startOpacity": "Оаклыкның башы",
+      "lbl-middleColor": "Урта төс",
+      "lbl-middleOpacity": "Урта оаклык",
+      "lbl-endColor": "Ахыр төс",
+      "lbl-endOpacity": "Ахыр очлык",
+      "lbl-velocityCurve": "Тизлек кәкресе",
+      "lbl-startVelocity": "Тизлекне башларга",
+      "lbl-endVelocity": "Ахыр тизлек",
+      "lbl-angularVelocity": "Почмаклы тизлек",
+      "info-ageRandomness": "Кисәкчәләр чәчелгәндә вариация күләме.",
+      "info-lifetime": "Кисәкчәнең иң зур яше, ул кабатланганчы.",
+      "info-lifetimeRandomness": "Кисәкчәләр гомерләре арасындагы вариация күләме.",
+      "info-sizeRandomness": "Кисәкчәләрнең башлангыч зурлыклары арасындагы вариация күләме.",
+      "error-url": "URL - дән хата"
+    },
+    "clouds": {
+      "name": "Болыт",
+      "description": "Сприт болыт күләменә нигезләнгән.",
+      "lbl-image": "Спирит образы",
+      "lbl-wroldScale": "Бөтендөнья масштабы",
+      "lbl-dimensions": "Үлчәмнәр",
+      "lbl-noiseZoom": "Кычкырагы",
+      "lbl-noiseOffset": "Тавыш офсет",
+      "lbl-spriteScale": "Сприт масштабы",
+      "lbl-fogColor": "Томан төсе",
+      "lbl-fogRange": "Томан кыры",
+      "error-url": "URL - дән хата"
+    },
+    "ocean": {
+      "name": "Океан",
+      "description": "Дулкыннар һәм күмү белән океан өслеге",
+      "lbl-normalMap": "Гадәти карта",
+      "lbl-distortionMap": "Бозылу картасы",
+      "lbl-envMap": "Әйләнә-тирә мохит картасы",
+      "lbl-color": "Төс",
+      "lbl-shallowWaterColor": "Су төсе",
+      "lbl-shallowToDeepDistance": "Тирән ераклыкка кадәр тәвәккәллек",
+      "lbl-opacityFadeDistance": "Ераклык",
+      "lbl-opacityRange": "Оаклык диапазоны",
+      "lbl-shininess": "Синьек",
+      "lbl-reflectivity": "Чагыштыргысызлык",
+      "lbl-foamColor": "Фом төсе",
+      "lbl-foamSpeed": "Фом тиз",
+      "lbl-foamTiling": "Фоам-Тийинг",
+      "lbl-bigWaveTiling": "Зур дулкын тилинг",
+      "lbl-bigWaveSpeed": "Зур дулкын тизлеге",
+      "lbl-bigWaveHeight": "Зур дулкын биеклеге",
+      "lbl-waveSpeed": "Дулкын тизлеге",
+      "lbl-waveScale": "Дулкын масштабы",
+      "lbl-waveTiling": "Дулкын тилинг",
+      "lbl-waveDistortionSpeed": "Дулкынның бозылуы тизлеге",
+      "lbl-waveDistortionTiling": "Дулкын бозылу тиринг",
+      "error-url": "URL - дән хата"
+    },
+    "water": {
+      "name": "Су",
+      "description": "Кечкенә су өслеге"
+    },
+    "interior": {
+      "name": "Эчке эшләр",
+      "description": "Эчке мохитне эмуляцияле чыпчыгы белән текстурасы булган өслек",
+      "lbl-cubeMap": "Куб карта текстурасы",
+      "lbl-tiling": "Тилинг күләме",
+      "lbl-size": "Өслек зурлыгы",
+      "error-url": "URL - дән хата"
+    },
+    "pointLight": {
+      "description": "Бер ноктадан барлык юнәлештә дә яктылык китерә.",
+      "lbl-color": "Төс",
+      "lbl-intensity": "Интенсивлык",
+      "lbl-range": "Диапазон",
+      "lbl-decay": "Таркалу"
+    },
+    "scene": {
+      "name": "Сәхнә",
+      "description": "Күренешнең тамыр объекты.",
+      "lbl-bgcolor": "Фон төсе",
+      "lbl-fogType": "Томан тибы",
+      "lbl-fogColor": "Томан төсе",
+      "lbl-forNearDistance": "Ерак аралар янында томан",
+      "lbl-fogFarDistance": "Томан ерак ара",
+      "lbl-fogDensity": "Томан тыгызлыгы",
+      "lbl-audioSettings": "Позиция аудиосын куллану",
+      "lbl-avatarDistanceModel": "Аватар дистанциясе моделе",
+      "lbl-avatarRolloffFactor": "Аватар Роллофф факторы",
+      "lbl-avatarRefDistance": "Аватар реф дистанциясе",
+      "lbl-avatarMaxDistance": "Аватар Макс ераклык",
+      "lbl-mediaVolume": "Медиа томы",
+      "lbl-mediaDistanceModel": "Медиа дистантлар моделе",
+      "lbl-mediaRolloffFactor": "Медиа Роллофф факторы",
+      "lbl-mediaRefDistance": "Медиа Реф дистанциясе",
+      "lbl-mediaMaxDistance": "Медиа Макс ераклык",
+      "lbl-mediaConeInnerAngle": "Медиа - конус эчке почмак",
+      "lbl-mediaConeOuterAngle": "Медианың тышкы пычрак почмагы",
+      "lbl-mediaConeOuterGain": "Медианың тышкы чыдамлылыгы",
+      "info-avatarDistanceModel": "Алгоритим аудио роллоуны санап чыгару өчен кулланган.",
+      "info-avatarRolloffFactor": "Чыганак тыңлаучыдан читкә киткәндә томның никадәр тиз киметелгәнен сурәтләүче ике кыйммәт. 0 - 1",
+      "info-avatarRolloffFactorInifinity": "Чыганак тыңлаучыдан читкә киткәндә томның никадәр тиз киметелгәнен сурәтләүче ике кыйммәт. 0 — Чыдамлылык",
+      "info-avatarRefDistance": "Аудио чыганак тыңлаучыдан алга таба хәрәкәт иткәнгә томны киметү өчен сылтама аралыгын күрсәтүче ике кыйммәт.",
+      "info-avatarMaxDistance": "Аудио чыганак белән тыңлаучы арасындагы максималь араны күрсәтүче ике кыйммәт, аннан соң том тагын да кимелми.",
+      "info-mediaDistanceModel": "Алгоритим аудио роллоуны санап чыгару өчен кулланган.",
+      "info-mediaRolloffFactor": "Чыганак тыңлаучыдан читкә киткәндә томның никадәр тиз киметелгәнен сурәтләүче ике кыйммәт. 0 - 1",
+      "info-mediaRolloffFactorInfinity": "Чыганак тыңлаучыдан читкә киткәндә томның никадәр тиз киметелгәнен сурәтләүче ике кыйммәт. 0 — Чыдамлылык",
+      "info-mediaRefDistance": "Аудио чыганак тыңлаучыдан алга таба хәрәкәт иткәнгә томны киметү өчен сылтама аралыгын күрсәтүче ике кыйммәт.",
+      "info-mediaMaxDistance": "Аудио чыганак белән тыңлаучы арасындагы максималь араны күрсәтүче ике кыйммәт, аннан соң том тагын да кимелми.",
+      "info-mediaConeInnerAngle": "Почмакны сурәтләгән икеләтә кыйммәт, дәрәҗәләре, эчендә конус күләме кимемәячәк.",
+      "info-mediaConeOuterAngle": "Почмакны сурәтләгән икеләтә кыйммәт, тышкы конус, аның тышында том даими кыйммәткә киметеләчәк, конутерГаин атрибуты белән билгеләнгән.",
+      "info-mediaConeOuterGain": "ConeOuterAngle атрибуты белән билгеләнгән конустан читтә томны киметү күләмен сурәтләгән икеләтә кыйммәт. Аның туры килгән кыйммәте 0, мәгънәсе бернинди тавыш ишетелми дигәнне аңлата.",
+      "lbl-simpleMaterials": "Гади материалларны кулланыгыз",
+      "lbl-lods": "ЛОД",
+      "info-lods": "Җентеклелекнең нинди дәрәҗәсе үзгәрә торган араларны куя.",
+      "info-simpleMaterials": "Барлык кыйммәтле материалларны гадиләргә тәрҗемә итү урынына йөгерүне алып китәргә омтыла.",
+      "lbl-rendererSettings": "Өстән торгызыла торган тәрҗемәченең көймәләре",
+      "lbl-csm": "Каскадинг күләгә карталары",
+      "info-csm": "Күләгә карталарын каскадлауга мөмкинлек бирә.",
+      "lbl-toneMapping": "Тон кареталы",
+      "info-toneMapping": "Сәхнә тәрҗемәсендә тонлы рәсемне булдырыр өчен мөмкинлек бирә. Пост эшкәртү көчәгәндә бернинди эффект юк.",
+      "lbl-toneMappingExposure": "Тони-тонлы үзгәрүле экспозиция",
+      "info-toneMappingExposure": "Сәхнә тәрҗемәсендә тонлы рәсемнең экспозициясе күренә. Пост эшкәртү көчәгәндә бернинди эффект юк.",
+      "lbl-shadowMapType": "Күләгәле карта тибы",
+      "info-shadowMapType": "Күләгәле карта",
+      "error-url": "URL - дән хата"
+    },
+    "sceneCamera": {
+      "name": "Күренешне алдан карау камерасы",
+      "description": "Камера сезнең күренешегез өчен баш бармагын һәм алдан күрсәтү камерасының башлангыч урынын булдырыр өчен кулланылган.",
+      "lbl-setFromViewPort": "Күренештән сакланыгыз"
+    },
+    "skybox": {
+      "name": "Күк тартмасы",
+      "description": "",
+      "lbl-timeOfDay": "Көннең вакыты",
+      "lbl-color": "Төс",
+      "lbl-latitude": "Кәлмә",
+      "lbl-luminance": "Люминанс",
+      "lbl-scattering": "Чәчә торган сумма",
+      "lbl-scatteringDistance": "Тарату арасы",
+      "lbl-horizonStart": "Офык башлануы",
+      "lbl-horizonEnd": "Офык ахыры",
+      "lbl-texture": "Текстур",
+      "lbl-skyType": "Күк тибы",
+      "error-url": "URL - дән хата"
+    },
+    "spawnPoint": {
+      "name": "Спаун-Пойнт",
+      "description": "Урыныгызга кергәндә кешеләр нинди урында күренер.\nViewport-та илагы аватарның актуаль зурлыгын күрсәтә."
+    },
+    "spotLight": {
+      "description": "Ул яктылык – һидәят нуры яктылыгы өстенә яктылыктыр.",
+      "lbl-color": "Төс",
+      "lbl-intensity": "Интенсивлык",
+      "lbl-penumbra": "Пенумбра",
+      "lbl-angle": "Почмак",
+      "lbl-range": "Диапазон",
+      "lbl-decay": "Таркалу"
+    },
+    "transform": {
+      "title": "Трансформа",
+      "lbl-postition": "Позиция",
+      "lbl-rotation": "Әйләнү",
+      "lbl-scale": "Масштаб"
+    },
+    "triggereVolume": {
+      "description": "Максатлы объектка милекне кертегез һәм китәргә.",
+      "lbl-target": "Объект",
+      "lbl-onenter": "Керуегез",
+      "lbl-onexit": "Чыгуда",
+      "lbl-showHelper": "Ярдәмче Меш",
+      "ph-errorNode": "Хатасыз төймә.",
+      "ph-selectNode": "Төенне сайлагыз..."
+    },
+    "video": {
+      "name": "Видео",
+      "description": "Динамик рәвештә видео йөкли.",
+      "lbl-video": "Видео",
+      "lbl-projection": "Проекция",
+      "lbl-islivestream": "Тере агым",
+      "lbl-interactable": "Үзара аралашып була",
+      "lbl-id": "Элементның идомасы",
+      "lbl-play": "Пьеса",
+      "lbl-pause": "Пауза",
+      "error-url": "URL - дән хата"
+    },
+    "volumetric": {
+      "name": "Томприк",
+      "description": "Динамик рәвештә томлы видеоны йөкли.",
+      "uvolPaths": "UVOL юллар",
+      "playmode": "Уен режимы",
+      "playtitle": "Пьеса",
+      "pausetitle": "Пауза"
+    },
+    "spline": {
+      "description": "Динамик рәвештә кәкреләрне ясыйлар һәм тәртипкә китерәләр.",
+      "lbl-addNode": "Кәкрегә төен кушу."
+    },
+    "systemnode": {
+      "description": "Сценарийны бертегез.",
+      "lbl-filePath": "Урлык",
+      "lbl-systemUpdateType": "Инъекция ноктасы",
+      "lbl-enableClient": "Клиент",
+      "lbl-enableServer": "Сервер",
+      "lbl-args": "Арг",
+      "error-url": "Изге Язмаларны урлаудан тыелу"
+    },
+    "portal": {
+      "lbl-portal": "Бәйләнгән портал",
+      "lbl-redirect": "Битне башкарыгыз",
+      "description": "Телепорт уенчыларының урынына Портат",
+      "lbl-locationName": "Урын",
+      "lbl-modelUrl": "Үрнәк URL",
+      "lbl-displayText": "Текстны күрсәтегез",
+      "lbl-cubemapBake": "Кубекам бакы",
+      "lbl-spawnPosition": "Кәнган урыны",
+      "lbl-spawnRotation": "Кәнганның әйләнүе",
+      "lbl-triggerPosition": "Кыйналлык урыны",
+      "lbl-triggerRotation": "Ботаклар",
+      "lbl-triggerScale": "Кысыу масштабы"
+    },
+    "postprocessing": {
+      "name": "Пост эшкәртү",
+      "description": "Сезнең күренешкә почта эшкәртү эффектларын куллану өчен."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Яңа проект",
+      "backLink": "Проектларга кире кайтабыз",
+      "featured": "Сайланган",
+      "all": "Барысы да",
+      "newProject": "Яңа буш проект",
+      "ph-search": "Эзләү күренешләре..."
+    },
+    "grid": {
+      "loading": "Йөкләү..."
+    },
+    "page": {
+      "header": "Рәхим итегез",
+      "headerMsg": "Монда яңа булсаң, уку рәтенә барырга тәкъдим итәбез. Югыйсә, уңга атлагыз һәм проектны тырнактан яки бер шаблийдан ясыйсыз.",
+      "lbl-startTutorial": "Кереш сүзлек",
+      "projects": "Проектлар",
+      "lbl-newProject": "Яңа проект"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Йөкләү...",
+      "placeObject": "Урын объекты",
+      "placeObjectAtOrigin": "Килеп чыгышы белән объект",
+      "copyURL": "URL күчермәсе",
+      "openInNewTab": "Яңа изге чатырда URL",
+      "deleteAsset": "Активны юк итегез"
+    },
+    "filebrowser": {
+      "addNewFolder": "Яңа папка өстәгез",
+      "cutAsset": "Кисәкләр",
+      "copyAsset": "Күчермә",
+      "pasteAsset": "Пасте",
+      "renameAsset": "Ренамент",
+      "viewAssetProperties": "Үзлекләреңне исәпкә алу"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Ренамент",
+    "lbl-duplicate": "Кабатла",
+    "lbl-group": "Төркем",
+    "lbl-delete": "Юк",
+    "lbl-expandAll": "Барыгызны да киңәйтегез",
+    "lbl-collapseAll": "Барысы да таркала",
+    "isseus": "Мәсьәләләр:"
+  },
+  "dnd": {
+    "nodes": "{{count}} Төймәләре сайланган",
+    "models": "{{count}} Үрнәкләр",
+    "images": "{{count}} Рәсемнәр",
+    "videos": "{{count}} Видеороликлар",
+    "audio": "{{count}} Сайланган аудио чыганаклар"
+  },
+  "dialog": {
+    "title": "Редактор",
+    "lbl-confirm": "Яхшы",
+    "lbl-cancel": "Баш тарту",
+    "exportProject": {
+      "title": "Экспорт проекты",
+      "lbl-confirm": "Экспорт проекты",
+      "lbl-combineMesh": "Мешес",
+      "lbl-removeUnused": "Кулланылмаган әйберләрне юк итегез"
+    },
+    "performance": {
+      "title": "Чыгышны тикшерү",
+      "lbl-confirm": "Сәхнәне бастырыгыз",
+      "learnMore": "Күбрәк өйрәтү",
+      "lbl-polycount": "Полигон графы",
+      "lbl-material": "Материаллар",
+      "lbl-texture": "Текстур",
+      "lbl-lights": "Утлар",
+      "lbl-fileSize": "Файл күләме",
+      "info-polycount": "Сәхнәгезне мобиль җайланмалар өчен 50 меңнән артык өчпочмактан артык кулланырга тәкъдим итәбез.",
+      "info-material": "Мобиль җайланмаларга ыргытуны киметү өчен үз сәхнәгездә 25 уникаль материалны кулланырга тәкъдим итәбез.",
+      "info-texture": "Сез текстурларыгызга мобиль җайланмалар өчен 256МБ видео RAM кулланырга тәкъдим итәбез. Шулай ук 2048 x 2048-нче елларда зуррак текстурлар куллануга да киңәш итәбез.",
+      "info-lights": "Динамик утлар мобиль аппаратларда кулланмаса да, сәхнәгездә 3 уттан артык ут кулланырга тәкъдим итәбез (тирә-яктагы һәм ярымшар яктырткычларын юк итмичә).",
+      "info-fileSize": "Аз тыгызлык бәйләнешләре өчен 16М-тан артык булмаган соңгы файл күләмен тәкъдим итәбез. Файл күләмен киметү күренешне йөкләргә кирәк вакытны киметер.",
+      "txt-polycount": "{{count}} өчпочмаклар",
+      "txt-material": "{{count}} материаллар",
+      "txt-ram": "~{{count}} Видео РАМ",
+      "txt-texture": "{{count}} Зур текстлар",
+      "txt-lights": "{{count}} утлары"
+    },
+    "progress": {
+      "title": "Йөкләү...",
+      "msg": "Йөкләү...",
+      "lbl-cancel": "Баш тарту"
+    },
+    "publish": {
+      "title": "Сәхнәне бастырыгыз",
+      "lbl-confirm": "Коткарыгыз һәм бастырыгыз",
+      "lbl-name": "Күренешнең исеме",
+      "info-name": "Исем 4 - 64 символ арасында булырга тиеш һәм басым ясап булмый"
+    },
+    "published": {
+      "title": "Бастырылган күренеш",
+      "header": "Сезнең күренешегез чыкты.",
+      "lbl-view": "Үзегезнең күренешеңне карап чыгып карагыз"
+    },
+    "saveNewProject": {
+      "title": "Ярдәм",
+      "lbl-name": "Проектның исеме",
+      "info-name": "Исем 4 - 64 символ арасында булырга тиеш һәм басым ясап булмый",
+      "lbl-confirm": "Проектны саклагыз"
+    },
+    "support": {
+      "title": "Ярдәм",
+      "header": "Проблема турында хәбәр итәргә кирәкме?",
+      "msg": "<1>Сез GitHub issue</1> яки электрон почта аша безгә ярдәм итәр өчен җибәрергә мөмкин <3>{{mail}}</3>",
+      "discord": "Без шулай ук <1>Безне Шулай ук Эзәрлеклеләргә табып</1> була"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Сурәтләр",
+      "search": "Бинг"
+    },
+    "bingVideo": {
+      "name": "Видеороликлар",
+      "search": "Бинг"
+    },
+    "element": {
+      "name": "Элементлар"
+    },
+    "myAssets": {
+      "name": "Минем активларым"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Google -ны эзләү"
+    },
+    "tenor": {
+      "name": "Тенор ГИФС",
+      "search": "Тенор эзләү",
+      "ph-search": "GIFs эзләү..."
+    },
+    "sketchfab": {
+      "name": "Эскизфаб",
+      "search": "Эскизфаб эзләү"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Йөкле актив"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Эзләп сурәтләр..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Видеоларны эзләү..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Эзләү активлары..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Эзләү модельләре..."
+    },
+    "useUpload": {
+      "multipleFileError": "Кертү берничә файл кабул итми.",
+      "mineTypeError": "«{{name}}» түбәндәге мими төрләренә яки озайтуларына туры килми: {{types}}",
+      "progressTitle": "Файлларны йөкләү",
+      "progressMsg": "Файлларны йөкләү {{uploaded}} {{total}}: {{percentage}}%",
+      "uploadError": "Хатаны йөкләү",
+      "uploadErrorMsg": "Хаталар йөкләү файлы: {{message}}",
+      "uploadErrorDefaultMsg": "Ул кәферләрнең һәммәсе дә ґәзаб"
+    }
+  },
+  "openLink": {
+    "description": "Чылтаныгызга юл күрсәтер өчен Ачыкны басыгыз.",
+    "lbl-open": "Ачык"
+  },
+  "interactableModel": {
+    "lbl-buy": "Сатып алу",
+    "lbl-learnMore": "Күбрәк өйрәтү"
+  },
+  "corsProxyButton": {
+    "tooltip": "Use Cors Proxy Server"
+  }
+}

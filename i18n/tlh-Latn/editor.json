@@ -1,0 +1,718 @@
+{
+  "loading": "Qapqu'bogh",
+  "loadingMsg": "rut ngej porghDu'Daj.",
+  "loadingError": "Heghpu' 'e' qaSmoHbogh qamdu'lI'",
+  "loadingErrorMsg": "pa'Daq pum wamwI'ghom tu'lu'.",
+  "selectSceneMsg": "yIQongtaHvIS ghonglu'chugh",
+  "error": "Qagh",
+  "errorMsg": "maHvaD suvwI'pu' mu' 'oH suvwI'pu'.",
+  "generateScreenshot": "ghojmoHwI'",
+  "generateScreenshotMsg": "ghurqu'bogh 'op tlhabnISlaw'taHvIS.",
+  "newScene": "chegh",
+  "saving": "lIHwI'",
+  "savingMsg": "qatlhob.",
+  "savingError": "qevpob",
+  "savingErrorMsg": "wamwI'ghom tu'lu'.",
+  "savingSceneErrorMsg": "be'nI'puq, maw'taHvIS be'nI'wI'. vaj rapchoH SanwIj.",
+  "duplicating": "Hegh yuD",
+  "duplicatingMsg": "Heghpu'wI' yIHoH.",
+  "exporting": "HoSDo'",
+  "exportingMsg": "choraQ joH.\"",
+  "exportingError": "rInpa' qorDu'ghom",
+  "exportingErrorMsg": "wamwI'ghom tu'lu'.",
+  "importLegacy": "ghe''or",
+  "importLegacyMsg": "QI'yaH! ngoQvam DaghajtaHvIS bIqIpchu'! be'nI''a'lI'vaD bIlegh'a'?",
+  "publishingError": "rInSay'",
+  "publishingErrorMsg": "maHvaD suvwI'pu' mu' 'oH suvwI'pu'.",
+  "publishingScene": "bImuSHa'chugh",
+  "publishingSceneMsg": "\"yIpoSmoH.",
+  "uploadingThumbnailMsg": "DaH 'e' yImev.",
+  "uploadingSceneMsg": "j {{percentage}}%atlh",
+  "envMapError": "{{files}}el'nIS",
+  "lbl-return": "nobHa'",
+  "menubar": {
+    "newScene": "chu'",
+    "saveScene": "Soch",
+    "saveAs": "HIja'",
+    "importAsset": "jIpIv",
+    "exportGLB": "batlh malja' wIqawbej.",
+    "importScene": "jIv",
+    "exportScene": "jatlh",
+    "quit": "bup"
+  },
+  "errors": {
+    "fileTypeNotSupported": "{{name}}\"ghobe'\" janglaH ghu'vam. va, DaH jIbuSQo', 'ach DaH jIbuSQo'.\"",
+    "addObject": "'ej jIHvaD ralqu' ram.",
+    "removeObject": "DaH vulqangbe'ba'. pagh polHa'ghach qaStaHvIS poH nI'.",
+    "noParent": "{{name}}{{node}} Ha'DIbaH vuDmeyvo' Haj leghqa'taHvIS latlh Dotlh'e'.",
+    "undefinedParent": "qaStaHvIS DIS poH nI' quv,",
+    "notAuthenticated": "Ha'DIbaH Dachu'be'",
+    "fetchingProjectError": "{{error}} 'ej ghew ngaSbogh ghewmey.",
+    "fetchingRouteError": "{{error}} batlh ngeb",
+    "unknownError": "ghopDaj",
+    "resolveURL": "\"{{url}}choraQ je.",
+    "mediaSearchAborted": "HIvqu'",
+    "methodNotImplemented": "mumuSHa' 'e' vIchaw' 'e' vIqaSmoH.",
+    "saveProjectAborted": "qaSpu'",
+    "unsavedChanges": "nItebHa'",
+    "unsavedChangesMsg": "vaj HuHqu' chenmoHlu'ta' ghaH. DujlIj yIchovmoH.",
+    "projectCreationFail": "ngIvmoH {{reason}}",
+    "projectDeletionFail": "'e' vIHarpu'. {{reason}}",
+    "savingProjectFail": "QI'yaH, qorDu'ghotpu'vo' {{reason}}",
+    "sceneTooLarge": "{{size}} ghaHvaD ghItlhpu' ghaH,'laHbe' ghaH. H {{maxSize}}umbaba Ha'DIbaH",
+    "sceneCreationFail": "ghe'naQ {{reason}}",
+    "uploadAborted": "nItebHa'",
+    "uploadFailed": "{{reason}} ghot' ghotpu'",
+    "assetDeletionFail": "batlh qohdI' ropwI' 'e' vIHar. {{reason}}",
+    "projectAssetDeletionFail": "'e' vISopchu'. {{reason}}",
+    "networkError": "batlh {{status}}tlhIb {{text}}",
+    "unknownStatus": "Sor Hap pe'be'lu'pu'bogh darurnIS",
+    "CORS": "qardu'lI' jIH",
+    "urlFetchError": "Humbab{{url}}a"
+  },
+  "viewport": {
+    "title": "charghwI'",
+    "command": {
+      "movecamera": "moH",
+      "flyFast": "molwI'",
+      "orbit": "Orbit / Select",
+      "pan": "mI",
+      "fly": "puv",
+      "focus": "SoD",
+      "rotateLeft": "chongun",
+      "rotateRight": "jir",
+      "cancelPlacement": "tlhaw'DIyuS",
+      "placeDuplicate": "qelI'",
+      "cancelGrab": "qoghDaj",
+      "grab": "ghIl",
+      "deselectAll": "Qeb"
+    },
+    "state": {
+      "header": "Dotlh",
+      "memory": "jIrgh",
+      "geometries": "ghIlghameS",
+      "textures": "wej",
+      "render": "'Im",
+      "FPS": "ghoQ",
+      "frameTime": "poH",
+      "calls": "qarDaS",
+      "triangles": "qeylIS ramvam.",
+      "points": "vutwI'",
+      "lines": "tlhegh"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "pIpyuS",
+    "lbl-published": "polonyuS",
+    "command": {
+      "translate": "mugh",
+      "rotate": "jIr",
+      "scale": "ghij",
+      "toggleSpace": "'utanap",
+      "togglePivot": "'eyqu'",
+      "toggleSnapMode": "HInat",
+      "toggleGrid": "ghIlghameS verengan ghIlghameS",
+      "increaseGridSize": "ghojwI'",
+      "descreaseGridSize": "ghojwI'",
+      "stopPreview": "bIjatlh 'e' yImev",
+      "playPreview": "bijatlh"
+    }
+  },
+  "properties": {
+    "title": "chep",
+    "lbl-visible": "DIS",
+    "lbl-preventBake": "boqtu'choH",
+    "lbl-persist": "QI'yaH",
+    "multipleNodeSelected": "DublaHbe'bogh ghu'vam.",
+    "noNodeSelected": "leghlaHbe'chugh",
+    "ambientLight": {
+      "name": "jen",
+      "description": "Dujmeymaj potlh law' yIchaw' 'e' vIchaw'.",
+      "lbl-intensity": "yay'qu'",
+      "lbl-color": "baqghol"
+    },
+    "envmap": {
+      "name": "maQap",
+      "description": "jatyIn"
+    },
+    "asset": {
+      "name": "'oSrIq",
+      "description": "yabdaj ngechvetlh logh leghDI', mobwI',",
+      "lbl-options": "'ovelya",
+      "lbl-assetPath": "'oSrIq",
+      "lbl-assetName": "veSDuj",
+      "lbl-exportOptions": "'oSrIq",
+      "lbl-export": "povpu'",
+      "lbl-load": "lojmIt",
+      "lbl-unload": "Ha'!",
+      "lbl-reload": "polonyuS"
+    },
+    "audio": {
+      "name": "qaStaHvIS",
+      "description": "qoghDu'wIjDaq QottaHvIS Qeylu'.",
+      "lbl-audiourl": "'uruq",
+      "lbl-controls": "lI'",
+      "info-controls": "DaHjaj ra'taHvIS, chEmvaH'e'.",
+      "lbl-autoplay": "QI'yaH",
+      "info-autoplay": "qaStaHvIS ramvam, jIQubchugh, vaj pongwIjDaq QIt wa'DIch.",
+      "lbl-synchronize": "qeylIS",
+      "info-synchronize": "'ach jIHvaD loDnal vI'oghlaHbe'chugh, vaj vI'oghlaHbe'chugh.",
+      "lbl-loop": "'eS",
+      "info-loop": "chaq be'nal vISuvchugh, vaj jIvangnIS.",
+      "lbl-audioType": "DaHjaj",
+      "lbl-distanceModel": "raq",
+      "info-distanceModel": "tamtaHvIS toy'wI'pu'.",
+      "lbl-rolloffFactor": "ratlhbe'chugh",
+      "info-rolloffFactor": "jang qaDangan \"luq. wa'maH",
+      "info-rfInfinity": "jang qaDangan \"luq. daqIl",
+      "lbl-refDistance": "raq",
+      "info-refDistance": "'ach pay' QuchlaHbe' qechmey Dotlh quv puS.",
+      "lbl-maxDistance": "MarSe'luS",
+      "info-maxDistance": "ramchoH yapbe'mo' neH.",
+      "lbl-coneInnerAngle": "tangqa' targh",
+      "info-coneInnerAngle": "QupwI'pu'vaD HeS lughajmoHlaHbe' mInDu'wIj.",
+      "lbl-coneOuterAngle": "'atlhej",
+      "info-coneOuterAngle": "naghmey beQ'e' Delbogh naghmey qengtaHbogh mIw vISoqlaHbe'.",
+      "lbl-coreOuterGain": "ghe''or",
+      "info-coreOuterGain": "tangqa' targhmey luqengbe'taH 'arqon. 'ach qaStaHvIS ramvam, 'ach rolDaj ghu' neH tu'lu'chugh.",
+      "lbl-volume": "muq",
+      "lbl-play": "chu'",
+      "lbl-pause": "yev",
+      "error-url": "ra'lI'"
+    },
+    "boxCollider": {
+      "description": "'ach Qu' DapoQmoHlaHbe'chugh, vaj ngabtaHvIS.\nmay'rupchugh, vaj mu'meyvam vIQoy.",
+      "lbl-isTrigger": "chu'wI'"
+    },
+    "camera": {
+      "name": "mIllogh qonwI'",
+      "description": "tlhoS qengchu' lo'taHvIS meq.",
+      "lbl-camera-raycast": "naQ",
+      "lbl-camera-raycast-toggle": "DaH 'entepray'",
+      "lbl-camera-raycast-frequency": "chaDvay'",
+      "lbl-camera-raycast-count": "bIta'rup",
+      "lbl-camera-raycast-length": "na'ran"
+    },
+    "directionalLight": {
+      "name": "tlhogh",
+      "description": "ngoQ naghmey beQ 'ach chaq 'ej wa' tlhoS neH.",
+      "lbl-color": "baqghol",
+      "lbl-intensity": "yay'qu'",
+      "lbl-cameraFar": "SIrgh",
+      "lbl-cameraNear": "pong",
+      "lbl-cameraTop": "yesDaj",
+      "lbl-cameraBottom": "boch",
+      "lbl-cameraLeft": "niHpu'bogh de'",
+      "lbl-cameraRight": "nIHwI'",
+      "lbl-useInCSM": "tuq",
+      "lbl-castShadow": "ghom'a'",
+      "lbl-disableForCSM": "QaQjaj QeylIS qa'",
+      "lbl-shadowmapResolution": "reynalDo",
+      "lbl-shadowBias": "SaS",
+      "lbl-shadowRadius": "DuraS paw",
+      "lbl-showCameraHelper": "SevwI'"
+    },
+    "groundPlane": {
+      "name": "lIm",
+      "description": "ghomHa'choHlu'.",
+      "lbl-color": "baqghol",
+      "lbl-receiveShadow": "DawoqDI'",
+      "lbl-generateNavmesh": "ghIlghameS 'uch"
+    },
+    "link": {
+      "description": "tlhIngan maHay'!",
+      "lbl-url": "CHUH"
+    },
+    "map": {
+      "description": "qIvDaj rur mInDu'Daj."
+    },
+    "model": {
+      "description": "joHwI', yIntagh SoHvaD jIja'neS.",
+      "lbl-usingGPUInstancingFlag": "ngoQlu'",
+      "lbl-modelurl": "gha'tlhegh",
+      "lbl-envmapUrl": "maSqeq",
+      "lbl-textureOverride": "ghuy'cha'!",
+      "lbl-materialOverride": "'ovelya",
+      "error-url": "ra'lI'",
+      "lbl-loopAnimation": "QeH",
+      "lbl-isAvatar": "'anyar",
+      "lbl-isGPUInstancing": "ngoQwI'",
+      "lbl-isDynamic": "jaghwI'",
+      "lbl-castShadow": "ghom'a'",
+      "lbl-receiveShadow": "DawoqDI'",
+      "lbl-interactable": "SeS",
+      "lbl-matrixAutoUpdate": "veqlargh",
+      "lbl-name": "pong",
+      "lbl-url": "gha'tlhegh",
+      "lbl-buy": "chuq",
+      "lbl-learnMore": "QeylIS",
+      "lbl-htmlContent": "ra'ghom",
+      "lbl-interactionText": "QI'yaH",
+      "lbl-interactionType": "peghHom"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "matlh",
+      "error-materialID": "ngemwI'",
+      "placeholder-materialID": "may'",
+      "lbl-patternTarget": "qorDu'ghom",
+      "lbl-pattern": "qoch",
+      "lbl-isRegex": "yIleS"
+    },
+    "interaction": {
+      "type": "peghHom",
+      "text": "QI'yaH",
+      "distance": "QI'yaH",
+      "theme": "potlh DeghwI'",
+      "name": "ghe'naQ",
+      "description": "qeylIS",
+      "images": "jI'oj",
+      "videos": "ghojmoHwI'pu'",
+      "urls": "'urmangan",
+      "models": "ghobe', petaQ"
+    },
+    "group": {
+      "name": "ghom",
+      "description": "'e' SoplaH 'e' pIHarQo'.\n'ej Hoch Duj Human ghIlghameS 'ej vortIbraS."
+    },
+    "hemisphere": {
+      "name": "tlhIvDaj",
+      "description": "Duj'e' maqbogh ghomHa'moH ghu'vam' 'e' vIQoy.",
+      "lbl-skyColor": "Norgh",
+      "lbl-groundColor": "qo' Hoch",
+      "lbl-intensity": "yay'qu'"
+    },
+    "image": {
+      "name": "qelI'",
+      "description": "QeHqu'.",
+      "lbl-imgURL": "jIqel",
+      "lbl-transparency": "yaSvam",
+      "lbl-alphaCutoff": "qeylIS",
+      "lbl-projection": "yuQ",
+      "lbl-side": "Dop",
+      "info-controls": "DaHjaj ra'taHvIS, chEmvaH'e'.",
+      "info-transparency": "SuH, 'e' vIHarQo'.",
+      "info-opaque": "''bej tevpu''dI'=,",
+      "info-blend": "=ghIchvam rurmo'",
+      "info-mask": "/ = [Humanpu'bogh ghotvam'e' DaQoylaHbe'chugh, vaj pagh, Sagh 'oH muSHa'choHlaHbe' be'nI''a'.",
+      "info-alphaCutoff": "'ach QeqDI' ghu' luja'bogh Qetlh poQDI', tlhoghDI' QeyDI' muSHa'bogh DuHchu' neH.",
+      "error-url": "veb"
+    },
+    "name": {
+      "lbl-name": "pong"
+    },
+    "partileEmitter": {
+      "description": "'ay'mey tIqDaj.",
+      "lbl-particleCount": "qeylIS",
+      "lbl-image": "qelI'",
+      "lbl-ageRandomness": "chenmoH",
+      "lbl-lifetime": "Qovpa'",
+      "lbl-lifetimeRandomness": "qorDu'wI'",
+      "lbl-sizeCurve": "tlhach",
+      "lbl-startPSize": "'ejyo'",
+      "lbl-endPSize": "'entepray'",
+      "lbl-sizeRandomness": "ghel",
+      "lbl-colorCurve": "batlh qonwI'",
+      "lbl-startColor": "ghorqu'ghom",
+      "lbl-startOpacity": "qeng",
+      "lbl-middleColor": "ra'ghom",
+      "lbl-middleOpacity": "joH",
+      "lbl-endColor": "pe'Ij",
+      "lbl-endOpacity": "'enlIl",
+      "lbl-velocityCurve": "tlham",
+      "lbl-startVelocity": "yIqIv",
+      "lbl-endVelocity": "'enlIl",
+      "lbl-angularVelocity": "wa'SanIS",
+      "info-ageRandomness": "muchwI'pu' muchmey Dotlh luleghlaHbe' ghob neH.",
+      "info-lifetime": "'ach qaSPa', Human ngeb law', tlhoS 'ach ngeb neH HuvchoH.",
+      "info-lifetimeRandomness": "SuvlaHbe'bogh suvwI' tIqDaj.",
+      "info-sizeRandomness": "Ha'DIbaHmey tlhaQ tIq.",
+      "error-url": "ra'lI'"
+    },
+    "clouds": {
+      "name": "'eng",
+      "description": "lupwI'pu' ghoS.",
+      "lbl-image": "jIQam",
+      "lbl-wroldScale": "ghe''or",
+      "lbl-dimensions": "quvHa'moH",
+      "lbl-noiseZoom": "tugh 'e' vImaSmoH.",
+      "lbl-noiseOffset": "chun",
+      "lbl-spriteScale": "QeH",
+      "lbl-fogColor": "vutwI'",
+      "lbl-fogRange": "qelI'qam",
+      "error-url": "ra'lI'"
+    },
+    "ocean": {
+      "name": "bIQ'a'",
+      "description": "je' nga'chugh yabwIj, 'ej nuvpu'",
+      "lbl-normalMap": "marlI'",
+      "lbl-distortionMap": "'ay'lI'",
+      "lbl-envMap": "maQap",
+      "lbl-color": "baqghol",
+      "lbl-shallowWaterColor": "qevwI'",
+      "lbl-shallowToDeepDistance": "Qorgh Hegh yIbuS",
+      "lbl-opacityFadeDistance": "SIbI'",
+      "lbl-opacityRange": "'oSrIq",
+      "lbl-shininess": "mupHa'ghach",
+      "lbl-reflectivity": "chuSQo'",
+      "lbl-foamColor": "Bora'chuq",
+      "lbl-foamSpeed": "tlhab",
+      "lbl-foamTiling": "ram",
+      "lbl-bigWaveTiling": "yIntagh",
+      "lbl-bigWaveSpeed": "yIchol",
+      "lbl-bigWaveHeight": "'ach may'",
+      "lbl-waveSpeed": "poS",
+      "lbl-waveScale": "les",
+      "lbl-waveTiling": "yay'",
+      "lbl-waveDistortionSpeed": "nItebHa' ghot yIvuv",
+      "lbl-waveDistortionTiling": "mIw'a'",
+      "error-url": "ra'lI'"
+    },
+    "water": {
+      "name": "bIQ",
+      "description": "pujchoH"
+    },
+    "interior": {
+      "name": "qoD",
+      "description": "qaSpu'DI' poH nIvpu'",
+      "lbl-cubeMap": "Qu'vatlhlaH",
+      "lbl-tiling": "nIS",
+      "lbl-size": "ghor",
+      "error-url": "ra'lI'"
+    },
+    "pointLight": {
+      "description": "'ach qaStaHvIS ramvam, reH ghotvam ngoDlaHbe' ghu'vetlh.",
+      "lbl-color": "baqghol",
+      "lbl-intensity": "yay'qu'",
+      "lbl-range": "raS",
+      "lbl-decay": "ragh"
+    },
+    "scene": {
+      "name": "chu'",
+      "description": "ghIq bIQ'a'",
+      "lbl-bgcolor": "qIvon",
+      "lbl-fogType": "cha'",
+      "lbl-fogColor": "vutwI'",
+      "lbl-forNearDistance": "vutwI'",
+      "lbl-fogFarDistance": "vup",
+      "lbl-fogDensity": "natlh",
+      "lbl-audioSettings": "pov",
+      "lbl-avatarDistanceModel": "Qo'noSDaq ghumbogh Qo'noSngan",
+      "lbl-avatarRolloffFactor": "rav'a' wo'",
+      "lbl-avatarRefDistance": "Qo'noSDaq bIH DIr",
+      "lbl-avatarMaxDistance": "'aDarnay",
+      "lbl-mediaVolume": "majQo'choH",
+      "lbl-mediaDistanceModel": "Serengan Hegh",
+      "lbl-mediaRolloffFactor": "ra'choH",
+      "lbl-mediaRefDistance": "bIHeghvIp",
+      "lbl-mediaMaxDistance": "kawrus ra' loDnI'a'",
+      "lbl-mediaConeInnerAngle": "cha' HIvje'",
+      "lbl-mediaConeOuterAngle": "HIvje'",
+      "lbl-mediaConeOuterGain": "'uQ'a'",
+      "info-avatarDistanceModel": "tamtaHvIS toy'wI'pu'.",
+      "info-avatarRolloffFactor": "jang qaDangan \"luq. wa'maH",
+      "info-avatarRolloffFactorInifinity": "jang qaDangan \"luq. daqIl",
+      "info-avatarRefDistance": "'ach pay' QuchlaHbe' qechmey Dotlh quv puS.",
+      "info-avatarMaxDistance": "ramchoH yapbe'mo' neH.",
+      "info-mediaDistanceModel": "tamtaHvIS toy'wI'pu'.",
+      "info-mediaRolloffFactor": "jang qaDangan \"luq. wa'maH",
+      "info-mediaRolloffFactorInfinity": "jang qaDangan \"luq. daqIl",
+      "info-mediaRefDistance": "'ach pay' QuchlaHbe' qechmey Dotlh quv puS.",
+      "info-mediaMaxDistance": "ramchoH yapbe'mo' neH.",
+      "info-mediaConeInnerAngle": "QupwI'pu'vaD HeS lughajmoHlaHbe' mInDu'wIj.",
+      "info-mediaConeOuterAngle": "naghmey beQ'e' Delbogh naghmey qengtaHbogh mIw vISoqlaHbe'.",
+      "info-mediaConeOuterGain": "tangqa' targhmey luqengbe'taH 'arqon. 'ach qaStaHvIS ramvam, 'ach rolDaj ghu' neH tu'lu'chugh.",
+      "lbl-simpleMaterials": "Qay'rIy",
+      "lbl-lods": "QEYHA'",
+      "info-lods": "tuj boQwI' 'angchu' boQwI' DeghwI'.",
+      "info-simpleMaterials": "tangqa' targh mInDu'wIj.",
+      "lbl-rendererSettings": "tlhaq",
+      "lbl-csm": "Ha'quj",
+      "info-csm": "ghIlghameSvaD jatlh ghIlghameS,",
+      "lbl-toneMapping": "loD",
+      "info-toneMapping": "loDnal bu'meH mIpmey tInqu' vaj DaH ghu' neHchugh, vaj ghob quvHa'chugh.",
+      "lbl-toneMappingExposure": "veSDuj vItlhap.",
+      "info-toneMappingExposure": "qonwI'pu'vaD qonwI'pu'vaD jatlh: vaj DaH ghu' neHchugh, vaj ghob quvHa'chugh.",
+      "lbl-shadowMapType": "qevelI'",
+      "info-shadowMapType": "ngoD yIruch",
+      "error-url": "ra'lI'"
+    },
+    "sceneCamera": {
+      "name": "Heghpu'DI' je tlheghmey",
+      "description": "qaStaHvIS tupchoH yapbej qeq je.",
+      "lbl-setFromViewPort": "wa'tlhIb"
+    },
+    "skybox": {
+      "name": "jatlh",
+      "description": "",
+      "lbl-timeOfDay": "qaStaHvIS pem mInDu'wIj",
+      "lbl-color": "baqghol",
+      "lbl-latitude": "tlhaw'DIyuS",
+      "lbl-luminance": "rIymuS",
+      "lbl-scattering": "QapwI'",
+      "lbl-scatteringDistance": "chuq",
+      "lbl-horizonStart": "Horey'So",
+      "lbl-horizonEnd": "'enqIyDu",
+      "lbl-texture": "wej",
+      "lbl-skyType": "rojwI'",
+      "error-url": "ra'lI'"
+    },
+    "spawnPoint": {
+      "name": "qij 'e' yIVIv",
+      "description": "nuq DaghajmeH meQtaHvIS nuq jatlhmeH qastaHvIS nuq.\nwoj choHwI'maj ngoS QImerogh."
+    },
+    "spotLight": {
+      "description": "'ej ghu'vam vISIQlaHbe'bogh bommey nI''e' 'oghlaHbe'bogh.",
+      "lbl-color": "baqghol",
+      "lbl-intensity": "yay'qu'",
+      "lbl-penumbra": "DaH polonyuS",
+      "lbl-angle": "tajvaj",
+      "lbl-range": "raS",
+      "lbl-decay": "ragh"
+    },
+    "transform": {
+      "title": "yab",
+      "lbl-postition": "polonyuS",
+      "lbl-rotation": "romuluSngan",
+      "lbl-scale": "ghij"
+    },
+    "triggereVolume": {
+      "description": "ghIq yIvbeH je ra'wI' 'ej jachqu' ghoS",
+      "lbl-target": "'ovelya",
+      "lbl-onenter": "pe'el",
+      "lbl-onexit": "wa'leS",
+      "lbl-showHelper": "cha' HIq",
+      "ph-errorNode": "pagh, joH quv.",
+      "ph-selectNode": "pay' 'oH."
+    },
+    "video": {
+      "name": "qoch",
+      "description": "joH",
+      "lbl-video": "qoch",
+      "lbl-projection": "yuQ",
+      "lbl-islivestream": "Hol",
+      "lbl-interactable": "SeS",
+      "lbl-id": "vay' vIghoS",
+      "lbl-play": "chu'",
+      "lbl-pause": "yev",
+      "error-url": "ra'lI'"
+    },
+    "volumetric": {
+      "name": "muq",
+      "description": "joHwI', pongwI' lengqa'",
+      "uvolPaths": "ngoQmey",
+      "playmode": "QIH",
+      "playtitle": "chu'",
+      "pausetitle": "yev"
+    },
+    "spline": {
+      "description": "qeylIS qam 'ong.",
+      "lbl-addNode": "DaH law' vIghaj."
+    },
+    "systemnode": {
+      "description": "bIDoHQo'.\"",
+      "lbl-filePath": "chech",
+      "lbl-systemUpdateType": "ghopchoH",
+      "lbl-enableClient": "tlhaw'DIyuS",
+      "lbl-enableServer": "jabwI'",
+      "lbl-args": "lu', joH",
+      "error-url": "Dotlhdaj leS"
+    },
+    "portal": {
+      "lbl-portal": "Hol",
+      "lbl-redirect": "qeylIS",
+      "description": "ghojmoHwI'pu' che'wI' nuvpu'",
+      "lbl-locationName": "yaS",
+      "lbl-modelUrl": "ghanteb",
+      "lbl-displayText": "taghqIm",
+      "lbl-cubemapBake": "yol",
+      "lbl-spawnPosition": "naDHom",
+      "lbl-spawnRotation": "ghobe'",
+      "lbl-triggerPosition": "pa'QIS",
+      "lbl-triggerRotation": "romuluS HIq",
+      "lbl-triggerScale": "ghojmoH"
+    },
+    "postprocessing": {
+      "name": "layerteS",
+      "description": "bIQ'a' Dapabchugh bIHeghpa'."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "chu'",
+      "backLink": "qeqmey",
+      "featured": "ngeQ",
+      "all": "Hoch",
+      "newProject": "tera' chu'",
+      "ph-search": "D: pe'Ipqang."
+    },
+    "grid": {
+      "loading": "\"'eh."
+    },
+    "page": {
+      "header": "yI'el",
+      "headerMsg": "qaSdI' DapoQchugh, qaSpa' ramjep. pay' jIvumtaHbogh qamchoH porgh latlh je, 'ej pe'vIl 'e' vImev.",
+      "lbl-startTutorial": "ghom",
+      "projects": "Qovpatlh",
+      "lbl-newProject": "chu'"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "\"'eh.",
+      "placeObject": "'e' yIHarQo'",
+      "placeObjectAtOrigin": "'orwI' ghom'a' qordu' jIvHa'bogh",
+      "copyURL": "pUq",
+      "openInNewTab": "mIw'a'",
+      "deleteAsset": "qeylIS"
+    },
+    "filebrowser": {
+      "addNewFolder": "chojem",
+      "cutAsset": "chIp",
+      "copyAsset": "qoS",
+      "pasteAsset": "cha'DIch",
+      "renameAsset": "naDev",
+      "viewAssetProperties": "chep"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "naDev",
+    "lbl-duplicate": "Sach",
+    "lbl-group": "ghom",
+    "lbl-delete": "Dotlh",
+    "lbl-expandAll": "SaD",
+    "lbl-collapseAll": "ghoS",
+    "isseus": "tlhaw'DIyuS"
+  },
+  "dnd": {
+    "nodes": "{{count}}",
+    "models": "layerteS {{count}}",
+    "images": "'ach jIQam {{count}}",
+    "videos": "{{count}}",
+    "audio": "jaS wIvlaHbe'bej, Somraw'wI' {{count}}"
+  },
+  "dialog": {
+    "title": "pa'",
+    "lbl-confirm": "lu'",
+    "lbl-cancel": "qIl",
+    "exportProject": {
+      "title": "qInSaya'",
+      "lbl-confirm": "qInSaya'",
+      "lbl-combineMesh": "vIHarQo'",
+      "lbl-removeUnused": "Qo'noSdaq bangwI'"
+    },
+    "performance": {
+      "title": "QI'yaH",
+      "lbl-confirm": "pe'HIr",
+      "learnMore": "raHtaH",
+      "lbl-polycount": "qoS",
+      "lbl-material": "ma'rIl",
+      "lbl-texture": "wej",
+      "lbl-lights": "tIS",
+      "lbl-fileSize": "romul",
+      "info-polycount": "chotlhejtaHghach HoSghajwIj.",
+      "info-material": "HuD tu'lu'meH mIw wIyajlaHbe' 'e' vItul.",
+      "info-texture": "Hu' pagh Rurbogh ghot tu'lu' 'e' wIchaw'. chel chomvaH lo'taHvIS, cha' mavanglaH.",
+      "info-lights": "ghaH yuvHa'choH ghaH neH luHoHlu'DI', qo'Daq pagh quvHa'ghachlIj rurchugh ghaH, vaj QaqlaH pagh.",
+      "info-fileSize": "ja'chuqtaHghach chuq vIghoS. vaj ghojmoHwI'pu'lI'vaD bIpawchoH.",
+      "txt-polycount": "'{{count}}",
+      "txt-material": "{{count}} marSe'luS",
+      "txt-ram": "~{{count}}",
+      "txt-texture": "{{count}} layerteS",
+      "txt-lights": "{{count}}"
+    },
+    "progress": {
+      "title": "\"'eh.",
+      "msg": "\"'eh.",
+      "lbl-cancel": "qIl"
+    },
+    "publish": {
+      "title": "pe'HIr",
+      "lbl-confirm": "sibI' je",
+      "lbl-name": "qa'mey",
+      "info-name": "chalDaq Sal"
+    },
+    "published": {
+      "title": "polonyuS",
+      "header": "bISaHbe'law' poHlIj.",
+      "lbl-view": "ghob Dalegh"
+    },
+    "saveNewProject": {
+      "title": "Qutlh",
+      "lbl-name": "vengHom",
+      "info-name": "chalDaq Sal",
+      "lbl-confirm": "qevpob"
+    },
+    "support": {
+      "title": "Qutlh",
+      "header": "ghu'vetlh?",
+      "msg": "<3>{{mail}}</3> ghe''orDaq ghe''or yuQDaq yIghoS <1></1>",
+      "discord": "qo' Hoch DarurchoH <1></1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "ghIlaw'",
+      "search": "suqneS"
+    },
+    "bingVideo": {
+      "name": "mIw'a'",
+      "search": "suqneS"
+    },
+    "element": {
+      "name": "'uy'"
+    },
+    "myAssets": {
+      "name": "cho'wI'"
+    },
+    "googlePoly": {
+      "name": "ghorwI' QaQwI'pu'",
+      "search": "ghIntaq"
+    },
+    "tenor": {
+      "name": "qa'wI'pu'",
+      "search": "ghe''or",
+      "ph-search": "ghe''orDaq ghoSjaj."
+    },
+    "sketchfab": {
+      "name": "SoQ",
+      "search": "qeylIS"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "qo'rup"
+    },
+    "imageSourcePanel": {
+      "ph-search": "DeSvetlh ghItlhpu'."
+    },
+    "videoSourcePanel": {
+      "ph-search": "\"pegh'egh."
+    },
+    "assetSourcePanel": {
+      "ph-search": "ghe''orDaq maghoS.\"."
+    },
+    "modelSourcePanel": {
+      "ph-search": "ghe''orDaq jay'!"
+    },
+    "useUpload": {
+      "multipleFileError": "loQ Qongbe'chugh bIQotlaHbe' 'e' vItul.",
+      "mineTypeError": "{{name}}\"ta' ghot vIqelbogh mu'tlheghmeydaj chaw'DI'{{types}},",
+      "progressTitle": "qeylIS",
+      "progressMsg": "{{percentage}}% {{total}}{{uploaded}}el",
+      "uploadError": "Do'Ha'",
+      "uploadErrorMsg": "'ej' ghot vIqawlu'jaj {{message}}.",
+      "uploadErrorDefaultMsg": "veSDuj darurchoHlu'meH mIw rur"
+    }
+  },
+  "openLink": {
+    "description": "'IpDaj ghItlhmey nuvpu'",
+    "lbl-open": "ghIt"
+  },
+  "interactableModel": {
+    "lbl-buy": "je'",
+    "lbl-learnMore": "raHtaH"
+  },
+  "corsProxyButton": {
+    "tooltip": "'e' vIttlhegh"
+  }
+}

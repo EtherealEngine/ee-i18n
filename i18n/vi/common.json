@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Đang tải trang..."
+  },
+  "tooltip": {
+    "pressKey": "Nhấn {{tip}} để {{message}}"
+  },
+  "toast": {
+    "joined": "Tham gia",
+    "left": "Bên trái"
+  },
+  "navUserWidget": {
+    "login": "Đăng nhập"
+  },
+  "loader": {
+    "connecting": "Kết nối với thế giới...",
+    "entering": "Bước vào thế giới...",
+    "loading": "Tải...",
+    "objectRemaining": "đối tượng {{count}} còn lại",
+    "objectRemainingPlural": "{{count}} đối tượng còn lại",
+    "loadingObjects": "Đang tải Đối tượng",
+    "loadingComplete": "Đang tải Hoàn tất",
+    "joiningWorld": "Gia nhập thế giới"
+  },
+  "alert": {
+    "eventWasSuccess": "Sự kiện đã thành công",
+    "errorWasEncountered": "Một lỗi đã gặp phải",
+    "eventInProgress": "Sự kiện đang diễn ra",
+    "seconds": "Giây",
+    "cancelCountdown": "Đóng phương thức này sẽ hủy đếm ngược"
+  },
+  "debug": {
+    "refresh": "Làm tươi",
+    "stats": "Thống kê",
+    "debugOptions": "Tùy chọn Gỡ lỗi",
+    "physicsDebug": "Vật lý học",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Bộ trợ giúp Nút",
+    "gridDebug": "Lưới",
+    "simpleMaterials": "Vật liệu đơn giản",
+    "tick": "Bét",
+    "worldStore": "Cửa hàng thế giới",
+    "engineStore": "Cửa hàng động cơ",
+    "namedEntities": "Các thực thể được đặt tên",
+    "networkObject": "Đối tượng Mạng",
+    "networkClients": "Máy khách mạng"
+  },
+  "recording": {
+    "videoRecorder": "Máy ghi hình",
+    "waitingForPermissions": "Đang chờ quyền",
+    "selectVideoSource": "Chọn nguồn video",
+    "screen": "Màn",
+    "camera": "Máy quay phim",
+    "microphone": "Micrô",
+    "startRecording": "Bắt đầu ghi âm",
+    "pauseRecording": "Tạm dừng ghi âm",
+    "resumeRecording": "Tiếp tục ghi âm",
+    "stopRecording": "Ngừng ghi âm"
+  },
+  "typing": "Gõ...",
+  "gameServer": {
+    "browserError": "Lỗi Trình duyệt",
+    "browserErrorMessage": "Trình duyệt của bạn không hỗ trợ lưu trữ ở chế độ duyệt web riêng tư. Hoặc thử một trình duyệt khác hoặc thoát khỏi chế độ duyệt web riêng tư.",
+    "noAvailableServers": "Không có máy chủ sẵn dùng",
+    "noAvailableServersMessage": "Không có bất kỳ máy chủ nào có sẵn để bạn kết nối. Cố gắng kết nối lại trong",
+    "worldDisconnected": "Thế giới bị ngắt kết nối",
+    "worldDisconnectedMessage": "Bạn đã mất kết nối với thế giới. Chúng tôi sẽ cố gắng kết nối lại trước khi hết thời gian tiếp theo, nếu không bạn sẽ được chuyển tiếp đến một trường hợp khác.",
+    "webGLNotEnabled": "WebGL không bật",
+    "webGLNotEnabledMessage": "Trình duyệt của bạn không hỗ trợ WebGL hoặc bị vô hiệu hóa. Vui lòng bật WebGL hoặc xem xét nâng cấp lên phiên bản trình duyệt mới nhất của bạn.",
+    "youKickedFromWorld": "Bạn đã bị đá khỏi thế giới",
+    "youKickedFromWorldMessage": "Bạn đã bị đuổi khỏi thế giới này vì lý do sau đây",
+    "invalidLocation": "Vị trí không hợp lệ",
+    "cantFindLocation": "Chúng tôi không thể tìm thấy vị trí",
+    "misspelledOrNotExist": "Nó có thể bị viết sai chính tả, hoặc nó có thể không tồn tại.",
+    "loading": "Tải",
+    "low-frame-error": "Phát hiện độ thấm kém khi xem xét cho phép sử dụng tăng tốc phần cứng trong trình duyệt của bạn và phát lại trình duyệt của bạn",
+    "low-frame-title": "Cho phép tăng tốc phần cứng để có trải nghiệm tốt hơn!"
+  },
+  "error": {
+    "loading-error": "Thất bại trong việc tải dữ liệu người dùng",
+    "validation-error": "Vui lòng nhập {{type}} hợp lệ",
+    "login-error": "Không đăng nhập được"
+  }
+}

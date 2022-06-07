@@ -1,0 +1,202 @@
+{
+  "addComment": "A tuu i te mana'o...",
+  "share": "Faaite",
+  "suggestions": "Te mau mana'o tauturu no outou",
+  "seeAll": "A hi'o i te taatoaraa",
+  "likes": "Te mau mea e auhia e",
+  "viewComments": "Hi'o i te mau mana'o atoa {{count}}",
+  "more": "te tahi atu â mau mea",
+  "username": "i'oa tomoraa",
+  "fullName": "I'oa pii",
+  "reportInApporpriate": "Parau faaite",
+  "unfollow": "Ti'a-ore-raa",
+  "goToPost": "Haere i te fare rata",
+  "shareModal": "Faaite",
+  "copyLink": "Tahoho'a i te hono",
+  "embed": "Te mau mana'o tauturu no te",
+  "cancel": "Faaoreraa hapa",
+  "confirm": "Haapapûraa",
+  "save": "Faaora",
+  "profilePic": "te hoho'a o te {{user}}",
+  "ara": "Ara",
+  "follow": "A pee",
+  "flames": "Te mau ama auahi",
+  "continue": "A tamau noa",
+  "partyInvitationSent": "Te titau - manihini - raa i te pae o te pǔp",
+  "arMedia": {
+    "back": "I muri",
+    "clip": "Clip",
+    "backgrounds": "Te mau huru oraraa i muri mai",
+    "start": "Haamata"
+  },
+  "arMediaform": {
+    "title": "Upoo parau",
+    "type": "Huru",
+    "clip": "Clip",
+    "background": "I muri mai",
+    "scene": "Hoho'a",
+    "save": "Faaora",
+    "manifest-file": "Faa'ite mai i te putu'ite ..",
+    "audio-file": "Mp4 putu'ite",
+    "dracosis-file": "Dracosis .uvol file",
+    "preview-file": "Putu'ite no te hoho'a"
+  },
+  "creator": {
+    "myVideos": "Ta'u mau video",
+    "savedVideos": "Te mau video tei faahereherehia",
+    "back": "I muri",
+    "blocked-list": "Tabula no te mau hoho'a Peni",
+    "block-user": "Te feia e farii nei, a faaite mai.",
+    "dialog-content": "Eita outou e ite i te hoho'a e te mea e vai ra i roto i te taata faaohipa"
+  },
+  "creatorForm": {
+    "back": "I muri",
+    "edit": "Edit Profile",
+    "save": "Faaora",
+    "changeAvatar": "Taui i te hoho'a",
+    "ph-selectPreview": "Ma'iti i te hi'oraa",
+    "ph-name": "To oe i'oa",
+    "ph-username": "To outou i'oa tomoraa",
+    "ph-email": "Ta outou rata uira",
+    "ph-tags": "Te mau tapa'o faahoro parau",
+    "ph-link": "Hono",
+    "ph-aboutYou": "Te tahi atu â mau mea no ni'a ia oe",
+    "ph-twitter": "Te mau mana'o tauturu no te",
+    "ph-instagram": "Te mau mana'o tauturu no te",
+    "ph-tiktok": "Te mau nota",
+    "sign-out": "Tuurimaraa"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Te mau taata e faaohipa",
+    "feeds": "Te mau maa",
+    "arMedia": "Rave'a haaparareraa video",
+    "editor": "Papa'i ve'a faatere",
+    "creator": "Hamani"
+  },
+  "featured": {
+    "empty-list": "Aita e maa no teie taime..."
+  },
+  "feed": {
+    "back": "I muri",
+    "related": "Te mau mana'o tauturu no te haapiiraa",
+    "is-repoted-message": "Te parauhia ra e, e mea maitai te mau mea atoa !"
+  },
+  "feedForm": {
+    "back": "I muri",
+    "thanks": "Mauruuru no te faaiteraa e te haamaitairaa i to tatou oire",
+    "share": "A faaite i te tahi mea i te huiraatira",
+    "upload": "Faauta uira mai i te video",
+    "ph-selectVideo": "Ma'iti i te video",
+    "preview": "Hoho'a hi'o-atea-hia",
+    "ph-selectPreview": "Ma'iti i te hi'oraa",
+    "createFeed": "No te hamani i te hoê maa, e mea ti'a ia vai te hoê video e te hoê hoho'a hi'o!!!",
+    "ph-videoName": "Te i'oa o ta outou video",
+    "ph-type": "A patapata i te mea ta outou e hinaaro e faaite i te huiraatira ... ",
+    "lbl-share": "Faaite",
+    "save": "A faaora e a haere i muri iho"
+  },
+  "feedMenu": {
+    "featured": "Featured",
+    "creators": "Te mau poiete",
+    "feed": "Te Faaa'o"
+  },
+  "header": {
+    "lbl-volumetric": "Buka arata'i"
+  },
+  "login": {
+    "account": "E faatiaraa anei ta ' na?",
+    "login": "Login",
+    "resetPassword": "Taumi-faahou-raa i te ta'o huna Fake (teie te hoê hono no roto mai i te rata uira)",
+    "notHavingAccount": "Aita anei ta oe e aamu ?",
+    "signUp": "A tomo i roto",
+    "forgotPassword": "Forgot password?",
+    "back": "I muri",
+    "or": "E AORE RÂ,"
+  },
+  "comment": {
+    "add": "A tuu atu i to outou mana'o..."
+  },
+  "notification": {
+    "feedFire": " A tupa'i i ta outou maa",
+    "feedBookmarked": " A tapa'o i to outou i'oa",
+    "comment": " A faaite i to outou mau mana'o :",
+    "commentFire": " A faaite i to outou mana'o no ni'a i te faaamuraa",
+    "follow": " A haamata i te pee ia oe",
+    "unfollow": " a pee mai ia oe",
+    "followed": " a pee mai ia oe",
+    "activity": "Ohipa"
+  },
+  "onBoarding": {
+    "welcome": "Manava!",
+    "description": "Haapueraa rahi roa ' ' e e 370+ layouts no te iOS prototyping.",
+    "next": "I muri iho",
+    "discover": "A hi'o i te mau papa'iraa mo'a,",
+    "news": "Te mau parau apî &",
+    "lines": "Na taua mau mana'o ra e tura'i i to tatou here i te atuaraa e i to tatou hinaaro.",
+    "getStarted": "A haamata",
+    "meetUp": "Farerei i te",
+    "friends": "te mau hoa.",
+    "meet": "A farerei i te mau hoa"
+  },
+  "shareForm": {
+    "arcMedia": "Faaite",
+    "videoCreated": "Ua hamani au i teie video",
+    "shareWithBuddies": "A faaite i te mau hoa",
+    "shareVideo": "Faaite i te video",
+    "save": "A faaherehere i te moni",
+    "cancel": "Faaoreraa hapa",
+    "close": "Opani",
+    "addFeed": "Tuu i te mau api parau"
+  },
+  "simpleModal": {
+    "emptyList": "Tabula ohipa",
+    "followers": " i muri mai",
+    "following": " Te mau nota",
+    "flames": " Te mau mana'o tauturu no te"
+  },
+  "splash": {
+    "screen": "Te paruai Splash",
+    "logo": "Tapa'o"
+  },
+  "story": {
+    "profilePic": "te hoho'a o te {{user}}"
+  },
+  "view": {
+    "cancel": "Faaoreraa hapa",
+    "choice": "E piti huru haruharuraa taa ê ta outou no te ma'iti i roto i te",
+    "verticalMode": "E 30 taime hau atu i te 30 taime i roto i te faanahoraa o te ti'araa",
+    "horizontalMode": "E taime taotia - ore - hia to te huru raveraa",
+    "start": "Haamata",
+    "not-show": "Eiaha e faaite faahou atu i te reira",
+    "welcome": "Manava i te ARC!  A hamani i ta outou iho mau video e te hoê o ta tatou mau rave'a haaparareraa sotiare e a tuu atu i te reira i ni'a i ta outou mau rave'a haaparareraa sotiare !",
+    "step": "TUHAA {{step}}",
+    "text-step-1": "A ma'iti i te hoê api parau i roto i te vairaa buka.",
+    "text-step-2": "E mea faahiahia roa te reira, no reira a hi'o i te area e ta outou pata hoho'a i te tahi pae e i te tahi pae e 3-5 tetoni te maoro, i reira outou e hinaaro ai i te ha'utiraa taata ora.",
+    "text-step-3-part-1": "A pata i te paruai i te hoê taime i te vahi o ta outou e hinaaro ra e ia tutauhia te reira.",
+    "text-step-3-part-2": "FAAARARAA!  Ta'iri i te hoê taime i te tahi atu vahi no te faahaere i te pereoo i ni'a i te tahi atu ti'araa.",
+    "text-step-3-part-3": "FAAARARAA!  E nehenehe ta outou e faaapî faahou i te api parau na roto i te patapataraa e aore râ te faarahiraa i te paruai e to outou manimani rima rahi e te manimani rima.",
+    "text-step-4-part-1": "A pata e piti pitopito uteute no te HAAMATA i ta outou haruharuraa video.",
+    "text-step-4-part-2": "A pata e piti pitopito uteute no te TAPE'A."
+  },
+  "video": {
+    "back": "I muri"
+  },
+  "terms": {
+    "confirmTerms": "Ua tu'ati to'u mana'o i ni'a i te parau no te taviniraa",
+    "confirmPolicy": "Te farii nei au i te ture no te oraraa omo'e"
+  },
+  "registration": {
+    "ph-phoneEmail": "Faaohipa i te niuniu / rata uira",
+    "facebook": "Tamau noa i ni'a ia Facebook",
+    "google": "A tamau noa e tae atu i te taime e farerei faahou ai tatou",
+    "linkedin": "A tamau noa i te faaoroma'i",
+    "twitter": "A tamau noa i te faaoroma'i",
+    "gitHub": "A tamau noa i te faaoroma'i",
+    "connect": "Tuati i ta outou rata uira e aore râ ta outou numera niuniu",
+    "logIn": "A tomo i roto",
+    "LogInTo": "A tomo i roto i te",
+    "continueAsGuest": "A tamau noa ei manihini"
+  }
+}

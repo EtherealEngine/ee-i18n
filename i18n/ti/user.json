@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "መረጋገጺ ኢ-መይል",
+      "resendEmail": "ሕሳብካ ንምርግጋጽ በጃኻ ኢ-መይልካ ርአ። ኢ-መይል እንተ ዘይረኺብካ በጃኻ {{here}} ብምጥዋቕ ነቲ ናይ ምርግጋጽ ኢ-መይል እንደገና ኽትልእኮ ትኽእል ኢኻ።",
+      "haveAnAccount": "ጸብጻብ ኣሎካዶ ?"
+    },
+    "forgotPassword": {
+      "header": "ፓስዎርድ ረሲዕካ",
+      "enterEmail": "በጃኻ ናብቲ እተመዝገበ ኣድራሻ ኢ-መይልካ ኣእቱ እሞ እንደገና ናይ password ሊንክ ክንሰደልካ ኢና።",
+      "lbl-email": "ኣድራሻ ኢ-መይል",
+      "lbl-submit": "ሊንክ ለኣኽ",
+      "emailSent": "ኢ-መይል ፓስዎርድ ስረዝ ። በጃኻ ኢ-መይልካ ርአ።"
+    },
+    "login": {
+      "email": "ኢ-መይል | ኤስ. ኤም.",
+      "username": "ስም ተጠቃሚ + password",
+      "social": "ማሕበራዊ ጕዳያት"
+    },
+    "magiklink": {
+      "header": "መእተዊ መእተዊ",
+      "descriptionEmail": "በጃኻ ኣድራሻ ኢ-መይልካ ኣእቱ እሞ ብኢ-መይል ኣቢልና መእተዊ ሊንክ ክንሰደልካ ኢና።",
+      "descriptionSMS": "በጃኻ ቝጽሪ ተሌፎንካ ኣእቱ እሞ ብኤስ. ኤስ. ኤስ.",
+      "descriptionEmailSMS": "በጃኻ ናይ ኢ-መይል ኣድራሻኻ ወይ ቍጽሪ ተሌፎንካ (10 ቍጽሪ ሕቡራት መንግስታት ኣመሪካ ጥራይ) ኣእቱ እሞ ብኢ-መይል ወይ ብኤስ. ኤስ. ኤስ.",
+      "descriptionSMSUS": "በጃኻ ቝጽሪ ተሌፎንካ (10 ቍጽሪ ሕቡራት መንግስታት ኣመሪካ ጥራይ) ኣእቱ እሞ ብኤስ. ኤስ. ኤስ.",
+      "lbl-email": "ኣድራሻ ኢ-መይል",
+      "lbl-emailPhone": "ኢ-መይል ወይ ቍጽሪ ተሌፎን",
+      "lbl-phone": "ቍጽሪ ተሌፎን",
+      "agree": "ነዚ እሰማምዓሉ እየ ",
+      "terms": "ኵነታትን ኵነታትን",
+      "lbl-submit": "መእተዊ ልኣኽ",
+      "email-sent-msg": "መእተዊ ስሒራዊ ምትእስሳር ተላእከ ። በጃኻ ኢ-መይልካ ርአ።",
+      "success-msg": "መእተዊ ስሒራዊ ምትእስሳር ተላእከ ። በጃኻ ኢ-መይልካ ወይ ኤስ. ኤስ. ኤስ.",
+      "sms-sent-msg": "መእተዊ ስሒራዊ ምትእስሳር ተላእከ ። በጃኻ ኤስ. ኤስ."
+    },
+    "passwordLogin": {
+      "header": "እቶ",
+      "lbl-email": "ኣድራሻ ኢ-መይል",
+      "lbl-password": "password",
+      "lbl-rememberMe": "ዘክረኒ",
+      "lbl-signin": "እቶ",
+      "forgotPassword": "ናይ የሆዋ ቓል ረሲዕካዶ ትፈልጥ?",
+      "signup": "ጸብጻብዶ የብለይን? ተመዝገብ",
+      "lbl-login": "እቶ",
+      "ph-password": "password",
+      "ph-email": "ኢ-መይል"
+    },
+    "social": {
+      "gitHub": "ምስ ጊትሀብ ኣተኣታቶ",
+      "google": "ምስ ጎልጋል ኣተኣታቶ",
+      "facebook": "ምስ ፌስቡክ ምትእትታው",
+      "linkedin": "ምስ ሊንክዲን ምምጻእ",
+      "twitter": "ምስ ተዊተር ኣተኣታቶ"
+    },
+    "register": {
+      "header": "ተመዝገብ",
+      "login": "እቶ",
+      "lbl-signup": "ተመዝገብ",
+      "lbl-password": "password",
+      "lbl-email": "ኣድራሻ ኢ-መይል",
+      "passwordNotMatch": "ፓስዎርድስ ኣይሰማማዕን ኢዩ",
+      "ph-password": "password",
+      "ph-confirmPassword": "ናይ password ምርግጋጽ",
+      "ph-email": "ኢ-መይል"
+    },
+    "resetPassword": {
+      "header": "ፓስዎርድ እንደገና ምትእትታው",
+      "description": "ኣድራሻ ኢ-መይልካ ንምርካብ በጃኻ passwordካ ኣእቱ",
+      "lbl-submit": "ፓስዎርድ እንደገና ምትእትታው",
+      "lbl-password": "password",
+      "lbl-confirmPassword": "ናይ password ምርግጋጽ",
+      "passwordNotMatch": "ፓስዎርድስ ኣይሰማማዕን ኢዩ",
+      "nowLoginYourAccount": "ሕጂ ኣብ ሕሳብካ ኽትኣቱ ትኽእል ኢኻ",
+      "yourPasswordResetSuccess": "እቲ እትጥቀመሉ ዝገበርካዮ ቓል ከም ብሓድሽ ተመሊሱ እዩ!"
+    },
+    "verifyEmail": {
+      "header": "ኢ-መይል ኣረጋግጽ",
+      "processing": "በጃኹም መስርሕ ከዐርዩ ኸለኹም ሓንሳእ ተጸበዩ ።"
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "ቦታታት",
+      "loading": "ጽዕነት",
+      "col-name": "ስም",
+      "col-scene": "ትርኢት",
+      "col-maxuser": "ዝለዓለ ተጠቃሚ",
+      "lbl-search": "ቦታታት ድለ",
+      "lbl-new": "ሓዱሽ"
+    },
+    "newLocation": {
+      "title": "ቦታ",
+      "success": "ብዕዉት መገዲ ደሓነ ።",
+      "failure": "ገለ ሽግር ኣጋጠመኒ ።",
+      "removeSuccess": "እቲ ቦታ ብዕዉት መገዲ ኣልገሰ ።",
+      "nameInUse": "ስም ኣብ ጥቕሚ ይውዕል እዩ ።",
+      "nameRequire": "ስም የድሊ ።",
+      "validNumber": "ቍጽርታት (0-9) ጥራይ እዩ ዚፍቀድ።",
+      "lbl-name": "ስም",
+      "lbl-maxuser": "ዝለዓለ ተጠቃሚ",
+      "lbl-scene": "ትርኢት",
+      "lbl-type": "ዓይነት",
+      "lbl-ve": "ቪድዮ ተተኺሉ",
+      "lbl-gme": "ዓለምለኻዊ መራኸቢ ብዙሓን",
+      "lbl-update": "እዋናዊ ሓበሬታ",
+      "lbl-create": "ፍጠር",
+      "tooltipCanNotBeDeleted": "ኮሪድዮ ኺስረዝ ኣይክእልን እዩ",
+      "confirmation": "ርግፀኛ ዲኻ?",
+      "lbl-yes": "እወ",
+      "lbl-no": "ኣይፋልን"
+    },
+    "share": {
+      "lbl-share": "ንኻልኦት ኣካፍሎም",
+      "ph-phoneEmail": "ብኢ-መይል ወይ ብቝጽሪ ተሌፎን ዓድም",
+      "lbl-phoneEmail": "ናብ ኢ-መይል ወይ ቍጽሪ ተሌፎን ለኣኽ",
+      "lbl-copy": "ቅዳሕ",
+      "lbl-send-invite": "ዕድመ ለኣኽ",
+      "title": "ኣበይ ከም ዝረኸብካዮ ምስ ጕጅለኻ ኣካፍል",
+      "linkCopied": "ናብ ክሊፕቦር እተቐድሐ ሊንክ ።"
+    },
+    "setting": {
+      "audio": "ኣውድዮ",
+      "lbl-volume": "መጠን ድምጺ",
+      "lbl-microphone": "ማይክሮፎን",
+      "graphics": "ግራፊክ",
+      "controls": "ቍጽጽርታት",
+      "lbl-control-type": "ዓይነት ተቘጻጻሪ",
+      "lbl-control-scheme": "መደብ ምቍጽጻር",
+      "lbl-resolution": "ናይ ኣቕዋም መግለጺ",
+      "lbl-shadow": "ጽላሎት",
+      "lbl-pp": "ኣሰራርሓ ጶስጣ",
+      "lbl-pbr": "ምሉእ PBR",
+      "lbl-automatic": "ኣውቶማቲክ",
+      "xrusersetting": "ኣሰራርሓ XR ተጠቃሚ",
+      "rotation": "ዑደት",
+      "rotation-smooth-speed": "ብዘይ ጸገም ዝግበር ዑደት",
+      "rotation-angle": "ናይ ዙረት ኵርናዕ",
+      "moving": "ምግዓዝ",
+      "user-avatar": "ኣቀማምጣ ኣቫታር",
+      "invert-rotation": "ዑደት ካባና ርሓቕ እሞ ዕንጨይቲ ኣንቀሳቕስ",
+      "show-avatar": "ኣቫታር ኣርእዮ"
+    },
+    "profile": {
+      "lbl-profile": "ፕሮፌሰር",
+      "lbl-settings": "ኵነታት",
+      "lbl-username": "ስም ተጠቃሚ",
+      "update-msg": "እተመሓየሸ ስም ተጠቃሚ",
+      "inviteCode": "ኮድ ዓድም",
+      "youAreAn": "ንስኻ ኢኻ",
+      "youAreA": "ንስኻ ኢኻ",
+      "showUserId": "መንነት ተጠቃሚ ኣርእዮ",
+      "hideUserId": "መንነት ተጠቃሚ ሓብእ",
+      "showApiKey": "መፍትሕ API ኣርኢ",
+      "hideApiKey": "መፍትሕ API ሓብእ",
+      "apiKey": "መፍትሕ API",
+      "logout": "መዝገብ",
+      "connectPhone": "ቍጽሪ ተሌፎንካ ኣራኽብ",
+      "connectEmail": "ኢ-መይልካ ኣራኽብ",
+      "connectPhoneEmail": "ኢ-መይልካ ወይ ቍጽሪ ተሌፎንካ ኣራኽብ",
+      "or": "ወይ",
+      "lbl-wallet": "ምስ ቦርሳ እተተሓሓዘ መእተዊ",
+      "ph-email": "ኢ-መይል",
+      "ph-phone": "ቍጽሪ ተሌፎን",
+      "ph-phoneEmail": "ቍጽሪ ተሌፎን / ኢ - መይል",
+      "phoneEmailError": "ዘይግቡእ ተሌፎን # ወይ ኣድራሻ ኢ-መይል",
+      "phoneError": "ዘይግቡእ ተሌፎን #",
+      "emailError": "ዘይግቡእ ኣድራሻ ኢ-መይል",
+      "loginWithReadyPlayerMe": "ድሉው መጻወቲ ሒዘ ኣተኹ",
+      "connectSocial": "ምስ ማሕበራዊ ጸብጻባት ኣራኽብ",
+      "createOne": "ጸብጻብ እንተ ዘይብልካ ሓድሽ ኪፍጠር እዩ",
+      "connections": {
+        "title": "ምትእስሳር",
+        "ipError": "ንጡፍ ኣላዪ መንነት ኬልግስ ኣይክእልን እዩ",
+        "disconnect": "ርክብካ ተቋርጽ",
+        "connect": "ኣራኽብ"
+      },
+      "profileDropdown": {
+        "avatar": "ስእሊ ኣቫታር ተጠቃሚ",
+        "profile": "ፕሮፌሰር",
+        "adminConsole": "ኣመሓዳሪ ኮንሶል",
+        "logout": "መዝገብ"
+      },
+      "userIcon": {
+        "lbl-name": "ሽምካ",
+        "lbl-update": "እዋናዊ ሓበሬታ",
+        "userId": "መንነት ተጠቃሚ",
+        "ph-uploadImg": "ምስሊ ፍርያት ኣራግፍ",
+        "lbl-selectAcvatar": "ኣቫታር ምረጽ",
+        "lbl-submit": "ኣእቱ"
+      },
+      "userSettings": {
+        "volume": "መጠን ድምጺ",
+        "microphone": "ማይክሮፎን",
+        "resolution": "ናይ ኣቕዋም መግለጺ",
+        "high": "ልዕል ዝበለ",
+        "low": "ትሑት",
+        "spatialAudio": "ቦታኣዊ ኣውድዮ ተጠቐም",
+        "enterMuted": "እተዓብለለ ኽፍሊ ኣእቱ"
+      }
+    },
+    "oauth": {
+      "authenticating": "ሓቅነቱ እተረጋገጸ...",
+      "authFailed": "{{service}} ሓቅነት ኣይተዓወተን ።"
+    },
+    "magikLink": {
+      "wait": "በጃኹም መስርሕ ከዐርዩ ኸለኹም ሓንሳእ ተጸበዩ ።"
+    },
+    "dashboard": {
+      "header": "ሰሌዳ ዳሽቦርድ",
+      "dashboard": "ሰሌዳ ዳሽቦርድ",
+      "users": "ተጠቃሚት",
+      "feeds": "ምግቢ",
+      "instance": "ኣብነት",
+      "locations": "ቦታታት",
+      "invites": "ዕድመ ይቐርበሎም",
+      "sessions": "ኣኼባታት",
+      "groups": "ጕጅለታት",
+      "parties": "ሰልፊ",
+      "chats": "ዕላል",
+      "content": "ትሕዝቶ ፓኮታት",
+      "projects": "ፕሮጀክትታት",
+      "scenes": "ትርኢት",
+      "avatars": "ኣቫታር",
+      "benchmarking": "መዐቀኒታት",
+      "bots": "ቦትስ"
+    }
+  },
+  "oauth": {
+    "authenticating": "ሓቅነቱ እተረጋገጸ...",
+    "authFailed": "{{service}} ሓቅነት ኣይተዓወተን ።"
+  },
+  "magikLink": {
+    "wait": "በጃኹም መስርሕ ከዐርዩ ኸለኹም ሓንሳእ ተጸበዩ ።"
+  },
+  "dashboard": {
+    "header": "ሰሌዳ ዳሽቦርድ",
+    "dashboard": "ሰሌዳ ዳሽቦርድ",
+    "users": "ተጠቃሚት",
+    "feeds": "ምግቢ",
+    "instance": "ኣብነት",
+    "locations": "ቦታታት",
+    "routes": "መገድታት",
+    "projects": "ፕሮጀክትታት",
+    "invites": "ዕድመ ይቐርበሎም",
+    "sessions": "ኣኼባታት",
+    "groups": "ጕጅለታት",
+    "parties": "ሰልፊ",
+    "chats": "ዕላል",
+    "content": "ትሕዝቶ ፓኮታት",
+    "scenes": "ትርኢት",
+    "avatars": "ኣቫታር",
+    "benchmarking": "መዐቀኒታት",
+    "bots": "ቦትስ",
+    "setting": "ኵነታት"
+  },
+  "avatar": {
+    "title": "ኣቫታር ኣራግፍ",
+    "lbl-browse": "መርምሮ",
+    "lbl-thumbnail": "ዓባይቶ",
+    "lbl-upload": "ኣራግፍ",
+    "selectAvatar": "ኣቫታር ምረጹ...",
+    "selectThumbnail": "ዓባይዓባይቶ ምረጹ...",
+    "rotate": "ተዘውር",
+    "pan": "ፓን",
+    "noBone": "ኦቤክት ኣዕጽምቲ ዀነ ቘርበት የብሉን",
+    "outOfBound": "ሓደ ነገር ካብ ዶብ ወጻኢ እዩ ።",
+    "emptyObj": "ሓደ ነገር ባዶ እዩ።",
+    "maxTriangleError": "ሓደ ነገር ካብ {{allowedTriangles}} ገጽ ዚዓቢ እዩ ።",
+    "selectValidFile": "ቅኑዕ 3d ኣቫታር ፋይል ምረጽ።",
+    "selectValidThumbnail": "እተመርጸ ግቡእ ፋይል ዓባይቶ።",
+    "fileOversized": "ግዝፊ ፋይል ኣቫታር ኣብ መንጎ {{minSize}} ቢ {{maxSize}} . ቢ.",
+    "confirmation": "ርግፀኛ ዲኻ?",
+    "canNotBeRemoved": "ንጡፍ ኣቫታር ኪውገድ ኣይክእልን እዩ",
+    "remove": "ኣቫታር ኣወግድ",
+    "uploadFiles": "ፋይላት ኣራግፍ",
+    "useUrlInstead": "ኣብ ክንዳኡስ url ተጠቐም",
+    "avatar": "ኣቫታር",
+    "cancel": "ደምስስ",
+    "createAvatar": "ኣቫታር ፍጠር",
+    "delete": "ኣወግድ",
+    "view": "ኣረኣእያ",
+    "uploadAvatarInfo": "ሓበሬታ ኣቫታር ኣመሓይሽ",
+    "name": "ስም",
+    "enterName": "ስም ኣእቱ",
+    "avatarInformation": "ሓበሬታ ኣቫታር",
+    "description": "መግለጺ",
+    "key": "መፍትሕ",
+    "none": "ዋላ ሓደ የለን",
+    "submit": "ኣእቱ",
+    "edit": "ኣረምቲ",
+    "avatarUrl": "ኣቫታር ኡርል",
+    "upload-success-msg": "ኣቫታር ብዓወት ኣራጊፉ ።",
+    "remove-success-msg": "ኣቫታር ብዓወት ኣራጊፉ ።",
+    "warning-msg": "ኣቫታር ዚብሃል ምንጪ ጥራዩ ስለ ዘሎ ምስ ዘይንቀሳቐስ ፋይል ካባኻ ኣቫታር ወሲድካዶ ትፈልጥ?"
+  },
+  "personMenu": {
+    "inviteToParty": "ናብ ፓርቲ ዓድም",
+    "addAsFriend": "ከም ፈታዊኻ ወሲኽካ",
+    "mute": "ዓባስ",
+    "block": "መፈተሺ ነቝጣ"
+  },
+  "person": {
+    "you": "ንስኻ",
+    "yourScreen": "ኤለክትሮኒካዊ መሳርሒኻ",
+    "muteForEveryone": "ንዅሉ ዓባስ",
+    "unmuteForEveryone": "ንዅሉ ሰብ ዓባስ ኩን",
+    "muteMe": "ዓባስ ኹንኒ",
+    "unmuteMe": "ኣጽኒዕካ ኣእትወኒ",
+    "muteThisPerson": "ነዚ ሰብ እዚ ዓባስ",
+    "unmuteThisPerson": "ነዚ ሰብ እዚ ፈትሓሉ",
+    "openPictureInPicture": "ስእሊ ኽፉት"
+  }
+}

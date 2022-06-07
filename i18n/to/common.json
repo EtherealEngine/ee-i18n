@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Load e pēsí..."
+  },
+  "tooltip": {
+    "pressKey": "Lomiʻi ʻa e {{tip}} ke {{message}}"
+  },
+  "toast": {
+    "joined": "kau ki he",
+    "left": "toʻohemá"
+  },
+  "navUserWidget": {
+    "login": "Loka ʻIni"
+  },
+  "loader": {
+    "connecting": "Fakafehokotaki ki he māmaní...",
+    "entering": "Hū ki he māmaní...",
+    "loading": "Load...",
+    "objectRemaining": "{{count}} meʻa ʻoku kei toé",
+    "objectRemainingPlural": "{{count}} ngaahi meʻa ʻoku kei toé",
+    "loadingObjects": "Load e Ngaahi Meʻá",
+    "loadingComplete": "Kakato Hono Load",
+    "joiningWorld": "Kau ki Māmani"
+  },
+  "alert": {
+    "eventWasSuccess": "Naʻe ola lelei e meʻa naʻe hok",
+    "errorWasEncountered": "Naʻe ʻi ai ha fehālaaki ne hoko",
+    "eventInProgress": "Meʻa ʻoku lolotonga hokó",
+    "seconds": "Sekoni ʻe",
+    "cancelCountdown": "ʻE kaniseli ʻe hono tapuni ʻo e modal ko ʻeni ʻa e fakahokohoko"
+  },
+  "debug": {
+    "refresh": "Fakafoʻou",
+    "stats": "Stats.allblacks.comas",
+    "debugOptions": "Ngaahi Meʻa ke Fili ai ʻi he Debug",
+    "physicsDebug": "Fisiki",
+    "avatarDebug": "Ko e meʻa ʻoku hoko",
+    "nodeHelperDebug": "Tokotaha Tokoni ki he Node",
+    "gridDebug": "Grid",
+    "simpleMaterials": "Ngaahi Nāunau Faingofua",
+    "tick": "Tick",
+    "worldStore": "Falekoloa ʻo Māmaní",
+    "engineStore": "Falekoloa Mīsiní",
+    "namedEntities": "Hingoa ʻo e Ngaahi Potungāué",
+    "networkObject": "Taumuʻa ʻo e Netiueká",
+    "networkClients": "Kau Kasitomaa ki he Netiueká"
+  },
+  "recording": {
+    "videoRecorder": "Tauhi lekōtí",
+    "waitingForPermissions": "Tatali ke maʻu ha fakangofua",
+    "selectVideoSource": "Fili ʻa e maʻuʻanga vitioó",
+    "screen": "Screen",
+    "camera": "Meʻafaitaá",
+    "microphone": "Maika",
+    "startRecording": "Kamata hono hikí",
+    "pauseRecording": "Taʻofi fakataimi hono hikí",
+    "resumeRecording": "Hoko atu hono hikí",
+    "stopRecording": "Taʻofi hono hikí"
+  },
+  "typing": "Taipeʻi...",
+  "gameServer": {
+    "browserError": "Fehālaaki ʻi he Browser",
+    "browserErrorMessage": "ʻOku ʻikai poupouʻi ʻe hoʻo browser ʻa e tauhiʻanga ʻo e meʻakai ʻi he founga browsing fakatautaha. ʻAhiʻahiʻi ha browser ʻe taha, pe hū ki tuʻa mei he browsing fakatāutahá.",
+    "noAvailableServers": "ʻIkai maʻu ha Servers",
+    "noAvailableServersMessage": "ʻOku ʻikai ke ʻi ai ha servers ke ke fetuʻutaki ki ai. Feinga ke toe fakafehokotaki ʻi he",
+    "worldDisconnected": "Motuhi ʻo e māmaní",
+    "worldDisconnectedMessage": "Kuo mole hoʻo fehokotaki mo e mamani. Te mau feinga ke fetuʻutaki kimuʻa pea ʻosi e taimi hoko, he ka ʻikai, ʻe ʻave koe ki ha meʻa kehe.",
+    "webGLNotEnabled": "WebGL ʻikai lava",
+    "webGLNotEnabledMessage": "ʻOku ʻikai poupouʻi ʻe hoʻo browser ʻa e WebGL, pe ʻoku ʻikai lava ʻo ngāue ʻaki. Kātaki ʻo fakamoʻui ʻa e WebGL pe fakakaukau ke fakaleleiʻi ki he polokalama fakamuimuitaha ʻo hoʻo browser.",
+    "youKickedFromWorld": "Kuo ʻakahi koe mei he mamani",
+    "youKickedFromWorldMessage": "Naʻe ʻakahi koe mei he māmaní ʻi he ʻuhinga ko ʻení",
+    "invalidLocation": "Feituʻu hala",
+    "cantFindLocation": "He ʻikai ke tau lava ʻo maʻu ʻa e feituʻu",
+    "misspelledOrNotExist": "ʻE lava pē ke sipela hala, pe ʻikai ke ʻi ai.",
+    "loading": "fakaheka",
+    "low-frame-error": "ʻIloʻi ha foʻi perfomance masiva fakakaukau ke lava ʻo fakavaveʻi e Fakaʻaongaʻi ʻo e Hardware ʻi hoʻo browser pea toe fakaʻaongaʻi hoʻo browser",
+    "low-frame-title": "ʻAi ke toe vave ange ʻa e ngaahi meʻangāue ki ha aʻusia ʻoku lelei angé!"
+  },
+  "error": {
+    "loading-error": "ʻIkai lava ʻo load e fakamatala ki he tokotaha ngāue ki he polokalam",
+    "validation-error": "Kātaki ʻo fakahū ʻa e {{type}} ʻoku talí",
+    "login-error": "ʻIkai lava ʻo login"
+  }
+}

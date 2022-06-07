@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "確認電子郵件",
+      "resendEmail": "請檢查您的電子郵件以驗證您的帳戶。 如果你冇收到電子郵件，請點擊 {{here}} 重新發送驗證電子郵件。",
+      "haveAnAccount": "已有帳戶？"
+    },
+    "forgotPassword": {
+      "header": "忘記密碼",
+      "enterEmail": "請輸入你註冊嘅電子郵件地址，我哋將向你發送密碼重置連結。",
+      "lbl-email": "電郵地址",
+      "lbl-submit": "發送連結",
+      "emailSent": "重置密碼電子郵件已發送。 請檢查您的電子郵件。"
+    },
+    "login": {
+      "email": "電子郵件| 短信",
+      "username": "用戶名+密碼",
+      "social": "社會嘅"
+    },
+    "magiklink": {
+      "header": "登錄連結",
+      "descriptionEmail": "請輸入您的電子郵件地址，我們將通過電子郵件向您發送登錄連結。",
+      "descriptionSMS": "請輸入您的電話號碼，我哋將透過短信向你發送登錄連結。",
+      "descriptionEmailSMS": "請輸入您的電子郵件地址或電話號碼（ 10位數字，僅限美國），我哋將透過電子郵件或短信向你發送登錄連結。",
+      "descriptionSMSUS": "請輸入您的電話號碼（ 10位數字，僅限美國），我哋將透過短信向你發送登錄連結。",
+      "lbl-email": "電子郵箱",
+      "lbl-emailPhone": "電子郵件或電話號碼",
+      "lbl-phone": "電話號碼",
+      "agree": "我同意 ",
+      "terms": "條款及細則",
+      "lbl-submit": "發送登錄連結",
+      "email-sent-msg": "登錄魔術連結已發送。 請檢查您的電子郵件。",
+      "success-msg": "登錄魔術連結已發送。 請檢查您的電子郵件或短信。",
+      "sms-sent-msg": "登錄魔術連結已發送。 請檢查您的短信。"
+    },
+    "passwordLogin": {
+      "header": "登錄",
+      "lbl-email": "電郵地址",
+      "lbl-password": "密碼",
+      "lbl-rememberMe": "記住我",
+      "lbl-signin": "登錄",
+      "forgotPassword": "忘記密碼？",
+      "signup": "冇账户？ 登記",
+      "lbl-login": "登錄",
+      "ph-password": "密碼",
+      "ph-email": "電子郵件"
+    },
+    "social": {
+      "gitHub": "使用GitHub登錄",
+      "google": "使用穀謌登錄",
+      "facebook": "使用面書登錄",
+      "linkedin": "使用LinkedIn登錄",
+      "twitter": "使用推特登錄"
+    },
+    "register": {
+      "header": "登記",
+      "login": "登錄",
+      "lbl-signup": "登記",
+      "lbl-password": "密碼",
+      "lbl-email": "電郵地址",
+      "passwordNotMatch": "密碼唔匹配",
+      "ph-password": "密碼",
+      "ph-confirmPassword": "密碼確認",
+      "ph-email": "電子郵件"
+    },
+    "resetPassword": {
+      "header": "重設密碼",
+      "description": "請輸入您的電子郵件地址密碼",
+      "lbl-submit": "重設密碼",
+      "lbl-password": "密碼",
+      "lbl-confirmPassword": "密碼確認",
+      "passwordNotMatch": "密碼唔匹配",
+      "nowLoginYourAccount": "您現在可以登錄您的帳戶",
+      "yourPasswordResetSuccess": "您的密碼已成功重置！"
+    },
+    "verifyEmail": {
+      "header": "驗證電子郵件",
+      "processing": "請你等片刻，同時處理..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "地點",
+      "loading": "裝載",
+      "col-name": "名字",
+      "col-scene": "現場",
+      "col-maxuser": "最大用戶數",
+      "lbl-search": "搜索位置",
+      "lbl-new": "新增功能"
+    },
+    "newLocation": {
+      "title": "位置",
+      "success": "已成功保存。",
+      "failure": "出咗啲問題。",
+      "removeSuccess": "已成功刪除位置。",
+      "nameInUse": "名稱正在使用中。",
+      "nameRequire": "名稱為必填項。",
+      "validNumber": "只允許使用數字（ 0-9 ）。",
+      "lbl-name": "名字",
+      "lbl-maxuser": "最大用戶數",
+      "lbl-scene": "現場",
+      "lbl-type": "類型",
+      "lbl-ve": "視頻啟用",
+      "lbl-gme": "啟用全局媒體",
+      "lbl-update": "更新",
+      "lbl-create": "創造",
+      "tooltipCanNotBeDeleted": "無法刪除大堂",
+      "confirmation": "是否確定？",
+      "lbl-yes": "係",
+      "lbl-no": "唔係"
+    },
+    "share": {
+      "lbl-share": "共享",
+      "ph-phoneEmail": "透過電子郵件或電話號碼邀請",
+      "lbl-phoneEmail": "發送到電子郵件或電話號碼",
+      "lbl-copy": "複製",
+      "lbl-send-invite": "發送邀請",
+      "title": "與您的團隊共享您的位置網址",
+      "linkCopied": "連結已複製到剪貼板。"
+    },
+    "setting": {
+      "audio": "音頻",
+      "lbl-volume": "卷",
+      "lbl-microphone": "咪",
+      "graphics": "圖形",
+      "controls": "控制",
+      "lbl-control-type": "控制器類型",
+      "lbl-control-scheme": "控制方案",
+      "lbl-resolution": "分辨率",
+      "lbl-shadow": "陰影",
+      "lbl-pp": "後處理",
+      "lbl-pbr": "全分苯橡膠",
+      "lbl-automatic": "自動",
+      "xrusersetting": "XR用戶設置",
+      "rotation": "旋轉",
+      "rotation-smooth-speed": "旋轉平滑速度",
+      "rotation-angle": "旋轉角度",
+      "moving": "移動",
+      "user-avatar": "頭像設置",
+      "invert-rotation": "反轉旋轉和移動手掣",
+      "show-avatar": "顯示頭像"
+    },
+    "profile": {
+      "lbl-profile": "輪廓",
+      "lbl-settings": "設置",
+      "lbl-username": "用戶名",
+      "update-msg": "用戶名已更新",
+      "inviteCode": "邀請碼",
+      "youAreAn": "您是",
+      "youAreA": "您是",
+      "showUserId": "顯示用戶ID",
+      "hideUserId": "隱藏用戶ID",
+      "showApiKey": "顯示接口密鑰",
+      "hideApiKey": "屈API密鑰",
+      "apiKey": "接口密鑰",
+      "logout": "登出",
+      "connectPhone": "連接您的電話號碼",
+      "connectEmail": "連接您的電子郵件",
+      "connectPhoneEmail": "連接您的電子郵件或電話號碼",
+      "or": "或",
+      "lbl-wallet": "使用電子錢包登錄",
+      "ph-email": "電子郵件",
+      "ph-phone": "電話號碼",
+      "ph-phoneEmail": "電話號碼/電子郵件",
+      "phoneEmailError": "無效嘅電話號碼或電子郵件地址",
+      "phoneError": "無效嘅手機 #",
+      "emailError": "無效嘅電子郵件地址",
+      "loginWithReadyPlayerMe": "使用Ready Player Me登錄",
+      "connectSocial": "與社交帳戶連接",
+      "createOne": "如果您沒有帳戶，系統將為您創建一個新帳戶",
+      "connections": {
+        "title": "連接",
+        "ipError": "無法刪除活動嘅身份提供程序",
+        "disconnect": "斷開",
+        "connect": "連接"
+      },
+      "profileDropdown": {
+        "avatar": "用戶頭像圖標",
+        "profile": "輪廓",
+        "adminConsole": "管理控制台",
+        "logout": "註銷"
+      },
+      "userIcon": {
+        "lbl-name": "你貴姓",
+        "lbl-update": "更新",
+        "userId": "用戶標識",
+        "ph-uploadImg": "上傳產品圖片",
+        "lbl-selectAcvatar": "選擇頭像",
+        "lbl-submit": "提交"
+      },
+      "userSettings": {
+        "volume": "卷",
+        "microphone": "咪",
+        "resolution": "分辨率",
+        "high": "高",
+        "low": "低",
+        "spatialAudio": "使用空間音頻",
+        "enterMuted": "靜音進入房間"
+      }
+    },
+    "oauth": {
+      "authenticating": "認證。。。",
+      "authFailed": "{{service}} 身份驗證失敗。"
+    },
+    "magikLink": {
+      "wait": "請你等片刻，同時處理..."
+    },
+    "dashboard": {
+      "header": "擋泥板",
+      "dashboard": "擋泥板",
+      "users": "用戶",
+      "feeds": "飼料",
+      "instance": "實例",
+      "locations": "地點",
+      "invites": "邀請",
+      "sessions": "會話",
+      "groups": "組",
+      "parties": "各方",
+      "chats": "聊天",
+      "content": "內容包",
+      "projects": "項目",
+      "scenes": "場景",
+      "avatars": "化身",
+      "benchmarking": "標桿",
+      "bots": "機械人"
+    }
+  },
+  "oauth": {
+    "authenticating": "認證。。。",
+    "authFailed": "{{service}} 身份驗證失敗。"
+  },
+  "magikLink": {
+    "wait": "請你等片刻，同時處理..."
+  },
+  "dashboard": {
+    "header": "擋泥板",
+    "dashboard": "擋泥板",
+    "users": "用戶",
+    "feeds": "飼料",
+    "instance": "實例",
+    "locations": "地點",
+    "routes": "路線",
+    "projects": "項目",
+    "invites": "邀請",
+    "sessions": "會話",
+    "groups": "組",
+    "parties": "各方",
+    "chats": "聊天",
+    "content": "內容包",
+    "scenes": "場景",
+    "avatars": "化身",
+    "benchmarking": "標桿",
+    "bots": "機械人",
+    "setting": "設置"
+  },
+  "avatar": {
+    "title": "上傳頭像",
+    "lbl-browse": "瀏覽",
+    "lbl-thumbnail": "縮略圖",
+    "lbl-upload": "上傳",
+    "selectAvatar": "選擇頭像...",
+    "selectThumbnail": "選擇縮略圖...",
+    "rotate": "旋轉",
+    "pan": "泛",
+    "noBone": "Obejct不含任何骨骼或皮膚",
+    "outOfBound": "對象已越界。",
+    "emptyObj": "對象為空。",
+    "maxTriangleError": "對象包含嘅面大於 {{allowedTriangles}} 個。",
+    "selectValidFile": "選擇有效的3D頭像文件。",
+    "selectValidThumbnail": "選定嘅有效縮略圖文件。",
+    "fileOversized": "頭像文件大小必須介乎 {{minSize}} MB同 {{maxSize}} MB之間",
+    "confirmation": "是否確定？",
+    "canNotBeRemoved": "無法刪除活動頭像",
+    "remove": "移除頭像",
+    "uploadFiles": "上傳文件",
+    "useUrlInstead": "改用網址",
+    "avatar": "化身",
+    "cancel": "取消",
+    "createAvatar": "創建頭像",
+    "delete": "刪除",
+    "view": "视圖",
+    "uploadAvatarInfo": "更新頭像信息",
+    "name": "名字",
+    "enterName": "輸入名稱",
+    "avatarInformation": "頭像信息",
+    "description": "描述",
+    "key": "鎖匙",
+    "none": "冇",
+    "submit": "提交",
+    "edit": "編輯",
+    "avatarUrl": "頭像網址",
+    "upload-success-msg": "頭像上傳成功。",
+    "remove-success-msg": "頭像上傳成功。",
+    "warning-msg": "頭像資源係空嘅，你是否已把頭像同步到靜態文件存儲？"
+  },
+  "personMenu": {
+    "inviteToParty": "邀請參加派對",
+    "addAsFriend": "添加為好友",
+    "mute": "靜音",
+    "block": "蚊 "
+  },
+  "person": {
+    "you": "你",
+    "yourScreen": "您的屏幕",
+    "muteForEveryone": "為所有人設為靜音",
+    "unmuteForEveryone": "所有人取消靜音",
+    "muteMe": "將我靜音",
+    "unmuteMe": "取消靜音",
+    "muteThisPerson": "將此人靜音",
+    "unmuteThisPerson": "將此人取消靜音",
+    "openPictureInPicture": "打開畫中畫"
+  }
+}

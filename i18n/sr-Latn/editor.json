@@ -1,0 +1,718 @@
+{
+  "loading": "Učitavanje projekta",
+  "loadingMsg": "Učitavanje projekta...",
+  "loadingError": "Greška pri učitavanju projekta",
+  "loadingErrorMsg": "Došlo je do greške prilikom učitavanja projekta.",
+  "selectSceneMsg": "Izaberite scenu da biste počeli da se igrate sa motorom",
+  "error": "Greška",
+  "errorMsg": "Došlo je do nepoznate greške.",
+  "generateScreenshot": "Generisanje snimka projekta",
+  "generateScreenshotMsg": "Generisanje snimka projekta...",
+  "newScene": "Kreiraj scenu",
+  "saving": "Čuvanje projekta",
+  "savingMsg": "Čuvanje projekta...",
+  "savingError": "Greška pri čuvanju projekta",
+  "savingErrorMsg": "Došlo je do greške prilikom čuvanja projekta.",
+  "savingSceneErrorMsg": "Scena nije učitana kako treba. Pokušajte da napunite mesto zločina.",
+  "duplicating": "Dupliranje projekta",
+  "duplicatingMsg": "Dupliranje projekta...",
+  "exporting": "Izvoz projekta",
+  "exportingMsg": "Izvoz projekta...",
+  "exportingError": "Greška pri izvozu projekta",
+  "exportingErrorMsg": "Došlo je do greške prilikom izvoza projekta.",
+  "importLegacy": "Uvezi zastareli svet",
+  "importLegacyMsg": "Upozorenje! Ovo će zameniti vašu postojeću scenu! Želite li zaista da nastavite?",
+  "publishingError": "Greška pri objavljivanju projekta",
+  "publishingErrorMsg": "Došlo je do nepoznate greške.",
+  "publishingScene": "Scena objavljivanja",
+  "publishingSceneMsg": "Izdavačka scena...",
+  "uploadingThumbnailMsg": "Otpremanje sličice...",
+  "uploadingSceneMsg": "Scena otpremanja: {{percentage}}%",
+  "envMapError": "Greška pri učitavanju slika mape {{files}}",
+  "lbl-return": "Vratiti",
+  "menubar": {
+    "newScene": "Nova scena",
+    "saveScene": "Sačuvaj scenu",
+    "saveAs": "Sačuvaj kao",
+    "importAsset": "Osnovno sredstvo uvoza",
+    "exportGLB": "Izvezi kao binarni GLTF (.glb) ...",
+    "importScene": "Scena uvoza",
+    "exportScene": "Izvezi scenu",
+    "quit": "Prestani"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Nepodržan tip datoteke za datoteku: \"{{name}}\". Datoteka mora biti model slike, video zapisa ili glb datoteke.",
+    "addObject": "addObject: pre nego što objekat nije pronađen",
+    "removeObject": "removeObject: nije pronađen kv. Ovo je posledica uklanjanja noda koji više nije na mestu zločina.",
+    "noParent": "{{node}} \"{{name}}\" nema roditelja. Reparent radi samo na objektima koji su trenutno na sceni.",
+    "undefinedParent": "urednik.reparent: noviParent je nedefinisan",
+    "notAuthenticated": "Nije potvrđena verodostojnost",
+    "fetchingProjectError": "Greška pri prenošenju projekata: {{error}}",
+    "fetchingRouteError": "Greška pri prenošenju ruta: {{error}}",
+    "unknownError": "Nepoznata greška",
+    "resolveURL": "Greška pri otklanjanju URL adrese \"{{url}}\":",
+    "mediaSearchAborted": "Pretraga medija je prekinuta",
+    "methodNotImplemented": "Metod nije primenjen.",
+    "saveProjectAborted": "Scena čuvanja je prekinuta",
+    "unsavedChanges": "Nesačuvane promene",
+    "unsavedChangesMsg": "Scena je izmenjena. Sačuvajte promene.",
+    "projectCreationFail": "Kreiranje projekta nije uspelo. {{reason}}",
+    "projectDeletionFail": "Brisanje projekta nije uspelo. {{reason}}",
+    "savingProjectFail": "Čuvanje projekta nije uspelo. {{reason}}",
+    "sceneTooLarge": "Scena je prevelika ({{size}} MB) za objavljivanje. Maksimalna veličina je {{maxSize}} MB.",
+    "sceneCreationFail": "Kreiranje scene nije uspelo. {{reason}}",
+    "uploadAborted": "Otpremanje je prekinuto",
+    "uploadFailed": "Otpremanje nije uspelo {{reason}}",
+    "assetDeletionFail": "Brisanje osnovnih sredstava nije uspelo. {{reason}}",
+    "projectAssetDeletionFail": "Brisanje sredstava projekta nije uspelo. {{reason}}",
+    "networkError": "Greška mreže: {{status}}. {{text}}",
+    "unknownStatus": "Nepoznat status",
+    "CORS": "Možda greška CORS-a",
+    "urlFetchError": "Nije uspelo \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Viewport",
+    "command": {
+      "movecamera": "Premesti kameru",
+      "flyFast": "Leti brže",
+      "orbit": "Orbita / Izaberi",
+      "pan": "Pan",
+      "fly": "Leti",
+      "focus": "Fokus",
+      "rotateLeft": "Rotiraj nalevo",
+      "rotateRight": "Rotiraj udesno",
+      "cancelPlacement": "Otkaži plasman",
+      "placeDuplicate": "Stavi duplikat",
+      "cancelGrab": "Otkaži hvatanje",
+      "grab": "Uzmi",
+      "deselectAll": "Poništi sve"
+    },
+    "state": {
+      "header": "Statistiku",
+      "memory": "Memorije",
+      "geometries": "Geometrije",
+      "textures": "Teksture",
+      "render": "Render",
+      "FPS": "FPS",
+      "frameTime": "Vreme okvira",
+      "calls": "Poziva",
+      "triangles": "Trouglovi",
+      "points": "Poena",
+      "lines": "Redove"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Objavite",
+    "lbl-published": "Objavio",
+    "command": {
+      "translate": "Prevesti",
+      "rotate": "Rotiraj",
+      "scale": "Skali",
+      "toggleSpace": "Preklopnik prostora za transformaciju",
+      "togglePivot": "Preklopnik za transformaciju izvedene tabele",
+      "toggleSnapMode": "Preklopni režim kačenja",
+      "toggleGrid": "Isključi vidljivost koordinatne mreže",
+      "increaseGridSize": "Povećaj veličinu koordinatne mreže",
+      "descreaseGridSize": "Smanji veličinu koordinatne mreže",
+      "stopPreview": "Zaustavi pregled scene",
+      "playPreview": "Pregled scene"
+    }
+  },
+  "properties": {
+    "title": "Svojstva",
+    "lbl-visible": "Vidljiva",
+    "lbl-preventBake": "Spreči pečenje",
+    "lbl-persist": "Uporan",
+    "multipleNodeSelected": "Izabrano je više čvorova različitih tipova",
+    "noNodeSelected": "Nije izabran nijedan oglas",
+    "ambientLight": {
+      "name": "Ambijentalna svetlost",
+      "description": "Svetlo koje osvetljava sve objekte u vašoj sceni.",
+      "lbl-intensity": "Intenzitet",
+      "lbl-color": "Boja"
+    },
+    "envmap": {
+      "name": "Mapa okruženja",
+      "description": "svojstva mape okruženja"
+    },
+    "asset": {
+      "name": "Sredstvo",
+      "description": "Grupisanje komponenti scene koje se mogu dinamički učitati i istovariti",
+      "lbl-options": "Opcije",
+      "lbl-assetPath": "Putanja osnovnog sredstva",
+      "lbl-assetName": "Ime izvoza",
+      "lbl-exportOptions": "Opcije izvoza",
+      "lbl-export": "Izvoz osnovnog sredstva",
+      "lbl-load": "Učitaj u scenu",
+      "lbl-unload": "Istovari",
+      "lbl-reload": "Napuniљ"
+    },
+    "audio": {
+      "name": "Audio",
+      "description": "Dinamički učitava zvuk.",
+      "lbl-audiourl": "Url adresa zvučnog zapisa",
+      "lbl-controls": "Kontrole",
+      "info-controls": "Isključite vidljivost kontrola medija.",
+      "lbl-autoplay": "Automatska reprodukcija",
+      "info-autoplay": "Ako je istina, mediji će se igrati kada prvi put uđu na scenu.",
+      "lbl-synchronize": "Sinhronizujete",
+      "info-synchronize": "Ako je tačno, medij će biti sinhronizovan na svim povezanim klijentima.",
+      "lbl-loop": "Petlja",
+      "info-loop": "Ako je istina, mediji će se beskonačno ponavljati.",
+      "lbl-audioType": "Tip zvuka",
+      "lbl-distanceModel": "Model daljine",
+      "info-distanceModel": "Algoritim koji se koristi za izračunavanje audio prozivke.",
+      "lbl-rolloffFactor": "Faktor prozivke",
+      "info-rolloffFactor": "Dvostruka vrednost koja opisuje koliko brzo se jačina zvuka smanjuje dok se izvor udaljava od slušaoca. 0 na 1",
+      "info-rfInfinity": "Dvostruka vrednost koja opisuje koliko brzo se jačina zvuka smanjuje dok se izvor udaljava od slušaoca. Od 0 do Beskonačnosti",
+      "lbl-refDistance": "Ref udaljenost",
+      "info-refDistance": "Dvostruka vrednost koja predstavlja referentno rastojanje za smanjenje jačine zvuka dok se izvor zvuka udaljava od slušaoca.",
+      "lbl-maxDistance": "Maksimalna razdaljina",
+      "info-maxDistance": "Dvostruka vrednost koja predstavlja maksimalnu udaljenost između audio izvora i slušaoca, nakon čega se jačina zvuka dalje ne smanjuje.",
+      "lbl-coneInnerAngle": "Unutrašnji ugao korneta",
+      "info-coneInnerAngle": "Dvostruka vrednost koja opisuje ugao, u stepenima, korneta unutar kojeg neće biti smanjenja jačine zvuka.",
+      "lbl-coneOuterAngle": "Cone Outer Angle",
+      "info-coneOuterAngle": "Dvostruka vrednost koja opisuje ugao, u stepenima korneta izvan kojeg će volumen biti smanjen konstantnom vrednošću, definisanom atributom coneOuterGain.",
+      "lbl-coreOuterGain": "Cone Outer Dobitak",
+      "info-coreOuterGain": "Dvostruka vrednost koja opisuje količinu smanjenja jačine zvuka izvan korneta definisanog atributom coneOuterAngle. Njegova podrazumevana vrednost je 0, što znači da se ne može čuti nijedan zvuk.",
+      "lbl-volume": "Volumen",
+      "lbl-play": "Igra",
+      "lbl-pause": "Pauziraj",
+      "error-url": "Greška pri učitavanju sa URL adrese"
+    },
+    "boxCollider": {
+      "description": "Nevidljiva kutija od koje će se objekti odbijati ili odmarati na vrhu.\nBez sudarača, predmeti će padati kroz podove i prolaziti kroz zidove.",
+      "lbl-isTrigger": "Okidaи"
+    },
+    "camera": {
+      "name": "Kameru",
+      "description": "Postavke fotoaparata.",
+      "lbl-camera-raycast": "Camera Raycasting",
+      "lbl-camera-raycast-toggle": "Omogućen",
+      "lbl-camera-raycast-frequency": "Frekvenciju",
+      "lbl-camera-raycast-count": "Rej Grof",
+      "lbl-camera-raycast-length": "Dužina Reja"
+    },
+    "directionalLight": {
+      "name": "Usmerena svetlost",
+      "description": "Svetlo koje osvetljava celu scenu, ali emituje se u jednom smeru.",
+      "lbl-color": "Boja",
+      "lbl-intensity": "Intenzitet",
+      "lbl-cameraFar": "Kamera daleko",
+      "lbl-cameraNear": "Kamera blizu",
+      "lbl-cameraTop": "Vrh fotoaparata",
+      "lbl-cameraBottom": "Dno fotoaparata",
+      "lbl-cameraLeft": "Kamera nalevo",
+      "lbl-cameraRight": "Kamera desno",
+      "lbl-useInCSM": "Upotreba u CSM-u",
+      "lbl-castShadow": "Livena senka",
+      "lbl-disableForCSM": "Onemogućeno jer je omogućena kaskadna mapa senke.",
+      "lbl-shadowmapResolution": "Rezolucija mape senke",
+      "lbl-shadowBias": "Pristrasnost senke",
+      "lbl-shadowRadius": "Radijus senke",
+      "lbl-showCameraHelper": "Prikaži pomagača fotoaparata"
+    },
+    "groundPlane": {
+      "name": "Kopneni avion",
+      "description": "Ravan kopneni avion koji se prostire u daljini.",
+      "lbl-color": "Boja",
+      "lbl-receiveShadow": "Primi senku",
+      "lbl-generateNavmesh": "Generiši navmesh"
+    },
+    "link": {
+      "description": "Link ka sobi ili Veb lokaciji.",
+      "lbl-url": "URL adresa"
+    },
+    "map": {
+      "description": "3D geospatial mapa npr."
+    },
+    "model": {
+      "description": "3D model u vašoj sceni, učitan iz GLTF URL adrese ili datoteke.",
+      "lbl-usingGPUInstancingFlag": "Koristi GPU Instancing",
+      "lbl-modelurl": "Url adresa modela",
+      "lbl-envmapUrl": "Url adresa mape okruženja",
+      "lbl-textureOverride": "Zamena teksture",
+      "lbl-materialOverride": "Premošćiva materijala",
+      "error-url": "Greška pri učitavanju sa URL adrese",
+      "lbl-loopAnimation": "Animacija petlje",
+      "lbl-isAvatar": "Je Avatar",
+      "lbl-isGPUInstancing": "koristi GPU Instancing",
+      "lbl-isDynamic": "Dinamička je",
+      "lbl-castShadow": "Livena senka",
+      "lbl-receiveShadow": "Primi senku",
+      "lbl-interactable": "Interaktivno",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "Ime",
+      "lbl-url": "Url adresa modela",
+      "lbl-buy": "Kupi url adresu",
+      "lbl-learnMore": "Saznajte više url adrese",
+      "lbl-htmlContent": "Html sadržaj",
+      "lbl-interactionText": "Tekst interakcije",
+      "lbl-interactionType": "Vrsta interakcije"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Materijal",
+      "error-materialID": "Greška pri pronalaženju materijala",
+      "placeholder-materialID": "Izaberi materijal",
+      "lbl-patternTarget": "Podudaranje šara",
+      "lbl-pattern": "Obrazac",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Vrsta interakcije",
+      "text": "Tekst interakcije",
+      "distance": "Udaljenost interakcije",
+      "theme": "Tema interakcije",
+      "name": "Ime interakcije",
+      "description": "Opis interakcije",
+      "images": "Slike interakcije",
+      "videos": "Video zapisi interakcije",
+      "urls": "Url adrese interakcije",
+      "models": "Modeli interakcija"
+    },
+    "group": {
+      "name": "Grupe",
+      "description": "Grupa od više objekata koji se mogu premeštati ili duplirati zajedno.\nPrevucite i otpustite objekte u grupu u hijerarhiji."
+    },
+    "hemisphere": {
+      "name": "Svetlost hemisfere",
+      "description": "Svetlo koje osvetljava scenu direktno iznad glave.",
+      "lbl-skyColor": "Boja neba",
+      "lbl-groundColor": "Zemljana boja",
+      "lbl-intensity": "Intenzitet"
+    },
+    "image": {
+      "name": "Slika",
+      "description": "Dinamički učitava sliku.",
+      "lbl-imgURL": "Url adresa slike",
+      "lbl-transparency": "Režim prozirnosti",
+      "lbl-alphaCutoff": "Alfa odsekanje",
+      "lbl-projection": "Projekcija",
+      "lbl-side": "Strana",
+      "info-controls": "Isključite vidljivost kontrola medija.",
+      "info-transparency": "Kako primeniti prozirnost:",
+      "info-opaque": "'neprozirno' = bez transparentnosti",
+      "info-blend": "'blenda' = koristite slike alfa kanala",
+      "info-mask": "'maska' = Korišćenje navedene vrednosti preseka za on/off prozirnost (više izvođenja)",
+      "info-alphaCutoff": "Pikseli sa alfa vrednostima nižim od ovoga biće prozirni",
+      "error-url": "Nevažeća URL adresa"
+    },
+    "name": {
+      "lbl-name": "Ime"
+    },
+    "partileEmitter": {
+      "description": "Emituje čestice da bi stvorio čestice.",
+      "lbl-particleCount": "Broj čestica",
+      "lbl-image": "Slika",
+      "lbl-ageRandomness": "Nasumičnost starosti",
+      "lbl-lifetime": "Ћivotu",
+      "lbl-lifetimeRandomness": "Slučajnost doživotnog života",
+      "lbl-sizeCurve": "Kriva veličina",
+      "lbl-startPSize": "Veličina početne čestice",
+      "lbl-endPSize": "Veličina krajnje čestice",
+      "lbl-sizeRandomness": "Veličina slučajnosti",
+      "lbl-colorCurve": "Kriva boja",
+      "lbl-startColor": "Početna boja",
+      "lbl-startOpacity": "Započni neprozirnost",
+      "lbl-middleColor": "Srednja boja",
+      "lbl-middleOpacity": "Srednja neprozirnost",
+      "lbl-endColor": "Boja kraja",
+      "lbl-endOpacity": "Okončaj neprozirnost",
+      "lbl-velocityCurve": "Kriva brzina",
+      "lbl-startVelocity": "Početna Brzina",
+      "lbl-endVelocity": "End Brzina",
+      "lbl-angularVelocity": "Ugaona brzina",
+      "info-ageRandomness": "Količina varijacije između onoga kada se čestice mreste.",
+      "info-lifetime": "Maksimalna starost čestica pre nego što se ponovo zaspe.",
+      "info-lifetimeRandomness": "Količina varijacije između života čestica.",
+      "info-sizeRandomness": "Količina varijacije između početnih veličina čestica.",
+      "error-url": "Greška pri učitavanju sa URL adrese"
+    },
+    "clouds": {
+      "name": "Oblak",
+      "description": "Volumen oblaka zasnovan na Sprite-u.",
+      "lbl-image": "Sprite slika",
+      "lbl-wroldScale": "Svetska skala",
+      "lbl-dimensions": "Dimenzije",
+      "lbl-noiseZoom": "Zumiranje buke",
+      "lbl-noiseOffset": "Pomak buke",
+      "lbl-spriteScale": "Sprite skala",
+      "lbl-fogColor": "Boja magle",
+      "lbl-fogRange": "Domet magle",
+      "error-url": "Greška pri učitavanju sa URL adrese"
+    },
+    "ocean": {
+      "name": "Okean",
+      "description": "Površina okeana sa talasima i penom",
+      "lbl-normalMap": "Normalna mapa",
+      "lbl-distortionMap": "Mapa izobličenja",
+      "lbl-envMap": "Mapa okruženja",
+      "lbl-color": "Boja",
+      "lbl-shallowWaterColor": "Plitka boja vode",
+      "lbl-shallowToDeepDistance": "Plitko do duboke daljine",
+      "lbl-opacityFadeDistance": "Rastojanje neprozirnosti",
+      "lbl-opacityRange": "Opseg neprozirnosti",
+      "lbl-shininess": "Shininess",
+      "lbl-reflectivity": "Refleksivnost",
+      "lbl-foamColor": "Boja pene",
+      "lbl-foamSpeed": "Brzina pene",
+      "lbl-foamTiling": "Pločica sa penom",
+      "lbl-bigWaveTiling": "Pločice velikog talasa",
+      "lbl-bigWaveSpeed": "Brzina velikog talasa",
+      "lbl-bigWaveHeight": "Visina velikog talasa",
+      "lbl-waveSpeed": "Brzina talasa",
+      "lbl-waveScale": "Talasna skala",
+      "lbl-waveTiling": "Talasaste pločice",
+      "lbl-waveDistortionSpeed": "Brzina izobličenja talasa",
+      "lbl-waveDistortionTiling": "Pločica za izobličenje talasa",
+      "error-url": "Greška pri učitavanju sa URL adrese"
+    },
+    "water": {
+      "name": "Voda",
+      "description": "Mala površina vode"
+    },
+    "interior": {
+      "name": "Unutrašnjih poslova",
+      "description": "Površina sa mapiranom teksturom kocke za oponašanje unutrašnjih okruženja",
+      "lbl-cubeMap": "Tekstura mape kocke",
+      "lbl-tiling": "Iznos pločica",
+      "lbl-size": "Veličina površine",
+      "error-url": "Greška pri učitavanju sa URL adrese"
+    },
+    "pointLight": {
+      "description": "Svetlo koje emituje sve pravce sa jedne tačke.",
+      "lbl-color": "Boja",
+      "lbl-intensity": "Intenzitet",
+      "lbl-range": "Opseg",
+      "lbl-decay": "Propadanje"
+    },
+    "scene": {
+      "name": "Scenu",
+      "description": "Osnovni objekat scene.",
+      "lbl-bgcolor": "Boja pozadine",
+      "lbl-fogType": "Tip magle",
+      "lbl-fogColor": "Boja magle",
+      "lbl-forNearDistance": "Magla blizu daljine",
+      "lbl-fogFarDistance": "Magla daleko rastojanje",
+      "lbl-fogDensity": "Gustina magle",
+      "lbl-audioSettings": "Koristi pozicioni zvuk",
+      "lbl-avatarDistanceModel": "Model na daljinu Avatar",
+      "lbl-avatarRolloffFactor": "Avatar Rolloff Factor",
+      "lbl-avatarRefDistance": "Udaljenost od avatara Ref",
+      "lbl-avatarMaxDistance": "Avatar Max Distance",
+      "lbl-mediaVolume": "Jačina zvuka medija",
+      "lbl-mediaDistanceModel": "Model medijske distance",
+      "lbl-mediaRolloffFactor": "Faktor prozivke medija",
+      "lbl-mediaRefDistance": "Rastojanje od ref medija",
+      "lbl-mediaMaxDistance": "Maksimalna udaljenost medija",
+      "lbl-mediaConeInnerAngle": "Unutrašnji ugao media konusa",
+      "lbl-mediaConeOuterAngle": "Medijski konus van ugla",
+      "lbl-mediaConeOuterGain": "Media Cone Outer Dobitak",
+      "info-avatarDistanceModel": "Algoritim koji se koristi za izračunavanje audio prozivke.",
+      "info-avatarRolloffFactor": "Dvostruka vrednost koja opisuje koliko brzo se jačina zvuka smanjuje dok se izvor udaljava od slušaoca. 0 na 1",
+      "info-avatarRolloffFactorInifinity": "Dvostruka vrednost koja opisuje koliko brzo se jačina zvuka smanjuje dok se izvor udaljava od slušaoca. Od 0 do Beskonačnosti",
+      "info-avatarRefDistance": "Dvostruka vrednost koja predstavlja referentno rastojanje za smanjenje jačine zvuka dok se izvor zvuka udaljava od slušaoca.",
+      "info-avatarMaxDistance": "Dvostruka vrednost koja predstavlja maksimalnu udaljenost između audio izvora i slušaoca, nakon čega se jačina zvuka dalje ne smanjuje.",
+      "info-mediaDistanceModel": "Algoritim koji se koristi za izračunavanje audio prozivke.",
+      "info-mediaRolloffFactor": "Dvostruka vrednost koja opisuje koliko brzo se jačina zvuka smanjuje dok se izvor udaljava od slušaoca. 0 na 1",
+      "info-mediaRolloffFactorInfinity": "Dvostruka vrednost koja opisuje koliko brzo se jačina zvuka smanjuje dok se izvor udaljava od slušaoca. Od 0 do Beskonačnosti",
+      "info-mediaRefDistance": "Dvostruka vrednost koja predstavlja referentno rastojanje za smanjenje jačine zvuka dok se izvor zvuka udaljava od slušaoca.",
+      "info-mediaMaxDistance": "Dvostruka vrednost koja predstavlja maksimalnu udaljenost između audio izvora i slušaoca, nakon čega se jačina zvuka dalje ne smanjuje.",
+      "info-mediaConeInnerAngle": "Dvostruka vrednost koja opisuje ugao, u stepenima, korneta unutar kojeg neće biti smanjenja jačine zvuka.",
+      "info-mediaConeOuterAngle": "Dvostruka vrednost koja opisuje ugao, u stepenima korneta izvan kojeg će volumen biti smanjen konstantnom vrednošću, definisanom atributom coneOuterGain.",
+      "info-mediaConeOuterGain": "Dvostruka vrednost koja opisuje količinu smanjenja jačine zvuka izvan korneta definisanog atributom coneOuterAngle. Njegova podrazumevana vrednost je 0, što znači da se ne može čuti nijedan zvuk.",
+      "lbl-simpleMaterials": "Koristi jednostavne materijale",
+      "lbl-lods": "LoD-ove",
+      "info-lods": "Postavlja rastojanja na kojima se menjaju nivoi detalja.",
+      "info-simpleMaterials": "Pretvara sve skupe materijale u jednostavnije da bi skinuo opterećenje sa prikazivanja scene.",
+      "lbl-rendererSettings": "Zamena postavki prikazivača",
+      "lbl-csm": "Kaskadne mape senki",
+      "info-csm": "Omogućava kaskadne mape senki.",
+      "lbl-toneMapping": "Mapiranje tona",
+      "info-toneMapping": "Omogućava mapiranje tona na prikazivaču scene. Nema efekta kada je omogućena obrada pošte.",
+      "lbl-toneMappingExposure": "Izlaganje mapiranju tona",
+      "info-toneMappingExposure": "Određuje izloženost mapiranju tona na prikazivačima scene. Nema efekta kada je omogućena obrada pošte.",
+      "lbl-shadowMapType": "Tip mape senke",
+      "info-shadowMapType": "Tip mape senke",
+      "error-url": "Greška pri učitavanju sa URL adrese"
+    },
+    "sceneCamera": {
+      "name": "Kamera za pregled scene",
+      "description": "Kamera je koristila za generisanje sličice za vašu scenu i početnu poziciju za kameru za pregled.",
+      "lbl-setFromViewPort": "Postavi iz prikaza"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "Doba dana",
+      "lbl-color": "Boja",
+      "lbl-latitude": "Geografska širina",
+      "lbl-luminance": "Luminance",
+      "lbl-scattering": "Rasuti iznos",
+      "lbl-scatteringDistance": "Rasipanje rastojanja",
+      "lbl-horizonStart": "Početak horizonta",
+      "lbl-horizonEnd": "Kraj horizonta",
+      "lbl-texture": "Teksturu",
+      "lbl-skyType": "Tip neba",
+      "error-url": "Greška pri učitavanju sa URL adrese"
+    },
+    "spawnPoint": {
+      "name": "Tačka mresta",
+      "description": "Tačka u kojoj će se ljudi pojaviti kada uđu u vašu scenu.\nIkona u viewportu predstavlja stvarnu veličinu avatara."
+    },
+    "spotLight": {
+      "description": "Svetlo koje emituje duž pravca, osvetljavajući objekte unutar korneta.",
+      "lbl-color": "Boja",
+      "lbl-intensity": "Intenzitet",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Ugao",
+      "lbl-range": "Opseg",
+      "lbl-decay": "Propadanje"
+    },
+    "transform": {
+      "title": "Transformaciju",
+      "lbl-postition": "Poziciju",
+      "lbl-rotation": "Rotacije",
+      "lbl-scale": "Skali"
+    },
+    "triggereVolume": {
+      "description": "Postavlja svojstvo ciljnog objekta pri unosu i odsustvu.",
+      "lbl-target": "Objekat",
+      "lbl-onenter": "Na enter",
+      "lbl-onexit": "Pri izlasku",
+      "lbl-showHelper": "Prikaži helper Mesh",
+      "ph-errorNode": "Nedostaje kôd greške.",
+      "ph-selectNode": "Izaberite oglas..."
+    },
+    "video": {
+      "name": "Video zapis",
+      "description": "Dinamički učitava video zapis.",
+      "lbl-video": "Video zapis",
+      "lbl-projection": "Projekcija",
+      "lbl-islivestream": "Live Stream",
+      "lbl-interactable": "Interaktivno",
+      "lbl-id": "ID elementa",
+      "lbl-play": "Igra",
+      "lbl-pause": "Pauziraj",
+      "error-url": "Greška pri učitavanju sa URL adrese"
+    },
+    "volumetric": {
+      "name": "Volumetric",
+      "description": "Dinamički učitava volumetrijski video zapis.",
+      "uvolPaths": "UVOL staze",
+      "playmode": "Režim reprodukcije",
+      "playtitle": "Igra",
+      "pausetitle": "Pauziraj"
+    },
+    "spline": {
+      "description": "Dinamički kreirajte i prilagodite krive linije.",
+      "lbl-addNode": "Dodajte čvor u krivu."
+    },
+    "systemnode": {
+      "description": "Priloži skriptu.",
+      "lbl-filePath": "Url adresa",
+      "lbl-systemUpdateType": "Tačka ubrizgavanja",
+      "lbl-enableClient": "Klijent",
+      "lbl-enableServer": "Server",
+      "lbl-args": "Argovi",
+      "error-url": "Greška pri učitavanju skripte sa URL adrese"
+    },
+    "portal": {
+      "lbl-portal": "Povezani portal",
+      "lbl-redirect": "Koristi preusmeravanje stranice",
+      "description": "Portat za teleportovanje igrača na navedenu lokaciju",
+      "lbl-locationName": "Lokaciju",
+      "lbl-modelUrl": "URL adresa modela",
+      "lbl-displayText": "Prikaži tekst",
+      "lbl-cubemapBake": "Peciva za kocku",
+      "lbl-spawnPosition": "Pozicija mresta",
+      "lbl-spawnRotation": "Mrest rotacije",
+      "lbl-triggerPosition": "Položaj okidača",
+      "lbl-triggerRotation": "Aktiviraj rotaciju",
+      "lbl-triggerScale": "Skala okidača"
+    },
+    "postprocessing": {
+      "name": "Proknjiži obradu",
+      "description": "Za primenu efekata \"Obrada posta\" na scenu."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Novi projekat",
+      "backLink": "Nazad na projekte",
+      "featured": "Istaknute",
+      "all": "Sve",
+      "newProject": "Novi prazan projekat",
+      "ph-search": "Scene pretrage..."
+    },
+    "grid": {
+      "loading": "Učitavanje..."
+    },
+    "page": {
+      "header": "Dobrodošli",
+      "headerMsg": "Ako ste novi ovde preporučujemo vam da prođete kroz tutorijal. U suprotnom, odmah uskočite i kreirajte projekat od početka ili iz jednog od naših predložaka.",
+      "lbl-startTutorial": "Započni uputstvo",
+      "projects": "Projekte",
+      "lbl-newProject": "Novi projekat"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Učitavanje...",
+      "placeObject": "Postavite objekat",
+      "placeObjectAtOrigin": "Postavite objekat u poreklo",
+      "copyURL": "Kopiraj URL adresu",
+      "openInNewTab": "Otvori URL adresu na novoj kartici",
+      "deleteAsset": "Izbriši osnovno sredstvo"
+    },
+    "filebrowser": {
+      "addNewFolder": "Dodaj novu fasciklu",
+      "cutAsset": "Iseci",
+      "copyAsset": "Kopiranja",
+      "pasteAsset": "Nalepite",
+      "renameAsset": "Preimenujete",
+      "viewAssetProperties": "Prikaži svojstva"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Preimenujete",
+    "lbl-duplicate": "Duplirane",
+    "lbl-group": "Grupe",
+    "lbl-delete": "Izbrišete",
+    "lbl-expandAll": "Razvij sve",
+    "lbl-collapseAll": "Skupi sve",
+    "isseus": "Pitanja:"
+  },
+  "dnd": {
+    "nodes": "{{count}} čvorovi",
+    "models": "{{count}} izabranih modela",
+    "images": "{{count}} slike izabrane",
+    "videos": "{{count}} izabranih video zapisa",
+    "audio": "{{count}} izabranih audio izvora"
+  },
+  "dialog": {
+    "title": "Uređivač",
+    "lbl-confirm": "U redu",
+    "lbl-cancel": "Otkaži",
+    "exportProject": {
+      "title": "Izvezi projekat",
+      "lbl-confirm": "Izvezi projekat",
+      "lbl-combineMesh": "Kombinovanje meshesa",
+      "lbl-removeUnused": "Uklanjanje neiskorišćenih objekata"
+    },
+    "performance": {
+      "title": "Provera performansi",
+      "lbl-confirm": "Objavi scenu",
+      "learnMore": "Uči više",
+      "lbl-polycount": "Broj mnogougaonika",
+      "lbl-material": "Materijala",
+      "lbl-texture": "Teksture",
+      "lbl-lights": "Svetla",
+      "lbl-fileSize": "Veličina datoteke",
+      "info-polycount": "Preporučujemo da vaša scena ne koristi više od 50.000 trouglova za mobilne uređaje.",
+      "info-material": "Preporučujemo da koristite ne više od 25 jedinstvenih materijala u vašoj sceni da biste smanjili pozive za crtanje na mobilnim uređajima.",
+      "info-texture": "Preporučujemo da vaše teksture ne koriste više od 256MB video RAM memorije za mobilne uređaje. Takođe preporučujemo da ne koristite teksture veće od 2048 x 2048.",
+      "info-lights": "Iako dinamička svetla nisu omogućena na mobilnim uređajima, preporučujemo da koristite ne više od 3 svetla u vašoj sceni (ne računajući ambijentalna i hemisferska svetla) da bi vaša scena mogla da radi na niskim krajnjim računarima.",
+      "info-fileSize": "Preporučujemo konačnu veličinu datoteke ne veću od 16MB za veze niskog propusnog opsega. Smanjenje veličine datoteke će skratiti vreme potrebno za preuzimanje vaše scene.",
+      "txt-polycount": "{{count}} trouglovi",
+      "txt-material": "{{count}} materijali",
+      "txt-ram": "~{{count}} Video RAM memorija",
+      "txt-texture": "{{count}} velike teksture",
+      "txt-lights": "{{count}} svetla"
+    },
+    "progress": {
+      "title": "Učitavanje...",
+      "msg": "Učitavanje...",
+      "lbl-cancel": "Otkaži"
+    },
+    "publish": {
+      "title": "Objavi scenu",
+      "lbl-confirm": "Sačuvaj i objavi",
+      "lbl-name": "Ime scene",
+      "info-name": "Ime mora da ima između 4 i 64 znaka i ne može da sadrži podvlake"
+    },
+    "published": {
+      "title": "Scena objavljena",
+      "header": "Vaša scena je objavljena.",
+      "lbl-view": "Prikaz scene"
+    },
+    "saveNewProject": {
+      "title": "Podršku",
+      "lbl-name": "Ime projekta",
+      "info-name": "Ime mora da ima između 4 i 64 znaka i ne može da sadrži podvlake",
+      "lbl-confirm": "Sačuvaj projekat"
+    },
+    "support": {
+      "title": "Podršku",
+      "header": "Treba li da prijaviš problem?",
+      "msg": "Možete da nam <1>podnesete GitHub problem</1> ili da nam pošaljete e-mail za podršku <3> na{{mail}}</3>",
+      "discord": "Možete nas naći i na <1>Neslogi</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Bing slike",
+      "search": "Pretraži po bingu"
+    },
+    "bingVideo": {
+      "name": "Bing video zapisi",
+      "search": "Pretraži po bingu"
+    },
+    "element": {
+      "name": "Elemente"
+    },
+    "myAssets": {
+      "name": "Moja imovina"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Pretraga po Google-u"
+    },
+    "tenor": {
+      "name": "Tenor GIF-ove",
+      "search": "Pretraži po Tenoru",
+      "ph-search": "Pretraži GIF-ove..."
+    },
+    "sketchfab": {
+      "name": "Sketchfab",
+      "search": "Pretraži po Sketchfab-u"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Otpremi osnovno sredstvo"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Pretraži slike..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Pretražite video zapise..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Sredstva pretrage..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Modeli pretrage..."
+    },
+    "useUpload": {
+      "multipleFileError": "Unos ne prihvata više datoteka.",
+      "mineTypeError": "\"{{name}}\" se ne podudara sa sledećim tipovima ili ekstenzijama mimova: {{types}}",
+      "progressTitle": "Otpremanje datoteka",
+      "progressMsg": "Otpremanje datoteka {{uploaded}} {{total}}: {{percentage}}%",
+      "uploadError": "Greška pri otpremanju",
+      "uploadErrorMsg": "Greška pri otpremanju datoteke: {{message}}",
+      "uploadErrorDefaultMsg": "Došlo je do nepoznate greške"
+    }
+  },
+  "openLink": {
+    "description": "Kliknite na dugme \"Otvori\" da biste se kretali do veze.",
+    "lbl-open": "Otvorite"
+  },
+  "interactableModel": {
+    "lbl-buy": "Kupi",
+    "lbl-learnMore": "Uči više"
+  },
+  "corsProxyButton": {
+    "tooltip": "Koristi Cors proxy server"
+  }
+}

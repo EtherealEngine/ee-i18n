@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "voDleH",
+      "resendEmail": "nISopchu'meH mIw nISuq. nISoptaHvIS {{here}} , nIHwI' DaSuqrupchugh, nIHlIj DaSop neH.",
+      "haveAnAccount": "hamlet Daghaj'a'?"
+    },
+    "forgotPassword": {
+      "header": "pasDaj",
+      "enterEmail": "naDevvo' peghItlh.",
+      "lbl-email": "tera' Duypu'",
+      "lbl-submit": "ngem",
+      "emailSent": "tugh naDevvo' chemvaH.\" 'ej qeylIS naDev lI' DaQoyDI'."
+    },
+    "login": {
+      "email": "| tlhIngan Degh",
+      "username": "+ Horey'So",
+      "social": "vaj"
+    },
+    "magiklink": {
+      "header": "qor",
+      "descriptionEmail": "tugh jIQaw'meH pIj malja'lIj je.",
+      "descriptionSMS": "naDev ramjep, rIQmo' chaq 'e' niDDI' muSHa'lIj.",
+      "descriptionEmailSMS": "tugh qaSpu'bogh boQwI' DeSDu'wIjDaq ghoSjaj.",
+      "descriptionSMSUS": "QupwI'pu' rur, ghu' qaStaHvIS poH nI' puS.",
+      "lbl-email": "tera' Duypu'",
+      "lbl-emailPhone": "tera'Daq ghaH ghom'a'",
+      "lbl-phone": "nugh",
+      "agree": "jIHeghnIS ",
+      "terms": "& HoSloD",
+      "lbl-submit": "qorDugh",
+      "email-sent-msg": "marlI'vaD jatlhqa' targh qengtaHvIS. qeylIS HoD, qeylIS Hoch.",
+      "success-msg": "marlI'vaD jatlhqa' targh qengtaHvIS. qeylIS DeghwI''e' DaNoSmoHjaj.",
+      "sms-sent-msg": "marlI'vaD jatlhqa' targh qengtaHvIS. DaHjaj QeHlIj."
+    },
+    "passwordLogin": {
+      "header": "ghIh",
+      "lbl-email": "tera' Duypu'",
+      "lbl-password": "polonyuS",
+      "lbl-rememberMe": "HIqaw",
+      "lbl-signin": "ghIh",
+      "forgotPassword": "pAgh, De' chuS'a' joH.",
+      "signup": "DopQo''a' neH? bIjatlh 'e' yImev",
+      "lbl-login": "QonoS",
+      "ph-password": "polonyuS",
+      "ph-email": "maSIl"
+    },
+    "social": {
+      "gitHub": "yISuq",
+      "google": "bIghoSDI' QaQ",
+      "facebook": "yItlhej",
+      "linkedin": "Qap",
+      "twitter": "yIvuSQo'"
+    },
+    "register": {
+      "header": "bIjatlh 'e' yImev",
+      "login": "QonoS",
+      "lbl-signup": "bIjatlh 'e' yImev",
+      "lbl-password": "polonyuS",
+      "lbl-email": "tera' Duypu'",
+      "passwordNotMatch": "meqpa'nganpu'",
+      "ph-password": "polonyuS",
+      "ph-confirmPassword": "qorDu'",
+      "ph-email": "maSIl"
+    },
+    "resetPassword": {
+      "header": "polonyuS",
+      "description": "ghotpu'lI'Daq naSwI'pu'lI' botlhDaq",
+      "lbl-submit": "polonyuS",
+      "lbl-password": "polonyuS",
+      "lbl-confirmPassword": "qorDu'",
+      "passwordNotMatch": "meqpa'nganpu'",
+      "nowLoginYourAccount": "qo' Dache'laH",
+      "yourPasswordResetSuccess": "bIleghchu'meH Dachelchu' jay'!"
+    },
+    "verifyEmail": {
+      "header": "QIm",
+      "processing": "qaStaHvIS poH, mach ghoSpu'bogh mopwI', 'ej pongvetlh ghoSjaj ngIvwI'.\""
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "pagh",
+      "loading": "pagh'a' DuSaQ",
+      "col-name": "pong",
+      "col-scene": "chu'",
+      "col-maxuser": "marSe'luS",
+      "lbl-search": "devwI'",
+      "lbl-new": "chu'"
+    },
+    "newLocation": {
+      "title": "yaS",
+      "success": "pov qonwI' 'oH.",
+      "failure": "qaStaHvIS vay';",
+      "removeSuccess": "*be'neDIq* muSHa'ghach.",
+      "nameInUse": "Ha', 'e' yIHar.",
+      "nameRequire": "Qo'noS poHDaq ponglu'",
+      "validNumber": "'ej not Hoch yI'uy, 'ej ba'chuqtaHvIS.",
+      "lbl-name": "pong",
+      "lbl-maxuser": "marSe'luS",
+      "lbl-scene": "chu'",
+      "lbl-type": "Segh",
+      "lbl-ve": "DevwI'",
+      "lbl-gme": "'enlIlvaD jatlh 'anu",
+      "lbl-update": "jun",
+      "lbl-create": "chenmoH",
+      "tooltipCanNotBeDeleted": "ramlaH pagh yIlo'",
+      "confirmation": "bIbej'a'?",
+      "lbl-yes": "HIja'",
+      "lbl-no": "Qo'"
+    },
+    "share": {
+      "lbl-share": "SaH",
+      "ph-phoneEmail": "quvHa'moH chenmoH",
+      "lbl-phoneEmail": "Qu'vatlh, qabDaj Sabchu'chugh",
+      "lbl-copy": "qoS",
+      "lbl-send-invite": "chev",
+      "title": "Qu'vatlhlIj leS bIleghlaHchu'be'lI'",
+      "linkCopied": "tlhInganpu'."
+    },
+    "setting": {
+      "audio": "qaStaHvIS",
+      "lbl-volume": "muq",
+      "lbl-microphone": "much",
+      "graphics": "ghIlghameS",
+      "controls": "yIvusHa'taHvIS",
+      "lbl-control-type": "ngeD",
+      "lbl-control-scheme": "ghe''egh",
+      "lbl-resolution": "polonyuS",
+      "lbl-shadow": "SaS",
+      "lbl-pp": "layerteS",
+      "lbl-pbr": "buy'",
+      "lbl-automatic": "'ampaS",
+      "xrusersetting": "naDev puqpu'",
+      "rotation": "romuluSngan",
+      "rotation-smooth-speed": "ghobe'",
+      "rotation-angle": "vaj boQ",
+      "moving": "Vih",
+      "user-avatar": "'ay'",
+      "invert-rotation": "ghuy'cha'!",
+      "show-avatar": "qInSa'vam"
+    },
+    "profile": {
+      "lbl-profile": "qaStaHvIS",
+      "lbl-settings": "'aw'",
+      "lbl-username": "qaStaHvIS",
+      "update-msg": "nItebHa'",
+      "inviteCode": "bo'DIj",
+      "youAreAn": "bIlughbe'",
+      "youAreA": "soH",
+      "showUserId": "jI'IQ",
+      "hideUserId": "juppu' vIghaj",
+      "showApiKey": "yIjatlh",
+      "hideApiKey": "porgh rur",
+      "apiKey": "tlhogh",
+      "logout": "wanI'",
+      "connectPhone": "jIblIj",
+      "connectEmail": "QumpIn",
+      "connectPhoneEmail": "QumwI'lIjDaq ghopDu'lIjDaq ghop",
+      "or": "ghap",
+      "lbl-wallet": "yItoS",
+      "ph-email": "maSIl",
+      "ph-phone": "nugh Serman",
+      "ph-phoneEmail": "/ Hol",
+      "phoneEmailError": "# quvHa'ghach tera'Daq",
+      "phoneError": "wa' neH lurur #",
+      "emailError": "chImqu'",
+      "loginWithReadyPlayerMe": "yIqIMHa'Qo' 'e' yIHarQo'",
+      "connectSocial": "yejquv",
+      "createOne": "bI'Ipchugh, vaj parmaqmo' pIparHa'ghach DaSIQchugh",
+      "connections": {
+        "title": "yuD",
+        "ipError": "Hoch vIqelchu'meH jIyajlaHbe'",
+        "disconnect": "baq",
+        "connect": "rar"
+      },
+      "profileDropdown": {
+        "avatar": "ghu'vam",
+        "profile": "qaStaHvIS",
+        "adminConsole": "boqra'ghom",
+        "logout": "yoS"
+      },
+      "userIcon": {
+        "lbl-name": "ponglIj yIchop",
+        "lbl-update": "jun",
+        "userId": "jup",
+        "ph-uploadImg": "jIhiv 'e' vIwaH",
+        "lbl-selectAcvatar": "ghom'a'",
+        "lbl-submit": "lIy"
+      },
+      "userSettings": {
+        "volume": "muq",
+        "microphone": "much",
+        "resolution": "polonyuS",
+        "high": "jen",
+        "low": "'eS",
+        "spatialAudio": "ngoQlIj rurchoH",
+        "enterMuted": "pa' 'e' yIbotQo'."
+      }
+    },
+    "oauth": {
+      "authenticating": "'oy'qu' Datlhob.",
+      "authFailed": "{{service}} ' tlheDjaj."
+    },
+    "magikLink": {
+      "wait": "qaStaHvIS poH, mach ghoSpu'bogh mopwI', 'ej pongvetlh ghoSjaj ngIvwI'.\""
+    },
+    "dashboard": {
+      "header": "['etDaq]",
+      "dashboard": "['etDaq]",
+      "users": "gho",
+      "feeds": "tlha'",
+      "instance": "chuq",
+      "locations": "pagh",
+      "invites": "targh",
+      "sessions": "ghopDu'",
+      "groups": "ghIl",
+      "parties": "polonyuS",
+      "chats": "QO'noS",
+      "content": "peSqIm",
+      "projects": "Qovpatlh",
+      "scenes": "Qapla'",
+      "avatars": "'anSa'ghom",
+      "benchmarking": "Qo'noS",
+      "bots": "pIq"
+    }
+  },
+  "oauth": {
+    "authenticating": "'oy'qu' Datlhob.",
+    "authFailed": "{{service}} ' tlheDjaj."
+  },
+  "magikLink": {
+    "wait": "qaStaHvIS poH, mach ghoSpu'bogh mopwI', 'ej pongvetlh ghoSjaj ngIvwI'.\""
+  },
+  "dashboard": {
+    "header": "['etDaq]",
+    "dashboard": "['etDaq]",
+    "users": "gho",
+    "feeds": "tlha'",
+    "instance": "chuq",
+    "locations": "pagh",
+    "routes": "romuluS",
+    "projects": "Qovpatlh",
+    "invites": "targh",
+    "sessions": "ghopDu'",
+    "groups": "ghIl",
+    "parties": "polonyuS",
+    "chats": "QO'noS",
+    "content": "peSqIm",
+    "scenes": "Qapla'",
+    "avatars": "'anSa'ghom",
+    "benchmarking": "Qo'noS",
+    "bots": "pIq",
+    "setting": "'aw'"
+  },
+  "avatar": {
+    "title": "QI'tu'",
+    "lbl-browse": "Meq 'ej wovbe'",
+    "lbl-thumbnail": "chIrgh",
+    "lbl-upload": "leng",
+    "selectAvatar": "Marg. . chay' wIQoy.\".",
+    "selectThumbnail": "DaH matoy'rup.",
+    "rotate": "jIr",
+    "pan": "mI",
+    "noBone": "ngoQDaj Saghbe'",
+    "outOfBound": "'IHtaHghach 'oH boqu' 'oH.",
+    "emptyObj": "'oH bortaS 'oHbe' ghu'",
+    "maxTriangleError": "{{allowedTriangles}}' tlhInganpu'.",
+    "selectValidFile": "ghopDaj HIvchoH",
+    "selectValidThumbnail": "QIt 'e' vIHarlaH, ghochvam ja'chuqmo' chaH.",
+    "fileOversized": "{{maxSize}} {{minSize}} vESDuj vIQoynISmoHlaH, 'ej ghotvaD",
+    "confirmation": "bIbej'a'?",
+    "canNotBeRemoved": "HuvchoHlaHbe'wI' 'oH HutlhtaH",
+    "remove": "tep",
+    "uploadFiles": "qo' QaQwI'pu'",
+    "useUrlInstead": "yIvoq",
+    "avatar": "ghum",
+    "cancel": "qIl",
+    "createAvatar": "chenmoH",
+    "delete": "Dotlh",
+    "view": "ghob",
+    "uploadAvatarInfo": "Qo'noSDaq Hu'tetlh.",
+    "name": "pong",
+    "enterName": "'entepray'",
+    "avatarInformation": "Qo'noS",
+    "description": "qurgh",
+    "key": "ngaQ",
+    "none": "pagh",
+    "submit": "lIy",
+    "edit": "tlha'",
+    "avatarUrl": "ghu'vam",
+    "upload-success-msg": "pong choHwI' 'ej Say'moHta' ghu'.",
+    "remove-success-msg": "pong choHwI' 'ej Say'moHta' ghu'.",
+    "warning-msg": "tlhingan SuvwI'na' DeghwI''e' Datu'chugh, vaj mu'meyvetlh?"
+  },
+  "personMenu": {
+    "inviteToParty": "toy'ri",
+    "addAsFriend": "wa'Hu'",
+    "mute": "jaS",
+    "block": "bot"
+  },
+  "person": {
+    "you": "SoH",
+    "yourScreen": "bI'IQ",
+    "muteForEveryone": "yaS wa'DIch",
+    "unmuteForEveryone": "'e' tera'ngan",
+    "muteMe": "HIQoy",
+    "unmuteMe": "HIHIja'",
+    "muteThisPerson": "puqchoH",
+    "unmuteThisPerson": "ghojmoHtaH",
+    "openPictureInPicture": "ghojwI'pu'"
+  }
+}

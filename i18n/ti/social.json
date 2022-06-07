@@ -1,0 +1,202 @@
+{
+  "addComment": "ሓሳብ ወሲኽካ...",
+  "share": "ንኻልኦት ኣካፍሎም",
+  "suggestions": "ርእይቶታት",
+  "seeAll": "ንዅሉ ርአ",
+  "likes": "ይፈትዎ",
+  "viewComments": "ንዅሉ {{count}} ሓሳባት ርኣዮ",
+  "more": "ዝያዳ",
+  "username": "ስም ተጠቃሚ",
+  "fullName": "ስም ስም",
+  "reportInApporpriate": "ዘይግቡእ ጸብጻብ",
+  "unfollow": "ዘይስዕቡ",
+  "goToPost": "ናብ ፖስት ኪድ",
+  "shareModal": "ንኻልኦት ኣካፍሎም",
+  "copyLink": "ሊንክ ቅዳሕ",
+  "embed": "ኢምቤድ",
+  "cancel": "ደምስስ",
+  "confirm": "ኣረጋግጽ",
+  "save": "ኣድሕን",
+  "profilePic": "ናይ {{user}}ፕሮፌል ስእሊ",
+  "ara": "ኣራ",
+  "follow": "ስዓብ",
+  "flames": "ሃልሃልታ",
+  "continue": "ቀጽል",
+  "partyInvitationSent": "ጻውዒት ሰልፊ ተላእከ",
+  "arMedia": {
+    "back": "ንድሕሪት ተመለስኩ",
+    "clip": "ክሊፕ",
+    "backgrounds": "ድሕረ-ባይታ",
+    "start": "ጀምር"
+  },
+  "arMediaform": {
+    "title": "ኣርእስቲ",
+    "type": "ዓይነት",
+    "clip": "ክሊፕ",
+    "background": "ድሕረ ባይታ",
+    "scene": "ትርኢት",
+    "save": "ኣድሕን",
+    "manifest-file": "ፋይል ግለጽ",
+    "audio-file": "ፋይል Mp4",
+    "dracosis-file": "ፋይል ድራኮሲስ .uvol",
+    "preview-file": "ናይ ምስሊ ፋይል ኣቐዲምካ ምርኣይ"
+  },
+  "creator": {
+    "myVideos": "ቪድዮታተይ",
+    "savedVideos": "እተዓቀበ ቪድዮታት",
+    "back": "ንድሕሪት ተመለስኩ",
+    "blocked-list": "እተዓጽወ ዝርዝር",
+    "block-user": "ተጠቃሚ ዓግቶ",
+    "dialog-content": "ንፕሮፌሰርን ትሕዝቶን እቲ ተጠቃሚ ኣይትርእዮን ኢኻ"
+  },
+  "creatorForm": {
+    "back": "ንድሕሪት ተመለስኩ",
+    "edit": "ፕሮፌሰር ኣረምቲ",
+    "save": "ኣድሕን",
+    "changeAvatar": "ምስሊ ኣቫታር ቀያይር",
+    "ph-selectPreview": "ኣቐዲምካ ናይ ምርኣይ ክእለት ምረጽ",
+    "ph-name": "ሽምካ",
+    "ph-username": "ስም ተጠቃሚኻ",
+    "ph-email": "ኢ-መይልካ",
+    "ph-tags": "ምልክት",
+    "ph-link": "ሊንክ",
+    "ph-aboutYou": "ብዛዕባኻ ዝያዳ",
+    "ph-twitter": "ትዊተር",
+    "ph-instagram": "ኢንስታግራም",
+    "ph-tiktok": "ቲክቶክ",
+    "sign-out": "ክታም ምውጻእ"
+  },
+  "dashboard": {
+    "title": "ሰሌዳ ዳሽቦርድ",
+    "dashboard": "ሰሌዳ ዳሽቦርድ",
+    "users": "ተጠቃሚት",
+    "feeds": "ምግቢ",
+    "arMedia": "ቪድዮ መራኸቢ ብዙሓን",
+    "editor": "ኣሰናዳኢ",
+    "creator": "ፈጣሪ"
+  },
+  "featured": {
+    "empty-list": "ሕጂ ዚምገብ ምግቢ የልቦን ..."
+  },
+  "feed": {
+    "back": "ንድሕሪት ተመለስኩ",
+    "related": "ምስኡ እተተሓሓዘ መግብታት",
+    "is-repoted-message": "ምግቢ ኸም ዚምገብ እዩ ዚንገር!"
+  },
+  "feedForm": {
+    "back": "ንድሕሪት ተመለስኩ",
+    "thanks": "ንማሕበረሰብና ስለ ዘካፈልኩምን ስለ ዘመሓየሽኩምን አመስግነኩም",
+    "share": "ንማሕበረሰብ ገለ ነገር ኣካፍሎ",
+    "upload": "ቪድዮ ኣራግፍ",
+    "ph-selectVideo": "ቪድዮ ምረጽ",
+    "preview": "ኣቐዲምካ ናይ ምርኣይ ምስሊ",
+    "ph-selectPreview": "ኣቐዲምካ ናይ ምርኣይ ክእለት ምረጽ",
+    "createFeed": "ምግቢ ንምድላው ቪድዮን ኣቐዲምካ ዚርአ ስእልን ኪህልወካ ኣለዎ!!!",
+    "ph-videoName": "ስም ቪድዮኻ",
+    "ph-type": "ነቲ ንማሕበረሰብ ከተካፍሎ እትደሊ ነገራት ጽሓፎ ... ",
+    "lbl-share": "ንኻልኦት ኣካፍሎም",
+    "save": "ኣድሕን እሞ ቀጺልካ ኺድ"
+  },
+  "feedMenu": {
+    "featured": "ገጽ",
+    "creators": "ፈጣሪታት",
+    "feed": "ምግቢ"
+  },
+  "header": {
+    "lbl-volumetric": "ጥራዛት"
+  },
+  "login": {
+    "account": "ጸብጻብ ኣሎካዶ ?",
+    "login": "መእተዊ",
+    "resetPassword": "ናይ ሓሶት password ምልክት (ካብ ኢ-መይል ሊንክ እንሆ)",
+    "notHavingAccount": "ጸብጻብዶ የብለይን?",
+    "signUp": "ተመዝገብ",
+    "forgotPassword": "ናይ የሆዋ ቓል ረሲዕካዶ ትፈልጥ?",
+    "back": "ንድሕሪት ተመለስኩ",
+    "or": "ወይ"
+  },
+  "comment": {
+    "add": "ሓሳብካ ወሲኽካ..."
+  },
+  "notification": {
+    "feedFire": " መግብኻ ኻብ ስራሕ ኣውጽኦ",
+    "feedBookmarked": " ምልክት እቲ እትምግቦ ምግቢ",
+    "comment": " ነቲ እትምግቦ መግቢ ከምዚ ብምባል ሓሳብ ሃበ -",
+    "commentFire": " ንምምጋብ ሓሳብካ ሰጐጕካ",
+    "follow": " ክስዕብካ ጀመርኩ",
+    "unfollow": " ደድሕሪኻ ምስዓብ ኣቋሪጽካ",
+    "followed": " ሰዓብካ",
+    "activity": "ንጥፈታት"
+  },
+  "onBoarding": {
+    "welcome": "እንቋዕ ብደሓን መጻእኩም!",
+    "description": "እቲ ዝዓበየ ጥርናፈ 370+ ንድፊ ናይ iOS prototyping።",
+    "next": "ቀጺሉ",
+    "discover": "ዓንቀጻት ርኸብ፣",
+    "news": "ዜናታትን ኣድራሻታትን",
+    "lines": "ንስነ - ኰዀብን ንባህግን ዘሎና ፍቕሪ ዚድርኸና እዚ ስምዒታት እዚ እዩ ።",
+    "getStarted": "ጀምር",
+    "meetUp": "ተራኸብ",
+    "friends": "ኣዕሩኽ ።",
+    "meet": "ምስ ኣዕሩኽተራት ተራኸብ"
+  },
+  "shareForm": {
+    "arcMedia": "ንኻልኦት ኣካፍሎም",
+    "videoCreated": "ነዛ ቪድዮ እዚኣ ፈጠርክዋ",
+    "shareWithBuddies": "ንኣዕሩኽካ ኣካፍሎም",
+    "shareVideo": "ቪድዮ ኣካፍል",
+    "save": "ንጥቕላል ካሜራ ኣዋህልሎ",
+    "cancel": "ደምስስ",
+    "close": "ቀሪብካ",
+    "addFeed": "ምግቢ ወሲኽካ"
+  },
+  "simpleModal": {
+    "emptyList": "ባዶ ዝርዝር",
+    "followers": " ስዒቡ",
+    "following": " ሰዓብቲ",
+    "flames": " ሃልሃልታ"
+  },
+  "splash": {
+    "screen": "ስፕላሽ ስክሪን",
+    "logo": "ሎጎ"
+  },
+  "story": {
+    "profilePic": "ናይ {{user}}ፕሮፌል ስእሊ"
+  },
+  "view": {
+    "cancel": "ደምስስ",
+    "choice": "ክትመርጾ እትኽእል ክልተ እተፈላለየ ሜላታት ምቕዳሕ ኣሎካ",
+    "verticalMode": "ትኽ ዝበለ ኣገባብ ናይ 30 ሰከንድ መዝገብ ግዜ ኣለዎ",
+    "horizontalMode": "ንጋድም እተሰርሐ ኣገባብ ደረት ዘይብሉ ናይ መዝገብ ግዜ ኣለዎ",
+    "start": "ጀምር",
+    "not-show": "ደጊም ኣይትርኣዮ",
+    "welcome": "ናብ ኣር. ሲ. እንቋዕ ብደሓን መጻእኩም!  ብሓንቲ ኻብተን ሆሎግራማታትና ናይ ብሕቲ ቪድዮታት ኣዳሉ እሞ ኣብ ማሕበራዊ መራኸቢታትካ ኣእትዎ!",
+    "step": "ስጕምቲ {{step}}",
+    "text-step-1": "ካብቲ ቤተ-መጻሕፍቲ ሆሎግራም ምረጽ።",
+    "text-step-2": "እዚ ኣጉመንትድ ሪሊቲ ዚብሃል ኰይኑ ነቲ ቦታ ብካሜራኻ ጌርካ ን3-5 ካልኢት ስካን ግበረሉ።",
+    "text-step-3-part-1": "እቲ ሆሎግራም መልህቕ ክትገብረሉ ኣብ እትደልየሉ ቦታ ሓንሳእ ኣብ ስክሪን ጠውቕ።",
+    "text-step-3-part-2": "ምኽሪ!  ነቲ ሆሎግራም ናብ ካልእ ቦታ ንምቕያር ሓንሳእ ኣብ ካልእ ቦታ ጠውቕ።",
+    "text-step-3-part-3": "ምኽሪ!  ብኣጻብዕቶ ኢድካን መሐበሪ ኣጻብዕካን ጌርካ ነቲ ኤለክትሮኒካዊ መሳርሒ ብምጭባጥ ወይ ብምስፋሕ ነቲ ሆሎግራም ከተዐርዮ ትኽእል ኢኻ።",
+    "text-step-4-part-1": "ነቲ እተቐድሐ ቪድዮ ኻባኻ ንምጅማር ክልተ ሳዕ ብቐይሕ መቐድሒ ጠውቕ።",
+    "text-step-4-part-2": "ኣብ STOP ክልተ ሳዕ ብቐይሕ መቐድሒ ድምጺ ጠውቕ።"
+  },
+  "video": {
+    "back": "ንድሕሪት ተመለስኩ"
+  },
+  "terms": {
+    "confirmTerms": "ነቲ ዅነታት ኣገልግሎት እሰማምዓሉ እየ",
+    "confirmPolicy": "ንፖሊሲ ምስጢር እሰማምዓሉ እየ"
+  },
+  "registration": {
+    "ph-phoneEmail": "ተሌፎን / ኢ - መይል ተጠቐም",
+    "facebook": "ምስ ፌስቡክ ምቕጻል",
+    "google": "ምስ ጎልጋል ምቕጻል",
+    "linkedin": "ምስ ሊንክዲን ቀጽል",
+    "twitter": "ምስ ተዊተር ምቕጻል",
+    "gitHub": "ምስ ጊትሀብ ቀጽል",
+    "connect": "ኢ-መይልካ ወይ ቍጽሪ ተሌፎንካ ኣራኽብ",
+    "logIn": "እቶ",
+    "LogInTo": "መዝገብ",
+    "continueAsGuest": "ከም ጋሻ ቐጽል"
+  }
+}

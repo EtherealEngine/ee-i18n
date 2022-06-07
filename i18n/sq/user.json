@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Email konfirmimi",
+      "resendEmail": "Ju lutem kontrolloni email-in tuaj për të verifikuar llogarinë tuaj. Nëse nuk keni marrë një e-mail, ju lutem kliko {{here}} për të rishenduar emailin e verifikimit.",
+      "haveAnAccount": "Ke llogari?"
+    },
+    "forgotPassword": {
+      "header": "Fjalëkalimi i harruar",
+      "enterEmail": "Ju lutem futni adresën tuaj të regjistruar të postës elektronike dhe ne do t'ju dërgojmë një lidhje për rivendosjen e fjalëkalimit.",
+      "lbl-email": "Adresa email",
+      "lbl-submit": "Dërgo lidhje",
+      "emailSent": "Reset Password Email u dërgua. Ju lutem kontrolloni e-mailin tuaj."
+    },
+    "login": {
+      "email": "Email | SMS",
+      "username": "Emri i përdoruesit + Fjalëkalimi",
+      "social": "Shoqërore"
+    },
+    "magiklink": {
+      "header": "Lidhja e hyrjes",
+      "descriptionEmail": "Ju lutem futni adresën tuaj të postës elektronike dhe ne do t'ju dërgojmë një lidhje hyrjeje nëpërmjet Email-it.",
+      "descriptionSMS": "Ju lutem futni numrin tuaj të telefonit dhe ne do t'ju dërgojmë një lidhje hyrjeje nëpërmjet SMS-së.",
+      "descriptionEmailSMS": "Ju lutem futni adresën tuaj email ose numrin e telefonit (10 shifra, vetëm SHBA) dhe ne do t'ju dërgojmë një lidhje hyrjeje nëpërmjet Email ose SMS.",
+      "descriptionSMSUS": "Ju lutem futni numrin tuaj të telefonit (10 shifra, vetëm SHBA) dhe ne do t'ju dërgojmë një lidhje hyrjeje nëpërmjet SMS-së.",
+      "lbl-email": "Adresa email",
+      "lbl-emailPhone": "Email ose numri i telefonit",
+      "lbl-phone": "Numri i telefonit",
+      "agree": "Jam dakort me ",
+      "terms": "Kushtet dhe kushtet",
+      "lbl-submit": "Dërgo lidhjen e hyrjes",
+      "email-sent-msg": "Lidhja Magjike e Hyrjes u dërgua. Ju lutem kontrolloni email-in tuaj.",
+      "success-msg": "Lidhja Magjike e Hyrjes u dërgua. Ju lutem kontrolloni email-in ose SMS-në tuaj.",
+      "sms-sent-msg": "Lidhja Magjike e Hyrjes u dërgua. Ju lutem kontrolloni SMS-në tuaj."
+    },
+    "passwordLogin": {
+      "header": "Hyr",
+      "lbl-email": "Adresa email",
+      "lbl-password": "Fjalëkalimi",
+      "lbl-rememberMe": "Më kujto mua.",
+      "lbl-signin": "Hyr",
+      "forgotPassword": "Harrove fjalëkalimin?",
+      "signup": "Nuk ke llogari? Regjistrohu",
+      "lbl-login": "Hyr",
+      "ph-password": "Fjalëkalimi",
+      "ph-email": "Email"
+    },
+    "social": {
+      "gitHub": "Hyrje me GitHub",
+      "google": "Hyrje me Google",
+      "facebook": "Hyrje me Facebook",
+      "linkedin": "Hyrje me Linkedin",
+      "twitter": "Hyrje me Twitter"
+    },
+    "register": {
+      "header": "Regjistrohu",
+      "login": "Hyr",
+      "lbl-signup": "Regjistrohu",
+      "lbl-password": "Fjalëkalimi",
+      "lbl-email": "Adresa email",
+      "passwordNotMatch": "Fjalëkalimet nuk përputhen",
+      "ph-password": "Fjalëkalimi",
+      "ph-confirmPassword": "Konfirmo fjalëkalimin",
+      "ph-email": "Email"
+    },
+    "resetPassword": {
+      "header": "Rinis fjalëkalimin",
+      "description": "Shkruaj fjalëkalimin për adresën tënde të postës elektronike",
+      "lbl-submit": "Rinis fjalëkalimin",
+      "lbl-password": "Fjalëkalimi",
+      "lbl-confirmPassword": "Konfirmo fjalëkalimin",
+      "passwordNotMatch": "Fjalëkalimet nuk përputhen",
+      "nowLoginYourAccount": "Tani mund të futesh në llogarinë tënde",
+      "yourPasswordResetSuccess": "Fjalëkalimi juaj u rivendos me sukses!"
+    },
+    "verifyEmail": {
+      "header": "Verifiko e-mail",
+      "processing": "Ju lutem prisni një moment ndërsa përpunoni..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Lokacione",
+      "loading": "Ngarkimi",
+      "col-name": "Emri",
+      "col-scene": "Skena",
+      "col-maxuser": "Përdoruesit Max",
+      "lbl-search": "Kërko për vende",
+      "lbl-new": "I ri"
+    },
+    "newLocation": {
+      "title": "Vendndodhja",
+      "success": "Shpëtoi me sukses.",
+      "failure": "Diçka shkoi keq.",
+      "removeSuccess": "Vendndodhja u hoq me sukses.",
+      "nameInUse": "Emri është në përdorim.",
+      "nameRequire": "Emri është i nevojshëm.",
+      "validNumber": "Vetëm numrat (0-9) lejohen.",
+      "lbl-name": "Emri",
+      "lbl-maxuser": "Përdoruesit Max",
+      "lbl-scene": "Skena",
+      "lbl-type": "Lloji",
+      "lbl-ve": "Video e aktivizuar",
+      "lbl-gme": "Media globale u aktivizua",
+      "lbl-update": "Rifresko",
+      "lbl-create": "Krijo",
+      "tooltipCanNotBeDeleted": "Lobi nuk mund të fshihet",
+      "confirmation": "A je i sigurt?",
+      "lbl-yes": "Po.",
+      "lbl-no": "Jo"
+    },
+    "share": {
+      "lbl-share": "Ndaje",
+      "ph-phoneEmail": "Ftoni me e-mail ose me numrin e telefonit",
+      "lbl-phoneEmail": "Dërgo tek email ose numri i telefonit",
+      "lbl-copy": "Kopjo",
+      "lbl-send-invite": "Dërgo ftesën",
+      "title": "Ndaje URL-në e vendndodhjes me ekipin tënd",
+      "linkCopied": "Lidhja e kopjuar në dërrasa."
+    },
+    "setting": {
+      "audio": "Audio",
+      "lbl-volume": "Volumi",
+      "lbl-microphone": "Mikrofon",
+      "graphics": "Grafikë",
+      "controls": "Kontrolle",
+      "lbl-control-type": "Lloji i kontrolluesit",
+      "lbl-control-scheme": "Skema e kontrollit",
+      "lbl-resolution": "Rezolutë",
+      "lbl-shadow": "Hijet",
+      "lbl-pp": "Post Përpunimi",
+      "lbl-pbr": "PBR e plotë",
+      "lbl-automatic": "Automatike",
+      "xrusersetting": "Rregullimet e përdoruesit XR",
+      "rotation": "Rrotullim",
+      "rotation-smooth-speed": "Shpejtësia e lëmuar e rrotullimit",
+      "rotation-angle": "Këndi i Rrotullimit",
+      "moving": "Lëviz",
+      "user-avatar": "Vendosja e Avatar",
+      "invert-rotation": "Invertoni rrotullimin dhe lëvizni shkopinjtë",
+      "show-avatar": "Shfaq Avatar"
+    },
+    "profile": {
+      "lbl-profile": "Profili",
+      "lbl-settings": "Rregullimet",
+      "lbl-username": "Emri i përdoruesit",
+      "update-msg": "Përdoruesi i rifreskuar",
+      "inviteCode": "Fto kodin",
+      "youAreAn": "Ti je një",
+      "youAreA": "Ti je një",
+      "showUserId": "Shfaq ID e përdoruesit",
+      "hideUserId": "Fshih ID e përdoruesit",
+      "showApiKey": "Shfaq çelësin API",
+      "hideApiKey": "Fshih çelësin API",
+      "apiKey": "Çelësi API",
+      "logout": "Log out",
+      "connectPhone": "Lidh numrin e telefonit",
+      "connectEmail": "Lidh e-mailin tënd",
+      "connectPhoneEmail": "Lidh e-mailin ose numrin e telefonit",
+      "or": "Ose",
+      "lbl-wallet": "Hyrje me kuletën",
+      "ph-email": "Email",
+      "ph-phone": "Numri i telefonit",
+      "ph-phoneEmail": "Numri i telefonit / Email",
+      "phoneEmailError": "Telefon i pavlefshëm # ose adresë e-mail",
+      "phoneError": "Telefon i pavlefshëm #",
+      "emailError": "Adresë e pavlefshme e-mail",
+      "loginWithReadyPlayerMe": "Login with Ready Player Me",
+      "connectSocial": "Lidhu me llogaritë shoqërore",
+      "createOne": "Nëse nuk ke llogari, do të krijohet një llogari e re për ty",
+      "connections": {
+        "title": "Lidhjet",
+        "ipError": "E pamundur heqja e siguruesit aktiv të identitetit",
+        "disconnect": "shkeputu",
+        "connect": "Lidhu"
+      },
+      "profileDropdown": {
+        "avatar": "Ikona e Avatarit të Përdoruesit",
+        "profile": "Profili",
+        "adminConsole": "Konsola Admin",
+        "logout": "Logout"
+      },
+      "userIcon": {
+        "lbl-name": "Emri yt",
+        "lbl-update": "Rifresko",
+        "userId": "Id përdoruesi",
+        "ph-uploadImg": "Ngarko figurën e produktit",
+        "lbl-selectAcvatar": "Zgjidh Avatar",
+        "lbl-submit": "Parashtro"
+      },
+      "userSettings": {
+        "volume": "Volumi",
+        "microphone": "Mikrofon",
+        "resolution": "Rezolutë",
+        "high": "Lart",
+        "low": "E ulët",
+        "spatialAudio": "Përdor audio hapësinore",
+        "enterMuted": "Hyr në dhomën e ngatërruar"
+      }
+    },
+    "oauth": {
+      "authenticating": "Autentike...",
+      "authFailed": "autentifikimi {{service}} dështoi."
+    },
+    "magikLink": {
+      "wait": "Ju lutem prisni një moment ndërsa përpunoni..."
+    },
+    "dashboard": {
+      "header": "Paneli i panelit",
+      "dashboard": "Paneli i panelit",
+      "users": "Përdoruesit",
+      "feeds": "Ushqimi",
+      "instance": "Shembull",
+      "locations": "Lokacione",
+      "invites": "Ftesat",
+      "sessions": "Sesionet",
+      "groups": "Grupet",
+      "parties": "Partitë",
+      "chats": "Biseda",
+      "content": "Paketat e përmbajtjes",
+      "projects": "Projekte",
+      "scenes": "Skena",
+      "avatars": "Avatarë",
+      "benchmarking": "Duke bërë prova",
+      "bots": "Bots"
+    }
+  },
+  "oauth": {
+    "authenticating": "Autentike...",
+    "authFailed": "autentifikimi {{service}} dështoi."
+  },
+  "magikLink": {
+    "wait": "Ju lutem prisni një moment ndërsa përpunoni..."
+  },
+  "dashboard": {
+    "header": "Paneli i panelit",
+    "dashboard": "Paneli i panelit",
+    "users": "Përdoruesit",
+    "feeds": "Ushqimi",
+    "instance": "Shembull",
+    "locations": "Lokacione",
+    "routes": "Itineraret",
+    "projects": "Projekte",
+    "invites": "Ftesat",
+    "sessions": "Sesionet",
+    "groups": "Grupet",
+    "parties": "Partitë",
+    "chats": "Biseda",
+    "content": "Paketat e përmbajtjes",
+    "scenes": "Skena",
+    "avatars": "Avatarë",
+    "benchmarking": "Duke bërë prova",
+    "bots": "Bots",
+    "setting": "Rregullimet"
+  },
+  "avatar": {
+    "title": "Ngarko Avatar",
+    "lbl-browse": "Shfleto",
+    "lbl-thumbnail": "Gishti i madh",
+    "lbl-upload": "Ngarko",
+    "selectAvatar": "Zgjidh Avatarin...",
+    "selectThumbnail": "Zgjidh Thumbnail...",
+    "rotate": "Rrotullo",
+    "pan": "Tigan",
+    "noBone": "Obejkti nuk përmban asnjë kockë apo lëkurë",
+    "outOfBound": "Objekti nuk është i lidhur.",
+    "emptyObj": "Objekti është bosh.",
+    "maxTriangleError": "Objekti përmban më të madh se fytyrat {{allowedTriangles}} .",
+    "selectValidFile": "Zgjidh file avatar të vlefshëm 3d.",
+    "selectValidThumbnail": "File i vlefshëm Thumbnail i zgjedhur.",
+    "fileOversized": "Madhësia e file avatar duhet të jetë midis {{minSize}} MB dhe MB {{maxSize}}",
+    "confirmation": "A je i sigurt?",
+    "canNotBeRemoved": "Avatar aktiv nuk mund të hiqet",
+    "remove": "Hiq avatarin",
+    "uploadFiles": "Ngarko skedarët",
+    "useUrlInstead": "Përdor url në vend të kësaj",
+    "avatar": "Avatar",
+    "cancel": "Anulo",
+    "createAvatar": "Krijo Avatar",
+    "delete": "Elemino",
+    "view": "Paraqitja",
+    "uploadAvatarInfo": "Përditëso informacionet e avatarit",
+    "name": "Emri",
+    "enterName": "Shkruaj emrin",
+    "avatarInformation": "Informacione avatari",
+    "description": "Përshkrimi",
+    "key": "Çelës",
+    "none": "Asnjë",
+    "submit": "Parashtro",
+    "edit": "Ndrysho",
+    "avatarUrl": "Url Avatar",
+    "upload-success-msg": "Avatari u ngarkua me sukses.",
+    "remove-success-msg": "Avatari u ngarkua me sukses.",
+    "warning-msg": "Burimi Avatar është bosh, a keni sinkronizuar avatarë në ruajtjen e skedarëve tuaj statik?"
+  },
+  "personMenu": {
+    "inviteToParty": "Ftoje në festë",
+    "addAsFriend": "Shto si mik",
+    "mute": "Memec",
+    "block": "Bllok"
+  },
+  "person": {
+    "you": "Ti",
+    "yourScreen": "Ekrani yt",
+    "muteForEveryone": "Memec për të gjithë",
+    "unmuteForEveryone": "E pamutë për të gjithë.",
+    "muteMe": "Më bëj memec.",
+    "unmuteMe": "Më çmutësoj.",
+    "muteThisPerson": "Memecni këtë person",
+    "unmuteThisPerson": "Zgjidhe këtë person.",
+    "openPictureInPicture": "Figurë e hapur në figurë"
+  }
+}

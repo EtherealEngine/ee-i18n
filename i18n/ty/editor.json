@@ -1,0 +1,718 @@
+{
+  "loading": "Te faautaraa i te opuaraa",
+  "loadingMsg": "Te faautaraa i te mau tauihaa...",
+  "loadingError": "Hape i te faautaraa i te opuaraa",
+  "loadingErrorMsg": "Ua tupu te hoê hape i te faaîraa i te opuaraa.",
+  "selectSceneMsg": "Ma'iti i te hoho'a no te haamata i te ha'uti e te matini",
+  "error": "Hape",
+  "errorMsg": "Te vai ra te hoê hape ite-ore-hia.",
+  "generateScreenshot": "Hoho'a pata no te opuaraa",
+  "generateScreenshotMsg": "Te hoê hoho'a pata no te opuaraa...",
+  "newScene": "A hamani i te hoê hoho'a",
+  "saving": "Te opuaraa no te faaoraraa",
+  "savingMsg": "Te opuaraa no te faaoraraa...",
+  "savingError": "Opuaraa hape no te faaoraraa",
+  "savingErrorMsg": "Ua tupu te hoê hape i te taime a faaora ai oia i te opuaraa.",
+  "savingSceneErrorMsg": "Aita te hoho'a i faauta-maitai-hia. A tamata i te faaî faahou i te hoho'a.",
+  "duplicating": "Te rave - faahou - raa i te ohipa",
+  "duplicatingMsg": "Te rave - faahou - raa i te ohipa...",
+  "exporting": "Te haponoraa i te opuaraa",
+  "exportingMsg": "Te haponoraa i te opuaraa...",
+  "exportingError": "Hape te haponoraa i te opuaraa",
+  "exportingErrorMsg": "Ua tupu te hoê hape i to ' na haponoraa ' tu i te opuaraa.",
+  "importLegacy": "Te mau faufaa i roto i te ao nei",
+  "importLegacyMsg": "A faaara! E riro te reira i te faahuru ê i to outou hoho'a e vai ra! Ua papû ia oe ua hinaaro oe i te tamau noa ?",
+  "publishingError": "Hape te nene'iraa i te opuaraa",
+  "publishingErrorMsg": "Te vai ra te hoê hape ite-ore-hia.",
+  "publishingScene": "Te nene'iraa i te mau hoho'a",
+  "publishingSceneMsg": "Te neneiraa i te hoho'a...",
+  "uploadingThumbnailMsg": "Te faauta - uira - raa i te rima rahi...",
+  "uploadingSceneMsg": "Hoho'a i nia iho: {{percentage}}%",
+  "envMapError": "Hape i te faautaraa i te mau hoho'a {{files}}",
+  "lbl-return": "Ho'i mai",
+  "menubar": {
+    "newScene": "Hoho'a apî",
+    "saveScene": "A faaora i te taata",
+    "saveAs": "Faaora mai",
+    "importAsset": "Te mau mana'o tauturu no te haapiiraa",
+    "exportGLB": "Export as binary glTF (.glb) ...",
+    "importScene": "Te mau hoho'a i patahia",
+    "exportScene": "Te mau hoho'a i patahia",
+    "quit": "A faaea"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Huru putu'ite tei ore i turuhia no te putu'ite : \"{{name}}\". E ti'a i te putu'ite ia riro ei hoho'a, ei hoho'a video, e aore râ, ei hoho'a ha'iriiri.",
+    "addObject": "tuu i te tapa'o : na mua a'e i te tauihaa aita i itehia",
+    "removeObject": "RemoveObject: node aita i itehia. Te tumu, o te tatararaa ïa i te hoê puu o te ore e ite - faahou - hia ra.",
+    "noParent": "Aita to {{node}} \"{{name}}\" e metua. E ohipa noa te papai - faahou - raa i nia i te mau tao'a e vai ra i teie nei.",
+    "undefinedParent": "taata nene'i.",
+    "notAuthenticated": "Aita i faaitehia",
+    "fetchingProjectError": "Hape no te hamaniraa i te mau hoho'a : {{error}}",
+    "fetchingRouteError": "Hape no te mau parau papa'i : {{error}}",
+    "unknownError": "Hape ite-ore-hia",
+    "resolveURL": "Hape no te faaafaro i te url \"{{url}}\":",
+    "mediaSearchAborted": "Te mau rave'a haaparareraa",
+    "methodNotImplemented": "Aita e faaohipahia ra te ravea.",
+    "saveProjectAborted": "A faaora i te mau tamarii",
+    "unsavedChanges": "Te mau tauiraa i ore i ravehia",
+    "unsavedChangesMsg": "Ua tauihia te hoho'a. A faaherehere i ta outou mau tauiraa.",
+    "projectCreationFail": "Aita te hamaniraa i te mau opuaraa i manuïa. {{reason}}",
+    "projectDeletionFail": "Aita i manuïa te faaoreraa i te mau opuaraa. {{reason}}",
+    "savingProjectFail": "Aita te opuaraa no te faaoraraa i manuïa. {{reason}}",
+    "sceneTooLarge": "E mea rahi roa te hoho'a ({{size}} MB) no te nene'i. E {{maxSize}} MB te faito rahi roa ' ' e.",
+    "sceneCreationFail": "Aita te hamaniraa i te mau hoho'a i manuïa. {{reason}}",
+    "uploadAborted": "Te faauta-uira-raa",
+    "uploadFailed": "Aita te faauta - faahou - raa i manuïa {{reason}}",
+    "assetDeletionFail": "Aita i manuïa te mau ravea no te faaore i te mau fifi. {{reason}}",
+    "projectAssetDeletionFail": "Aita te opuaraa i manuïa. {{reason}}",
+    "networkError": "Hape no te pu'ereni : {{status}}. {{text}}",
+    "unknownStatus": "Ti'araa ite-ore-hia",
+    "CORS": "Te hoê hape i roto i te mau papa'iraa mo'a",
+    "urlFetchError": "Aita i noaa ia ' na i te haere e tii i te mau \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Hi'o i ni'a",
+    "command": {
+      "movecamera": "A faanuu i te hoho'a",
+      "flyFast": "Te mau nota",
+      "orbit": "Orbit / Ma'iti",
+      "pan": "Pan",
+      "fly": "Fly",
+      "focus": "Faatumu",
+      "rotateLeft": "Faaohu i te pae aui",
+      "rotateRight": "A faaohu i te pae atau",
+      "cancelPlacement": "Faaoreraa i te tuu-faahou-raa",
+      "placeDuplicate": "Vahi Duplicate",
+      "cancelGrab": "Te mau mana'o tauturu no te haapiiraa",
+      "grab": "Grab",
+      "deselectAll": "Te ma'iti-maite-raa i te mau mea atoa"
+    },
+    "state": {
+      "header": "Stats",
+      "memory": "Te haamana'oraa",
+      "geometries": "Te mau huru o te tino",
+      "textures": "Te mau parau papa'i",
+      "render": "Te mau mana'o tauturu no te",
+      "FPS": "TE MAU NOTA",
+      "frameTime": "A faanaho i te taime",
+      "calls": "Te mau piiraa",
+      "triangles": "Triangles",
+      "points": "Te mau mana'o",
+      "lines": "Te mau reni"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Nene'ihia",
+    "lbl-published": "Nene'ihia",
+    "command": {
+      "translate": "Iriti",
+      "rotate": "Faaohu",
+      "scale": "Scale",
+      "toggleSpace": "Te tauiraa i te vahi nohoraa",
+      "togglePivot": "Toggle Transform Pivot",
+      "toggleSnapMode": "Toggle Snap Mode",
+      "toggleGrid": "Te mau mea e itehia i roto i te mau matini",
+      "increaseGridSize": "Maraaraa o te faito o te mau pereoo",
+      "descreaseGridSize": "Faaiti mai i te rahi o te mau matini",
+      "stopPreview": "A faaea i te hi'o i te tupuraa",
+      "playPreview": "Hi'oraa atea"
+    }
+  },
+  "properties": {
+    "title": "Te mau tuhaa",
+    "lbl-visible": "Ite-mata-hia",
+    "lbl-preventBake": "Prevent Bake",
+    "lbl-persist": "Persist",
+    "multipleNodeSelected": "E rave rahi mau tuhaa o te mau huru taa ê i maitihia",
+    "noNodeSelected": "Aita e ma'itiraa",
+    "ambientLight": {
+      "name": "Te maramarama i nia i te maramarama",
+      "description": "Te hoê maramarama o te turama i te mau tao'a atoa i roto i to outou hoho'a.",
+      "lbl-intensity": "Intensity",
+      "lbl-color": "û"
+    },
+    "envmap": {
+      "name": "Hoho'a fenua o te natura",
+      "description": "te hoho'a fenua o te fenua"
+    },
+    "asset": {
+      "name": "Asset",
+      "description": "Te hoê pǔpǔ hoho'a o te nehenehe e faatomohia ma te itoito e te hurihia i raro",
+      "lbl-options": "Te mau rave'a",
+      "lbl-assetPath": "Te e'a maitai",
+      "lbl-assetName": "I'oa o te taata horo'a",
+      "lbl-exportOptions": "Te mau ravea no te hapono i te mau ravea",
+      "lbl-export": "Te mau mana'o tauturu no te haapiiraa",
+      "lbl-load": "A faaô i roto i te ohipa",
+      "lbl-unload": "Te huriraa i raro i te pape",
+      "lbl-reload": "Reload"
+    },
+    "audio": {
+      "name": "Faaroo",
+      "description": "Te feia e farii nei, a faaite mai.",
+      "lbl-audiourl": "Audio Url",
+      "lbl-controls": "Te mau nota",
+      "info-controls": "A hi'opoa i te mau ravea haapurororaa parau apî.",
+      "lbl-autoplay": "Te ha'utiraa i te pereoo uira",
+      "info-autoplay": "Mai te peu e e parau mau, e hauti te mau ravea haapurororaa ia ô ana'e i roto i te hoho'a.",
+      "lbl-synchronize": "Synchronize",
+      "info-synchronize": "Mai te mea e parau mau, e faatanohia ïa te mau rave'a haaparareraa i ni'a i te mau hoani atoa.",
+      "lbl-loop": "Loop",
+      "info-loop": "Mai te peu e e parau mau, e ore roa ïa te mau ravea haapurororaa parau apî e a muri noa ' tu.",
+      "lbl-audioType": "Huru faaroo",
+      "lbl-distanceModel": "Hi'oraa atea",
+      "info-distanceModel": "Ua faaohipahia te algorithim no te numera i te otaro faaroo.",
+      "lbl-rolloffFactor": "Te tumu o te otaro",
+      "info-rolloffFactor": "E piti faufaa o te faataa ra i te vitiviti o te puai ia atea ê ana'e te tumu i te taata e faaroo ra. 0 e tae atu i te 1",
+      "info-rfInfinity": "E piti faufaa o te faataa ra i te vitiviti o te puai ia atea ê ana'e te tumu i te taata e faaroo ra. 0 e tae atu i te hopea",
+      "lbl-refDistance": "Te faaatea - ê - raa",
+      "info-refDistance": "E piti faufaa e faahoho'a ra i te atearaa o te faahororaa no te faaiti i te puai a haere noa ' i te ravea faaroo i mua i te taata e faaroo ra.",
+      "lbl-maxDistance": "Te mau mana'o tauturu no te haapiiraa",
+      "info-maxDistance": "E piti faufaa e faahoho'a ra i te atearaa rahi i rotopu i te tumu faaroo e te taata e faaroo ra, e i muri iho, eita te buka e faaiti - faahou - hia.",
+      "lbl-coneInnerAngle": "Cone Inner Angle",
+      "info-coneInnerAngle": "Te hoê faufaa e piti tuhaa o te faataa ra i te huru o te tino, i roto i te mau teteri, o te hoê ïa apoo i roto e eita e iti mai te puai.",
+      "lbl-coneOuterAngle": "Cone Outer Angle",
+      "info-coneOuterAngle": "E piti faufaa e faataa ra i te huru o te tao'a, i roto i te mau teteri, o te hoê cone i rapaeau i reira te puai e faaitihia ' i e te hoê faufaa tamau, faataahia e te huru o te coneOuterGain.",
+      "lbl-coreOuterGain": "Te moni e noaa mai na roto i te mau ravea apî",
+      "info-coreOuterGain": "E piti faufaa e faataa ra i te faito o te puai o te puai i rapaeau i te coneouterAngle attribute. To ' na faufaa, o te 0 ïa, oia hoi eita e nehenehe e faaroo i te ta'i.",
+      "lbl-volume": "Buka",
+      "lbl-play": "Ha'uti",
+      "lbl-pause": "Pause",
+      "error-url": "Hape i te faautaraahia mai roto mai i te URL"
+    },
+    "boxCollider": {
+      "description": "Te hoê afata ite - ore - hia o te faarue i te mau tao'a aore ra o te faafaaea i nia iho.\nAita ana'e e matini, e marua ïa te mau tauihaa na roto i te mau tahua e e haere atu na roto i te mau papa'i.",
+      "lbl-isTrigger": "Trigger"
+    },
+    "camera": {
+      "name": "Camera",
+      "description": "Camera settings.",
+      "lbl-camera-raycast": "Camera Raycasting",
+      "lbl-camera-raycast-toggle": "Te mau nota",
+      "lbl-camera-raycast-frequency": "Te pinepineraa",
+      "lbl-camera-raycast-count": "Te tai'oraa i te mau papa'iraa mo",
+      "lbl-camera-raycast-length": "Ray Length"
+    },
+    "directionalLight": {
+      "name": "Te maramarama no te ra'i",
+      "description": "Te vai ra te hoê maramarama o te turama i te tupuraa taatoa, tera râ, te tere ra oia na te hoê noa pae.",
+      "lbl-color": "û",
+      "lbl-intensity": "Intensity",
+      "lbl-cameraFar": "Camera Far",
+      "lbl-cameraNear": "Camera i pihai iho i te",
+      "lbl-cameraTop": "Camera Top",
+      "lbl-cameraBottom": "Camera i raro",
+      "lbl-cameraLeft": "Camera i te pae aui",
+      "lbl-cameraRight": "Camera i te pae atau",
+      "lbl-useInCSM": "Faaohipahia i roto i te CSM",
+      "lbl-castShadow": "Te ata o te pǔpǔ",
+      "lbl-disableForCSM": "Ua ino roa no te mea e nehenehe te hoho'a fenua e tupu.",
+      "lbl-shadowmapResolution": "Te faaotiraa o te hoho'a fenua",
+      "lbl-shadowBias": "Te mana'o hape",
+      "lbl-shadowRadius": "Te ata Radius",
+      "lbl-showCameraHelper": "Faaite i te tauturu a te taata pata hoho'a"
+    },
+    "groundPlane": {
+      "name": "Tabula ohipa",
+      "description": "Te hoê manureva parahurahu o te parare i te atea ê.",
+      "lbl-color": "û",
+      "lbl-receiveShadow": "Farii i te faaûrûraa",
+      "lbl-generateNavmesh": "Generate Navmesh"
+    },
+    "link": {
+      "description": "A tuati atu i ni'a i te hoê piha e aore râ i ni'a i te tahua Itenati.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "3D Hoho'a fenua no e.G. te hoê oire."
+    },
+    "model": {
+      "description": "Te hoê hoho'a e 3D i roto i ta outou putu'ite, tei tuuhia mai roto mai i te hoê GLTF URL e aore râ putu'ite.",
+      "lbl-usingGPUInstancingFlag": "Faaohipa i te GPU Instancing",
+      "lbl-modelurl": "Model Url",
+      "lbl-envmapUrl": "Hoho'a fenua no te mau mea e haaati ra",
+      "lbl-textureOverride": "Te mau mana'o tauturu no te haapiiraa",
+      "lbl-materialOverride": "Te mau mana'o tauturu no te haapiiraa",
+      "error-url": "Hape i te faautaraahia mai roto mai i te URL",
+      "lbl-loopAnimation": "Loop Animation",
+      "lbl-isAvatar": "E mea Parau ti'a Ore te",
+      "lbl-isGPUInstancing": "Te faaohiparaa i te GPU Instancing",
+      "lbl-isDynamic": "E mea itoito oia",
+      "lbl-castShadow": "Te ata o te pǔpǔ",
+      "lbl-receiveShadow": "Farii i te faaûrûraa",
+      "lbl-interactable": "Te mau mana'o tauturu no te",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "I'oa",
+      "lbl-url": "Model Url",
+      "lbl-buy": "Buy Url",
+      "lbl-learnMore": "Haapii rahi atu â",
+      "lbl-htmlContent": "Html Content",
+      "lbl-interactionText": "Parau faa'ite no te faa ohiparaa",
+      "lbl-interactionType": "Huru ohiparaa"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Materia",
+      "error-materialID": "Hape i te imiraa i te materia",
+      "placeholder-materialID": "Ma'iti i te materia",
+      "lbl-patternTarget": "Hoho'a pia",
+      "lbl-pattern": "Hoho'a",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Huru ohiparaa",
+      "text": "Parau faa'ite no te faa ohiparaa",
+      "distance": "Te faaatea - ê - raa i rotopu i",
+      "theme": "Parau tumu no te aparauraa",
+      "name": "I'oa no te raveraa",
+      "description": "Tatararaa no te raveraa",
+      "images": "Te mau hoho'a ha'api'i",
+      "videos": "Te mau hoho'a video no ni'a i",
+      "urls": "Tu'atiraa i te mau urls",
+      "models": "Te mau hi'oraa no te raveraa"
+    },
+    "group": {
+      "name": "Pŭpŭ",
+      "description": "Hoê pŭpŭ tauihaa e nehenehe e faanuuhia e aore râ e hamani-amui-hia.\nA huti e a tuu i te mau tauihaa i roto i te pǔpǔ i roto i te Hierarchy."
+    },
+    "hemisphere": {
+      "name": "Te maramarama o te afaraa o te fenua",
+      "description": "Te hoê maramarama o te turama i te ohipa e tupu ra mai nia roa mai.",
+      "lbl-skyColor": "Te peni o te ra'i",
+      "lbl-groundColor": "Te û o te fenua",
+      "lbl-intensity": "Intensity"
+    },
+    "image": {
+      "name": "Hoho'a",
+      "description": "Ma te puai, e tuu oia i te hoê hoho'a i nia i te hoê hoho'",
+      "lbl-imgURL": "Hoho'a URL",
+      "lbl-transparency": "Transparency Mode",
+      "lbl-alphaCutoff": "Te mau mana'o tauturu no te tuatapaparaa e te haapiiraa",
+      "lbl-projection": "Opuaraa",
+      "lbl-side": "Hiti'a o te ra",
+      "info-controls": "A hi'opoa i te mau ravea haapurororaa parau apî.",
+      "info-transparency": "Nafea ia faaohipa i te tauiraa i te toto:",
+      "info-opaque": "'opaque' = no transparency",
+      "info-blend": "'blend' = a faaohipa i te mau hoho'a alpha channel",
+      "info-mask": "'mask' = A faaohipa i te hoê faufaa i faataahia no te on/off transparency (hau atu i te maitai)",
+      "info-alphaCutoff": "Te mau Pixels e te mau faufaa alpha i raro a'e mai i te reira, e mea ateate ïa",
+      "error-url": "Invalid URL"
+    },
+    "name": {
+      "lbl-name": "I'oa"
+    },
+    "partileEmitter": {
+      "description": "Particle i te mau hu'ahu'a no te hamani i te mau hu'ahu'a.",
+      "lbl-particleCount": "Te numera o te mau hu'ahu'a",
+      "lbl-image": "Hoho'a",
+      "lbl-ageRandomness": "Faito matahiti",
+      "lbl-lifetime": "Te oraraa",
+      "lbl-lifetimeRandomness": "Te oraraa i te mau mahana atoa",
+      "lbl-sizeCurve": "Size Curve",
+      "lbl-startPSize": "Te faito rahi o te haamataraa",
+      "lbl-endPSize": "Faito hopea",
+      "lbl-sizeRandomness": "Size Randomness",
+      "lbl-colorCurve": "Hoho'a peni",
+      "lbl-startColor": "Haamata i te peni",
+      "lbl-startOpacity": "Haamata i te au maitai",
+      "lbl-middleColor": "Te peni no Ropu",
+      "lbl-middleOpacity": "Te mau mana'o tauturu no te haapiiraa",
+      "lbl-endColor": "Te û hopea",
+      "lbl-endOpacity": "Te hopea o te mau mea atoa",
+      "lbl-velocityCurve": "Velocity Curve",
+      "lbl-startVelocity": "A haamata i te tere",
+      "lbl-endVelocity": "Te hopea o te mau mea atoa",
+      "lbl-angularVelocity": "Te mau mana'o tauturu no te haapiiraa",
+      "info-ageRandomness": "Te taa - ê - raa i rotopu i te mau hu'ahu'a e tupu mai.",
+      "info-lifetime": "Te matahiti rahi roa ' ' e o te hoê hu'a tao'a hou oia e tâpû - faahou - hia ' i.",
+      "info-lifetimeRandomness": "Te taa - ê - raa i rotopu i te oraraa o te mau hu'a tao'a.",
+      "info-sizeRandomness": "Te taa - ê - raa i rotopu i te mau faito haihai roa o te haamataraa.",
+      "error-url": "Hape i te faautaraahia mai roto mai i te URL"
+    },
+    "clouds": {
+      "name": "Ata",
+      "description": "Te mau ata i niuhia i nia i te mau ata.",
+      "lbl-image": "Hoho'a o te mau mea ora",
+      "lbl-wroldScale": "Te faito o te ao nei",
+      "lbl-dimensions": "Te mau nota",
+      "lbl-noiseZoom": "Noise Zoom",
+      "lbl-noiseOffset": "Noise Offset",
+      "lbl-spriteScale": "Te faito o te mau manumanu",
+      "lbl-fogColor": "Te û o te rupehu",
+      "lbl-fogRange": "Fog Range",
+      "error-url": "Hape i te faautaraahia mai roto mai i te URL"
+    },
+    "ocean": {
+      "name": "Moana",
+      "description": "Te mau are miti e te mau are miti",
+      "lbl-normalMap": "Hoho'a fenua matauhia",
+      "lbl-distortionMap": "Te tauiraa i te hoho'a fenua",
+      "lbl-envMap": "Hoho'a fenua o te natura",
+      "lbl-color": "û",
+      "lbl-shallowWaterColor": "Te peni o te pape",
+      "lbl-shallowToDeepDistance": "Mea atea roa",
+      "lbl-opacityFadeDistance": "Te mau mana'o tauturu no te haapiiraa",
+      "lbl-opacityRange": "Opacity Range",
+      "lbl-shininess": "Te haapao maitai",
+      "lbl-reflectivity": "Te mana'o maitai",
+      "lbl-foamColor": "Te û o te ofa'i",
+      "lbl-foamSpeed": "Foam Speed",
+      "lbl-foamTiling": "Foam Tiling",
+      "lbl-bigWaveTiling": "Te mau are miti rarahi",
+      "lbl-bigWaveSpeed": "Te vitiviti o te vave'a o te mau vave'a",
+      "lbl-bigWaveHeight": "Te teitei o te mau are rarahi",
+      "lbl-waveSpeed": "Te vitiviti o te vave'a",
+      "lbl-waveScale": "Te faito o te vave'a",
+      "lbl-waveTiling": "Te mau are miti i ni'a i te moana",
+      "lbl-waveDistortionSpeed": "Te vitivitiraa o te tere o te mau are",
+      "lbl-waveDistortionTiling": "Te mau are miti e tapo'i ra i te fenua",
+      "error-url": "Hape i te faautaraahia mai roto mai i te URL"
+    },
+    "water": {
+      "name": "Te pape",
+      "description": "Te mau apoo pape na'ina'i"
+    },
+    "interior": {
+      "name": "Te fenua",
+      "description": "Te hoê vahi e te hoê afata i tâpûhia no te pee i te mau mea e haaati ra i te rotoraa o te fenua",
+      "lbl-cubeMap": "Hoho'a fenua o te Cube",
+      "lbl-tiling": "Te faito o te mau haamau'araa",
+      "lbl-size": "Rahi o te mau hoho'a",
+      "error-url": "Hape i te faautaraahia mai roto mai i te URL"
+    },
+    "pointLight": {
+      "description": "Te hoê maramarama o te anaana i te mau vahi atoa mai te hoê noa vahi.",
+      "lbl-color": "û",
+      "lbl-intensity": "Intensity",
+      "lbl-range": "Range",
+      "lbl-decay": "Decay"
+    },
+    "scene": {
+      "name": "Hoho'a",
+      "description": "Te tumu mau o te ohipa i tupu.",
+      "lbl-bgcolor": "Te peni i muri mai",
+      "lbl-fogType": "Fog Type",
+      "lbl-fogColor": "Te û o te rupehu",
+      "lbl-forNearDistance": "Te mau vahi fatata i te atea ê",
+      "lbl-fogFarDistance": "Te atea ê",
+      "lbl-fogDensity": "Fog Density",
+      "lbl-audioSettings": "Faaohipa i te materia faaroo",
+      "lbl-avatarDistanceModel": "Hoho'a no te mau hoho'a i roto i te ava",
+      "lbl-avatarRolloffFactor": "Avatar Rolloff Factor",
+      "lbl-avatarRefDistance": "Te mau mana'o tauturu no te haapiiraa",
+      "lbl-avatarMaxDistance": "Te mau mana'o tauturu no te haapiiraa",
+      "lbl-mediaVolume": "Buka no te mau rave'a haaparareraa",
+      "lbl-mediaDistanceModel": "Hoho'a no te mau rave'a haaparareraa",
+      "lbl-mediaRolloffFactor": "Te tumu no te mau rave'a haaparareraa",
+      "lbl-mediaRefDistance": "Te mau rave'a haaparareraa",
+      "lbl-mediaMaxDistance": "Te mau rave'a haaparareraa",
+      "lbl-mediaConeInnerAngle": "Media Cone Inner Angle",
+      "lbl-mediaConeOuterAngle": "Media Cone Outer Angle",
+      "lbl-mediaConeOuterGain": "Te mau rave'a haaparareraa",
+      "info-avatarDistanceModel": "Ua faaohipahia te algorithim no te numera i te otaro faaroo.",
+      "info-avatarRolloffFactor": "E piti faufaa o te faataa ra i te vitiviti o te puai ia atea ê ana'e te tumu i te taata e faaroo ra. 0 e tae atu i te 1",
+      "info-avatarRolloffFactorInifinity": "E piti faufaa o te faataa ra i te vitiviti o te puai ia atea ê ana'e te tumu i te taata e faaroo ra. 0 e tae atu i te hopea",
+      "info-avatarRefDistance": "E piti faufaa e faahoho'a ra i te atearaa o te faahororaa no te faaiti i te puai a haere noa ' i te ravea faaroo i mua i te taata e faaroo ra.",
+      "info-avatarMaxDistance": "E piti faufaa e faahoho'a ra i te atearaa rahi i rotopu i te tumu faaroo e te taata e faaroo ra, e i muri iho, eita te buka e faaiti - faahou - hia.",
+      "info-mediaDistanceModel": "Ua faaohipahia te algorithim no te numera i te otaro faaroo.",
+      "info-mediaRolloffFactor": "E piti faufaa o te faataa ra i te vitiviti o te puai ia atea ê ana'e te tumu i te taata e faaroo ra. 0 e tae atu i te 1",
+      "info-mediaRolloffFactorInfinity": "E piti faufaa o te faataa ra i te vitiviti o te puai ia atea ê ana'e te tumu i te taata e faaroo ra. 0 e tae atu i te hopea",
+      "info-mediaRefDistance": "E piti faufaa e faahoho'a ra i te atearaa o te faahororaa no te faaiti i te puai a haere noa ' i te ravea faaroo i mua i te taata e faaroo ra.",
+      "info-mediaMaxDistance": "E piti faufaa e faahoho'a ra i te atearaa rahi i rotopu i te tumu faaroo e te taata e faaroo ra, e i muri iho, eita te buka e faaiti - faahou - hia.",
+      "info-mediaConeInnerAngle": "Te hoê faufaa e piti tuhaa o te faataa ra i te huru o te tino, i roto i te mau teteri, o te hoê ïa apoo i roto e eita e iti mai te puai.",
+      "info-mediaConeOuterAngle": "E piti faufaa e faataa ra i te huru o te tao'a, i roto i te mau teteri, o te hoê cone i rapaeau i reira te puai e faaitihia ' i e te hoê faufaa tamau, faataahia e te huru o te coneOuterGain.",
+      "info-mediaConeOuterGain": "E piti faufaa e faataa ra i te faito o te puai o te puai i rapaeau i te coneouterAngle attribute. To ' na faufaa, o te 0 ïa, oia hoi eita e nehenehe e faaroo i te ta'i.",
+      "lbl-simpleMaterials": "A faaohipa i te mau materia ohie",
+      "lbl-lods": "Te mau nota",
+      "info-lods": "A faataa i te atearaa i reira te mau faito o te mau tauiraa hu'ahu'a e taui ai.",
+      "info-simpleMaterials": "A taui i te mau tauihaa moni rahi atoa i te mau tauihaa ohie a'e no te faateimaha i te mau tauihaa.",
+      "lbl-rendererSettings": "Te mau faanahoraa no te taui i te huru o te taata",
+      "lbl-csm": "Te mau hoho'a fenua i nia i te hoho'a fenua",
+      "info-csm": "Te feia e farii nei, a faaite mai.",
+      "lbl-toneMapping": "Tone Mapping",
+      "info-toneMapping": "E nehenehe te ta'iraa reo e ta'i i nia i te hoho'a. Aita e faahopearaa ia tupu ana'e te hoê faaineineraa i muri a'e i te haapiiraa.",
+      "lbl-toneMappingExposure": "Tone Mapping i te mau vahi atoa",
+      "info-toneMappingExposure": "Te faaite ra te mau hoho'a i te ta'iraa reo e vai ra i nia i te taata e hauti ra i te hoho'a. Aita e faahopearaa ia tupu ana'e te hoê faaineineraa i muri a'e i te haapiiraa.",
+      "lbl-shadowMapType": "Te huru o te hoho'a fenua",
+      "info-shadowMapType": "Te huru o te hoho'a fenua",
+      "error-url": "Hape i te faautaraahia mai roto mai i te URL"
+    },
+    "sceneCamera": {
+      "name": "Hoho'a hi'opo'araa",
+      "description": "Ua faaohipahia te pata hoho'a no te hamani i te manimani rima rahi no ta outou hoho'a e te vahi haamataraa no te pata hoho'a.",
+      "lbl-setFromViewPort": "Faataahia mai roto mai i te hi'oraa"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "Taime o te Mahana",
+      "lbl-color": "û",
+      "lbl-latitude": "Te tiamâraa",
+      "lbl-luminance": "Luminance",
+      "lbl-scattering": "Te haaputuraa i te moni",
+      "lbl-scatteringDistance": "Te atea - ê - raa",
+      "lbl-horizonStart": "Te haamataraa o te iriatai",
+      "lbl-horizonEnd": "Te hopea o te iriatai",
+      "lbl-texture": "Papa'iraa mo'a",
+      "lbl-skyType": "Te huru o te ra'i",
+      "error-url": "Hape i te faautaraahia mai roto mai i te URL"
+    },
+    "spawnPoint": {
+      "name": "Te mau mana'o tauturu no te haapiiraa",
+      "description": "Te hoê vahi i reira te taata e fa mai ai ia tomo ana'e mai ratou i roto i to outou fare.\nTe faahoho'a ra te hoho'a mo'a i roto i te Viewport i te rahi mau o te hoê avatar."
+    },
+    "spotLight": {
+      "description": "Te hoê mori o te turama i te hoê e'a, o te turama i te mau tao'a i roto i te hoê apoo.",
+      "lbl-color": "û",
+      "lbl-intensity": "Intensity",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Angle",
+      "lbl-range": "Range",
+      "lbl-decay": "Decay"
+    },
+    "transform": {
+      "title": "Taui",
+      "lbl-postition": "Ti'araa",
+      "lbl-rotation": "Te mau mana'o tauturu no te",
+      "lbl-scale": "Scale"
+    },
+    "triggereVolume": {
+      "description": "A tuu i te hoê tao'a i ni'a i te tao'a e tuuhia i ni'a i te tapa'o e a haere i rapae.",
+      "lbl-target": "Tao'a",
+      "lbl-onenter": "I ni'a i te tapo'i",
+      "lbl-onexit": "I ni'a i te tapo'i",
+      "lbl-showHelper": "Faaite i te mana'o tauturu",
+      "ph-errorNode": "Hape e ere i te mea ino.",
+      "ph-selectNode": "Ma'iti i te node..."
+    },
+    "video": {
+      "name": "Video",
+      "description": "A pata i te hoê hoho'a video.",
+      "lbl-video": "Video",
+      "lbl-projection": "Opuaraa",
+      "lbl-islivestream": "Ora ma te ti'a",
+      "lbl-interactable": "Te mau mana'o tauturu no te",
+      "lbl-id": "Element Id",
+      "lbl-play": "Ha'uti",
+      "lbl-pause": "Pause",
+      "error-url": "Hape i te faautaraahia mai roto mai i te URL"
+    },
+    "volumetric": {
+      "name": "Buka arata'i",
+      "description": "A pata i te hoê hoho'a video.",
+      "uvolPaths": "TE MAU NOTA",
+      "playmode": "Faanahoraa ha'uti",
+      "playtitle": "Ha'uti",
+      "pausetitle": "Pause"
+    },
+    "spline": {
+      "description": "A hamani e a faatano i te mau fefe.",
+      "lbl-addNode": "A tuu i te tahi atu mau mea i ni'a i te api parau."
+    },
+    "systemnode": {
+      "description": "Te mau parau i papa'i-hape-hia.",
+      "lbl-filePath": "Url",
+      "lbl-systemUpdateType": "Injection Point",
+      "lbl-enableClient": "Client",
+      "lbl-enableServer": "Server",
+      "lbl-args": "Te mau nota",
+      "error-url": "Hape i te faautaraa i te papa'iraa na roto mai i te URL"
+    },
+    "portal": {
+      "lbl-portal": "Tuatihia i te Portal",
+      "lbl-redirect": "Faaohipa i te api upoo parau",
+      "description": "Te hoê e'a e tae atu ai i te feia ha'uti i te vahi i faataahia",
+      "lbl-locationName": "Vahi",
+      "lbl-modelUrl": "Model URL",
+      "lbl-displayText": "Pia i te parau papa'i",
+      "lbl-cubemapBake": "Cubemap bake",
+      "lbl-spawnPosition": "Te hoê tiaraa i roto i te otiraa",
+      "lbl-spawnRotation": "Te mau tauiraa i roto i te ohuraa",
+      "lbl-triggerPosition": "Trigger Position",
+      "lbl-triggerRotation": "Trigger Rotation",
+      "lbl-triggerScale": "Trigger Scale"
+    },
+    "postprocessing": {
+      "name": "Te faanahoraa i muri a'e i te haapiiraa",
+      "description": "No te faaohiparaa i te mau mea e tupu mai i muri iho i ni'a ia outou."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Opuaraa Apî",
+      "backLink": "Te ho'iraa i te mau opuaraa",
+      "featured": "Featured",
+      "all": "Te mau mea atoa",
+      "newProject": "Opuaraa apî",
+      "ph-search": "Te mau vahi maimiraa..."
+    },
+    "grid": {
+      "loading": "Te faautaraa..."
+    },
+    "page": {
+      "header": "Manava",
+      "headerMsg": "Mai te mea e, e mea apî outou i ô nei, te faaitoito nei matou ia haere na roto i te haapiiraa. Aita ana'e, a ou'a ' tu i roto e a hamani i te hoê opuaraa mai te haamataraa mai aore ra mai roto mai i te hoê o ta tatou mau hoho'a.",
+      "lbl-startTutorial": "A haamata i te haapii",
+      "projects": "Te mau opuaraa",
+      "lbl-newProject": "Opuaraa Apî"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Te faautaraa...",
+      "placeObject": "A tuu i te tauihaa i te hiti",
+      "placeObjectAtOrigin": "A tuu i te tauihaa i te haamataraa",
+      "copyURL": "Tahoê i te URL",
+      "openInNewTab": "Iriti i te URL i new Tab",
+      "deleteAsset": "Tumâ i te mau mea faufaa"
+    },
+    "filebrowser": {
+      "addNewFolder": "Tuu i te pu'e parau apî",
+      "cutAsset": "Tapu",
+      "copyAsset": "Hoho'a",
+      "pasteAsset": "Te mau nota",
+      "renameAsset": "Taui i te i'oa",
+      "viewAssetProperties": "Hi'o i te mau mana'o"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Taui i te i'oa",
+    "lbl-duplicate": "Duplicate",
+    "lbl-group": "Pŭpŭ",
+    "lbl-delete": "Tumâ",
+    "lbl-expandAll": "A faaaano i te mau mea atoa",
+    "lbl-collapseAll": "Toparaa o te mau mea atoa",
+    "isseus": "Te mau ve'a :"
+  },
+  "dnd": {
+    "nodes": "{{count}} maitihia te mau puu",
+    "models": "{{count}} mau hi'oraa i maitihia",
+    "images": "{{count}} mau hoho'a i maitihia",
+    "videos": "{{count}} ma'itihia te mau video",
+    "audio": "{{count}} ma'itihia te mau rave'a faaroo"
+  },
+  "dialog": {
+    "title": "Papa'i ve'a faatere",
+    "lbl-confirm": "Ok",
+    "lbl-cancel": "Faaoreraa hapa",
+    "exportProject": {
+      "title": "Opuaraa no te haponoraa",
+      "lbl-confirm": "Opuaraa no te haponoraa",
+      "lbl-combineMesh": "Te mau Meseka",
+      "lbl-removeUnused": "Tatara i te mau tauihaa tei ore i faaohipahia"
+    },
+    "performance": {
+      "title": "Hi'opo'araa i te tereraa o te",
+      "lbl-confirm": "Nene'i i te mau hoho'a",
+      "learnMore": "Haapii rahi atu â",
+      "lbl-polycount": "Te numera o te Polygon",
+      "lbl-material": "Te mau materia",
+      "lbl-texture": "Te mau parau papa'i",
+      "lbl-lights": "Te mau maramarama",
+      "lbl-fileSize": "Faito o te putu'ite",
+      "info-polycount": "Te faaitoito nei matou ia outou ia faaohipa hau atu i te 50 000 poro toru no te mau matini afa'ifa'i.",
+      "info-material": "Te faaitoito nei matou ia faaohipa hau atu i te 25 materia taa ê i roto i ta outou vairaa no te faaiti i te mau niuniu afa'ifa'i.",
+      "info-texture": "Te faaitoito nei matou i ta outou mau parau papa'i ia faaohipa hau atu i te 256MB no te mau matini afa'ifa'i. Te faaitoito atoa nei matou eiaha e faaohipa i te mau parau papa'i tei hau atu i te 2048 x 2048.",
+      "info-lights": "Noa ' tu e aita te mau mori puai e tere ra i nia i te mau matini afaifai, te faaitoito nei matou ia ore e faaohipa hau atu i te 3 mori i roto i ta outou hoho'a (te mau mori uira e te mau mori o te fenua) ia nehenehe outou e tere i te hopea raro roa.",
+      "info-fileSize": "Te faaitoito nei matou i te hoê faito hopea e ere i te 16MB no te mau tuatiraa i rotopu i te mau pŭpŭ. Ia faaiti-ana'e-hia te faito o te putu'ite, e faaiti mai te reira i te taime e titauhia no te faauta uira mai i ta outou putu'ite.",
+      "txt-polycount": "Te mau poro toru {{count}}",
+      "txt-material": "Te mau materia {{count}}",
+      "txt-ram": "~{{count}} video RAM",
+      "txt-texture": "{{count}} mau papai rarahi",
+      "txt-lights": "te mau mori {{count}}"
+    },
+    "progress": {
+      "title": "Te faautaraa...",
+      "msg": "Te faautaraa...",
+      "lbl-cancel": "Faaoreraa hapa"
+    },
+    "publish": {
+      "title": "Nene'i i te mau hoho'a",
+      "lbl-confirm": "Faaora e nene'i",
+      "lbl-name": "I'oa o te hoho'a",
+      "info-name": "Tei roto te i'oa i te area e 4 e tae atu i te 64 taata, e eita e nehenehe e tai'o i te mau i'oa"
+    },
+    "published": {
+      "title": "Hoho'a i nene'ihia",
+      "header": "Ua neneihia to outou hoho'a.",
+      "lbl-view": "A hi'o i to outou tupuraa"
+    },
+    "saveNewProject": {
+      "title": "Tauturu",
+      "lbl-name": "I'oa o te opuaraa",
+      "info-name": "Tei roto te i'oa i te area e 4 e tae atu i te 64 taata, e eita e nehenehe e tai'o i te mau i'oa",
+      "lbl-confirm": "Faaora i te opuaraa"
+    },
+    "support": {
+      "title": "Tauturu",
+      "header": "E tia anei ia faaite i te hoê fifi?",
+      "msg": "E nehenehe ta outou e patapata i te hoê <1>parau aufauraa e</1> aore râ e imere mai ia matou no te tauturu i <3> te{{mail}}</3>",
+      "discord": "E nehenehe atoa ta outou e ite mai ia matou i ni'a i te <1>e'a</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Te mau hoho'a",
+      "search": "Ma'imiraa na roto i te faaiteraa"
+    },
+    "bingVideo": {
+      "name": "Te mau hoho'a video",
+      "search": "Ma'imiraa na roto i te faaiteraa"
+    },
+    "element": {
+      "name": "Te mau mea rii tumu"
+    },
+    "myAssets": {
+      "name": "Ta'u mau haamaitairaa"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Ma'imiraa na Google"
+    },
+    "tenor": {
+      "name": "Tenor GIFs",
+      "search": "Ma'imiraa na roto i te tenor",
+      "ph-search": "Ma'imi i te mau GIFs..."
+    },
+    "sketchfab": {
+      "name": "Api no te peniraa",
+      "search": "Ma'imiraa na roto i te Hi'opo'araa i te matini"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Faauta uira mai i te mau tauihaa"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Ma'imi i te mau hoho'a..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Ma'imi i te mau video..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Ma'imi i te mau maitai..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Ma'imi i te mau hoho'a..."
+    },
+    "useUpload": {
+      "multipleFileError": "Eita te mau parau e farii e rave rahi mau parau.",
+      "mineTypeError": "Aita te parau ra \"{{name}}\" e tuea ra e teie mau huru mime i muri nei: {{types}}",
+      "progressTitle": "Haponoraa i te mau putu'ite",
+      "progressMsg": "Haponoraa i te mau putu'ite {{uploaded}} o te {{total}}: {{percentage}}%",
+      "uploadError": "Hape i ni'a i te faauta-uira",
+      "uploadErrorMsg": "Hape i te faauta-uira-raa i te putu'ite : {{message}}",
+      "uploadErrorDefaultMsg": "Te vai ra te hoê hape ite-ore-hia"
+    }
+  },
+  "openLink": {
+    "description": "A pata i ni'a i te pitopito no te tere atu i ni'a i te hono.",
+    "lbl-open": "Iriti"
+  },
+  "interactableModel": {
+    "lbl-buy": "A hoo mai",
+    "lbl-learnMore": "Haapii rahi atu â"
+  },
+  "corsProxyButton": {
+    "tooltip": "Faaohipa i te pûnati no te mau hoho'a"
+  }
+}

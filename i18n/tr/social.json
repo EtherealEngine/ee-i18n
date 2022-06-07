@@ -1,0 +1,202 @@
+{
+  "addComment": "Yorum Ekle...",
+  "share": "Paylaş",
+  "suggestions": "Sizin İçin Öneriler",
+  "seeAll": "Tümünü Gör",
+  "likes": "Seviyor",
+  "viewComments": "Tüm {{count}} yorumları görüntüleyin",
+  "more": "daha",
+  "username": "kullanıcı adı",
+  "fullName": "Adı Soyadı",
+  "reportInApporpriate": "Uygunsuz Rapor Et",
+  "unfollow": "Takibi bırak",
+  "goToPost": "Gönderiye Git",
+  "shareModal": "Paylaş",
+  "copyLink": "Bağlantıyı Kopyala",
+  "embed": "Katıştır",
+  "cancel": "İptal",
+  "confirm": "Onaylamak",
+  "save": "Kurtarmak",
+  "profilePic": "{{user}}'in profil resmi",
+  "ara": "Arjantin",
+  "follow": "Takip etmek",
+  "flames": "Alev",
+  "continue": "Devam etmek",
+  "partyInvitationSent": "Parti davetiyesi gönderildi",
+  "arMedia": {
+    "back": "Geri",
+    "clip": "Kırpmak",
+    "backgrounds": "Arka plan",
+    "start": "Başlamak"
+  },
+  "arMediaform": {
+    "title": "Başlık",
+    "type": "Tür",
+    "clip": "Kırpmak",
+    "background": "Arka plan",
+    "scene": "Sahne",
+    "save": "Kurtarmak",
+    "manifest-file": "Manifest .manifest dosyası",
+    "audio-file": "Mp4 dosyası",
+    "dracosis-file": "Drakoz .uvol dosyası",
+    "preview-file": "Görüntü dosyasını önizleme"
+  },
+  "creator": {
+    "myVideos": "Videolarım",
+    "savedVideos": "Kaydedilen Videolar",
+    "back": "Geri",
+    "blocked-list": "Engellenenler Listesi",
+    "block-user": "Kullanıcıyı Engelle",
+    "dialog-content": "Kullanıcının profilini ve içeriğini görmezsiniz"
+  },
+  "creatorForm": {
+    "back": "Geri",
+    "edit": "Profili Düzenle",
+    "save": "Kurtarmak",
+    "changeAvatar": "Avatar resmini değiştirme",
+    "ph-selectPreview": "Önizlemeyi seçin",
+    "ph-name": "Adınız",
+    "ph-username": "Kullanıcı adınız",
+    "ph-email": "E-posta Adresiniz",
+    "ph-tags": "Etiketler",
+    "ph-link": "Bağlantı",
+    "ph-aboutYou": "Hakkınızda daha fazla bilgi",
+    "ph-twitter": "heyecan",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Oturumu Kapat"
+  },
+  "dashboard": {
+    "title": "Tablo",
+    "dashboard": "Tablo",
+    "users": "Kullanıcı",
+    "feeds": "Besleme",
+    "arMedia": "Video Medya",
+    "editor": "Editör",
+    "creator": "Yaratıcı"
+  },
+  "featured": {
+    "empty-list": "Şimdilik besleme yok ..."
+  },
+  "feed": {
+    "back": "Geri",
+    "related": "İlgili feed'ler",
+    "is-repoted-message": "Feed bildirildi!"
+  },
+  "feedForm": {
+    "back": "Geri",
+    "thanks": "Topluluğumuzu paylaştığınız ve geliştirdiğiniz için teşekkür ederiz",
+    "share": "Toplulukla bir şeyler paylaşın",
+    "upload": "Video Yükle",
+    "ph-selectVideo": "Video Seç",
+    "preview": "Önizleme görüntüsü",
+    "ph-selectPreview": "Önizlemeyi seçin",
+    "createFeed": "Bir özet akışı oluşturmak için bir videonuz ve önizleme resminiz olmalıdır!!!",
+    "ph-videoName": "Videonuzun adı",
+    "ph-type": "Toplulukla paylaşmak istediklerinizi yazın... ",
+    "lbl-share": "Paylaş",
+    "save": "Kaydet ve İleri'ye git"
+  },
+  "feedMenu": {
+    "featured": "Özellikli",
+    "creators": "Yaratıcı",
+    "feed": "Özet Akışı"
+  },
+  "header": {
+    "lbl-volumetric": "Hacimsel"
+  },
+  "login": {
+    "account": "Bir hesabınız mı var?",
+    "login": "Oturum açma",
+    "resetPassword": "Şifreyi Sıfırla Sahte düğmesi (burada e-postadan bir bağlantı olacaktır)",
+    "notHavingAccount": "Hesabınız yok mu?",
+    "signUp": "Kaydol",
+    "forgotPassword": "Şifrenizi mi unuttunuz?",
+    "back": "Geri",
+    "or": "VEYA"
+  },
+  "comment": {
+    "add": "Yorumunuzu ekleyin..."
+  },
+  "notification": {
+    "feedFire": " feed'inizi ateşlediniz",
+    "feedBookmarked": " feed'inize yer işareti koydu",
+    "comment": " feed'inize yorum yaptı:",
+    "commentFire": " Yorumunuzu beslemek için ateşledi",
+    "follow": " seni takip etmeye başladı",
+    "unfollow": " seni takip etmeyi bıraktı",
+    "followed": " seni takip etti",
+    "activity": "Etkinlik"
+  },
+  "onBoarding": {
+    "welcome": "Hoş geldin!",
+    "description": "iOS prototipleme için 370'ten fazla mizanpajdan oluşan en büyük koleksiyon.",
+    "next": "Önümüzdeki",
+    "discover": "Makaleleri keşfedin,",
+    "news": "haberler ve yazılar",
+    "lines": "Astronomi sevgimizi ve arzumuzu yönlendiren bu duygulardır.",
+    "getStarted": "Kullanmaya Başlayın",
+    "meetUp": "Buluşma",
+    "friends": "Arkadaşlar.",
+    "meet": "Arkadaşlarınızla buluşun"
+  },
+  "shareForm": {
+    "arcMedia": "Paylaş",
+    "videoCreated": "Bu Videoyu Ben Oluşturdum",
+    "shareWithBuddies": "Arkadaşlarınızla paylaşın",
+    "shareVideo": "Video Paylaş",
+    "save": "Film Rulosuna Kaydet",
+    "cancel": "İptal",
+    "close": "Kapatmak",
+    "addFeed": "Feed Ekle"
+  },
+  "simpleModal": {
+    "emptyList": "Boş liste",
+    "followers": " ertesi",
+    "following": " Takipçi -leri",
+    "flames": " Alev"
+  },
+  "splash": {
+    "screen": "Açılış Ekranı",
+    "logo": "Logo"
+  },
+  "story": {
+    "profilePic": "{{user}}'in profil resmi"
+  },
+  "view": {
+    "cancel": "İptal",
+    "choice": "Aralarından seçim yapabileceğiniz iki farklı kayıt modu vardır",
+    "verticalMode": "Dikey modun 30 saniyelik bir kayıt süresi vardır",
+    "horizontalMode": "Yatay mod sınırsız kayıt süresine sahiptir",
+    "start": "Başlamak",
+    "not-show": "Bir daha gösterme",
+    "welcome": "ARC'ye hoş geldiniz!  Hologramlarımızdan biriyle kişisel videolar yapın ve sosyal medya kanallarınıza gönderin!",
+    "step": "ADIM {{step}}",
+    "text-step-1": "Kütüphaneden bir hologram seçin.",
+    "text-step-2": "Bu Artırılmış Gerçekliktir, bu nedenle hologram performansının olmasını istediğiniz yerde kameranızla alanı 3-5 saniye boyunca bir yandan diğer yana tarayın.",
+    "text-step-3-part-1": "Hologramın sabitlenmesini istediğiniz konumda ekrana bir kez dokunun.",
+    "text-step-3-part-2": "BAHŞİŞ!  Hologramı başka bir konuma taşımak için başka bir yere bir kez dokunun.",
+    "text-step-3-part-3": "BAHŞİŞ!  Ekranı baş parmağınız ve işaret parmağınızla sıkıştırarak veya genişleterek hologramı yeniden boyutlandırabilirsiniz.",
+    "text-step-4-part-1": "Video kaydınızı BAŞLAT için kırmızı kayıt düğmesine çift dokunun.",
+    "text-step-4-part-2": "DURDURMAK için kırmızı kayıt düğmesine iki kez dokunun."
+  },
+  "video": {
+    "back": "Geri"
+  },
+  "terms": {
+    "confirmTerms": "Hizmet Şartları'nı kabul ediyorum",
+    "confirmPolicy": "Gizlilik Politikasını kabul ediyorum"
+  },
+  "registration": {
+    "ph-phoneEmail": "Telefon / e-posta kullanın",
+    "facebook": "Facebook ile devam et",
+    "google": "Google ile devam et",
+    "linkedin": "Linkedin ile devam et",
+    "twitter": "Twitter ile devam et",
+    "gitHub": "GitHub ile devam edin",
+    "connect": "E-posta adresinizi veya telefon numaranızı bağlama",
+    "logIn": "Oturum aç",
+    "LogInTo": "Giriş yap",
+    "continueAsGuest": "Misafir olarak devam et"
+  }
+}

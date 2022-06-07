@@ -1,0 +1,718 @@
+{
+  "loading": "",
+  "loadingMsg": "  ",
+  "loadingError": "   ",
+  "loadingErrorMsg": "   ",
+  "selectSceneMsg": " ",
+  "error": "",
+  "errorMsg": "    ",
+  "generateScreenshot": "",
+  "generateScreenshotMsg": "  ",
+  "newScene": "",
+  "saving": "",
+  "savingMsg": "",
+  "savingError": "",
+  "savingErrorMsg": " ",
+  "savingSceneErrorMsg": "     ",
+  "duplicating": " ",
+  "duplicatingMsg": " ",
+  "exporting": "",
+  "exportingMsg": " \"",
+  "exportingError": " ",
+  "exportingErrorMsg": " ",
+  "importLegacy": "",
+  "importLegacyMsg": "!   !  ?",
+  "publishingError": "",
+  "publishingErrorMsg": "    ",
+  "publishingScene": "",
+  "publishingSceneMsg": "\"",
+  "uploadingThumbnailMsg": "  ",
+  "uploadingSceneMsg": " @____ %",
+  "envMapError": "@____",
+  "lbl-return": "",
+  "menubar": {
+    "newScene": "",
+    "saveScene": "",
+    "saveAs": "",
+    "importAsset": "",
+    "exportGLB": "  ",
+    "importScene": "",
+    "exportScene": "",
+    "quit": ""
+  },
+  "errors": {
+    "fileTypeNotSupported": "@____ \"\"        \"",
+    "addObject": "   ",
+    "removeObject": "      ",
+    "noParent": "@____@____      ",
+    "undefinedParent": "    ",
+    "notAuthenticated": " ",
+    "fetchingProjectError": "@____    ",
+    "fetchingRouteError": "@____  ",
+    "unknownError": "",
+    "resolveURL": "\"@____  ",
+    "mediaSearchAborted": "",
+    "methodNotImplemented": "    ",
+    "saveProjectAborted": "",
+    "unsavedChanges": "",
+    "unsavedChangesMsg": "     ",
+    "projectCreationFail": " @____",
+    "projectDeletionFail": "  @____",
+    "savingProjectFail": "  @____",
+    "sceneTooLarge": "@____      @____ ",
+    "sceneCreationFail": " @____",
+    "uploadAborted": "",
+    "uploadFailed": "@____  ",
+    "assetDeletionFail": "     @____",
+    "projectAssetDeletionFail": "  @____",
+    "networkError": " @____  @____",
+    "unknownStatus": "   ",
+    "CORS": " ",
+    "urlFetchError": " @____"
+  },
+  "viewport": {
+    "title": "",
+    "command": {
+      "movecamera": "",
+      "flyFast": "",
+      "orbit": " / ",
+      "pan": "",
+      "fly": "",
+      "focus": "",
+      "rotateLeft": "",
+      "rotateRight": "",
+      "cancelPlacement": "",
+      "placeDuplicate": "",
+      "cancelGrab": "",
+      "grab": "",
+      "deselectAll": ""
+    },
+    "state": {
+      "header": "",
+      "memory": "",
+      "geometries": "",
+      "textures": "",
+      "render": "",
+      "FPS": "",
+      "frameTime": "",
+      "calls": "",
+      "triangles": " ",
+      "points": "",
+      "lines": ""
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "",
+    "lbl-published": "",
+    "command": {
+      "translate": "",
+      "rotate": "",
+      "scale": "",
+      "toggleSpace": "",
+      "togglePivot": "",
+      "toggleSnapMode": "",
+      "toggleGrid": "  ",
+      "increaseGridSize": "",
+      "descreaseGridSize": "",
+      "stopPreview": "  ",
+      "playPreview": ""
+    }
+  },
+  "properties": {
+    "title": "",
+    "lbl-visible": "",
+    "lbl-preventBake": "",
+    "lbl-persist": "",
+    "multipleNodeSelected": " ",
+    "noNodeSelected": "",
+    "ambientLight": {
+      "name": "",
+      "description": "     ",
+      "lbl-intensity": "",
+      "lbl-color": ""
+    },
+    "envmap": {
+      "name": "",
+      "description": ""
+    },
+    "asset": {
+      "name": "",
+      "description": "    ",
+      "lbl-options": "",
+      "lbl-assetPath": "",
+      "lbl-assetName": "",
+      "lbl-exportOptions": "",
+      "lbl-export": "",
+      "lbl-load": "",
+      "lbl-unload": "!",
+      "lbl-reload": ""
+    },
+    "audio": {
+      "name": "",
+      "description": "  ",
+      "lbl-audiourl": "",
+      "lbl-controls": "",
+      "info-controls": "  ",
+      "lbl-autoplay": "",
+      "info-autoplay": "      ",
+      "lbl-synchronize": "",
+      "info-synchronize": "     ",
+      "lbl-loop": "",
+      "info-loop": "    ",
+      "lbl-audioType": "",
+      "lbl-distanceModel": "",
+      "info-distanceModel": " ",
+      "lbl-rolloffFactor": "",
+      "info-rolloffFactor": "  \" ",
+      "info-rfInfinity": "  \" ",
+      "lbl-refDistance": "",
+      "info-refDistance": "      ",
+      "lbl-maxDistance": "",
+      "info-maxDistance": "  ",
+      "lbl-coneInnerAngle": " ",
+      "info-coneInnerAngle": "   ",
+      "lbl-coneOuterAngle": "",
+      "info-coneOuterAngle": "      ",
+      "lbl-coreOuterGain": "",
+      "info-coreOuterGain": "           ",
+      "lbl-volume": "",
+      "lbl-play": "",
+      "lbl-pause": "",
+      "error-url": ""
+    },
+    "boxCollider": {
+      "description": "    \n   ",
+      "lbl-isTrigger": ""
+    },
+    "camera": {
+      "name": " ",
+      "description": "   ",
+      "lbl-camera-raycast": "",
+      "lbl-camera-raycast-toggle": " ",
+      "lbl-camera-raycast-frequency": "",
+      "lbl-camera-raycast-count": "",
+      "lbl-camera-raycast-length": ""
+    },
+    "directionalLight": {
+      "name": "",
+      "description": "        ",
+      "lbl-color": "",
+      "lbl-intensity": "",
+      "lbl-cameraFar": "",
+      "lbl-cameraNear": "",
+      "lbl-cameraTop": "",
+      "lbl-cameraBottom": "",
+      "lbl-cameraLeft": " ",
+      "lbl-cameraRight": "",
+      "lbl-useInCSM": "",
+      "lbl-castShadow": "",
+      "lbl-disableForCSM": "  ",
+      "lbl-shadowmapResolution": "",
+      "lbl-shadowBias": "",
+      "lbl-shadowRadius": " ",
+      "lbl-showCameraHelper": ""
+    },
+    "groundPlane": {
+      "name": "",
+      "description": "",
+      "lbl-color": "",
+      "lbl-receiveShadow": "",
+      "lbl-generateNavmesh": " "
+    },
+    "link": {
+      "description": " !",
+      "lbl-url": ""
+    },
+    "map": {
+      "description": "  "
+    },
+    "model": {
+      "description": "   ",
+      "lbl-usingGPUInstancingFlag": "",
+      "lbl-modelurl": "",
+      "lbl-envmapUrl": "",
+      "lbl-textureOverride": "!",
+      "lbl-materialOverride": "",
+      "error-url": "",
+      "lbl-loopAnimation": "",
+      "lbl-isAvatar": "",
+      "lbl-isGPUInstancing": "",
+      "lbl-isDynamic": "",
+      "lbl-castShadow": "",
+      "lbl-receiveShadow": "",
+      "lbl-interactable": "",
+      "lbl-matrixAutoUpdate": "",
+      "lbl-name": "",
+      "lbl-url": "",
+      "lbl-buy": "",
+      "lbl-learnMore": "",
+      "lbl-htmlContent": "",
+      "lbl-interactionText": "",
+      "lbl-interactionType": ""
+    },
+    "materialAssignment": {
+      "lbl-materialID": "",
+      "error-materialID": "",
+      "placeholder-materialID": "",
+      "lbl-patternTarget": "",
+      "lbl-pattern": "",
+      "lbl-isRegex": ""
+    },
+    "interaction": {
+      "type": "",
+      "text": "",
+      "distance": "",
+      "theme": " ",
+      "name": "",
+      "description": "",
+      "images": "",
+      "videos": "",
+      "urls": "",
+      "models": " "
+    },
+    "group": {
+      "name": "",
+      "description": "   \n      "
+    },
+    "hemisphere": {
+      "name": "",
+      "description": "     ",
+      "lbl-skyColor": "",
+      "lbl-groundColor": " ",
+      "lbl-intensity": ""
+    },
+    "image": {
+      "name": "",
+      "description": "",
+      "lbl-imgURL": "",
+      "lbl-transparency": "",
+      "lbl-alphaCutoff": "",
+      "lbl-projection": "",
+      "lbl-side": "",
+      "info-controls": "  ",
+      "info-transparency": "  ",
+      "info-opaque": " =",
+      "info-blend": "= ",
+      "info-mask": "/ = [        ",
+      "info-alphaCutoff": "          ",
+      "error-url": ""
+    },
+    "name": {
+      "lbl-name": ""
+    },
+    "partileEmitter": {
+      "description": " ",
+      "lbl-particleCount": "",
+      "lbl-image": "",
+      "lbl-ageRandomness": "",
+      "lbl-lifetime": "",
+      "lbl-lifetimeRandomness": "",
+      "lbl-sizeCurve": "",
+      "lbl-startPSize": "",
+      "lbl-endPSize": "",
+      "lbl-sizeRandomness": "",
+      "lbl-colorCurve": " ",
+      "lbl-startColor": "",
+      "lbl-startOpacity": "",
+      "lbl-middleColor": "",
+      "lbl-middleOpacity": "",
+      "lbl-endColor": "",
+      "lbl-endOpacity": "",
+      "lbl-velocityCurve": "",
+      "lbl-startVelocity": "",
+      "lbl-endVelocity": "",
+      "lbl-angularVelocity": "",
+      "info-ageRandomness": "     ",
+      "info-lifetime": "         ",
+      "info-lifetimeRandomness": "  ",
+      "info-sizeRandomness": "  ",
+      "error-url": ""
+    },
+    "clouds": {
+      "name": "",
+      "description": " ",
+      "lbl-image": "",
+      "lbl-wroldScale": "",
+      "lbl-dimensions": "",
+      "lbl-noiseZoom": "  ",
+      "lbl-noiseOffset": "",
+      "lbl-spriteScale": "",
+      "lbl-fogColor": "",
+      "lbl-fogRange": "",
+      "error-url": ""
+    },
+    "ocean": {
+      "name": "",
+      "description": "    ",
+      "lbl-normalMap": "",
+      "lbl-distortionMap": "",
+      "lbl-envMap": "",
+      "lbl-color": "",
+      "lbl-shallowWaterColor": "",
+      "lbl-shallowToDeepDistance": "  ",
+      "lbl-opacityFadeDistance": "",
+      "lbl-opacityRange": "",
+      "lbl-shininess": "",
+      "lbl-reflectivity": "",
+      "lbl-foamColor": "",
+      "lbl-foamSpeed": "",
+      "lbl-foamTiling": "",
+      "lbl-bigWaveTiling": "",
+      "lbl-bigWaveSpeed": "",
+      "lbl-bigWaveHeight": " ",
+      "lbl-waveSpeed": "",
+      "lbl-waveScale": "",
+      "lbl-waveTiling": "",
+      "lbl-waveDistortionSpeed": "  ",
+      "lbl-waveDistortionTiling": "",
+      "error-url": ""
+    },
+    "water": {
+      "name": "",
+      "description": ""
+    },
+    "interior": {
+      "name": "",
+      "description": "  ",
+      "lbl-cubeMap": "",
+      "lbl-tiling": "",
+      "lbl-size": "",
+      "error-url": ""
+    },
+    "pointLight": {
+      "description": "      ",
+      "lbl-color": "",
+      "lbl-intensity": "",
+      "lbl-range": "",
+      "lbl-decay": ""
+    },
+    "scene": {
+      "name": "",
+      "description": " ",
+      "lbl-bgcolor": "",
+      "lbl-fogType": "",
+      "lbl-fogColor": "",
+      "lbl-forNearDistance": "",
+      "lbl-fogFarDistance": "",
+      "lbl-fogDensity": "",
+      "lbl-audioSettings": "",
+      "lbl-avatarDistanceModel": "  ",
+      "lbl-avatarRolloffFactor": " ",
+      "lbl-avatarRefDistance": "  ",
+      "lbl-avatarMaxDistance": "",
+      "lbl-mediaVolume": "",
+      "lbl-mediaDistanceModel": " ",
+      "lbl-mediaRolloffFactor": "",
+      "lbl-mediaRefDistance": "",
+      "lbl-mediaMaxDistance": "  ",
+      "lbl-mediaConeInnerAngle": " ",
+      "lbl-mediaConeOuterAngle": "",
+      "lbl-mediaConeOuterGain": "",
+      "info-avatarDistanceModel": " ",
+      "info-avatarRolloffFactor": "  \" ",
+      "info-avatarRolloffFactorInifinity": "  \" ",
+      "info-avatarRefDistance": "      ",
+      "info-avatarMaxDistance": "  ",
+      "info-mediaDistanceModel": " ",
+      "info-mediaRolloffFactor": "  \" ",
+      "info-mediaRolloffFactorInfinity": "  \" ",
+      "info-mediaRefDistance": "      ",
+      "info-mediaMaxDistance": "  ",
+      "info-mediaConeInnerAngle": "   ",
+      "info-mediaConeOuterAngle": "      ",
+      "info-mediaConeOuterGain": "           ",
+      "lbl-simpleMaterials": "",
+      "lbl-lods": "",
+      "info-lods": "    ",
+      "info-simpleMaterials": "  ",
+      "lbl-rendererSettings": "",
+      "lbl-csm": "",
+      "info-csm": "  ",
+      "lbl-toneMapping": "",
+      "info-toneMapping": "          ",
+      "lbl-toneMappingExposure": " ",
+      "info-toneMappingExposure": "  :       ",
+      "lbl-shadowMapType": "",
+      "info-shadowMapType": " ",
+      "error-url": ""
+    },
+    "sceneCamera": {
+      "name": "  ",
+      "description": "    ",
+      "lbl-setFromViewPort": ""
+    },
+    "skybox": {
+      "name": "",
+      "description": "",
+      "lbl-timeOfDay": "  ",
+      "lbl-color": "",
+      "lbl-latitude": "",
+      "lbl-luminance": "",
+      "lbl-scattering": "",
+      "lbl-scatteringDistance": "",
+      "lbl-horizonStart": "",
+      "lbl-horizonEnd": "",
+      "lbl-texture": "",
+      "lbl-skyType": "",
+      "error-url": ""
+    },
+    "spawnPoint": {
+      "name": "  ",
+      "description": "      \n   "
+    },
+    "spotLight": {
+      "description": "     ",
+      "lbl-color": "",
+      "lbl-intensity": "",
+      "lbl-penumbra": " ",
+      "lbl-angle": "",
+      "lbl-range": "",
+      "lbl-decay": ""
+    },
+    "transform": {
+      "title": "",
+      "lbl-postition": "",
+      "lbl-rotation": "",
+      "lbl-scale": ""
+    },
+    "triggereVolume": {
+      "description": "      ",
+      "lbl-target": "",
+      "lbl-onenter": "",
+      "lbl-onexit": "",
+      "lbl-showHelper": " ",
+      "ph-errorNode": "  ",
+      "ph-selectNode": " "
+    },
+    "video": {
+      "name": "",
+      "description": "",
+      "lbl-video": "",
+      "lbl-projection": "",
+      "lbl-islivestream": "",
+      "lbl-interactable": "",
+      "lbl-id": " ",
+      "lbl-play": "",
+      "lbl-pause": "",
+      "error-url": ""
+    },
+    "volumetric": {
+      "name": "",
+      "description": "  ",
+      "uvolPaths": "",
+      "playmode": "",
+      "playtitle": "",
+      "pausetitle": ""
+    },
+    "spline": {
+      "description": "  ",
+      "lbl-addNode": "  "
+    },
+    "systemnode": {
+      "description": "\"",
+      "lbl-filePath": "",
+      "lbl-systemUpdateType": "",
+      "lbl-enableClient": "",
+      "lbl-enableServer": "",
+      "lbl-args": " ",
+      "error-url": " "
+    },
+    "portal": {
+      "lbl-portal": "",
+      "lbl-redirect": "",
+      "description": "  ",
+      "lbl-locationName": "",
+      "lbl-modelUrl": "",
+      "lbl-displayText": "",
+      "lbl-cubemapBake": "",
+      "lbl-spawnPosition": "",
+      "lbl-spawnRotation": "",
+      "lbl-triggerPosition": "",
+      "lbl-triggerRotation": " ",
+      "lbl-triggerScale": ""
+    },
+    "postprocessing": {
+      "name": "",
+      "description": "  "
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "",
+      "backLink": "",
+      "featured": "",
+      "all": "",
+      "newProject": " ",
+      "ph-search": ": "
+    },
+    "grid": {
+      "loading": "\""
+    },
+    "page": {
+      "header": "",
+      "headerMsg": "             ",
+      "lbl-startTutorial": "",
+      "projects": "",
+      "lbl-newProject": ""
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "\"",
+      "placeObject": " ",
+      "placeObjectAtOrigin": "   ",
+      "copyURL": "",
+      "openInNewTab": "",
+      "deleteAsset": ""
+    },
+    "filebrowser": {
+      "addNewFolder": "",
+      "cutAsset": "",
+      "copyAsset": "",
+      "pasteAsset": "",
+      "renameAsset": "",
+      "viewAssetProperties": ""
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "",
+    "lbl-duplicate": "",
+    "lbl-group": "",
+    "lbl-delete": "",
+    "lbl-expandAll": "",
+    "lbl-collapseAll": "",
+    "isseus": ""
+  },
+  "dnd": {
+    "nodes": "@____",
+    "models": " @____",
+    "images": "  @____",
+    "videos": "@____",
+    "audio": "   @____"
+  },
+  "dialog": {
+    "title": "",
+    "lbl-confirm": "",
+    "lbl-cancel": "",
+    "exportProject": {
+      "title": "",
+      "lbl-confirm": "",
+      "lbl-combineMesh": "",
+      "lbl-removeUnused": " "
+    },
+    "performance": {
+      "title": "",
+      "lbl-confirm": "",
+      "learnMore": "",
+      "lbl-polycount": "",
+      "lbl-material": "",
+      "lbl-texture": "",
+      "lbl-lights": "",
+      "lbl-fileSize": "",
+      "info-polycount": " ",
+      "info-material": "     ",
+      "info-texture": "           ",
+      "info-lights": "            ",
+      "info-fileSize": "     ",
+      "txt-polycount": "@____",
+      "txt-material": "@____ ",
+      "txt-ram": "~ @____",
+      "txt-texture": "@____ ",
+      "txt-lights": "@____"
+    },
+    "progress": {
+      "title": "\"",
+      "msg": "\"",
+      "lbl-cancel": ""
+    },
+    "publish": {
+      "title": "",
+      "lbl-confirm": " ",
+      "lbl-name": "",
+      "info-name": " "
+    },
+    "published": {
+      "title": "",
+      "header": " ",
+      "lbl-view": " "
+    },
+    "saveNewProject": {
+      "title": "",
+      "lbl-name": "",
+      "info-name": " ",
+      "lbl-confirm": ""
+    },
+    "support": {
+      "title": "",
+      "header": "?",
+      "msg": "<3>@____</3>     <1></1>",
+      "discord": "   <1></1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "",
+      "search": ""
+    },
+    "bingVideo": {
+      "name": "",
+      "search": ""
+    },
+    "element": {
+      "name": ""
+    },
+    "myAssets": {
+      "name": ""
+    },
+    "googlePoly": {
+      "name": " ",
+      "search": ""
+    },
+    "tenor": {
+      "name": "",
+      "search": "",
+      "ph-search": " "
+    },
+    "sketchfab": {
+      "name": "",
+      "search": ""
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": ""
+    },
+    "imageSourcePanel": {
+      "ph-search": " "
+    },
+    "videoSourcePanel": {
+      "ph-search": "\""
+    },
+    "assetSourcePanel": {
+      "ph-search": " \""
+    },
+    "modelSourcePanel": {
+      "ph-search": " !"
+    },
+    "useUpload": {
+      "multipleFileError": "    ",
+      "mineTypeError": "@____ \"    @____",
+      "progressTitle": "",
+      "progressMsg": "@____ % @____ @____",
+      "uploadError": "",
+      "uploadErrorMsg": "   @____",
+      "uploadErrorDefaultMsg": "   "
+    }
+  },
+  "openLink": {
+    "description": "  ",
+    "lbl-open": ""
+  },
+  "interactableModel": {
+    "lbl-buy": "",
+    "lbl-learnMore": ""
+  },
+  "corsProxyButton": {
+    "tooltip": " "
+  }
+}

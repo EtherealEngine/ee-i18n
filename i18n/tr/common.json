@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Sayfa yükleniyor..."
+  },
+  "tooltip": {
+    "pressKey": "{{tip}} için {{message}} basın"
+  },
+  "toast": {
+    "joined": "Katıldı",
+    "left": "Sol"
+  },
+  "navUserWidget": {
+    "login": "Oturum aç"
+  },
+  "loader": {
+    "connecting": "Dünyaya bağlanmak...",
+    "entering": "Dünyaya girmek...",
+    "loading": "Yükleme...",
+    "objectRemaining": "{{count}} nesne kaldı",
+    "objectRemainingPlural": "{{count}} nesneleri",
+    "loadingObjects": "Yükleme Nesneleri",
+    "loadingComplete": "Yükleme Tamamlandı",
+    "joiningWorld": "Dünyaya Katılmak"
+  },
+  "alert": {
+    "eventWasSuccess": "Etkinlik başarılı oldu",
+    "errorWasEncountered": "Bir hatayla karşılaşıldı",
+    "eventInProgress": "Etkinlik devam ediyor",
+    "seconds": "Saniye",
+    "cancelCountdown": "Bu modun kapatılması geri sayımı iptal eder"
+  },
+  "debug": {
+    "refresh": "Yenilemek",
+    "stats": "Istatistik",
+    "debugOptions": "Hata Ayıklama Seçenekleri",
+    "physicsDebug": "Fizik",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Bağlantı Noktası Yardımcısı",
+    "gridDebug": "Kılavuz",
+    "simpleMaterials": "Basit Malzemeler",
+    "tick": "Kene",
+    "worldStore": "Dünya Mağazası",
+    "engineStore": "Motor Mağazası",
+    "namedEntities": "Adlandırılmış Varlıklar",
+    "networkObject": "Ağ Nesnesi",
+    "networkClients": "Ağ İstemcileri"
+  },
+  "recording": {
+    "videoRecorder": "Video kaydedici",
+    "waitingForPermissions": "İzinler bekleniyor",
+    "selectVideoSource": "Video kaynağını seçin",
+    "screen": "Ekran",
+    "camera": "Kamera",
+    "microphone": "Mikrofon",
+    "startRecording": "Kayda başla",
+    "pauseRecording": "Kaydı duraklatma",
+    "resumeRecording": "Kayda devam et",
+    "stopRecording": "Kaydı durdurma"
+  },
+  "typing": "Yazarak...",
+  "gameServer": {
+    "browserError": "Tarayıcı Hatası",
+    "browserErrorMessage": "Tarayıcınız özel tarama modunda depolamayı desteklemiyor. Başka bir tarayıcı deneyin veya gizli tarama modundan çıkın.",
+    "noAvailableServers": "Kullanılabilir sunucu yok",
+    "noAvailableServersMessage": "Bağlanabileceğiniz herhangi bir sunucu yok. Yeniden bağlanmaya çalışma",
+    "worldDisconnected": "Dünya bağlantısız",
+    "worldDisconnectedMessage": "Dünya ile bağlantınızı kaybettiniz. Sonraki süre dolmadan yeniden bağlanmayı deneyeceğiz, aksi takdirde farklı bir örneğe yönlendirileceksiniz.",
+    "webGLNotEnabled": "WebGL etkin değil",
+    "webGLNotEnabledMessage": "Tarayıcınız WebGL'yi desteklemiyor veya devre dışı bırakılmış. Lütfen WebGL'yi etkinleştirin veya tarayıcınızın en son sürümüne yükseltmeyi düşünün.",
+    "youKickedFromWorld": "Dünyadan kovuldun",
+    "youKickedFromWorldMessage": "Bu dünyadan şu sebepten dolayı kovuldun.",
+    "invalidLocation": "Geçersiz konum",
+    "cantFindLocation": "Konumu bulamıyoruz.",
+    "misspelledOrNotExist": "Yanlış yazılmış olabilir veya mevcut olmayabilir.",
+    "loading": "yükleme",
+    "low-frame-error": "Kötü bir performans algılandı Tarayıcınızda Donanım hızlandırmayı kullan özelliğini etkinleştirmeyi düşünün ve tarayıcınızı yeniden düzenleyin",
+    "low-frame-title": "Daha iyi bir deneyim için donanım hızlandırmayı etkinleştirin!"
+  },
+  "error": {
+    "loading-error": "Kullanıcı verileri yüklenemedi",
+    "validation-error": "Lütfen geçerli {{type}} girin",
+    "login-error": "Oturum açılamadı"
+  }
+}

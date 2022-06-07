@@ -1,0 +1,718 @@
+{
+  "loading": "Loyiha yuklanmoqda",
+  "loadingMsg": "Loyiha yuklanmoqda...",
+  "loadingError": "Loyihani yuklashda xato roʻy berdi",
+  "loadingErrorMsg": "Loyihani yuklashda xatolik roʻy berdi.",
+  "selectSceneMsg": "Dvigatel bilan oʻynashni boshlash uchun Sahnani tanlang",
+  "error": "Xatolik",
+  "errorMsg": "Nomaʼlum xatolik boʻlgan.",
+  "generateScreenshot": "Loyiha skrinshoti yaratilmoqda",
+  "generateScreenshotMsg": "Loyiha skrinshoti yaratilmoqda...",
+  "newScene": "Sahna yaratish",
+  "saving": "Loyiha saqlanmoqda",
+  "savingMsg": "Loyiha saqlanmoqda...",
+  "savingError": "Loyihani saqlashda xato roʻy berdi",
+  "savingErrorMsg": "Loyihani saqlashda xatolik roʻy berdi.",
+  "savingSceneErrorMsg": "Sahna to'g'ri yuklanmaydi. Voqea joyini qayta yuklashni sinab ko'ring.",
+  "duplicating": "Loyihani takrorlash",
+  "duplicatingMsg": "Loyihani takrorlash...",
+  "exporting": "Loyiha eksport qilmoqda",
+  "exportingMsg": "Loyiha eksport qilinmoqda...",
+  "exportingError": "Loyihani eksport qilishda xato roʻy berdi",
+  "exportingErrorMsg": "Loyihani eksport qilishda xatolik roʻy berdi.",
+  "importLegacy": "Meros dunyosini import qilish",
+  "importLegacyMsg": "Ogohlantirish! Bu sizning mavjud sahnangizni ustiga yozadi! Davom etishni xohlayotganingizga ishonchingiz komilmi?",
+  "publishingError": "Loyihani nashr qilish xatosi",
+  "publishingErrorMsg": "Nomaʼlum xatolik boʻlgan.",
+  "publishingScene": "Nashriyot sahnasi",
+  "publishingSceneMsg": "Nashriyot sahnasi...",
+  "uploadingThumbnailMsg": "Miniatyura yuklanmoqda...",
+  "uploadingSceneMsg": "Yuklanayotgan sahna: {{percentage}}%",
+  "envMapError": "Cubemap rasmlarini {{files}} yuklashda xato roʻy berdi",
+  "lbl-return": "Qaytarish",
+  "menubar": {
+    "newScene": "Yangi sahna",
+    "saveScene": "Sahnani saqlash",
+    "saveAs": "Saqlash",
+    "importAsset": "Aktivni import qilish",
+    "exportGLB": "Ikkilik glTF (.glb) sifatida eksport ...",
+    "importScene": "Sahnani import qilish",
+    "exportScene": "Sahnani eksport qilish",
+    "quit": "Chiqish"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Fayl uchun qoʻllanilmaydigan fayl turi: \"{{name}}\". Fayl rasm, video yoki glb modeli bo'lishi kerak.",
+    "addObject": "addObject: obʼekt topilmadidan oldin",
+    "removeObject": "removeObject: tugun topilmadi. Bunga endi voqea joyida bo'lmagan tuguni olib tashlash sabab bo'ladi.",
+    "noParent": "{{node}} \"{{name}}\" ning ota-onasi yo'q. Reparent faqat hozirda voqea joyida bo'lgan ob'ektlarda ishlaydi.",
+    "undefinedParent": "editor.reparent: newParent undefined",
+    "notAuthenticated": "Tasdiqlanmagan",
+    "fetchingProjectError": "Loyihani olib kelishda xato roʻy berdi: {{error}}",
+    "fetchingRouteError": "Yoʻllarni olib kelishda xato roʻy berdi: {{error}}",
+    "unknownError": "Nomaʼlum xato",
+    "resolveURL": "\"{{url}}\" urlini oʻchirib boʻlmadi:",
+    "mediaSearchAborted": "Media qidirish toʻxtatildi",
+    "methodNotImplemented": "metodi amalga oshirilmadi.",
+    "saveProjectAborted": "Sahnani saqlash toʻxtatildi",
+    "unsavedChanges": "Saqlanmagan o'zgarishlar",
+    "unsavedChangesMsg": "Voqea joyiga oʻzgartirish kiritilgan. Iltimos, o'zgarishlaringizni saqlang.",
+    "projectCreationFail": "Loyihani yaratish muvaffaqiyatsiz tugadi. {{reason}}",
+    "projectDeletionFail": "Loyihani olib boʻlmadi. {{reason}}",
+    "savingProjectFail": "Loyihani saqlash muvaffaqiyatsiz tugadi. {{reason}}",
+    "sceneTooLarge": "Sahna nashr qilish uchun juda katta ({{size}} MB). Maksimal o'lcham – mb {{maxSize}} .",
+    "sceneCreationFail": "Sahna yaratish muvaffaqiyatsiz tugadi. {{reason}}",
+    "uploadAborted": "Yozib qoʻyish toʻxtatildi",
+    "uploadFailed": "Yozib qoʻyib boʻlmadi {{reason}}",
+    "assetDeletionFail": "Aktivlarni oʻchirib boʻlmadi. {{reason}}",
+    "projectAssetDeletionFail": "Aktivlarni oʻchirish muvaffaqiyatsiz tugadi. {{reason}}",
+    "networkError": "Tarmoq xatosi: {{status}}. {{text}}",
+    "unknownStatus": "Nomaʼlum holat",
+    "CORS": "Ehtimol CORS xatosi",
+    "urlFetchError": "\"{{url}}\" ni olib boʻlmadi"
+  },
+  "viewport": {
+    "title": "Koʻrinishport",
+    "command": {
+      "movecamera": "Kamerani koʻchirish",
+      "flyFast": "Tezroq uching",
+      "orbit": "Orbita / Tanlash",
+      "pan": "Toʻlqini",
+      "fly": "Uchish",
+      "focus": "Fokus",
+      "rotateLeft": "Chapga burish",
+      "rotateRight": "Oʻngga burish",
+      "cancelPlacement": "Joylashtirishni bekor qilish",
+      "placeDuplicate": "Nusxasini qoʻyish",
+      "cancelGrab": "Olishni bekor qilish",
+      "grab": "Ushlash",
+      "deselectAll": "Hammasini bekor qilish"
+    },
+    "state": {
+      "header": "Statistika",
+      "memory": "Xotira",
+      "geometries": "Geometriyalar",
+      "textures": "Toʻqimalar",
+      "render": "Render",
+      "FPS": "FPS",
+      "frameTime": "Freymning vaqti",
+      "calls": "Qo'ng'iroqlar",
+      "triangles": "Uchburchaklar",
+      "points": "Nuqtalar",
+      "lines": "Chiziqlar"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Nashr qilish",
+    "lbl-published": "Nashr etilgan",
+    "command": {
+      "translate": "Tarjima qiling",
+      "rotate": "Burish",
+      "scale": "Oʻlchov",
+      "toggleSpace": "Boʻsh joyni oʻzgartirish",
+      "togglePivot": "Oʻzgarish",
+      "toggleSnapMode": "Oʻchirtish usuli",
+      "toggleGrid": "Toʻr koʻrinishini oʻchirib boʻlish",
+      "increaseGridSize": "Toʻrning oʻlchamini kattalashtirish",
+      "descreaseGridSize": "Toʻrning oʻlchamini kichiklashtirish",
+      "stopPreview": "Sahnani oldindan koʻrishni toʻxtatish",
+      "playPreview": "Koʻrib chiqish"
+    }
+  },
+  "properties": {
+    "title": "Xossalari",
+    "lbl-visible": "Koʻrinadigan",
+    "lbl-preventBake": "Pishirishni oldini olish",
+    "lbl-persist": "Davom etdir",
+    "multipleNodeSelected": "Bir nechta turli xil tuginlar tanlanganName",
+    "noNodeSelected": "Hech qanday bogʻ topilmadi",
+    "ambientLight": {
+      "name": "Atrof-muhit yorugʻligi",
+      "description": "Sahnangizdagi barcha ob'ektlarni yoritadigan yorug'lik.",
+      "lbl-intensity": "Zichlik",
+      "lbl-color": "Rang"
+    },
+    "envmap": {
+      "name": "Atrof-muhit xaritasi",
+      "description": "muhit xaritasi xossalari"
+    },
+    "asset": {
+      "name": "Aktiv",
+      "description": "Dinamik ravishda yuklanishi va yuklanishi mumkin bo'lgan sahna komponentlarini guruhlash",
+      "lbl-options": "Moslamalar",
+      "lbl-assetPath": "Aktivlar yoʻli",
+      "lbl-assetName": "Eksport nomi",
+      "lbl-exportOptions": "Eksport qilish moslamalari",
+      "lbl-export": "Aktivni eksport qilish",
+      "lbl-load": "Sahnaga yuklash",
+      "lbl-unload": "Yukni bekor qilish",
+      "lbl-reload": "Qaytadan yuklash"
+    },
+    "audio": {
+      "name": "Audio",
+      "description": "Dinamik ravishda audio yuklaydi.",
+      "lbl-audiourl": "Audio Url",
+      "lbl-controls": "nazorat qilish",
+      "info-controls": "Media boshqaruvlarining ko'rinishini o'tkazing.",
+      "lbl-autoplay": "Avtomatik oʻynash",
+      "info-autoplay": "Agar rost boʻlsa, voqea joyiga ilk bor kirganda ommaviy axborot vositalari oʻynashadi.",
+      "lbl-synchronize": "Sinxronlash",
+      "info-synchronize": "Agar oʻrnatilsa, ommaviy axborot vositalari barcha ulangan mijozlarga sinxronlashtiriladi.",
+      "lbl-loop": "Boʻyiga",
+      "info-loop": "Agar rost bo'lsa, ommaviy axborot vositalari abadiy to'siq bo'ladi.",
+      "lbl-audioType": "Audio turi",
+      "lbl-distanceModel": "Masofa modeli",
+      "info-distanceModel": "Audio ruloffni hisoblashda ishlatiladigan algorithim.",
+      "lbl-rolloffFactor": "Rolloff faktory",
+      "info-rolloffFactor": "Manba tinglovchidan uzoqlashishi bilan ovoz qanchalik tez kamaytirilani tasvirlovchi ikki tomonlama qiymat. 0 dan 1 gacha",
+      "info-rfInfinity": "Manba tinglovchidan uzoqlashishi bilan ovoz qanchalik tez kamaytirilani tasvirlovchi ikki tomonlama qiymat. Cheksizlikka 0",
+      "lbl-refDistance": "Ref masofasi",
+      "info-refDistance": "Audio manba tinglovchidan uzoqroqqa o'tishi bilan ovoz balandligini kamaytirish uchun mos yozuvlar masofasini ifodalovchi ikki tomonlama qiymat.",
+      "lbl-maxDistance": "Maks masofasi",
+      "info-maxDistance": "Audio manba va tinglovchi o'rtasidagi maksimal masofani ifodalovchi ikki tomonlama qiymat, shundan so'ng ovoz boshqa kamaytirilmaydi.",
+      "lbl-coneInnerAngle": "Konusning ichki burchagi",
+      "info-coneInnerAngle": "Ichkarida hajm kamayishi bo'lmaydigan konusning burchagini, darajalarda tasvirlovchi ikki tomonlama qiymat.",
+      "lbl-coneOuterAngle": "Konusning tashqi burchagi",
+      "info-coneOuterAngle": "Konusning burchagini tavsiflovchi ikki marta qiymat, undan tashqarida hajm doimiy qiymat bilan kamaytiriladi, konusouterGain atributi bilan aniqlanadi.",
+      "lbl-coreOuterGain": "Konusning tashqi daromadi",
+      "info-coreOuterGain": "KonusningOuterAngle atributi bilan aniqlangan konusdan tashqarida hajmni kamaytirish miqdorini tasvirlovchi ikkilik qiymat. Uning andoza qiymati 0 bo'lib, demak hech qanday tovush eshitilmaydi.",
+      "lbl-volume": "Disk qismi",
+      "lbl-play": "Oʻynash",
+      "lbl-pause": "Toʻxtatish",
+      "error-url": "URL'dan yuklashda xato roʻy berdi"
+    },
+    "boxCollider": {
+      "description": "Ob'ektlarning ustiga bostirib kiradigan yoki dam oladigan ko'rinmas quti.\nTo'qnashuvlar bo'lmasa, buyumlar pollardan tushib, devorlardan o'tadi.",
+      "lbl-isTrigger": "Trigger"
+    },
+    "camera": {
+      "name": "Kamera",
+      "description": "Kamera sozlamalari.",
+      "lbl-camera-raycast": "Kamera raykasting",
+      "lbl-camera-raycast-toggle": "Yoqilgan",
+      "lbl-camera-raycast-frequency": "Tezlik",
+      "lbl-camera-raycast-count": "Ray Count",
+      "lbl-camera-raycast-length": "Nur uzunligi"
+    },
+    "directionalLight": {
+      "name": "Yo'nalishli yorug'lik",
+      "description": "Butun sahnani yoritadigan, ammo bitta yo'nalish bo'ylab chiqaradigan yorug'lik.",
+      "lbl-color": "Rang",
+      "lbl-intensity": "Zichlik",
+      "lbl-cameraFar": "Kamera Far",
+      "lbl-cameraNear": "Kamera yaqin",
+      "lbl-cameraTop": "Kamera tepasi",
+      "lbl-cameraBottom": "Kamera pasti",
+      "lbl-cameraLeft": "Kamera chap",
+      "lbl-cameraRight": "Kamera oʻngda",
+      "lbl-useInCSM": "CSMda qo'llash",
+      "lbl-castShadow": "Soyani qoʻyib",
+      "lbl-disableForCSM": "Cascade soya xaritasi yoqilganligi uchun oʻchirilgan.",
+      "lbl-shadowmapResolution": "Soya xaritani o'lchamlari",
+      "lbl-shadowBias": "Soya tarafkashligi",
+      "lbl-shadowRadius": "Soya radiusi",
+      "lbl-showCameraHelper": "Kamera yordamchisini koʻrsatish"
+    },
+    "groundPlane": {
+      "name": "Yer usti samolyoti",
+      "description": "Uzoqqa cho'zilgan tekis yerosti samolyoti.",
+      "lbl-color": "Rang",
+      "lbl-receiveShadow": "Soyani olish",
+      "lbl-generateNavmesh": "Navmesh hosil qilish"
+    },
+    "link": {
+      "description": "Xona yoki veb-saytga bog'lanish.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "Masalan, shaharning 3D geospatial xaritasi."
+    },
+    "model": {
+      "description": "Sahnangizdagi 3D model, GLTF URL yoki fayldan yuklangan.",
+      "lbl-usingGPUInstancingFlag": "GPU Instancing-ni ishlatish",
+      "lbl-modelurl": "Modelning manzili",
+      "lbl-envmapUrl": "Muhit xaritasi manzili",
+      "lbl-textureOverride": "Toʻqimani bosib oʻchirish",
+      "lbl-materialOverride": "Materialni haddan tashqari koʻchirmoqda",
+      "error-url": "URL'dan yuklashda xato roʻy berdi",
+      "lbl-loopAnimation": "Loop animatsiya",
+      "lbl-isAvatar": "Avtor",
+      "lbl-isGPUInstancing": "GPU Instancing-dan foydalanmoqda",
+      "lbl-isDynamic": "Dinamik",
+      "lbl-castShadow": "Soyani qoʻyib",
+      "lbl-receiveShadow": "Soyani olish",
+      "lbl-interactable": "O'zaro bog'langan",
+      "lbl-matrixAutoUpdate": "MatritsaAutoUpdate",
+      "lbl-name": "Nom",
+      "lbl-url": "Modelning manzili",
+      "lbl-buy": "Url sotib olish",
+      "lbl-learnMore": "Qoʻllangan url",
+      "lbl-htmlContent": "Html tarkibi",
+      "lbl-interactionText": "Oʻzaro aloqalar matni",
+      "lbl-interactionType": "O'zaro ta'sir turi"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Material",
+      "error-materialID": "Materialni topish xatosi",
+      "placeholder-materialID": "Materialni tanlash",
+      "lbl-patternTarget": "Namuna bilan moslash",
+      "lbl-pattern": "Andoza",
+      "lbl-isRegex": "Regeks"
+    },
+    "interaction": {
+      "type": "O'zaro ta'sir turi",
+      "text": "Oʻzaro aloqalar matni",
+      "distance": "O'zaro ta'sir masofasi",
+      "theme": "O'zaro aloqadorlik mavzusi",
+      "name": "Oʻzaro aloqalar nomi",
+      "description": "O'zaro ta'sir tavsifi",
+      "images": "O'zaro ta'sir rasmlari",
+      "videos": "O'zaro ta'sir videolari",
+      "urls": "Oʻzaro aloqalar Urls",
+      "models": "O'zaro ta'sir modellari"
+    },
+    "group": {
+      "name": "Guruh",
+      "description": "Bir-biriga ko'chirilishi yoki takrorlanishi mumkin bo'lgan ko'p obyektlar guruhi.\nIerarxiyada obʼektlarni guruh ichiga sudrab olib tashlash."
+    },
+    "hemisphere": {
+      "name": "Yarimshar yorug'ligi",
+      "description": "Voqea joyini to'g'ridan-to'g'ri yuqoridan yoritadigan yorug'lik.",
+      "lbl-skyColor": "Osmonning rangi",
+      "lbl-groundColor": "Zamin rangi",
+      "lbl-intensity": "Zichlik"
+    },
+    "image": {
+      "name": "Rasm",
+      "description": "Dinamik ravishda tasvirni yuklaydi.",
+      "lbl-imgURL": "Rasm manzili",
+      "lbl-transparency": "Shaffoflik rejimi",
+      "lbl-alphaCutoff": "Alfa kesish",
+      "lbl-projection": "Proyeksiyalash",
+      "lbl-side": "Yonbosh",
+      "info-controls": "Media boshqaruvlarining ko'rinishini o'tkazing.",
+      "info-transparency": "Tejamkorlikni qo'llash tartibi:",
+      "info-opaque": "\"noto'g'ri\" = shaffoflik yo'q",
+      "info-blend": "'blend' = rasmlar alfa kanalidan foydalaning",
+      "info-mask": "'mask' = Shaffoflikni /o'chirish uchun belgilangan kesish qiymatidan foydalaning (ko'proq ijrochi)",
+      "info-alphaCutoff": "Bundan pastroq qiymatga ega boʻlgan piksellar shaffof boʻladi",
+      "error-url": "Notoʻgʻri manzil"
+    },
+    "name": {
+      "lbl-name": "Nom"
+    },
+    "partileEmitter": {
+      "description": "Zarrachalarni yaratish uchun zarrachalar chiqaruvchi.",
+      "lbl-particleCount": "Zarrachalar soni",
+      "lbl-image": "Rasm",
+      "lbl-ageRandomness": "Yosh tasodifiyligi",
+      "lbl-lifetime": "Umr boʻyicha",
+      "lbl-lifetimeRandomness": "Umrboqiy tasodifiylik",
+      "lbl-sizeCurve": "Oʻlcham egri chizigʻi",
+      "lbl-startPSize": "Boshlash Zarracha hajmi",
+      "lbl-endPSize": "Zarrachalar o'lchamini tugatish",
+      "lbl-sizeRandomness": "Oʻlchami tasodifiyligi",
+      "lbl-colorCurve": "Rang egri chizigʻi",
+      "lbl-startColor": "Rangni boshlash",
+      "lbl-startOpacity": "Xiralikni boshlash",
+      "lbl-middleColor": "Oʻrtacha rang",
+      "lbl-middleOpacity": "Oʻrtacha shaffoflik",
+      "lbl-endColor": "Oxiri rangi",
+      "lbl-endOpacity": "Oppoqlikni tugatish",
+      "lbl-velocityCurve": "Tezlik egri chizigʻi",
+      "lbl-startVelocity": "Tezlikni boshlash",
+      "lbl-endVelocity": "Tezlikni tugatish",
+      "lbl-angularVelocity": "Angular tezligi",
+      "info-ageRandomness": "Zarrachalar paydo bo'lganda orasidagi farq miqdori.",
+      "info-lifetime": "Bir zarrachaning maksimal yoshi unga javob berishdan oldin.",
+      "info-lifetimeRandomness": "Zarrachalar umri o'rtasidagi o'zgarish miqdori.",
+      "info-sizeRandomness": "Zarrachalar boshlang'ich o'lchamlari o'rtasidagi o'zgarish miqdori.",
+      "error-url": "URL'dan yuklashda xato roʻy berdi"
+    },
+    "clouds": {
+      "name": "Bulut",
+      "description": "Sprite asoslangan bulut hajmi.",
+      "lbl-image": "Rasmni sprite",
+      "lbl-wroldScale": "Jahon miqyosi",
+      "lbl-dimensions": "Oʻlchamlar",
+      "lbl-noiseZoom": "Shovqinni kattalashtirish",
+      "lbl-noiseOffset": "Shovqinni oʻchirtish",
+      "lbl-spriteScale": "Sprite shkalasi",
+      "lbl-fogColor": "Tuman rang",
+      "lbl-fogRange": "Tuman oralig'i",
+      "error-url": "URL'dan yuklashda xato roʻy berdi"
+    },
+    "ocean": {
+      "name": "Okean",
+      "description": "To'lqinlar va ko'pikli okean yuzasi",
+      "lbl-normalMap": "Oddiy xarita",
+      "lbl-distortionMap": "Tebranish xaritasi",
+      "lbl-envMap": "Atrof-muhit xaritasi",
+      "lbl-color": "Rang",
+      "lbl-shallowWaterColor": "Tubsiz suv rangi",
+      "lbl-shallowToDeepDistance": "Chuqur masofaga tubsiz",
+      "lbl-opacityFadeDistance": "Shaffoflik soʻnish masofasi",
+      "lbl-opacityRange": "Shaffoflik diapazoni",
+      "lbl-shininess": "Shininess",
+      "lbl-reflectivity": "Aks ettirish",
+      "lbl-foamColor": "Koʻpik rangi",
+      "lbl-foamSpeed": "Ko'pik tezligi",
+      "lbl-foamTiling": "Ko'pikli tola",
+      "lbl-bigWaveTiling": "Katta to'lqinli tiling",
+      "lbl-bigWaveSpeed": "Katta to'lqin tezligi",
+      "lbl-bigWaveHeight": "Katta to'lqin balandligi",
+      "lbl-waveSpeed": "To'lqin tezligi",
+      "lbl-waveScale": "Toʻlqin shkalasi",
+      "lbl-waveTiling": "To'lqinli tiling",
+      "lbl-waveDistortionSpeed": "To'lqin tebranish tezligi",
+      "lbl-waveDistortionTiling": "To'lqin tebranish Tiling",
+      "error-url": "URL'dan yuklashda xato roʻy berdi"
+    },
+    "water": {
+      "name": "Suv",
+      "description": "Kichik suv yuzasi"
+    },
+    "interior": {
+      "name": "Ichki",
+      "description": "Ichki muhitga taqlid qilish uchun xaritalangan kub to'qimalariga ega sirt",
+      "lbl-cubeMap": "Kub xaritasi toʻqima",
+      "lbl-tiling": "Tolalar miqdori",
+      "lbl-size": "Yuza o'lchami",
+      "error-url": "URL'dan yuklashda xato roʻy berdi"
+    },
+    "pointLight": {
+      "description": "Bir nuqtadan barcha yo'nalishlarda chiqadigan yorug'lik.",
+      "lbl-color": "Rang",
+      "lbl-intensity": "Zichlik",
+      "lbl-range": "Oraliq",
+      "lbl-decay": "Chirib ketish"
+    },
+    "scene": {
+      "name": "Sahna",
+      "description": "Voqea joyining ildiz obʼekti.",
+      "lbl-bgcolor": "Orqa fon rangi",
+      "lbl-fogType": "Tuman turi",
+      "lbl-fogColor": "Tuman rang",
+      "lbl-forNearDistance": "Tuman yaqin masofa",
+      "lbl-fogFarDistance": "Tuman uzoq masofa",
+      "lbl-fogDensity": "Tuman zichligi",
+      "lbl-audioSettings": "Positional Audioni ishlatish",
+      "lbl-avatarDistanceModel": "Avatar masofa modeli",
+      "lbl-avatarRolloffFactor": "Avatar roʻyxatdan oʻtish",
+      "lbl-avatarRefDistance": "Avatar Ref masofasi",
+      "lbl-avatarMaxDistance": "Avatar Max masofasi",
+      "lbl-mediaVolume": "Media disk qismi",
+      "lbl-mediaDistanceModel": "Media masofa modeli",
+      "lbl-mediaRolloffFactor": "Media rolloff omili",
+      "lbl-mediaRefDistance": "Media Ref masofasi",
+      "lbl-mediaMaxDistance": "Media Maksimal masofa",
+      "lbl-mediaConeInnerAngle": "Media konusning ichki burchagi",
+      "lbl-mediaConeOuterAngle": "Media konusning tashqi burchagi",
+      "lbl-mediaConeOuterGain": "Media konusning tashqi daromadi",
+      "info-avatarDistanceModel": "Audio ruloffni hisoblashda ishlatiladigan algorithim.",
+      "info-avatarRolloffFactor": "Manba tinglovchidan uzoqlashishi bilan ovoz qanchalik tez kamaytirilani tasvirlovchi ikki tomonlama qiymat. 0 dan 1 gacha",
+      "info-avatarRolloffFactorInifinity": "Manba tinglovchidan uzoqlashishi bilan ovoz qanchalik tez kamaytirilani tasvirlovchi ikki tomonlama qiymat. Cheksizlikka 0",
+      "info-avatarRefDistance": "Audio manba tinglovchidan uzoqroqqa o'tishi bilan ovoz balandligini kamaytirish uchun mos yozuvlar masofasini ifodalovchi ikki tomonlama qiymat.",
+      "info-avatarMaxDistance": "Audio manba va tinglovchi o'rtasidagi maksimal masofani ifodalovchi ikki tomonlama qiymat, shundan so'ng ovoz boshqa kamaytirilmaydi.",
+      "info-mediaDistanceModel": "Audio ruloffni hisoblashda ishlatiladigan algorithim.",
+      "info-mediaRolloffFactor": "Manba tinglovchidan uzoqlashishi bilan ovoz qanchalik tez kamaytirilani tasvirlovchi ikki tomonlama qiymat. 0 dan 1 gacha",
+      "info-mediaRolloffFactorInfinity": "Manba tinglovchidan uzoqlashishi bilan ovoz qanchalik tez kamaytirilani tasvirlovchi ikki tomonlama qiymat. Cheksizlikka 0",
+      "info-mediaRefDistance": "Audio manba tinglovchidan uzoqroqqa o'tishi bilan ovoz balandligini kamaytirish uchun mos yozuvlar masofasini ifodalovchi ikki tomonlama qiymat.",
+      "info-mediaMaxDistance": "Audio manba va tinglovchi o'rtasidagi maksimal masofani ifodalovchi ikki tomonlama qiymat, shundan so'ng ovoz boshqa kamaytirilmaydi.",
+      "info-mediaConeInnerAngle": "Ichkarida hajm kamayishi bo'lmaydigan konusning burchagini, darajalarda tasvirlovchi ikki tomonlama qiymat.",
+      "info-mediaConeOuterAngle": "Konusning burchagini tavsiflovchi ikki marta qiymat, undan tashqarida hajm doimiy qiymat bilan kamaytiriladi, konusouterGain atributi bilan aniqlanadi.",
+      "info-mediaConeOuterGain": "KonusningOuterAngle atributi bilan aniqlangan konusdan tashqarida hajmni kamaytirish miqdorini tasvirlovchi ikkilik qiymat. Uning andoza qiymati 0 bo'lib, demak hech qanday tovush eshitilmaydi.",
+      "lbl-simpleMaterials": "Oddiy materiallardan foydalanish",
+      "lbl-lods": "Lodlar",
+      "info-lods": "Detalning darajalari o'zgaradigan masofalarni o'rnatadi.",
+      "info-simpleMaterials": "Yukni sahna ko'rishdan olib tashlash uchun barcha qimmat materiallarni sodda materiallarga aylantiradi.",
+      "lbl-rendererSettings": "Renderer moslamalarini oʻchirtish",
+      "lbl-csm": "Soya xaritalarini kaskadlash",
+      "info-csm": "& Soya bilan bogʻlashni yoqish.",
+      "lbl-toneMapping": "Tonni xaritalash",
+      "info-toneMapping": "Hodisa joyini koʻrsatishda tonni xaritalashni yoqish. Postni qayta ishlash yoqilganda hech qanday ta'sir ko'rsatmaydi.",
+      "lbl-toneMappingExposure": "Ohangni xaritalash ekspozitsiyasi",
+      "info-toneMappingExposure": "Hodisa joyidagi tonni xaritalash taʼsirini koʻrsatish. Postni qayta ishlash yoqilganda hech qanday ta'sir ko'rsatmaydi.",
+      "lbl-shadowMapType": "Soya xarita turi",
+      "info-shadowMapType": "Soya xaritasi turi",
+      "error-url": "URL'dan yuklashda xato roʻy berdi"
+    },
+    "sceneCamera": {
+      "name": "Sahna ko'rinishini ko'rish kamerasi",
+      "description": "Kamera sizning sahnangiz uchun miniatyurani va ko'rib chiqish kamerasi uchun boshlang'ich pozitsiyani yaratish uchun ishlatilgan.",
+      "lbl-setFromViewPort": "Koʻrish maydonchadan oʻrnatish"
+    },
+    "skybox": {
+      "name": "Osma quti",
+      "description": "",
+      "lbl-timeOfDay": "Kun vaqti",
+      "lbl-color": "Rang",
+      "lbl-latitude": "Kenglik",
+      "lbl-luminance": "Yorug'lik",
+      "lbl-scattering": "Tarqoqlik miqdori",
+      "lbl-scatteringDistance": "Tarqoq masofa",
+      "lbl-horizonStart": "Gorizontal boshlash",
+      "lbl-horizonEnd": "Eniga chiziqlar",
+      "lbl-texture": "Toʻqima",
+      "lbl-skyType": "Osmon turi",
+      "error-url": "URL'dan yuklashda xato roʻy berdi"
+    },
+    "spawnPoint": {
+      "name": "Spawn nuqtasi",
+      "description": "Odamlar sizning sahnangizga kirganda paydo bo'ladigan nuqta.\nViewportdagi belgi avatarning haqiqiy o'lchamini ifodalaydi."
+    },
+    "spotLight": {
+      "description": "Yo'nalish bo'ylab chiqadigan, konus ichidagi ob'ektlarni yoritadigan yorug'lik.",
+      "lbl-color": "Rang",
+      "lbl-intensity": "Zichlik",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Burchak",
+      "lbl-range": "Oraliq",
+      "lbl-decay": "Chirib ketish"
+    },
+    "transform": {
+      "title": "Aylantirish",
+      "lbl-postition": "Oʻrni",
+      "lbl-rotation": "Burish",
+      "lbl-scale": "Oʻlchov"
+    },
+    "triggereVolume": {
+      "description": "kirish va chiqib ketishda mo'ljal ob'ektga mulkni o'rnatadi.",
+      "lbl-target": "Obʼekt",
+      "lbl-onenter": "Kiritishda",
+      "lbl-onexit": "Chiqishda",
+      "lbl-showHelper": "Yordamchini koʻrsatish",
+      "ph-errorNode": "Tugamaydigan faylda xatolik roʻy berdi.",
+      "ph-selectNode": "Bogʻni tanlash"
+    },
+    "video": {
+      "name": "Video",
+      "description": "Dinamik ravishda video yuklaydi.",
+      "lbl-video": "Video",
+      "lbl-projection": "Proyeksiyalash",
+      "lbl-islivestream": "Jonli oqim",
+      "lbl-interactable": "O'zaro bog'langan",
+      "lbl-id": "Element identifikatori",
+      "lbl-play": "Oʻynash",
+      "lbl-pause": "Toʻxtatish",
+      "error-url": "URL'dan yuklashda xato roʻy berdi"
+    },
+    "volumetric": {
+      "name": "Hajmiy",
+      "description": "Dinamik ravishda volumetrik video yuklaydi.",
+      "uvolPaths": "UVOL yoʻllari",
+      "playmode": "Oʻynash rejimi",
+      "playtitle": "Oʻynash",
+      "pausetitle": "Toʻxtatish"
+    },
+    "spline": {
+      "description": "Egri chiziqlarni dinamik yaratish va sozlash.",
+      "lbl-addNode": "Egri chiziq qo'shish."
+    },
+    "systemnode": {
+      "description": "Skriptni ilova qilish.",
+      "lbl-filePath": "Url",
+      "lbl-systemUpdateType": "Inʼektsiya nuqtasi",
+      "lbl-enableClient": "Mijoz",
+      "lbl-enableServer": "Server",
+      "lbl-args": "Argʻlar",
+      "error-url": "Skriptni URL' dan yuklashda xato roʻy berdi"
+    },
+    "portal": {
+      "lbl-portal": "Bog'langan portal",
+      "lbl-redirect": "Sahifani qayta yoʻnaltirishdan foydalanish",
+      "description": "O'yinchilarni belgilangan joyga teleport qilish uchun Portat",
+      "lbl-locationName": "Manzil",
+      "lbl-modelUrl": "Modelning manzili",
+      "lbl-displayText": "Matnni koʻrsatish",
+      "lbl-cubemapBake": "Cubemap bake",
+      "lbl-spawnPosition": "Oʻsish joyi",
+      "lbl-spawnRotation": "Urugʻni burish",
+      "lbl-triggerPosition": "Triggerning oʻrni",
+      "lbl-triggerRotation": "Triggerni burish",
+      "lbl-triggerScale": "Triggerning oʻlchami"
+    },
+    "postprocessing": {
+      "name": "Postni qayta ishlash",
+      "description": "Sahnaga Post Ishlov berish effektlarini qo'llash uchun."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Yangi loyiha",
+      "backLink": "Loyihalarga qaytish",
+      "featured": "Tavsiya etilgan",
+      "all": "Hammasi",
+      "newProject": "Yangi boʻsh loyiha",
+      "ph-search": "Qidirish sahnalari..."
+    },
+    "grid": {
+      "loading": "Yuklanmoqda..."
+    },
+    "page": {
+      "header": "Xush kelibsiz",
+      "headerMsg": "Agar siz bu erda yangi bo'lsangiz, biz darslikdan o'tishni maslahat beramiz. Aks holda, to'g'ri ichkariga o'tish va noldan yoki shablonlarimizdan birini loyihani yaratish.",
+      "lbl-startTutorial": "Qo'llanmani boshlash",
+      "projects": "Loyihalar",
+      "lbl-newProject": "Yangi loyiha"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Yuklanmoqda...",
+      "placeObject": "Obʼektni qoʻyish",
+      "placeObjectAtOrigin": "Obʼektni originga qoʻyish",
+      "copyURL": "Urldan nusxa olish",
+      "openInNewTab": "URL'ni yangi tabda ochish",
+      "deleteAsset": "Aktivni oʻchirish"
+    },
+    "filebrowser": {
+      "addNewFolder": "Yangi jildni qoʻshish",
+      "cutAsset": "Kesish",
+      "copyAsset": "Nusxa olish",
+      "pasteAsset": "Qoʻyish",
+      "renameAsset": "Nomini oʻzgartirish",
+      "viewAssetProperties": "Koʻrish xossalari"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Nomini oʻzgartirish",
+    "lbl-duplicate": "Nusxasini & koʻpaytiring",
+    "lbl-group": "Guruh",
+    "lbl-delete": "Oʻchirish",
+    "lbl-expandAll": "Hammasini yoyish",
+    "lbl-collapseAll": "Hammasini qulatib boʻyash",
+    "isseus": "Masalalar:"
+  },
+  "dnd": {
+    "nodes": "{{count}} tugadi tanlanganName",
+    "models": "{{count}} modellari tanlangan",
+    "images": "{{count}} rasmlar tanlangan",
+    "videos": "{{count}} videolar tanlangan",
+    "audio": "{{count}} Audio manbalar tanlangan"
+  },
+  "dialog": {
+    "title": "Tahrirchi",
+    "lbl-confirm": "Xo'p",
+    "lbl-cancel": "Bekor qilish",
+    "exportProject": {
+      "title": "Loyihani eksport qilish",
+      "lbl-confirm": "Loyihani eksport qilish",
+      "lbl-combineMesh": "Meshlarni birlashtirish",
+      "lbl-removeUnused": "Foydalanilmagan obʼektlarni olib tashlash"
+    },
+    "performance": {
+      "title": "Ishlashni tekshirish",
+      "lbl-confirm": "Sahnani nashr eting",
+      "learnMore": "Ko'proq o'rganing",
+      "lbl-polycount": "Koʻpburchaklar soni",
+      "lbl-material": "Materiallar",
+      "lbl-texture": "Toʻqimalar",
+      "lbl-lights": "Yorug'lik",
+      "lbl-fileSize": "Faylning oʻlchami",
+      "info-polycount": "Sizning sahnangizga mobil qurilmalar uchun 50,000 dan ortiq uchburchaklardan foydalanishni tavsiya qilamiz.",
+      "info-material": "Mobil qurilmalardagi qo'ng'iroqlarni kamaytirish uchun sahnangizda 25 dan ortiq noyob materiallardan foydalanishni tavsiya etamiz.",
+      "info-texture": "Sizning to'qimalaringiz mobil qurilmalar uchun 256MB dan ortiq video RAM-dan foydalanmasligini tavsiya etamiz. Bundan tashqari, 2048 x 2048 dan katta bo'lgan to'qimalardan foydalanishni tavsiya etamiz.",
+      "info-lights": "Mobil qurilmalarda dinamik chiroqlar yoqilmagan bo'lsa-da, sahnangizda 3 dan ortiq chiroqlardan (atrof-muhit va yarimshar chiroqlaridan tashqari) sizning sahnangiz past sonli kompyuterlarda ishlashini tavsiya etamiz.",
+      "info-fileSize": "Biz kam tarmoqli kengligi ulanishlar uchun 16MB dan ortiq bo'lmagan yakuniy fayl hajmini tavsiya etamiz. Fayl hajmini kamaytirish sizning sahnangizni yuklab olish uchun kerak bo'lgan vaqtni qisqartiradi.",
+      "txt-polycount": "{{count}} uchburchaklar",
+      "txt-material": "{{count}} materiallar",
+      "txt-ram": "~{{count}} Video RAM",
+      "txt-texture": "{{count}} katta teksturalar",
+      "txt-lights": "{{count}} Chiroqlar"
+    },
+    "progress": {
+      "title": "Yuklanmoqda...",
+      "msg": "Yuklanmoqda...",
+      "lbl-cancel": "Bekor qilish"
+    },
+    "publish": {
+      "title": "Sahnani nashr eting",
+      "lbl-confirm": "Saqlash va nashr qilish",
+      "lbl-name": "Sahna nomi",
+      "info-name": "Nom 4 dan 64 belgigacha bo'lishi kerak va unda underscorelar bo'lishi mumkin emas"
+    },
+    "published": {
+      "title": "Sahna nashr etildi",
+      "header": "Sahnangiz chop etildi.",
+      "lbl-view": "Sahnangizni ko'rish"
+    },
+    "saveNewProject": {
+      "title": "Qo'llab-quvvatlash",
+      "lbl-name": "Loyiha nomi",
+      "info-name": "Nom 4 dan 64 belgigacha bo'lishi kerak va unda underscorelar bo'lishi mumkin emas",
+      "lbl-confirm": "Loyihani saqlash"
+    },
+    "support": {
+      "title": "Qo'llab-quvvatlash",
+      "header": "Muammo haqida xabar berish kerakmi?",
+      "msg": "<1>GitHub masalasini</1> topshirishingiz yoki bizga qo'llab-quvvatlash uchun elektron pochta orqali <3> yuborishingiz mumkin{{mail}}</3>",
+      "discord": "Siz ham bizni <1>Nizo</1> ustida topishingiz mumkin"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Bing rasmlari",
+      "search": "Bing bo'yicha qidirish"
+    },
+    "bingVideo": {
+      "name": "Bing Videolar",
+      "search": "Bing bo'yicha qidirish"
+    },
+    "element": {
+      "name": "Elementlar"
+    },
+    "myAssets": {
+      "name": "Mening aktivlarim"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Google bo'yicha qidirish"
+    },
+    "tenor": {
+      "name": "Tenor GIF lar",
+      "search": "Tenor bo'yicha qidirish",
+      "ph-search": "GIFlarni qidirish..."
+    },
+    "sketchfab": {
+      "name": "Eskizfab",
+      "search": "Sketchfab bo'yicha qidirish"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Aktivni yuklash"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Rasmlarni qidirish..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Videolarni qidirish..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Aktivlarni qidirish..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Qidirish modellari..."
+    },
+    "useUpload": {
+      "multipleFileError": "Kiritish bir nechta faylni qabul qilmaydi.",
+      "mineTypeError": "\"{{name}}\" quyidagi mime turlari va kengaytmalariga mos kelmaydi: {{types}}",
+      "progressTitle": "Fayllar yuklanmoqda",
+      "progressMsg": "{{total}}{{uploaded}} fayllar yuklanmoqda : {{percentage}}%",
+      "uploadError": "Yuklash xatosi",
+      "uploadErrorMsg": "Faylni yuklash xatosi: {{message}}",
+      "uploadErrorDefaultMsg": "Nomaʼlum xatolik roʻy berdi"
+    }
+  },
+  "openLink": {
+    "description": "Iltimos, havolaga o'tish uchun Ochish tugmasini bosing.",
+    "lbl-open": "Ochish"
+  },
+  "interactableModel": {
+    "lbl-buy": "Sotib olish",
+    "lbl-learnMore": "Ko'proq o'rganing"
+  },
+  "corsProxyButton": {
+    "tooltip": "Kors proksi serveridan foydalanish"
+  }
+}

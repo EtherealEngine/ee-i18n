@@ -1,0 +1,202 @@
+{
+  "addComment": "Lägg till kommentar...",
+  "share": "Aktie",
+  "suggestions": "Förslag till dig",
+  "seeAll": "Visa alla",
+  "likes": "Gillar",
+  "viewComments": "Visa alla {{count}} kommentarer",
+  "more": "mer",
+  "username": "användarnamn",
+  "fullName": "Namn Efternamn",
+  "reportInApporpriate": "Rapportera olämpligt",
+  "unfollow": "Sluta följa",
+  "goToPost": "Gå till Inlägg",
+  "shareModal": "Aktie",
+  "copyLink": "Kopiera länk",
+  "embed": "Inbädda",
+  "cancel": "Annullera",
+  "confirm": "Bekräfta",
+  "save": "Spara",
+  "profilePic": "{{user}}profilbild",
+  "ara": "Ara",
+  "follow": "Följa",
+  "flames": "Lågor",
+  "continue": "Fortsätta",
+  "partyInvitationSent": "Festinbjudan skickad",
+  "arMedia": {
+    "back": "Tillbaka",
+    "clip": "Klipp",
+    "backgrounds": "Bakgrunder",
+    "start": "Starta"
+  },
+  "arMediaform": {
+    "title": "Titel",
+    "type": "Typ",
+    "clip": "Klipp",
+    "background": "Bakgrund",
+    "scene": "Scen",
+    "save": "Spara",
+    "manifest-file": "Manifest .manifest-fil",
+    "audio-file": "Mp4-fil",
+    "dracosis-file": "Dracosis .uvol fil",
+    "preview-file": "Förhandsgranska bildfil"
+  },
+  "creator": {
+    "myVideos": "Mina videor",
+    "savedVideos": "Sparade videor",
+    "back": "Tillbaka",
+    "blocked-list": "Blockerad lista",
+    "block-user": "Blockera användare",
+    "dialog-content": "Du kommer inte att se användarens profil och innehåll"
+  },
+  "creatorForm": {
+    "back": "Tillbaka",
+    "edit": "Redigera profil",
+    "save": "Spara",
+    "changeAvatar": "Ändra avatarbild",
+    "ph-selectPreview": "Välj förhandsgranskning",
+    "ph-name": "Ditt namn",
+    "ph-username": "Ditt användarnamn",
+    "ph-email": "Din e-postadress",
+    "ph-tags": "Taggar",
+    "ph-link": "Länk",
+    "ph-aboutYou": "Mer om dig",
+    "ph-twitter": "kvitter",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Logga ut"
+  },
+  "dashboard": {
+    "title": "Instrumentbräda",
+    "dashboard": "Instrumentbräda",
+    "users": "Användare",
+    "feeds": "Feeds",
+    "arMedia": "Videomedia",
+    "editor": "Redaktör",
+    "creator": "Skapare"
+  },
+  "featured": {
+    "empty-list": "Inga flöden för tillfället ..."
+  },
+  "feed": {
+    "back": "Tillbaka",
+    "related": "Relaterade flöden",
+    "is-repoted-message": "Foder rapporteras!"
+  },
+  "feedForm": {
+    "back": "Tillbaka",
+    "thanks": "Tack för att du delar och förbättrar vår gemenskap",
+    "share": "Dela något med communityn",
+    "upload": "Ladda upp video",
+    "ph-selectVideo": "Välj Video",
+    "preview": "Förhandsvisningsbilden",
+    "ph-selectPreview": "Välj förhandsgranskning",
+    "createFeed": "För att kunna skapa ett flöde måste du ha en video och en förhandsgranskningsbild!!!",
+    "ph-videoName": "Namnet på din video",
+    "ph-type": "Skriv vad du vill dela med samhället ... ",
+    "lbl-share": "Aktie",
+    "save": "Spara och gå Nästa"
+  },
+  "feedMenu": {
+    "featured": "Utvalda",
+    "creators": "Skaparna",
+    "feed": "Flödet"
+  },
+  "header": {
+    "lbl-volumetric": "Volymetriska"
+  },
+  "login": {
+    "account": "Har du ett konto?",
+    "login": "Logga in",
+    "resetPassword": "Återställ Password Fake-knappen (här skulle vara en länk från e-post)",
+    "notHavingAccount": "Har du inget konto?",
+    "signUp": "Registrera sig",
+    "forgotPassword": "Glömt ditt lösenord?",
+    "back": "Tillbaka",
+    "or": "ELLER"
+  },
+  "comment": {
+    "add": "Lägg till din kommentar ..."
+  },
+  "notification": {
+    "feedFire": " avfyrade ditt flöde",
+    "feedBookmarked": " bokmärkt ditt flöde",
+    "comment": " kommenterade ditt flöde:",
+    "commentFire": " avfyrade din kommentar för att mata",
+    "follow": " började följa dig",
+    "unfollow": " slutade följa dig",
+    "followed": " följde dig",
+    "activity": "Aktivitet"
+  },
+  "onBoarding": {
+    "welcome": "Välkommen!",
+    "description": "Största samlingen av 370+ layouter för iOS-prototyper.",
+    "next": "Nästa",
+    "discover": "Upptäck artiklar,",
+    "news": "nyheter & inlägg",
+    "lines": "Det är dessa känslor som driver vår kärlek till astronomi och vår önskan.",
+    "getStarted": "Sätta igång",
+    "meetUp": "Möt upp med",
+    "friends": "vänner.",
+    "meet": "Träffa vänner"
+  },
+  "shareForm": {
+    "arcMedia": "Aktie",
+    "videoCreated": "Jag skapade den här videon",
+    "shareWithBuddies": "Dela med kompisar",
+    "shareVideo": "Dela video",
+    "save": "Spara till kamerarulle",
+    "cancel": "Annullera",
+    "close": "Stänga",
+    "addFeed": "Lägg till flöde"
+  },
+  "simpleModal": {
+    "emptyList": "Tom lista",
+    "followers": " följande",
+    "following": " efterföljare",
+    "flames": " Lågor"
+  },
+  "splash": {
+    "screen": "Välkomstskärm",
+    "logo": "Logotyp"
+  },
+  "story": {
+    "profilePic": "{{user}}profilbild"
+  },
+  "view": {
+    "cancel": "Annullera",
+    "choice": "Du har två olika inspelningslägen att välja mellan",
+    "verticalMode": "Vertikalt läge har en rekordtid på 30 sekunder",
+    "horizontalMode": "Horisontellt läge har obegränsad rekordtid",
+    "start": "Starta",
+    "not-show": "Visa det inte igen",
+    "welcome": "Välkommen till ARC!  Gör personliga videor med ett av våra hologram och lägg upp det på dina sociala mediekanaler!",
+    "step": "STEG {{step}}",
+    "text-step-1": "Välj ett hologram från biblioteket.",
+    "text-step-2": "Det här är Augmented Reality, så skanna utrymmet med kameran från sida till sida i 3–5 sekunder där du vill att hologramprestandan ska vara.",
+    "text-step-3-part-1": "Tryck på skärmen en gång på den plats där du vill att hologrammet ska förankras.",
+    "text-step-3-part-2": "DRICKS!  Tryck en gång någon annanstans för att flytta hologrammet till en annan position.",
+    "text-step-3-part-3": "DRICKS!  Du kan ändra storlek på hologrammet genom att nypa eller expandera skärmen med tummen och pekfingret.",
+    "text-step-4-part-1": "Dubbelklicka på den röda inspelningsknappen för att STARTA din videoinspelning.",
+    "text-step-4-part-2": "Dubbelklicka på den röda inspelningsknappen för att STOPPA."
+  },
+  "video": {
+    "back": "Tillbaka"
+  },
+  "terms": {
+    "confirmTerms": "Jag godkänner användarvillkoren",
+    "confirmPolicy": "Jag godkänner integritetspolicyn"
+  },
+  "registration": {
+    "ph-phoneEmail": "Använd telefon / e-post",
+    "facebook": "Fortsätt med Facebook",
+    "google": "Fortsätt med Google",
+    "linkedin": "Fortsätt med Linkedin",
+    "twitter": "Fortsätt med Twitter",
+    "gitHub": "Fortsätt med GitHub",
+    "connect": "Anslut din e-postadress eller ditt telefonnummer",
+    "logIn": "Logga in",
+    "LogInTo": "Logga in på",
+    "continueAsGuest": "Fortsätt som gäst"
+  }
+}

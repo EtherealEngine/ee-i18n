@@ -1,0 +1,718 @@
+{
+  "loading": "Projekti i Ngarkimit",
+  "loadingMsg": "Projekti i ngarkimit...",
+  "loadingError": "Gabim gjatë ngarkimit të projektit",
+  "loadingErrorMsg": "Ka pasur një gabim gjatë ngarkimit të projektit.",
+  "selectSceneMsg": "Zgjidh Skenën për të filluar të luash me motorin",
+  "error": "Gabim",
+  "errorMsg": "Ishte një gabim i panjohur.",
+  "generateScreenshot": "Gjenerimin e pamjes së pamjes së projektit",
+  "generateScreenshotMsg": "Gjenerimin e pamjes së pamjes së projektit...",
+  "newScene": "Krijo Skenën",
+  "saving": "Projekti i Ruajtjes",
+  "savingMsg": "Duke ruajtur projektin...",
+  "savingError": "Gabim gjatë ruajtjes së projektit",
+  "savingErrorMsg": "Ka pasur një gabim gjatë ruajtjes së projektit.",
+  "savingSceneErrorMsg": "Skena nuk është e ngarkuar siç duhet. Provo ta rimbushësh skenën.",
+  "duplicating": "Projekti i dyfishimit",
+  "duplicatingMsg": "Projekti i dyfishimit...",
+  "exporting": "Projekti eksportues",
+  "exportingMsg": "Projekti eksportues...",
+  "exportingError": "Gabim gjatë eksportimit të projektit",
+  "exportingErrorMsg": "Ka pasur një gabim gjatë eksportimit të projektit.",
+  "importLegacy": "Importo Botën e Trashëgimisë",
+  "importLegacyMsg": "Paralajmërim! Kjo do të mbishkruajë skenën tuaj ekzistuese! Je i sigurt që dëshiron të vazhdosh?",
+  "publishingError": "Projekti i Publikimit të Gabimeve",
+  "publishingErrorMsg": "Ishte një gabim i panjohur.",
+  "publishingScene": "Skena e botimit",
+  "publishingSceneMsg": "Skena botuese...",
+  "uploadingThumbnailMsg": "Ngarkimi i gishtit të madh...",
+  "uploadingSceneMsg": "Skena e ngarkimit: {{percentage}}%",
+  "envMapError": "Gabim gjatë ngarkimit të imazheve cubemap {{files}}",
+  "lbl-return": "Kthimi",
+  "menubar": {
+    "newScene": "Skenë e re",
+    "saveScene": "Ruaj skenën",
+    "saveAs": "Ruaj si",
+    "importAsset": "Importo pasurinë",
+    "exportGLB": "Eksporto si binare glTF (.glb) ...",
+    "importScene": "Importo skenën",
+    "exportScene": "Skenë eksporti",
+    "quit": "Hiq dorë"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Lloji i pasuportuar i file për file: \"{{name}}\". File duhet të jetë një imazh, video, ose model glb.",
+    "addObject": "addObject: përpara se objekti të mos gjendet",
+    "removeObject": "HiqObject: nyja nuk u gjet. Kjo është për shkak të heqjes së një nyje që nuk është më në skenë.",
+    "noParent": "{{node}} \"{{name}}\" nuk ka prind. Reparent punon vetëm në objekte që janë aktualisht në skenë.",
+    "undefinedParent": "editor.reparent: newParent është i papërcaktuar",
+    "notAuthenticated": "Nuk është autentifikuar",
+    "fetchingProjectError": "Gabim gjatë regjistrimit të projekteve: {{error}}",
+    "fetchingRouteError": "Gabim gjatë blerjes së rrugëve: {{error}}",
+    "unknownError": "Gabim i panjohur",
+    "resolveURL": "Gabim gjatë zgjidhjes së url \"{{url}}\":",
+    "mediaSearchAborted": "Ndërpret kërkimi i medias",
+    "methodNotImplemented": "Metoda nuk është zbatuar.",
+    "saveProjectAborted": "Ruaj skenën e abortuar",
+    "unsavedChanges": "Ndryshime të pazgjidhura",
+    "unsavedChangesMsg": "Skena është modifikuar. Të lutem ruaji ndryshimet.",
+    "projectCreationFail": "Krijimi i projektit dështoi. {{reason}}",
+    "projectDeletionFail": "Heqja e projektit dështoi. {{reason}}",
+    "savingProjectFail": "Projekti i Kursimit dështoi. {{reason}}",
+    "sceneTooLarge": "Skena është shumë e madhe ({{size}} MB) për të publikuar. Madhësia maksimale është {{maxSize}} MB.",
+    "sceneCreationFail": "Krijimi i skenës dështoi. {{reason}}",
+    "uploadAborted": "Ngarkimi u ndërpre",
+    "uploadFailed": "Ngarkimi dështoi {{reason}}",
+    "assetDeletionFail": "Heqja e aseteve dështoi. {{reason}}",
+    "projectAssetDeletionFail": "Heqja e aseteve të projektit dështoi. {{reason}}",
+    "networkError": "Gabim në rrjet: {{status}}. {{text}}",
+    "unknownStatus": "Gjendja e panjohur",
+    "CORS": "Ka mundësi një gabim i CORS",
+    "urlFetchError": "Nuk arrita të kapja \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Viewport",
+    "command": {
+      "movecamera": "Lëviz kamerën",
+      "flyFast": "Fluturo më shpejt",
+      "orbit": "Orbita / Zgjidh",
+      "pan": "Tigan",
+      "fly": "Fluturo",
+      "focus": "Përqendrohu",
+      "rotateLeft": "Rrotullo majtas",
+      "rotateRight": "Rrotullo djathtas",
+      "cancelPlacement": "Anullo vendosjen",
+      "placeDuplicate": "Vendi Duplikuar",
+      "cancelGrab": "Anullo grab",
+      "grab": "Kape",
+      "deselectAll": "Deselect All"
+    },
+    "state": {
+      "header": "Statistikat",
+      "memory": "Kujtesë",
+      "geometries": "Gjeometritë",
+      "textures": "Tekstile",
+      "render": "Përkthe",
+      "FPS": "FPS",
+      "frameTime": "Koha e kornizës",
+      "calls": "Thirrjet",
+      "triangles": "Trekëndësha",
+      "points": "Pikët",
+      "lines": "Rreshta"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Botoni",
+    "lbl-published": "Botuar",
+    "command": {
+      "translate": "Përkthe",
+      "rotate": "Rrotullo",
+      "scale": "Shkalla",
+      "toggleSpace": "Hapsira e transformimit të toggle",
+      "togglePivot": "Toggle Transform Pivot",
+      "toggleSnapMode": "Toggle Modaliteti Snap",
+      "toggleGrid": "Dukshmëria e rrjetës së toggle",
+      "increaseGridSize": "Rrit madhësinë e rrjetës",
+      "descreaseGridSize": "Zvogëlo madhësinë e rrjetës",
+      "stopPreview": "Ndal skenën e parapamjes",
+      "playPreview": "Skena e Pamjes së Parë"
+    }
+  },
+  "properties": {
+    "title": "Pronësitë",
+    "lbl-visible": "E dukshme",
+    "lbl-preventBake": "Parandalohet pjekja",
+    "lbl-persist": "Ngulmon",
+    "multipleNodeSelected": "Nyje të shumëfishta të llojeve të ndryshme të zgjedhura",
+    "noNodeSelected": "Asnjë nyje e zgjedhur",
+    "ambientLight": {
+      "name": "Drita e ambientit",
+      "description": "Një dritë e cila ndriçon të gjitha objektet në skenën tuaj.",
+      "lbl-intensity": "Intensiteti",
+      "lbl-color": "Ngjyra"
+    },
+    "envmap": {
+      "name": "Harta e Mjedisit",
+      "description": "pronësitë e hartës së mjedisit"
+    },
+    "asset": {
+      "name": "Vlera",
+      "description": "Një grupim i komponentëve të skenës i cili mund të ngarkohet në mënyrë dinamike dhe të shkarkohet",
+      "lbl-options": "Opsionet",
+      "lbl-assetPath": "Pozicioni i aseteve",
+      "lbl-assetName": "Eksporto emrin",
+      "lbl-exportOptions": "Eksporto Opsionet",
+      "lbl-export": "Eksporto asetet",
+      "lbl-load": "Ngarko në skenë",
+      "lbl-unload": "Shkarko",
+      "lbl-reload": "Rimbush"
+    },
+    "audio": {
+      "name": "Audio",
+      "description": "Ngarkon në mënyrë dinamike audion.",
+      "lbl-audiourl": "Audio Url",
+      "lbl-controls": "kontrolle",
+      "info-controls": "Të lëvizim dukshmërinë e kontrolleve të mediave.",
+      "lbl-autoplay": "Luaj auto",
+      "info-autoplay": "Nëse është e vërtetë, media do të luajë kur të hyjë për herë të parë në skenë.",
+      "lbl-synchronize": "Sinkronizo",
+      "info-synchronize": "Nëse është e vërtetë, mediat do të sinkronizohen në të gjithë klientët e lidhur.",
+      "lbl-loop": "Lak",
+      "info-loop": "Nëse është e vërtetë, media do të përkthejë pafundësisht.",
+      "lbl-audioType": "Lloji i audios",
+      "lbl-distanceModel": "Modeli i distancës",
+      "info-distanceModel": "Algorithim përdorur për të llogaritur audio rolloff.",
+      "lbl-rolloffFactor": "Faktori Rolloff",
+      "info-rolloffFactor": "Një vlerë e dyfishtë që përshkruan se sa shpejt zvogëlohet vëllimi, ndërsa burimi largohet nga dëgjuesi. 0 me 1",
+      "info-rfInfinity": "Një vlerë e dyfishtë që përshkruan se sa shpejt zvogëlohet vëllimi, ndërsa burimi largohet nga dëgjuesi. 0 deri në pafundësi",
+      "lbl-refDistance": "Distancë ref",
+      "info-refDistance": "Një vlerë e dyfishtë që përfaqëson distancën referuese për reduktimin e vëllimit pasi burimi audio lëviz më tej nga dëgjuesi.",
+      "lbl-maxDistance": "Max Distance",
+      "info-maxDistance": "Një vlerë e dyfishtë që përfaqëson distancën maksimale midis burimit audio dhe dëgjuesit, pas së cilës volumi nuk reduktohet më tej.",
+      "lbl-coneInnerAngle": "Këndi i brendshëm i konit",
+      "info-coneInnerAngle": "Një vlerë e dyfishtë që përshkruan këndin, në gradë, të një koni brenda të cilit nuk do të ketë reduktim të vëllimit.",
+      "lbl-coneOuterAngle": "Këndi i jashtë konit",
+      "info-coneOuterAngle": "Një vlerë e dyfishtë që përshkruan këndin, në gradë, të një koni jashtë të cilit vëllimi do të reduktohet nga një vlerë konstante, e përcaktuar nga atributi ConeOuterGain.",
+      "lbl-coreOuterGain": "Fitimi i fundit i konit",
+      "info-coreOuterGain": "Një vlerë e dyfishtë që përshkruan sasinë e reduktimit të vëllimit jashtë konit të përcaktuar nga atributi ConeOuterAngle. Vlera e prezgjedhur e saj është 0, që do të thotë se asnjë tingull nuk mund të dëgjohet.",
+      "lbl-volume": "Volumi",
+      "lbl-play": "Luaj",
+      "lbl-pause": "Pauzë",
+      "error-url": "Gabim gjatë ngarkimit nga URL"
+    },
+    "boxCollider": {
+      "description": "Një kuti e padukshme që objektet do të kërcejnë ose do të pushojnë mbi të.\nPa përplasje, objektet do të bien nëpër dysheme dhe do të kalojnë nëpër mure.",
+      "lbl-isTrigger": "Këmbëza"
+    },
+    "camera": {
+      "name": "Kamera",
+      "description": "Rregullimet e kamerës.",
+      "lbl-camera-raycast": "Rekasimi i kamerës",
+      "lbl-camera-raycast-toggle": "Aktivuar",
+      "lbl-camera-raycast-frequency": "Frekuenca",
+      "lbl-camera-raycast-count": "Rei Kont",
+      "lbl-camera-raycast-length": "Gjatësia e rrezeve"
+    },
+    "directionalLight": {
+      "name": "Dritë drejtimi",
+      "description": "Një dritë e cila ndriçon të gjithë skenën, por lëshon përgjatë një drejtimi të vetëm.",
+      "lbl-color": "Ngjyra",
+      "lbl-intensity": "Intensiteti",
+      "lbl-cameraFar": "Kamera larg",
+      "lbl-cameraNear": "Kamera afër",
+      "lbl-cameraTop": "Kamera sipër",
+      "lbl-cameraBottom": "Kamera poshtë",
+      "lbl-cameraLeft": "Kamera majtas",
+      "lbl-cameraRight": "Kamera djathtas",
+      "lbl-useInCSM": "Përdorimi në CSM",
+      "lbl-castShadow": "Hije e hedhur",
+      "lbl-disableForCSM": "Çaktivizuar për shkak të hartës së hijes Cascade është aktivuar.",
+      "lbl-shadowmapResolution": "Zgjidhja e hartës së hijes",
+      "lbl-shadowBias": "Paragjykime hijesh",
+      "lbl-shadowRadius": "Rrezja e hijes",
+      "lbl-showCameraHelper": "Shfaq ndihmësin e kamerës"
+    },
+    "groundPlane": {
+      "name": "Avioni tokësor",
+      "description": "Një aeroplan i rrafshët tokësor që shtrihet në distancë.",
+      "lbl-color": "Ngjyra",
+      "lbl-receiveShadow": "Merr hijen",
+      "lbl-generateNavmesh": "Gjenero Navmesh"
+    },
+    "link": {
+      "description": "Lidhja me një dhomë ose një faqe interneti.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "Harta gjeospatiale 3D e p.sh. një qytet."
+    },
+    "model": {
+      "description": "Një model 3D në skenën tuaj, i ngarkuar nga një URL ose file GLTF.",
+      "lbl-usingGPUInstancingFlag": "Përdor instancimin e GPU",
+      "lbl-modelurl": "Url e modelit",
+      "lbl-envmapUrl": "Url e hartës së mjedisit",
+      "lbl-textureOverride": "Mbishkruaj Teksturë",
+      "lbl-materialOverride": "Përjashtimet materiale",
+      "error-url": "Gabim gjatë ngarkimit nga URL",
+      "lbl-loopAnimation": "Animacion i loop",
+      "lbl-isAvatar": "Është Avatari",
+      "lbl-isGPUInstancing": "Po përdor instancimin e GPU",
+      "lbl-isDynamic": "Është dinamike",
+      "lbl-castShadow": "Hije e hedhur",
+      "lbl-receiveShadow": "Merr hijen",
+      "lbl-interactable": "E ndërvepueshme",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "Emri",
+      "lbl-url": "Url e modelit",
+      "lbl-buy": "Bli Url",
+      "lbl-learnMore": "Mëso Url më shumë",
+      "lbl-htmlContent": "Përmbajtja Html",
+      "lbl-interactionText": "Teksti i ndërveprimit",
+      "lbl-interactionType": "Lloji i ndërveprimit"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Material",
+      "error-materialID": "Gabim gjatë gjetjes së materialit",
+      "placeholder-materialID": "Zgjidh materialin",
+      "lbl-patternTarget": "Modeli Përputhet",
+      "lbl-pattern": "Modeli",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Lloji i ndërveprimit",
+      "text": "Teksti i ndërveprimit",
+      "distance": "Distanca e bashkëveprimit",
+      "theme": "Tema e ndërveprimit",
+      "name": "Emri i ndërveprimit",
+      "description": "Përshkrimi i ndërveprimit",
+      "images": "Imazhet e ndërveprimit",
+      "videos": "Videot e ndërveprimit",
+      "urls": "Url-të e ndërveprimit",
+      "models": "Modelet e ndërveprimit"
+    },
+    "group": {
+      "name": "Grupi",
+      "description": "Një grup objektesh të shumëfishta që mund të zhvendosen ose të dyfishohen së bashku.\nZvarriti dhe hidh objektet në Grupin në Hierarki."
+    },
+    "hemisphere": {
+      "name": "Dritë hemisfere",
+      "description": "Një dritë që ndriçon skenën nga koka e drejtpërdrejtë.",
+      "lbl-skyColor": "Ngjyra e qiellit",
+      "lbl-groundColor": "Ngjyra e tokës",
+      "lbl-intensity": "Intensiteti"
+    },
+    "image": {
+      "name": "Figurë",
+      "description": "Në mënyrë dinamike ngarkon një imazh.",
+      "lbl-imgURL": "Url e figurës",
+      "lbl-transparency": "Modaliteti i transparencës",
+      "lbl-alphaCutoff": "Alpha Cutoff",
+      "lbl-projection": "Projeksion",
+      "lbl-side": "Anash",
+      "info-controls": "Të lëvizim dukshmërinë e kontrolleve të mediave.",
+      "info-transparency": "Si të zbatohet transparenca:",
+      "info-opaque": "'opake' = pa transparencë",
+      "info-blend": "'blend' = përdor imazhet alfa kanal",
+      "info-mask": "'Maskë' = Përdor një vlerë të specifikuar të prerjes për transparencë on/off (më shumë përvetësues)",
+      "info-alphaCutoff": "Pixels me vlera alfa më të ulta se kjo do të jetë transparente",
+      "error-url": "URL e pavlefshme"
+    },
+    "name": {
+      "lbl-name": "Emri"
+    },
+    "partileEmitter": {
+      "description": "Emituesi i grimcave për të krijuar grimca.",
+      "lbl-particleCount": "Numërimi i grimcave",
+      "lbl-image": "Figurë",
+      "lbl-ageRandomness": "Rastësia e moshës",
+      "lbl-lifetime": "Jetë",
+      "lbl-lifetimeRandomness": "Rastësi gjatë gjithë jetës",
+      "lbl-sizeCurve": "Kurba e madhësisë",
+      "lbl-startPSize": "Fillo madhësinë e grimcave",
+      "lbl-endPSize": "Madhësia e thërrmijave fundore",
+      "lbl-sizeRandomness": "Madhësia Randomness",
+      "lbl-colorCurve": "Lakorja e ngjyrave",
+      "lbl-startColor": "Fillo ngjyrën",
+      "lbl-startOpacity": "Fillo Opacity",
+      "lbl-middleColor": "Ngjyra e mesme",
+      "lbl-middleOpacity": "Mungesa e mesme",
+      "lbl-endColor": "Ngjyra fund",
+      "lbl-endOpacity": "Fund Opacity",
+      "lbl-velocityCurve": "Kurba e shpejtësisë",
+      "lbl-startVelocity": "Nis shpejtësinë",
+      "lbl-endVelocity": "Shpejtësia fund",
+      "lbl-angularVelocity": "Shpejtësia këndore",
+      "info-ageRandomness": "Sasia e variacionit midis kur grimcat lindin.",
+      "info-lifetime": "Mosha maksimale e një thërrmije para se të rishpëtohet.",
+      "info-lifetimeRandomness": "Sasia e variacionit në mes të jetës së grimcave.",
+      "info-sizeRandomness": "Sasia e variacionit midis madhësive të fillimit të grimcave.",
+      "error-url": "Gabim gjatë ngarkimit nga URL"
+    },
+    "clouds": {
+      "name": "Re",
+      "description": "Volumi i reve të bazuara në Sprite.",
+      "lbl-image": "Figurë sprite",
+      "lbl-wroldScale": "Shkalla Botërore",
+      "lbl-dimensions": "Dimensionet",
+      "lbl-noiseZoom": "Zmadhim i zhurmës",
+      "lbl-noiseOffset": "Kompensimi i zhurmës",
+      "lbl-spriteScale": "Shkalla sprite",
+      "lbl-fogColor": "Ngjyra e mjegullës",
+      "lbl-fogRange": "Gama e mjegullës",
+      "error-url": "Gabim gjatë ngarkimit nga URL"
+    },
+    "ocean": {
+      "name": "Oqeani",
+      "description": "Sipërfaqe oqeani me valë dhe shkumë",
+      "lbl-normalMap": "Harta normale",
+      "lbl-distortionMap": "Harta e shtrembërimit",
+      "lbl-envMap": "Harta e Mjedisit",
+      "lbl-color": "Ngjyra",
+      "lbl-shallowWaterColor": "Ngjyra e cekët e ujit",
+      "lbl-shallowToDeepDistance": "Largësi e cekët deri në thellësi",
+      "lbl-opacityFadeDistance": "Mungesa e largësisë zbehet",
+      "lbl-opacityRange": "Gama e opacity",
+      "lbl-shininess": "Shkëlqim",
+      "lbl-reflectivity": "Pasqyrimi",
+      "lbl-foamColor": "Ngjyra e shkumës",
+      "lbl-foamSpeed": "Shpejtësia e shkumës",
+      "lbl-foamTiling": "Filiza shkume",
+      "lbl-bigWaveTiling": "Vërshimi i valëve të mëdha",
+      "lbl-bigWaveSpeed": "Shpejtësia e valës së madhe",
+      "lbl-bigWaveHeight": "Lartësia e madhe e valëve",
+      "lbl-waveSpeed": "Shpejtësia e valës",
+      "lbl-waveScale": "Shkalla e valës",
+      "lbl-waveTiling": "Baticat e valëve",
+      "lbl-waveDistortionSpeed": "Shpejtësia e shtrembërimit të valëve",
+      "lbl-waveDistortionTiling": "Vërshimi i shtrembërimit të valëve",
+      "error-url": "Gabim gjatë ngarkimit nga URL"
+    },
+    "water": {
+      "name": "Ujë",
+      "description": "Sipërfaqe e vogël uji"
+    },
+    "interior": {
+      "name": "I brendshëm",
+      "description": "Një sipërfaqe me teksturë kubi të modeluar për të imituar mjediset e brendshme",
+      "lbl-cubeMap": "Teksti i Hartës së Kubit",
+      "lbl-tiling": "Sasia e tinjes",
+      "lbl-size": "Madhësia e sipërfaqes",
+      "error-url": "Gabim gjatë ngarkimit nga URL"
+    },
+    "pointLight": {
+      "description": "Një dritë e cila lëshon në të gjitha drejtimet nga një pikë e vetme.",
+      "lbl-color": "Ngjyra",
+      "lbl-intensity": "Intensiteti",
+      "lbl-range": "Gama",
+      "lbl-decay": "Prishje"
+    },
+    "scene": {
+      "name": "Skena",
+      "description": "Objekti rrënja e skenës.",
+      "lbl-bgcolor": "Ngjyra e sfondit",
+      "lbl-fogType": "Lloji i mjegullës",
+      "lbl-fogColor": "Ngjyra e mjegullës",
+      "lbl-forNearDistance": "Mjegulla afër largësisë",
+      "lbl-fogFarDistance": "Mjegulla në largësinë e largët",
+      "lbl-fogDensity": "Densiteti i mjegullës",
+      "lbl-audioSettings": "Përdor audio pozicionale",
+      "lbl-avatarDistanceModel": "Modeli i Distancës Avatar",
+      "lbl-avatarRolloffFactor": "Avatar Rolloff Faktori",
+      "lbl-avatarRefDistance": "Avatar Ref Distance",
+      "lbl-avatarMaxDistance": "Avatar Max Distance",
+      "lbl-mediaVolume": "Volumi i mediave",
+      "lbl-mediaDistanceModel": "Modeli i distancës së medias",
+      "lbl-mediaRolloffFactor": "Media Rolloff Faktor",
+      "lbl-mediaRefDistance": "Media Ref Distance",
+      "lbl-mediaMaxDistance": "Media Max Distance",
+      "lbl-mediaConeInnerAngle": "Këndi i brendshëm i konit të medias",
+      "lbl-mediaConeOuterAngle": "Këndi i jashtëm i konit të medias",
+      "lbl-mediaConeOuterGain": "Media Cone Outer Gain",
+      "info-avatarDistanceModel": "Algorithim përdorur për të llogaritur audio rolloff.",
+      "info-avatarRolloffFactor": "Një vlerë e dyfishtë që përshkruan se sa shpejt zvogëlohet vëllimi, ndërsa burimi largohet nga dëgjuesi. 0 me 1",
+      "info-avatarRolloffFactorInifinity": "Një vlerë e dyfishtë që përshkruan se sa shpejt zvogëlohet vëllimi, ndërsa burimi largohet nga dëgjuesi. 0 deri në pafundësi",
+      "info-avatarRefDistance": "Një vlerë e dyfishtë që përfaqëson distancën referuese për reduktimin e vëllimit pasi burimi audio lëviz më tej nga dëgjuesi.",
+      "info-avatarMaxDistance": "Një vlerë e dyfishtë që përfaqëson distancën maksimale midis burimit audio dhe dëgjuesit, pas së cilës volumi nuk reduktohet më tej.",
+      "info-mediaDistanceModel": "Algorithim përdorur për të llogaritur audio rolloff.",
+      "info-mediaRolloffFactor": "Një vlerë e dyfishtë që përshkruan se sa shpejt zvogëlohet vëllimi, ndërsa burimi largohet nga dëgjuesi. 0 me 1",
+      "info-mediaRolloffFactorInfinity": "Një vlerë e dyfishtë që përshkruan se sa shpejt zvogëlohet vëllimi, ndërsa burimi largohet nga dëgjuesi. 0 deri në pafundësi",
+      "info-mediaRefDistance": "Një vlerë e dyfishtë që përfaqëson distancën referuese për reduktimin e vëllimit pasi burimi audio lëviz më tej nga dëgjuesi.",
+      "info-mediaMaxDistance": "Një vlerë e dyfishtë që përfaqëson distancën maksimale midis burimit audio dhe dëgjuesit, pas së cilës volumi nuk reduktohet më tej.",
+      "info-mediaConeInnerAngle": "Një vlerë e dyfishtë që përshkruan këndin, në gradë, të një koni brenda të cilit nuk do të ketë reduktim të vëllimit.",
+      "info-mediaConeOuterAngle": "Një vlerë e dyfishtë që përshkruan këndin, në gradë, të një koni jashtë të cilit vëllimi do të reduktohet nga një vlerë konstante, e përcaktuar nga atributi ConeOuterGain.",
+      "info-mediaConeOuterGain": "Një vlerë e dyfishtë që përshkruan sasinë e reduktimit të vëllimit jashtë konit të përcaktuar nga atributi ConeOuterAngle. Vlera e prezgjedhur e saj është 0, që do të thotë se asnjë tingull nuk mund të dëgjohet.",
+      "lbl-simpleMaterials": "Përdor materiale të thjeshta",
+      "lbl-lods": "LODs",
+      "info-lods": "Përcakton distancat në të cilat nivelet e detajeve ndryshojnë.",
+      "info-simpleMaterials": "I kthen të gjitha materialet e kushtueshme në më të thjeshta, për të hequr ngarkesën nga vendi i bërjes së materialeve.",
+      "lbl-rendererSettings": "Mbishkruaj Rregullimet e Renderer",
+      "lbl-csm": "Harta hijesh të kasapisë",
+      "info-csm": "Bën të mundur harta hijesh.",
+      "lbl-toneMapping": "Hartografimi i tonit",
+      "info-toneMapping": "Bën të mundur hartimin e tonit në rendererin e skenës. Nuk ka efekt kur aktivizohet një procesim postar.",
+      "lbl-toneMappingExposure": "Ekspozimi i hartografisë së tonit",
+      "info-toneMappingExposure": "Specifikon ekspozimin hartografik të tonit në rendererin e skenës. Nuk ka efekt kur aktivizohet një procesim postar.",
+      "lbl-shadowMapType": "Lloji i hartës së hijes",
+      "info-shadowMapType": "Lloji i hartës së hijes",
+      "error-url": "Gabim gjatë ngarkimit nga URL"
+    },
+    "sceneCamera": {
+      "name": "Kamera e pamjes së parë të skenës",
+      "description": "Kamera e përdorur për të gjeneruar gishtin e madh për skenën tuaj dhe pozicionin e nisjes për kamerën e pamjes së parë.",
+      "lbl-setFromViewPort": "Vendos nga Viewport"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "Koha e ditës",
+      "lbl-color": "Ngjyra",
+      "lbl-latitude": "Gjerësia",
+      "lbl-luminance": "Ndriçues",
+      "lbl-scattering": "Sasi shpërndarëse",
+      "lbl-scatteringDistance": "Largësia shpërndarëse",
+      "lbl-horizonStart": "Fillimi i Horizontit",
+      "lbl-horizonEnd": "Fundi i horizontit",
+      "lbl-texture": "Teksti",
+      "lbl-skyType": "Lloji i qiellit",
+      "error-url": "Gabim gjatë ngarkimit nga URL"
+    },
+    "spawnPoint": {
+      "name": "Pika e pjelljes",
+      "description": "Një pikë ku njerëzit do të shfaqen kur të hyjnë në skenën tuaj.\nIkona në Viewport paraqet madhësinë aktuale të një avatari."
+    },
+    "spotLight": {
+      "description": "Një dritë e cila lëshon përgjatë një drejtimi, duke ndriçuar objektet brenda një koni.",
+      "lbl-color": "Ngjyra",
+      "lbl-intensity": "Intensiteti",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Kënd",
+      "lbl-range": "Gama",
+      "lbl-decay": "Prishje"
+    },
+    "transform": {
+      "title": "Transformon",
+      "lbl-postition": "Pozicioni",
+      "lbl-rotation": "Rrotullim",
+      "lbl-scale": "Shkalla"
+    },
+    "triggereVolume": {
+      "description": "Vendos një pronë në objektin e synuar në hyrje dhe në nisje.",
+      "lbl-target": "Objekt",
+      "lbl-onenter": "Në hyrje",
+      "lbl-onexit": "Në dalje",
+      "lbl-showHelper": "Trego ndihmësin Mesh",
+      "ph-errorNode": "Gabim në nyjen e humbur.",
+      "ph-selectNode": "Zgjidh nyjen..."
+    },
+    "video": {
+      "name": "Video",
+      "description": "Në mënyrë dinamike ngarkon një video.",
+      "lbl-video": "Video",
+      "lbl-projection": "Projeksion",
+      "lbl-islivestream": "Rrjedhë e gjallë",
+      "lbl-interactable": "E ndërvepueshme",
+      "lbl-id": "Element Id",
+      "lbl-play": "Luaj",
+      "lbl-pause": "Pauzë",
+      "error-url": "Gabim gjatë ngarkimit nga URL"
+    },
+    "volumetric": {
+      "name": "Volumetrike",
+      "description": "Në mënyrë dinamike ngarkon një video volumetrike.",
+      "uvolPaths": "Shtigjet UVOL",
+      "playmode": "Modaliteti i lojës",
+      "playtitle": "Luaj",
+      "pausetitle": "Pauzë"
+    },
+    "spline": {
+      "description": "Krijo dhe personalizo në mënyrë dinamike kthesat.",
+      "lbl-addNode": "Shto nyjen në lakore."
+    },
+    "systemnode": {
+      "description": "Bashkangjit skenarin.",
+      "lbl-filePath": "Url",
+      "lbl-systemUpdateType": "Pika e Injektit",
+      "lbl-enableClient": "Klient",
+      "lbl-enableServer": "Serveri",
+      "lbl-args": "Argo",
+      "error-url": "Gabim gjatë ngarkimit të script nga URL"
+    },
+    "portal": {
+      "lbl-portal": "Portal i Lidhur",
+      "lbl-redirect": "Përdor ridrejtim faqesh",
+      "description": "Një Portat për t'i teleportuar lojtarët në vendin e përcaktuar",
+      "lbl-locationName": "Vendndodhja",
+      "lbl-modelUrl": "URL e modelit",
+      "lbl-displayText": "Shfaq tekstin",
+      "lbl-cubemapBake": "Piqet kubmap",
+      "lbl-spawnPosition": "Pozicioni i farës",
+      "lbl-spawnRotation": "Rrotullim i farës",
+      "lbl-triggerPosition": "Pozicioni i këmbëzës",
+      "lbl-triggerRotation": "Rrotullimi i këmbëzës",
+      "lbl-triggerScale": "Shkalla e këmbëzës"
+    },
+    "postprocessing": {
+      "name": "Post Përpunimi",
+      "description": "Për aplikimin e efekteve Post Processing për ju skenën."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Projekt i ri",
+      "backLink": "Përsëri në projekte",
+      "featured": "E paraqitur",
+      "all": "Të gjitha",
+      "newProject": "Projekt i ri bosh",
+      "ph-search": "Kërko skena..."
+    },
+    "grid": {
+      "loading": "Ngarkimi..."
+    },
+    "page": {
+      "header": "Mirë se erdhe",
+      "headerMsg": "Nëse jeni të ri këtu ju rekomandojmë të kaloni nëpër tutorial. Përndryshe, hidhuni djathtas dhe krijoni një projekt nga zeroja ose nga një nga modelet tona.",
+      "lbl-startTutorial": "Fillo tutorialin",
+      "projects": "Projekte",
+      "lbl-newProject": "Projekt i ri"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Ngarkimi...",
+      "placeObject": "Vendos objektin",
+      "placeObjectAtOrigin": "Vendos objektin në origjinë",
+      "copyURL": "Kopjo URL",
+      "openInNewTab": "Hap URL në Tab të ri",
+      "deleteAsset": "Elemino aktivin"
+    },
+    "filebrowser": {
+      "addNewFolder": "Shto kartelën e re",
+      "cutAsset": "Preje",
+      "copyAsset": "Kopjo",
+      "pasteAsset": "Ngjitës",
+      "renameAsset": "Riemërto",
+      "viewAssetProperties": "Shfaq pronësitë"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Riemërto",
+    "lbl-duplicate": "Dyfisho",
+    "lbl-group": "Grupi",
+    "lbl-delete": "Elemino",
+    "lbl-expandAll": "Zgjero gjithçka",
+    "lbl-collapseAll": "Të gjitha shemben",
+    "isseus": "Çështjet:"
+  },
+  "dnd": {
+    "nodes": "Nyjet {{count}} zgjedhura",
+    "models": "Modelet {{count}} zgjedhura",
+    "images": "{{count}} Zgjedhura",
+    "videos": "{{count}} zgjedhur videot",
+    "audio": "{{count}} zgjedhur burimet audio"
+  },
+  "dialog": {
+    "title": "Modifikues",
+    "lbl-confirm": "Në rregull",
+    "lbl-cancel": "Anulo",
+    "exportProject": {
+      "title": "Projekti Eksporto",
+      "lbl-confirm": "Projekti Eksporto",
+      "lbl-combineMesh": "Kombinoji meshët",
+      "lbl-removeUnused": "Hiq objektet e papërdorur"
+    },
+    "performance": {
+      "title": "Kontrolli i performancës",
+      "lbl-confirm": "Boto skenën",
+      "learnMore": "Mëso më shumë",
+      "lbl-polycount": "Numërimi i poligonit",
+      "lbl-material": "Materiale",
+      "lbl-texture": "Tekstile",
+      "lbl-lights": "Drita",
+      "lbl-fileSize": "Madhësia e file",
+      "info-polycount": "Ne rekomandojmë skenën tuaj të përdorin jo më shumë se 50,000 trekëndësha për pajisjet mobile.",
+      "info-material": "Ne rekomandojmë të përdorni jo më shumë se 25 materiale unike në skenën tuaj për të zvogëluar thirrjet vizatuese në pajisjet mobile.",
+      "info-texture": "Ne rekomandojmë që textures tuaja të përdorin jo më shumë se 256MB ram video për pajisjet mobile. Ne gjithashtu rekomandojmë kundër përdorimit të textures më të mëdha se 2048 x 2048.",
+      "info-lights": "Ndërsa dritat dinamike nuk janë të mundësuara në pajisjet mobile, ne rekomandojmë të përdorni jo më shumë se 3 drita në skenën tuaj (duke përjashtuar dritat e ambientit dhe hemisferës) që skena juaj të vrapojë në PC fund të ulët.",
+      "info-fileSize": "Ne rekomandojmë një madhësi përfundimtare file jo më shumë se 16MB për lidhjet e ulët bandwidth. Reduktimi i madhësisë së skedarëve do të zvogëlojë kohën që duhet për të shkarkuar skenën tuaj.",
+      "txt-polycount": "trekëndësha {{count}}",
+      "txt-material": "Materiale {{count}}",
+      "txt-ram": "#{{count}} Video RAM",
+      "txt-texture": "{{count}} Tekstile të mëdha",
+      "txt-lights": "dritat {{count}}"
+    },
+    "progress": {
+      "title": "Ngarkimi...",
+      "msg": "Ngarkimi...",
+      "lbl-cancel": "Anulo"
+    },
+    "publish": {
+      "title": "Boto skenën",
+      "lbl-confirm": "Ruaj dhe botoj",
+      "lbl-name": "Emri i skenës",
+      "info-name": "Emri duhet të jetë midis 4 dhe 64 karaktere dhe nuk mund të përmbajë nënvizime"
+    },
+    "published": {
+      "title": "Botohet skena",
+      "header": "Skena juaj është botuar.",
+      "lbl-view": "Shih skenën tënde"
+    },
+    "saveNewProject": {
+      "title": "Mbështetja",
+      "lbl-name": "Emri i projektit",
+      "info-name": "Emri duhet të jetë midis 4 dhe 64 karaktere dhe nuk mund të përmbajë nënvizime",
+      "lbl-confirm": "Ruaj projektin"
+    },
+    "support": {
+      "title": "Mbështetja",
+      "header": "Duhet të raportosh një problem?",
+      "msg": "Ju mund të dërgoni një <1>GitHub Issue</1> ose të na dërgoni e-mail për mbështetje në <3>{{mail}}</3>",
+      "discord": "Mund të na gjeni edhe në <1>diskotekë</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Imazhet e Bing",
+      "search": "Kërko nga Bing"
+    },
+    "bingVideo": {
+      "name": "Bing Video",
+      "search": "Kërko nga Bing"
+    },
+    "element": {
+      "name": "Elementët"
+    },
+    "myAssets": {
+      "name": "Pasuritë e mia"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Kërko nga Google"
+    },
+    "tenor": {
+      "name": "Tenor GIFs",
+      "search": "Kërko nga Tenori",
+      "ph-search": "Kërko GIFs..."
+    },
+    "sketchfab": {
+      "name": "Skefab",
+      "search": "Kërko nga Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Ngarko aktivin"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Kërko imazhet..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Kërko video..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Kërko pasuritë..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Modele kërkimi..."
+    },
+    "useUpload": {
+      "multipleFileError": "Input nuk pranon skedarë të shumëfishtë.",
+      "mineTypeError": "«{{name}}» nuk përputhet me llojet ose zgjerimet e mëposhtme: {{types}}",
+      "progressTitle": "Ngarkimi i skedarëve",
+      "progressMsg": "Ngarkimi i skedarëve {{uploaded}} të {{total}}: {{percentage}}%",
+      "uploadError": "Ngarko gabimin",
+      "uploadErrorMsg": "Gabim gjatë ngarkimit të file: {{message}}",
+      "uploadErrorDefaultMsg": "Ka pasur një gabim të panjohur"
+    }
+  },
+  "openLink": {
+    "description": "Të lutem kliko Open për të lundruar tek linku.",
+    "lbl-open": "Hap"
+  },
+  "interactableModel": {
+    "lbl-buy": "Blej",
+    "lbl-learnMore": "Mëso më shumë"
+  },
+  "corsProxyButton": {
+    "tooltip": "Përdor Serverin Cors Proxy"
+  }
+}

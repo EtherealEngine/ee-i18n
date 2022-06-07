@@ -1,0 +1,202 @@
+{
+  "addComment": "新增評論...",
+  "share": "共用",
+  "suggestions": "給您的建議",
+  "seeAll": "查看全部",
+  "likes": "喜歡",
+  "viewComments": "查看所有 {{count}} 評論",
+  "more": "更多",
+  "username": "使用者名",
+  "fullName": "姓名 姓氏",
+  "reportInApporpriate": "舉報不當內容",
+  "unfollow": "取消關注",
+  "goToPost": "轉到發佈",
+  "shareModal": "共用",
+  "copyLink": "複製連結",
+  "embed": "嵌入",
+  "cancel": "取消",
+  "confirm": "確認",
+  "save": "救",
+  "profilePic": "{{user}}的個人資料圖片",
+  "ara": "阿拉",
+  "follow": "跟隨",
+  "flames": "火焰",
+  "continue": "繼續",
+  "partyInvitationSent": "已發送派對邀請",
+  "arMedia": {
+    "back": "返回",
+    "clip": "夾",
+    "backgrounds": "背景",
+    "start": "開始"
+  },
+  "arMediaform": {
+    "title": "標題",
+    "type": "類型",
+    "clip": "夾",
+    "background": "背景",
+    "scene": "現場",
+    "save": "救",
+    "manifest-file": "清單 .manifest 檔",
+    "audio-file": "MP4 檔",
+    "dracosis-file": "Dracosis .uvol file",
+    "preview-file": "預覽圖像檔"
+  },
+  "creator": {
+    "myVideos": "我的視頻",
+    "savedVideos": "保存的視頻",
+    "back": "返回",
+    "blocked-list": "阻止清單",
+    "block-user": "阻止使用者",
+    "dialog-content": "您不會看到使用者的個人資料和內容"
+  },
+  "creatorForm": {
+    "back": "返回",
+    "edit": "編輯個人資料",
+    "save": "救",
+    "changeAvatar": "更改頭像圖像",
+    "ph-selectPreview": "選擇預覽",
+    "ph-name": "您的姓名",
+    "ph-username": "您的使用者名",
+    "ph-email": "您的電子郵箱",
+    "ph-tags": "標籤",
+    "ph-link": "連結",
+    "ph-aboutYou": "更多關於您的",
+    "ph-twitter": "唽",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "蒂克托克",
+    "sign-out": "註銷"
+  },
+  "dashboard": {
+    "title": "擋泥板",
+    "dashboard": "擋泥板",
+    "users": "使用者",
+    "feeds": "飼料",
+    "arMedia": "視頻媒體",
+    "editor": "編輯器",
+    "creator": "造物主"
+  },
+  "featured": {
+    "empty-list": "目前沒有提要..."
+  },
+  "feed": {
+    "back": "返回",
+    "related": "相關源",
+    "is-repoted-message": "飼料被報告！"
+  },
+  "feedForm": {
+    "back": "返回",
+    "thanks": "感謝您分享和改善我們的社區",
+    "share": "與社區分享內容",
+    "upload": "上傳視頻",
+    "ph-selectVideo": "選擇視頻",
+    "preview": "預覽圖像",
+    "ph-selectPreview": "選擇預覽",
+    "createFeed": "要建立源，您必須具有視頻和預覽圖像!!!",
+    "ph-videoName": "視頻的名稱",
+    "ph-type": "鍵入要與社區共享的內容... ",
+    "lbl-share": "共用",
+    "save": "保存並繼續下一頁"
+  },
+  "feedMenu": {
+    "featured": "特色",
+    "creators": "創造者",
+    "feed": "飼料"
+  },
+  "header": {
+    "lbl-volumetric": "體積"
+  },
+  "login": {
+    "account": "已有帳戶？",
+    "login": "登錄",
+    "resetPassword": "重置密碼假按鈕（這裡是電子郵件中的連結）",
+    "notHavingAccount": "沒有帳戶？",
+    "signUp": "登記",
+    "forgotPassword": "忘記密碼？",
+    "back": "返回",
+    "or": "或"
+  },
+  "comment": {
+    "add": "新增您的評論..."
+  },
+  "notification": {
+    "feedFire": " 發射你的飼料",
+    "feedBookmarked": " 已將您的源添加為書籤",
+    "comment": " 評論您的提要：",
+    "commentFire": " 觸發您的評論到提要",
+    "follow": " 開始關注你",
+    "unfollow": " 停止跟蹤你",
+    "followed": " 關注你",
+    "activity": "活動"
+  },
+  "onBoarding": {
+    "welcome": "歡迎！",
+    "description": "最大的 370 多種 iOS 原型佈局集合。",
+    "next": "下一個",
+    "discover": "發現文章，",
+    "news": "新聞和帖子",
+    "lines": "正是這些感覺驅使我們對天文學的熱愛和慾望。",
+    "getStarted": "立即開始",
+    "meetUp": "認識",
+    "friends": "朋友。",
+    "meet": "與朋友見面"
+  },
+  "shareForm": {
+    "arcMedia": "共用",
+    "videoCreated": "我創建了這個視頻",
+    "shareWithBuddies": "與好友分享",
+    "shareVideo": "分享視頻",
+    "save": "保存到相機膠捲",
+    "cancel": "取消",
+    "close": "關閉",
+    "addFeed": "添加源"
+  },
+  "simpleModal": {
+    "emptyList": "空清單",
+    "followers": " 以後",
+    "following": " 追隨 者",
+    "flames": " 火焰"
+  },
+  "splash": {
+    "screen": "初始螢幕",
+    "logo": "商標"
+  },
+  "story": {
+    "profilePic": "{{user}}的個人資料圖片"
+  },
+  "view": {
+    "cancel": "取消",
+    "choice": "您有兩種不同的錄製模式可供選擇",
+    "verticalMode": "垂直模式具有 30 秒的記錄時間",
+    "horizontalMode": "水準模式具有無限的記錄時間",
+    "start": "開始",
+    "not-show": "不再顯示",
+    "welcome": "歡迎來到ARC！ 使用我們的全息圖之一製作個人視頻，並將其發佈到您的社交媒體管道！",
+    "step": "步驟 {{step}}",
+    "text-step-1": "從庫中選擇全息影像。",
+    "text-step-2": "這是增強現實，因此請使用相機從一側掃描到另一側的空間3-5秒，以達到您想要的全息圖性能。",
+    "text-step-3-part-1": "在要定位全息影像的位置上點擊螢幕一次。",
+    "text-step-3-part-2": "提示！ 在其他地方點擊一次，將全息影像移動到另一個位置。",
+    "text-step-3-part-3": "提示！ 你可以通過用拇指和食指捏合或擴展螢幕來調整全息影像的大小。",
+    "text-step-4-part-1": "按兩下紅色錄製按鈕以開始視頻錄製。",
+    "text-step-4-part-2": "按兩下紅色錄製按鈕以停止。"
+  },
+  "video": {
+    "back": "返回"
+  },
+  "terms": {
+    "confirmTerms": "我同意 服務條款",
+    "confirmPolicy": "我同意隱私政策"
+  },
+  "registration": {
+    "ph-phoneEmail": "使用電話/電子郵件",
+    "facebook": "繼續使用臉書",
+    "google": "繼續使用谷歌",
+    "linkedin": "繼續LinkedIn",
+    "twitter": "繼續使用推特",
+    "gitHub": "繼續使用 GitHub",
+    "connect": "連接您的電子郵件或電話號碼",
+    "logIn": "登錄",
+    "LogInTo": "登錄到",
+    "continueAsGuest": "以訪客身份繼續"
+  }
+}

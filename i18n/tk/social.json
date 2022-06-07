@@ -1,0 +1,202 @@
+{
+  "addComment": "Goşmaça düşündiriş iber...",
+  "share": "Paýlaş",
+  "suggestions": "Peýdaly maslahatlar",
+  "seeAll": "Ehligör",
+  "likes": "Halaýanlar",
+  "viewComments": "Ähli {{count}} pikirlerini gör",
+  "more": "köpräk",
+  "username": "ullançy ady",
+  "fullName": "Ady Familiýasy",
+  "reportInApporpriate": "Ýerliksiz habar ber",
+  "unfollow": "Eýerme",
+  "goToPost": "Post-a Git",
+  "shareModal": "Paýlaş",
+  "copyLink": "Baglaýyşy Nusgala",
+  "embed": "Embed",
+  "cancel": "Ýatyrmak",
+  "confirm": "Tassykla",
+  "save": "Gaýd Et",
+  "profilePic": "{{user}}profil suraty",
+  "ara": "Ara",
+  "follow": "Eýermek",
+  "flames": "Ýangynlar",
+  "continue": "Dowam ediň",
+  "partyInvitationSent": "Partiýanyň çakylygy iberildi",
+  "arMedia": {
+    "back": "Arka",
+    "clip": "Gaýd etmek",
+    "backgrounds": "Arkaplan",
+    "start": "Başla"
+  },
+  "arMediaform": {
+    "title": "Sözbaşy",
+    "type": "Hili",
+    "clip": "Gaýd etmek",
+    "background": "Arkaplan",
+    "scene": "Sahna",
+    "save": "Gaýd Et",
+    "manifest-file": "\"%s\" faýly",
+    "audio-file": "Mp4 faýl",
+    "dracosis-file": "Drakoz .uvol faýl",
+    "preview-file": "Resim faýlyny nusgala"
+  },
+  "creator": {
+    "myVideos": "Wideolarym",
+    "savedVideos": "Gaýd Edilen Wideolar",
+    "back": "Arka",
+    "blocked-list": "Bloklanan Sanaw",
+    "block-user": "Ullançy ýap",
+    "dialog-content": "Ulanyjynyň profilini we mazmunyny görmersiňiz"
+  },
+  "creatorForm": {
+    "back": "Arka",
+    "edit": "Profil Editl",
+    "save": "Gaýd Et",
+    "changeAvatar": "Awatar resimi ewez et",
+    "ph-selectPreview": "_Saýla",
+    "ph-name": "Siziň adyňyz",
+    "ph-username": "Ullançy adyňyz",
+    "ph-email": "E-poçtaňyz",
+    "ph-tags": "Etiketkalar",
+    "ph-link": "Baglaýyş",
+    "ph-aboutYou": "Sen barada köpräk maglumat",
+    "ph-twitter": "twitter",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Girew"
+  },
+  "dashboard": {
+    "title": "Pano",
+    "dashboard": "Pano",
+    "users": "Ulanyjylar",
+    "feeds": "Besetler",
+    "arMedia": "Wideo Media",
+    "editor": "Editçi",
+    "creator": "Ýaradan"
+  },
+  "featured": {
+    "empty-list": "Häzirlikçe iým ýok ..."
+  },
+  "feed": {
+    "back": "Arka",
+    "related": "Degişli iýmitler",
+    "is-repoted-message": "Besetbarada habar berilýär!"
+  },
+  "feedForm": {
+    "back": "Arka",
+    "thanks": "Jemgyýetimizi paýlaşandygyňyz we gowulandyrandygyňyz üçin sagbolsun aýdýaryn",
+    "share": "Jemgyýet bilen bir zady paýlaşyň",
+    "upload": "Wideo Ýükle",
+    "ph-selectVideo": "Wideo Saýla",
+    "preview": "Ewgäniň resimi",
+    "ph-selectPreview": "_Saýla",
+    "createFeed": "Iýmit döretmek üçin wideo we preview suraty bolmaly!!!",
+    "ph-videoName": "Wideoňyzyň ady",
+    "ph-type": "Jemgyýet bilen paýlaşmak isleýän zatlaryňyzy ýazyň ... ",
+    "lbl-share": "Paýlaş",
+    "save": "Gaýd et we Git Indiki"
+  },
+  "feedMenu": {
+    "featured": "Görkezilen",
+    "creators": "Ýaradyjylar",
+    "feed": "Besdir"
+  },
+  "header": {
+    "lbl-volumetric": "Volumetric"
+  },
+  "login": {
+    "account": "Siziň hasabyňyz barmy?",
+    "login": "Giriş",
+    "resetPassword": "Paroly Gaýd Etmek Ýalan düwme (bu ýerde e-poçtadan baglaýyş bolar)",
+    "notHavingAccount": "Hasaby ýokmy?",
+    "signUp": "Bellige alyn",
+    "forgotPassword": "Paroly unutdyňmy?",
+    "back": "Arka",
+    "or": "ÝA-DA"
+  },
+  "comment": {
+    "add": "Öz pikiriňi goş..."
+  },
+  "notification": {
+    "feedFire": " otyrdyň besdiriň,",
+    "feedBookmarked": " besediňi bellik edip,",
+    "comment": " öz besiňi aýtdy:",
+    "commentFire": " bes etmek üçin öz pikiriňi işden kowdy,",
+    "follow": " başlady seniň yzyňdan",
+    "unfollow": " yzyňa düşüp saklandy,",
+    "followed": " yzyňa düşüp,",
+    "activity": "Yhlaz"
+  },
+  "onBoarding": {
+    "welcome": "Hoş geldiňiz!",
+    "description": "iOS prototipi üçin 370+ düzümi boýunça iň uly ýygyndy.",
+    "next": "Indiki",
+    "discover": "Aç makalalary,",
+    "news": "täzelikler we postlar",
+    "lines": "Astronomiýa we islegimize bolan söýgimizi şol duýgular höweslendirýär.",
+    "getStarted": "Işe başla",
+    "meetUp": "Duşuş",
+    "friends": "dostlar.",
+    "meet": "Dostlarym bilen duşuş"
+  },
+  "shareForm": {
+    "arcMedia": "Paýlaş",
+    "videoCreated": "Men bu wideony döretdim",
+    "shareWithBuddies": "Dost-ýarlary bilen paýlaşyň",
+    "shareVideo": "Wideo Paýlaş",
+    "save": "Kamera rulosyna sakla",
+    "cancel": "Ýatyrmak",
+    "close": "Ýap",
+    "addFeed": "Beset ekle"
+  },
+  "simpleModal": {
+    "emptyList": "Boş listi",
+    "followers": " eýermen",
+    "following": " şägirdi",
+    "flames": " ýallar"
+  },
+  "splash": {
+    "screen": "Sykmak Ekrany",
+    "logo": "Logo"
+  },
+  "story": {
+    "profilePic": "{{user}}profil suraty"
+  },
+  "view": {
+    "cancel": "Ýatyrmak",
+    "choice": "Saýlamak üçin iki dürli ýazga geçiriş modyňyz bar",
+    "verticalMode": "Wertikal modda 30 sekuntlyk rekord wagty bar",
+    "horizontalMode": "Gorizontal modda çäksiz rekord wagty bar",
+    "start": "Başla",
+    "not-show": "Ýene görkezmäň",
+    "welcome": "ARC-a hoş geldiňiz!  Biziň hologramalarymyzyň biri bilen şahsy wideolary ýasap, sosial media kanallaryňyza goýuň!",
+    "step": "STEP {{step}}",
+    "text-step-1": "Kitaphanadan hologramma saýlaň.",
+    "text-step-2": "Bu giňeldilen hakykat. Şonuň üçin hologram çykyşyň bolmagyny isleýän 3-5 sekundyň dowamynda kameraňyz bilen ýeri bir tarapa skan ediň.",
+    "text-step-3-part-1": "Hologramyň labyrlanmagyny isleýän ýeriňizde bir gezek ekrana basyň.",
+    "text-step-3-part-2": "MASLAHAT!  Hologrammany başga ýere göçürmek üçin başga ýere bir gezek tapyň.",
+    "text-step-3-part-3": "MASLAHAT!  Ekrany başam barmaklaryňyz we indeks barmagyňyz bilen sypyryp ýa-da giňeldip, hologramany täzeden dikeldip bilersiňiz.",
+    "text-step-4-part-1": "Wideo ýazgyňyzy BAŞLATMAK üçin gyzyl rekord düwmesine iki gezek basyň.",
+    "text-step-4-part-2": "STOP-a gyzyl rekord düwmesine iki gezek basyň."
+  },
+  "video": {
+    "back": "Arka"
+  },
+  "terms": {
+    "confirmTerms": "Hyzmat yň şertlerine razy",
+    "confirmPolicy": "Gizlinlik syýasatyna razy"
+  },
+  "registration": {
+    "ph-phoneEmail": "Telefon / e-mail ulanyň",
+    "facebook": "Facebook bilen dowam ediň",
+    "google": "Google bilen dowam ediň",
+    "linkedin": "Linkedin bilen dowam ediň",
+    "twitter": "Twitter bilen dowam ediň",
+    "gitHub": "GitHub bilen dowam et",
+    "connect": "E-poçtaňyzy ýa-da telefon belgiňizi birikdiriň",
+    "logIn": "Giriň",
+    "LogInTo": "Giriş",
+    "continueAsGuest": "Myhman bolup dowam ediň"
+  }
+}

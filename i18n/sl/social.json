@@ -1,0 +1,202 @@
+{
+  "addComment": "Dodaj komentar...",
+  "share": "Delež",
+  "suggestions": "Predlogi za vas",
+  "seeAll": "Oglejte si vse",
+  "likes": "Všeč",
+  "viewComments": "Ogled vseh {{count}} komentarjev",
+  "more": "več",
+  "username": "uporabniško ime",
+  "fullName": "Ime Priimek",
+  "reportInApporpriate": "Poročilo Neprimerno",
+  "unfollow": "Neodločajno",
+  "goToPost": "Pojdi na objavo",
+  "shareModal": "Delež",
+  "copyLink": "Kopiraj povezavo",
+  "embed": "Vdelati",
+  "cancel": "Odpovedati",
+  "confirm": "Potrditi",
+  "save": "Shraniti",
+  "profilePic": "{{user}}profila",
+  "ara": "Ara",
+  "follow": "Slediti",
+  "flames": "Plameni",
+  "continue": "Nadaljuj",
+  "partyInvitationSent": "Poslano povabilo za zabavo",
+  "arMedia": {
+    "back": "Hrbet",
+    "clip": "Posnetek",
+    "backgrounds": "Ozadja",
+    "start": "Začetek"
+  },
+  "arMediaform": {
+    "title": "Naslov",
+    "type": "Vrsta",
+    "clip": "Posnetek",
+    "background": "Ozadje",
+    "scene": "Scene",
+    "save": "Shraniti",
+    "manifest-file": "Manifest .manifest datoteke",
+    "audio-file": "Mp4 datoteka",
+    "dracosis-file": "Drakoza .uvol datoteka",
+    "preview-file": "Predogled slikovne datoteke"
+  },
+  "creator": {
+    "myVideos": "Moji videoposnetki",
+    "savedVideos": "Shranjeni videoposnetki",
+    "back": "Hrbet",
+    "blocked-list": "Blokiran seznam",
+    "block-user": "Blokiraj uporabnika",
+    "dialog-content": "Uporabniškega profila in vsebine ne boste videli"
+  },
+  "creatorForm": {
+    "back": "Hrbet",
+    "edit": "Urejanje profila",
+    "save": "Shraniti",
+    "changeAvatar": "Spreminjanje slike avatarja",
+    "ph-selectPreview": "Izberite predogled",
+    "ph-name": "Tvoje ime",
+    "ph-username": "Vaše uporabniško ime",
+    "ph-email": "Vaša e-pošta",
+    "ph-tags": "Tags",
+    "ph-link": "Povezava",
+    "ph-aboutYou": "Več o vas",
+    "ph-twitter": "Cvrkutati",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Odjava"
+  },
+  "dashboard": {
+    "title": "Armaturni plošči",
+    "dashboard": "Armaturni plošči",
+    "users": "Uporabniki",
+    "feeds": "Viri",
+    "arMedia": "Video mediji",
+    "editor": "Urejevalnik",
+    "creator": "Ustvarjalca"
+  },
+  "featured": {
+    "empty-list": "Ni vira za zdaj ..."
+  },
+  "feed": {
+    "back": "Hrbet",
+    "related": "Povezani viri",
+    "is-repoted-message": "Krma je prijavljena!"
+  },
+  "feedForm": {
+    "back": "Hrbet",
+    "thanks": "Hvala za izmenjavo in izboljšanje naše skupnosti",
+    "share": "Delite nekaj s skupnostjo",
+    "upload": "Nalaganje videoposnetka",
+    "ph-selectVideo": "Izberi video",
+    "preview": "Predogled slike",
+    "ph-selectPreview": "Izberite predogled",
+    "createFeed": "Če želite ustvariti vir, morate imeti videoposnetek in sliko predogleda!!!",
+    "ph-videoName": "Ime videoposnetka",
+    "ph-type": "Vnesite, kaj želite dati v skupno rabo s skupnostjo ... ",
+    "lbl-share": "Delež",
+    "save": "Shrani in pojdi naprej"
+  },
+  "feedMenu": {
+    "featured": "Priporočeni",
+    "creators": "Ustvarjalci",
+    "feed": "Krma"
+  },
+  "header": {
+    "lbl-volumetric": "Merilno"
+  },
+  "login": {
+    "account": "Imaš račun?",
+    "login": "Prijavo",
+    "resetPassword": "Ponastavi geslo Ponaredek gumb (tukaj bi bila povezava iz e-pošte)",
+    "notHavingAccount": "Nimaš računa?",
+    "signUp": "Prijava",
+    "forgotPassword": "Ste pozabili geslo?",
+    "back": "Hrbet",
+    "or": "ALI"
+  },
+  "comment": {
+    "add": "Dodaj svoj komentar..."
+  },
+  "notification": {
+    "feedFire": " izstrelil vašo krmo",
+    "feedBookmarked": " zaznamek vira",
+    "comment": " komentar vaše krme:",
+    "commentFire": " izstrelil svoj komentar za krmo",
+    "follow": " začel slediti vam",
+    "unfollow": " prenehal slediti vam",
+    "followed": " sledila vam je",
+    "activity": "Dejavnost"
+  },
+  "onBoarding": {
+    "welcome": "Dobrodošli!",
+    "description": "Največja zbirka 370+ postavitev za iOS prototipiranje.",
+    "next": "Naslednji",
+    "discover": "Odkrijte članke,",
+    "news": "novice & objave",
+    "lines": "To so tisti občutki, ki pognajo našo ljubezen do astronomije in naše želje.",
+    "getStarted": "Začnite",
+    "meetUp": "Sestanek z",
+    "friends": "Prijatelje.",
+    "meet": "Srečanje s prijatelji"
+  },
+  "shareForm": {
+    "arcMedia": "Delež",
+    "videoCreated": "Ustvaril sem ta video",
+    "shareWithBuddies": "Deli s prijatelji",
+    "shareVideo": "Skupna raba videoposnetka",
+    "save": "Shrani v fotoaparat",
+    "cancel": "Odpovedati",
+    "close": "Blizu",
+    "addFeed": "Dodaj vir"
+  },
+  "simpleModal": {
+    "emptyList": "Prazen seznam",
+    "followers": " Naslednje",
+    "following": " Privržencev",
+    "flames": " Plameni"
+  },
+  "splash": {
+    "screen": "Pljuskanje zaslona",
+    "logo": "Logotip"
+  },
+  "story": {
+    "profilePic": "{{user}}profila"
+  },
+  "view": {
+    "cancel": "Odpovedati",
+    "choice": "Izbirate lahko med dvema različnima načinoma snemanja",
+    "verticalMode": "Navpični način ima 30-sek čas zapisa",
+    "horizontalMode": "Horizontalni način ima neomejen čas snemanja",
+    "start": "Začetek",
+    "not-show": "Ne pokaži ga več.",
+    "welcome": "Dobrodošli v ARC!  Naredite osebne videoposnetke z enim od naših hologramov in ga objavite na svoje kanale družabnih medijev!",
+    "step": "KORAK {{step}}",
+    "text-step-1": "Izberite hologram iz knjižnice.",
+    "text-step-2": "To je razširjena resničnost, zato preiščite prostor s fotoaparatom od boka do drugega za 3-5 sekund, kjer želite, da bo hologramska zmogljivost.",
+    "text-step-3-part-1": "Tapnite zaslon enkrat na mestu, kjer želite zasidrati hologram.",
+    "text-step-3-part-2": "NAPITNINA!  Če želite hologram premakniti na drugo mesto, tapnite enkrat drugje.",
+    "text-step-3-part-3": "NAPITNINA!  Hologram lahko spremenite tako, da s palcem in kazalcem ščipnete ali razširite zaslon.",
+    "text-step-4-part-1": "Dvotapnite rdeči gumb za snemanje, da zaženete snemanje videa.",
+    "text-step-4-part-2": "Dvotapnite rdeči gumb za snemanje na STOP."
+  },
+  "video": {
+    "back": "Hrbet"
+  },
+  "terms": {
+    "confirmTerms": "Strinjam se s pogoji storitve",
+    "confirmPolicy": "Strinjam se s pravilnikom o zasebnosti"
+  },
+  "registration": {
+    "ph-phoneEmail": "Uporaba telefona / e-pošte",
+    "facebook": "Nadaljuj z Facebookom",
+    "google": "Nadaljuj z Googlom",
+    "linkedin": "Nadaljuj z Linkedinom",
+    "twitter": "Nadaljujte s twitterjem",
+    "gitHub": "Nadaljujte z GitHub",
+    "connect": "Povezovanje e-pošte ali telefonske številke",
+    "logIn": "Prijava",
+    "LogInTo": "Prijava v",
+    "continueAsGuest": "Nadaljuj kot gost"
+  }
+}

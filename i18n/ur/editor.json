@@ -1,0 +1,718 @@
+{
+  "loading": "لوڈنگ پروجیکٹ",
+  "loadingMsg": "لوڈنگ پروجیکٹ...",
+  "loadingError": "نقص لوڈنگ منصوبہ",
+  "loadingErrorMsg": "پروجیکٹ لوڈ کرتے وقت ایک غلطی ہوئی تھی۔",
+  "selectSceneMsg": "انجن سے کھیلنا شروع کرنے کے لیے منظر منتخب کریں",
+  "error": "غلطی",
+  "errorMsg": "ایک نامعلوم غلطی تھی۔",
+  "generateScreenshot": "پروجیکٹ سکرین شاٹ تیار کر رہا ہے",
+  "generateScreenshotMsg": "پروجیکٹ سکرین شاٹ پیدا کر رہا ہے...",
+  "newScene": "منظر بنائیں",
+  "saving": "پروجیکٹ محفوظ کرنا",
+  "savingMsg": "پروجیکٹ کی بچت...",
+  "savingError": "نقص بچت منصوبہ",
+  "savingErrorMsg": "منصوبے کو محفوظ کرتے وقت ایک غلطی ہوئی تھی۔",
+  "savingSceneErrorMsg": "منظر ٹھیک سے لوڈ نہیں کیا جاتا ہے. منظر کو دوبارہ لوڈ کرنے کی کوشش کریں۔",
+  "duplicating": "دوغلا پروجیکٹ",
+  "duplicatingMsg": "دوغلا پروجیکٹ...",
+  "exporting": "ایکسپورٹنگ پروجیکٹ",
+  "exportingMsg": "برآمد ی منصوبہ...",
+  "exportingError": "نقص برآمد ی منصوبہ",
+  "exportingErrorMsg": "منصوبے کو برآمد کرتے وقت ایک غلطی ہوئی تھی۔",
+  "importLegacy": "لیگیسی ورلڈ درآمد کریں",
+  "importLegacyMsg": "اشارہ! یہ آپ کے موجودہ منظر کو اوور رائٹ کرے گا! کیا آپ کو یقین ہے کہ آپ جاری رکھنا چاہتے ہیں؟",
+  "publishingError": "نقص اشاعت ی منصوبہ",
+  "publishingErrorMsg": "ایک نامعلوم غلطی تھی۔",
+  "publishingScene": "منظر اشاعت",
+  "publishingSceneMsg": "منظر شائع کر رہا ہے...",
+  "uploadingThumbnailMsg": "تھمبنیل اپ لوڈ کر رہا ہے...",
+  "uploadingSceneMsg": "منظر اپ لوڈ کرنا: {{percentage}}٪",
+  "envMapError": "کیوب میپ تصاویر لوڈ کرنے میں نقص {{files}}",
+  "lbl-return": "واپس",
+  "menubar": {
+    "newScene": "نیا منظر",
+    "saveScene": "منظر محفوظ کریں",
+    "saveAs": "محفوظ کریں بطور",
+    "importAsset": "اثاثہ درآمد کریں",
+    "exportGLB": "بائنری جی ایل ٹی ایف (.جی ایل بی) کے طور پر برآمد کریں ...",
+    "importScene": "منظر درآمد کریں",
+    "exportScene": "برآمدی منظر",
+    "quit": "ادا کرنا"
+  },
+  "errors": {
+    "fileTypeNotSupported": "مسل کے لیے غیر معاون مسل قسم: \"{{name}}\". فائل ایک تصویر، ویڈیو یا جی ایل بی ماڈل ہونا ضروری ہے۔",
+    "addObject": "آبجیکٹ اضافہ کریں: آبجیکٹ نہ ملنے سے پہلے",
+    "removeObject": "آبجیکٹ ہٹائیں: نوڈ نہیں ملا۔ اس کی وجہ ایک نوڈ ہٹانا ہے جو اب منظر میں نہیں ہے۔",
+    "noParent": "{{node}} \"{{name}}\" کا کوئی والدین نہیں ہے۔ ری پیرنٹ صرف ان اشیاء پر کام کرتا ہے جو اس وقت منظر میں ہیں۔",
+    "undefinedParent": "ایڈیٹر.ری پیرنٹ: نیا والدین غیر متعین ہے",
+    "notAuthenticated": "توثیق شدہ نہیں",
+    "fetchingProjectError": "پروجیکٹ لانے میں غلطی: {{error}}",
+    "fetchingRouteError": "راستے لانے میں نقص: {{error}}",
+    "unknownError": "نامعلوم نقص",
+    "resolveURL": "یو آر ایل حل کرنے میں نقص \"{{url}}\":",
+    "mediaSearchAborted": "میڈیا سرچ اسقاط حمل",
+    "methodNotImplemented": "طریقہ کار نافذ نہیں کیا گیا۔",
+    "saveProjectAborted": "منظر محفوظ کریں اسقاط حمل",
+    "unsavedChanges": "غیر محفوظ تبدیلیاں",
+    "unsavedChangesMsg": "منظر میں ترمیم کی گئی ہے۔ براہ کرم اپنی تبدیلیاں محفوظ کریں۔",
+    "projectCreationFail": "پروجیکٹ کی تخلیق ناکام رہی۔ {{reason}}",
+    "projectDeletionFail": "پروجیکٹ حذف کرنے میں ناکامی ہوئی۔ {{reason}}",
+    "savingProjectFail": "سیونگ پروجیکٹ ناکام رہا۔ {{reason}}",
+    "sceneTooLarge": "منظر شائع کرنے کے لئے بہت بڑا ({{size}} ایم بی) ہے۔ زیادہ سے زیادہ سائز {{maxSize}} ایم بی ہے۔",
+    "sceneCreationFail": "منظر تخلیق ناکام ہو گیا۔ {{reason}}",
+    "uploadAborted": "اسقاط حمل اپ لوڈ کریں",
+    "uploadFailed": "اپ لوڈ ناکام {{reason}}",
+    "assetDeletionFail": "اثاثہ حذف کرنے میں ناکامی ہوئی۔ {{reason}}",
+    "projectAssetDeletionFail": "پروجیکٹ اثاثہ حذف کرنے میں ناکامی ہوئی۔ {{reason}}",
+    "networkError": "نیٹ ورک نقص: {{status}}. {{text}}",
+    "unknownStatus": "نامعلوم حالت",
+    "CORS": "ممکنہ طور پر ایک سی او آر ایس غلطی",
+    "urlFetchError": "\"{{url}}\" لانے میں ناکام رہا"
+  },
+  "viewport": {
+    "title": "منظر پورٹ",
+    "command": {
+      "movecamera": "کیمرہ بڑھائیں",
+      "flyFast": "تیزی سے اڑیں",
+      "orbit": "مدار / منتخب کریں",
+      "pan": "پین",
+      "fly": "اڑنا",
+      "focus": "نقطہ",
+      "rotateLeft": "بائیں گھمائیں",
+      "rotateRight": "دائیں گھمائیں",
+      "cancelPlacement": "جگہ منسوخ کریں",
+      "placeDuplicate": "نقل ی جگہ",
+      "cancelGrab": "پکڑو منسوخ کریں",
+      "grab": "پکڑو",
+      "deselectAll": "تمام کو غیر منتخب کریں"
+    },
+    "state": {
+      "header": "اعداد و شمار",
+      "memory": "حافظہ",
+      "geometries": "ہندسہ",
+      "textures": "ساخت",
+      "render": "ندرت",
+      "FPS": "ایف پی ایس",
+      "frameTime": "فریم وقت",
+      "calls": "کال",
+      "triangles": "مثلث",
+      "points": "پوائنٹس",
+      "lines": "لائنیں"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "شائع کرنا",
+    "lbl-published": "شائع",
+    "command": {
+      "translate": "ترجمہ کرنا",
+      "rotate": "گھمائیں",
+      "scale": "پیمانہ",
+      "toggleSpace": "ٹوگل ٹرانسفارم اسپیس",
+      "togglePivot": "ٹوگل ٹرانسفارم محور",
+      "toggleSnapMode": "ٹوگل سنیپ موڈ",
+      "toggleGrid": "گرڈ منظرکشی ٹوگل کریں",
+      "increaseGridSize": "گرڈ سائز بڑھائیں",
+      "descreaseGridSize": "گرڈ سائز کم کریں",
+      "stopPreview": "منظر پیش منظر بند کریں",
+      "playPreview": "منظر منظر پیش منظر"
+    }
+  },
+  "properties": {
+    "title": "خواص",
+    "lbl-visible": "پدید",
+    "lbl-preventBake": "بیک کی روک تھام کریں",
+    "lbl-persist": "اصرار کرنا",
+    "multipleNodeSelected": "منتخب مختلف اقسام کے متعدد نوڈز",
+    "noNodeSelected": "نوڈ منتخب نہیں",
+    "ambientLight": {
+      "name": "محیط روشنی",
+      "description": "ایک روشنی جو آپ کے منظر میں تمام اشیاء کو روشن کرتی ہے۔",
+      "lbl-intensity": "شدت",
+      "lbl-color": "رنگ"
+    },
+    "envmap": {
+      "name": "ماحولیات نقشہ",
+      "description": "ماحول نقشہ خصوصیات"
+    },
+    "asset": {
+      "name": "اثاثہ",
+      "description": "منظر کے اجزاء کی ایک گروپنگ جسے متحرک طور پر لوڈ اور اتارا جاسکتا ہے",
+      "lbl-options": "اختیارات",
+      "lbl-assetPath": "اثاثہ راستہ",
+      "lbl-assetName": "نام برآمد کریں",
+      "lbl-exportOptions": "برآمداختیارات",
+      "lbl-export": "برآمدی اثاثہ",
+      "lbl-load": "منظر میں لوڈ کریں",
+      "lbl-unload": "اتارنا",
+      "lbl-reload": "دوبارہ لوڈ کریں"
+    },
+    "audio": {
+      "name": "سمعی",
+      "description": "متحرک طور پر آڈیو لوڈ کرتا ہے۔",
+      "lbl-audiourl": "آڈیو یو آر ایل",
+      "lbl-controls": "کنٹرول",
+      "info-controls": "میڈیا کنٹرول کی منظرکشی کو ٹوگل کریں۔",
+      "lbl-autoplay": "خود بجانا",
+      "info-autoplay": "اگر یہ سچ ہے تو میڈیا پہلی بار منظر میں داخل ہوتے وقت کھیلے گا۔",
+      "lbl-synchronize": "سنکرونائز",
+      "info-synchronize": "اگر یہ سچ ہے تو میڈیا کو تمام مربوط گاہکوں پر ہم وقت سازی کی جائے گی۔",
+      "lbl-loop": "حلقہ",
+      "info-loop": "اگر یہ سچ ہے تو میڈیا غیر معینہ مدت تک لوپ کرے گا۔",
+      "lbl-audioType": "آڈیو قسم",
+      "lbl-distanceModel": "فاصلہ ماڈل",
+      "info-distanceModel": "الگوریتھم آڈیو رول آف کا حساب لگاتا تھا۔",
+      "lbl-rolloffFactor": "رول آف عنصر",
+      "info-rolloffFactor": "ایک دوہری قدر یہ بیان کرتی ہے کہ جب ماخذ سننے والے سے دور ہوتا ہے تو حجم کتنی جلدی کم ہوتا ہے۔ 0 سے 1",
+      "info-rfInfinity": "ایک دوہری قدر یہ بیان کرتی ہے کہ جب ماخذ سننے والے سے دور ہوتا ہے تو حجم کتنی جلدی کم ہوتا ہے۔ 0 سے لامتناہی",
+      "lbl-refDistance": "حوالہ فاصلہ",
+      "info-refDistance": "ایک دوہری قدر جو حجم کو کم کرنے کے لئے حوالہ فاصلے کی نمائندگی کرتی ہے کیونکہ آڈیو ماخذ سننے والے سے مزید آگے بڑھتا ہے۔",
+      "lbl-maxDistance": "زیادہ سے زیادہ فاصلہ",
+      "info-maxDistance": "آڈیو ماخذ اور سننے والے کے درمیان زیادہ سے زیادہ فاصلے کی نمائندگی کرنے والی دوہری قدر، جس کے بعد حجم میں مزید کمی نہیں کی جاتی۔",
+      "lbl-coneInnerAngle": "کون اندرونی زاویہ",
+      "info-coneInnerAngle": "ایک دوہری قدر جس کے اندر حجم میں کوئی کمی نہیں ہوگی، ڈگریوں میں زاویہ بیان کرتی ہے۔",
+      "lbl-coneOuterAngle": "کون بیرونی زاویہ",
+      "info-coneOuterAngle": "ایک دوہری قدر جو زاویہ کو بیان کرتی ہے، ڈگریوں میں، ایک کون جس سے باہر حجم کو مستقل قدر سے کم کیا جائے گا، جس کی تعریف کون آؤٹر گین وصف سے کی جاتی ہے۔",
+      "lbl-coreOuterGain": "کون بیرونی فائدہ",
+      "info-coreOuterGain": "ایک دوہری قدر جو کون آؤٹر اینگل وصف کی وضاحت کردہ کون سے باہر حجم میں کمی کی مقدار کو بیان کرتی ہے۔ اس کی طے شدہ قدر 0 ہے، یعنی کوئی آواز نہیں سنی جا سکتی۔",
+      "lbl-volume": "صوت",
+      "lbl-play": "کھیلنا",
+      "lbl-pause": "توقف",
+      "error-url": "یو آر ایل سے نقص لوڈ ہو رہا ہے"
+    },
+    "boxCollider": {
+      "description": "ایک غیر مرئی خانہ جس پر اشیاء اچھل یں گی یا اوپر آرام کریں گی۔\nکولائیڈرز کے بغیر، اشیاء فرش کے ذریعے گریں گی اور دیواروں سے گزریں گی۔",
+      "lbl-isTrigger": "ٹریگر"
+    },
+    "camera": {
+      "name": "کیمرہ",
+      "description": "کیمرہ سیٹنگیں.",
+      "lbl-camera-raycast": "کیمرہ ریکاسٹنگ",
+      "lbl-camera-raycast-toggle": "اہل",
+      "lbl-camera-raycast-frequency": "تعدد",
+      "lbl-camera-raycast-count": "رے گنتی",
+      "lbl-camera-raycast-length": "رے لمبائی"
+    },
+    "directionalLight": {
+      "name": "سمتیہ روشنی",
+      "description": "ایک روشنی جو پورے منظر کو روشن کرتی ہے، لیکن ایک ہی سمت میں خارج ہوتی ہے۔",
+      "lbl-color": "رنگ",
+      "lbl-intensity": "شدت",
+      "lbl-cameraFar": "کیمرہ دور",
+      "lbl-cameraNear": "کیمرہ قریب",
+      "lbl-cameraTop": "کیمرہ اوپر",
+      "lbl-cameraBottom": "کیمرہ باٹم",
+      "lbl-cameraLeft": "کیمرہ بائیں",
+      "lbl-cameraRight": "کیمرہ دائیں",
+      "lbl-useInCSM": "سی ایس ایم میں استعمال کریں",
+      "lbl-castShadow": "کاسٹ سایہ",
+      "lbl-disableForCSM": "نااہل کیونکہ کیس کیڈ شیڈو نقشہ فعال ہے۔",
+      "lbl-shadowmapResolution": "شیڈو میپ ریزولوشن",
+      "lbl-shadowBias": "سایہ تعصب",
+      "lbl-shadowRadius": "سایہ رداس",
+      "lbl-showCameraHelper": "کیمرہ مددگار نمایش کریں"
+    },
+    "groundPlane": {
+      "name": "زمینی طیارہ",
+      "description": "ایک فلیٹ گراؤنڈ طیارہ جو فاصلے تک پھیلا ہوا ہے۔",
+      "lbl-color": "رنگ",
+      "lbl-receiveShadow": "سایہ وصول کریں",
+      "lbl-generateNavmesh": "نومیش پیدا کریں"
+    },
+    "link": {
+      "description": "کسی کمرے یا ویب سائٹ سے لنک کریں۔",
+      "lbl-url": "یو آر ایل"
+    },
+    "map": {
+      "description": "3ڈی جیواسپیشیل نقشہ جیسے ایک شہر۔"
+    },
+    "model": {
+      "description": "آپ کے منظر میں ایک تھری ڈی ماڈل، جی ایل ٹی ایف یو آر ایل یا فائل سے لوڈ کیا گیا ہے۔",
+      "lbl-usingGPUInstancingFlag": "جی پی یو انستانسنگ استعمال کریں",
+      "lbl-modelurl": "نمونہ یو آر ایل",
+      "lbl-envmapUrl": "ماحولیات نقشہ یو آر ایل",
+      "lbl-textureOverride": "بناوٹ کو ختم کریں",
+      "lbl-materialOverride": "مواد اووررائڈز",
+      "error-url": "یو آر ایل سے نقص لوڈ ہو رہا ہے",
+      "lbl-loopAnimation": "لوپ حرکت پذیری",
+      "lbl-isAvatar": "اوتار ہے",
+      "lbl-isGPUInstancing": "جی پی یو انستانسنگ استعمال کر رہا ہے",
+      "lbl-isDynamic": "متحرک ہے",
+      "lbl-castShadow": "کاسٹ سایہ",
+      "lbl-receiveShadow": "سایہ وصول کریں",
+      "lbl-interactable": "تعامل پذیر",
+      "lbl-matrixAutoUpdate": "میٹرکس خود تازہ کاری",
+      "lbl-name": "نام",
+      "lbl-url": "نمونہ یو آر ایل",
+      "lbl-buy": "یو آر ایل خریدیں",
+      "lbl-learnMore": "مزید یو آر ایل سیکھیں",
+      "lbl-htmlContent": "مشمول اتمیات",
+      "lbl-interactionText": "تعامل متن",
+      "lbl-interactionType": "قسم تعامل"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "مادہ",
+      "error-materialID": "نقص ڈھونڈنے کا مواد",
+      "placeholder-materialID": "مواد منتخب کریں",
+      "lbl-patternTarget": "پیٹرن میچ",
+      "lbl-pattern": "نمونہ",
+      "lbl-isRegex": "ریجیکس"
+    },
+    "interaction": {
+      "type": "قسم تعامل",
+      "text": "تعامل متن",
+      "distance": "تعامل فاصلہ",
+      "theme": "تعامل موضوع",
+      "name": "نام تعامل",
+      "description": "تعامل تصریح",
+      "images": "تعامل تصاویر",
+      "videos": "تعامل ویڈیوز",
+      "urls": "تعامل یو آر ایل",
+      "models": "تعامل ماڈل"
+    },
+    "group": {
+      "name": "گروپ",
+      "description": "متعدد اشیاء کا ایک گروپ جسے ایک ساتھ منتقل یا نقل کیا جاسکتا ہے۔\nدرجہ بندی میں اشیاء کو گروپ میں گھسیٹیں اور چھوڑیں۔"
+    },
+    "hemisphere": {
+      "name": "نصف کرہ روشنی",
+      "description": "ایک روشنی جو براہ راست اوپر سے منظر کو روشن کرتی ہے۔",
+      "lbl-skyColor": "آسمانی رنگ",
+      "lbl-groundColor": "زمینی رنگ",
+      "lbl-intensity": "شدت"
+    },
+    "image": {
+      "name": "روپ",
+      "description": "متحرک طور پر ایک تصویر لوڈ.",
+      "lbl-imgURL": "تصویر یو آر ایل",
+      "lbl-transparency": "شفافیت موڈ",
+      "lbl-alphaCutoff": "الفا کٹ آف",
+      "lbl-projection": "پروجیکشن",
+      "lbl-side": "طرف",
+      "info-controls": "میڈیا کنٹرول کی منظرکشی کو ٹوگل کریں۔",
+      "info-transparency": "شفافیت کا اطلاق کیسے کریں:",
+      "info-opaque": "'غیر شفاف' = کوئی شفافیت نہیں",
+      "info-blend": "'بلینڈ' = تصاویر الفا چینل استعمال کریں",
+      "info-mask": "'ماسک' = آن/آف شفافیت کے لئے ایک مخصوص کٹ آف ویلیو استعمال کریں (زیادہ کارکردگی کا مظاہرہ کرنے والا)",
+      "info-alphaCutoff": "اس سے کم الفا قدروں والے پکسلز شفاف ہوں گے",
+      "error-url": "ناجائز یو آر ایل"
+    },
+    "name": {
+      "lbl-name": "نام"
+    },
+    "partileEmitter": {
+      "description": "ذرات پیدا کرنے کے لئے ذرات خارج کرنے والا.",
+      "lbl-particleCount": "ذراتی گنتی",
+      "lbl-image": "روپ",
+      "lbl-ageRandomness": "عمر کی بے ترتیبی",
+      "lbl-lifetime": "عمر",
+      "lbl-lifetimeRandomness": "زندگی بھر کی بے ترتیبی",
+      "lbl-sizeCurve": "سائز منحنی",
+      "lbl-startPSize": "ذراتی سائز شروع کریں",
+      "lbl-endPSize": "ذراتی سائز ختم کریں",
+      "lbl-sizeRandomness": "سائز تصادفی",
+      "lbl-colorCurve": "رنگ منحنی",
+      "lbl-startColor": "رنگ شروع کریں",
+      "lbl-startOpacity": "عدم شفافیت شروع کریں",
+      "lbl-middleColor": "درمیانی رنگ",
+      "lbl-middleOpacity": "درمیانی عدم شفافیت",
+      "lbl-endColor": "اختتامرنگ",
+      "lbl-endOpacity": "عدم شفافیت کا خاتمہ کریں",
+      "lbl-velocityCurve": "رفتار منحنی",
+      "lbl-startVelocity": "رفتار شروع کریں",
+      "lbl-endVelocity": "اختتامی رفتار",
+      "lbl-angularVelocity": "زاویائی رفتار",
+      "info-ageRandomness": "ذرات پیدا ہونے کے درمیان تغیر کی مقدار۔",
+      "info-lifetime": "ذرے کی زیادہ سے زیادہ عمر اس سے پہلے کہ اسے دوبارہ پیدا کیا جائے۔",
+      "info-lifetimeRandomness": "ذراتی زندگیوں کے درمیان تغیر کی مقدار۔",
+      "info-sizeRandomness": "ذرات شروع کرنے والے سائز کے درمیان تغیر کی مقدار۔",
+      "error-url": "یو آر ایل سے نقص لوڈ ہو رہا ہے"
+    },
+    "clouds": {
+      "name": "بادل",
+      "description": "سپرائیٹ پر مبنی بادل کا حجم.",
+      "lbl-image": "سپرائیٹ تصویر",
+      "lbl-wroldScale": "عالمی پیمانہ",
+      "lbl-dimensions": "ابعاد",
+      "lbl-noiseZoom": "شور زوم",
+      "lbl-noiseOffset": "شور آفسیٹ",
+      "lbl-spriteScale": "سپرائیٹ پیمانہ",
+      "lbl-fogColor": "دھند کا رنگ",
+      "lbl-fogRange": "دھند کی حد",
+      "error-url": "یو آر ایل سے نقص لوڈ ہو رہا ہے"
+    },
+    "ocean": {
+      "name": "سمندر",
+      "description": "لہروں اور جھاگ کے ساتھ سمندر کی سطح",
+      "lbl-normalMap": "عام نقشہ",
+      "lbl-distortionMap": "تحریف نقشہ",
+      "lbl-envMap": "ماحولیات نقشہ",
+      "lbl-color": "رنگ",
+      "lbl-shallowWaterColor": "اتھلے پانی کا رنگ",
+      "lbl-shallowToDeepDistance": "گہرے فاصلے تک اتھلا",
+      "lbl-opacityFadeDistance": "غیر شفافیت مدھم فاصلہ",
+      "lbl-opacityRange": "حد تغیر",
+      "lbl-shininess": "چمک",
+      "lbl-reflectivity": "عکاسی",
+      "lbl-foamColor": "جھاگ رنگ",
+      "lbl-foamSpeed": "فوم رفتار",
+      "lbl-foamTiling": "فوم ٹائلنگ",
+      "lbl-bigWaveTiling": "بگ ویو ٹائلنگ",
+      "lbl-bigWaveSpeed": "بڑی لہر کی رفتار",
+      "lbl-bigWaveHeight": "بڑی لہر اونچائی",
+      "lbl-waveSpeed": "موج رفتار",
+      "lbl-waveScale": "موج پیمانہ",
+      "lbl-waveTiling": "موج ٹائلنگ",
+      "lbl-waveDistortionSpeed": "موج تحریف رفتار",
+      "lbl-waveDistortionTiling": "موج تحریف ٹائلنگ",
+      "error-url": "یو آر ایل سے نقص لوڈ ہو رہا ہے"
+    },
+    "water": {
+      "name": "پانی",
+      "description": "پانی کی چھوٹی سطح"
+    },
+    "interior": {
+      "name": "داخلہ",
+      "description": "اندرونی ماحول کی تقلید کرنے کے لئے نقشہ شدہ مکعب ساخت کے ساتھ ایک سطح",
+      "lbl-cubeMap": "مکعب نقشہ ساخت",
+      "lbl-tiling": "ٹائلنگ کی رقم",
+      "lbl-size": "سطح سائز",
+      "error-url": "یو آر ایل سے نقص لوڈ ہو رہا ہے"
+    },
+    "pointLight": {
+      "description": "ایک روشنی جو ایک نقطہ سے ہر سمت خارج ہوتی ہے۔",
+      "lbl-color": "رنگ",
+      "lbl-intensity": "شدت",
+      "lbl-range": "رینج",
+      "lbl-decay": "اتلاف"
+    },
+    "scene": {
+      "name": "منظر",
+      "description": "منظر کی اصل شے.",
+      "lbl-bgcolor": "پس منظر رنگ",
+      "lbl-fogType": "دھند کی قسم",
+      "lbl-fogColor": "دھند کا رنگ",
+      "lbl-forNearDistance": "فاصلے کے قریب دھند",
+      "lbl-fogFarDistance": "دھند دور فاصلہ",
+      "lbl-fogDensity": "دھند کی کثافت",
+      "lbl-audioSettings": "پوزیشنل آڈیو استعمال کریں",
+      "lbl-avatarDistanceModel": "اوتار فاصلہ ماڈل",
+      "lbl-avatarRolloffFactor": "اوتار رول آف عنصر",
+      "lbl-avatarRefDistance": "اوتار حوالہ فاصلہ",
+      "lbl-avatarMaxDistance": "اوتار زیادہ سے زیادہ فاصلہ",
+      "lbl-mediaVolume": "میڈیا حجم",
+      "lbl-mediaDistanceModel": "میڈیا فاصلہ ماڈل",
+      "lbl-mediaRolloffFactor": "میڈیا رول آف عنصر",
+      "lbl-mediaRefDistance": "میڈیا حوالہ فاصلہ",
+      "lbl-mediaMaxDistance": "میڈیا زیادہ سے زیادہ فاصلہ",
+      "lbl-mediaConeInnerAngle": "میڈیا کون اندرونی زاویہ",
+      "lbl-mediaConeOuterAngle": "میڈیا کون بیرونی زاویہ",
+      "lbl-mediaConeOuterGain": "میڈیا کون آؤٹر گین",
+      "info-avatarDistanceModel": "الگوریتھم آڈیو رول آف کا حساب لگاتا تھا۔",
+      "info-avatarRolloffFactor": "ایک دوہری قدر یہ بیان کرتی ہے کہ جب ماخذ سننے والے سے دور ہوتا ہے تو حجم کتنی جلدی کم ہوتا ہے۔ 0 سے 1",
+      "info-avatarRolloffFactorInifinity": "ایک دوہری قدر یہ بیان کرتی ہے کہ جب ماخذ سننے والے سے دور ہوتا ہے تو حجم کتنی جلدی کم ہوتا ہے۔ 0 سے لامتناہی",
+      "info-avatarRefDistance": "ایک دوہری قدر جو حجم کو کم کرنے کے لئے حوالہ فاصلے کی نمائندگی کرتی ہے کیونکہ آڈیو ماخذ سننے والے سے مزید آگے بڑھتا ہے۔",
+      "info-avatarMaxDistance": "آڈیو ماخذ اور سننے والے کے درمیان زیادہ سے زیادہ فاصلے کی نمائندگی کرنے والی دوہری قدر، جس کے بعد حجم میں مزید کمی نہیں کی جاتی۔",
+      "info-mediaDistanceModel": "الگوریتھم آڈیو رول آف کا حساب لگاتا تھا۔",
+      "info-mediaRolloffFactor": "ایک دوہری قدر یہ بیان کرتی ہے کہ جب ماخذ سننے والے سے دور ہوتا ہے تو حجم کتنی جلدی کم ہوتا ہے۔ 0 سے 1",
+      "info-mediaRolloffFactorInfinity": "ایک دوہری قدر یہ بیان کرتی ہے کہ جب ماخذ سننے والے سے دور ہوتا ہے تو حجم کتنی جلدی کم ہوتا ہے۔ 0 سے لامتناہی",
+      "info-mediaRefDistance": "ایک دوہری قدر جو حجم کو کم کرنے کے لئے حوالہ فاصلے کی نمائندگی کرتی ہے کیونکہ آڈیو ماخذ سننے والے سے مزید آگے بڑھتا ہے۔",
+      "info-mediaMaxDistance": "آڈیو ماخذ اور سننے والے کے درمیان زیادہ سے زیادہ فاصلے کی نمائندگی کرنے والی دوہری قدر، جس کے بعد حجم میں مزید کمی نہیں کی جاتی۔",
+      "info-mediaConeInnerAngle": "ایک دوہری قدر جس کے اندر حجم میں کوئی کمی نہیں ہوگی، ڈگریوں میں زاویہ بیان کرتی ہے۔",
+      "info-mediaConeOuterAngle": "ایک دوہری قدر جو زاویہ کو بیان کرتی ہے، ڈگریوں میں، ایک کون جس سے باہر حجم کو مستقل قدر سے کم کیا جائے گا، جس کی تعریف کون آؤٹر گین وصف سے کی جاتی ہے۔",
+      "info-mediaConeOuterGain": "ایک دوہری قدر جو کون آؤٹر اینگل وصف کی وضاحت کردہ کون سے باہر حجم میں کمی کی مقدار کو بیان کرتی ہے۔ اس کی طے شدہ قدر 0 ہے، یعنی کوئی آواز نہیں سنی جا سکتی۔",
+      "lbl-simpleMaterials": "سادہ مواد استعمال کریں",
+      "lbl-lods": "ایل او ڈی",
+      "info-lods": "ان فاصلوں کو طے کرتا ہے جن پر تفصیل کی سطحیں تبدیل ہوتی ہیں۔",
+      "info-simpleMaterials": "تمام مہنگے مواد کو سادہ مواد میں تبدیل کرتا ہے تاکہ منظر کی رینڈرنگ سے بوجھ اٹھا سکیں۔",
+      "lbl-rendererSettings": "رینڈر سیٹنگیں اووررائڈ کریں",
+      "lbl-csm": "کاسکیڈنگ شیڈو میپس",
+      "info-csm": "کاسکیڈنگ شیڈو نقشوں کو فعال کرتا ہے۔",
+      "lbl-toneMapping": "ٹون میپنگ",
+      "info-toneMapping": "منظر پیش کرنے والے پر ٹون میپنگ کو فعال کرتا ہے۔ جب پوسٹ پروسیسنگ فعال ہو تو اس کا کوئی اثر نہیں ہوتا۔",
+      "lbl-toneMappingExposure": "ٹون میپنگ ایکسپوزر",
+      "info-toneMappingExposure": "منظر پیش کرنے والے پر ٹون میپنگ ایکسپوزر کی وضاحت کرتا ہے۔ جب پوسٹ پروسیسنگ فعال ہو تو اس کا کوئی اثر نہیں ہوتا۔",
+      "lbl-shadowMapType": "سایہ نقشہ قسم",
+      "info-shadowMapType": "سایہ نقشہ کی قسم",
+      "error-url": "یو آر ایل سے نقص لوڈ ہو رہا ہے"
+    },
+    "sceneCamera": {
+      "name": "منظر پیش منظر کیمرہ",
+      "description": "کیمرہ آپ کے منظر اور پیش منظر کیمرے کے لئے ابتدائی پوزیشن کے لئے تھمبنیل پیدا کرنے کے لئے استعمال کیا.",
+      "lbl-setFromViewPort": "منظر پورٹ سے سیٹ کریں"
+    },
+    "skybox": {
+      "name": "اسکائی باکس",
+      "description": "",
+      "lbl-timeOfDay": "دن کا وقت",
+      "lbl-color": "رنگ",
+      "lbl-latitude": "عرض البلد",
+      "lbl-luminance": "روشنی",
+      "lbl-scattering": "بکھرنے کی رقم",
+      "lbl-scatteringDistance": "بکھرتا فاصلہ",
+      "lbl-horizonStart": "افق شروع",
+      "lbl-horizonEnd": "افق اختتام",
+      "lbl-texture": "بنت",
+      "lbl-skyType": "آسمانی قسم",
+      "error-url": "یو آر ایل سے نقص لوڈ ہو رہا ہے"
+    },
+    "spawnPoint": {
+      "name": "اسپون پوائنٹ",
+      "description": "ایک نقطہ جہاں لوگ آپ کے منظر میں داخل ہونے پر ظاہر ہوں گے۔\nویوپورٹ میں شبیہ اوتار کے اصل سائز کی نمائندگی کرتی ہے۔"
+    },
+    "spotLight": {
+      "description": "ایک روشنی جو ایک سمت کے ساتھ خارج ہوتی ہے، ایک کون کے اندر اشیاء روشن.",
+      "lbl-color": "رنگ",
+      "lbl-intensity": "شدت",
+      "lbl-penumbra": "پینومبرا",
+      "lbl-angle": "زاویہ",
+      "lbl-range": "رینج",
+      "lbl-decay": "اتلاف"
+    },
+    "transform": {
+      "title": "تبدیل",
+      "lbl-postition": "پوزیشن",
+      "lbl-rotation": "گردش",
+      "lbl-scale": "پیمانہ"
+    },
+    "triggereVolume": {
+      "description": "داخل اور چھوڑ پر ہدف آبجیکٹ پر ایک پراپرٹی سیٹ کرتا ہے۔",
+      "lbl-target": "چیز",
+      "lbl-onenter": "داخل پر",
+      "lbl-onexit": "خروج پر",
+      "lbl-showHelper": "مددگار میش دکھائیں",
+      "ph-errorNode": "نقص ناپید نوڈ.",
+      "ph-selectNode": "نوڈ منتخب کریں..."
+    },
+    "video": {
+      "name": "ویڈیو",
+      "description": "متحرک طور پر ایک ویڈیو لوڈ.",
+      "lbl-video": "ویڈیو",
+      "lbl-projection": "پروجیکشن",
+      "lbl-islivestream": "لائیو اسٹریم",
+      "lbl-interactable": "تعامل پذیر",
+      "lbl-id": "عنصر یڈ",
+      "lbl-play": "کھیلنا",
+      "lbl-pause": "توقف",
+      "error-url": "یو آر ایل سے نقص لوڈ ہو رہا ہے"
+    },
+    "volumetric": {
+      "name": "جلد",
+      "description": "متحرک طور پر ایک جلد ویڈیو لوڈ.",
+      "uvolPaths": "یو وی او ایل راستے",
+      "playmode": "موڈ چلائیں",
+      "playtitle": "کھیلنا",
+      "pausetitle": "توقف"
+    },
+    "spline": {
+      "description": "متحرک طور پر منحنی تخلیق اور تخصیص کریں۔",
+      "lbl-addNode": "منحنی میں نوڈ شامل کریں۔"
+    },
+    "systemnode": {
+      "description": "نوشتہ منسلک کریں۔",
+      "lbl-filePath": "یو آر ایل",
+      "lbl-systemUpdateType": "انجکشن پوائنٹ",
+      "lbl-enableClient": "کلائنٹ",
+      "lbl-enableServer": "سرور",
+      "lbl-args": "ارگس",
+      "error-url": "یو آر ایل سے نوشتہ لوڈ کرنے میں نقص"
+    },
+    "portal": {
+      "lbl-portal": "مربوط پورٹل",
+      "lbl-redirect": "صفحہ پھر سمت استعمال کریں",
+      "description": "مخصوص مقام پر کھلاڑیوں کو ٹیلی پورٹ کرنے کے لیے پورٹاٹ",
+      "lbl-locationName": "جگہ",
+      "lbl-modelUrl": "ماڈل یو آر ایل",
+      "lbl-displayText": "متن دکھائیں",
+      "lbl-cubemapBake": "کیوب میپ بیک",
+      "lbl-spawnPosition": "اسپون پوزیشن",
+      "lbl-spawnRotation": "سپون روٹیشن",
+      "lbl-triggerPosition": "متحرک پوزیشن",
+      "lbl-triggerRotation": "گردش محرک کریں",
+      "lbl-triggerScale": "محرک پیمانہ"
+    },
+    "postprocessing": {
+      "name": "پوسٹ پروسیسنگ",
+      "description": "منظر پر پوسٹ پروسیسنگ اثرات لگانے کے لئے۔"
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "نیا پروجیکٹ",
+      "backLink": "منصوبوں کی طرف واپس",
+      "featured": "نمایاں",
+      "all": "تمام",
+      "newProject": "نیا خالی پروجیکٹ",
+      "ph-search": "مناظر تلاش کریں..."
+    },
+    "grid": {
+      "loading": "لوڈنگ..."
+    },
+    "page": {
+      "header": "خوش آمدید",
+      "headerMsg": "اگر آپ یہاں نئے ہیں تو ہم ٹیوٹوریل کے ذریعے جانے کی سفارش کرتے ہیں۔ بصورت دیگر، صحیح اندر کود یں اور شروع سے یا ہمارے سانچوں میں سے کسی ایک سے کوئی پروجیکٹ بنائیں۔",
+      "lbl-startTutorial": "ٹیوٹوریل شروع کریں",
+      "projects": "منصوبوں",
+      "lbl-newProject": "نیا پروجیکٹ"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "لوڈنگ...",
+      "placeObject": "آبجیکٹ رکھیں",
+      "placeObjectAtOrigin": "اصل میں آبجیکٹ رکھیں",
+      "copyURL": "نقل کریں یو آر ایل",
+      "openInNewTab": "نیا جدول میں یو آر ایل کھولیں",
+      "deleteAsset": "اثاثہ حذف کریں"
+    },
+    "filebrowser": {
+      "addNewFolder": "نیا پوشہ اضافہ کریں",
+      "cutAsset": "کاٹنا",
+      "copyAsset": "نقل",
+      "pasteAsset": "جوڑیں",
+      "renameAsset": "نام تبدیل کریں",
+      "viewAssetProperties": "خواص منظر کریں"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "نام تبدیل کریں",
+    "lbl-duplicate": "مثنی",
+    "lbl-group": "گروپ",
+    "lbl-delete": "مٹانا",
+    "lbl-expandAll": "تمام توسیع کریں",
+    "lbl-collapseAll": "تمام گر",
+    "isseus": "مسائل:"
+  },
+  "dnd": {
+    "nodes": "{{count}} نوڈز منتخب",
+    "models": "{{count}} ماڈل منتخب",
+    "images": "منتخب کردہ {{count}} تصاویر",
+    "videos": "منتخب کردہ ویڈیوز {{count}}",
+    "audio": "{{count}} آڈیو ذرائع منتخب"
+  },
+  "dialog": {
+    "title": "مدیر",
+    "lbl-confirm": "ٹھيک ہے",
+    "lbl-cancel": "منسوخ",
+    "exportProject": {
+      "title": "ایکسپورٹ پروجیکٹ",
+      "lbl-confirm": "ایکسپورٹ پروجیکٹ",
+      "lbl-combineMesh": "میشیس کو یکجا کریں",
+      "lbl-removeUnused": "غیر استعمال شدہ اشیاء ہٹائیں"
+    },
+    "performance": {
+      "title": "کارکردگی جانچ",
+      "lbl-confirm": "منظر شائع کریں",
+      "learnMore": "اور سيکھو",
+      "lbl-polycount": "کثیر الاضلاع شمار",
+      "lbl-material": "مواد",
+      "lbl-texture": "ساخت",
+      "lbl-lights": "روشنی",
+      "lbl-fileSize": "مسل سائز",
+      "info-polycount": "ہم آپ کے منظر کو موبائل ڈیوائسز کے لئے 50,000 سے زیادہ مثلث استعمال کرنے کی سفارش کرتے ہیں۔",
+      "info-material": "ہم موبائل ڈیوائسز پر ڈرا کالز کو کم کرنے کے لئے آپ کے منظر میں ٢٥ سے زیادہ منفرد مواد استعمال کرنے کا مشورہ دیتے ہیں۔",
+      "info-texture": "ہم مشورہ دیتے ہیں کہ آپ کی بناوٹ موبائل ڈیوائسز کے لئے ٢٥٦ ایم بی سے زیادہ ویڈیو ریم استعمال نہ کریں۔ ہم 2048'ایکس 2048 سے بڑی بناوٹ استعمال کرنے کے خلاف بھی سفارش کرتے ہیں۔",
+      "info-lights": "اگرچہ متحرک روشنیاں موبائل ڈیوائسز پر فعال نہیں ہیں، ہم آپ کے منظر میں 3 سے زیادہ روشنیاں استعمال کرنے کا مشورہ دیتے ہیں (محیط اور نصف کرہ کی روشنیوں کو چھوڑ کر) آپ کے منظر کو کم اختتام پی سی پر چلانے کے لئے۔",
+      "info-fileSize": "ہم کم بینڈوڈتھ کنکشن کے لئے 16ایم بی سے زیادہ کا حتمی فائل سائز تجویز کرتے ہیں۔ فائل سائز کو کم کرنے سے آپ کے منظر کو ڈاؤن لوڈ کرنے میں لگنے والا وقت کم ہوجائے گا۔",
+      "txt-polycount": "مثلث {{count}}",
+      "txt-material": "{{count}} مواد",
+      "txt-ram": "~{{count}} ویڈیو ریم",
+      "txt-texture": "{{count}} بڑی ساخت",
+      "txt-lights": "{{count}} روشنیاں"
+    },
+    "progress": {
+      "title": "لوڈنگ...",
+      "msg": "لوڈنگ...",
+      "lbl-cancel": "منسوخ"
+    },
+    "publish": {
+      "title": "منظر شائع کریں",
+      "lbl-confirm": "محفوظ کریں اور شائع کریں",
+      "lbl-name": "نام منظر",
+      "info-name": "نام 4 سے 64 حروف کے درمیان ہونا چاہیے اور اس میں انڈر اسکور نہیں ہو سکتے"
+    },
+    "published": {
+      "title": "منظر شائع",
+      "header": "آپ کا منظر شائع ہو چکا ہے۔",
+      "lbl-view": "اپنا منظر دیکھیں"
+    },
+    "saveNewProject": {
+      "title": "معاونت",
+      "lbl-name": "نام پروجیکٹ",
+      "info-name": "نام 4 سے 64 حروف کے درمیان ہونا چاہیے اور اس میں انڈر اسکور نہیں ہو سکتے",
+      "lbl-confirm": "پروجیکٹ محفوظ کریں"
+    },
+    "support": {
+      "title": "معاونت",
+      "header": "کسی مسئلے کی اطلاع دینے کی ضرورت ہے؟",
+      "msg": "آپ <1>گیٹ ہب ایشو</1> فائل کر سکتے ہیں یا <3> ہمیں{{mail}}</3> پر معاونت کے لئے ای میل کر سکتے ہیں",
+      "discord": "آپ ہمیں اختلاف پر بھی تلاش کر سکتے <1>ہیں</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "بنگ تصاویر",
+      "search": "بنگ کی طرف سے تلاش کریں"
+    },
+    "bingVideo": {
+      "name": "بنگ ویڈیوز",
+      "search": "بنگ کی طرف سے تلاش کریں"
+    },
+    "element": {
+      "name": "عناصر"
+    },
+    "myAssets": {
+      "name": "میرے اثاثے"
+    },
+    "googlePoly": {
+      "name": "گوگل پولی",
+      "search": "گوگل کی طرف سے تلاش کریں"
+    },
+    "tenor": {
+      "name": "ٹینر جی آئی ایف",
+      "search": "تلاش بمطابق مدت",
+      "ph-search": "تلاش جی آئی ایف..."
+    },
+    "sketchfab": {
+      "name": "خاکہ فیب",
+      "search": "تلاش از خاکہ فیب"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "اثاثہ اپ لوڈ کریں"
+    },
+    "imageSourcePanel": {
+      "ph-search": "تصاویر تلاش کریں..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "ویڈیوز تلاش کریں..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "اثاثے تلاش کریں..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "ماڈل تلاش کریں..."
+    },
+    "useUpload": {
+      "multipleFileError": "ان پٹ متعدد مسلیں قبول نہیں کرتا۔",
+      "mineTypeError": "\"{{name}}\" مندرجہ ذیل مائم اقسام یا توسیعات سے میل نہیں کھاتا: {{types}}",
+      "progressTitle": "مسلیں اپ لوڈ کر رہا ہے",
+      "progressMsg": "{{total}}کی {{uploaded}} فائلیں اپ لوڈ کرنا : {{percentage}}٪",
+      "uploadError": "نقص اپ لوڈ کریں",
+      "uploadErrorMsg": "مسل اپ لوڈ کرنے میں نقص: {{message}}",
+      "uploadErrorDefaultMsg": "ایک نامعلوم نقص تھا"
+    }
+  },
+  "openLink": {
+    "description": "لنک پر گشت کرنے کے لیے براہ کرم اوپن پر کلک کریں۔",
+    "lbl-open": "کھولنا"
+  },
+  "interactableModel": {
+    "lbl-buy": "خریدنا",
+    "lbl-learnMore": "اور سيکھو"
+  },
+  "corsProxyButton": {
+    "tooltip": "کورس پراکسی سرور استعمال کریں"
+  }
+}

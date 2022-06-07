@@ -1,0 +1,718 @@
+{
+  "loading": "Proýekt ýüklenilýär",
+  "loadingMsg": "Proýekt ýüklenýär...",
+  "loadingError": "Proýekt ýüklemekde hata boldy",
+  "loadingErrorMsg": "Gurluşyk üçin bir hata boldy.",
+  "selectSceneMsg": "Motor bilen oýnamaga başlamak üçin sahnany saýlaň",
+  "error": "Hata",
+  "errorMsg": "Nätanyş ýalňyşlyk goýberildi.",
+  "generateScreenshot": "Proýektiň Ekrany Gendir",
+  "generateScreenshotMsg": "Proýektekrany emele getirilýa...",
+  "newScene": "Sahna Bejer",
+  "saving": "Proýekti Gaýd Etmek",
+  "savingMsg": "Proýekt gaýd edilýär...",
+  "savingError": "Proýekti gaýd etmekde hata boldy",
+  "savingErrorMsg": "Gurluşyk üçin gaýd edilende ýalňyşlyk ýüze çykypdyr.",
+  "savingSceneErrorMsg": "Sahna dogry ýüklenmeýär. Ol ýeri ýene-de ýüklejek bol.",
+  "duplicating": "Gaýtalanan Proýekt",
+  "duplicatingMsg": "Deslapdan proýekt...",
+  "exporting": "Eksport taslamasy",
+  "exportingMsg": "Gurluşyk çyzgysy eksport edil...",
+  "exportingError": "Proýekti ýüklemekde hata boldy",
+  "exportingErrorMsg": "Gurluşyk üçin bir hata boldy.",
+  "importLegacy": "Miras dünýä import ediň",
+  "importLegacyMsg": "Duýduryş! Bu siziň bar bolan sahnaňyzy ýazar! Siz mundan beýläk dowam etmek isleýändigiňize ynanýarmysyňyz?",
+  "publishingError": "\"%s\" neşir etmek üçin hata",
+  "publishingErrorMsg": "Nätanyş ýalňyşlyk goýberildi.",
+  "publishingScene": "Wagyz edilýän ýer",
+  "publishingSceneMsg": "Neşir sahnasy...",
+  "uploadingThumbnailMsg": "Başam barmak ýükleýär...",
+  "uploadingSceneMsg": "Ýükleme sahnasy: {{percentage}}%",
+  "envMapError": "Arka plan renki ýüklemekde hata taým {{files}}",
+  "lbl-return": "Gaýd Et",
+  "menubar": {
+    "newScene": "Täze sahna",
+    "saveScene": "Sahnany Gaýd Et",
+    "saveAs": "Aýry Gaýd Et",
+    "importAsset": "Emlägi Getir",
+    "exportGLB": "Ikitaraplaýyn glTF (.glb) hökmünde eksport ...",
+    "importScene": "Sahnany import et",
+    "exportScene": "Eksport sahnasy",
+    "quit": "Çyk"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Faýl üçin desteklenilmedik faýl hili: \"{{name}}\". Faýl surat, wideo ýa-da glb model bolmaly.",
+    "addObject": "addObject: öňki obýekt tapylmady",
+    "removeObject": "removeObject: node tapylmady. Munuň sebäbi indi ol ýerde bolmadyk düýäni aýyrmakdyr.",
+    "noParent": "{{node}} «{{name}}» ata - enesi ýok. Reparent diňe häzirki wagtda ol ýerdäki obýektleriň üstünde işleýär.",
+    "undefinedParent": "ewreçi.reparent: newParent is defined",
+    "notAuthenticated": "Tassyklanylmady",
+    "fetchingProjectError": "Öý faýllary gaýd etmekde hata boldy: {{error}}",
+    "fetchingRouteError": "Ýollaryň getirilşi hata boldy: {{error}}",
+    "unknownError": "Näbelli hata",
+    "resolveURL": "\"{{url}}\" diýen sözi çözmekde hata böldi:",
+    "mediaSearchAborted": "Media gözlegi bes edildi",
+    "methodNotImplemented": "Metod amala aşyrylmaýar.",
+    "saveProjectAborted": "Sahnany halas et abort edildi",
+    "unsavedChanges": "Gaýd edilmedik Changes",
+    "unsavedChangesMsg": "Ol ýer üýtgedildi. Munuň üçin gaýd edip üýtgetmäňiz.",
+    "projectCreationFail": "Proýekt ýaratylyşy başarmady. {{reason}}",
+    "projectDeletionFail": "Proýekt öçürmekde ýöňkeme başarmady. {{reason}}",
+    "savingProjectFail": "Proýekt gaýd edildi. {{reason}}",
+    "sceneTooLarge": "Sahnanyň uly ({{size}} MB) çap edip bolmaýar. Iň ululyk – {{maxSize}} MB.",
+    "sceneCreationFail": "Sahnanyň ýaradylyşy başa barmady. {{reason}}",
+    "uploadAborted": "Ýükle",
+    "uploadFailed": "Ýüklemede başarnykly {{reason}}",
+    "assetDeletionFail": "Emlägiň öçürilmegi başa barmady. {{reason}}",
+    "projectAssetDeletionFail": "Gurluşyk emlägi öçürmekbaşy başartmady. {{reason}}",
+    "networkError": "Netije namaýyşlygy: {{status}}. {{text}}",
+    "unknownStatus": "Näbelli Durum",
+    "CORS": "Megere BIR CORS ýalňyşlygy",
+    "urlFetchError": "\"{{url}}\" alyp bilmedi"
+  },
+  "viewport": {
+    "title": "Görniş",
+    "command": {
+      "movecamera": "Kamera Göçir",
+      "flyFast": "Çalt uç",
+      "orbit": "Orbita / Saýla",
+      "pan": "Pan",
+      "fly": "Uç",
+      "focus": "Gönükdiriş",
+      "rotateLeft": "Sola aýla",
+      "rotateRight": "Saga Aýla",
+      "cancelPlacement": "Ýerini Ýatyrmak",
+      "placeDuplicate": "Gaýtala",
+      "cancelGrab": "Tutmaky ýatyr",
+      "grab": "Tutuň",
+      "deselectAll": "Ehlisini Saýla"
+    },
+    "state": {
+      "header": "Statisler",
+      "memory": "Ýadygä",
+      "geometries": "Geometriýalar",
+      "textures": "Dokumetler",
+      "render": "Işlikler",
+      "FPS": "FPS",
+      "frameTime": "Kaým Wagty",
+      "calls": "Jaňlar",
+      "triangles": "Üçburçluklar",
+      "points": "Paýhaslar",
+      "lines": "Hatlar"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Neşir ýat",
+    "lbl-published": "Neşir edildi",
+    "command": {
+      "translate": "Terjime et",
+      "rotate": "Döner",
+      "scale": "Ölçeg",
+      "toggleSpace": "Seleň Girdir",
+      "togglePivot": "Ewez Etmek Pivoty",
+      "toggleSnapMode": "Sazlama Modini Ewez Etmek",
+      "toggleGrid": "Şebitiň Aýanlykyny Ewez Etmek",
+      "increaseGridSize": "Şebit Ululykyny Artdyr",
+      "descreaseGridSize": "Şebit Ululykyny Peselt",
+      "stopPreview": "Sahnany görmäň",
+      "playPreview": "Gözden Geçir"
+    }
+  },
+  "properties": {
+    "title": "Häsiýetler",
+    "lbl-visible": "Görniş",
+    "lbl-preventBake": "Bişiriň",
+    "lbl-persist": "Erjellik",
+    "multipleNodeSelected": "Dürli hili saýlanan birnäçe noýbalar",
+    "noNodeSelected": "Saýlanan nowez",
+    "ambientLight": {
+      "name": "Daş-töweregindäki ýagtylyk",
+      "description": "Sahnaňyzdaky ähli obýektleri ýagtyldýan ýagtylyk.",
+      "lbl-intensity": "Güýç",
+      "lbl-color": "Renk"
+    },
+    "envmap": {
+      "name": "Daşky gurşawy goramak kartasy",
+      "description": "daşky gurşaw kartahäsiýetleri"
+    },
+    "asset": {
+      "name": "Emläk",
+      "description": "Dinamik ýükläp we ýükläp bolýan sahna komponentleriniň topary",
+      "lbl-options": "Opşenler:",
+      "lbl-assetPath": "Emlägiň ýoly",
+      "lbl-assetName": "Eksport ady",
+      "lbl-exportOptions": "Gaýd etmek opşenler",
+      "lbl-export": "Eksport emlägi",
+      "lbl-load": "Gonşy ýere ýükle",
+      "lbl-unload": "Ýüki Ýükle",
+      "lbl-reload": "Ýüklemek"
+    },
+    "audio": {
+      "name": "Ses",
+      "description": "Audiodinamiki ýükleýär.",
+      "lbl-audiourl": "Ses Url",
+      "lbl-controls": "kontrollar",
+      "info-controls": "Habar beriş serişdelerine gözegçilik etmegiň göze görünilşini togtat.",
+      "lbl-autoplay": "Awtomatiki oýna",
+      "info-autoplay": "Eger dogry bolsa, onda ol ýere ilkinji gezek girende köpçülikleýin habar beriş serişdeleri oýnar.",
+      "lbl-synchronize": "Sinhronlaşdyrmak",
+      "info-synchronize": "Eger dogry bolsa, onda köpçülikleýin habar beriş serişdeleri baglanşykly ähli müşderilerde sinhronlaşdyrylar.",
+      "lbl-loop": "Gaýd etmek",
+      "info-loop": "Eger dogry bolsa, köpçülikleýin habar beriş serişdeleri ebedilik döküler.",
+      "lbl-audioType": "Ses Hili",
+      "lbl-distanceModel": "Degişmenlik Model",
+      "info-distanceModel": "Audio rolloffy hasaplamaküçin ulanylýan algoritm.",
+      "lbl-rolloffFactor": "Rolloff Faktory",
+      "info-rolloffFactor": "Çeşmäniň diňleýjiden daşlaşmagy bilen sesiň batlylygyny beýan edýän iki esse gymmatlyk. 0-dan 1-e çenli",
+      "info-rfInfinity": "Çeşmäniň diňleýjiden daşlaşmagy bilen sesiň batlylygyny beýan edýän iki esse gymmatlyk. 0-dan Inlislige",
+      "lbl-refDistance": "Ref Aralyk",
+      "info-refDistance": "Sesiň batlylygyny azaltmak üçin referensiýa uzaklygyny görkezýän iki esse gymmatlyk.",
+      "lbl-maxDistance": "Maks Aralyk",
+      "info-maxDistance": "Ses çeşmesi bilen diňleýjiniň arasyndaky iň ýokary aralygy aňladýan ikilik baha. Şondan soň sesiň batlylygy indi azalanok.",
+      "lbl-coneInnerAngle": "Koniçki burç",
+      "info-coneInnerAngle": "Içinde sesiň azalmajak koniniň burçyny, belli bir derejede beýan edýän ikiýüzli gymmatlyk.",
+      "lbl-coneOuterAngle": "Kond daşky burç",
+      "info-coneOuterAngle": "Konýanyň burçyny, belli bir derejede beýan edýän ikiýüzli gymmatlyk, onuň daşynda sesiň dyngysyz bahasy bilen azaldylýar, bu bolsa coneOuterGain häsiýetleri bilen kesgitlenilýär.",
+      "lbl-coreOuterGain": "Kon Daşky Peýda",
+      "info-coreOuterGain": "coneOuterAngle atributy bilen kesgitlenen kondansdan daşary sesiň azalmagyny beýan edýän ikilik baha. Onuň öňünden bellenen bahasy 0, ýagny hiç hili ses eşidilmeýär.",
+      "lbl-volume": "Mazmun",
+      "lbl-play": "Oýna",
+      "lbl-pause": "Säginme",
+      "error-url": "URL-dan ýüklemekde hata boldy"
+    },
+    "boxCollider": {
+      "description": "Obýektleriň bökjeklär ýa-da üstünde dynç aljak göze görünmeýän guty.\nBýmurtsyz obýektler zeýtun ýagyndan düşüp, diwarlardan geçerler.",
+      "lbl-isTrigger": "Taým"
+    },
+    "camera": {
+      "name": "Kamera",
+      "description": "Kamera düzümleri.",
+      "lbl-camera-raycast": "Kadaly Raycasting",
+      "lbl-camera-raycast-toggle": "Mümkin Et",
+      "lbl-camera-raycast-frequency": "Ýygylyk",
+      "lbl-camera-raycast-count": "Reý Saýd",
+      "lbl-camera-raycast-length": "Reý Uzynlygy"
+    },
+    "directionalLight": {
+      "name": "Ugradyş Nury",
+      "description": "Bütin sahnany ýagtyldýan, ýöne bir tarapa çykarýan ýagtylyk.",
+      "lbl-color": "Renk",
+      "lbl-intensity": "Güýç",
+      "lbl-cameraFar": "Kamera Uzak",
+      "lbl-cameraNear": "Ýakynda Kamera",
+      "lbl-cameraTop": "Kamera Üst",
+      "lbl-cameraBottom": "Kamera Nyň Aşagy",
+      "lbl-cameraLeft": "Kamera çepe",
+      "lbl-cameraRight": "Kamera Sag",
+      "lbl-useInCSM": "CSM-de ulanyş",
+      "lbl-castShadow": "Kölegesini at",
+      "lbl-disableForCSM": "Ködleme kartasy bar bolany üçin maýyp.",
+      "lbl-shadowmapResolution": "Shadow Map Resolution",
+      "lbl-shadowBias": "Kösenýän tarapgöýlük",
+      "lbl-shadowRadius": "Köňlüm",
+      "lbl-showCameraHelper": "Kamera nyň ýardamçysyny görkez"
+    },
+    "groundPlane": {
+      "name": "Ýerüsti uçar",
+      "description": "Uzaklyga çenli uzaýan tekiz ýerüsti uçar.",
+      "lbl-color": "Renk",
+      "lbl-receiveShadow": "Köňlüdi Al",
+      "lbl-generateNavmesh": "Nawigalary emele getir"
+    },
+    "link": {
+      "description": "Otaga ýa-da web-saýtyna baglaýyş.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "3D geografik kartasy e.öň bir şäher."
+    },
+    "model": {
+      "description": "Sahnaňyzda 3D model, GLTF URL ýa-da faýldan ýüklenen.",
+      "lbl-usingGPUInstancingFlag": "Use GPU Instancing",
+      "lbl-modelurl": "Model Url",
+      "lbl-envmapUrl": "Daşky gurşawy goramak boýunça äpişgäniň url",
+      "lbl-textureOverride": "Dokumy ýöňňe",
+      "lbl-materialOverride": "Material ymykly aýdylan",
+      "error-url": "URL-dan ýüklemekde hata boldy",
+      "lbl-loopAnimation": "Gloop Animasiýa",
+      "lbl-isAvatar": "Is Awatar",
+      "lbl-isGPUInstancing": "GPU Instancing ulanýarmy?",
+      "lbl-isDynamic": "Dyngysyz",
+      "lbl-castShadow": "Kölegesini at",
+      "lbl-receiveShadow": "Köňlüdi Al",
+      "lbl-interactable": "Ara alyp maslahatlaşylýan",
+      "lbl-matrixAutoUpdate": "MatrisOtomatik Täzeleme",
+      "lbl-name": "Ady",
+      "lbl-url": "Model Url",
+      "lbl-buy": "Url Satyn Al",
+      "lbl-learnMore": "Köpräk Url Öwren",
+      "lbl-htmlContent": "_Mazmunlar",
+      "lbl-interactionText": "Aragatnaşyk Metini",
+      "lbl-interactionType": "Interaktiwlik Hili"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Materiýa",
+      "error-materialID": "Materialy tapmakda hata boldy",
+      "placeholder-materialID": "Materiýa Saýla",
+      "lbl-patternTarget": "Nusga Lar",
+      "lbl-pattern": "Nusga",
+      "lbl-isRegex": "Regeks"
+    },
+    "interaction": {
+      "type": "Interaktiwlik Hili",
+      "text": "Aragatnaşyk Metini",
+      "distance": "Arabaglanyşyk Aralygy",
+      "theme": "Interaktiwlik temasy",
+      "name": "Arabaglanyşyk Ady",
+      "description": "Arabaglanyşyk Waspy",
+      "images": "Arabaglanyşyk Şekilleri",
+      "videos": "Interaktiw wideolar",
+      "urls": "Aragatnaşyk Url'leri",
+      "models": "Interaktiw modeller"
+    },
+    "group": {
+      "name": "Topar",
+      "description": "Bilelikde göçürip ýa-da gaýtalap bolýan birnäçe obýektleriň topary.\nObýektleri Hiyerarşiýadaky Topara süýräp, taşlaň."
+    },
+    "hemisphere": {
+      "name": "Hemra nury",
+      "description": "Ol ýeri gös-göni ýokardan ýagtyldýan ýagtylyk.",
+      "lbl-skyColor": "Gök reňk",
+      "lbl-groundColor": "Ýer renki",
+      "lbl-intensity": "Güýç"
+    },
+    "image": {
+      "name": "Resim",
+      "description": "Resimi gaýd etmek.",
+      "lbl-imgURL": "Resim Url",
+      "lbl-transparency": "Aýawlylyk Modi",
+      "lbl-alphaCutoff": "Alpha Cutoff",
+      "lbl-projection": "Prowaýon",
+      "lbl-side": "Tarap",
+      "info-controls": "Habar beriş serişdelerine gözegçilik etmegiň göze görünilşini togtat.",
+      "info-transparency": "Aýawlylygy nädip ulanmaly:",
+      "info-opaque": "'opaque' = hiç hili aýypsyzlyk ýok",
+      "info-blend": "'garyşdyr' = suratlaryň alfa kanalyny ulanyň",
+      "info-mask": "'mask' = On/off aýanlyk üçin bellenilen keseç bahasyny ulanyň (has ýerine ýetiriji)",
+      "info-alphaCutoff": "Ondan pes alfa gymmatlyklary bolan pikseller aýan bolar",
+      "error-url": "Nämüçindir URL"
+    },
+    "name": {
+      "lbl-name": "Ady"
+    },
+    "partileEmitter": {
+      "description": "Bölejikleri döretmek üçin bölejik çykarýar.",
+      "lbl-particleCount": "Bölejikler",
+      "lbl-image": "Resim",
+      "lbl-ageRandomness": "Ýaşyň tötänleýin bolmagy",
+      "lbl-lifetime": "Ömür",
+      "lbl-lifetimeRandomness": "Ömürlik tötänleýinlik",
+      "lbl-sizeCurve": "Ululyk Egri",
+      "lbl-startPSize": "Bölejik Ululykyny Başla",
+      "lbl-endPSize": "Bölejik Ululykyny Ahyrky Bölejik",
+      "lbl-sizeRandomness": "Ölçeg Tötänligi",
+      "lbl-colorCurve": "Renk Egri",
+      "lbl-startColor": "Renk Ýygna",
+      "lbl-startOpacity": "Opaklygy başla",
+      "lbl-middleColor": "Orta Renk",
+      "lbl-middleOpacity": "Orta opak",
+      "lbl-endColor": "RenkLeri Ahyrky Gaýd Etmek",
+      "lbl-endOpacity": "Opaklygy bes etmek",
+      "lbl-velocityCurve": "Tizlik egriligi",
+      "lbl-startVelocity": "Başlangyç tizlik",
+      "lbl-endVelocity": "Welotizligi bes etmek",
+      "lbl-angularVelocity": "Burçly weloz",
+      "info-ageRandomness": "Bölejikleriň emele gelmeginiň arasyndaky üýtgemeleriň mukdary.",
+      "info-lifetime": "Süýndirilmezden öň bölejikleriň iň köp ýaşy.",
+      "info-lifetimeRandomness": "Bölejikleriň ömri boýunça üýtgemeleriň mukdary.",
+      "info-sizeRandomness": "Başlangyç ululyklaryň bölejikleriň arasyndaky üýtgemeleriň mukdary.",
+      "error-url": "URL-dan ýüklemekde hata boldy"
+    },
+    "clouds": {
+      "name": "Bulut",
+      "description": "Sprite esasly bulut laryň sesi.",
+      "lbl-image": "Resimi Sprite",
+      "lbl-wroldScale": "Dünýä ölçegi",
+      "lbl-dimensions": "Ölçegler",
+      "lbl-noiseZoom": "SesIň Ulaldylşy",
+      "lbl-noiseOffset": "Sesler",
+      "lbl-spriteScale": "Sprite Ölçegi",
+      "lbl-fogColor": "Sis renki",
+      "lbl-fogRange": "Tüsse",
+      "error-url": "URL-dan ýüklemekde hata boldy"
+    },
+    "ocean": {
+      "name": "Okeaniýa",
+      "description": "Tolkunlar we köpükler bilen deňziň ýüzi",
+      "lbl-normalMap": "Adaty Karta",
+      "lbl-distortionMap": "Ýoýmak Kartasy",
+      "lbl-envMap": "Daşky gurşawy goramak kartasy",
+      "lbl-color": "Renk",
+      "lbl-shallowWaterColor": "Çuň Suwuň reňki",
+      "lbl-shallowToDeepDistance": "Çuňluga çenli çuňluga",
+      "lbl-opacityFadeDistance": "Opaklyk solan aralyk",
+      "lbl-opacityRange": "Opaklyk Aralygy",
+      "lbl-shininess": "Şindirlik",
+      "lbl-reflectivity": "Refamendirlik",
+      "lbl-foamColor": "Köpük Renki",
+      "lbl-foamSpeed": "Köpük tizligi",
+      "lbl-foamTiling": "Köpük Tiling",
+      "lbl-bigWaveTiling": "Uly tolkun lybasy",
+      "lbl-bigWaveSpeed": "Uly tolkun tizligi",
+      "lbl-bigWaveHeight": "Uly tolkun beýikligi",
+      "lbl-waveSpeed": "Tolkun Tizligi",
+      "lbl-waveScale": "Tolkun Ölçeg",
+      "lbl-waveTiling": "Tolkun Yňňagy",
+      "lbl-waveDistortionSpeed": "Tolkun Ýoýmak Tizligi",
+      "lbl-waveDistortionTiling": "Tolkun Ýoýmak Tili",
+      "error-url": "URL-dan ýüklemekde hata boldy"
+    },
+    "water": {
+      "name": "Suw",
+      "description": "Kiçi suwuň ýüzi"
+    },
+    "interior": {
+      "name": "Içki",
+      "description": "Içki şertleriň göreldesine eýermek üçin kartaly kub dokumy bolan ýüzi",
+      "lbl-cubeMap": "Cube Map teksti",
+      "lbl-tiling": "Eňiliş mukdary",
+      "lbl-size": "Daşky ululyk",
+      "error-url": "URL-dan ýüklemekde hata boldy"
+    },
+    "pointLight": {
+      "description": "Bir nokatdan hemme tarapdan çykarýan yşyk.",
+      "lbl-color": "Renk",
+      "lbl-intensity": "Güýç",
+      "lbl-range": "Aralyk",
+      "lbl-decay": "Çüýrük"
+    },
+    "scene": {
+      "name": "Sahna",
+      "description": "Sahnanyň düýp obýekti.",
+      "lbl-bgcolor": "Arkaplan Renki",
+      "lbl-fogType": "Tüssäniň görnüşi",
+      "lbl-fogColor": "Sis renki",
+      "lbl-forNearDistance": "Uzakda tüsse",
+      "lbl-fogFarDistance": "Uzak aralyga tüsse",
+      "lbl-fogDensity": "Tüssäniň dykyzlygy",
+      "lbl-audioSettings": "Sesi Poz",
+      "lbl-avatarDistanceModel": "Awatar Aralyk Modeli",
+      "lbl-avatarRolloffFactor": "Awatar Rolloff Faktory",
+      "lbl-avatarRefDistance": "Awatar Ref aralygy",
+      "lbl-avatarMaxDistance": "Awatar Maks Aralyk",
+      "lbl-mediaVolume": "Media Hümmetdir",
+      "lbl-mediaDistanceModel": "Media Aralyk Modeli",
+      "lbl-mediaRolloffFactor": "Media Rolloff Faktor",
+      "lbl-mediaRefDistance": "Media Ref Aralygy",
+      "lbl-mediaMaxDistance": "Media Maks Aralyk",
+      "lbl-mediaConeInnerAngle": "Media Kone Içki Burç",
+      "lbl-mediaConeOuterAngle": "Media Kone Daşky Burç",
+      "lbl-mediaConeOuterGain": "Media Kone Daşky girdeji",
+      "info-avatarDistanceModel": "Audio rolloffy hasaplamaküçin ulanylýan algoritm.",
+      "info-avatarRolloffFactor": "Çeşmäniň diňleýjiden daşlaşmagy bilen sesiň batlylygyny beýan edýän iki esse gymmatlyk. 0-dan 1-e çenli",
+      "info-avatarRolloffFactorInifinity": "Çeşmäniň diňleýjiden daşlaşmagy bilen sesiň batlylygyny beýan edýän iki esse gymmatlyk. 0-dan Inlislige",
+      "info-avatarRefDistance": "Sesiň batlylygyny azaltmak üçin referensiýa uzaklygyny görkezýän iki esse gymmatlyk.",
+      "info-avatarMaxDistance": "Ses çeşmesi bilen diňleýjiniň arasyndaky iň ýokary aralygy aňladýan ikilik baha. Şondan soň sesiň batlylygy indi azalanok.",
+      "info-mediaDistanceModel": "Audio rolloffy hasaplamaküçin ulanylýan algoritm.",
+      "info-mediaRolloffFactor": "Çeşmäniň diňleýjiden daşlaşmagy bilen sesiň batlylygyny beýan edýän iki esse gymmatlyk. 0-dan 1-e çenli",
+      "info-mediaRolloffFactorInfinity": "Çeşmäniň diňleýjiden daşlaşmagy bilen sesiň batlylygyny beýan edýän iki esse gymmatlyk. 0-dan Inlislige",
+      "info-mediaRefDistance": "Sesiň batlylygyny azaltmak üçin referensiýa uzaklygyny görkezýän iki esse gymmatlyk.",
+      "info-mediaMaxDistance": "Ses çeşmesi bilen diňleýjiniň arasyndaky iň ýokary aralygy aňladýan ikilik baha. Şondan soň sesiň batlylygy indi azalanok.",
+      "info-mediaConeInnerAngle": "Içinde sesiň azalmajak koniniň burçyny, belli bir derejede beýan edýän ikiýüzli gymmatlyk.",
+      "info-mediaConeOuterAngle": "Konýanyň burçyny, belli bir derejede beýan edýän ikiýüzli gymmatlyk, onuň daşynda sesiň dyngysyz bahasy bilen azaldylýar, bu bolsa coneOuterGain häsiýetleri bilen kesgitlenilýär.",
+      "info-mediaConeOuterGain": "coneOuterAngle atributy bilen kesgitlenen kondansdan daşary sesiň azalmagyny beýan edýän ikilik baha. Onuň öňünden bellenen bahasy 0, ýagny hiç hili ses eşidilmeýär.",
+      "lbl-simpleMaterials": "Ýönekeý materiallary ulanyň",
+      "lbl-lods": "LODlar",
+      "info-lods": "Jikme-jiklikleriň derejesiniň üýtgän uzaklygyny kesgitleýär.",
+      "info-simpleMaterials": "Ähli gymmat bahaly materiallary ýönekeý materiallara öwrüp, ýüküni sahnadan çykarýar.",
+      "lbl-rendererSettings": "Renderleriň sazlamalaryny ýatyr",
+      "lbl-csm": "Kaskyň kölegesiz kartalar",
+      "info-csm": "Kölegesiz kartalary mümkin edýär.",
+      "lbl-toneMapping": "Äheň Kartalamak",
+      "info-toneMapping": "Ol ýeriň üstünde äheň depderçesini çyzmaga mümkinçilik berýär. Post işleniş mümkin bolanda hiç hili netije bermeýär.",
+      "lbl-toneMappingExposure": "Äheň KartaSy Ekspozisiýasy",
+      "info-toneMappingExposure": "Ol ýeriň terjimesinde äheňiň kartasynyň ekspozisiýasyny takyklaýar. Post işleniş mümkin bolanda hiç hili netije bermeýär.",
+      "lbl-shadowMapType": "Köňlüň KartaSy",
+      "info-shadowMapType": "Kölegesiz kartanyň görnüşi",
+      "error-url": "URL-dan ýüklemekde hata boldy"
+    },
+    "sceneCamera": {
+      "name": "SahnaNyň Preview Kamerasy",
+      "description": "Kamera siziň sahnaňyz üçin başam barmaklaryny we preview kamerasynyň başlangyç pozisiýasyny emele getirmek üçin ulanylýardy.",
+      "lbl-setFromViewPort": "Görniş pursatyndan kesgitle"
+    },
+    "skybox": {
+      "name": "Skiboks",
+      "description": "",
+      "lbl-timeOfDay": "Günüň wagty",
+      "lbl-color": "Renk",
+      "lbl-latitude": "Giňlik",
+      "lbl-luminance": "Nur sazlamak",
+      "lbl-scattering": "Dyrýan mukdar",
+      "lbl-scatteringDistance": "Dagara aralyk",
+      "lbl-horizonStart": "Gaýd Etmek",
+      "lbl-horizonEnd": "Gaýşy Zol",
+      "lbl-texture": "Dokma",
+      "lbl-skyType": "Gök asman görnüşi",
+      "error-url": "URL-dan ýüklemekde hata boldy"
+    },
+    "spawnPoint": {
+      "name": "Gögeren nokat",
+      "description": "Adamlar siziň sahnaňyza girenlerinde peýda bolarlar.\nViewportdaky simwol awataryň hakyky ululygyny aňladýar."
+    },
+    "spotLight": {
+      "description": "Ugruň ugrunda çykarýan, konýanyň içindäki obýektleri ýagtyldýan yşyk.",
+      "lbl-color": "Renk",
+      "lbl-intensity": "Güýç",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Gaýd Etmek",
+      "lbl-range": "Aralyk",
+      "lbl-decay": "Çüýrük"
+    },
+    "transform": {
+      "title": "Ewez Etmek",
+      "lbl-postition": "Pozisiw",
+      "lbl-rotation": "Aýlanma",
+      "lbl-scale": "Ölçeg"
+    },
+    "triggereVolume": {
+      "description": "Nyşana obýektine girilip gidilmekde bir emläk belleýär.",
+      "lbl-target": "Zat",
+      "lbl-onenter": "Giriň",
+      "lbl-onexit": "Çykdaýjy",
+      "lbl-showHelper": "Kömekçi Mesjidi Görkez",
+      "ph-errorNode": "\"%s\" faýly ýüklenmäni ýalňyşdyrdy.",
+      "ph-selectNode": "Saýla"
+    },
+    "video": {
+      "name": "Wideo",
+      "description": "Wideony dinamiki ýükleýär.",
+      "lbl-video": "Wideo",
+      "lbl-projection": "Prowaýon",
+      "lbl-islivestream": "Janly Akym",
+      "lbl-interactable": "Ara alyp maslahatlaşylýan",
+      "lbl-id": "Elementler",
+      "lbl-play": "Oýna",
+      "lbl-pause": "Säginme",
+      "error-url": "URL-dan ýüklemekde hata boldy"
+    },
+    "volumetric": {
+      "name": "Volumetric",
+      "description": "Sesi güýçlendirýän wideodinamiki ýükleýär.",
+      "uvolPaths": "UVOL Ýollar",
+      "playmode": "Çöňňe",
+      "playtitle": "Oýna",
+      "pausetitle": "Säginme"
+    },
+    "spline": {
+      "description": "Egrileri dinamiki ýagdaýda dörediň we olara aýratynlykda eýeriň.",
+      "lbl-addNode": "Egrisine noýbany goşuň."
+    },
+    "systemnode": {
+      "description": "Skript birikdirmek.",
+      "lbl-filePath": "Gaýd",
+      "lbl-systemUpdateType": "Inwentar nokady",
+      "lbl-enableClient": "Mazlät",
+      "lbl-enableServer": "Serwer",
+      "lbl-args": "Arglar",
+      "error-url": "Url'den Senary Ýüklemekde Hata Böl"
+    },
+    "portal": {
+      "lbl-portal": "Baglanyşly Portal",
+      "lbl-redirect": "Sahypa Nyrhasyny Ulan",
+      "description": "Oýunçylara belli bir ýere teleport etmek üçin Portat",
+      "lbl-locationName": "Paýtagt",
+      "lbl-modelUrl": "Model URL",
+      "lbl-displayText": "Metin Faýllary Görkez",
+      "lbl-cubemapBake": "Kebemap çörek",
+      "lbl-spawnPosition": "Döreýän pozisiýa",
+      "lbl-spawnRotation": "Spawn aýlawy",
+      "lbl-triggerPosition": "Syýaw Ýerleşiş",
+      "lbl-triggerRotation": "Taým-aýlaw",
+      "lbl-triggerScale": "Tegňe Ölçeg"
+    },
+    "postprocessing": {
+      "name": "Post Işlemek",
+      "description": "Post Processing effektlerini size sahnada ulanmak üçin."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Täze proýekt",
+      "backLink": "Taslamalara dolan",
+      "featured": "Görkezilen",
+      "all": "Ehlisi",
+      "newProject": "Täze Boş Proýekt",
+      "ph-search": "Gözleg sahnalary..."
+    },
+    "grid": {
+      "loading": "%s ýüklenýär..."
+    },
+    "page": {
+      "header": "Hoş geldiňiz",
+      "headerMsg": "Eger siz bu ýerde ýaňy gelen bolsaňyz, biz okuwdan geçmegi maslahat berýäris. Ýogsa göni içeri böküň we gaşyndan ýa-da şablonlarymyzyň birinden proýekt dörediň.",
+      "lbl-startTutorial": "Sazlama",
+      "projects": "Taslamalar",
+      "lbl-newProject": "Täze proýekt"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "%s ýüklenýär...",
+      "placeObject": "Baglanşyk",
+      "placeObjectAtOrigin": "Obýekti Originada Ýerleşdir",
+      "copyURL": "URL-ni nusgala",
+      "openInNewTab": "Täze Äpişgä AÇ",
+      "deleteAsset": "Emlägi Sil"
+    },
+    "filebrowser": {
+      "addNewFolder": "Täze Halta Ekle",
+      "cutAsset": "Kes",
+      "copyAsset": "Nusgala",
+      "pasteAsset": "Ýygşyr",
+      "renameAsset": "Adyny Ewez Ed",
+      "viewAssetProperties": "Häsiýetler"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Adyny Ewez Ed",
+    "lbl-duplicate": "Gaýtala",
+    "lbl-group": "Topar",
+    "lbl-delete": "Sil",
+    "lbl-expandAll": "Ehlini Giňelt",
+    "lbl-collapseAll": "Ehlini Ýyk",
+    "isseus": "Meseleler:"
+  },
+  "dnd": {
+    "nodes": "{{count}} Äpişgäni Saýla",
+    "models": "{{count}} Modeller",
+    "images": "{{count}} Resimler Saýlanan",
+    "videos": "{{count}} wideolary saýlaň",
+    "audio": "{{count}} Audio Sources Saýlanan"
+  },
+  "dialog": {
+    "title": "Editçi",
+    "lbl-confirm": "Bor",
+    "lbl-cancel": "Ýatyrmak",
+    "exportProject": {
+      "title": "Eksport taslamasy",
+      "lbl-confirm": "Eksport taslamasy",
+      "lbl-combineMesh": "Mesgeleri birleşdir",
+      "lbl-removeUnused": "Ulanylmaýan zady çykar"
+    },
+    "performance": {
+      "title": "Ýerine ýetirijilik barlagy",
+      "lbl-confirm": "Sahnany çap",
+      "learnMore": "Kän öwrenmek",
+      "lbl-polycount": "Köpugurly kont",
+      "lbl-material": "Materiallar",
+      "lbl-texture": "Dokumetler",
+      "lbl-lights": "Ýagtylyklar",
+      "lbl-fileSize": "Faýl Ululyky",
+      "info-polycount": "Mobil enjamlar üçin 50 müňden köp üçburçlugy ulanmaýan sahnaňyzy maslahat berýäris.",
+      "info-material": "Mobil enjamlarda çekeleşikleri azaltmak üçin sahnaňyzda 25-den köp özboluşly materiallary ulanmagy maslahat berýäris.",
+      "info-texture": "Mobil enjamlar üçin 256MB-dan köp bolmadyk wideo RAM ulanmagy maslahat berýäris. Şeýle hem 2048 x 2048-den uly bolan tekstilleri ulanmany maslahat berýäris.",
+      "info-lights": "Mobil enjamlarda dinamiki çyralaryň kömegi berilmedik bolsa-da, pes uçly kompýuterlerde hereket etmek üçin sahnaňyzda 3-den köp çyrany (daş-töweregiňizdäki we ýarym adanyň çyralaryny göz öňünde tutman) ulanmagy maslahat berýäris.",
+      "info-fileSize": "Düşewüntli bant giňlikli baglanşyklar üçin 16MB-dan köp bolmadyk ahyrky faýl ululyklaryny maslahat berýäris. Faýl ululygy azaltmak sahnaňyzy ýüklemek üçin gerekli wagty azaltar.",
+      "txt-polycount": "{{count}} üçburçluklar",
+      "txt-material": "{{count}} Materiallar",
+      "txt-ram": "~{{count}} wideo RAM",
+      "txt-texture": "{{count}} Uly Degişmeler",
+      "txt-lights": "{{count}} Nurlar"
+    },
+    "progress": {
+      "title": "%s ýüklenýär...",
+      "msg": "%s ýüklenýär...",
+      "lbl-cancel": "Ýatyrmak"
+    },
+    "publish": {
+      "title": "Sahnany çap",
+      "lbl-confirm": "Gaýd et we Neşir Et",
+      "lbl-name": "Sahna Ady",
+      "info-name": "At 4-64 belgi bolmaly we aşagy saklap bilmeýär"
+    },
+    "published": {
+      "title": "Sahna neşir edildi",
+      "header": "Siziň sahnaňyz çap edildi.",
+      "lbl-view": "Sahnany gör"
+    },
+    "saveNewProject": {
+      "title": "Ýardam",
+      "lbl-name": "Proýekt ady",
+      "info-name": "At 4-64 belgi bolmaly we aşagy saklap bilmeýär",
+      "lbl-confirm": "Proýekti Gaýd Et"
+    },
+    "support": {
+      "title": "Ýardam",
+      "header": "Bir kynçylyk barada hasabat bermelimi?",
+      "msg": "<1>Siz GitHub meselesini</1> dolduryp ýa-da goldaw üçin bize e-mail <3> ugradyp bilersiňiz{{mail}}</3>",
+      "discord": "Bizi <1>agzalalykda</1> hem tapyp bilersiňiz"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Bing Resimler",
+      "search": "Bing tarapyndan gözleg"
+    },
+    "bingVideo": {
+      "name": "Bing Wideolary",
+      "search": "Bing tarapyndan gözleg"
+    },
+    "element": {
+      "name": "Elementler"
+    },
+    "myAssets": {
+      "name": "Emlägim"
+    },
+    "googlePoly": {
+      "name": "Google Poli",
+      "search": "Google tarapyndan gözleg"
+    },
+    "tenor": {
+      "name": "Tenor GIP-lar",
+      "search": "Tenor tarapyndan gözleg",
+      "ph-search": "GIP-leri Gözle..."
+    },
+    "sketchfab": {
+      "name": "Sketçfab",
+      "search": "Sketçfab yň gözlegi"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Emlägi Ýükle"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Resimleri gözle..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Wideolary gözle..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Emlägi agtar..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Gözleg modelleri..."
+    },
+    "useUpload": {
+      "multipleFileError": "Giriş birnäçe faýly kabul etmeýär.",
+      "mineTypeError": "\"{{name}}\" aşakdaky mime görnüşlere ýa-da giňeltmelere gabat gelmeýär: {{types}}",
+      "progressTitle": "Faýlýükleme",
+      "progressMsg": "Faýllary {{total}}{{uploaded}} ýüklemek : {{percentage}}%",
+      "uploadError": "Ýükleme hatasy",
+      "uploadErrorMsg": "Faýl ýüklemekde hata boldy: {{message}}",
+      "uploadErrorDefaultMsg": "Näbelli hata boldy"
+    }
+  },
+  "openLink": {
+    "description": "Baglaýyşa gitmek üçin Aç-a basmagyňyzy haýyş edýäris.",
+    "lbl-open": "Aç"
+  },
+  "interactableModel": {
+    "lbl-buy": "Satyn almak",
+    "lbl-learnMore": "Kän öwrenmek"
+  },
+  "corsProxyButton": {
+    "tooltip": "Cors Proxy Server-i ulanyň"
+  }
+}

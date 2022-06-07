@@ -1,0 +1,718 @@
+{
+  "loading": "قاچىلاش قۇرۇلۇشى",
+  "loadingMsg": "قاچىلاش تۈرى...",
+  "loadingError": "قاچىلاش تۈرىدە خاتالىق كۆرۈلدى",
+  "loadingErrorMsg": "تۈر قاچىلىغاندا خاتالىق كۆرۈلدى.",
+  "selectSceneMsg": "كۆرۈنۈشنى تاللاپ ماتور بىلەن ئويناشنى باشلاڭ",
+  "error": "خاتالىق",
+  "errorMsg": "نامەلۇم خاتالىق كۆرۈلدى.",
+  "generateScreenshot": "تۈر ئىكرانىنى ھاسىل قىلىش",
+  "generateScreenshotMsg": "تۈر ئىكرانىنى ھاسىل قىلىش...",
+  "newScene": "كۆرۈنۈش يارىتىش",
+  "saving": "تېجەش قۇرۇلۇشى",
+  "savingMsg": "ساقلاۋاتىدۇ تۈر...",
+  "savingError": "خاتالىقنى ساقلاش تۈرى",
+  "savingErrorMsg": "تۈرنى ساقلىغاندا خاتالىق كۆرۈلدى.",
+  "savingSceneErrorMsg": "نەق مەيداننى مۇۋاپىق قاچىلىغىلى بولمايدۇ. نەق مەيداننى قايتا قاچىلاشنى سىناپ بېقىڭ.",
+  "duplicating": "كۆپەيتىش قۇرۇلۇشى",
+  "duplicatingMsg": "كۆپەيتىش قۇرۇلۇشى...",
+  "exporting": "ئېكسپورت قىلىش قۇرۇلۇشى",
+  "exportingMsg": "ئېكسپورت تۈرى...",
+  "exportingError": "خاتالىقنى ئېكسپورت قىلىش تۈرى",
+  "exportingErrorMsg": "تۈرنى ئېكسپورت قىلغاندا خاتالىق كۆرۈلدى.",
+  "importLegacy": "مىراس دۇنيا ئىمپورت قىلىش",
+  "importLegacyMsg": "دىققەت! بۇ سىزنىڭ ھازىرقى مەنزىرىلىرىڭىزنى بېسىپ چۈشىدۇ! سىز داۋاملاشتۇرۇشنى خالامسىز؟",
+  "publishingError": "خاتالىق ئېلان قىلىش تۈرى",
+  "publishingErrorMsg": "نامەلۇم خاتالىق كۆرۈلدى.",
+  "publishingScene": "نەشرىيات نەق مەيدانى",
+  "publishingSceneMsg": "نەشرىيات نەق مەيدان...",
+  "uploadingThumbnailMsg": "نادىر سۈرەت يوللىنىۋاتىدۇ...",
+  "uploadingSceneMsg": "يوللانغان نەق مەيدان: {{percentage}}٪",
+  "envMapError": "cubemap رەسىملىرىنى قاچىلاش خاتالىقى {{files}}",
+  "lbl-return": "قايتىش",
+  "menubar": {
+    "newScene": "يېڭى كۆرۈنۈش",
+    "saveScene": "نەق مەيداننى ساقلاش",
+    "saveAs": "As نى ساقلاش",
+    "importAsset": "ئىمپورت مۈلۈك",
+    "exportGLB": "ئىككىلىك glTF (.glb) دەپ ئېكىسپورت قىلىش ...",
+    "importScene": "ئىمپورت نەق مەيدان",
+    "exportScene": "ئېكسپورت نەق مەيدانى",
+    "quit": "چېكىنىش"
+  },
+  "errors": {
+    "fileTypeNotSupported": "ھۆججەت ئۈچۈن قوللىمايدىغان ھۆججەت تۈرى: \"{{name}}\". ھۆججەت چوقۇم رەسىم، سىن ياكى glb مودېلى بولۇشى كېرەك.",
+    "addObject": "addObject: لايىق تېپىلماسلىقتىن بۇرۇن",
+    "removeObject": "removeObject: تۈگۈن تېپىلمىدى. بۇنىڭ سەۋەبى ئەمدى نەق مەيداندا يوق تۈگۈننى ئېلىۋېتىشتىن كېلىپ چىققان.",
+    "noParent": "{{node}} «{{name}}» نىڭ ئاتا-ئانىسى يوق تەۋبە قىلىش پەقەت نۆۋەتتە مەيدانغا كەلگەن جىسىملار ئۈستىدە خىزمەت قىلىدۇ.",
+    "undefinedParent": "editor.reparent: newParent ئېنىق ئەمەس",
+    "notAuthenticated": "دەلىللەنمىگەن",
+    "fetchingProjectError": "تۈرلەرنى ئېلىش خاتالىقى: {{error}}",
+    "fetchingRouteError": "يول ئېلىشتىكى خاتالىق: {{error}}",
+    "unknownError": "نامەلۇم خاتالىق",
+    "resolveURL": "url \"{{url}}\" نى ھەل قىلىش خاتالىقى :",
+    "mediaSearchAborted": "مېدىيا ئىزدەش توختىدى",
+    "methodNotImplemented": "ئۇسۇل يولغا قويۇلمىغان.",
+    "saveProjectAborted": "نەق مەيداننى ساقلاش توختىدى",
+    "unsavedChanges": "تىنىپ بولالمىغان ئۆزگىرىشلەر",
+    "unsavedChangesMsg": "نەق مەيدان ئۆزگەرتىلدى. پارچە-پارچە پۇللىرىڭىزنى ساقلاپ قويۇڭ.",
+    "projectCreationFail": "تۈر قۇرۇش مەغلۇپ بولدى. {{reason}}",
+    "projectDeletionFail": "تۈر ئۆچۈرۈش مەغلۇپ بولدى. {{reason}}",
+    "savingProjectFail": "ساقلاش تۈرى مەغلۇپ بولدى. {{reason}}",
+    "sceneTooLarge": "كۆرۈنۈش بەك چوڭ ({{size}} MB ) ئېلان قىلىنمايدۇ. ئەڭ چوڭ ئۆلچىمى {{maxSize}} MB.",
+    "sceneCreationFail": "نەق مەيدان ئىجادىيىتى مەغلۇپ بولدى. {{reason}}",
+    "uploadAborted": "توختىتىپ يۈكلەش",
+    "uploadFailed": "يۈكلەش مەغلۇپ بولدى {{reason}}",
+    "assetDeletionFail": "مۈلۈك ئۆچۈرۈش مەغلۇپ بولدى. {{reason}}",
+    "projectAssetDeletionFail": "تۈر مۈلۈك ئۆچۈرۈش مەغلۇپ بولدى. {{reason}}",
+    "networkError": "تور خاتالىقى: {{status}}. {{text}}",
+    "unknownStatus": "نامەلۇم ھالەت",
+    "CORS": "CORS خاتالىقى بولۇشى مۇمكىن",
+    "urlFetchError": "«{{url}}» ئېلىش مەغلۇپ بولدى"
+  },
+  "viewport": {
+    "title": "كۆرۈش ۋىكىپېدىيا",
+    "command": {
+      "movecamera": "كامېرا يۆتكەش",
+      "flyFast": "تېخىمۇ تېز ئۇچۇش",
+      "orbit": "ئوربىتا / تاللاش",
+      "pan": "پەن",
+      "fly": "ئۇچار",
+      "focus": "قىزىق نۇقتا",
+      "rotateLeft": "سولغا ئايلانما",
+      "rotateRight": "ئوڭغا بۇرۇ",
+      "cancelPlacement": "ئورۇننى بىكار قىلىش",
+      "placeDuplicate": "تەكرارلاشنى ئورۇنلاش",
+      "cancelGrab": "Grab نى بىكار قىلىش",
+      "grab": "تۇتۇش",
+      "deselectAll": "ھەممىنى دېسكىدىن ئۆچ"
+    },
+    "state": {
+      "header": "ستاتىستىكا",
+      "memory": "ئىچكى ساقلىغۇچ",
+      "geometries": "گېئومېتىرىيە",
+      "textures": "توقۇلمىلار",
+      "render": "Render",
+      "FPS": "FPS",
+      "frameTime": "رامكا ۋاقتى",
+      "calls": "چاقىرىشلار",
+      "triangles": "ئۈچ بۇرجەك",
+      "points": "نومۇرلار",
+      "lines": "قۇرلار"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "ئېلان قىلىش",
+    "lbl-published": "نەشىر قىلىنغان ۋاقتى",
+    "command": {
+      "translate": "تەرجىمە قىل",
+      "rotate": "نۆۋەتتە",
+      "scale": "كۆلەم",
+      "toggleSpace": "شەكىل ئۆزگەرتىش بوشلۇقى",
+      "togglePivot": "Toggle Transform Pivot",
+      "toggleSnapMode": "تېز سۈرەتكە تارتىش ھالىتى",
+      "toggleGrid": "توك تورىنى كۆرۈشنى تېزلىتۈش",
+      "increaseGridSize": "تور چوڭلۇقىنى چوڭايتىش",
+      "descreaseGridSize": "Grid چوڭلۇقىنى كىچىكلىت",
+      "stopPreview": "كۆرۈش كۆرۈنۈشنى توختىتىش",
+      "playPreview": "ئالدىن كۆرۈش نەق مەيدانى"
+    }
+  },
+  "properties": {
+    "title": "خاسلىق",
+    "lbl-visible": "كۆرىۋىدى",
+    "lbl-preventBake": "· قاقلاپ پىشۇرۇشنىڭ ئالدىنى ئېلىش",
+    "lbl-persist": "داۋاملاشتۇر",
+    "multipleNodeSelected": "ئوخشاش بولمىغان تۈردىكى كۆپ تۈگۈن تاللاپ چىقىلدى",
+    "noNodeSelected": "تاللانغان تۈگۈن يوق",
+    "ambientLight": {
+      "name": "Ambient نۇر",
+      "description": "سىزنىڭ نەق مەيدانىڭىزدىكى بارلىق جىسىملارنى نۇرلاندۇرىدىغان نۇر",
+      "lbl-intensity": "سالمىقى",
+      "lbl-color": "رەڭ"
+    },
+    "envmap": {
+      "name": "مۇھىت خەرىتىسى",
+      "description": "مۇھىت خەرىتىسى خاسلىقلىرى"
+    },
+    "asset": {
+      "name": "مۈلۈك",
+      "description": "دىنامىكىلىق قاچىلاش ۋە قاچىلىغىلى بولىدىغان كۆرۈنۈش دېتاللىرى گۇرۇپپىسى",
+      "lbl-options": "تاللانمىلار",
+      "lbl-assetPath": "مۈلۈك يولى",
+      "lbl-assetName": "ئېكسپورت نامى",
+      "lbl-exportOptions": "ئېكسپورت تاللانمىلىرى",
+      "lbl-export": "ئېكسپورت مۈلكى",
+      "lbl-load": "كۆرۈنۈشكە يۈكلەش",
+      "lbl-unload": "چۈشۈرۈش",
+      "lbl-reload": "قايتا قاچىلاش"
+    },
+    "audio": {
+      "name": "ئۈن ـ سىن",
+      "description": "ئاۋازنى دىنامىكىلىق ھالدا يۈكلەيدۇ.",
+      "lbl-audiourl": "ئۈن ئادرىسى",
+      "lbl-controls": "كونترول قىلىش",
+      "info-controls": "ئاخبارات كونتروللۇقىنىڭ كۆرۈش دەرىجىسىنى تەڭشەش.",
+      "lbl-autoplay": "ئاپتوماتىك ئويناش",
+      "info-autoplay": "ئەگەر راست بولسا، تۇنجى قېتىم مەيدانغا كىرگەندە تاراتقۇلار ئويناپ قالىدۇ.",
+      "lbl-synchronize": "ماس قەدەمدە",
+      "info-synchronize": "ئەگەر راست بولسا، ئۇلانغان بارلىق خېرىدارلاردا تاراتقۇلار ماس قەدەمدە ماس قەدەمدە بولىدۇ.",
+      "lbl-loop": "دەۋرىيلىك",
+      "info-loop": "ئەگەر راست بولسا تاراتقۇلار مۇددەتسىز ئايلىنىدۇ.",
+      "lbl-audioType": "ئۈن تۈرى",
+      "lbl-distanceModel": "يىراق مۇساپىلىق مودېل",
+      "info-distanceModel": "algorithim نىڭ ئاۋاز چىقىرىۋىلىشنى ھېسابلاش ئۈچۈن ئىشلىتىلگەن.",
+      "lbl-rolloffFactor": "Rolloff Factor",
+      "info-rolloffFactor": "مەنبە ئاڭلىغۇچىدىن يىراقلىشىپ كەتكەندە ھەجىمىنىڭ قانچىلىك تېزلىكىنى تەسۋىرلىگەن قوش قىممەت. 0 تىن 1 گىچە",
+      "info-rfInfinity": "مەنبە ئاڭلىغۇچىدىن يىراقلىشىپ كەتكەندە ھەجىمىنىڭ قانچىلىك تېزلىكىنى تەسۋىرلىگەن قوش قىممەت. 0 - چەكسىزلىك",
+      "lbl-refDistance": "رېفېراندۇم ئارىلىقى",
+      "info-refDistance": "ئاۋاز مەنبەسى ئاڭلىغۇچىدىن يەنىمۇ يىراققا كۆچكەندە، ئاۋاز مىقدارىنى ئازايتىشنىڭ پايدىلىنىش ئارىلىقىغا ۋەكىللىك قىلىدىغان قوش قىممەت.",
+      "lbl-maxDistance": "Max Distance",
+      "info-maxDistance": "ئاۋاز مەنبەسى بىلەن تىڭشىغۇچى ئوتتۇرىسىدىكى ئەڭ چوڭ ئارىلىققا ۋەكىللىك قىلىدىغان قوش قىممەت، ئۇنىڭدىن كېيىن ئاۋاز مىقدارى يەنىمۇ تۆۋەنلەپ كەتمەيدۇ.",
+      "lbl-coneInnerAngle": "كونى ئىچكى بۇلۇڭى",
+      "info-coneInnerAngle": "بۇلۇڭنى تەسۋىرلەيدىغان قوش قىممەت، گىرادۇستا، ئىچىدىكى بىر كونىنىڭ ھەجىمىنى تۆۋەنلىتىش بولمايدۇ.",
+      "lbl-coneOuterAngle": "كونى سىرتقى بۇلۇڭ",
+      "info-coneOuterAngle": "بۇلۇڭنى تەسۋىرلەيدىغان قوش قىممەت، گرادۇس دەرىجىسىدە، سىرتىغا چىققان بىر كونىنىڭ ھەجىمىنى تۇراقلىق قىممەت بىلەن تۆۋەنلىتىپ، كونىOuterGain خاسلىقى بىلەن بېكىتىلگەن.",
+      "lbl-coreOuterGain": "كوللا سىرتقى ئېرىشىش",
+      "info-coreOuterGain": "كونەOuterAngle خاسلىقى بىلەن بېكىتىلگەن كونىلارنىڭ سىرتىدىكى ھەجىملىك ئازايتىش مىقدارىنى تەسۋىرلىگەن قوش قىممەت. ئۇنىڭ كۆڭۈلدىكى قىممىتى 0 بولۇپ، ھېچقانداق ئاۋازنى ئاڭلىغىلى بولمايدۇ دېگەن مەنىنى بىلدۈرىدۇ.",
+      "lbl-volume": "ئاۋاز چوڭلۇقى",
+      "lbl-play": "قويۇش",
+      "lbl-pause": "توختاش",
+      "error-url": "URLدىن يۈكلەش خاتالىقى"
+    },
+    "boxCollider": {
+      "description": "جىسىملار سەكرىگەن ياكى ئۈستىدە ئارام ئالىدىغان كۆرۈنمەس قاپ.\nسوقۇشتۇرغۇچى بولمىسا، جىسىملار پولدىن چۈشۈپ، تاملاردىن ئۆتىدۇ.",
+      "lbl-isTrigger": "قوزغاتقۇچ"
+    },
+    "camera": {
+      "name": "كامېرا",
+      "description": "كامېرا تەڭشەكلىرى.",
+      "lbl-camera-raycast": "فوتو ئاپپارات Raycasting",
+      "lbl-camera-raycast-toggle": "قوزغىتىش",
+      "lbl-camera-raycast-frequency": "چاستوتىسى",
+      "lbl-camera-raycast-count": "Ray Count",
+      "lbl-camera-raycast-length": "Ray ئۇزۇنلۇقى"
+    },
+    "directionalLight": {
+      "name": "يۆنىلىشلىك نۇر",
+      "description": "پۈتۈن كۆرۈنۈشنى يورۇتىدىغان، ئەمما بىر يۆنىلىشنى بويلاپ تارقىتىدىغان نۇر.",
+      "lbl-color": "رەڭ",
+      "lbl-intensity": "سالمىقى",
+      "lbl-cameraFar": "كامېرا Far",
+      "lbl-cameraNear": "كامېرا يېنىدىكى فوتو ئاپپارات",
+      "lbl-cameraTop": "كامېرا چوققىسى",
+      "lbl-cameraBottom": "كامېرا ئاستى",
+      "lbl-cameraLeft": "كامېرا سول تەرەپ",
+      "lbl-cameraRight": "كامېرا ئوڭ",
+      "lbl-useInCSM": "CSM دا ئىشلىتىش",
+      "lbl-castShadow": "قۇيۇش سايىسى",
+      "lbl-disableForCSM": "كاسكادې سايى خەرىتىسى ئىقتىدارى قوشۇلغانلىقى ئۈچۈن چەكلەنگەن.",
+      "lbl-shadowmapResolution": "سايە خەرىتىسى ھەل قىلىش",
+      "lbl-shadowBias": "سايە بىر تەرەپلىمە",
+      "lbl-shadowRadius": "سايە رادىئۇسى",
+      "lbl-showCameraHelper": "كامېرا ياردەمچىسىنى كۆرسىتىش"
+    },
+    "groundPlane": {
+      "name": "يەر يۈزى ئايروپىلانى",
+      "description": "يىراققا سوزۇلغان تۈز يەر يۈزى ئايروپىلانى",
+      "lbl-color": "رەڭ",
+      "lbl-receiveShadow": "سايىنى قوبۇل قىلىش",
+      "lbl-generateNavmesh": "Navmesh ھاسىللاش"
+    },
+    "link": {
+      "description": "ياتاق ياكى تور بەت ئۇلىنىش قىلىش",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "مەسىلەن: بىر شەھەرنىڭ 3D گېئوسپىيەلىك خەرىتىسى"
+    },
+    "model": {
+      "description": "سىزنىڭ نەق مەيدانىڭىزدىكى 3D مودېل، GLTF URL ياكى ھۆججەتتىن قاچىلانغان.",
+      "lbl-usingGPUInstancingFlag": "GPU Instancing نى ئىشلىتىش",
+      "lbl-modelurl": "مودېل ئادرېسى",
+      "lbl-envmapUrl": "مۇھىت خەرىتىسى ئادرىسى",
+      "lbl-textureOverride": "Texture نى چەكتىن ئاشۇرۇپ كېسىش",
+      "lbl-materialOverride": "ماتېرىيال ئېشىپ كېتىش",
+      "error-url": "URLدىن يۈكلەش خاتالىقى",
+      "lbl-loopAnimation": "لوپ كارتونى",
+      "lbl-isAvatar": "باش سۈرەت",
+      "lbl-isGPUInstancing": "GPU Instancing نى ئىشلىتىۋاتىدۇ",
+      "lbl-isDynamic": "دىنامىكىلىق",
+      "lbl-castShadow": "قۇيۇش سايىسى",
+      "lbl-receiveShadow": "سايىنى قوبۇل قىلىش",
+      "lbl-interactable": "تەسىرلىنىشچان",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "ئىسىم-فامىلىسى",
+      "lbl-url": "مودېل ئادرېسى",
+      "lbl-buy": "Url نى سېتىۋېلىش",
+      "lbl-learnMore": "تېخىمۇ كۆپ تور ئادرېسىنى بىلىۋېلىڭ",
+      "lbl-htmlContent": "Html مەزمۇنى",
+      "lbl-interactionText": "ئۆز-ئارا تەسىر كۆرسىتىش تېكىستى",
+      "lbl-interactionType": "تەسىرلىشىش تىپى"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "ماتېرىيال",
+      "error-materialID": "ماتېرىيال تېپىش خاتالىقى",
+      "placeholder-materialID": "ماتېرىيال تاللاش",
+      "lbl-patternTarget": "اۋا رايى سەرەڭگەسى",
+      "lbl-pattern": "اۋا رايى",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "تەسىرلىشىش تىپى",
+      "text": "ئۆز-ئارا تەسىر كۆرسىتىش تېكىستى",
+      "distance": "تەسىرلىشىش ئارىلىقى",
+      "theme": "ئۆز-ئارا تەسىر قىلىش ئۇسلۇبى",
+      "name": "ئۆز-ئارا تەسىرلىشىدىغان ئىسىم",
+      "description": "ئۆز-ئارا تەسىر چۈشەندۈرۈش",
+      "images": "تەسىرلىك سۈرەتلەر",
+      "videos": "ئۆز-ئارا تەسىر كۆرسىتىش سىنلىرى",
+      "urls": "ئۆز-ئارا تەسىر كۆرسىتىش ئادرىسى",
+      "models": "ئۆز-ئارا تەسىر كۆرسىتىش ئەندىزىسى"
+    },
+    "group": {
+      "name": "گۇرۇپپا",
+      "description": "بىللە كۆچۈرگىلى ياكى كۆپەيتكىلى بولىدىغان كۆپ خىل جىسىملار توپى.\nئېھتىياج ئىچىدىكى جىسىملارنى توپقا سۆرەش ۋە تاشلاش."
+    },
+    "hemisphere": {
+      "name": "يېرىم شار يورۇقلۇقى",
+      "description": "بىۋاسىتە ئۈستى تەرەپتىن نەق مەيداننى يورۇتىدىغان نۇر.",
+      "lbl-skyColor": "ئاسمان رەڭ",
+      "lbl-groundColor": "يەر يۈزى رەڭ",
+      "lbl-intensity": "سالمىقى"
+    },
+    "image": {
+      "name": "رەسىم",
+      "description": "بىر سۈرەتنى دىنامىكىلىق قاچىلاش.",
+      "lbl-imgURL": "رەسىم ئادرېسى",
+      "lbl-transparency": "سۈزۈكلۈك ئەندىزىسى",
+      "lbl-alphaCutoff": "ئالپ تورى - aliptori.com",
+      "lbl-projection": "پرويېكسىيە",
+      "lbl-side": "يان",
+      "info-controls": "ئاخبارات كونتروللۇقىنىڭ كۆرۈش دەرىجىسىنى تەڭشەش.",
+      "info-transparency": "سۈزۈكلۈكنى قانداق قوللىنىش كېرەك:",
+      "info-opaque": "'opaque' = سۈزۈكلۈك يوق",
+      "info-blend": "'blend' = رەسىملەرنى ئېلىپبە قانىلىنى ئىشلىتىڭ",
+      "info-mask": "'نىقابلاش' = قوزغىتىش/ئۈزۈش سۈزۈكلۈكى ئۈچۈن بەلگىلەنگەن ئۈزۈش قىممىتىنى ئىشلىتىش (تېخىمۇ كۆپ ئورۇنلاش)",
+      "info-alphaCutoff": "بۇنىڭدىن تۆۋەن ئالپ قىممەتكە ئىگە پىكسېللار سۈزۈك بولىدۇ",
+      "error-url": "ئىناۋەتسىز URL"
+    },
+    "name": {
+      "lbl-name": "ئىسىم-فامىلىسى"
+    },
+    "partileEmitter": {
+      "description": "زەررىچە تارقاتقۇچى زەررىچىلەرنى پەيدا قىلىدۇ.",
+      "lbl-particleCount": "زەررىچە سانى",
+      "lbl-image": "رەسىم",
+      "lbl-ageRandomness": "ياشنىڭ تاسادىپىيلىقى",
+      "lbl-lifetime": "ئۆمۈر بويى",
+      "lbl-lifetimeRandomness": "ئۆمۈرلۈك تاسادىپىيلىق",
+      "lbl-sizeCurve": "چوڭلۇقى ئەگرى سىزىقى",
+      "lbl-startPSize": "زەررىچە چوڭلۇقىنى باشلاش",
+      "lbl-endPSize": "زەررىچە چوڭلۇقىنى ئاخىرلاشتۇرۇش",
+      "lbl-sizeRandomness": "چوڭ-كىچىكلىكى خالىغانچە",
+      "lbl-colorCurve": "رەڭ ئەگمىسى",
+      "lbl-startColor": "باش رەڭ",
+      "lbl-startOpacity": "Opacity نى باشلاش",
+      "lbl-middleColor": "ئوتتۇرا رەڭ",
+      "lbl-middleOpacity": "ئوتتۇرا ئوپاللىق",
+      "lbl-endColor": "ئاخىرقى رەڭ",
+      "lbl-endOpacity": "ئوپاللىقنى ئاخىرلاشتۇرۇش",
+      "lbl-velocityCurve": "شىددەت بىلەن ئەگرى - بۈگرى",
+      "lbl-startVelocity": "تېزلىكنى باشلاش",
+      "lbl-endVelocity": "شىددەت بىلەن ئاخىرلىشىش",
+      "lbl-angularVelocity": "ئانگولا شىددەت بىلەن",
+      "info-ageRandomness": "زەررىچىلەر پەيدا بولغان ۋاقىت ئارىسىدىكى ئۆز ئارا ئۆز ئارا پەرق مىقدارى.",
+      "info-lifetime": "بىر زەررىچىنىڭ قايتا پەيدا بولۇشتىن بۇرۇنقى ئەڭ چوڭ يېشى",
+      "info-lifetimeRandomness": "زەررىچە ئۆمرىنىڭ ئۆزگىرەش مىقدارى",
+      "info-sizeRandomness": "زەررىچە باشلىنىش چوڭلۇقىدىكى ئۆزگىچىلىكنىڭ مىقدارى.",
+      "error-url": "URLدىن يۈكلەش خاتالىقى"
+    },
+    "clouds": {
+      "name": "بۇلۇت",
+      "description": "سىپىت ئاساسىدىكى بۇلۇت ھەجىمى .",
+      "lbl-image": "Sprite Image",
+      "lbl-wroldScale": "دۇنيا كۆلىمى",
+      "lbl-dimensions": "ئۆلچەملەر",
+      "lbl-noiseZoom": "شاۋقۇننى چوڭايت",
+      "lbl-noiseOffset": "شاۋقۇن چەمبىق",
+      "lbl-spriteScale": "سىپىل تارازىسى",
+      "lbl-fogColor": "تۇمان رەڭگى",
+      "lbl-fogRange": "تۇمان دائىرىسى",
+      "error-url": "URLدىن يۈكلەش خاتالىقى"
+    },
+    "ocean": {
+      "name": "ئوكيان",
+      "description": "دولقۇن ۋە كۆپۈك بىلەن دېڭىز يۈزى",
+      "lbl-normalMap": "نورمال خەرىتە",
+      "lbl-distortionMap": "بۇرمىلاش خەرىتىسى",
+      "lbl-envMap": "مۇھىت خەرىتىسى",
+      "lbl-color": "رەڭ",
+      "lbl-shallowWaterColor": "تېيىز سۇ رەڭ",
+      "lbl-shallowToDeepDistance": "تېيىزدىن چوڭقۇر ئارىلىققا",
+      "lbl-opacityFadeDistance": "ئوپاللىق (Opacity Fade Distance)",
+      "lbl-opacityRange": "ئوپاللىق دائىرىسى",
+      "lbl-shininess": "شىنىلىق (شېۋىلەر)",
+      "lbl-reflectivity": "ئەكس ئەتتۈرۈش",
+      "lbl-foamColor": "كۆپۈك رەڭ",
+      "lbl-foamSpeed": "كۆپۈكچە سۈرئەت",
+      "lbl-foamTiling": "كۆپۈكچە Tiling",
+      "lbl-bigWaveTiling": "چوڭ دولقۇن Tiling",
+      "lbl-bigWaveSpeed": "چوڭ دولقۇن سۈرئىتى",
+      "lbl-bigWaveHeight": "چوڭ دولقۇن ئېگىزلىكى",
+      "lbl-waveSpeed": "دولقۇنلۇق سۈرئەت",
+      "lbl-waveScale": "دولقۇن تارازىسى",
+      "lbl-waveTiling": "دولقۇن Tiling",
+      "lbl-waveDistortionSpeed": "دولقۇن بۇرمىلاش سۈرئىتى",
+      "lbl-waveDistortionTiling": "دولقۇن بۇرمىلاش Tiling",
+      "error-url": "URLدىن يۈكلەش خاتالىقى"
+    },
+    "water": {
+      "name": "سۇ",
+      "description": "كىچىك سۇ يۈزى"
+    },
+    "interior": {
+      "name": "ئىچكى بېزەك",
+      "description": "ئىچكى مۇھىتقا تەقلىد قىلىدىغان تەقلىدىي كۇب توقۇلمىسى بار بىر سۇ يۈزى",
+      "lbl-cubeMap": "كۇپ خەرىتىسى توقۇلما",
+      "lbl-tiling": "قىيما مىقدارى",
+      "lbl-size": "سىرتقى يۈزىنىڭ چوڭلۇقى",
+      "error-url": "URLدىن يۈكلەش خاتالىقى"
+    },
+    "pointLight": {
+      "description": "بىر نۇقتىدىن ھەر تەرەپكە تارقىتىدىغان نۇردۇر.",
+      "lbl-color": "رەڭ",
+      "lbl-intensity": "سالمىقى",
+      "lbl-range": "دائىرىسى",
+      "lbl-decay": "چىرىش"
+    },
+    "scene": {
+      "name": "نەق مەيدان",
+      "description": "نەق مەيداندىكى يىلتىز ئوبيېكتى",
+      "lbl-bgcolor": "تەگلىك رەڭ",
+      "lbl-fogType": "تۇمان تىپى",
+      "lbl-fogColor": "تۇمان رەڭگى",
+      "lbl-forNearDistance": "تۇمان يېقىن ئارىلىق",
+      "lbl-fogFarDistance": "تۇمان يىراقلىق",
+      "lbl-fogDensity": "تۇمان زىچلىقى",
+      "lbl-audioSettings": "ئورۇن بەلگىلەش ئاۋاز ئىشلىتىش",
+      "lbl-avatarDistanceModel": "باش سۈرەت يىراقلىق مودېلى",
+      "lbl-avatarRolloffFactor": "باش سۈرەت Rolloff Factor",
+      "lbl-avatarRefDistance": "باش سۈرەت رېفېراندۇم ئارىلىق",
+      "lbl-avatarMaxDistance": "باش سۈرەت Max ئارىلىق",
+      "lbl-mediaVolume": "مېدىيا تومى",
+      "lbl-mediaDistanceModel": "Media Distance Model",
+      "lbl-mediaRolloffFactor": "Media Rolloff Factor",
+      "lbl-mediaRefDistance": "مېدىيا رېفېراندۇم ئارىلىقى",
+      "lbl-mediaMaxDistance": "Media Max Distance",
+      "lbl-mediaConeInnerAngle": "Media Cone ئىچكى بۇلۇڭى",
+      "lbl-mediaConeOuterAngle": "Media Cone سىرتقى بۇلۇڭى",
+      "lbl-mediaConeOuterGain": "Media Cone Outer Gain",
+      "info-avatarDistanceModel": "algorithim نىڭ ئاۋاز چىقىرىۋىلىشنى ھېسابلاش ئۈچۈن ئىشلىتىلگەن.",
+      "info-avatarRolloffFactor": "مەنبە ئاڭلىغۇچىدىن يىراقلىشىپ كەتكەندە ھەجىمىنىڭ قانچىلىك تېزلىكىنى تەسۋىرلىگەن قوش قىممەت. 0 تىن 1 گىچە",
+      "info-avatarRolloffFactorInifinity": "مەنبە ئاڭلىغۇچىدىن يىراقلىشىپ كەتكەندە ھەجىمىنىڭ قانچىلىك تېزلىكىنى تەسۋىرلىگەن قوش قىممەت. 0 - چەكسىزلىك",
+      "info-avatarRefDistance": "ئاۋاز مەنبەسى ئاڭلىغۇچىدىن يەنىمۇ يىراققا كۆچكەندە، ئاۋاز مىقدارىنى ئازايتىشنىڭ پايدىلىنىش ئارىلىقىغا ۋەكىللىك قىلىدىغان قوش قىممەت.",
+      "info-avatarMaxDistance": "ئاۋاز مەنبەسى بىلەن تىڭشىغۇچى ئوتتۇرىسىدىكى ئەڭ چوڭ ئارىلىققا ۋەكىللىك قىلىدىغان قوش قىممەت، ئۇنىڭدىن كېيىن ئاۋاز مىقدارى يەنىمۇ تۆۋەنلەپ كەتمەيدۇ.",
+      "info-mediaDistanceModel": "algorithim نىڭ ئاۋاز چىقىرىۋىلىشنى ھېسابلاش ئۈچۈن ئىشلىتىلگەن.",
+      "info-mediaRolloffFactor": "مەنبە ئاڭلىغۇچىدىن يىراقلىشىپ كەتكەندە ھەجىمىنىڭ قانچىلىك تېزلىكىنى تەسۋىرلىگەن قوش قىممەت. 0 تىن 1 گىچە",
+      "info-mediaRolloffFactorInfinity": "مەنبە ئاڭلىغۇچىدىن يىراقلىشىپ كەتكەندە ھەجىمىنىڭ قانچىلىك تېزلىكىنى تەسۋىرلىگەن قوش قىممەت. 0 - چەكسىزلىك",
+      "info-mediaRefDistance": "ئاۋاز مەنبەسى ئاڭلىغۇچىدىن يەنىمۇ يىراققا كۆچكەندە، ئاۋاز مىقدارىنى ئازايتىشنىڭ پايدىلىنىش ئارىلىقىغا ۋەكىللىك قىلىدىغان قوش قىممەت.",
+      "info-mediaMaxDistance": "ئاۋاز مەنبەسى بىلەن تىڭشىغۇچى ئوتتۇرىسىدىكى ئەڭ چوڭ ئارىلىققا ۋەكىللىك قىلىدىغان قوش قىممەت، ئۇنىڭدىن كېيىن ئاۋاز مىقدارى يەنىمۇ تۆۋەنلەپ كەتمەيدۇ.",
+      "info-mediaConeInnerAngle": "بۇلۇڭنى تەسۋىرلەيدىغان قوش قىممەت، گىرادۇستا، ئىچىدىكى بىر كونىنىڭ ھەجىمىنى تۆۋەنلىتىش بولمايدۇ.",
+      "info-mediaConeOuterAngle": "بۇلۇڭنى تەسۋىرلەيدىغان قوش قىممەت، گرادۇس دەرىجىسىدە، سىرتىغا چىققان بىر كونىنىڭ ھەجىمىنى تۇراقلىق قىممەت بىلەن تۆۋەنلىتىپ، كونىOuterGain خاسلىقى بىلەن بېكىتىلگەن.",
+      "info-mediaConeOuterGain": "كونەOuterAngle خاسلىقى بىلەن بېكىتىلگەن كونىلارنىڭ سىرتىدىكى ھەجىملىك ئازايتىش مىقدارىنى تەسۋىرلىگەن قوش قىممەت. ئۇنىڭ كۆڭۈلدىكى قىممىتى 0 بولۇپ، ھېچقانداق ئاۋازنى ئاڭلىغىلى بولمايدۇ دېگەن مەنىنى بىلدۈرىدۇ.",
+      "lbl-simpleMaterials": "ئاددىي ماتېرىياللارنى ئىشلىتىش",
+      "lbl-lods": "LODs",
+      "info-lods": "تەپسىلات ئۆزگىرىشىنىڭ قايسى دەرىجىدىكى ئارىلىقىنى بېكىتىدۇ.",
+      "info-simpleMaterials": "بارلىق قىممەت باھالىق ماتېرىياللارنى ئاددىيراقىغا ئايلاندۇرۇپ، نەق مەيداندىكى يۈكنى چۈشۈرىدۇ.",
+      "lbl-rendererSettings": "Renderer تەڭشەكلىرىنى ئۆتكۈزىۋىتىش",
+      "lbl-csm": "Cascading سايە خەرىتىسى",
+      "info-csm": "سەييارە سايە خەرىتىسى قوزغىتىلىۋاتىدۇ.",
+      "lbl-toneMapping": "ئاگېنتلىقنىڭ تەڭشىكى",
+      "info-toneMapping": "نەق مەيدان بىر تەرەپ قىلغۇچىدا ئاۋاز تەڭشىگۈچنى قوزغىتىش. يازما بىر تەرەپ قىلىش ئىقتىدارى قوشۇلغاندا ئۈنۈمى بولمايدۇ.",
+      "lbl-toneMappingExposure": "ئاگېنتلىقتا شىددەت بىلەن ئاشكارىلاش",
+      "info-toneMappingExposure": "نەق مەيداننى بىر تەرەپ قىلغۇچىدا ئاتونۇش يۈز بېرىشىنى بەلگىلەپ بېرىدۇ. يازما بىر تەرەپ قىلىش ئىقتىدارى قوشۇلغاندا ئۈنۈمى بولمايدۇ.",
+      "lbl-shadowMapType": "سايە خەرىتىسى تۈرى",
+      "info-shadowMapType": "سايە خەرىتىسى تۈرى",
+      "error-url": "URLدىن يۈكلەش خاتالىقى"
+    },
+    "sceneCamera": {
+      "name": "نەق مەيدان كۆرۈنمە يۈزى كامېراسى",
+      "description": "كامېرا سىزنىڭ نەق مەيدانىڭىز ۋە ئالدىن كۆرۈش كامېراسىنىڭ باشلىنىش ئورنى ئۈچۈن نادىر رەسىم ھاسىل قىلاتتى.",
+      "lbl-setFromViewPort": "كۆرۈش مەيدانىدىن بەلگىلەش"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "روزىنىڭ ۋاقتى",
+      "lbl-color": "رەڭ",
+      "lbl-latitude": "Latitude",
+      "lbl-luminance": "نۇرلۇق نۇر",
+      "lbl-scattering": "چېچىش مىقدارى",
+      "lbl-scatteringDistance": "تارقاق ئارىلىق",
+      "lbl-horizonStart": "ئۇپۇق باشلاش",
+      "lbl-horizonEnd": "ئۇپۇق ئۇچى",
+      "lbl-texture": "توقۇلما",
+      "lbl-skyType": "ئاسمان تۈرى",
+      "error-url": "URLدىن يۈكلەش خاتالىقى"
+    },
+    "spawnPoint": {
+      "name": "ئۇرۇقلاش نۇقتىسى",
+      "description": "كىشىلەر سىزنىڭ نەق مەيدانىڭىزغا كىرگەندە پەيدا بولىدىغان بىر نۇقتا.\nViewport دىكى سىنبەلگىلەر بىر باش سۈرەتنىڭ ئەمەلىي چوڭلۇقىغا ۋەكىللىك قىلىدۇ."
+    },
+    "spotLight": {
+      "description": "بىر يۆنىلىشنى بويلاپ ئېقىپ تۇرىدىغان، بىر كونىنىڭ ئىچىدە جىسىملارنى نۇرلاندۇرىدىغان نۇردۇر.",
+      "lbl-color": "رەڭ",
+      "lbl-intensity": "سالمىقى",
+      "lbl-penumbra": "پېنۇمبرا",
+      "lbl-angle": "بۇلۇڭ",
+      "lbl-range": "دائىرىسى",
+      "lbl-decay": "چىرىش"
+    },
+    "transform": {
+      "title": "ئۆزگەرتىش",
+      "lbl-postition": "ئورنى",
+      "lbl-rotation": "نۆۋەتلىشىش",
+      "lbl-scale": "كۆلەم"
+    },
+    "triggereVolume": {
+      "description": "كىرگۈزگەن ۋە چىقىپ كەتكەن نىشان ئوبيېكتىغا بىر مۈلۈك بېكىتىش.",
+      "lbl-target": "لايىقلاشتۇرۇش",
+      "lbl-onenter": "Enter دا",
+      "lbl-onexit": "چىقىش ئېغىزىدا",
+      "lbl-showHelper": "ياردەمچى Mesh نى كۆرسەت",
+      "ph-errorNode": "خاتالىق يوق تۈگۈن.",
+      "ph-selectNode": "نۇپۇس تاللاڭ..."
+    },
+    "video": {
+      "name": "ۋىدېئو",
+      "description": "ۋىدېئونى دىنامىكىلىق قاچىلاش.",
+      "lbl-video": "ۋىدېئو",
+      "lbl-projection": "پرويېكسىيە",
+      "lbl-islivestream": "Live Stream",
+      "lbl-interactable": "تەسىرلىنىشچان",
+      "lbl-id": "ئېلېمېنت Id",
+      "lbl-play": "قويۇش",
+      "lbl-pause": "توختاش",
+      "error-url": "URLدىن يۈكلەش خاتالىقى"
+    },
+    "volumetric": {
+      "name": "ھەجىملىك مىقدار",
+      "description": "دىنامىكىلىق مىقدارلىق سىننى دىنامىكىلىق قاچىلاش",
+      "uvolPaths": "UVOL يولى",
+      "playmode": "قويۇش شەكلى",
+      "playtitle": "قويۇش",
+      "pausetitle": "توختاش"
+    },
+    "spline": {
+      "description": "ئەگرى-بۈگرىلەرنى جانلىق يارىتىدۇ ۋە خاسلاشتۇرىدۇ.",
+      "lbl-addNode": "ئەگرى-بۈگرى تۈگۈن قوشۇڭ."
+    },
+    "systemnode": {
+      "description": "سىنارىيە قوشۇپ بېرىمىز.",
+      "lbl-filePath": "Url",
+      "lbl-systemUpdateType": "ئوكۇل قىلىش نوقتىسى",
+      "lbl-enableClient": "خېرىدار",
+      "lbl-enableServer": "مۇلازىمىتېر",
+      "lbl-args": "Args",
+      "error-url": "Script نى URLدىن قاچىلاش خاتالىقى"
+    },
+    "portal": {
+      "lbl-portal": "ئۇلانغان Portal",
+      "lbl-redirect": "بەت قايتا يوللاشنى ئىشلىتىش",
+      "description": "پورتاتتىن بەلگىلەنگەن ئورۇنغا تېلفۇن قويغۇچلارنى ئېلىپ بېرىش",
+      "lbl-locationName": "ئورنى",
+      "lbl-modelUrl": "مودېل ئادرىسى",
+      "lbl-displayText": "تېكىستنى كۆرسىتىش",
+      "lbl-cubemapBake": "Cubemap پىشۇرۇش",
+      "lbl-spawnPosition": "ئۇرۇقلاش ئورنى",
+      "lbl-spawnRotation": "ئۇرۇقلاندۇرۇش نۆۋەتلىشىش",
+      "lbl-triggerPosition": "Trigger ئورنى",
+      "lbl-triggerRotation": "قوزغاتقۇچ ئايلىنىش",
+      "lbl-triggerScale": "قوزغاتقۇچ كۆلەم"
+    },
+    "postprocessing": {
+      "name": "يازما بىر تەرەپ قىلىش",
+      "description": "يازما بىر تەرەپ قىلىش ئۈنۈمىنى سىز نەق مەيدانغا ئىلتىماس قىلغانلىقىڭىز ئۈچۈن."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "يېڭى تۈر",
+      "backLink": "تۈرلەرگە قايتىش",
+      "featured": "تەۋسىيەلىك",
+      "all": "ھەممە ئادەم",
+      "newProject": "يېڭى قۇرۇق قۇرۇلۇش",
+      "ph-search": "ئىزدەش نەق مەيدان ..."
+    },
+    "grid": {
+      "loading": "قاچىلىنىۋاتىدۇ..."
+    },
+    "page": {
+      "header": "مەرھابا",
+      "headerMsg": "ئەگەر سىز بۇ يەردە يېڭى بولسىڭىز دەرسلىكنى باشتىن كەچۈرۈشىڭىزنى تەۋسىيە قىلىمىز. ئۇنداق بولمىغاندا ئوڭغا سەكرەپ كىرىپ، نۆلدىن ياكى بىزنىڭ قېلىپىمىزدىن بىر تۈر قۇرىمىز.",
+      "lbl-startTutorial": "دەرسلىكنى باشلاش",
+      "projects": "تۈرلەر",
+      "lbl-newProject": "يېڭى تۈر"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "قاچىلىنىۋاتىدۇ...",
+      "placeObject": "ئورۇن ئوبېكتى",
+      "placeObjectAtOrigin": "Origin دىكى ئورۇن ئوبېكتى",
+      "copyURL": "ئادرېسىنى كۆچۈرۈش",
+      "openInNewTab": "يېڭى بەتتە ئادرېسنى ئېچىش",
+      "deleteAsset": "مۈلۈكنى ئۆچۈرۈش"
+    },
+    "filebrowser": {
+      "addNewFolder": "يېڭى ھۆججەت قىسقۇچ قوشۇش",
+      "cutAsset": "كېسىش",
+      "copyAsset": "كۆچۈرۈش",
+      "pasteAsset": "چاپلاش",
+      "renameAsset": "قايتا ئىسىم فامىلە قىلىش",
+      "viewAssetProperties": "خاسلىقلارنى كۆرۈش"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "قايتا ئىسىم فامىلە قىلىش",
+    "lbl-duplicate": "تەكرارلاش",
+    "lbl-group": "گۇرۇپپا",
+    "lbl-delete": "ئۆچۈر",
+    "lbl-expandAll": "ھەممىنى كېڭەيتىش",
+    "lbl-collapseAll": "بارلىق گۈمۈرۈلۈپ چۈشۈش",
+    "isseus": "مەسىلىلەر:"
+  },
+  "dnd": {
+    "nodes": "{{count}} تاللانغان تۈگۈنلەر",
+    "models": "{{count}} مودېللار تاللاندى",
+    "images": "{{count}} تاللانغان رەسىملەر",
+    "videos": "{{count}} سىنلار تاللاندى",
+    "audio": "{{count}} ئۈن-سىن مەنبەلىرى تاللاندى"
+  },
+  "dialog": {
+    "title": "تەھرىرلىگۈچ",
+    "lbl-confirm": "ماقۇل",
+    "lbl-cancel": "ئەمەلدىن قالدۇرۇش",
+    "exportProject": {
+      "title": "ئېكسپورت تۈرى",
+      "lbl-confirm": "ئېكسپورت تۈرى",
+      "lbl-combineMesh": "بىرىكمە مېسسى",
+      "lbl-removeUnused": "ئىشلىتىلمەيدىغان جىسىملارنى چىقىرىۋېتىش"
+    },
+    "performance": {
+      "title": "ئىقتىدار تەكشۈرۈش",
+      "lbl-confirm": "نەشرىيات نەق مەيدان",
+      "learnMore": "تېخىمۇ كۆپ ئۈگۈنۇش",
+      "lbl-polycount": "كۆپلۈك سانى",
+      "lbl-material": "ماتېرىيال",
+      "lbl-texture": "توقۇلمىلار",
+      "lbl-lights": "چىراقلار",
+      "lbl-fileSize": "ھۆججەت چوڭلۇقى",
+      "info-polycount": "نەق مەيدانىڭىزنى كۆچمە ئۈسكۈنىلەرگە 50 مىڭ ئۈچ بۇرجەكتىن ئارتۇق ئىشلىتىشىڭىزنى تەۋسىيە قىلىمىز.",
+      "info-material": "يانفون ئۈسكۈنىلىرىدىكى چەك تارتىشنى ئازايتىش ئۈچۈن، نەق مەيدانىڭىزدىكى 25 خىلدىن ئارتۇق ئۆزگىچە ماتېرىياللارنى ئىشلىتىشىڭىزنى تەۋسىيە قىلىمىز.",
+      "info-texture": "كۆچمە ئۈسكۈنىلەرگە 256MB تىن ئارتۇق ۋىدىئو RAM ئىشلىتىشىڭىزنى تەۋسىيە قىلىمىز. يەنە 2048 x 2048 دىن چوڭراق توقۇلمىلارنى ئىشلىتىشكە قارشى تۇرۇشنى تەۋسىيە قىلىمىز.",
+      "info-lights": "كۆچمە ئۈسكۈنىلەردە ھەرىكەتچان چىراغلارنى قوزغىتىش بىلەن بىرگە، نەق مەيدانىڭىزدىكى 3 خىلدىن ئارتۇق چىراغ (ئاممىكا ۋە يېرىم شار چىرىقىدىن باشقا) نىڭ تۆۋەن ئۇچىدىكى PC لاردا يۈرۈشىنى تەۋسىيە قىلىمىز.",
+      "info-fileSize": "تۆۋەن بەلباغ كەڭلىكى ئۇلاش ئۈچۈن 16MB دىن ئاشمايدىغان ئەڭ ئاخىرقى ھۆججەت چوڭلۇقىنى تەۋسىيە قىلىمىز. ھۆججەت چوڭلۇقىنى تۆۋەنلىتىش سىزنىڭ نەق مەيدانىڭىزنى چۈشۈرۈشكە كېتىدىغان ۋاقىتنى ئازايتىدۇ.",
+      "txt-polycount": "{{count}} ئۈچ بۇرجەك",
+      "txt-material": "{{count}} ماتېرىياللىرى",
+      "txt-ram": "~{{count}} سىن RAM",
+      "txt-texture": "{{count}} چوڭ توقۇلمىلار",
+      "txt-lights": "{{count}} چىراغلار"
+    },
+    "progress": {
+      "title": "قاچىلىنىۋاتىدۇ...",
+      "msg": "قاچىلىنىۋاتىدۇ...",
+      "lbl-cancel": "ئەمەلدىن قالدۇرۇش"
+    },
+    "publish": {
+      "title": "نەشرىيات نەق مەيدان",
+      "lbl-confirm": "ساقلاش ۋە ئېلان قىلىش",
+      "lbl-name": "نەق مەيدان نامى",
+      "info-name": "ئىسىم چوقۇم 4 بىلەن 64 ھەرپ ئوتتۇرىسىدا بولۇشى كېرەك، خەتنى ئۆز ئىچىگە ئالالمايدۇ"
+    },
+    "published": {
+      "title": "نەق مەيدان ئېلان قىلىندى",
+      "header": "سىزنىڭ نەق مەيدانىڭىز ئېلان قىلىندى.",
+      "lbl-view": "ئۆز كۆرۈنۈشىڭىزنى كۆرۈڭ"
+    },
+    "saveNewProject": {
+      "title": "قوللاش",
+      "lbl-name": "تۈر نامى",
+      "info-name": "ئىسىم چوقۇم 4 بىلەن 64 ھەرپ ئوتتۇرىسىدا بولۇشى كېرەك، خەتنى ئۆز ئىچىگە ئالالمايدۇ",
+      "lbl-confirm": "ساقلاش تۈرى"
+    },
+    "support": {
+      "title": "قوللاش",
+      "header": "بىر مەسىلىنى مەلۇم قىلىش كېرەكمۇ؟",
+      "msg": "<1>gitHub مەسلىسىنى</1> ئەنگە ئالالايسىز ياكى <3>{{mail}}</3>",
+      "discord": "<1>دىسكازمۇ</1> بىزنى تاپالايسىز"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "بىڭ سۈرەتلەر",
+      "search": "ئىزدە قامۇسى - Bing"
+    },
+    "bingVideo": {
+      "name": "بىڭ ۋىدېئولار",
+      "search": "ئىزدە قامۇسى - Bing"
+    },
+    "element": {
+      "name": "ئېلېمېنتلار"
+    },
+    "myAssets": {
+      "name": "مېنىڭ مۈلكىم"
+    },
+    "googlePoly": {
+      "name": "گۇگۇل پولى",
+      "search": "گۇگۇل شىركىتى تەرىپىدىن ئىزدەش"
+    },
+    "tenor": {
+      "name": "تېڭور GIFs",
+      "search": "ئىزدە قامۇسى - تېڭور",
+      "ph-search": "GIF لەرنى ئىزدەش..."
+    },
+    "sketchfab": {
+      "name": "Sketchfab",
+      "search": "ئىزدە by Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "مۈلۈكنى يۈكلەش"
+    },
+    "imageSourcePanel": {
+      "ph-search": "رەسىملەرنى ئىزدەش..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "ئىزدە ۋىدېئولىرى..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "بايلىق ئىزدەش..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "ئىزدەش مودېللىرى..."
+    },
+    "useUpload": {
+      "multipleFileError": "كىرگۈزۈش كۆپ ھۆججەت قوبۇل قىلمايدۇ.",
+      "mineTypeError": "«{{name}}» تۆۋەندىكى mime تۈرى ياكى ئۇزارتىش تۈرىگە ماس كەلمەيدۇ: {{types}}",
+      "progressTitle": "ھۆججەت يۈكلەش",
+      "progressMsg": "{{total}}ھۆججەت {{uploaded}} يۈكلەش : {{percentage}}٪",
+      "uploadError": "يۈكلەش خاتالىقى",
+      "uploadErrorMsg": "ھۆججەت يۈكلەش خاتالىقى: {{message}}",
+      "uploadErrorDefaultMsg": "نامەلۇم خاتالىق كۆرۈلدى"
+    }
+  },
+  "openLink": {
+    "description": "ئۇلىنىشقا بېرىش ئۈچۈن Open نى چېكىڭ.",
+    "lbl-open": "ئېچىش"
+  },
+  "interactableModel": {
+    "lbl-buy": "مەمەت",
+    "lbl-learnMore": "تېخىمۇ كۆپ ئۈگۈنۇش"
+  },
+  "corsProxyButton": {
+    "tooltip": "Cors Proxy Server نى ئىشلىتىش"
+  }
+}

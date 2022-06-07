@@ -1,0 +1,202 @@
+{
+  "addComment": "Pridať komentár...",
+  "share": "Akcia",
+  "suggestions": "Návrhy pre vás",
+  "seeAll": "Zobraziť všetky",
+  "likes": "Rád",
+  "viewComments": "Zobraziť všetky {{count}} komentáre",
+  "more": "viacej",
+  "username": "používateľské meno",
+  "fullName": "Meno Priezvisko",
+  "reportInApporpriate": "Nahlásiť nevhodné",
+  "unfollow": "Unfollow",
+  "goToPost": "Prejsť na poštu",
+  "shareModal": "Akcia",
+  "copyLink": "Prepojenie kopírovať",
+  "embed": "Vložiť",
+  "cancel": "Zrušiť",
+  "confirm": "Potvrdiť",
+  "save": "Zachrániť",
+  "profilePic": "profilová fotka {{user}}",
+  "ara": "Ara",
+  "follow": "Nasledovať",
+  "flames": "Plamene",
+  "continue": "Pokračovať",
+  "partyInvitationSent": "Pozvánka na párty odoslaná",
+  "arMedia": {
+    "back": "Chrbát",
+    "clip": "Sponka",
+    "backgrounds": "Pozadia",
+    "start": "Začiatok"
+  },
+  "arMediaform": {
+    "title": "Titul",
+    "type": "Typ",
+    "clip": "Sponka",
+    "background": "Pozadie",
+    "scene": "Scéna",
+    "save": "Zachrániť",
+    "manifest-file": "Manifest .manifest súbor",
+    "audio-file": "Súbor Mp4",
+    "dracosis-file": "Súbor Dracosis .uvol",
+    "preview-file": "Ukážka súboru obrázka"
+  },
+  "creator": {
+    "myVideos": "Moje videá",
+    "savedVideos": "Uložené videá",
+    "back": "Chrbát",
+    "blocked-list": "Blokovaný zoznam",
+    "block-user": "Blokovanie používateľa",
+    "dialog-content": "Profil a obsah používateľa sa nezobrazí"
+  },
+  "creatorForm": {
+    "back": "Chrbát",
+    "edit": "Úprava profilu",
+    "save": "Zachrániť",
+    "changeAvatar": "Zmena obrázka avatara",
+    "ph-selectPreview": "Výber ukážky",
+    "ph-name": "Vaše meno",
+    "ph-username": "Vaše používateľské meno",
+    "ph-email": "Váš e-mail",
+    "ph-tags": "Tagy",
+    "ph-link": "Väzba",
+    "ph-aboutYou": "Viac o vás",
+    "ph-twitter": "Twitter",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Odhlásenie"
+  },
+  "dashboard": {
+    "title": "Tabuľu",
+    "dashboard": "Tabuľu",
+    "users": "Používateľov",
+    "feeds": "Kanály",
+    "arMedia": "Videomédiá",
+    "editor": "Editor",
+    "creator": "Tvorca"
+  },
+  "featured": {
+    "empty-list": "Zatiaľ žiadne kŕmenie..."
+  },
+  "feed": {
+    "back": "Chrbát",
+    "related": "Súvisiace informačné kanály",
+    "is-repoted-message": "Krmivo je hlásené!"
+  },
+  "feedForm": {
+    "back": "Chrbát",
+    "thanks": "Ďakujeme za zdieľanie a zveľaďovanie našej komunity",
+    "share": "Podeľte sa o niečo s komunitou",
+    "upload": "Nahrať video",
+    "ph-selectVideo": "Výber položky Video",
+    "preview": "Ukážka obrázka",
+    "ph-selectPreview": "Výber ukážky",
+    "createFeed": "Ak chcete vytvoriť informačný kanál, musíte mať video a obrázok ukážky!!!",
+    "ph-videoName": "Názov vášho videa",
+    "ph-type": "Zadajte, čo chcete zdieľať s komunitou ... ",
+    "lbl-share": "Akcia",
+    "save": "Uložiť a ísť ďalej"
+  },
+  "feedMenu": {
+    "featured": "Odporúčané",
+    "creators": "Tvorcovia",
+    "feed": "Krmivo"
+  },
+  "header": {
+    "lbl-volumetric": "Objemová"
+  },
+  "login": {
+    "account": "Máte účet?",
+    "login": "Prihlásenie",
+    "resetPassword": "Tlačidlo Reset Password Fake (tu by bol odkaz z e-mailu)",
+    "notHavingAccount": "Nemáte účet?",
+    "signUp": "Zaregistrovať sa",
+    "forgotPassword": "Zabudli ste heslo?",
+    "back": "Chrbát",
+    "or": "ALEBO"
+  },
+  "comment": {
+    "add": "Pridajte svoj komentár..."
+  },
+  "notification": {
+    "feedFire": " vystrelil z krmiva",
+    "feedBookmarked": " záložky vášho informačného kanála",
+    "comment": " komentoval váš informačný kanál:",
+    "commentFire": " vystrelil svoj komentár na kŕmenie",
+    "follow": " Začal ťa sledovať",
+    "unfollow": " Prestal som ťa sledovať",
+    "followed": " Nasledoval ťa",
+    "activity": "Aktivita"
+  },
+  "onBoarding": {
+    "welcome": "Vitaj!",
+    "description": "Najväčšia kolekcia viac ako 370 rozložení pre prototypovanie systému iOS.",
+    "next": "Budúci",
+    "discover": "Objavte články,",
+    "news": "novinky a príspevky",
+    "lines": "Sú to tie pocity, ktoré poháňajú našu lásku k astronómii a našu túžbu.",
+    "getStarted": "Začať",
+    "meetUp": "Zoznámte sa s",
+    "friends": "priatelia.",
+    "meet": "Zoznámte sa s priateľmi"
+  },
+  "shareForm": {
+    "arcMedia": "Akcia",
+    "videoCreated": "Vytvoril som toto video",
+    "shareWithBuddies": "Zdieľanie s kamarátmi",
+    "shareVideo": "Zdieľanie videa",
+    "save": "Uloženie do rolky fotoaparátu",
+    "cancel": "Zrušiť",
+    "close": "Zavrieť",
+    "addFeed": "Pridanie informačného kanála"
+  },
+  "simpleModal": {
+    "emptyList": "Prázdny zoznam",
+    "followers": " nasledujúci",
+    "following": " Nasledovníkov",
+    "flames": " Plamene"
+  },
+  "splash": {
+    "screen": "Obrazovka splash",
+    "logo": "Logo"
+  },
+  "story": {
+    "profilePic": "profilová fotka {{user}}"
+  },
+  "view": {
+    "cancel": "Zrušiť",
+    "choice": "Na výber máte dva rôzne režimy nahrávania",
+    "verticalMode": "Vertikálny režim má rekordný čas 30 sekúnd",
+    "horizontalMode": "Horizontálny režim má neobmedzený čas záznamu",
+    "start": "Začiatok",
+    "not-show": "Neukazujte to znova",
+    "welcome": "Vitajte v arc!  Nakrúťte osobné videá s jedným z našich hologramov a uverejňujte ich na svojich kanáloch sociálnych médií!",
+    "step": "KROK {{step}}",
+    "text-step-1": "Vyberte si hologram z knižnice.",
+    "text-step-2": "Toto je rozšírená realita, takže naskenujte priestor fotoaparátom zo strany na stranu po dobu 3-5 sekúnd, kde chcete, aby bol hologramový výkon.",
+    "text-step-3-part-1": "Raz ťuknite na obrazovku na miesto, kde chcete hologram ukotviť.",
+    "text-step-3-part-2": "TIP!  Ťuknutím na iné miesto presuňte hologram do inej polohy.",
+    "text-step-3-part-3": "TIP!  Hologram môžete zmeniť veľkosť zväčšením alebo rozšírením obrazovky palcom a ukazovákom.",
+    "text-step-4-part-1": "Dvojitým ťuknutím na tlačidlo červeného záznamu spustíte nahrávanie videa.",
+    "text-step-4-part-2": "Dvojitým ťuknutím na tlačidlo červeného záznamu zastavte."
+  },
+  "video": {
+    "back": "Chrbát"
+  },
+  "terms": {
+    "confirmTerms": "Súhlasím so zmluvnými podmienkami",
+    "confirmPolicy": "Súhlasím so zásadami ochrany osobných údajov"
+  },
+  "registration": {
+    "ph-phoneEmail": "Používanie telefónu / e-mailu",
+    "facebook": "Pokračovať s Facebookom",
+    "google": "Pokračovať v službe Google",
+    "linkedin": "Pokračovanie na LinkedIn",
+    "twitter": "Pokračovanie v Službe Twitter",
+    "gitHub": "Pokračovať s GitHubom",
+    "connect": "Pripojenie e-mailu alebo telefónneho čísla",
+    "logIn": "Prihlásiť sa",
+    "LogInTo": "Prihláste sa do",
+    "continueAsGuest": "Pokračovať ako hosť"
+  }
+}

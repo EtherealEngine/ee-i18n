@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "正在加载页面..."
+  },
+  "tooltip": {
+    "pressKey": "按 {{tip}} 键 {{message}}"
+  },
+  "toast": {
+    "joined": "加入",
+    "left": "左"
+  },
+  "navUserWidget": {
+    "login": "登录"
+  },
+  "loader": {
+    "connecting": "连接世界...",
+    "entering": "进入世界...",
+    "loading": "装载。。。",
+    "objectRemaining": "剩余{{count}}对象",
+    "objectRemainingPlural": "剩余{{count}}对象",
+    "loadingObjects": "加载对象",
+    "loadingComplete": "加载完成",
+    "joiningWorld": "加入世界"
+  },
+  "alert": {
+    "eventWasSuccess": "活动成功",
+    "errorWasEncountered": "遇到错误",
+    "eventInProgress": "事件进行中",
+    "seconds": "秒",
+    "cancelCountdown": "关闭此模式将取消倒计时"
+  },
+  "debug": {
+    "refresh": "刷新",
+    "stats": "统计",
+    "debugOptions": "调试选项",
+    "physicsDebug": "物理",
+    "avatarDebug": "化身",
+    "nodeHelperDebug": "节点助手",
+    "gridDebug": "网 格",
+    "simpleMaterials": "简单材料",
+    "tick": "蜱",
+    "worldStore": "世界商店",
+    "engineStore": "发动机商店",
+    "namedEntities": "命名实体",
+    "networkObject": "网络对象",
+    "networkClients": "网络客户端"
+  },
+  "recording": {
+    "videoRecorder": "录像机",
+    "waitingForPermissions": "等待权限",
+    "selectVideoSource": "选择视频源",
+    "screen": "屏幕",
+    "camera": "照相机",
+    "microphone": "麦克风",
+    "startRecording": "开始录制",
+    "pauseRecording": "暂停录制",
+    "resumeRecording": "恢复录制",
+    "stopRecording": "停止录制"
+  },
+  "typing": "打字。。。",
+  "gameServer": {
+    "browserError": "浏览器错误",
+    "browserErrorMessage": "您的浏览器不支持在无痕浏览模式下存储。尝试其他浏览器，或退出无痕浏览模式。",
+    "noAvailableServers": "没有可用的服务器",
+    "noAvailableServersMessage": "没有任何服务器可供您连接。尝试重新连接",
+    "worldDisconnected": "世界断开连接",
+    "worldDisconnectedMessage": "你已经失去了与世界的联系。我们将尝试在以下时间用完之前重新连接，否则系统会将您转发到其他实例。",
+    "webGLNotEnabled": "未启用 WebGL",
+    "webGLNotEnabledMessage": "您的浏览器不支持 WebGL，或者它被禁用。请启用 WebGL 或考虑升级到最新版本的浏览器。",
+    "youKickedFromWorld": "你被踢出了世界",
+    "youKickedFromWorldMessage": "你被踢出这个世界的原因如下",
+    "invalidLocation": "无效位置",
+    "cantFindLocation": "我们找不到该位置",
+    "misspelledOrNotExist": "它可能拼写错误，或者它可能不存在。",
+    "loading": "装载",
+    "low-frame-error": "检测到性能不佳，请考虑在浏览器中启用使用硬件加速并重新发布浏览器",
+    "low-frame-title": "启用硬件加速以获得更好的体验！"
+  },
+  "error": {
+    "loading-error": "无法加载用户数据",
+    "validation-error": "请输入有效的 {{type}}",
+    "login-error": "登录失败"
+  }
+}

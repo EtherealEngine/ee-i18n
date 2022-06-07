@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "\"\""
+  },
+  "tooltip": {
+    "pressKey": "@____ @____  "
+  },
+  "toast": {
+    "joined": "",
+    "left": ""
+  },
+  "navUserWidget": {
+    "login": ""
+  },
+  "loader": {
+    "connecting": "\"\" ",
+    "entering": "",
+    "loading": "\"",
+    "objectRemaining": "@____",
+    "objectRemainingPlural": "@____",
+    "loadingObjects": "",
+    "loadingComplete": " ",
+    "joiningWorld": ""
+  },
+  "alert": {
+    "eventWasSuccess": " ",
+    "errorWasEncountered": " ",
+    "eventInProgress": "",
+    "seconds": "",
+    "cancelCountdown": "   "
+  },
+  "debug": {
+    "refresh": "",
+    "stats": "",
+    "debugOptions": "",
+    "physicsDebug": "",
+    "avatarDebug": "",
+    "nodeHelperDebug": " ",
+    "gridDebug": "",
+    "simpleMaterials": "",
+    "tick": "",
+    "worldStore": "",
+    "engineStore": "",
+    "namedEntities": "",
+    "networkObject": "",
+    "networkClients": ""
+  },
+  "recording": {
+    "videoRecorder": "",
+    "waitingForPermissions": " ",
+    "selectVideoSource": " ",
+    "screen": "",
+    "camera": " ",
+    "microphone": "",
+    "startRecording": "",
+    "pauseRecording": "",
+    "resumeRecording": "",
+    "stopRecording": ""
+  },
+  "typing": " ",
+  "gameServer": {
+    "browserError": "",
+    "browserErrorMessage": "      ",
+    "noAvailableServers": " ",
+    "noAvailableServersMessage": "       ",
+    "worldDisconnected": "",
+    "worldDisconnectedMessage": "       ",
+    "webGLNotEnabled": " ",
+    "webGLNotEnabledMessage": "        ",
+    "youKickedFromWorld": " ",
+    "youKickedFromWorldMessage": "    ",
+    "invalidLocation": "",
+    "cantFindLocation": "",
+    "misspelledOrNotExist": "     ",
+    "loading": "",
+    "low-frame-error": "     ",
+    "low-frame-title": "    !"
+  },
+  "error": {
+    "loading-error": "  ",
+    "validation-error": "@____",
+    "login-error": ""
+  }
+}

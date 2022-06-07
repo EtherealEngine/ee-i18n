@@ -1,0 +1,718 @@
+{
+  "loading": "加载项目",
+  "loadingMsg": "正在加载项目...",
+  "loadingError": "加载项目时出错",
+  "loadingErrorMsg": "加载项目时出错。",
+  "selectSceneMsg": "选择场景以开始使用引擎",
+  "error": "错误",
+  "errorMsg": "出现未知错误。",
+  "generateScreenshot": "生成项目屏幕截图",
+  "generateScreenshotMsg": "正在生成项目屏幕截图...",
+  "newScene": "创建场景",
+  "saving": "保存项目",
+  "savingMsg": "正在保存项目...",
+  "savingError": "保存项目时出错",
+  "savingErrorMsg": "保存项目时出错。",
+  "savingSceneErrorMsg": "场景未正确加载。尝试重新加载场景。",
+  "duplicating": "复制项目",
+  "duplicatingMsg": "正在复制项目...",
+  "exporting": "导出项目",
+  "exportingMsg": "正在导出项目...",
+  "exportingError": "导出项目时出错",
+  "exportingErrorMsg": "导出项目时出错。",
+  "importLegacy": "导入传统世界",
+  "importLegacyMsg": "警告！这将覆盖您现有的场景！您确定要继续吗？",
+  "publishingError": "发布项目时出错",
+  "publishingErrorMsg": "出现未知错误。",
+  "publishingScene": "发布场景",
+  "publishingSceneMsg": "发布场景...",
+  "uploadingThumbnailMsg": "正在上传缩略图...",
+  "uploadingSceneMsg": "上传场景： {{percentage}}%",
+  "envMapError": "加载多维数据集映射图像{{files}}时出错",
+  "lbl-return": "返回",
+  "menubar": {
+    "newScene": "新建场景",
+    "saveScene": "保存场景",
+    "saveAs": "另存为",
+    "importAsset": "导入资产",
+    "exportGLB": "导出为二进制 glTF （.glb） ...",
+    "importScene": "导入场景",
+    "exportScene": "导出场景",
+    "quit": "退出"
+  },
+  "errors": {
+    "fileTypeNotSupported": "文件不支持的文件类型：“{{name}}”。文件必须是图像、视频或 glb 模型。",
+    "addObject": "add对象：在找不到对象之前",
+    "removeObject": "删除对象：未找到节点。这是由于删除了不再位于场景中的节点。",
+    "noParent": "{{node}} “{{name}}”没有父级。重定父级仅适用于当前位于场景中的对象。",
+    "undefinedParent": "editor.reparent： newParent is undefined",
+    "notAuthenticated": "未通过身份验证",
+    "fetchingProjectError": "提取项目时出错： {{error}}",
+    "fetchingRouteError": "提取路由时出错： {{error}}",
+    "unknownError": "未知错误",
+    "resolveURL": "解析 url “{{url}}” 时出错：",
+    "mediaSearchAborted": "媒体搜索中止",
+    "methodNotImplemented": "方法未实现。",
+    "saveProjectAborted": "保存场景中止",
+    "unsavedChanges": "未保存的更改",
+    "unsavedChangesMsg": "场景已被修改。请保存您的更改。",
+    "projectCreationFail": "项目创建失败。 {{reason}}",
+    "projectDeletionFail": "项目删除失败。 {{reason}}",
+    "savingProjectFail": "保存项目失败。 {{reason}}",
+    "sceneTooLarge": "场景太大（{{size}} MB）无法发布。最大大小为 {{maxSize}} MB。",
+    "sceneCreationFail": "场景创建失败。 {{reason}}",
+    "uploadAborted": "上载已中止",
+    "uploadFailed": "上载失败 {{reason}}",
+    "assetDeletionFail": "资产删除失败。 {{reason}}",
+    "projectAssetDeletionFail": "项目资产删除失败。 {{reason}}",
+    "networkError": "网络错误： {{status}}。 {{text}}",
+    "unknownStatus": "未知状态",
+    "CORS": "可能是 CORS 错误",
+    "urlFetchError": "无法获取“{{url}}”"
+  },
+  "viewport": {
+    "title": "视窗",
+    "command": {
+      "movecamera": "移动相机",
+      "flyFast": "飞得更快",
+      "orbit": "轨道/选择",
+      "pan": "泛",
+      "fly": "飞",
+      "focus": "重点",
+      "rotateLeft": "向左旋转",
+      "rotateRight": "向右旋转",
+      "cancelPlacement": "取消展示位置",
+      "placeDuplicate": "放置重复项",
+      "cancelGrab": "取消抓取",
+      "grab": "抓",
+      "deselectAll": "取消全选"
+    },
+    "state": {
+      "header": "统计",
+      "memory": "记忆",
+      "geometries": "几何",
+      "textures": "纹理",
+      "render": "呈现",
+      "FPS": "转数快",
+      "frameTime": "帧时间",
+      "calls": "调用",
+      "triangles": "三角形",
+      "points": "点",
+      "lines": "线"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "发布",
+    "lbl-published": "发表",
+    "command": {
+      "translate": "翻译",
+      "rotate": "旋转",
+      "scale": "规模",
+      "toggleSpace": "切换变换空间",
+      "togglePivot": "切换变换枢轴",
+      "toggleSnapMode": "切换捕捉模式",
+      "toggleGrid": "切换网格可见性",
+      "increaseGridSize": "增加网格大小",
+      "descreaseGridSize": "减小网格大小",
+      "stopPreview": "停止预览场景",
+      "playPreview": "预览场景"
+    }
+  },
+  "properties": {
+    "title": "性能",
+    "lbl-visible": "可见",
+    "lbl-preventBake": "防止烘烤",
+    "lbl-persist": "坚持",
+    "multipleNodeSelected": "选择了多个不同类型的节点",
+    "noNodeSelected": "未选择节点",
+    "ambientLight": {
+      "name": "环境光",
+      "description": "照亮场景中所有对象的光源。",
+      "lbl-intensity": "强度",
+      "lbl-color": "颜色"
+    },
+    "envmap": {
+      "name": "环境地图",
+      "description": "环境映射属性"
+    },
+    "asset": {
+      "name": "资产",
+      "description": "可动态加载和卸载的场景组件组",
+      "lbl-options": "选项",
+      "lbl-assetPath": "资产路径",
+      "lbl-assetName": "导出名称",
+      "lbl-exportOptions": "导出选项",
+      "lbl-export": "导出资产",
+      "lbl-load": "加载到场景中",
+      "lbl-unload": "卸载",
+      "lbl-reload": "重新加载"
+    },
+    "audio": {
+      "name": "音频",
+      "description": "动态加载音频。",
+      "lbl-audiourl": "音频网址",
+      "lbl-controls": "控制",
+      "info-controls": "切换媒体控件的可见性。",
+      "lbl-autoplay": "自动播放",
+      "info-autoplay": "如果为 true，媒体将在首次进入场景时播放。",
+      "lbl-synchronize": "同步",
+      "info-synchronize": "如果为 true，则媒体将在所有连接的客户端上同步。",
+      "lbl-loop": "圈",
+      "info-loop": "如果为 true，媒体将无限期地循环。",
+      "lbl-audioType": "音频类型",
+      "lbl-distanceModel": "距离模型",
+      "info-distanceModel": "用于计算音频滚降的算法。",
+      "lbl-rolloffFactor": "滚降系数",
+      "info-rolloffFactor": "一个双精度值，描述当源远离侦听器时音量减小的速度。0 比 1",
+      "info-rfInfinity": "一个双精度值，描述当源远离侦听器时音量减小的速度。0 到无穷大",
+      "lbl-refDistance": "参考距离",
+      "info-refDistance": "一个双精度值，表示当音频源离听者更远时降低音量的参考距离。",
+      "lbl-maxDistance": "最大距离",
+      "info-maxDistance": "一个双精度值，表示音频源和听者之间的最大距离，在此之后，音量不会进一步降低。",
+      "lbl-coneInnerAngle": "锥内角",
+      "info-coneInnerAngle": "描述圆锥体的角度（以度为单位）的双精度值，其内部不会减少体积。",
+      "lbl-coneOuterAngle": "锥体外角",
+      "info-coneOuterAngle": "一个双精度值，描述圆锥体的角度（以度为单位），超出该角度的体积将减少一个常量值，该值由圆锥体输出增益属性定义。",
+      "lbl-coreOuterGain": "锥体外部增益",
+      "info-coreOuterGain": "一个双精度值，用于描述由 coneOuterAngle 属性定义的圆锥体外的体积减小量。其默认值为 0，表示听不到任何声音。",
+      "lbl-volume": "卷",
+      "lbl-play": "玩",
+      "lbl-pause": "暂停",
+      "error-url": "从网址加载时出错"
+    },
+    "boxCollider": {
+      "description": "一个看不见的盒子，物体会从上面反弹或放在上面。\n如果没有碰撞体，物体会掉过地板穿过墙壁。",
+      "lbl-isTrigger": "触发"
+    },
+    "camera": {
+      "name": "照相机",
+      "description": "相机设置。",
+      "lbl-camera-raycast": "摄像机光线投射",
+      "lbl-camera-raycast-toggle": "启用",
+      "lbl-camera-raycast-frequency": "频率",
+      "lbl-camera-raycast-count": "射线计数",
+      "lbl-camera-raycast-length": "射线长度"
+    },
+    "directionalLight": {
+      "name": "定向光",
+      "description": "照亮整个场景，但沿单一方向发射的光。",
+      "lbl-color": "颜色",
+      "lbl-intensity": "强度",
+      "lbl-cameraFar": "相机远",
+      "lbl-cameraNear": "相机附近",
+      "lbl-cameraTop": "相机顶部",
+      "lbl-cameraBottom": "相机底部",
+      "lbl-cameraLeft": "相机左侧",
+      "lbl-cameraRight": "相机右侧",
+      "lbl-useInCSM": "在 CSM 中使用",
+      "lbl-castShadow": "投射阴影",
+      "lbl-disableForCSM": "已禁用，因为启用了级联阴影贴图。",
+      "lbl-shadowmapResolution": "阴影贴图分辨率",
+      "lbl-shadowBias": "阴影偏差",
+      "lbl-shadowRadius": "阴影半径",
+      "lbl-showCameraHelper": "显示相机助手"
+    },
+    "groundPlane": {
+      "name": "地平面",
+      "description": "延伸到远处的平面平面。",
+      "lbl-color": "颜色",
+      "lbl-receiveShadow": "接收阴影",
+      "lbl-generateNavmesh": "生成导航网格"
+    },
+    "link": {
+      "description": "链接到聊天室或网站。",
+      "lbl-url": "网址"
+    },
+    "map": {
+      "description": "例如，城市的3D地理空间地图。"
+    },
+    "model": {
+      "description": "场景中的 3D 模型，从 GLTF URL 或文件加载。",
+      "lbl-usingGPUInstancingFlag": "使用 GPU 实例化",
+      "lbl-modelurl": "型号网址",
+      "lbl-envmapUrl": "环境地图网址",
+      "lbl-textureOverride": "覆盖纹理",
+      "lbl-materialOverride": "材料覆盖",
+      "error-url": "从网址加载时出错",
+      "lbl-loopAnimation": "循环动画",
+      "lbl-isAvatar": "是阿凡达",
+      "lbl-isGPUInstancing": "正在使用 GPU 实例化",
+      "lbl-isDynamic": "是动态的",
+      "lbl-castShadow": "投射阴影",
+      "lbl-receiveShadow": "接收阴影",
+      "lbl-interactable": "可交互",
+      "lbl-matrixAutoUpdate": "矩阵自动更新",
+      "lbl-name": "名字",
+      "lbl-url": "型号网址",
+      "lbl-buy": "购买网址",
+      "lbl-learnMore": "了解更多 网址",
+      "lbl-htmlContent": "网页内容",
+      "lbl-interactionText": "交互文本",
+      "lbl-interactionType": "交互类型"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "材料",
+      "error-materialID": "查找材料时出错",
+      "placeholder-materialID": "选择材料",
+      "lbl-patternTarget": "模式匹配",
+      "lbl-pattern": "模式",
+      "lbl-isRegex": "正则表达式"
+    },
+    "interaction": {
+      "type": "交互类型",
+      "text": "交互文本",
+      "distance": "交互距离",
+      "theme": "互动主题",
+      "name": "交互组件名称",
+      "description": "交互描述",
+      "images": "交互图像",
+      "videos": "互动视频",
+      "urls": "互动网址",
+      "models": "交互模型"
+    },
+    "group": {
+      "name": "群",
+      "description": "可以一起移动或复制的一组多个对象。\n将对象拖放到层次结构中的组中。"
+    },
+    "hemisphere": {
+      "name": "半球灯",
+      "description": "从正上方照亮场景的灯光。",
+      "lbl-skyColor": "天空颜色",
+      "lbl-groundColor": "底色",
+      "lbl-intensity": "强度"
+    },
+    "image": {
+      "name": "图像",
+      "description": "动态加载图像。",
+      "lbl-imgURL": "图片网址",
+      "lbl-transparency": "透明模式",
+      "lbl-alphaCutoff": "阿尔法截止",
+      "lbl-projection": "投影",
+      "lbl-side": "边",
+      "info-controls": "切换媒体控件的可见性。",
+      "info-transparency": "如何应用透明度：",
+      "info-opaque": "“不透明”= 无透明度",
+      "info-blend": "“混合”= 使用图像 Alpha 通道",
+      "info-mask": "“遮罩”= 对开/关透明度使用指定的截止值（性能更高）",
+      "info-alphaCutoff": "Alpha 值低于此值的像素将是透明的",
+      "error-url": "无效的网址"
+    },
+    "name": {
+      "lbl-name": "名字"
+    },
+    "partileEmitter": {
+      "description": "用于创建粒子的粒子发射器。",
+      "lbl-particleCount": "粒子计数",
+      "lbl-image": "图像",
+      "lbl-ageRandomness": "年龄随机性",
+      "lbl-lifetime": "辈子",
+      "lbl-lifetimeRandomness": "生命周期随机性",
+      "lbl-sizeCurve": "尺寸曲线",
+      "lbl-startPSize": "起始粒径",
+      "lbl-endPSize": "末端粒径",
+      "lbl-sizeRandomness": "大小随机性",
+      "lbl-colorCurve": "颜色曲线",
+      "lbl-startColor": "起始颜色",
+      "lbl-startOpacity": "开始不透明度",
+      "lbl-middleColor": "中色",
+      "lbl-middleOpacity": "中不透明度",
+      "lbl-endColor": "结束颜色",
+      "lbl-endOpacity": "结束不透明度",
+      "lbl-velocityCurve": "速度曲线",
+      "lbl-startVelocity": "启动速度",
+      "lbl-endVelocity": "端面速度",
+      "lbl-angularVelocity": "角速度",
+      "info-ageRandomness": "粒子生成时间之间的变化量。",
+      "info-lifetime": "粒子在重生之前的最长年龄。",
+      "info-lifetimeRandomness": "粒子寿命之间的变化量。",
+      "info-sizeRandomness": "起始大小之间的变化量。",
+      "error-url": "从网址加载时出错"
+    },
+    "clouds": {
+      "name": "云",
+      "description": "基于精灵的云卷。",
+      "lbl-image": "精灵图像",
+      "lbl-wroldScale": "世界规模",
+      "lbl-dimensions": "尺寸",
+      "lbl-noiseZoom": "噪点变焦",
+      "lbl-noiseOffset": "噪声偏移",
+      "lbl-spriteScale": "精灵比例",
+      "lbl-fogColor": "雾色",
+      "lbl-fogRange": "雾范围",
+      "error-url": "从网址加载时出错"
+    },
+    "ocean": {
+      "name": "海洋",
+      "description": "海面有波浪和泡沫",
+      "lbl-normalMap": "法线地图",
+      "lbl-distortionMap": "失真贴图",
+      "lbl-envMap": "环境地图",
+      "lbl-color": "颜色",
+      "lbl-shallowWaterColor": "浅水色",
+      "lbl-shallowToDeepDistance": "浅到深距离",
+      "lbl-opacityFadeDistance": "不透明度淡入淡出距离",
+      "lbl-opacityRange": "不透明度范围",
+      "lbl-shininess": "闪亮感",
+      "lbl-reflectivity": "反射率",
+      "lbl-foamColor": "泡沫颜色",
+      "lbl-foamSpeed": "发泡速度",
+      "lbl-foamTiling": "泡沫平铺",
+      "lbl-bigWaveTiling": "大浪平铺",
+      "lbl-bigWaveSpeed": "大浪速度",
+      "lbl-bigWaveHeight": "大浪高度",
+      "lbl-waveSpeed": "波浪速度",
+      "lbl-waveScale": "波浪尺度",
+      "lbl-waveTiling": "波浪平铺",
+      "lbl-waveDistortionSpeed": "波形失真速度",
+      "lbl-waveDistortionTiling": "波形失真平铺",
+      "error-url": "从网址加载时出错"
+    },
+    "water": {
+      "name": "水",
+      "description": "水面小"
+    },
+    "interior": {
+      "name": "内部",
+      "description": "具有映射立方体纹理的表面，用于模拟内部环境",
+      "lbl-cubeMap": "立方体贴图纹理",
+      "lbl-tiling": "平铺量",
+      "lbl-size": "表面尺寸",
+      "error-url": "从网址加载时出错"
+    },
+    "pointLight": {
+      "description": "从单个点向所有方向发射的光。",
+      "lbl-color": "颜色",
+      "lbl-intensity": "强度",
+      "lbl-range": "范围",
+      "lbl-decay": "衰变"
+    },
+    "scene": {
+      "name": "现场",
+      "description": "场景的根对象。",
+      "lbl-bgcolor": "背景颜色",
+      "lbl-fogType": "雾类型",
+      "lbl-fogColor": "雾色",
+      "lbl-forNearDistance": "雾近距离",
+      "lbl-fogFarDistance": "雾远距离",
+      "lbl-fogDensity": "雾密度",
+      "lbl-audioSettings": "使用位置音频",
+      "lbl-avatarDistanceModel": "头像距离模型",
+      "lbl-avatarRolloffFactor": "阿凡达滚降因子",
+      "lbl-avatarRefDistance": "阿凡达参考距离",
+      "lbl-avatarMaxDistance": "头像最大距离",
+      "lbl-mediaVolume": "媒体音量",
+      "lbl-mediaDistanceModel": "媒体距离模型",
+      "lbl-mediaRolloffFactor": "介质滚降系数",
+      "lbl-mediaRefDistance": "媒体参考距离",
+      "lbl-mediaMaxDistance": "介质最大距离",
+      "lbl-mediaConeInnerAngle": "介质锥内角",
+      "lbl-mediaConeOuterAngle": "介质锥外角",
+      "lbl-mediaConeOuterGain": "介质锥体外部增益",
+      "info-avatarDistanceModel": "用于计算音频滚降的算法。",
+      "info-avatarRolloffFactor": "一个双精度值，描述当源远离侦听器时音量减小的速度。0 比 1",
+      "info-avatarRolloffFactorInifinity": "一个双精度值，描述当源远离侦听器时音量减小的速度。0 到无穷大",
+      "info-avatarRefDistance": "一个双精度值，表示当音频源离听者更远时降低音量的参考距离。",
+      "info-avatarMaxDistance": "一个双精度值，表示音频源和听者之间的最大距离，在此之后，音量不会进一步降低。",
+      "info-mediaDistanceModel": "用于计算音频滚降的算法。",
+      "info-mediaRolloffFactor": "一个双精度值，描述当源远离侦听器时音量减小的速度。0 比 1",
+      "info-mediaRolloffFactorInfinity": "一个双精度值，描述当源远离侦听器时音量减小的速度。0 到无穷大",
+      "info-mediaRefDistance": "一个双精度值，表示当音频源离听者更远时降低音量的参考距离。",
+      "info-mediaMaxDistance": "一个双精度值，表示音频源和听者之间的最大距离，在此之后，音量不会进一步降低。",
+      "info-mediaConeInnerAngle": "描述圆锥体的角度（以度为单位）的双精度值，其内部不会减少体积。",
+      "info-mediaConeOuterAngle": "一个双精度值，描述圆锥体的角度（以度为单位），超出该角度的体积将减少一个常量值，该值由圆锥体输出增益属性定义。",
+      "info-mediaConeOuterGain": "一个双精度值，用于描述由 coneOuterAngle 属性定义的圆锥体外的体积减小量。其默认值为 0，表示听不到任何声音。",
+      "lbl-simpleMaterials": "使用简单材质",
+      "lbl-lods": "详细级别",
+      "info-lods": "设置细节层次变化的距离。",
+      "info-simpleMaterials": "将所有昂贵的材质转换为更简单的材质，以减轻场景渲染的负担。",
+      "lbl-rendererSettings": "覆盖渲染器设置",
+      "lbl-csm": "级联阴影贴图",
+      "info-csm": "启用级联阴影贴图。",
+      "lbl-toneMapping": "色调映射",
+      "info-toneMapping": "在场景渲染器上启用色调映射。启用后处理时不起作用。",
+      "lbl-toneMappingExposure": "色调映射曝光",
+      "info-toneMappingExposure": "指定场景渲染器上的色调映射曝光。启用后处理时不起作用。",
+      "lbl-shadowMapType": "阴影贴图类型",
+      "info-shadowMapType": "阴影贴图的类型",
+      "error-url": "从网址加载时出错"
+    },
+    "sceneCamera": {
+      "name": "场景预览摄像机",
+      "description": "用于生成场景缩略图的摄像机以及预览摄像机的起始位置。",
+      "lbl-setFromViewPort": "从视口设置"
+    },
+    "skybox": {
+      "name": "天空盒",
+      "description": "",
+      "lbl-timeOfDay": "一天中的时间",
+      "lbl-color": "颜色",
+      "lbl-latitude": "纬度",
+      "lbl-luminance": "亮度",
+      "lbl-scattering": "散射量",
+      "lbl-scatteringDistance": "散射距离",
+      "lbl-horizonStart": "地平线开始",
+      "lbl-horizonEnd": "地平线尽头",
+      "lbl-texture": "质地",
+      "lbl-skyType": "天空类型",
+      "error-url": "从网址加载时出错"
+    },
+    "spawnPoint": {
+      "name": "生成点",
+      "description": "用户在进入您的场景时将出现的点。\n视口中的图标表示头像的实际大小。"
+    },
+    "spotLight": {
+      "description": "沿一个方向发射的光，照亮圆锥体内的物体。",
+      "lbl-color": "颜色",
+      "lbl-intensity": "强度",
+      "lbl-penumbra": "半影",
+      "lbl-angle": "角度",
+      "lbl-range": "范围",
+      "lbl-decay": "衰变"
+    },
+    "transform": {
+      "title": "变换",
+      "lbl-postition": "位置",
+      "lbl-rotation": "旋转",
+      "lbl-scale": "规模"
+    },
+    "triggereVolume": {
+      "description": "在进入和离开时设置目标对象的属性。",
+      "lbl-target": "对象",
+      "lbl-onenter": "输入时",
+      "lbl-onexit": "退出时",
+      "lbl-showHelper": "显示助手网格",
+      "ph-errorNode": "缺少节点时出错。",
+      "ph-selectNode": "选择节点..."
+    },
+    "video": {
+      "name": "视频",
+      "description": "动态加载视频。",
+      "lbl-video": "视频",
+      "lbl-projection": "投影",
+      "lbl-islivestream": "直播",
+      "lbl-interactable": "可交互",
+      "lbl-id": "元素标识",
+      "lbl-play": "玩",
+      "lbl-pause": "暂停",
+      "error-url": "从网址加载时出错"
+    },
+    "volumetric": {
+      "name": "体积",
+      "description": "动态加载体积视频。",
+      "uvolPaths": "UVOL Paths",
+      "playmode": "播放模式",
+      "playtitle": "玩",
+      "pausetitle": "暂停"
+    },
+    "spline": {
+      "description": "动态创建和自定义曲线。",
+      "lbl-addNode": "将节点添加到曲线。"
+    },
+    "systemnode": {
+      "description": "附加脚本。",
+      "lbl-filePath": "网址",
+      "lbl-systemUpdateType": "注射点",
+      "lbl-enableClient": "客户",
+      "lbl-enableServer": "服务器",
+      "lbl-args": "参数",
+      "error-url": "从 URL 加载脚本时出错"
+    },
+    "portal": {
+      "lbl-portal": "链接门户",
+      "lbl-redirect": "使用页面重定向",
+      "description": "将玩家传送到指定位置的 Portat",
+      "lbl-locationName": "位置",
+      "lbl-modelUrl": "模型网址",
+      "lbl-displayText": "显示文本",
+      "lbl-cubemapBake": "立方体地图烘焙",
+      "lbl-spawnPosition": "生成位置",
+      "lbl-spawnRotation": "生成旋转",
+      "lbl-triggerPosition": "触发位置",
+      "lbl-triggerRotation": "触发器旋转",
+      "lbl-triggerScale": "触发刻度"
+    },
+    "postprocessing": {
+      "name": "后处理",
+      "description": "用于将后期处理效果应用于场景。"
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "新建项目",
+      "backLink": "返回项目",
+      "featured": "特色",
+      "all": "都",
+      "newProject": "新建空项目",
+      "ph-search": "搜索场景..."
+    },
+    "grid": {
+      "loading": "装载。。。"
+    },
+    "page": {
+      "header": "欢迎",
+      "headerMsg": "如果您是新手，我们建议您阅读本教程。否则，请直接跳入并从头开始或从我们的模板之一创建项目。",
+      "lbl-startTutorial": "开始教程",
+      "projects": "项目",
+      "lbl-newProject": "新建项目"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "装载。。。",
+      "placeObject": "放置对象",
+      "placeObjectAtOrigin": "将对象置于原点",
+      "copyURL": "复制网址",
+      "openInNewTab": "在新标签页中打开网址",
+      "deleteAsset": "删除资产"
+    },
+    "filebrowser": {
+      "addNewFolder": "添加新文件夹",
+      "cutAsset": "切",
+      "copyAsset": "复制",
+      "pasteAsset": "糊",
+      "renameAsset": "重命名",
+      "viewAssetProperties": "查看属性"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "重命名",
+    "lbl-duplicate": "重复",
+    "lbl-group": "群",
+    "lbl-delete": "删除",
+    "lbl-expandAll": "展开全部",
+    "lbl-collapseAll": "全部折叠",
+    "isseus": "问题："
+  },
+  "dnd": {
+    "nodes": "{{count}} 选定的节点",
+    "models": "{{count}} 所选型号",
+    "images": "{{count}} 所选图像",
+    "videos": "{{count}} 视频已选",
+    "audio": "{{count}} 选定的音频源"
+  },
+  "dialog": {
+    "title": "编辑 器",
+    "lbl-confirm": "还行",
+    "lbl-cancel": "取消",
+    "exportProject": {
+      "title": "出口项目",
+      "lbl-confirm": "出口项目",
+      "lbl-combineMesh": "合并网格",
+      "lbl-removeUnused": "删除未使用的对象"
+    },
+    "performance": {
+      "title": "性能检查",
+      "lbl-confirm": "发布场景",
+      "learnMore": "了解更多信息",
+      "lbl-polycount": "多边形计数",
+      "lbl-material": "材料",
+      "lbl-texture": "纹理",
+      "lbl-lights": "灯",
+      "lbl-fileSize": "文件大小",
+      "info-polycount": "我们建议您的场景在移动设备上使用不超过 50，000 个三角形。",
+      "info-material": "我们建议在场景中使用不超过 25 种独特的材质，以减少移动设备上的绘制调用。",
+      "info-texture": "我们建议您的纹理在移动设备上使用不超过 256MB 的视频 RAM。我们还建议不要使用大于 2048 x 2048 的纹理。",
+      "info-lights": "虽然移动设备上未启用动态灯光，但我们建议在场景中使用不超过 3 个灯光（不包括环境灯光和半球灯光），以便场景在低端电脑上运行。",
+      "info-fileSize": "对于低带宽连接，我们建议最终文件大小不超过 16MB。减小文件大小将减少下载场景所需的时间。",
+      "txt-polycount": "{{count}} 三角形",
+      "txt-material": "{{count}} 材料",
+      "txt-ram": "~{{count}} 视频内存",
+      "txt-texture": "{{count}} 大纹理",
+      "txt-lights": "{{count}} 灯"
+    },
+    "progress": {
+      "title": "装载。。。",
+      "msg": "装载。。。",
+      "lbl-cancel": "取消"
+    },
+    "publish": {
+      "title": "发布场景",
+      "lbl-confirm": "保存并发布",
+      "lbl-name": "场景名称",
+      "info-name": "名称必须介于 4 到 64 个字符之间，并且不能包含下划线"
+    },
+    "published": {
+      "title": "场景已发布",
+      "header": "您的场景已发布。",
+      "lbl-view": "查看您的场景"
+    },
+    "saveNewProject": {
+      "title": "支持",
+      "lbl-name": "项目名称",
+      "info-name": "名称必须介于 4 到 64 个字符之间，并且不能包含下划线",
+      "lbl-confirm": "保存项目"
+    },
+    "support": {
+      "title": "支持",
+      "header": "需要报告问题？",
+      "msg": "您可以提交 <1>GitHub 问题</1>或发送电子邮件给我们以获取支持<3>，{{mail}}</3>",
+      "discord": "您也可以在<1>Discord</1>上找到我们"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "必应图像",
+      "search": "按必应搜索"
+    },
+    "bingVideo": {
+      "name": "必应视频",
+      "search": "按必应搜索"
+    },
+    "element": {
+      "name": "元素"
+    },
+    "myAssets": {
+      "name": "我的资产"
+    },
+    "googlePoly": {
+      "name": "谷歌保利",
+      "search": "按谷歌搜索"
+    },
+    "tenor": {
+      "name": "年期 GIF",
+      "search": "按男高音搜索",
+      "ph-search": "搜索 GIF..."
+    },
+    "sketchfab": {
+      "name": "素描",
+      "search": "按素描厂搜索"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "上传资产"
+    },
+    "imageSourcePanel": {
+      "ph-search": "搜索图片..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "搜索视频..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "搜索资产..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "搜索模型..."
+    },
+    "useUpload": {
+      "multipleFileError": "输入不接受多个文件。",
+      "mineTypeError": "“{{name}}”与以下哑剧类型或扩展名不匹配： {{types}}",
+      "progressTitle": "上传文件",
+      "progressMsg": "上传文件 {{uploaded}} / {{total}}： {{percentage}}%",
+      "uploadError": "上传错误",
+      "uploadErrorMsg": "上传文件时出错： {{message}}",
+      "uploadErrorDefaultMsg": "出现未知错误"
+    }
+  },
+  "openLink": {
+    "description": "请单击“打开”以导航到该链接。",
+    "lbl-open": "打开"
+  },
+  "interactableModel": {
+    "lbl-buy": "买",
+    "lbl-learnMore": "了解更多信息"
+  },
+  "corsProxyButton": {
+    "tooltip": "使用 Cors 代理服务器"
+  }
+}

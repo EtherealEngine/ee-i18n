@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Načítava sa stránka..."
+  },
+  "tooltip": {
+    "pressKey": "Stlačenie {{tip}} na {{message}}"
+  },
+  "toast": {
+    "joined": "Pripojil",
+    "left": "Vľavo"
+  },
+  "navUserWidget": {
+    "login": "Prihlásiť sa"
+  },
+  "loader": {
+    "connecting": "Spojenie so svetom...",
+    "entering": "Vstup do sveta...",
+    "loading": "Nakladanie...",
+    "objectRemaining": "{{count}} zostávajúci objekt",
+    "objectRemainingPlural": "{{count}} zostávajúce objekty",
+    "loadingObjects": "Načítanie objektov",
+    "loadingComplete": "Nabíjanie dokončené",
+    "joiningWorld": "Pripojiť sa k svetu"
+  },
+  "alert": {
+    "eventWasSuccess": "Podujatie bolo úspešné",
+    "errorWasEncountered": "Vyskytla sa chyba",
+    "eventInProgress": "Prebiehajúca udalosť",
+    "seconds": "Sekúnd",
+    "cancelCountdown": "Zatvorením tohto modalu sa odpočítavanie zruší"
+  },
+  "debug": {
+    "refresh": "Občerstviť",
+    "stats": "Štatistiky",
+    "debugOptions": "Možnosti ladenia",
+    "physicsDebug": "Fyzika",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Pomocník uzla",
+    "gridDebug": "Mriežka",
+    "simpleMaterials": "Jednoduché materiály",
+    "tick": "Kliešť",
+    "worldStore": "Svetový obchod",
+    "engineStore": "Obchod s motormi",
+    "namedEntities": "Pomenované entity",
+    "networkObject": "Sieťový objekt",
+    "networkClients": "Sieťoví klienti"
+  },
+  "recording": {
+    "videoRecorder": "Videorekordér",
+    "waitingForPermissions": "Čakanie na povolenia",
+    "selectVideoSource": "Výber zdroja videa",
+    "screen": "Obrazovka",
+    "camera": "Fotoaparát",
+    "microphone": "Mikrofón",
+    "startRecording": "Spustenie nahrávania",
+    "pauseRecording": "Pozastaviť nahrávanie",
+    "resumeRecording": "Obnovenie nahrávania",
+    "stopRecording": "Zastavenie nahrávania"
+  },
+  "typing": "Písanie...",
+  "gameServer": {
+    "browserError": "Chyba prehliadača",
+    "browserErrorMessage": "Váš prehliadač nepodporuje ukladanie v režime súkromného prehliadania. Skúste iný prehliadač alebo ukončite režim súkromného prehliadania.",
+    "noAvailableServers": "Žiadne dostupné servery",
+    "noAvailableServersMessage": "Nie sú k dispozícii žiadne servery, ku ktorým by ste sa mohli pripojiť. Pokus o opätovné pripojenie",
+    "worldDisconnected": "Svet odpojený",
+    "worldDisconnectedMessage": "Stratili ste spojenie so svetom. Pokúsime sa znova pripojiť pred uplynutím nasledujúceho času, inak budete presmerovaní na inú inštanciu.",
+    "webGLNotEnabled": "WebGL nie je povolený",
+    "webGLNotEnabledMessage": "Váš prehliadač nepodporuje WebGL alebo je vypnutý. Povoľte WebGL alebo zvážte inováciu na najnovšiu verziu vášho prehliadača.",
+    "youKickedFromWorld": "Bol si vyhodený zo sveta.",
+    "youKickedFromWorldMessage": "Bol si vyhodený z tohto sveta z nasledujúceho dôvodu.",
+    "invalidLocation": "Neplatné umiestnenie",
+    "cantFindLocation": "Nevieme nájsť miesto",
+    "misspelledOrNotExist": "Môže to byť nesprávne napísané, alebo nemusí existovať.",
+    "loading": "nakladanie",
+    "low-frame-error": "Zistil sa, že zlá perfomance zvážiť povolenie použitia hardvéru zrýchlenie v prehliadači a znova spustiť prehliadač",
+    "low-frame-title": "Povoľte hardvérovú akceleráciu pre lepší zážitok!"
+  },
+  "error": {
+    "loading-error": "Nepodarilo sa načítať údaje používateľa",
+    "validation-error": "Zadajte platné {{type}}",
+    "login-error": "Nepodarilo sa prihlásiť"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "addComment": "Tānaki atu ha Fakamatala...",
+  "share": "Vahevahe",
+  "suggestions": "Ngaahi Fokotuʻu Maʻau",
+  "seeAll": "Vakai ki he Kotoa",
+  "likes": "Saiʻia",
+  "viewComments": "Vakai ki he ngaahi fakamatala kotoa {{count}}",
+  "more": "lahi ange",
+  "username": "hingoa ngāué",
+  "fullName": "Hingoa Fakafāmilí",
+  "reportInApporpriate": "Lipooti Taʻefeʻunga",
+  "unfollow": "ʻIkai toe lava ʻo fakaʻaongaʻi",
+  "goToPost": "ʻAlu ki he Post",
+  "shareModal": "Vahevahe",
+  "copyLink": "Hiki Tatau ʻa e Fehokotakiʻang",
+  "embed": "Embed",
+  "cancel": "Kaniseli",
+  "confirm": "Hilifakinima ke Maʻu ʻa",
+  "save": "Seivi",
+  "profilePic": "{{user}}fakamatala fakafoʻituitui pic",
+  "ara": "Ara",
+  "follow": "Muimui",
+  "flames": "Ulo ʻo e Afi",
+  "continue": "Hoko Atu",
+  "partyInvitationSent": "ʻAve e fakaafe ʻa e pātí",
+  "arMedia": {
+    "back": "ʻI mui",
+    "clip": "Konga",
+    "backgrounds": "Puipuituʻá",
+    "start": "Kamata"
+  },
+  "arMediaform": {
+    "title": "Hingoá",
+    "type": "Faʻahinga",
+    "clip": "Konga",
+    "background": "Puipuituʻá",
+    "scene": "Meʻa naʻe hok",
+    "save": "Seivi",
+    "manifest-file": "Fakahā mai .fakahā mai ʻa e failé",
+    "audio-file": "Faile Mp4",
+    "dracosis-file": "Dracosis . uvol file",
+    "preview-file": "Tomuʻa vakaiʻi ʻa e faile ʻi"
+  },
+  "creator": {
+    "myVideos": "Ko ʻEku Ngaahi Vitioó",
+    "savedVideos": "Ngaahi Vitiō kuo Seiví",
+    "back": "ʻI mui",
+    "blocked-list": "Lisi ʻOku Loka",
+    "block-user": "Tokotaha Ngāue ʻi he Poloka",
+    "dialog-content": "He ʻikai te ke sio ki he puipuituʻa mo e meʻa ʻi loto ʻo e tokotaha ngāue ki he polokalamá"
+  },
+  "creatorForm": {
+    "back": "ʻI mui",
+    "edit": "Fakatonutonu a e Fakamatala Fakafoʻituituí",
+    "save": "Seivi",
+    "changeAvatar": "Liliu ʻa e ʻimisi ʻo e meʻa ʻ",
+    "ph-selectPreview": "Fili ʻa e tomuʻa vakaiʻ",
+    "ph-name": "Ko ho hingoá",
+    "ph-username": "Ho Hingoa Ngāué",
+    "ph-email": "Ko Hoʻo ʻĪmeilí",
+    "ph-tags": "Ngaahi Meʻa Kuo Fakaʻilonga",
+    "ph-link": "Fakafehokotakiʻangá",
+    "ph-aboutYou": "Fakamatala lahi ange kau kiate koe",
+    "ph-twitter": "Twitter",
+    "ph-instagram": "Instagram",
+    "ph-tiktok": "fakaʻuhingaʻi e ktok",
+    "sign-out": "Hū ki Tuʻa mei he Polokalamá"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Kau Fakaʻaongaʻí",
+    "feeds": "Fehokotakiʻaí",
+    "arMedia": "Mītia Vitioó",
+    "editor": "ʻĒtitá",
+    "creator": "Tupuʻangá"
+  },
+  "featured": {
+    "empty-list": "ʻIkai ha fafanga he taimi ni ..."
+  },
+  "feed": {
+    "back": "ʻI mui",
+    "related": "Fehokotakiʻanga ʻoku fekauʻakí",
+    "is-repoted-message": "ʻOku lipooti mai ʻa e fafanga!"
+  },
+  "feedForm": {
+    "back": "ʻI mui",
+    "thanks": "Fakamālō atu ʻi hono vahevahe mo fakaleleiʻi homau koló",
+    "share": "Vahevahe ha meʻa mo e koló",
+    "upload": "Upload e Vitioó",
+    "ph-selectVideo": "Fili ʻa e Vitioó",
+    "preview": "Tomuʻa vakaiʻi e ʻī",
+    "ph-selectPreview": "Fili ʻa e tomuʻa vakaiʻ",
+    "createFeed": "Ke lava ʻo faʻu ha fafanga, kuo pau ke ke maʻu ha foʻi vitio mo ha ʻimisi tomuʻa vakaiʻi!!!",
+    "ph-videoName": "Hingoa hoʻo vitioó",
+    "ph-type": "Taipeʻi ʻa e meʻa ʻokú ke fie vahevahe mo e koló ... ",
+    "lbl-share": "Vahevahe",
+    "save": "Seivi pea hoko atu"
+  },
+  "feedMenu": {
+    "featured": "ʻOku ʻoatu",
+    "creators": "Kau Fakatupu",
+    "feed": "Ko e Fafanga"
+  },
+  "header": {
+    "lbl-volumetric": "Leʻolahi"
+  },
+  "login": {
+    "account": "ʻOku ʻi ai haʻo ʻakauni?",
+    "login": "Login",
+    "resetPassword": "Fakafoʻou e lea fufuu loi (ʻe hoko ʻeni ko ha fehokotakiʻanga mei he ʻimeili)",
+    "notHavingAccount": "ʻIkai ke ʻi ai haʻo ʻakauni?",
+    "signUp": "Fakamoʻoni hingoa",
+    "forgotPassword": "Ngalo e lea fufuú?",
+    "back": "ʻI mui",
+    "or": "PE"
+  },
+  "comment": {
+    "add": "Tānaki atu hoʻo fakamatalá..."
+  },
+  "notification": {
+    "feedFire": " fana hoʻo fafanga",
+    "feedBookmarked": " fakaʻilongaʻi hoʻo fafangá",
+    "comment": " naʻá ke pehē ko hoʻo fafangá:",
+    "commentFire": " fana hoʻo fakamatala ke fafanga",
+    "follow": " kamata muimui atu ʻiate koe",
+    "unfollow": " tuku hoʻo muimui ʻiate koé",
+    "followed": " muimui ʻiate koe",
+    "activity": "ʻEkitivitii"
+  },
+  "onBoarding": {
+    "welcome": "ʻOku talitali lelei koe!",
+    "description": "Fokotuʻutuʻu lahi taha ʻo e 370 + layouts ki he iOS prototyping.",
+    "next": "Hokó",
+    "discover": "ʻIloʻi e ngaahi fakamatalá,",
+    "news": "ongoongo & ngaahi pou",
+    "lines": "Ko e ngaahi ongo ia ʻokú ne teke ʻetau ʻofa ki he ngaahi fetuʻú mo ʻetau fakaʻamú.",
+    "getStarted": "Kamata",
+    "meetUp": "Fakataha mo",
+    "friends": "ngaahi kaungāmeʻá.",
+    "meet": "Fakataha mo e ngaahi kaungāmeʻá"
+  },
+  "shareForm": {
+    "arcMedia": "Vahevahe",
+    "videoCreated": "Naʻá ku Faʻu ʻa e Vitiō ko ʻEní",
+    "shareWithBuddies": "Vahevahe mo e kaungāmeʻá",
+    "shareVideo": "Vahevahe ʻa e Vitioó",
+    "save": "Seivi ki he Taliui ki he Meʻafaitaá",
+    "cancel": "Kaniseli",
+    "close": "Tāpuni",
+    "addFeed": "Tānaki ha Fafanga"
+  },
+  "simpleModal": {
+    "emptyList": "Lisi ʻoku ʻikai ʻi ai ha meʻ",
+    "followers": " muimui ʻi he",
+    "following": " kau muimuí",
+    "flames": " ulo ʻo e afi"
+  },
+  "splash": {
+    "screen": "Screen Tala",
+    "logo": "Fakaʻilongá"
+  },
+  "story": {
+    "profilePic": "{{user}}fakamatala fakafoʻituitui pic"
+  },
+  "view": {
+    "cancel": "Kaniseli",
+    "choice": "ʻOku ʻi ai ha founga lekooti kehekehe ʻe ua ke ke fili mei ai",
+    "verticalMode": "ʻOku ʻi ai ha 30 sec taimi lekooti ʻo e vertical Mode",
+    "horizontalMode": "ʻOku ʻi ai ha taimi lekooti taʻe fakangatangata ʻo e mode ki he tuʻuʻang",
+    "start": "Kamata",
+    "not-show": "ʻOua ʻe toe fakaʻasi",
+    "welcome": "ʻOku talitali lelei koe ki he ARC!  Faʻu ha ngaahi vitio fakatautaha mo ha taha ʻo ʻetau holograms pea fokotuʻu ia ki hoʻo ngaahi senolo mitia fakasosiale!",
+    "step": "SITEPU {{step}}",
+    "text-step-1": "Fili ha hologram mei he laipeli.",
+    "text-step-2": "Ko fakalahi moʻoni ʻeni, ko ia scan ʻa e feituʻu ʻoku ʻataa mo hoʻo meʻa faitaa mei he tafaʻaki ki he tafaʻaki ʻi ha sekoni ʻe 3-5 ʻa ia ʻoku ke fie maʻu ke ʻi ai ʻa e ngaue hologram.",
+    "text-step-3-part-1": "Lomiʻi tuʻo taha ʻi he screen ʻi he feituʻu ʻoku ke fie maʻu ai ʻa e hologram.",
+    "text-step-3-part-2": "TOKONI!  Lomiʻi ʻi ha feituʻu kehe ke ʻunuakiʻi ʻa e hologram ki ha tuʻunga ʻe taha.",
+    "text-step-3-part-3": "TOKONI!  Te ke lava ʻo resize ʻa e hologram ʻaki haʻo vakuʻi laʻusi pe fakalahi ʻa e screen ʻaki ho motuʻa tuhu mo e foʻi tuhu fakahokohoko fakamotuʻalea.",
+    "text-step-4-part-1": "Lomiʻi tuʻo ua ʻi he lekooti kulokula ke KAMATA hoʻo hiki vitioo.",
+    "text-step-4-part-2": "Lomiʻi tuʻo ua ʻa e meʻa lomi lekooti kulokula ke TAʻOFI."
+  },
+  "video": {
+    "back": "ʻI mui"
+  },
+  "terms": {
+    "confirmTerms": "ʻOku ou Loto Fiemālie ki he Ngaahi Tuʻunga Ngāue Tokoní",
+    "confirmPolicy": "ʻOku ou loto fiemālie ki he Tuʻutuʻuni Totonu Fakatāutahá"
+  },
+  "registration": {
+    "ph-phoneEmail": "Fakaʻaongaʻi e telefoní / ʻīmeilí",
+    "facebook": "Hoko atu ʻi he Facebook",
+    "google": "Hoko atu ki he Google",
+    "linkedin": "Hoko atu mo e Linkedin",
+    "twitter": "Hoko atu ʻi he Twitter",
+    "gitHub": "Hoko atu ʻi he GitHub",
+    "connect": "Fakahoko hoʻo ʻīmeilí pe fika telefoní",
+    "logIn": "Hū ki he polokalamá",
+    "LogInTo": "Hū ki he",
+    "continueAsGuest": "Hoko atu ko ha fakaafe"
+  }
+}

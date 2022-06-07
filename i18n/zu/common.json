@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Ifaka ikhasi..."
+  },
+  "tooltip": {
+    "pressKey": "Cindezela {{tip}} {{message}}"
+  },
+  "toast": {
+    "joined": "ihlanganiswe",
+    "left": "kwesobunxele"
+  },
+  "navUserWidget": {
+    "login": "Ngena ngemvume"
+  },
+  "loader": {
+    "connecting": "Kuxhunywa ezweni...",
+    "entering": "Ukungena ezweni...",
+    "loading": "Isafaka...",
+    "objectRemaining": "into {{count}} esele",
+    "objectRemainingPlural": "{{count}} izinto ezisele",
+    "loadingObjects": "Ifaka Izinto",
+    "loadingComplete": "Ukulayisha Kuqediwe",
+    "joiningWorld": "Ukujoyina Izwe"
+  },
+  "alert": {
+    "eventWasSuccess": "Isehlakalo siphumelele",
+    "errorWasEncountered": "Kuhlanganiswe nephutha",
+    "eventInProgress": "Isehlakalo siyaqhubeka",
+    "seconds": "imizuzwana",
+    "cancelCountdown": "Ukuvala le modal kuzochitha ukubala"
+  },
+  "debug": {
+    "refresh": "Vuselela Kabusha",
+    "stats": "Stats",
+    "debugOptions": "Izinketho Zokukhipha Izilokiselo",
+    "physicsDebug": "Isayensi Yembuka Yesayensi Yembuka",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Node Helper",
+    "gridDebug": "Uhlaka",
+    "simpleMaterials": "Izinto Ezilula",
+    "tick": "Ikhizane",
+    "worldStore": "Isitolo Somhlaba",
+    "engineStore": "Isitolo Senjini",
+    "namedEntities": "Igama Elibizwa Ngokuthi Izinhlangano",
+    "networkObject": "Into Yomphambo",
+    "networkClients": "Amaklayenti Omphambo"
+  },
+  "recording": {
+    "videoRecorder": "Isiqophi sevidiyo",
+    "waitingForPermissions": "Ilindele izimvume",
+    "selectVideoSource": "Khetha umthombo wevidiyo",
+    "screen": "Ubuso besi",
+    "camera": "Ikhamera",
+    "microphone": "Microphone",
+    "startRecording": "Qala ukuqopha",
+    "pauseRecording": "Misa kancane ukuqopha",
+    "resumeRecording": "Qalisa futhi ukuqopha",
+    "stopRecording": "Misa ukuqopha"
+  },
+  "typing": "Ukubhala...",
+  "gameServer": {
+    "browserError": "Iphutha Lesiphequluli",
+    "browserErrorMessage": "Isiphequluli sakho asikwesekeli ukugcina ngendlela yokuphequlula ngasese. Zama esinye isiphequluli, noma phuma kwindlela yokuphequlula yomuntu uqobo lwakhe.",
+    "noAvailableServers": "Abekho Abanikezeli Abakhona",
+    "noAvailableServersMessage": "Abekho abanikezeli abakhona ukuze uxhumeke kubo. Izama ukuxhuma kabusha",
+    "worldDisconnected": "Izwe linqanyuliwe",
+    "worldDisconnectedMessage": "Ulahlekelwe ubuhlobo bakho nezwe. Sizozama ukuxhuma kabusha ngaphambi kokuba isikhathi esilandelayo siphele, ngaphandle kwalokho uyodluliselwa kwesinye isenzakalo.",
+    "webGLNotEnabled": "IwebhuGL ayivunyelwe",
+    "webGLNotEnabledMessage": "Isiphequluli sakho asisekeli iWebhuGL, noma sinqanyuliwe. Ucelwa ukuba uvumele i-WebGL noma ucabangele ukubuyekezwa kwisibuyekezo sakamuva sesicingi sakho.",
+    "youKickedFromWorld": "Ukhahlelwa emhlabeni",
+    "youKickedFromWorldMessage": "Wakhahlelwa kuleli zwe ngenxa yalesi sizathu esilandelayo",
+    "invalidLocation": "Indawo engaqinisekisiwe",
+    "cantFindLocation": "Asikwazi ukuthola indawo",
+    "misspelledOrNotExist": "Ingase iphutheke, noma ingase ingekho.",
+    "loading": "Ukulayishiza",
+    "low-frame-error": "Ukutholakala kwe-perfomance esezingeni eliphansi cabangela ukwenza isisetshenziswa esilukhuni sikwazi ukushesha kwisicingi sakho bese uphinda ufaka isiphequluli sakho",
+    "low-frame-title": "Vumela ukushesha kwesisetshenziswa esilukhuni ukuze uthole okuhlangenwe nakho okungcono!"
+  },
+  "error": {
+    "loading-error": "Yehlulekile ukufaka imininingwane yomsebenzisi",
+    "validation-error": "Ucelwa ukuba ufake {{type}}",
+    "login-error": "Yehlulekile ukungena"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Bogga Loading ..."
+  },
+  "tooltip": {
+    "pressKey": "Riix {{tip}} oo ku {{message}}"
+  },
+  "toast": {
+    "joined": "biiray",
+    "left": "bidix"
+  },
+  "navUserWidget": {
+    "login": "Soo gal"
+  },
+  "loader": {
+    "connecting": "Ku xiran dunida...",
+    "entering": "Soo gelitaanka dunida ...",
+    "loading": "Loading...",
+    "objectRemaining": "{{count}} shay hadhay",
+    "objectRemainingPlural": "Walxaha {{count}} hadhay oo wali ku haray",
+    "loadingObjects": "Loading waxyaabaha",
+    "loadingComplete": "Loading Buuxi",
+    "joiningWorld": "Ku biirida World"
+  },
+  "alert": {
+    "eventWasSuccess": "Dhacdada ayaa lagu guuleystay",
+    "errorWasEncountered": "Waxaa la kulmay qalad",
+    "eventInProgress": "Event in progress",
+    "seconds": "ilqadaha",
+    "cancelCountdown": "Xiritaanka qaabkan wuxuu joojin doonaa xisaabinta"
+  },
+  "debug": {
+    "refresh": "cusboonaysiya",
+    "stats": "Stats",
+    "debugOptions": "Debug Options",
+    "physicsDebug": "Physics",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Node Helper",
+    "gridDebug": "Grid",
+    "simpleMaterials": "Qalabka Simple",
+    "tick": "Tick",
+    "worldStore": "Dukaanka Adduunka",
+    "engineStore": "Engine Store",
+    "namedEntities": "Magacyada Hay'adaha",
+    "networkObject": "Shaxda Network",
+    "networkClients": "Macaamiisha Network"
+  },
+  "recording": {
+    "videoRecorder": "Video taariikhqorihii",
+    "waitingForPermissions": "Ogolaanshana ku sugitaanka",
+    "selectVideoSource": "Dooro il video",
+    "screen": "Shaashadaha",
+    "camera": "camera",
+    "microphone": "Makarafoonka",
+    "startRecording": "Bilow duubista",
+    "pauseRecording": "Hakad joojin duubista",
+    "resumeRecording": "Duubista Resume",
+    "stopRecording": "Jooji duubista"
+  },
+  "typing": "Haku...",
+  "gameServer": {
+    "browserError": "Khaladaadka Browser",
+    "browserErrorMessage": "Your browser ma taageeri kaydinta in hab u daalacashada gaarka loo leeyahay. Ama isku day browser kale, ama ka baxo hab gaarka ah ee u dhirta.",
+    "noAvailableServers": "Ma jiro server Available",
+    "noAvailableServersMessage": "Waxaa jira ma jiraan wax server ah oo aad diyaar u ah inay ku xidhaan si ay u. Isku dayga inaad dib iskula xiriiriso",
+    "worldDisconnected": "Dunida oo go'eysa",
+    "worldDisconnectedMessage": "Waxaad lumisay xidhiidhka aad la leedahay dunida. Waxaan isku dayi doonaa in aan dib ula xiriirno inta aan waqtiga soo socda uu dhamaado, haddii kale waxaa laguu gudbin doonaa tusaale ka duwan kii hore.",
+    "webGLNotEnabled": "WebGL ma awood",
+    "webGLNotEnabledMessage": "Browserkaaga ma taageerto WebGL, ama waa naafo. Fadlan awood WebGL ama ka fiirso casriyaynta si version ugu dambeeyay ee biraawsarkaaga.",
+    "youKickedFromWorld": "aduunka ayaa lagaa ka laaday",
+    "youKickedFromWorldMessage": "Adduunkan ayaa lagaa laalaadiyay sababta soo socota",
+    "invalidLocation": "goobta aan qasab ahayn",
+    "cantFindLocation": "Meesha ma heli karno",
+    "misspelledOrNotExist": "Waxaa laga yaabaa in si qaldan loo iibiyo, ama aysan jiri karin.",
+    "loading": "loading",
+    "low-frame-error": "Ogaaday a perfomance miskiin tixgelin awood Dardar Isticmaalka dardar Hardware in aad browser iyo relauch aad browser",
+    "low-frame-title": "Awood dardar hardware waayo-aragnimo wanaagsan!"
+  },
+  "error": {
+    "loading-error": "Ku guuldareystay in ay shubto xogta user",
+    "validation-error": "Fadlan gali ansax {{type}}",
+    "login-error": "Gudagal ku guuldareystay inuu login"
+  }
+}

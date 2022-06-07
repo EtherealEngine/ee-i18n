@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "ʻĪmeili Hilifakinimá",
+      "resendEmail": "Kātaki ʻo vakaiʻi hoʻo ʻīmeilí ke fakapapauʻi hoʻo ʻakauní. Kapau naʻe ʻikai ke ke maʻu ha ʻīmeili, kātaki ʻo lomiʻi ʻi he {{here}} ke toe ʻave ʻa e ʻīmeili fakapapauʻí.",
+      "haveAnAccount": "ʻOku ʻi ai haʻo ʻakauni?"
+    },
+    "forgotPassword": {
+      "header": "Ngalo e Lea Fufuú",
+      "enterEmail": "Kātaki ʻo fakahū ho tuʻasila ʻīmeili kuo lesisitá pea te mau ʻoatu ha fehokotakiʻanga fakafoʻou ʻo e lea fufuú.",
+      "lbl-email": "Tuʻasila ʻĪmeilí",
+      "lbl-submit": "ʻAve ʻa e Fehokotakiʻang",
+      "emailSent": "Naʻe ʻave ʻa e ʻĪmeili Fakafoʻou ʻo e Lea Fufuú. Kātaki ʻo vakaiʻi hoʻo ʻīmeilí."
+    },
+    "login": {
+      "email": "ʻĪmeili | SMS",
+      "username": "Hingoa Ngāue ʻi he Polokalamá + Lea Fufuú",
+      "social": "Fakasōsialé"
+    },
+    "magiklink": {
+      "header": "Fehokotakiʻanga login",
+      "descriptionEmail": "Kātaki ʻo fakahū ho tuʻasila ʻīmeilí pea te mau ʻoatu ha fehokotakiʻanga login ʻo fakafou ʻi he ʻĪmeilí.",
+      "descriptionSMS": "Kātaki ʻo fakahū hoʻo fika telefoní pea te mau ʻoatu ha fehokotakiʻanga login ʻo fakafou ʻi he SMS.",
+      "descriptionEmailSMS": "Kātaki ʻo fakahū ho tuʻasila ʻīmeilí pe fika telefoní (mataʻifika pē ʻe 10, US pē) pea te mau ʻoatu ha fehokotakiʻanga login ʻo fakafou ʻi he ʻĪmeilí pe SMS.",
+      "descriptionSMSUS": "Kātaki ʻo fakahū hoʻo fika telefoní (mataʻifika ʻe 10, US pē) pea te mau ʻoatu ha fehokotakiʻanga login ʻo fakafou ʻi he SMS.",
+      "lbl-email": "Tuʻasila ʻīmeilí",
+      "lbl-emailPhone": "ʻĪmeili pe fika Telefoní",
+      "lbl-phone": "Fika telefoní",
+      "agree": "ʻOku ou loto fiemalie ki he ",
+      "terms": "Ngaahi Lea & Tuʻungá",
+      "lbl-submit": "ʻAve ʻa e Fehokotakiʻanga login",
+      "email-sent-msg": "Naʻe ʻave ʻa e Fehokotakiʻanga Faimana login. Kātaki ʻo vakaiʻi hoʻo ʻĪmeilí.",
+      "success-msg": "Naʻe ʻave ʻa e Fehokotakiʻanga Faimana login. Kātaki ʻo vakaiʻi hoʻo ʻĪmeilí pe SMS.",
+      "sms-sent-msg": "Naʻe ʻave ʻa e Fehokotakiʻanga Faimana login. Kātaki ʻo vakaiʻi hoʻo SMS."
+    },
+    "passwordLogin": {
+      "header": "Hū ki he Polokalamá",
+      "lbl-email": "Tuʻasila ʻĪmeilí",
+      "lbl-password": "Lea Fufuú",
+      "lbl-rememberMe": "Manatuʻi au",
+      "lbl-signin": "Hū ki he Polokalamá",
+      "forgotPassword": "Ngalo e lea fufuú?",
+      "signup": "ʻIkai ke ʻi ai haʻo ʻakauni? Fakamoʻoni hingoa",
+      "lbl-login": "Loka ʻIni",
+      "ph-password": "Lea Fufuú",
+      "ph-email": "ʻĪmeilí"
+    },
+    "social": {
+      "gitHub": "Login mo e GitHub",
+      "google": "Login mo e Google",
+      "facebook": "Login mo e Facebook",
+      "linkedin": "Login mo e Linkedin",
+      "twitter": "Login mo e Twitter"
+    },
+    "register": {
+      "header": "Fakamoʻoni hingoa",
+      "login": "Loka ʻIni",
+      "lbl-signup": "Fakamoʻoni hingoa",
+      "lbl-password": "Lea Fufuú",
+      "lbl-email": "Tuʻasila ʻĪmeilí",
+      "passwordNotMatch": "ʻOku ʻIkai Tatau ʻa e Lea Fufuú",
+      "ph-password": "Lea Fufuú",
+      "ph-confirmPassword": "Fakapapauʻi ʻo e Lea Fufuú",
+      "ph-email": "ʻĪmeilí"
+    },
+    "resetPassword": {
+      "header": "Fakafoʻou ʻa e Lea Fufuú",
+      "description": "Kātaki ʻo fakahū hoʻo lea fufū ki ho tuʻasila ʻīmeilí",
+      "lbl-submit": "Fakafoʻou ʻa e Lea Fufuú",
+      "lbl-password": "Lea Fufuú",
+      "lbl-confirmPassword": "Fakapapauʻi ʻo e Lea Fufuú",
+      "passwordNotMatch": "ʻOku ʻIkai Tatau ʻa e Lea Fufuú",
+      "nowLoginYourAccount": "Te ke lava he taimí ni ʻo hū ki hoʻo ʻakauní",
+      "yourPasswordResetSuccess": "Kuo lava lelei hono fakafoʻou hoʻo lea fufuú!"
+    },
+    "verifyEmail": {
+      "header": "Fakapapauʻi e ʻĪmeilí",
+      "processing": "Kātaki ʻo kiʻi tatali lolotonga hoʻo ngāue ki aí..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Ngaahi Feituʻú",
+      "loading": "Fakahū (loading)",
+      "col-name": "Hingoá",
+      "col-scene": "Meʻa naʻe hok",
+      "col-maxuser": "Kau Ngāue ʻi he Polokalama Māk",
+      "lbl-search": "Kumi ʻa e ngaahi feituʻú",
+      "lbl-new": "Foʻou"
+    },
+    "newLocation": {
+      "title": "Feituʻú",
+      "success": "Lava Lelei Hono Seiví.",
+      "failure": "Naʻe ʻi ai ha meʻa naʻe fehalaaki.",
+      "removeSuccess": "Kuo lava lelei hono toʻo ʻo e feituʻú.",
+      "nameInUse": "ʻOku lolotonga ngāue ʻaki ʻa e hingoá.",
+      "nameRequire": "ʻOku fie maʻu e hingoá.",
+      "validNumber": "Ko e ngaahi mataʻifika pe (0-9) ʻoku fakangofua.",
+      "lbl-name": "Hingoá",
+      "lbl-maxuser": "Kau Ngāue ʻi he Polokalama Māk",
+      "lbl-scene": "Meʻa naʻe hok",
+      "lbl-type": "Faʻahinga",
+      "lbl-ve": "Malava ke Fakaʻata ʻa e Vitioo",
+      "lbl-gme": "Fakaʻatā ʻa e Mītia Fakamāmani Lahí",
+      "lbl-update": "Fakamatala Fakamuimuitahá",
+      "lbl-create": "Faʻu",
+      "tooltipCanNotBeDeleted": "ʻIkai lava ʻo tamateʻi ʻa e loki huʻanga",
+      "confirmation": "ʻOkú ke fakapapauʻi ia?",
+      "lbl-yes": "ʻIo",
+      "lbl-no": "ʻIkai"
+    },
+    "share": {
+      "lbl-share": "Vahevahe",
+      "ph-phoneEmail": "Fakaafeʻi ʻi he ʻīmeilí pe fika telefoní",
+      "lbl-phoneEmail": "ʻAve ki he ʻīmeilí pe fika telefoní",
+      "lbl-copy": "Hiki Tatau",
+      "lbl-send-invite": "ʻAve ʻa e Fakaafé",
+      "title": "Vahevahe ʻa e URL ʻokú ke ʻi aí mo hoʻo timí",
+      "linkCopied": "Fakafehokotakiʻanga kuo hiki ki he papa fakamaʻú (clipboard)."
+    },
+    "setting": {
+      "audio": "Ongó",
+      "lbl-volume": "Voliume",
+      "lbl-microphone": "Maika",
+      "graphics": "Ngaahi Fakatātā",
+      "controls": "Puleʻí",
+      "lbl-control-type": "Faʻahinga ʻo e Meʻa Fakapa",
+      "lbl-control-scheme": "Fokotuʻutuʻu ʻo e Mapuleʻ",
+      "lbl-resolution": "Fakaleleiʻí",
+      "lbl-shadow": "Ngaahi ʻAta",
+      "lbl-pp": "Fokotuʻu ʻa e Ngāué",
+      "lbl-pbr": "PBR Kakato",
+      "lbl-automatic": "Fakahū fakahangatonu pē",
+      "xrusersetting": "Fokotuʻutuʻu ʻo e Tokotaha Ngāue ki he XR",
+      "rotation": "Viló",
+      "rotation-smooth-speed": "Vave ʻo e Viló",
+      "rotation-angle": "Tuliki ʻo e Viló",
+      "moving": "Ngaʻunu",
+      "user-avatar": "Ko e ʻĀtakai ʻo e Me",
+      "invert-rotation": "Fulihi ʻo e vilo pea hiki ʻa e ngaahi vaʻakau",
+      "show-avatar": "Fakaʻaliʻali ʻa e meʻa"
+    },
+    "profile": {
+      "lbl-profile": "Fakamatala Fakafoʻituituí",
+      "lbl-settings": "Ngaahi Feituʻú",
+      "lbl-username": "Hingoa Ngāue ki he Polo",
+      "update-msg": "Fakafoʻou e hingoa ngāué",
+      "inviteCode": "Fakaafeʻi ʻa e Kouti",
+      "youAreAn": "Ko ha",
+      "youAreA": "Ko ha",
+      "showUserId": "Fakaʻasi e ID ʻa e Tokotaha Ngāué",
+      "hideUserId": "Fūfuuʻi ʻa e ID ʻa e Tokotaha Ng",
+      "showApiKey": "Fakaʻasi e kī API",
+      "hideApiKey": "Fūfuuʻi ʻa e kī API",
+      "apiKey": "Kī API",
+      "logout": "Hū ki tuʻa",
+      "connectPhone": "Fakahoko hoʻo fika telefoní",
+      "connectEmail": "Fakahoko hoʻo ʻīmeilí",
+      "connectPhoneEmail": "Fakahoko hoʻo ʻīmeilí pe fika telefoní",
+      "or": "Pe",
+      "lbl-wallet": "Login mo e Ualetá",
+      "ph-email": "ʻĪmeilí",
+      "ph-phone": "Fika Telefoní",
+      "ph-phoneEmail": "Fika Telefoní / ʻĪmeilí",
+      "phoneEmailError": "Fika telefoni hala pe tuʻasila ʻīmeilí",
+      "phoneError": "ʻIkai tonu e telefoní #",
+      "emailError": "ʻIkai tonu e tuʻasila ʻīmeili",
+      "loginWithReadyPlayerMe": "Login mo e Ready Player Me",
+      "connectSocial": "Fetuʻutaki mo e ngaahi ʻakauni fakasōsialé",
+      "createOne": "Kapau ʻoku ʻikai ke ʻi ai haʻo ʻakauni, ʻe faʻufaʻu ha ʻakauni foʻou maʻau",
+      "connections": {
+        "title": "Ngaahi Fehokotakiʻangá",
+        "ipError": "ʻIkai lava ʻo toʻo ʻa e Tokotaha ʻOkú ne ʻIloʻi ʻa e Tokotaha",
+        "disconnect": "taʻofi",
+        "connect": "Fakafehokotaki"
+      },
+      "profileDropdown": {
+        "avatar": "Fakaʻilonga ʻo e Tokotaha Ngāue ki he Polo",
+        "profile": "Fakamatala Fakafoʻituituí",
+        "adminConsole": "Fakafiemālie Fakapulé",
+        "logout": "Logout"
+      },
+      "userIcon": {
+        "lbl-name": "Ko ho hingoá",
+        "lbl-update": "Fakamatala Fakamuimuitahá",
+        "userId": "Id ʻa e tokotaha ngāue ki he polokala",
+        "ph-uploadImg": "Upload Product Image",
+        "lbl-selectAcvatar": "Fili ʻa e Meʻa Ko e Meʻ",
+        "lbl-submit": "Fakahū"
+      },
+      "userSettings": {
+        "volume": "Voliume",
+        "microphone": "Maika",
+        "resolution": "Fakaleleiʻí",
+        "high": "Maʻolunga",
+        "low": "Maʻulalo",
+        "spatialAudio": "Fakaʻaongaʻi ʻa e Spatial Audio",
+        "enterMuted": "Fakahū e Loki Ne ʻIkai Ngāué"
+      }
+    },
+    "oauth": {
+      "authenticating": "Fakamoʻoniʻi...",
+      "authFailed": "{{service}} oku ʻikai lava hono fakapapauʻí."
+    },
+    "magikLink": {
+      "wait": "Kātaki ʻo kiʻi tatali lolotonga hoʻo ngāue ki aí..."
+    },
+    "dashboard": {
+      "header": "Dashboard",
+      "dashboard": "Dashboard",
+      "users": "Kau Fakaʻaongaʻí",
+      "feeds": "Fehokotakiʻaí",
+      "instance": "Sīpinga",
+      "locations": "Ngaahi Feituʻú",
+      "invites": "Fakaafeʻi",
+      "sessions": "Ngaahi Fakatahá",
+      "groups": "Ngaahi Kulupú",
+      "parties": "Ngaahi Fakafiefiá",
+      "chats": "Talanoa tauʻataina",
+      "content": "Faʻoʻanga Meʻa ʻi Lot",
+      "projects": "Ngaahi Ngāué",
+      "scenes": "Ngaahi ʻAta",
+      "avatars": "Avatars",
+      "benchmarking": "Tuʻunga ʻulungaanga",
+      "bots": "Ngaahi meʻa ne fai ki ai"
+    }
+  },
+  "oauth": {
+    "authenticating": "Fakamoʻoniʻi...",
+    "authFailed": "{{service}} oku ʻikai lava hono fakapapauʻí."
+  },
+  "magikLink": {
+    "wait": "Kātaki ʻo kiʻi tatali lolotonga hoʻo ngāue ki aí..."
+  },
+  "dashboard": {
+    "header": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Kau Fakaʻaongaʻí",
+    "feeds": "Fehokotakiʻaí",
+    "instance": "Sīpinga",
+    "locations": "Ngaahi Feituʻú",
+    "routes": "Ngaahi Halanga Vaka",
+    "projects": "Ngaahi Ngāué",
+    "invites": "Fakaafeʻi",
+    "sessions": "Ngaahi Fakatahá",
+    "groups": "Ngaahi Kulupú",
+    "parties": "Ngaahi Fakafiefiá",
+    "chats": "Talanoa tauʻataina",
+    "content": "Faʻoʻanga Meʻa ʻi Lot",
+    "scenes": "Ngaahi ʻAta",
+    "avatars": "Avatars",
+    "benchmarking": "Tuʻunga ʻulungaanga",
+    "bots": "Ngaahi meʻa ne fai ki ai",
+    "setting": "Ngaahi Feituʻú"
+  },
+  "avatar": {
+    "title": "Upload ʻa e meʻa ko ʻení",
+    "lbl-browse": "Vakai Takai Holo",
+    "lbl-thumbnail": "ʻAta",
+    "lbl-upload": "Upload",
+    "selectAvatar": "Fili ʻa e meʻa ko ia ...",
+    "selectThumbnail": "Fili ʻa e Thumbnail...",
+    "rotate": "Vilo",
+    "pan": "Tini",
+    "noBone": "ʻOku ʻikai ke ʻi he Obejct ha faʻahinga hui pe kili",
+    "outOfBound": "ʻOku ʻikai haʻi e meʻa ko iá.",
+    "emptyObj": "ʻOku ʻikai ha meʻa ʻi he meʻa ko iá",
+    "maxTriangleError": "ʻOku lahi hake ʻa e meʻa ʻi he fofonga {{allowedTriangles}} .",
+    "selectValidFile": "Fili ʻa e faile 3d ʻoku kei ʻaonga.",
+    "selectValidThumbnail": "Faile ʻo e ʻAta ʻoku kei fakaʻaongaʻí.",
+    "fileOversized": "Kuo pau ke ʻi he vahaʻa ʻo {{minSize}} MB mo e {{maxSize}} MB ʻa e lahi ʻo e faile",
+    "confirmation": "ʻOkú ke fakapapauʻi ia?",
+    "canNotBeRemoved": "He ʻikai lava ke toʻo ʻa e meʻa ʻoku ne fakaʻaongaʻi",
+    "remove": "Toʻo ʻa e meʻa ko ia",
+    "uploadFiles": "Upload e ngaahi failé",
+    "useUrlInstead": "Ngāue ʻaki ʻa e url",
+    "avatar": "Ko e meʻa ʻoku hoko",
+    "cancel": "Kaniseli",
+    "createAvatar": "Faʻu ha meʻa ko e meʻ",
+    "delete": "Tāmateʻi",
+    "view": "Vakaiʻi",
+    "uploadAvatarInfo": "Fakamatala fakamuimuitaha ki he meʻa ʻoku ne fakaʻaonga",
+    "name": "Hingoá",
+    "enterName": "Fakahū e hingoá",
+    "avatarInformation": "Fakamatala ʻo e meʻa ʻoku hoko",
+    "description": "Fakamatala",
+    "key": "Kī",
+    "none": "Hala ha taha",
+    "submit": "Fakahū",
+    "edit": "Fakatonutonu",
+    "avatarUrl": "Ko e URL",
+    "upload-success-msg": "Naʻe lava lelei hono upload e meʻa ko ia.",
+    "remove-success-msg": "Naʻe lava lelei hono upload e meʻa ko ia.",
+    "warning-msg": "ʻOku ʻikai ha taha ʻi he maʻuʻanga tokoni ko ʻeni, kuo ke synced avatars ki hoʻo faile ʻoku fakaheleleu?"
+  },
+  "personMenu": {
+    "inviteToParty": "Fakaafeʻi ki he Pati",
+    "addAsFriend": "Tānaki Ko ha Kaungāmeʻa",
+    "mute": "Fakalongo",
+    "block": "Poloka"
+  },
+  "person": {
+    "you": "ʻOkú ke",
+    "yourScreen": "Ko Hoʻo Screen",
+    "muteForEveryone": "Fakalongo maʻá e tokotaha kotoa pē",
+    "unmuteForEveryone": "ʻIkai liliu maʻá e tokotaha kotoa pē",
+    "muteMe": "Taʻofi au",
+    "unmuteMe": "ʻOua ʻe toe liliu au",
+    "muteThisPerson": "Fakalongo pē ʻa e tokotahá ni",
+    "unmuteThisPerson": "Teʻeki liliu ʻa e tokotahá ni",
+    "openPictureInPicture": "Fakaava ʻa e Fakatātā ʻi he Fakatātaá"
+  }
+}

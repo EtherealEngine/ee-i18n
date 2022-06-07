@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Inapakia ukurasa..."
+  },
+  "tooltip": {
+    "pressKey": "Bonyeza {{tip}} ili {{message}}"
+  },
+  "toast": {
+    "joined": "Alijiunga",
+    "left": "Kushoto"
+  },
+  "navUserWidget": {
+    "login": "Ingia ndani"
+  },
+  "loader": {
+    "connecting": "Inaunganisha kwa ulimwengu...",
+    "entering": "Kuingia duniani...",
+    "loading": "Kupakia...",
+    "objectRemaining": "kipengee {{count}} kimebaki",
+    "objectRemainingPlural": "vipengee {{count}} vimebaki",
+    "loadingObjects": "Inapakia Vipengee",
+    "loadingComplete": "Inapakia Kamili",
+    "joiningWorld": "Kujiunga na Dunia"
+  },
+  "alert": {
+    "eventWasSuccess": "Tukio hilo lilifanikiwa",
+    "errorWasEncountered": "Kosa lilikumbana na",
+    "eventInProgress": "Tukio linaloendelea",
+    "seconds": "Sekunde",
+    "cancelCountdown": "Kufunga modal hii kutakatisha hesabu"
+  },
+  "debug": {
+    "refresh": "Onesha upya",
+    "stats": "Takwimu",
+    "debugOptions": "Rekebisha Machaguo",
+    "physicsDebug": "Fizikia",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Msaidizi wa Node",
+    "gridDebug": "Gridi",
+    "simpleMaterials": "Vifaa Rahisi",
+    "tick": "Tick",
+    "worldStore": "Duka la Dunia",
+    "engineStore": "Duka la Injini",
+    "namedEntities": "Vyombo vilivyotajwa",
+    "networkObject": "Kipengee cha Mtandao",
+    "networkClients": "Wateja wa Mtandao"
+  },
+  "recording": {
+    "videoRecorder": "Kinasa sauti cha video",
+    "waitingForPermissions": "Inasubiri ruhusa",
+    "selectVideoSource": "Teua chanzo cha video",
+    "screen": "Kiwamba",
+    "camera": "Kamera",
+    "microphone": "Mikrofoni",
+    "startRecording": "Anza kurekodi",
+    "pauseRecording": "Sitisha kurekodi",
+    "resumeRecording": "Endelea kurekodi",
+    "stopRecording": "Komesha kurekodi"
+  },
+  "typing": "Kuchapa...",
+  "gameServer": {
+    "browserError": "Kosa la Kivinjari",
+    "browserErrorMessage": "Kivinjari chako hakitegemezi hifadhi katika hali ya kuvinjari ya kibinafsi. Ama jaribu kivinjari kingine, au toa hali ya kuvinjari ya kibinafsi.",
+    "noAvailableServers": "Hakuna Seva Zinazopatikana",
+    "noAvailableServersMessage": "Hakuna seva zozote zinazopatikana kwako kuunganisha. Inajaribu kuunganisha tena katika",
+    "worldDisconnected": "Ulimwengu umekatishwa mawasiliano",
+    "worldDisconnectedMessage": "Umepoteza uhusiano wako na ulimwengu. Tutajaribu kuunganisha tena kabla ya wakati ufuatao kuisha, vinginevyo utapelekwa kwa mfano tofauti.",
+    "webGLNotEnabled": "WebGL haijawezeshwa",
+    "webGLNotEnabledMessage": "Kivinjari chako hakitegemezi WebGL, au kimelemazwa. Tafadhali wezesha WebGL au fikiria kusasisha hadi toleo jipya zaidi la kivinjari chako.",
+    "youKickedFromWorld": "Umekuwa ukipigwa kutoka kwa ulimwengu",
+    "youKickedFromWorldMessage": "Ulipigwa teke kutoka kwa ulimwengu huu kwa sababu ifuatayo",
+    "invalidLocation": "Mahali batili",
+    "cantFindLocation": "Hatuwezi kupata eneo la",
+    "misspelledOrNotExist": "Inaweza kuwa mbaya, au inaweza kuwa haipo.",
+    "loading": "Kupakia",
+    "low-frame-error": "Imegunduliwa perfomance duni fikiria kuwezesha Matumizi ya kuongeza kasi ya vifaa kwenye kivinjari chako na ubadilishe kivinjari chako",
+    "low-frame-title": "Wezesha kuongeza kasi ya maunzi kwa uzoefu bora!"
+  },
+  "error": {
+    "loading-error": "Imeshindwa kupakia data ya mtumiaji",
+    "validation-error": "Tafadhali ingiza {{type}} halali",
+    "login-error": "Imeshindwa kuingia"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "确认电子邮件",
+      "resendEmail": "请检查您的电子邮件以验证您的帐户。如果您没有收到电子邮件，请点击 {{here}} 重新发送验证电子邮件。",
+      "haveAnAccount": "已有帐户？"
+    },
+    "forgotPassword": {
+      "header": "忘记密码",
+      "enterEmail": "请输入您注册的电子邮件地址，我们将向您发送密码重置链接。",
+      "lbl-email": "电邮地址",
+      "lbl-submit": "发送链接",
+      "emailSent": "重置密码电子邮件已发送。请检查您的电子邮件。"
+    },
+    "login": {
+      "email": "电子邮件|短信",
+      "username": "用户名 + 密码",
+      "social": "社会的"
+    },
+    "magiklink": {
+      "header": "登录链接",
+      "descriptionEmail": "请输入您的电子邮件地址，我们将通过电子邮件向您发送登录链接。",
+      "descriptionSMS": "请输入您的电话号码，我们将通过短信向您发送登录链接。",
+      "descriptionEmailSMS": "请输入您的电子邮件地址或电话号码（10 位数字，仅限美国），我们将通过电子邮件或短信向您发送登录链接。",
+      "descriptionSMSUS": "请输入您的电话号码（10位数字，仅限美国），我们将通过短信向您发送登录链接。",
+      "lbl-email": "电子邮箱",
+      "lbl-emailPhone": "电子邮件或电话号码",
+      "lbl-phone": "电话号码",
+      "agree": "我同意 ",
+      "terms": "条款及细则",
+      "lbl-submit": "发送登录链接",
+      "email-sent-msg": "登录魔术链接已发送。请检查您的电子邮件。",
+      "success-msg": "登录魔术链接已发送。请检查您的电子邮件或短信。",
+      "sms-sent-msg": "登录魔术链接已发送。请检查您的短信。"
+    },
+    "passwordLogin": {
+      "header": "登录",
+      "lbl-email": "电邮地址",
+      "lbl-password": "密码",
+      "lbl-rememberMe": "记住我",
+      "lbl-signin": "登录",
+      "forgotPassword": "忘记密码？",
+      "signup": "没有帐户？登记",
+      "lbl-login": "登录",
+      "ph-password": "密码",
+      "ph-email": "电子邮件"
+    },
+    "social": {
+      "gitHub": "使用 GitHub 登录",
+      "google": "使用谷歌登录",
+      "facebook": "使用脸书登录",
+      "linkedin": "使用LinkedIn登录",
+      "twitter": "使用推特登录"
+    },
+    "register": {
+      "header": "登记",
+      "login": "登录",
+      "lbl-signup": "登记",
+      "lbl-password": "密码",
+      "lbl-email": "电邮地址",
+      "passwordNotMatch": "密码不匹配",
+      "ph-password": "密码",
+      "ph-confirmPassword": "密码确认",
+      "ph-email": "电子邮件"
+    },
+    "resetPassword": {
+      "header": "重设密码",
+      "description": "请输入您的电子邮件地址密码",
+      "lbl-submit": "重设密码",
+      "lbl-password": "密码",
+      "lbl-confirmPassword": "密码确认",
+      "passwordNotMatch": "密码不匹配",
+      "nowLoginYourAccount": "您现在可以登录您的帐户",
+      "yourPasswordResetSuccess": "您的密码已成功重置！"
+    },
+    "verifyEmail": {
+      "header": "验证电子邮件",
+      "processing": "请稍等片刻，同时处理..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "地点",
+      "loading": "装载",
+      "col-name": "名字",
+      "col-scene": "现场",
+      "col-maxuser": "最大用户数",
+      "lbl-search": "搜索位置",
+      "lbl-new": "新增功能"
+    },
+    "newLocation": {
+      "title": "位置",
+      "success": "已成功保存。",
+      "failure": "出了点问题。",
+      "removeSuccess": "已成功删除位置。",
+      "nameInUse": "名称正在使用中。",
+      "nameRequire": "名称为必填项。",
+      "validNumber": "只允许使用数字 （0-9）。",
+      "lbl-name": "名字",
+      "lbl-maxuser": "最大用户数",
+      "lbl-scene": "现场",
+      "lbl-type": "类型",
+      "lbl-ve": "视频启用",
+      "lbl-gme": "启用全局媒体",
+      "lbl-update": "更新",
+      "lbl-create": "创造",
+      "tooltipCanNotBeDeleted": "无法删除大厅",
+      "confirmation": "是否确定？",
+      "lbl-yes": "是的",
+      "lbl-no": "不"
+    },
+    "share": {
+      "lbl-share": "共享",
+      "ph-phoneEmail": "通过电子邮件或电话号码邀请",
+      "lbl-phoneEmail": "发送到电子邮件或电话号码",
+      "lbl-copy": "复制",
+      "lbl-send-invite": "发送邀请",
+      "title": "与您的团队共享您的位置网址",
+      "linkCopied": "链接已复制到剪贴板。"
+    },
+    "setting": {
+      "audio": "音频",
+      "lbl-volume": "卷",
+      "lbl-microphone": "麦克风",
+      "graphics": "图形",
+      "controls": "控制",
+      "lbl-control-type": "控制器类型",
+      "lbl-control-scheme": "控制方案",
+      "lbl-resolution": "分辨率",
+      "lbl-shadow": "阴影",
+      "lbl-pp": "后处理",
+      "lbl-pbr": "全分苯橡胶",
+      "lbl-automatic": "自动",
+      "xrusersetting": "XR 用户设置",
+      "rotation": "旋转",
+      "rotation-smooth-speed": "旋转平滑速度",
+      "rotation-angle": "旋转角度",
+      "moving": "移动",
+      "user-avatar": "头像设置",
+      "invert-rotation": "反转旋转和移动摇杆",
+      "show-avatar": "显示头像"
+    },
+    "profile": {
+      "lbl-profile": "轮廓",
+      "lbl-settings": "设置",
+      "lbl-username": "用户名",
+      "update-msg": "用户名已更新",
+      "inviteCode": "邀请码",
+      "youAreAn": "您是",
+      "youAreA": "您是",
+      "showUserId": "显示用户 ID",
+      "hideUserId": "隐藏用户 ID",
+      "showApiKey": "显示接口密钥",
+      "hideApiKey": "隐藏 API 密钥",
+      "apiKey": "接口密钥",
+      "logout": "登出",
+      "connectPhone": "连接您的电话号码",
+      "connectEmail": "连接您的电子邮件",
+      "connectPhoneEmail": "连接您的电子邮件或电话号码",
+      "or": "或",
+      "lbl-wallet": "使用电子钱包登录",
+      "ph-email": "电子邮件",
+      "ph-phone": "电话号码",
+      "ph-phoneEmail": "电话号码/电子邮件",
+      "phoneEmailError": "无效的电话号码或电子邮件地址",
+      "phoneError": "无效的手机#",
+      "emailError": "无效的电子邮件地址",
+      "loginWithReadyPlayerMe": "使用Ready Player Me登录",
+      "connectSocial": "与社交帐户连接",
+      "createOne": "如果您没有帐户，系统将为您创建一个新帐户",
+      "connections": {
+        "title": "连接",
+        "ipError": "无法删除活动的身份提供程序",
+        "disconnect": "断开",
+        "connect": "连接"
+      },
+      "profileDropdown": {
+        "avatar": "用户头像图标",
+        "profile": "轮廓",
+        "adminConsole": "管理控制台",
+        "logout": "注销"
+      },
+      "userIcon": {
+        "lbl-name": "您的姓名",
+        "lbl-update": "更新",
+        "userId": "用户标识",
+        "ph-uploadImg": "上传产品图片",
+        "lbl-selectAcvatar": "选择头像",
+        "lbl-submit": "提交"
+      },
+      "userSettings": {
+        "volume": "卷",
+        "microphone": "麦克风",
+        "resolution": "分辨率",
+        "high": "高",
+        "low": "低",
+        "spatialAudio": "使用空间音频",
+        "enterMuted": "静音进入房间"
+      }
+    },
+    "oauth": {
+      "authenticating": "认证。。。",
+      "authFailed": "{{service}} 身份验证失败。"
+    },
+    "magikLink": {
+      "wait": "请稍等片刻，同时处理..."
+    },
+    "dashboard": {
+      "header": "挡泥板",
+      "dashboard": "挡泥板",
+      "users": "用户",
+      "feeds": "饲料",
+      "instance": "实例",
+      "locations": "地点",
+      "invites": "邀请",
+      "sessions": "会话",
+      "groups": "组",
+      "parties": "各方",
+      "chats": "聊天",
+      "content": "内容包",
+      "projects": "项目",
+      "scenes": "场景",
+      "avatars": "化身",
+      "benchmarking": "标杆",
+      "bots": "机器人"
+    }
+  },
+  "oauth": {
+    "authenticating": "认证。。。",
+    "authFailed": "{{service}} 身份验证失败。"
+  },
+  "magikLink": {
+    "wait": "请稍等片刻，同时处理..."
+  },
+  "dashboard": {
+    "header": "挡泥板",
+    "dashboard": "挡泥板",
+    "users": "用户",
+    "feeds": "饲料",
+    "instance": "实例",
+    "locations": "地点",
+    "routes": "路线",
+    "projects": "项目",
+    "invites": "邀请",
+    "sessions": "会话",
+    "groups": "组",
+    "parties": "各方",
+    "chats": "聊天",
+    "content": "内容包",
+    "scenes": "场景",
+    "avatars": "化身",
+    "benchmarking": "标杆",
+    "bots": "机器人",
+    "setting": "设置"
+  },
+  "avatar": {
+    "title": "上传头像",
+    "lbl-browse": "浏览",
+    "lbl-thumbnail": "缩略图",
+    "lbl-upload": "上传",
+    "selectAvatar": "选择头像...",
+    "selectThumbnail": "选择缩略图...",
+    "rotate": "旋转",
+    "pan": "泛",
+    "noBone": "Obejct不含任何骨骼或皮肤",
+    "outOfBound": "对象已越界。",
+    "emptyObj": "对象为空。",
+    "maxTriangleError": "对象包含的面大于 {{allowedTriangles}} 个。",
+    "selectValidFile": "选择有效的3D头像文件。",
+    "selectValidThumbnail": "选定的有效缩略图文件。",
+    "fileOversized": "头像文件大小必须介于 {{minSize}} MB 和 {{maxSize}} MB 之间",
+    "confirmation": "是否确定？",
+    "canNotBeRemoved": "无法删除活动头像",
+    "remove": "移除头像",
+    "uploadFiles": "上传文件",
+    "useUrlInstead": "改用网址",
+    "avatar": "化身",
+    "cancel": "取消",
+    "createAvatar": "创建头像",
+    "delete": "删除",
+    "view": "视图",
+    "uploadAvatarInfo": "更新头像信息",
+    "name": "名字",
+    "enterName": "输入名称",
+    "avatarInformation": "头像信息",
+    "description": "描述",
+    "key": "钥匙",
+    "none": "没有",
+    "submit": "提交",
+    "edit": "编辑",
+    "avatarUrl": "头像网址",
+    "upload-success-msg": "头像上传成功。",
+    "remove-success-msg": "头像上传成功。",
+    "warning-msg": "头像资源是空的，您是否已将头像同步到静态文件存储？"
+  },
+  "personMenu": {
+    "inviteToParty": "邀请参加派对",
+    "addAsFriend": "添加为好友",
+    "mute": "静音",
+    "block": "块"
+  },
+  "person": {
+    "you": "你",
+    "yourScreen": "您的屏幕",
+    "muteForEveryone": "为所有人设为静音",
+    "unmuteForEveryone": "所有人取消静音",
+    "muteMe": "将我静音",
+    "unmuteMe": "取消静音",
+    "muteThisPerson": "将此人静音",
+    "unmuteThisPerson": "将此人取消静音",
+    "openPictureInPicture": "打开画中画"
+  }
+}

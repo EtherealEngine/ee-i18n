@@ -1,0 +1,202 @@
+{
+  "addComment": "Add Comment...",
+  "share": "Share",
+  "suggestions": "Talooyin Kuu",
+  "seeAll": "Eeg Alle",
+  "likes": "jecel",
+  "viewComments": "View all {{count}} comments",
+  "more": "hore",
+  "username": "heystay",
+  "fullName": "magaca Magaca Qoyska",
+  "reportInApporpriate": "Warbixin aan haboonayn",
+  "unfollow": "Unfollow",
+  "goToPost": "Tag Post",
+  "shareModal": "Share",
+  "copyLink": "Nuqul Link",
+  "embed": "Embed",
+  "cancel": "Jooji",
+  "confirm": "xaqiijin",
+  "save": "Xaree",
+  "profilePic": "'s {{user}}'s profile profile's proc",
+  "ara": "Ara",
+  "follow": "Raac",
+  "flames": "Olol",
+  "continue": "Sii wad",
+  "partyInvitationSent": "Xisbiga casuumaad loo soo diray",
+  "arMedia": {
+    "back": "Hore",
+    "clip": "Clip",
+    "backgrounds": "Asal ahaan",
+    "start": "Bilow"
+  },
+  "arMediaform": {
+    "title": "Title",
+    "type": "Noocyada",
+    "clip": "Clip",
+    "background": "Hortaada",
+    "scene": "Scene",
+    "save": "Xaree",
+    "manifest-file": "Cade .manifest file",
+    "audio-file": "Faylka Mp4",
+    "dracosis-file": "Dracosis .uvol file",
+    "preview-file": "Faylka muuqaalka Hore"
+  },
+  "creator": {
+    "myVideos": "My Videos",
+    "savedVideos": "Saved Videos",
+    "back": "Hore",
+    "blocked-list": "List hor istaagay",
+    "block-user": "Block User",
+    "dialog-content": "Ma arki doontid borofaylka iyo waxyaabaha ku jira"
+  },
+  "creatorForm": {
+    "back": "Hore",
+    "edit": "Edit Profile",
+    "save": "Xaree",
+    "changeAvatar": "Beddel image avatar",
+    "ph-selectPreview": "Dooro horudhac",
+    "ph-name": "Magacaaga",
+    "ph-username": "Your Username",
+    "ph-email": "Your Email",
+    "ph-tags": "Tag:",
+    "ph-link": "Link",
+    "ph-aboutYou": "More adiga kugu saabsan",
+    "ph-twitter": "twitter",
+    "ph-instagram": "Instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Saxiix-Out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Adeegsadayaasha",
+    "feeds": "Daaqsin",
+    "arMedia": "Video Media",
+    "editor": "Tifaftire",
+    "creator": "abuuraha"
+  },
+  "featured": {
+    "empty-list": "No cuntooyinka hadda ..."
+  },
+  "feed": {
+    "back": "Hore",
+    "related": "la xiriira feeds",
+    "is-repoted-message": "Cunto ayaa la soo sheegayaa!"
+  },
+  "feedForm": {
+    "back": "Hore",
+    "thanks": "Waad ku mahadsan tahay wadaagga iyo hagaajinta bulshadeena",
+    "share": "La wadaagto bulshada wax la qabsato",
+    "upload": "Kaararka Video",
+    "ph-selectVideo": "Dooro Video",
+    "preview": "Muuqaalka Muuqaalka",
+    "ph-selectPreview": "Dooro horudhac",
+    "createFeed": "Si aad u sameyso cunto la siiyo waa in aad leedahay fiidiyow iyo muuqaal muuqaal ah!!!",
+    "ph-videoName": "Magaca fiidiyowgaaga",
+    "ph-type": "Nooca waxa aad rabto inaad bulshada la wadaagto ... ",
+    "lbl-share": "Share",
+    "save": "Badbaadi oo tag Next"
+  },
+  "feedMenu": {
+    "featured": "Muuqaalka",
+    "creators": "abuurayaasha",
+    "feed": "nasiyo"
+  },
+  "header": {
+    "lbl-volumetric": "Volumetric"
+  },
+  "login": {
+    "account": "Lahaan lahaan lahaansho xisaab?",
+    "login": "Gudagal",
+    "resetPassword": "Dib-u-celi Password button fake (halkan waxaa noqon lahaa link a ka email)",
+    "notHavingAccount": "Ma haysataan xisaab?",
+    "signUp": "Diiwaangeli",
+    "forgotPassword": "Ma ilowday furaha sirta ah?",
+    "back": "Hore",
+    "or": "AMA"
+  },
+  "comment": {
+    "add": "Ku dar faalladaada..."
+  },
+  "notification": {
+    "feedFire": " Idinkaa idin siiyay",
+    "feedBookmarked": " Bookmarked aad feed",
+    "comment": " commented aad feed:",
+    "commentFire": " furay your comment in ay ku quudiyaan",
+    "follow": " bilaabay inaad ku soo daba gashato",
+    "unfollow": " joojiyay adiga oo ku raacaya",
+    "followed": " ku raacay",
+    "activity": "Waxqabad"
+  },
+  "onBoarding": {
+    "welcome": "Soo dhowoow!",
+    "description": "ururinta ugu weyn ee 370+ layouts for wadanay macruufka ah.",
+    "next": "Xiga",
+    "discover": "Baro articles,",
+    "news": "news & posts",
+    "lines": "Waa dareenkaas kaxeeya jaceylkeenna xididnimada iyo rabitaankeena.",
+    "getStarted": "Bilow",
+    "meetUp": "La kulan ilaa",
+    "friends": "saaxiibo.",
+    "meet": "Kulan ilaa saaxiibo"
+  },
+  "shareForm": {
+    "arcMedia": "Share",
+    "videoCreated": "Waxaan abuuray Video Tani",
+    "shareWithBuddies": "La wadaagto saaxiibbada",
+    "shareVideo": "Share Video",
+    "save": "Save Si Roll Camera",
+    "cancel": "Jooji",
+    "close": "Kuuma",
+    "addFeed": "Ku dar Feed"
+  },
+  "simpleModal": {
+    "emptyList": "Liiska faa'iidada ah",
+    "followers": " dabasocdo",
+    "following": " raaca",
+    "flames": " olol"
+  },
+  "splash": {
+    "screen": "Dhalaali Screen",
+    "logo": "Logo"
+  },
+  "story": {
+    "profilePic": "'s {{user}}'s profile profile's proc"
+  },
+  "view": {
+    "cancel": "Jooji",
+    "choice": "Waxaad leedahay laba habab oo kala duwan oo wax lagu qoro si aad u doorato",
+    "verticalMode": "hab Vertical leeyahay waqti rikoor 30 sec",
+    "horizontalMode": "Habka Horizontal waxay leedahay waqti rikoor aan xad lahayn",
+    "start": "Bilow",
+    "not-show": "Ha mar labaad muujisin",
+    "welcome": "Ku soo dhawow ARC!  Samee videos shakhsi ah mid ka mid ah holograms our oo ku dheji idaacadahaaga warbaahinta bulshada!",
+    "step": "TALLAABADA {{step}}",
+    "text-step-1": "Ka dooro maktabadda hologram.",
+    "text-step-2": "Tani waa Augmented Reality, sidaa daraadeed iskaan boos aad la camera dhinac ka dhinac ka 3-5 seconds halkaas oo aad rabto in qaab hologram uu noqon doono.",
+    "text-step-3-part-1": "screen Taap hal mar goobta meesha aad rabto hologram ku xidho.",
+    "text-step-3-part-2": "TALO!  Taabo mar kale si ay u guuraan hologram in meel kale.",
+    "text-step-3-part-3": "TALO!  Waxaad u adkaysan kartaa hologram ah by xoqayaan ama ballaarinta shaashadda la suulka iyo farta index aad.",
+    "text-step-4-part-1": "Double button rikoodor qasabadda cas in BILOW cajaladda video.",
+    "text-step-4-part-2": "Badhanka casaanka ah ee rikoorka qasabadda Double in STOP."
+  },
+  "video": {
+    "back": "Hore"
+  },
+  "terms": {
+    "confirmTerms": "Waxaan ogolahay in Terms of Service",
+    "confirmPolicy": "Waxaan ogolahay Qaanuunka Arrimaha Khaaska ah"
+  },
+  "registration": {
+    "ph-phoneEmail": "Isticmaal telefoonka / email",
+    "facebook": "La soco Facebook",
+    "google": "Sii wad Google",
+    "linkedin": "Sii wad Linkedin",
+    "twitter": "Sii wad Twitter",
+    "gitHub": "Sii wad GitHub",
+    "connect": "Connect lambarka emailkaaga ama telefoonka",
+    "logIn": "Soo gal",
+    "LogInTo": "Soo gal to",
+    "continueAsGuest": "Sii wad marti ahaan"
+  }
+}

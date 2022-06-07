@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Beetiko'on linki abas kaambal..."
+  },
+  "tooltip": {
+    "pressKey": "Presione {{tip}} 'al {{message}}"
+  },
+  "toast": {
+    "joined": "unido",
+    "left": "Izquierda"
+  },
+  "navUserWidget": {
+    "login": "Kas a meyaja'"
+  },
+  "loader": {
+    "connecting": "Conectando yéetel le yóok'ol kaaba'...",
+    "entering": "Yok'ol kaabe'...",
+    "loading": "Kuuch...",
+    "objectRemaining": "{{count}} objeto restante",
+    "objectRemainingPlural": "{{count}} meentiko'ob restantes",
+    "loadingObjects": "Kuuch meentiko'ob",
+    "loadingComplete": "Kuuch completa",
+    "joiningWorld": "Unir u yóok'ol kaabe'"
+  },
+  "alert": {
+    "eventWasSuccess": "U káajal bin jump'éel éxito",
+    "errorWasEncountered": "U ts'o'ok u Kaxa'antbil jump'éel ba'alo'",
+    "eventInProgress": "Káajal ti' je'ela'",
+    "seconds": "sobras",
+    "cancelCountdown": "U k'áalal le modal cancelará le yilaje' paachil"
+  },
+  "debug": {
+    "refresh": "Actualizar",
+    "stats": "Estadísticas",
+    "debugOptions": "Opciones depuración",
+    "physicsDebug": "A",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Yáantajil nodo",
+    "gridDebug": "Rejilla",
+    "simpleMaterials": "Materiales simples",
+    "tick": "Garrapata",
+    "worldStore": "Koonol Mundial",
+    "engineStore": "Almacén motores",
+    "namedEntities": "Le yéetel k'aaba'",
+    "networkObject": "Objeto Network",
+    "networkClients": "Clientes páawo'ob"
+  },
+  "recording": {
+    "videoRecorder": "Ti yaan páaxo' u vídeo",
+    "waitingForPermissions": "Ti' le páa'tajo' permisos",
+    "selectVideoSource": "Seleccionar fuente vídeo",
+    "screen": "Pantalla",
+    "camera": "Cámara",
+    "microphone": "Micrófono",
+    "startRecording": "Máaxo'ob grabación",
+    "pauseRecording": "Pausar le grabación",
+    "resumeRecording": "Reanudar le grabación",
+    "stopRecording": "Je'elel grabación"
+  },
+  "typing": "Mecanografía...",
+  "gameServer": {
+    "browserError": "Ba'alo' le navegador",
+    "browserErrorMessage": "U navegador ma' admite almacenamiento ti' modo navegación privada. Pruebe yéetel uláak' navegador wa ken jóok'ok tu le modo navegación privada.",
+    "noAvailableServers": "Mina'an servidores disponibles",
+    "noAvailableServersMessage": "Mina'an mix servidor disponible utia'al u pajtal conectar u. Intentar k'a' conectar ti'",
+    "worldDisconnected": "Desconectado way",
+    "worldDisconnectedMessage": "Meet u sa'atal a conexión yéetel le yóok'ol kaaba'. Intentaremos k'a' conectar k Ma'ili' ti' u agote le k'iin uláak', ti' u contrario u ti' reenviará ti' jump'éel instancia yaanal.",
+    "webGLNotEnabled": "WebGL ma' habilitado",
+    "webGLNotEnabledMessage": "U navegador ma' le compatible yéetel WebGL, wa táan deshabilitado. Habilite WebGL wa considere actualizar le ts'ook versión u navegador.",
+    "youKickedFromWorld": "Teech u echado u yóok'ol kaabe'",
+    "youKickedFromWorldMessage": "J-binech expulsado ti' le yóok'ol kaaba' o'olale' le uláak'",
+    "invalidLocation": "Tu'ux ku yaantal ma' válida",
+    "cantFindLocation": "Ma' je'el u páajtal k kaxtik le tu'ux ku yaantal",
+    "misspelledOrNotExist": "U yaantal k'aas ts'íib, wa je'el ma' existir.",
+    "loading": "kuuch",
+    "low-frame-error": "Detectado jump'éel rendimiento deficiente, considere habilitar le aceleración biilankiltej hardware ti' u navegador yéetel sut encasillar u navegador",
+    "low-frame-title": "Habilite le aceleración hardware ti' jump'éel ma'alo'ob tecnología!"
+  },
+  "error": {
+    "loading-error": "Ba'alo' a le kuuch le datos usuario",
+    "validation-error": "Introduzca {{type}} válidos",
+    "login-error": "Ba'alo' ti' le máaxo'ob xoknáalo'obo'"
+  }
+}

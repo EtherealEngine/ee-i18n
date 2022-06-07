@@ -1,0 +1,202 @@
+{
+  "addComment": "\"'engvo'rupbogh 'engvISpu'.",
+  "share": "SaH",
+  "suggestions": "qangGhomDaq",
+  "seeAll": "Hoch",
+  "likes": "parHa'",
+  "viewComments": "{{count}} vipIm",
+  "more": "pa'QIS",
+  "username": "'up",
+  "fullName": "pong",
+  "reportInApporpriate": "ghe'orDaq jIVumpa'",
+  "unfollow": "QI'tu'rup",
+  "goToPost": "maj",
+  "shareModal": "SaH",
+  "copyLink": "tlhIngan",
+  "embed": "tlhIlwI'",
+  "cancel": "qIl",
+  "confirm": "Qu'vetlh",
+  "save": "choq",
+  "profilePic": "be'nal {{user}}",
+  "ara": "'aS",
+  "follow": "pab",
+  "flames": "ghIlghameS",
+  "continue": "taH",
+  "partyInvitationSent": "'ay'chaj",
+  "arMedia": {
+    "back": "chap",
+    "clip": "poDmoH",
+    "backgrounds": "roj",
+    "start": "Hov"
+  },
+  "arMediaform": {
+    "title": "mang",
+    "type": "Segh",
+    "clip": "poDmoH",
+    "background": "roq",
+    "scene": "chu'",
+    "save": "choq",
+    "manifest-file": "loD maHagh",
+    "audio-file": "ghomHa'",
+    "dracosis-file": "tlhoy'rup",
+    "preview-file": "jIvuvHa'chugh nuv"
+  },
+  "creator": {
+    "myVideos": "ta' mIv",
+    "savedVideos": "SuvwI'pu'",
+    "back": "chap",
+    "blocked-list": "tlhaQ",
+    "block-user": "Huch",
+    "dialog-content": "dughoSbe'chugh vaj bIbebbe'"
+  },
+  "creatorForm": {
+    "back": "chap",
+    "edit": "qay'rup",
+    "save": "choq",
+    "changeAvatar": "ghu'vam",
+    "ph-selectPreview": "ghotpu'vaD",
+    "ph-name": "ponglIj yIchop",
+    "ph-username": "qaSpa'",
+    "ph-email": "'eSIl",
+    "ph-tags": "mIw'a'",
+    "ph-link": "Hol",
+    "ph-aboutYou": "DaH 'ach yIwoSQo'",
+    "ph-twitter": "bIQ",
+    "ph-instagram": "ghIb",
+    "ph-tiktok": "cha'",
+    "sign-out": "BaQa'"
+  },
+  "dashboard": {
+    "title": "['etDaq]",
+    "dashboard": "['etDaq]",
+    "users": "gho",
+    "feeds": "tlha'",
+    "arMedia": "QIb",
+    "editor": "pa'",
+    "creator": "chenmoHwI'"
+  },
+  "featured": {
+    "empty-list": "ghobe'."
+  },
+  "feed": {
+    "back": "chap",
+    "related": "tlhejwI'pu'",
+    "is-repoted-message": "Qapla' yoH ponglu'"
+  },
+  "feedForm": {
+    "back": "chap",
+    "thanks": "paghmeymaj leHlaHchugh je",
+    "share": "vaj ra'taHvIS vay' ja'taHvIS",
+    "upload": "runpI'",
+    "ph-selectVideo": "yach",
+    "preview": "Sum",
+    "ph-selectPreview": "ghotpu'vaD",
+    "createFeed": "qaStaHvIS yo'qoqDaq bIghH!!!a'choHlaH,",
+    "ph-videoName": "ghob Dapongchugh",
+    "ph-type": "\"QIchwIj DajatlhtaHvIS, QIchlIj tlhaQ'e'. ",
+    "lbl-share": "SaH",
+    "save": "ngem"
+  },
+  "feedMenu": {
+    "featured": "ngeQ",
+    "creators": "chenmoHwI'",
+    "feed": "je'"
+  },
+  "header": {
+    "lbl-volumetric": "muq"
+  },
+  "login": {
+    "account": "hamlet Daghaj'a'?",
+    "login": "QonoS",
+    "resetPassword": "'ej teHbe'chugh suvwI' tera'nganpu' *be'terIS*.",
+    "notHavingAccount": "DopQo''a' neH?",
+    "signUp": "bIjatlh 'e' yImev",
+    "forgotPassword": "pAgh, De' chuS'a' joH.",
+    "back": "chap",
+    "or": "ghap"
+  },
+  "comment": {
+    "add": "naDevvo' yIchaw'chu'."
+  },
+  "notification": {
+    "feedFire": " jup Sughob",
+    "feedBookmarked": " yablIjvo'",
+    "comment": " naDev Supawchu'.\"",
+    "commentFire": " tlhuHlIj raD",
+    "follow": " tlhIH",
+    "unfollow": " bItlhaQ",
+    "followed": " tlha'",
+    "activity": "'ach QiyaH"
+  },
+  "onBoarding": {
+    "welcome": "yI'el!",
+    "description": "+ 'ach pa' tlhoS chuq vImey vIlo'taHvIS, mungchoHlu'.",
+    "next": "veb",
+    "discover": "bIH yIHmey",
+    "news": "&' ghu' vISuch",
+    "lines": "muSHa'ghach quv law', Qo'noS ta', Qongbogh Dochvetlh'e'",
+    "getStarted": "'ay'",
+    "meetUp": "HItlhej",
+    "friends": "Jup.",
+    "meet": "puS"
+  },
+  "shareForm": {
+    "arcMedia": "SaH",
+    "videoCreated": "wejpuH",
+    "shareWithBuddies": "lo'taHvIS Hutlh",
+    "shareVideo": "SuD",
+    "save": "lengwI'",
+    "cancel": "qIl",
+    "close": "SoQmoH",
+    "addFeed": "tlhej"
+  },
+  "simpleModal": {
+    "emptyList": "tIgh yIchIm",
+    "followers": " tlha'",
+    "following": " chal",
+    "flames": " rI'"
+  },
+  "splash": {
+    "screen": "sat",
+    "logo": "Qo'noS"
+  },
+  "story": {
+    "profilePic": "be'nal {{user}}"
+  },
+  "view": {
+    "cancel": "qIl",
+    "choice": "qo' DaghoSmeH yInISQo'",
+    "verticalMode": "QI'yaH!",
+    "horizontalMode": "wa' nuvqu' chenmoHlu'",
+    "start": "Hov",
+    "not-show": "yIQaHQo'",
+    "welcome": "majQa'!  D: Hujmo', HIvjaj ngoQlu'chugh!",
+    "step": "{{step}}",
+    "text-step-1": "Duj meHDaq Hov qengtaHvIS.",
+    "text-step-2": "tangqa' targh ghaH 'e' vIchaw'nIS.",
+    "text-step-3-part-1": "bIQaptaHvIS bIQamtaHvIS, tujqu'mo' qaDanganpu'.",
+    "text-step-3-part-2": "HIJA'!  qaStaHvIS wa' mIw'a' neH.",
+    "text-step-3-part-3": "HIJA'!  pa' qaDangan pegh wISov pagh qaDan wIpej.\"",
+    "text-step-4-part-1": "yIqImQo'",
+    "text-step-4-part-2": "ratlh qeylIS ramjep, quvHa'choH."
+  },
+  "video": {
+    "back": "chap"
+  },
+  "terms": {
+    "confirmTerms": "jIDoy'taHvIS chuq vIDa",
+    "confirmPolicy": "wa'maH yIH vIHeng"
+  },
+  "registration": {
+    "ph-phoneEmail": "/ juHDaq ghIlghameS",
+    "facebook": "vItlhuS",
+    "google": "nuqneH",
+    "linkedin": "'Iw HIvje'",
+    "twitter": "ngeb",
+    "gitHub": "yejquv",
+    "connect": "QumwI'lIjDaq ghopDu'lIjDaq ghop",
+    "logIn": "qonoS",
+    "LogInTo": "QongDaq",
+    "continueAsGuest": "meb tIr"
+  }
+}

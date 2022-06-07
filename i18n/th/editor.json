@@ -1,0 +1,718 @@
+{
+  "loading": "การโหลดโครงการ",
+  "loadingMsg": "กําลังโหลดโครงการ...",
+  "loadingError": "ข้อผิดพลาดในการโหลดโครงการ",
+  "loadingErrorMsg": "มีข้อผิดพลาดขณะโหลดโครงการ",
+  "selectSceneMsg": "เลือกฉากเพื่อเริ่มเล่นกับเครื่องยนต์",
+  "error": "ความผิดพลาด",
+  "errorMsg": "มีข้อผิดพลาดที่ไม่รู้จัก",
+  "generateScreenshot": "กําลังสร้างภาพหน้าจอโครงการ",
+  "generateScreenshotMsg": "กําลังสร้างภาพหน้าจอโครงการ...",
+  "newScene": "สร้างฉาก",
+  "saving": "โครงการออมทรัพย์",
+  "savingMsg": "กําลังบันทึกโครงการ...",
+  "savingError": "ข้อผิดพลาดในการบันทึกโครงการ",
+  "savingErrorMsg": "มีข้อผิดพลาดเกิดขึ้นขณะบันทึกโครงการ",
+  "savingSceneErrorMsg": "โหลดฉากไม่ถูกต้อง ลองโหลดฉากใหม่",
+  "duplicating": "โครงการซ้ําซ้อน",
+  "duplicatingMsg": "กําลังทําซ้ําโครงการ...",
+  "exporting": "การส่งออกโครงการ",
+  "exportingMsg": "กําลังส่งออกโครงการ...",
+  "exportingError": "ข้อผิดพลาดในการส่งออกโครงการ",
+  "exportingErrorMsg": "มีข้อผิดพลาดเกิดขึ้นขณะส่งออกโครงการ",
+  "importLegacy": "นําเข้าโลกเก่า",
+  "importLegacyMsg": "คำเตือน! สิ่งนี้จะเขียนทับฉากที่มีอยู่ของคุณ! คุณแน่ใจหรือไม่ว่าคุณต้องการดําเนินการต่อ",
+  "publishingError": "ข้อผิดพลาดในการประกาศโครงการ",
+  "publishingErrorMsg": "มีข้อผิดพลาดที่ไม่รู้จัก",
+  "publishingScene": "ฉากสํานักพิมพ์",
+  "publishingSceneMsg": "กําลังเผยแพร่ฉาก...",
+  "uploadingThumbnailMsg": "กําลังอัปโหลดรูปขนาดย่อ...",
+  "uploadingSceneMsg": "กําลังอัปโหลดฉาก: {{percentage}}%",
+  "envMapError": "ข้อผิดพลาดในการโหลดรูป cubemap {{files}}",
+  "lbl-return": "กลับ",
+  "menubar": {
+    "newScene": "ฉากใหม่",
+    "saveScene": "บันทึกฉาก",
+    "saveAs": "บันทึกเป็น",
+    "importAsset": "นําเข้าสินทรัพย์",
+    "exportGLB": "ส่งออกเป็นไบนารี glTF (.glb) ...",
+    "importScene": "นําเข้าฉาก",
+    "exportScene": "ส่งออกฉาก",
+    "quit": "เลิก"
+  },
+  "errors": {
+    "fileTypeNotSupported": "ชนิดแฟ้มที่ไม่ได้รับการสนับสนุนสําหรับแฟ้ม: \"{{name}}\" ไฟล์ต้องเป็นรูปแบบรูปภาพ วิดีโอ หรือ GLB",
+    "addObject": "addObject: ก่อนไม่พบวัตถุ",
+    "removeObject": "removeObject: ไม่พบโหนด นี่เป็นเพราะการเอาโหนดที่ไม่อยู่ในฉากออกอีกต่อไป",
+    "noParent": "{{node}} \"{{name}}\" ไม่ มี บิดา มารดา. กําหนดหลักใหม่จะทํางานเฉพาะกับวัตถุที่อยู่ในฉากในปัจจุบันเท่านั้น",
+    "undefinedParent": "editor.reparent: newParent ไม่ได้กําหนดไว้",
+    "notAuthenticated": "ไม่ได้พิสูจน์ตัวจริง",
+    "fetchingProjectError": "ข้อผิดพลาดในการนําโครงการมาใช้: {{error}}",
+    "fetchingRouteError": "ข้อผิดพลาดในการนําเส้นทางมาใช้: {{error}}",
+    "unknownError": "ข้อผิดพลาดที่ไม่รู้จัก",
+    "resolveURL": "ข้อผิดพลาดในการแก้ไข URL \"{{url}}\":",
+    "mediaSearchAborted": "การค้นหาสื่อถูกยกเลิก",
+    "methodNotImplemented": "ไม่ได้นําวิธีการมาใช้",
+    "saveProjectAborted": "บันทึกฉากที่ถูกยกเลิก",
+    "unsavedChanges": "การเปลี่ยนแปลงที่ไม่ได้บันทึก",
+    "unsavedChangesMsg": "ฉากถูกปรับเปลี่ยน โปรดบันทึกการเปลี่ยนแปลงของคุณ",
+    "projectCreationFail": "การสร้างโครงการล้มเหลว {{reason}}",
+    "projectDeletionFail": "การลบโครงการล้มเหลว {{reason}}",
+    "savingProjectFail": "การบันทึกโครงการล้มเหลว {{reason}}",
+    "sceneTooLarge": "ฉากมีขนาดใหญ่เกินไป ({{size}} MB) ที่จะเผยแพร่ ขนาดสูงสุดคือ {{maxSize}} เมกะไบต์",
+    "sceneCreationFail": "การสร้างฉากล้มเหลว {{reason}}",
+    "uploadAborted": "อัปโหลดที่ถูกยกเลิก",
+    "uploadFailed": "อัปโหลดล้มเหลว {{reason}}",
+    "assetDeletionFail": "การลบสินทรัพย์ล้มเหลว {{reason}}",
+    "projectAssetDeletionFail": "การลบสินทรัพย์โครงการล้มเหลว {{reason}}",
+    "networkError": "ข้อผิดพลาดของเครือข่าย: {{status}} {{text}}",
+    "unknownStatus": "สถานะที่ไม่รู้จัก",
+    "CORS": "ข้อผิดพลาด CORS",
+    "urlFetchError": "ไม่สามารถดึงข้อมูล \"{{url}}\""
+  },
+  "viewport": {
+    "title": "วิวพอร์ต",
+    "command": {
+      "movecamera": "ย้ายกล้อง",
+      "flyFast": "บินได้เร็วขึ้น",
+      "orbit": "วงโคจร / เลือก",
+      "pan": "กระทะ",
+      "fly": "บิน",
+      "focus": "โฟกัส",
+      "rotateLeft": "หมุนซ้าย",
+      "rotateRight": "หมุนขวา",
+      "cancelPlacement": "ยกเลิกตําแหน่งการจัดวาง",
+      "placeDuplicate": "สถานที่ที่ซ้ํากัน",
+      "cancelGrab": "ยกเลิก Grab",
+      "grab": "จับ",
+      "deselectAll": "ยกเลิกการเลือกทั้งหมด"
+    },
+    "state": {
+      "header": "สถิติ",
+      "memory": "ความจำ",
+      "geometries": "เรขาคณิต",
+      "textures": "พื้น ผิว",
+      "render": "แปล",
+      "FPS": "เอฟพีเอส",
+      "frameTime": "เฟรมเวลา",
+      "calls": "โทร",
+      "triangles": "สาม เหลี่ยม",
+      "points": "แต้ม",
+      "lines": "บรรทัด"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "ตีพิมพ์",
+    "lbl-published": "เผย แพร่",
+    "command": {
+      "translate": "แปล",
+      "rotate": "หมุน",
+      "scale": "เกล็ด",
+      "toggleSpace": "สลับแปลงพื้นที่",
+      "togglePivot": "สลับการแปลง Pivot",
+      "toggleSnapMode": "สลับโหมดจัดชิด",
+      "toggleGrid": "สลับการมองเห็นเส้นตาราง",
+      "increaseGridSize": "เพิ่มขนาดเส้นตาราง",
+      "descreaseGridSize": "ลดขนาดเส้นตาราง",
+      "stopPreview": "หยุดการแสดงตัวอย่างฉาก",
+      "playPreview": "ดูตัวอย่างฉาก"
+    }
+  },
+  "properties": {
+    "title": "คุณสมบัติ",
+    "lbl-visible": "ปรากฏ",
+    "lbl-preventBake": "ป้องกันการอบ",
+    "lbl-persist": "พยายาม",
+    "multipleNodeSelected": "เลือกโหนดหลายโหนดชนิดชนิดต่างๆ",
+    "noNodeSelected": "ไม่ได้เลือกโหนด",
+    "ambientLight": {
+      "name": "แสงโดยรอบ",
+      "description": "แสงที่ส่องสว่างวัตถุทั้งหมดในฉากของคุณ",
+      "lbl-intensity": "ความเข้ม",
+      "lbl-color": "สี"
+    },
+    "envmap": {
+      "name": "แผนที่สิ่งแวดล้อม",
+      "description": "คุณสมบัติแผนผังสภาพแวดล้อม"
+    },
+    "asset": {
+      "name": "ทรัพย์สิน",
+      "description": "การจัดกลุ่มส่วนประกอบของฉากที่สามารถโหลดและยกเลิกการโหลดแบบไดนามิก",
+      "lbl-options": "ตัวเลือก",
+      "lbl-assetPath": "เส้นทางสินทรัพย์",
+      "lbl-assetName": "ชื่อที่ส่งออก",
+      "lbl-exportOptions": "ตัวเลือกการส่งออก",
+      "lbl-export": "ส่งออกสินทรัพย์",
+      "lbl-load": "โหลดลงในฉาก",
+      "lbl-unload": "ขนถ่าย",
+      "lbl-reload": "โหลด"
+    },
+    "audio": {
+      "name": "เสียง",
+      "description": "โหลดเสียงแบบไดนามิก",
+      "lbl-audiourl": "URL ของเสียง",
+      "lbl-controls": "ควบคุม",
+      "info-controls": "สลับการมองเห็นของตัวควบคุมสื่อ",
+      "lbl-autoplay": "เล่นอัตโนมัติ",
+      "info-autoplay": "ถ้าเป็นจริงสื่อจะเล่นเมื่อเข้าสู่ฉากครั้งแรก",
+      "lbl-synchronize": "ซิ งโค รไนส์",
+      "info-synchronize": "ถ้าเป็นจริง สื่อจะถูกทําข้อมูลให้ตรงกันบนไคลเอ็นต์ที่เชื่อมต่อทั้งหมด",
+      "lbl-loop": "ห่วง",
+      "info-loop": "ถ้าเป็นจริงสื่อจะวนซ้ําอย่างไม่มีกําหนด",
+      "lbl-audioType": "ประเภทเสียง",
+      "lbl-distanceModel": "แบบจําลองระยะทาง",
+      "info-distanceModel": "อัลกอริทิมใช้ในการคํานวณเสียงกลิ้ง",
+      "lbl-rolloffFactor": "ปัจจัยการสะสม",
+      "info-rolloffFactor": "ค่าคู่ที่อธิบายความเร็วของไดรฟ์ข้อมูลจะลดลงเมื่อแหล่งข้อมูลย้ายออกจากตัวฟัง 0 ถึง 1",
+      "info-rfInfinity": "ค่าคู่ที่อธิบายความเร็วของไดรฟ์ข้อมูลจะลดลงเมื่อแหล่งข้อมูลย้ายออกจากตัวฟัง 0 ถึง อนันต์",
+      "lbl-refDistance": "ระยะทางอ้างอิง",
+      "info-refDistance": "ค่าคู่ที่แสดงถึงระยะอ้างอิงสําหรับการลดระดับเสียงเมื่อแหล่งเสียงเคลื่อนที่ไกลจากตัวฟัง",
+      "lbl-maxDistance": "ระยะทางสูงสุด",
+      "info-maxDistance": "ค่าคู่ที่แสดงถึงระยะห่างสูงสุดระหว่างแหล่งเสียงและผู้ฟังหลังจากนั้นระดับเสียงจะไม่ลดลงอีกต่อไป",
+      "lbl-coneInnerAngle": "มุมด้านในของกรวย",
+      "info-coneInnerAngle": "ค่าคู่ที่อธิบายมุมเป็นองศาของกรวยภายในซึ่งจะไม่มีการลดระดับเสียง",
+      "lbl-coneOuterAngle": "มุมนอกกรวย",
+      "info-coneOuterAngle": "ค่าคู่ที่อธิบายมุมเป็นองศาของกรวยนอกซึ่งปริมาตรจะลดลงด้วยค่าคงที่ที่กําหนดโดยแอตทริบิวต์ coneOuterGain",
+      "lbl-coreOuterGain": "กําไรนอกกรวย",
+      "info-coreOuterGain": "ค่าคู่ที่อธิบายปริมาณของการลดระดับเสียงนอกกรวยที่กําหนดโดยแอตทริบิวต์ coneOuterAngle ค่าเริ่มต้นคือ 0 ซึ่งหมายความว่าไม่สามารถได้ยินเสียงได้",
+      "lbl-volume": "ปริมาตร",
+      "lbl-play": "เล่น",
+      "lbl-pause": "หยุด",
+      "error-url": "ข้อผิดพลาดในการโหลดจาก URL"
+    },
+    "boxCollider": {
+      "description": "กล่องที่มองไม่เห็นที่วัตถุจะกระเด้งออกจากหรือวางอยู่ด้านบนของ\nหากไม่มีชนวัตถุจะตกผ่านพื้นและผ่านผนัง",
+      "lbl-isTrigger": "ไกปืน"
+    },
+    "camera": {
+      "name": "กล้องถ่ายรูป",
+      "description": "การตั้งค่ากล้อง",
+      "lbl-camera-raycast": "กล้องเรย์คาสติ้ง",
+      "lbl-camera-raycast-toggle": "เปิด",
+      "lbl-camera-raycast-frequency": "ความถี่",
+      "lbl-camera-raycast-count": "จํานวนเรย์",
+      "lbl-camera-raycast-length": "ความยาวรังสี"
+    },
+    "directionalLight": {
+      "name": "แสงทิศทาง",
+      "description": "แสงที่ส่องสว่างทั้งฉาก แต่เปล่งไปตามทิศทางเดียว",
+      "lbl-color": "สี",
+      "lbl-intensity": "ความเข้ม",
+      "lbl-cameraFar": "กล้องไกล",
+      "lbl-cameraNear": "กล้องใกล้",
+      "lbl-cameraTop": "กล้องด้านบน",
+      "lbl-cameraBottom": "ด้านล่างของกล้อง",
+      "lbl-cameraLeft": "กล้องไปทางซ้าย",
+      "lbl-cameraRight": "กล้องด้านขวา",
+      "lbl-useInCSM": "ใช้ใน CSM",
+      "lbl-castShadow": "เงาหล่อ",
+      "lbl-disableForCSM": "ปิดใช้งานเนื่องจากแมปเงาเรียงซ้อนถูกเปิดใช้งาน",
+      "lbl-shadowmapResolution": "ความละเอียดของแผนที่เงา",
+      "lbl-shadowBias": "อคติเงา",
+      "lbl-shadowRadius": "รัศมีเงา",
+      "lbl-showCameraHelper": "แสดงตัวช่วยเหลือกล้อง"
+    },
+    "groundPlane": {
+      "name": "เครื่องบินภาคพื้นดิน",
+      "description": "ระนาบพื้นราบที่ขยายออกไปในระยะไกล",
+      "lbl-color": "สี",
+      "lbl-receiveShadow": "รับเงา",
+      "lbl-generateNavmesh": "สร้าง Navmesh"
+    },
+    "link": {
+      "description": "ลิงก์ไปยังห้องหรือเว็บไซต์",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "แผนที่เชิงพื้นที่ 3 มิติของเช่นเมือง"
+    },
+    "model": {
+      "description": "โมเดล 3 มิติในฉากของคุณซึ่งโหลดจาก URL หรือไฟล์ GLTF",
+      "lbl-usingGPUInstancingFlag": "ใช้ GPU Instancing",
+      "lbl-modelurl": "URL ของแบบจําลอง",
+      "lbl-envmapUrl": "URL ของแผนผังสภาพแวดล้อม",
+      "lbl-textureOverride": "แทนที่พื้นผิว",
+      "lbl-materialOverride": "การแทนที่วัสดุ",
+      "error-url": "ข้อผิดพลาดในการโหลดจาก URL",
+      "lbl-loopAnimation": "วนรอบภาพเคลื่อนไหว",
+      "lbl-isAvatar": "คืออวตาร",
+      "lbl-isGPUInstancing": "กําลังใช้ GPU Instancing",
+      "lbl-isDynamic": "เป็นไดนามิก",
+      "lbl-castShadow": "เงาหล่อ",
+      "lbl-receiveShadow": "รับเงา",
+      "lbl-interactable": "โต้ตอบได้",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "ชื่อ",
+      "lbl-url": "URL ของแบบจําลอง",
+      "lbl-buy": "ซื้อ URL",
+      "lbl-learnMore": "เรียนรู้ URL เพิ่มเติม",
+      "lbl-htmlContent": "เนื้อหา HTML",
+      "lbl-interactionText": "ข้อความการโต้ตอบ",
+      "lbl-interactionType": "ชนิดการโต้ตอบ"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "วัตถุ",
+      "error-materialID": "ข้อผิดพลาดในการค้นหาวัสดุ",
+      "placeholder-materialID": "เลือกวัสดุ",
+      "lbl-patternTarget": "รูปแบบตรงกัน",
+      "lbl-pattern": "แบบ",
+      "lbl-isRegex": "รีเจ็กซ์"
+    },
+    "interaction": {
+      "type": "ชนิดการโต้ตอบ",
+      "text": "ข้อความการโต้ตอบ",
+      "distance": "ระยะการโต้ตอบ",
+      "theme": "ชุดรูปแบบการโต้ตอบ",
+      "name": "ชื่อการโต้ตอบ",
+      "description": "คําอธิบายการโต้ตอบ",
+      "images": "ภาพการโต้ตอบ",
+      "videos": "วิดีโอการโต้ตอบ",
+      "urls": "URL การโต้ตอบ",
+      "models": "แบบจําลองการโต้ตอบ"
+    },
+    "group": {
+      "name": "กลุ่ม",
+      "description": "กลุ่มของวัตถุหลายวัตถุที่สามารถย้ายหรือทําซ้ํากันได้\nลากแล้วปล่อยวัตถุลงในกลุ่มในลําดับชั้น"
+    },
+    "hemisphere": {
+      "name": "แสงซีกโลก",
+      "description": "แสงที่ส่องสว่างฉากจากเหนือศีรษะโดยตรง",
+      "lbl-skyColor": "สีท้องฟ้า",
+      "lbl-groundColor": "สีพื้น",
+      "lbl-intensity": "ความเข้ม"
+    },
+    "image": {
+      "name": "ภาพ",
+      "description": "โหลดรูปแบบไดนามิก",
+      "lbl-imgURL": "URL ของรูป",
+      "lbl-transparency": "โหมดความโปร่งใส",
+      "lbl-alphaCutoff": "อัลฟาคัทออฟ",
+      "lbl-projection": "ฉาย ภาพ",
+      "lbl-side": "ข้าง",
+      "info-controls": "สลับการมองเห็นของตัวควบคุมสื่อ",
+      "info-transparency": "วิธีการใช้ความโปร่งใส:",
+      "info-opaque": "'ทึบแสง' = ไม่มีความโปร่งใส",
+      "info-blend": "'ผสมผสาน' = ใช้ช่องอัลฟาของภาพ",
+      "info-mask": "'mask' = ใช้ค่าตัดที่ระบุสําหรับความโปร่งใสในการเปิด /ปิด (มีประสิทธิภาพมากขึ้น)",
+      "info-alphaCutoff": "พิกเซลที่มีค่าอัลฟาต่ํากว่านี้จะโปร่งใส",
+      "error-url": "URL ไม่ถูกต้อง"
+    },
+    "name": {
+      "lbl-name": "ชื่อ"
+    },
+    "partileEmitter": {
+      "description": "ตัวปล่อยอนุภาคเพื่อสร้างอนุภาค",
+      "lbl-particleCount": "จํานวนอนุภาค",
+      "lbl-image": "ภาพ",
+      "lbl-ageRandomness": "การสุ่มอายุ",
+      "lbl-lifetime": "ตลอดชีวิต",
+      "lbl-lifetimeRandomness": "การสุ่มตลอดชีวิต",
+      "lbl-sizeCurve": "ขนาด เส้นโค้ง",
+      "lbl-startPSize": "เริ่มขนาดอนุภาค",
+      "lbl-endPSize": "ขนาดอนุภาคปลาย",
+      "lbl-sizeRandomness": "การสุ่มขนาด",
+      "lbl-colorCurve": "เส้นโค้งสี",
+      "lbl-startColor": "สีเริ่มต้น",
+      "lbl-startOpacity": "เริ่มความทึบแสง",
+      "lbl-middleColor": "สีกลาง",
+      "lbl-middleOpacity": "ความทึบแสงกลาง",
+      "lbl-endColor": "สีปลาย",
+      "lbl-endOpacity": "สิ้นสุดความทึบแสง",
+      "lbl-velocityCurve": "เส้นโค้งความเร็ว",
+      "lbl-startVelocity": "เริ่มความเร็ว",
+      "lbl-endVelocity": "สิ้นสุดความเร็ว",
+      "lbl-angularVelocity": "ความเร็วเชิงมุม",
+      "info-ageRandomness": "ปริมาณของการเปลี่ยนแปลงระหว่างเมื่ออนุภาควางไข่",
+      "info-lifetime": "อายุสูงสุดของอนุภาคก่อนที่จะเกิดใหม่",
+      "info-lifetimeRandomness": "ปริมาณของการเปลี่ยนแปลงระหว่างอายุการใช้งานของอนุภาค",
+      "info-sizeRandomness": "ปริมาณของการเปลี่ยนแปลงระหว่างขนาดเริ่มต้นของอนุภาค",
+      "error-url": "ข้อผิดพลาดในการโหลดจาก URL"
+    },
+    "clouds": {
+      "name": "เมฆ",
+      "description": "ปริมาณเมฆที่ใช้สไปรท์",
+      "lbl-image": "สไปรท์ อิมเมจ",
+      "lbl-wroldScale": "ระดับโลก",
+      "lbl-dimensions": "มิติ",
+      "lbl-noiseZoom": "ซูมเสียงรบกวน",
+      "lbl-noiseOffset": "ออฟเซตเสียงรบกวน",
+      "lbl-spriteScale": "สไปรท์สเกล",
+      "lbl-fogColor": "สีหมอก",
+      "lbl-fogRange": "ช่วงหมอก",
+      "error-url": "ข้อผิดพลาดในการโหลดจาก URL"
+    },
+    "ocean": {
+      "name": "มหาสมุทร",
+      "description": "พื้นผิวมหาสมุทรที่มีคลื่นและโฟม",
+      "lbl-normalMap": "แผนที่ปกติ",
+      "lbl-distortionMap": "แผนที่การบิดเบือน",
+      "lbl-envMap": "แผนที่สิ่งแวดล้อม",
+      "lbl-color": "สี",
+      "lbl-shallowWaterColor": "สีน้ําตื้น",
+      "lbl-shallowToDeepDistance": "ระยะตื้นถึงระยะลึก",
+      "lbl-opacityFadeDistance": "ระยะความทึบแสงจางหายไป",
+      "lbl-opacityRange": "ช่วงความทึบแสง",
+      "lbl-shininess": "ความเงางาม",
+      "lbl-reflectivity": "สะท้อนแสง",
+      "lbl-foamColor": "สีโฟม",
+      "lbl-foamSpeed": "ความเร็วโฟม",
+      "lbl-foamTiling": "การปูกระเบื้องโฟม",
+      "lbl-bigWaveTiling": "ปูกระเบื้องบิ๊กเวฟ",
+      "lbl-bigWaveSpeed": "ความเร็วคลื่นใหญ่",
+      "lbl-bigWaveHeight": "ความสูงของคลื่นใหญ่",
+      "lbl-waveSpeed": "ความเร็วคลื่น",
+      "lbl-waveScale": "มาตราส่วนคลื่น",
+      "lbl-waveTiling": "การปูกระเบื้องคลื่น",
+      "lbl-waveDistortionSpeed": "ความเร็วในการบิดเบือนคลื่น",
+      "lbl-waveDistortionTiling": "การปูกระเบื้องบิดเบือนคลื่น",
+      "error-url": "ข้อผิดพลาดในการโหลดจาก URL"
+    },
+    "water": {
+      "name": "น้ำ",
+      "description": "ผิวน้ําขนาดเล็ก"
+    },
+    "interior": {
+      "name": "ภายใน",
+      "description": "พื้นผิวที่มีพื้นผิวลูกบาศก์ที่แมปเพื่อเลียนแบบสภาพแวดล้อมภายใน",
+      "lbl-cubeMap": "พื้นผิวแผนผังคิวบ์",
+      "lbl-tiling": "จํานวนการปูกระเบื้อง",
+      "lbl-size": "ขนาดพื้นผิว",
+      "error-url": "ข้อผิดพลาดในการโหลดจาก URL"
+    },
+    "pointLight": {
+      "description": "แสงที่เปล่งออกมาทุกทิศทางจากจุดเดียว",
+      "lbl-color": "สี",
+      "lbl-intensity": "ความเข้ม",
+      "lbl-range": "เทือก",
+      "lbl-decay": "ผุ"
+    },
+    "scene": {
+      "name": "ฉาก",
+      "description": "วัตถุรากของฉาก",
+      "lbl-bgcolor": "สีพื้นหลัง",
+      "lbl-fogType": "ประเภทหมอก",
+      "lbl-fogColor": "สีหมอก",
+      "lbl-forNearDistance": "หมอกใกล้ระยะ",
+      "lbl-fogFarDistance": "หมอกไกล",
+      "lbl-fogDensity": "ความหนาแน่นของหมอก",
+      "lbl-audioSettings": "ใช้เสียงตามตําแหน่ง",
+      "lbl-avatarDistanceModel": "แบบจําลองระยะทางอวตาร",
+      "lbl-avatarRolloffFactor": "ปัจจัยการโรลออฟอวตาร",
+      "lbl-avatarRefDistance": "ระยะทางอ้างอิงอวตาร",
+      "lbl-avatarMaxDistance": "อวตารระยะทางสูงสุด",
+      "lbl-mediaVolume": "ปริมาณสื่อ",
+      "lbl-mediaDistanceModel": "แบบจําลองระยะทางสื่อ",
+      "lbl-mediaRolloffFactor": "ปัจจัยการสะสมสื่อ",
+      "lbl-mediaRefDistance": "ระยะอ้างอิงสื่อ",
+      "lbl-mediaMaxDistance": "ระยะสูงสุดของสื่อ",
+      "lbl-mediaConeInnerAngle": "มุมด้านในของกรวยสื่อ",
+      "lbl-mediaConeOuterAngle": "มุมนอกกรวยสื่อ",
+      "lbl-mediaConeOuterGain": "กําไรนอกกรวยสื่อ",
+      "info-avatarDistanceModel": "อัลกอริทิมใช้ในการคํานวณเสียงกลิ้ง",
+      "info-avatarRolloffFactor": "ค่าคู่ที่อธิบายความเร็วของไดรฟ์ข้อมูลจะลดลงเมื่อแหล่งข้อมูลย้ายออกจากตัวฟัง 0 ถึง 1",
+      "info-avatarRolloffFactorInifinity": "ค่าคู่ที่อธิบายความเร็วของไดรฟ์ข้อมูลจะลดลงเมื่อแหล่งข้อมูลย้ายออกจากตัวฟัง 0 ถึง อนันต์",
+      "info-avatarRefDistance": "ค่าคู่ที่แสดงถึงระยะอ้างอิงสําหรับการลดระดับเสียงเมื่อแหล่งเสียงเคลื่อนที่ไกลจากตัวฟัง",
+      "info-avatarMaxDistance": "ค่าคู่ที่แสดงถึงระยะห่างสูงสุดระหว่างแหล่งเสียงและผู้ฟังหลังจากนั้นระดับเสียงจะไม่ลดลงอีกต่อไป",
+      "info-mediaDistanceModel": "อัลกอริทิมใช้ในการคํานวณเสียงกลิ้ง",
+      "info-mediaRolloffFactor": "ค่าคู่ที่อธิบายความเร็วของไดรฟ์ข้อมูลจะลดลงเมื่อแหล่งข้อมูลย้ายออกจากตัวฟัง 0 ถึง 1",
+      "info-mediaRolloffFactorInfinity": "ค่าคู่ที่อธิบายความเร็วของไดรฟ์ข้อมูลจะลดลงเมื่อแหล่งข้อมูลย้ายออกจากตัวฟัง 0 ถึง อนันต์",
+      "info-mediaRefDistance": "ค่าคู่ที่แสดงถึงระยะอ้างอิงสําหรับการลดระดับเสียงเมื่อแหล่งเสียงเคลื่อนที่ไกลจากตัวฟัง",
+      "info-mediaMaxDistance": "ค่าคู่ที่แสดงถึงระยะห่างสูงสุดระหว่างแหล่งเสียงและผู้ฟังหลังจากนั้นระดับเสียงจะไม่ลดลงอีกต่อไป",
+      "info-mediaConeInnerAngle": "ค่าคู่ที่อธิบายมุมเป็นองศาของกรวยภายในซึ่งจะไม่มีการลดระดับเสียง",
+      "info-mediaConeOuterAngle": "ค่าคู่ที่อธิบายมุมเป็นองศาของกรวยนอกซึ่งปริมาตรจะลดลงด้วยค่าคงที่ที่กําหนดโดยแอตทริบิวต์ coneOuterGain",
+      "info-mediaConeOuterGain": "ค่าคู่ที่อธิบายปริมาณของการลดระดับเสียงนอกกรวยที่กําหนดโดยแอตทริบิวต์ coneOuterAngle ค่าเริ่มต้นคือ 0 ซึ่งหมายความว่าไม่สามารถได้ยินเสียงได้",
+      "lbl-simpleMaterials": "ใช้วัสดุที่เรียบง่าย",
+      "lbl-lods": "LODs",
+      "info-lods": "ตั้งค่าระยะทางที่ระดับของการเปลี่ยนแปลงรายละเอียด",
+      "info-simpleMaterials": "แปลงวัสดุราคาแพงทั้งหมดเป็นวัสดุที่ง่ายกว่าเพื่อถอดโหลดออกจากการเรนเดอร์ฉาก",
+      "lbl-rendererSettings": "แทนที่การตั้งค่าตัวแสดง",
+      "lbl-csm": "แผนที่เงาเรียงซ้อน",
+      "info-csm": "เปิดใช้งานแผนที่เงาที่เกี่ยวข้อง",
+      "lbl-toneMapping": "การแมปโทนเสียง",
+      "info-toneMapping": "เปิดใช้งานการแมปโทนเสียงบนตัวจําลองฉาก ไม่มีผลเมื่อเปิดใช้งานการประมวลผลโพสต์",
+      "lbl-toneMappingExposure": "การเปิดรับแสงการทําแผนที่โทนสี",
+      "info-toneMappingExposure": "ระบุการเปิดรับแสงการแมปโทนบนตัวจําลองฉาก ไม่มีผลเมื่อเปิดใช้งานการประมวลผลโพสต์",
+      "lbl-shadowMapType": "ชนิดแผนที่เงา",
+      "info-shadowMapType": "ชนิดของแผนที่เงา",
+      "error-url": "ข้อผิดพลาดในการโหลดจาก URL"
+    },
+    "sceneCamera": {
+      "name": "กล้องดูตัวอย่างฉาก",
+      "description": "กล้องที่ใช้สร้างภาพขนาดย่อสําหรับฉากของคุณและตําแหน่งเริ่มต้นสําหรับกล้องตัวอย่าง",
+      "lbl-setFromViewPort": "ตั้งค่าจากวิวพอร์ต"
+    },
+    "skybox": {
+      "name": "สกายบ็อกซ์",
+      "description": "",
+      "lbl-timeOfDay": "ช่วงเวลาของวัน",
+      "lbl-color": "สี",
+      "lbl-latitude": "เส้นรุ้ง",
+      "lbl-luminance": "ความสว่าง",
+      "lbl-scattering": "จํานวนการกระจัดกระจาย",
+      "lbl-scatteringDistance": "ระยะกระจัดกระจาย",
+      "lbl-horizonStart": "ฮอไรซอนสตาร์ท",
+      "lbl-horizonEnd": "ขอบฟ้า",
+      "lbl-texture": "เนื้อ",
+      "lbl-skyType": "ประเภทท้องฟ้า",
+      "error-url": "ข้อผิดพลาดในการโหลดจาก URL"
+    },
+    "spawnPoint": {
+      "name": "จุดวางไข่",
+      "description": "จุดที่ผู้คนจะปรากฏเมื่อพวกเขาเข้าสู่ฉากของคุณ\nไอคอนในวิวพอร์ตแสดงถึงขนาดจริงของอวตาร"
+    },
+    "spotLight": {
+      "description": "แสงที่เปล่งไปตามทิศทางส่องสว่างวัตถุภายในกรวย",
+      "lbl-color": "สี",
+      "lbl-intensity": "ความเข้ม",
+      "lbl-penumbra": "เงามัว",
+      "lbl-angle": "มุม",
+      "lbl-range": "เทือก",
+      "lbl-decay": "ผุ"
+    },
+    "transform": {
+      "title": "แปลง",
+      "lbl-postition": "ฐานะ",
+      "lbl-rotation": "การหมุน",
+      "lbl-scale": "เกล็ด"
+    },
+    "triggereVolume": {
+      "description": "ตั้งค่าคุณสมบัติบนวัตถุเป้าหมายเมื่อเข้าและออก",
+      "lbl-target": "วัตถุ",
+      "lbl-onenter": "เมื่อ Enter",
+      "lbl-onexit": "เมื่อออก",
+      "lbl-showHelper": "แสดงตาข่ายตัวช่วย",
+      "ph-errorNode": "ข้อผิดพลาดขาดโหนด",
+      "ph-selectNode": "เลือกโหนด..."
+    },
+    "video": {
+      "name": "วีดิทัศน์",
+      "description": "โหลดวิดีโอแบบไดนามิก",
+      "lbl-video": "วีดิทัศน์",
+      "lbl-projection": "ฉาย ภาพ",
+      "lbl-islivestream": "สตรีมสด",
+      "lbl-interactable": "โต้ตอบได้",
+      "lbl-id": "รหัสองค์ประกอบ",
+      "lbl-play": "เล่น",
+      "lbl-pause": "หยุด",
+      "error-url": "ข้อผิดพลาดในการโหลดจาก URL"
+    },
+    "volumetric": {
+      "name": "เกี่ยวกับการวัดปริมาตร",
+      "description": "โหลดวิดีโอปริมาตรแบบไดนามิก",
+      "uvolPaths": "เส้นทาง UVOL",
+      "playmode": "โหมดเล่น",
+      "playtitle": "เล่น",
+      "pausetitle": "หยุด"
+    },
+    "spline": {
+      "description": "สร้างและปรับแต่งเส้นโค้งแบบไดนามิก",
+      "lbl-addNode": "เพิ่มโหนดลงในเส้นโค้ง"
+    },
+    "systemnode": {
+      "description": "แนบสคริปต์",
+      "lbl-filePath": "URL",
+      "lbl-systemUpdateType": "จุดฉีด",
+      "lbl-enableClient": "ลูกค้า",
+      "lbl-enableServer": "เซิร์ฟเวอร์",
+      "lbl-args": "อาร์กส์",
+      "error-url": "ข้อผิดพลาดในการโหลดสคริปต์จาก URL"
+    },
+    "portal": {
+      "lbl-portal": "พอร์ทัลที่เชื่อมโยง",
+      "lbl-redirect": "ใช้การเปลี่ยนเส้นทางเพจ",
+      "description": "Portat ไปยังผู้เล่นเทเลพอร์ตไปยังตําแหน่งที่ระบุ",
+      "lbl-locationName": "สถานที่",
+      "lbl-modelUrl": "URL ของแบบจําลอง",
+      "lbl-displayText": "แสดงข้อความ",
+      "lbl-cubemapBake": "คิวบ์แมพอบ",
+      "lbl-spawnPosition": "ตําแหน่งวางไข่",
+      "lbl-spawnRotation": "การหมุนวางไข่",
+      "lbl-triggerPosition": "ตําแหน่งทริกเกอร์",
+      "lbl-triggerRotation": "ทริกเกอร์การหมุน",
+      "lbl-triggerScale": "มาตราส่วนทริกเกอร์"
+    },
+    "postprocessing": {
+      "name": "ลงรายการบัญชีการประมวลผล",
+      "description": "สําหรับการนําเอฟเฟ็กต์ Post Processing ไปใช้กับฉากของคุณ"
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "โครงการใหม่",
+      "backLink": "กลับไปยังโครงการ",
+      "featured": "น่า สนใจ",
+      "all": "ทั้งหมด",
+      "newProject": "สร้างโครงการที่ว่าง",
+      "ph-search": "ค้นหาฉาก..."
+    },
+    "grid": {
+      "loading": "การโหลด   "
+    },
+    "page": {
+      "header": "ต้อนรับ",
+      "headerMsg": "หากคุณยังใหม่ที่นี่เราขอแนะนําให้ผ่านการกวดวิชา มิฉะนั้นให้กระโดดเข้าไปและสร้างโครงการตั้งแต่เริ่มต้นหรือจากหนึ่งในเทมเพลตของเรา",
+      "lbl-startTutorial": "เริ่มบทช่วยสอน",
+      "projects": "โครงการ",
+      "lbl-newProject": "โครงการใหม่"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "การโหลด   ",
+      "placeObject": "วางวัตถุ",
+      "placeObjectAtOrigin": "วางวัตถุที่จุดเริ่มต้น",
+      "copyURL": "คัดลอก URL",
+      "openInNewTab": "เปิด URL ในแท็บใหม่",
+      "deleteAsset": "ลบสินทรัพย์"
+    },
+    "filebrowser": {
+      "addNewFolder": "เพิ่มโฟลเดอร์ใหม่",
+      "cutAsset": "ตัด",
+      "copyAsset": "ลอก",
+      "pasteAsset": "แปะ",
+      "renameAsset": "ตั้งชื่อใหม่",
+      "viewAssetProperties": "แสดงคุณสมบัติ"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "ตั้งชื่อใหม่",
+    "lbl-duplicate": "สำเนา",
+    "lbl-group": "กลุ่ม",
+    "lbl-delete": "ลบ",
+    "lbl-expandAll": "ขยายทั้งหมด",
+    "lbl-collapseAll": "ยุบทั้งหมด",
+    "isseus": "ปัญหา:"
+  },
+  "dnd": {
+    "nodes": "{{count}} โหนดที่เลือก",
+    "models": "{{count}} รุ่นที่เลือก",
+    "images": "{{count}} รูปที่เลือก",
+    "videos": "{{count}} วิดีโอที่เลือก",
+    "audio": "{{count}} แหล่งเสียงที่เลือก"
+  },
+  "dialog": {
+    "title": "บรรณาธิการ",
+    "lbl-confirm": "ตกลง, ได้",
+    "lbl-cancel": "ยกเลิก",
+    "exportProject": {
+      "title": "ส่งออกโครงการ",
+      "lbl-confirm": "ส่งออกโครงการ",
+      "lbl-combineMesh": "รวมตาข่าย",
+      "lbl-removeUnused": "เอาวัตถุที่ไม่ได้ใช้ออก"
+    },
+    "performance": {
+      "title": "การตรวจสอบประสิทธิภาพ",
+      "lbl-confirm": "เผยแพร่ฉาก",
+      "learnMore": "ศึกษาเพิ่มเติม",
+      "lbl-polycount": "จํานวนรูปหลายเหลี่ยม",
+      "lbl-material": "วัสดุ",
+      "lbl-texture": "พื้น ผิว",
+      "lbl-lights": "ไฟ",
+      "lbl-fileSize": "ขนาดแฟ้ม",
+      "info-polycount": "เราขอแนะนําให้ฉากของคุณใช้สามเหลี่ยมไม่เกิน 50,000 รูปสําหรับอุปกรณ์มือถือ",
+      "info-material": "เราขอแนะนําให้ใช้วัสดุที่ไม่ซ้ํากันไม่เกิน 25 รายการในฉากของคุณเพื่อลดการโทรออกบนอุปกรณ์มือถือ",
+      "info-texture": "เราขอแนะนําให้พื้นผิวของคุณใช้ RAM วิดีโอไม่เกิน 256MB สําหรับอุปกรณ์มือถือ เราขอแนะนําให้ไม่ใช้พื้นผิวที่มีขนาดใหญ่กว่า 2048 x 2048",
+      "info-lights": "แม้ว่าไฟแบบไดนามิกจะไม่ได้เปิดใช้งานบนอุปกรณ์เคลื่อนที่ แต่เราขอแนะนําให้ใช้ไฟไม่เกิน 3 ดวงในฉากของคุณ (ไม่รวมไฟโดยรอบและไฟซีกโลก) เพื่อให้ฉากของคุณทํางานบนพีซีระดับล่าง",
+      "info-fileSize": "เราขอแนะนําขนาดไฟล์สุดท้ายไม่เกิน 16MB สําหรับการเชื่อมต่อแบนด์วิดท์ต่ํา การลดขนาดไฟล์จะช่วยลดเวลาที่ใช้ในการดาวน์โหลดฉากของคุณ",
+      "txt-polycount": "สามเหลี่ยม{{count}}",
+      "txt-material": "วัสดุ{{count}}",
+      "txt-ram": "~{{count}} วิดีโอแรม",
+      "txt-texture": "{{count}} พื้นผิวขนาดใหญ่",
+      "txt-lights": "ไฟ{{count}}"
+    },
+    "progress": {
+      "title": "การโหลด   ",
+      "msg": "การโหลด   ",
+      "lbl-cancel": "ยกเลิก"
+    },
+    "publish": {
+      "title": "เผยแพร่ฉาก",
+      "lbl-confirm": "บันทึกและเผยแพร่",
+      "lbl-name": "ชื่อฉาก",
+      "info-name": "ชื่อต้องอยู่ระหว่าง 4 ถึง 64 อักขระ และไม่สามารถมีเครื่องหมายขีดล่างได้"
+    },
+    "published": {
+      "title": "ฉากที่เผยแพร่",
+      "header": "ฉากของคุณได้รับการเผยแพร่แล้ว",
+      "lbl-view": "ดูฉากของคุณ"
+    },
+    "saveNewProject": {
+      "title": "สนับสนุน",
+      "lbl-name": "ชื่อโครงการ",
+      "info-name": "ชื่อต้องอยู่ระหว่าง 4 ถึง 64 อักขระ และไม่สามารถมีเครื่องหมายขีดล่างได้",
+      "lbl-confirm": "บันทึกโครงการ"
+    },
+    "support": {
+      "title": "สนับสนุน",
+      "header": "ต้องการรายงานปัญหาหรือไม่",
+      "msg": "คุณสามารถยื่น<1>ปัญหา GitHub</1> หรือส่งอีเมลถึงเราเพื่อขอรับการสนับสนุนที่<3>{{mail}}</3>",
+      "discord": "นอกจากนี้คุณยังสามารถหาเราใน <1>Discord</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "บิง รูปภาพ",
+      "search": "ค้นหาโดย Bing"
+    },
+    "bingVideo": {
+      "name": "วิดีโอ บิง",
+      "search": "ค้นหาโดย Bing"
+    },
+    "element": {
+      "name": "องค์ ประกอบ"
+    },
+    "myAssets": {
+      "name": "สินทรัพย์ของฉัน"
+    },
+    "googlePoly": {
+      "name": "กูเกิล โพลี",
+      "search": "ค้นหาโดย Google"
+    },
+    "tenor": {
+      "name": "เทเนอร์ GIF",
+      "search": "ค้นหาโดย เทเนอร์",
+      "ph-search": "ค้นหา GIF..."
+    },
+    "sketchfab": {
+      "name": "Sketchfab",
+      "search": "ค้นหาโดย Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "อัพโหลดสินทรัพย์"
+    },
+    "imageSourcePanel": {
+      "ph-search": "ค้นหารูป..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "ค้นหาวิดีโอ..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "ค้นหาสินทรัพย์..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "ค้นหานางแบบ..."
+    },
+    "useUpload": {
+      "multipleFileError": "ข้อมูลป้อนเข้าไม่ยอมรับหลายแฟ้ม",
+      "mineTypeError": "\"{{name}}\" ไม่ตรงกับชนิดหรือส่วนขยายของ mime ต่อไปนี้: {{types}}",
+      "progressTitle": "กําลังอัปโหลดแฟ้ม",
+      "progressMsg": "กําลังอัพโหลดไฟล์ {{uploaded}} {{total}}: {{percentage}}%",
+      "uploadError": "ข้อผิดพลาดในการอัปโหลด",
+      "uploadErrorMsg": "ข้อผิดพลาดในการอัปโหลดแฟ้ม: {{message}}",
+      "uploadErrorDefaultMsg": "มีข้อผิดพลาดที่ไม่รู้จัก"
+    }
+  },
+  "openLink": {
+    "description": "โปรดคลิก เปิด เพื่อนําทางไปยังลิงก์",
+    "lbl-open": "เปิด"
+  },
+  "interactableModel": {
+    "lbl-buy": "ซื้อ",
+    "lbl-learnMore": "ศึกษาเพิ่มเติม"
+  },
+  "corsProxyButton": {
+    "tooltip": "ใช้พร็อกซีเซิร์ฟเวอร์ Cors"
+  }
+}

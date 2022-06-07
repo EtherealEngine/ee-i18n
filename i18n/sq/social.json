@@ -1,0 +1,202 @@
+{
+  "addComment": "Shto Koment...",
+  "share": "Ndaje",
+  "suggestions": "Sugjerime për ty",
+  "seeAll": "Shih të gjitha",
+  "likes": "I pëlqen",
+  "viewComments": "Shih të gjitha komentet {{count}}",
+  "more": "më shumë",
+  "username": "përdoruesi",
+  "fullName": "Emri Mbiemri",
+  "reportInApporpriate": "Raport i papërshtatshëm",
+  "unfollow": "Unfollow",
+  "goToPost": "Shko në post",
+  "shareModal": "Ndaje",
+  "copyLink": "Kopjo lidhjen",
+  "embed": "I mishosur",
+  "cancel": "Anulo",
+  "confirm": "Konfirmo",
+  "save": "Ruaj",
+  "profilePic": "Fotoja e profilit të {{user}}",
+  "ara": "Ara",
+  "follow": "Ndiq",
+  "flames": "Flakët",
+  "continue": "Vazhdo",
+  "partyInvitationSent": "Ftesa e partisë dërguar",
+  "arMedia": {
+    "back": "Mbrapa.",
+    "clip": "Klip",
+    "backgrounds": "Sfondet",
+    "start": "Fillo"
+  },
+  "arMediaform": {
+    "title": "Titulli",
+    "type": "Lloji",
+    "clip": "Klip",
+    "background": "Sfondi",
+    "scene": "Skena",
+    "save": "Ruaj",
+    "manifest-file": "Manifest .manifest file",
+    "audio-file": "File MP4",
+    "dracosis-file": "File Dracosis .uvol",
+    "preview-file": "File i figurës preview"
+  },
+  "creator": {
+    "myVideos": "Videot e mia",
+    "savedVideos": "Videot e ruajtura",
+    "back": "Mbrapa.",
+    "blocked-list": "Lista e bllokuar",
+    "block-user": "Përdoruesi i Bllokut",
+    "dialog-content": "Nuk do të shihni profilin dhe përmbajtjen e përdoruesit"
+  },
+  "creatorForm": {
+    "back": "Mbrapa.",
+    "edit": "Ndrysho profilin",
+    "save": "Ruaj",
+    "changeAvatar": "Ndrysho figurën e avatarit",
+    "ph-selectPreview": "Zgjidh pamjen e parë",
+    "ph-name": "Emri yt",
+    "ph-username": "Përdoruesi juaj",
+    "ph-email": "Email-i juaj",
+    "ph-tags": "Tags",
+    "ph-link": "Link",
+    "ph-aboutYou": "Më shumë për ty.",
+    "ph-twitter": "twitter",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Firmosja"
+  },
+  "dashboard": {
+    "title": "Paneli i panelit",
+    "dashboard": "Paneli i panelit",
+    "users": "Përdoruesit",
+    "feeds": "Ushqimi",
+    "arMedia": "Video Media",
+    "editor": "Modifikues",
+    "creator": "Krijues"
+  },
+  "featured": {
+    "empty-list": "Nuk ka ushqim për tani ..."
+  },
+  "feed": {
+    "back": "Mbrapa.",
+    "related": "Të ushqyerit e lidhur",
+    "is-repoted-message": "Të ushqyerit është raportuar!"
+  },
+  "feedForm": {
+    "back": "Mbrapa.",
+    "thanks": "Faleminderit për ndarjen dhe përmirësimin e komunitetit tonë",
+    "share": "Ndaje diçka me komunitetin",
+    "upload": "Ngarko videon",
+    "ph-selectVideo": "Zgjidh Video",
+    "preview": "Figurë e pamjes së parë",
+    "ph-selectPreview": "Zgjidh pamjen e parë",
+    "createFeed": "Në mënyrë që të krijoni një feed ju duhet të keni një video dhe një pamje paraprake!!!",
+    "ph-videoName": "Emri i videos tënde",
+    "ph-type": "Shkruaj atë që do të ndash me komunitetin... ",
+    "lbl-share": "Ndaje",
+    "save": "Ruaj dhe vazhdo më pas"
+  },
+  "feedMenu": {
+    "featured": "E paraqitur",
+    "creators": "Krijuesit",
+    "feed": "Ushqimi"
+  },
+  "header": {
+    "lbl-volumetric": "Volumetrike"
+  },
+  "login": {
+    "account": "Ke llogari?",
+    "login": "Hyrje",
+    "resetPassword": "Reset Password Fake button (këtu do të jetë një lidhje nga email)",
+    "notHavingAccount": "Nuk ke llogari?",
+    "signUp": "Regjistrohu",
+    "forgotPassword": "Harrove fjalëkalimin?",
+    "back": "Mbrapa.",
+    "or": "OSE"
+  },
+  "comment": {
+    "add": "Shto komentin tënd..."
+  },
+  "notification": {
+    "feedFire": " të pushoi nga ushqimi",
+    "feedBookmarked": " libërshënoi ushqimin tënd",
+    "comment": " komentoi ushqimin tënd:",
+    "commentFire": " pushoi komentin tënd për t'u ushqyer",
+    "follow": " filloi të të ndiqte",
+    "unfollow": " ndalove së ndjekuri",
+    "followed": " te ndoqa",
+    "activity": "Aktiviteti"
+  },
+  "onBoarding": {
+    "welcome": "Mirë se erdhe!",
+    "description": "Koleksioni më i madh i 370+ planimetrive për prototyping iOS.",
+    "next": "Në vazhdim",
+    "discover": "Zbulo artikuj,",
+    "news": "lajme > postime",
+    "lines": "Janë këto ndjenja që na e shtyjnë dashurinë për astronominë dhe dëshirën tonë.",
+    "getStarted": "Fillo",
+    "meetUp": "Takohemi me",
+    "friends": "miq.",
+    "meet": "Njihuni me miqtë"
+  },
+  "shareForm": {
+    "arcMedia": "Ndaje",
+    "videoCreated": "E krijova këtë videokasetë",
+    "shareWithBuddies": "Ndaje me miqtë",
+    "shareVideo": "Share Video",
+    "save": "Ruaj në rrotullim kamerash",
+    "cancel": "Anulo",
+    "close": "Mbylle",
+    "addFeed": "Shto Feed"
+  },
+  "simpleModal": {
+    "emptyList": "Listë bosh",
+    "followers": " në vazhdim",
+    "following": " pasues",
+    "flames": " flakët"
+  },
+  "splash": {
+    "screen": "Ekrani i spërkatjes",
+    "logo": "Logo"
+  },
+  "story": {
+    "profilePic": "Fotoja e profilit të {{user}}"
+  },
+  "view": {
+    "cancel": "Anulo",
+    "choice": "Ju keni dy mënyra të ndryshme regjistrimi për të zgjedhur nga",
+    "verticalMode": "Modaliteti vertikal ka një kohë rekord prej 30 sekondash",
+    "horizontalMode": "Modaliteti horizontal ka një kohë rekord të pakufizuar",
+    "start": "Fillo",
+    "not-show": "Mos e shfaq më.",
+    "welcome": "Mirë se erdhët në ARC!  Bëni video personale me një nga hologramet tona dhe postojeni në kanalet tuaja të mediave sociale!",
+    "step": "HAPI {{step}}",
+    "text-step-1": "Zgjidh një hologram nga biblioteka.",
+    "text-step-2": "Kjo është Augmented Reality, kështu që skanoni hapësirën me kamerën tuaj nga njëra anë në tjetrën për 3-5 sekonda ku dëshironi që performanca e hologramit të jetë.",
+    "text-step-3-part-1": "Ekrani tap një herë në vendin ku ju dëshironi hologram ankoruar.",
+    "text-step-3-part-2": "BAKSHISH!  Trokit një herë tjetër për ta lëvizur hologramin në një pozicion tjetër.",
+    "text-step-3-part-3": "BAKSHISH!  Mund ta risitoni hologramin duke e pincuar ose duke e zgjeruar ekranin me gishtin e madh dhe gishtin tregues.",
+    "text-step-4-part-1": "Dyfisho butonin e rekordit të kuq për të filluar regjistrimin e videos.",
+    "text-step-4-part-2": "Shtyp butonin e kuq të rekordit tek STOP."
+  },
+  "video": {
+    "back": "Mbrapa."
+  },
+  "terms": {
+    "confirmTerms": "Jam dakord me Kushtet e Shërbimit",
+    "confirmPolicy": "Jam dakord me Politikën e Privatësisë"
+  },
+  "registration": {
+    "ph-phoneEmail": "Përdor telefon / email",
+    "facebook": "Vazhdo me Facebook",
+    "google": "Vazhdo me Google",
+    "linkedin": "Vazhdo me Linkedin",
+    "twitter": "Vazhdo me Twitter",
+    "gitHub": "Vazhdo me GitHub",
+    "connect": "Lidh e-mailin ose numrin e telefonit",
+    "logIn": "Hyr",
+    "LogInTo": "Log në",
+    "continueAsGuest": "Vazhdo si mysafir"
+  }
+}

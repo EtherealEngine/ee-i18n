@@ -1,0 +1,718 @@
+{
+  "loading": "Utaina o Galuega Faatino",
+  "loadingMsg": "Utaina o galuega faatino...",
+  "loadingError": "Mea sese i le utaina o le galuega faatino",
+  "loadingErrorMsg": "Sa i ai se mea sese ina ua uta le galuega faatino.",
+  "selectSceneMsg": "Filifili le Vaaiga e amata ai ona taalo i le afi o le taavale",
+  "error": "Mea Sese",
+  "errorMsg": "Sa i ai se mea sese e le mailoa.",
+  "generateScreenshot": "Generating Project Screenshot",
+  "generateScreenshotMsg": "Fatuina o le ata o le galuega faatino...",
+  "newScene": "Fatu se Vaaiga",
+  "saving": "Galuega Faatino o le Sefeina",
+  "savingMsg": "Sefeina o galuega faatino...",
+  "savingError": "Galuega Faatino o le Sefeina o Mea Sese",
+  "savingErrorMsg": "Sa i ai se mea sese ina ua sefeina le galuega faatino.",
+  "savingSceneErrorMsg": "E le o lelei le utaina o le vaaiga. Taumafai e toe uta le vaaiga.",
+  "duplicating": "Galuega Faatino o le Toe Faaleleia",
+  "duplicatingMsg": "Galuega faatino o le toe faaleleia...",
+  "exporting": "Auina Atu o Le Galuega Faatino",
+  "exportingMsg": "Auina atu o le galuega faatino...",
+  "exportingError": "Mea Sese o le Galuega Faatino o le Auina Atu",
+  "exportingErrorMsg": "Sa i ai se mea sese ina ua auina atu le galuega faatino.",
+  "importLegacy": "Auina Mai le Lalolagi o le Tofi",
+  "importLegacyMsg": "Lapata'iga! O le a suia ai lau vaaiga o loo i ai nei! Ua e mautinoa ua e manao e faaauau?",
+  "publishingError": "Galuega Faatino o le Lolomiina o Mea Sese",
+  "publishingErrorMsg": "Sa i ai se mea sese e le mailoa.",
+  "publishingScene": "Vaaiga i le Lolomiina ma le Faasalalauina",
+  "publishingSceneMsg": "Vaaiga i le lolomiina...",
+  "uploadingThumbnailMsg": "Siiina mai o le ata...",
+  "uploadingSceneMsg": "Vaaiga o le siiina mai: {{percentage}}%",
+  "envMapError": "Mea sese i le utaina o ata o le pusa faatafafa {{files}}",
+  "lbl-return": "Toe Foi Mai",
+  "menubar": {
+    "newScene": "Vaaiga Fou",
+    "saveScene": "Sefe le Vaaiga",
+    "saveAs": "Sefe O Se",
+    "importAsset": "Auina Mai le Asset",
+    "exportGLB": "Auina atu o le binary glTF (.glb) ...",
+    "importScene": "Vaaiga o le auina mai",
+    "exportScene": "Vaaiga o le auina atu",
+    "quit": "Quit"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Ituaiga faila e le lagolagoina mo le faila: \"{{name}}\". \". O le faila e tatau ona avea ma se ata, vitio, po o se faataitaiga o le glb.",
+    "addObject": "faaopoopo le faamatalaga: a o lei maua le mea faitino",
+    "removeObject": "removeObject: node not found. E māfua lenei mea ona o le aveesea o se mea e lē o toe iai i le vaaiga.",
+    "noParent": "E leai se matua o {{node}} \"{{name}}. \" E na o mea faitino o loo i ai i le taimi nei e galue ai.",
+    "undefinedParent": "faatonu.tusi: O Matua fou e le o faamatalaina",
+    "notAuthenticated": "E lei faamaoniaina",
+    "fetchingProjectError": "Mea sese i le aumaia o galuega faatino: {{error}}",
+    "fetchingRouteError": "Mea sese i le aumaia o auala: {{error}}",
+    "unknownError": "Mea sese e le mailoa",
+    "resolveURL": "O le ā le mea e ta'u o le \"{{url}}\":",
+    "mediaSearchAborted": "Ua faalelaina le sailiga o ala o faasalalauga",
+    "methodNotImplemented": "E le'i faatinoina le auala.",
+    "saveProjectAborted": "Sefe le vaaiga o le ata",
+    "unsavedChanges": "Suiga e Le'i Sefeina",
+    "unsavedChangesMsg": "Ua toe fetuuna'i le vaaiga. Faamolemole sefe au suiga.",
+    "projectCreationFail": "E le'i taulau taumafaiga. {{reason}}",
+    "projectDeletionFail": "E le'i manuia le tapeina o le galuega faatino. {{reason}}",
+    "savingProjectFail": "E lei manuia le Sefeina o Galuega Faatino. {{reason}}",
+    "sceneTooLarge": "Ua tele naua le vaaiga ({{size}} MB) e lolomi ai. O le maualuga o le tele o le {{maxSize}} MB.",
+    "sceneCreationFail": "E le'i taulau le foafoaga o vaaiga. {{reason}}",
+    "uploadAborted": "Sii mai le faapa'ū",
+    "uploadFailed": "E le'i manuia le siiina mai o {{reason}}",
+    "assetDeletionFail": "E le'i taulau le aveesea o le malosi o le tino. {{reason}}",
+    "projectAssetDeletionFail": "E le'i manuia le galuega faatino o le Asset deletion. {{reason}}",
+    "networkError": "Mea Sese o le Upegafesootai: {{status}}. {{text}}",
+    "unknownStatus": "Tulaga e Le Mailoa",
+    "CORS": "Atonu o se mea sese a le CORS",
+    "urlFetchError": "E le'i mafai ona maua \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Maimoa i lePort",
+    "command": {
+      "movecamera": "Aveese le Camera",
+      "flyFast": "Ia vave ona lele",
+      "orbit": "Orbit / Filifili",
+      "pan": "Pan",
+      "fly": "Fly",
+      "focus": "Taulai atu",
+      "rotateLeft": "Faataamilo i le Agavale",
+      "rotateRight": "Faataamilo i le Taumatau",
+      "cancelPlacement": "Faaleaogaina o le Tulaga",
+      "placeDuplicate": "Tuu Faalua le Nofoaga",
+      "cancelGrab": "Cancel Grab",
+      "grab": "Grab",
+      "deselectAll": "E Le'i Filifilia Uma"
+    },
+    "state": {
+      "header": "Stats",
+      "memory": "Manatuaga",
+      "geometries": "Geometries",
+      "textures": "Textures",
+      "render": "Tuuina Atu",
+      "FPS": "FPS",
+      "frameTime": "Taimi o le Frame",
+      "calls": "Valaauga",
+      "triangles": "Triangles",
+      "points": "Manatu",
+      "lines": "Laina"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Lolomi",
+    "lbl-published": "Lolomiina",
+    "command": {
+      "translate": "Faaliliu",
+      "rotate": "Rotate",
+      "scale": "Fua",
+      "toggleSpace": "Avanoa e Sui Ai",
+      "togglePivot": "Toggle Transform Pivot",
+      "toggleSnapMode": "Toggle Snap Mode",
+      "toggleGrid": "Toggle Grid Visibility",
+      "increaseGridSize": "Faateleina le Tele o le Fua",
+      "descreaseGridSize": "Faaitiitia le Tele o le Fua",
+      "stopPreview": "Taofi le Muai Vaaiga",
+      "playPreview": "Vaaiga i le Muai Vaaiga"
+    }
+  },
+  "properties": {
+    "title": "Mea e Manaomia",
+    "lbl-visible": "Visible",
+    "lbl-preventBake": "Puipuia o le Bake",
+    "lbl-persist": "Persist",
+    "multipleNodeSelected": "E Tele Ituaiga o Nodes o ituaiga eseese ua filifilia",
+    "noNodeSelected": "Leai se node filifilia",
+    "ambientLight": {
+      "name": "Malamalama o le Malamalama",
+      "description": "O se malamalama e faamalamalamaina ai mea faitino uma i lau vaaiga.",
+      "lbl-intensity": "Intensity",
+      "lbl-color": "Lanu"
+    },
+    "envmap": {
+      "name": "Faafanua o le Siosiomaga",
+      "description": "faafanua o le siosiomaga"
+    },
+    "asset": {
+      "name": "Asset",
+      "description": "O se vaega o vaega o le vaaiga lea e mafai ona uta ma le malosi ma e le'i la'uina",
+      "lbl-options": "Filifiliga",
+      "lbl-assetPath": "Ala o le Asset",
+      "lbl-assetName": "Auina Atu le Igoa",
+      "lbl-exportOptions": "Filifiliga e Auina Atu",
+      "lbl-export": "Auina Atu le Asset",
+      "lbl-load": "Uta i le Vaaiga",
+      "lbl-unload": "E Le'i Siiina Mai",
+      "lbl-reload": "Toe uta"
+    },
+    "audio": {
+      "name": "Otio",
+      "description": "O le tele lava o le leo e sii mai ai le leo.",
+      "lbl-audiourl": "Url Otio",
+      "lbl-controls": "puleaina",
+      "info-controls": "Ia taofia le mafai ona iloa atu o ala o faasalalauga.",
+      "lbl-autoplay": "Auto Play",
+      "info-autoplay": "Afai e moni, o le a taaalo ala o faasalalauga i le taimi muamua e ulufale atu ai i le vaaiga.",
+      "lbl-synchronize": "Faalaugatasia",
+      "info-synchronize": "Afai e moni, o le a faalaugatasia ia ala o faasalalauga i tagata uma e faaaogaina.",
+      "lbl-loop": "Loop",
+      "info-loop": "Afai e moni o le a le toe i ai ni ala o faasalalauga.",
+      "lbl-audioType": "Ituaiga Otio",
+      "lbl-distanceModel": "Faataitaiga o le Taumamao",
+      "info-distanceModel": "O le algorithim sa faaaoga e fuafua ai le tauvalaauga o le leo.",
+      "lbl-rolloffFactor": "Vaega o le Tauvalaauga",
+      "info-rolloffFactor": "O se tulaga faatauaina lona lua e faamatala ai le vave ona faaitiitia o le leotele a o alu ese atu le punavai mai le tagata faalogologo. 0 i le 1",
+      "info-rfInfinity": "O se tulaga faatauaina lona lua e faamatala ai le vave ona faaitiitia o le leotele a o alu ese atu le punavai mai le tagata faalogologo. 0 i le Le Faamaoni",
+      "lbl-refDistance": "Ref Distance",
+      "info-refDistance": "O se tulaga faatauaina lona lua e fai ma sui o le mamao e faasino i ai mo le faaitiitia o le leotele a o agai mamao ese atu le punavai o le leo mai le tagata faalogologo.",
+      "lbl-maxDistance": "Max Distance",
+      "info-maxDistance": "O se tau e lua e fai ma sui o le maualuga o le mamao i le va o le punavai o le leo ma le tagata faalogologo, a uma lea e le o toe faaitiitia le leotele.",
+      "lbl-coneInnerAngle": "Cone Inner Angle",
+      "info-coneInnerAngle": "O se tulaga faatauaina lona lua o loo faamatalaina ai le tulaga, i tikeri, o se konesula i totonu lea o le a le faaitiitia ai le leotele.",
+      "lbl-coneOuterAngle": "Cone Outer Angle",
+      "info-coneOuterAngle": "O se tau lona lua o loo faamatalaina ai le tulaga, i tikeri, o se konesula i fafo lea o le a faaitiitia ai le leo i se tau faifai pea, ua faauigaina e le coneOuterGain.",
+      "lbl-coreOuterGain": "Mea e Maua Mai i le Pa'u o le Pa'u",
+      "info-coreOuterGain": "O se tau e lua e faamatala ai le aofaiga o le faaitiitia o le leotele i fafo atu o le cone ua faauigaina e le coneOuterAngle. O lona tau masani o le 0, o lona uiga e leai se leo e mafai ona lagonaina.",
+      "lbl-volume": "Volume",
+      "lbl-play": "Ta",
+      "lbl-pause": "Taofi",
+      "error-url": "Mea Sese o loo Sii Mai i le URL"
+    },
+    "boxCollider": {
+      "description": "O se pusa e le vaaia o le a se'e ese mai ai ni mea faitino po o se malologa i le pito i luga.\nA aunoa ma ni mea faitino, o le a pauu atu mea faitino i fola ma ui atu i puipui.",
+      "lbl-isTrigger": "Trigger"
+    },
+    "camera": {
+      "name": "Camera",
+      "description": "Faatulagaga o le Camera.",
+      "lbl-camera-raycast": "Camera Raycasting",
+      "lbl-camera-raycast-toggle": "Enabled",
+      "lbl-camera-raycast-frequency": "Frequency",
+      "lbl-camera-raycast-count": "Faitauga a Ray",
+      "lbl-camera-raycast-length": "Le Umi o Ray"
+    },
+    "directionalLight": {
+      "name": "Malamalama o le Taitaiga",
+      "description": "O se malamalama e faamalamalamaina ai le vaaiga atoa, ae e susulu mai i se itu e tasi.",
+      "lbl-color": "Lanu",
+      "lbl-intensity": "Intensity",
+      "lbl-cameraFar": "Camera Far",
+      "lbl-cameraNear": "Camera e Latalata i le",
+      "lbl-cameraTop": "Camera Top",
+      "lbl-cameraBottom": "Pito i Lalo o le Camera",
+      "lbl-cameraLeft": "Camera agavale",
+      "lbl-cameraRight": "Camera Right",
+      "lbl-useInCSM": "Faaaoga i CSM",
+      "lbl-castShadow": "Ata Lafoia",
+      "lbl-disableForCSM": "E le mafai ona taofia ona ua mafai ona maua le faafanua o le ata o Cascade.",
+      "lbl-shadowmapResolution": "Filifiliga o le Faafanua o le Ataata",
+      "lbl-shadowBias": "Ata Lafoia",
+      "lbl-shadowRadius": "Shadow Radius",
+      "lbl-showCameraHelper": "Faaali le Tagata Fesoasoani o le Camera"
+    },
+    "groundPlane": {
+      "name": "Fuafuaga o le Eleele",
+      "description": "O se vaalele mafolafola e oo atu i se mea mamao.",
+      "lbl-color": "Lanu",
+      "lbl-receiveShadow": "Maua le Ataata",
+      "lbl-generateNavmesh": "Generate Navmesh"
+    },
+    "link": {
+      "description": "Sootaga i se potu po o se uepisaite.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "3D geospatial map of e.g. o se aai."
+    },
+    "model": {
+      "description": "O se faataitaiga e 3D i lau vaaiga, na sii mai se GLTF URL po o se faila.",
+      "lbl-usingGPUInstancingFlag": "Faaaoga le GPU Instancing",
+      "lbl-modelurl": "Model Url",
+      "lbl-envmapUrl": "Faafanua o le Siosiomaga Url",
+      "lbl-textureOverride": "Faamatalaga e Sili Ona Fiafia i Ai",
+      "lbl-materialOverride": "O Mea e Suia Ai Mea e Faaaoga",
+      "error-url": "Mea Sese o loo Sii Mai i le URL",
+      "lbl-loopAnimation": "O Mea e Fai i le Taimi o le Su'",
+      "lbl-isAvatar": "Pe o Avatar",
+      "lbl-isGPUInstancing": "O Loo Faaaogaina le GPU Instancing",
+      "lbl-isDynamic": "E Le'i A'oa'oina",
+      "lbl-castShadow": "Ata Lafoia",
+      "lbl-receiveShadow": "Maua le Ataata",
+      "lbl-interactable": "E Mafai Ona Faaaoga",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "Igoa",
+      "lbl-url": "Model Url",
+      "lbl-buy": "Faatau le Url",
+      "lbl-learnMore": "Aoao Atili",
+      "lbl-htmlContent": "Anotusi o le Html",
+      "lbl-interactionText": "Anotusi o le Fegalegaleaiga",
+      "lbl-interactionType": "Ituaiga o Fegalegaleaiga"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Anomea",
+      "error-materialID": "Mea Sese i le mauaina o Anomea",
+      "placeholder-materialID": "Filifili Anomea",
+      "lbl-patternTarget": "E Tutusa le Mamanu",
+      "lbl-pattern": "Mamanu",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Ituaiga o Fegalegaleaiga",
+      "text": "Anotusi o le Fegalegaleaiga",
+      "distance": "Va'ai o le Fe'aina'i",
+      "theme": "Autu o Fegalegaleaiga",
+      "name": "Igoa o le Fegalegaleaiga",
+      "description": "Faamatalaga o le Fegalegaleaiga",
+      "images": "Ata o le Fegalegaleaiga",
+      "videos": "Vitio o fesootaiga",
+      "urls": "Fesootaiga Urls",
+      "models": "Faataitaiga o Fegalegaleaiga"
+    },
+    "group": {
+      "name": "Vaega",
+      "description": "O se vaega o ni mea faitino se tele e mafai ona suia pe kopiina faatasi.\nFaapipii ma tuu ni mea faitino i totonu o le Vaega i le Hierarchy."
+    },
+    "hemisphere": {
+      "name": "Malamalama o le Itulagi",
+      "description": "O se malamalama lea e faamalamalamaina ai le vaaiga mai luga tonu lava.",
+      "lbl-skyColor": "Lanu o le Sky",
+      "lbl-groundColor": "Lanu o le Eleele",
+      "lbl-intensity": "Intensity"
+    },
+    "image": {
+      "name": "Ata",
+      "description": "O le mea moni, e iai se ata o loo ta'ua i le Tusi Paia.",
+      "lbl-imgURL": "Faamatalaga o Le Ata",
+      "lbl-transparency": "Ituaiga o le Teropika",
+      "lbl-alphaCutoff": "Faaumaga a le Alpha",
+      "lbl-projection": "Galuega Faatino",
+      "lbl-side": "Itu",
+      "info-controls": "Ia taofia le mafai ona iloa atu o ala o faasalalauga.",
+      "info-transparency": "Auala e faaaoga ai le faamatalaga:",
+      "info-opaque": "'opaque' = leai se tiliona",
+      "info-blend": "'blend' = faaaoga le alaleo alpha",
+      "info-mask": "'mask' = Faaaoga se tau patino o le faaumaga mo le on/off t sao (e sili atu ona faatino)",
+      "info-alphaCutoff": "O Pixel e i ai tulaga faatauaina o le alpha e maualalo ifo nai lo le mea lenei o le a manino",
+      "error-url": "E le o aoga le URL"
+    },
+    "name": {
+      "lbl-name": "Igoa"
+    },
+    "partileEmitter": {
+      "description": "Particle emitter e fatu ai ni vaega ninii.",
+      "lbl-particleCount": "Faitauga o le Particle",
+      "lbl-image": "Ata",
+      "lbl-ageRandomness": "Tausaga e Le'i Fuafuaina",
+      "lbl-lifetime": "Olaga Atoa",
+      "lbl-lifetimeRandomness": "Soo se Mea e Tupu i le Olaga Atoa",
+      "lbl-sizeCurve": "Fua o le Telē",
+      "lbl-startPSize": "Amata le Tele o le Particle",
+      "lbl-endPSize": "Tele o le Vaega o le Faaiuga",
+      "lbl-sizeRandomness": "Telē o le Randomness",
+      "lbl-colorCurve": "Lanu o le Pa'u",
+      "lbl-startColor": "Lanu Amata",
+      "lbl-startOpacity": "Amata le Faate'aina",
+      "lbl-middleColor": "Lanu Tutotonu",
+      "lbl-middleOpacity": "1999, 100.",
+      "lbl-endColor": "Lanu Faaiu",
+      "lbl-endOpacity": "Faai'uga o le Faai'uga",
+      "lbl-velocityCurve": "Velocity Curve",
+      "lbl-startVelocity": "Amata le Velocity",
+      "lbl-endVelocity": "Faaiuga o le Velocity",
+      "lbl-angularVelocity": "Ā'au o le Pa'u o le",
+      "info-ageRandomness": "O le tele o le eseesega i le va o le taimi e maua ai ni vaega ninii.",
+      "info-lifetime": "O le maualuga o le matua o se vaega a o lei toe faafouina.",
+      "info-lifetimeRandomness": "O le tele o le eseesega i le va o vaega ninii o le olaga.",
+      "info-sizeRandomness": "O le aofaiga o le eseesega i le va o vaega ninii e amata ai.",
+      "error-url": "Mea Sese o loo Sii Mai i le URL"
+    },
+    "clouds": {
+      "name": "Cloud",
+      "description": "Sprite e faavae i le leotele o le ao.",
+      "lbl-image": "Ata o le Sprite",
+      "lbl-wroldScale": "Fua o le Lalolagi",
+      "lbl-dimensions": "Telē",
+      "lbl-noiseZoom": "Noise Zoom",
+      "lbl-noiseOffset": "Pa'ō o le Pa'u",
+      "lbl-spriteScale": "Fua o le Sprite",
+      "lbl-fogColor": "Lanu o le Fog",
+      "lbl-fogRange": "Fog Range",
+      "error-url": "Mea Sese o loo Sii Mai i le URL"
+    },
+    "ocean": {
+      "name": "Vasa",
+      "description": "O le sami o loo i ai galu ma foam",
+      "lbl-normalMap": "Faafanua Masani",
+      "lbl-distortionMap": "Faafanua o le Distortion",
+      "lbl-envMap": "Faafanua o le Siosiomaga",
+      "lbl-color": "Lanu",
+      "lbl-shallowWaterColor": "Lanu o le Vai e Le'i A'oa'o",
+      "lbl-shallowToDeepDistance": "E Matuā Mamao Lava",
+      "lbl-opacityFadeDistance": "Opacity Fade Distance",
+      "lbl-opacityRange": "Vaega o le Opacity",
+      "lbl-shininess": "O Le Le Mautonu",
+      "lbl-reflectivity": "Toe Manatunatuga",
+      "lbl-foamColor": "Lanu o le Foam",
+      "lbl-foamSpeed": "Foam Speed",
+      "lbl-foamTiling": "Foam Tiling",
+      "lbl-bigWaveTiling": "Ta'ita'i o le Galu Tele",
+      "lbl-bigWaveSpeed": "O Mea Tetele e Fai i le Galu",
+      "lbl-bigWaveHeight": "O Le Galu Tele",
+      "lbl-waveSpeed": "Wave Speed",
+      "lbl-waveScale": "Fua o le Galu",
+      "lbl-waveTiling": "Ta'ita'i o le Galu",
+      "lbl-waveDistortionSpeed": "Wave Distortion Speed",
+      "lbl-waveDistortionTiling": "Wave Distortion Tiling",
+      "error-url": "Mea Sese o loo Sii Mai i le URL"
+    },
+    "water": {
+      "name": "Vai",
+      "description": "O mea laiti e maua mai ai le vai"
+    },
+    "interior": {
+      "name": "• O le a le mea",
+      "description": "O se mea e pei o se pusa e tuu ai mea'ai, e faata'ita'i i le si'osi'omaga i totonu",
+      "lbl-cubeMap": "Cube Map texture",
+      "lbl-tiling": "Aofaiga o le tiling",
+      "lbl-size": "Telē o le surface",
+      "error-url": "Mea Sese o loo Sii Mai i le URL"
+    },
+    "pointLight": {
+      "description": "O se malamalama e susulu mai i itu uma mai se tulaga e tasi.",
+      "lbl-color": "Lanu",
+      "lbl-intensity": "Intensity",
+      "lbl-range": "Range",
+      "lbl-decay": "Decay"
+    },
+    "scene": {
+      "name": "Vaaiga",
+      "description": "O le mea autū o le vaaiga.",
+      "lbl-bgcolor": "Lanu i Tua Atu",
+      "lbl-fogType": "Ituaiga Fog",
+      "lbl-fogColor": "Lanu o le Fog",
+      "lbl-forNearDistance": "Fog e Latalata i le Mea Mamao",
+      "lbl-fogFarDistance": "Fog Far Distance",
+      "lbl-fogDensity": "Fog Density",
+      "lbl-audioSettings": "Faaaoga le Otio o le Tofiga",
+      "lbl-avatarDistanceModel": "Faataitaiga o le Va o Avatar",
+      "lbl-avatarRolloffFactor": "Vaega o le Tauvalaauga a Avatar",
+      "lbl-avatarRefDistance": "Avatar Ref Distance",
+      "lbl-avatarMaxDistance": "Avatar Max Distance",
+      "lbl-mediaVolume": "Voluma o Ala o Faasalalauga",
+      "lbl-mediaDistanceModel": "Faataitaiga o Ala o Faasalalauga",
+      "lbl-mediaRolloffFactor": "Vaega o le Tauvalaauga o Ala o Faasalalauga",
+      "lbl-mediaRefDistance": "Ala o Faasalalauga",
+      "lbl-mediaMaxDistance": "Ala o Faasalalauga Max Distance",
+      "lbl-mediaConeInnerAngle": "O Ala o Faasalalauga i Totonu o le Tulaga",
+      "lbl-mediaConeOuterAngle": "O Mea e Fai i Ala o Faasalalauga",
+      "lbl-mediaConeOuterGain": "O Mea e Maua i Ala o Faasalalauga",
+      "info-avatarDistanceModel": "O le algorithim sa faaaoga e fuafua ai le tauvalaauga o le leo.",
+      "info-avatarRolloffFactor": "O se tulaga faatauaina lona lua e faamatala ai le vave ona faaitiitia o le leotele a o alu ese atu le punavai mai le tagata faalogologo. 0 i le 1",
+      "info-avatarRolloffFactorInifinity": "O se tulaga faatauaina lona lua e faamatala ai le vave ona faaitiitia o le leotele a o alu ese atu le punavai mai le tagata faalogologo. 0 i le Le Faamaoni",
+      "info-avatarRefDistance": "O se tulaga faatauaina lona lua e fai ma sui o le mamao e faasino i ai mo le faaitiitia o le leotele a o agai mamao ese atu le punavai o le leo mai le tagata faalogologo.",
+      "info-avatarMaxDistance": "O se tau e lua e fai ma sui o le maualuga o le mamao i le va o le punavai o le leo ma le tagata faalogologo, a uma lea e le o toe faaitiitia le leotele.",
+      "info-mediaDistanceModel": "O le algorithim sa faaaoga e fuafua ai le tauvalaauga o le leo.",
+      "info-mediaRolloffFactor": "O se tulaga faatauaina lona lua e faamatala ai le vave ona faaitiitia o le leotele a o alu ese atu le punavai mai le tagata faalogologo. 0 i le 1",
+      "info-mediaRolloffFactorInfinity": "O se tulaga faatauaina lona lua e faamatala ai le vave ona faaitiitia o le leotele a o alu ese atu le punavai mai le tagata faalogologo. 0 i le Le Faamaoni",
+      "info-mediaRefDistance": "O se tulaga faatauaina lona lua e fai ma sui o le mamao e faasino i ai mo le faaitiitia o le leotele a o agai mamao ese atu le punavai o le leo mai le tagata faalogologo.",
+      "info-mediaMaxDistance": "O se tau e lua e fai ma sui o le maualuga o le mamao i le va o le punavai o le leo ma le tagata faalogologo, a uma lea e le o toe faaitiitia le leotele.",
+      "info-mediaConeInnerAngle": "O se tulaga faatauaina lona lua o loo faamatalaina ai le tulaga, i tikeri, o se konesula i totonu lea o le a le faaitiitia ai le leotele.",
+      "info-mediaConeOuterAngle": "O se tau lona lua o loo faamatalaina ai le tulaga, i tikeri, o se konesula i fafo lea o le a faaitiitia ai le leo i se tau faifai pea, ua faauigaina e le coneOuterGain.",
+      "info-mediaConeOuterGain": "O se tau e lua e faamatala ai le aofaiga o le faaitiitia o le leotele i fafo atu o le cone ua faauigaina e le coneOuterAngle. O lona tau masani o le 0, o lona uiga e leai se leo e mafai ona lagonaina.",
+      "lbl-simpleMaterials": "Faaaoga Mea Faigofie",
+      "lbl-lods": "LODs",
+      "info-lods": "Seti le mamao lea e suia ai tulaga o faamatalaga auiliili.",
+      "info-simpleMaterials": "Ia faaliliu uma mea taugatā i ē e faigofie ona tuu ese le avega.",
+      "lbl-rendererSettings": "Faatulagaga o le Tagata e Tuuina Atu Mea e Sili Atu",
+      "lbl-csm": "Faafanua o le Ataata o le Taupulega",
+      "info-csm": "Ua mafai ai ona maua faafanua o ata lafoia.",
+      "lbl-toneMapping": "Taina o le Tone",
+      "info-toneMapping": "E mafai ona oo atu le leo i le tagata o loo faia le vaaiga. E leai se aafiaga pe a mafai ona faapipii se pou.",
+      "lbl-toneMappingExposure": "Tone Mapping Exposure",
+      "info-toneMappingExposure": "Faailoa mai le leo o loo ta'ua i luga o le tagata o loo faia le vaaiga. E leai se aafiaga pe a mafai ona faapipii se pou.",
+      "lbl-shadowMapType": "Ituaiga Faafanua o le Ataata",
+      "info-shadowMapType": "Ituaiga o faafanua o le ata",
+      "error-url": "Mea Sese o loo Sii Mai i le URL"
+    },
+    "sceneCamera": {
+      "name": "Vaaiga i le Camera",
+      "description": "O le mea pueata sa faaaoga e faaosofia ai le ata mo lau vaaiga ma le tulaga amata mo le mea pueata.",
+      "lbl-setFromViewPort": "Seti Mai le Maimoa"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "Taimi o le Aso",
+      "lbl-color": "Lanu",
+      "lbl-latitude": "Latitude",
+      "lbl-luminance": "Luminance",
+      "lbl-scattering": "Aofaiga o le Faataapeapeina",
+      "lbl-scatteringDistance": "Mamao o le Faataapeapeina",
+      "lbl-horizonStart": "Amata le Horizon",
+      "lbl-horizonEnd": "Faaiuga o le Horizon",
+      "lbl-texture": "Texture",
+      "lbl-skyType": "Ituaiga Sky",
+      "error-url": "Mea Sese o loo Sii Mai i le URL"
+    },
+    "spawnPoint": {
+      "name": "Vaega o le Su'esu'ega",
+      "description": "O se tulaga o le a faaali mai ai tagata pe a latou ulufale atu i lau vaaiga.\nO le aikona i le Viewport ua fai ma sui o le telē moni o se avatar."
+    },
+    "spotLight": {
+      "description": "O se malamalama e susulu mai i se itu, e pei o ni mea e pei o se malamalama i totonu o se konesula.",
+      "lbl-color": "Lanu",
+      "lbl-intensity": "Intensity",
+      "lbl-penumbra": "Peninabra",
+      "lbl-angle": "Angle",
+      "lbl-range": "Range",
+      "lbl-decay": "Decay"
+    },
+    "transform": {
+      "title": "Suia",
+      "lbl-postition": "Tofiga",
+      "lbl-rotation": "Rotation",
+      "lbl-scale": "Fua"
+    },
+    "triggereVolume": {
+      "description": "Seti se fanua i luga o le mea e taulai i ai i le ulu atu ma alu ese.",
+      "lbl-target": "Mea Faitino",
+      "lbl-onenter": "I Le Ulufale Atu",
+      "lbl-onexit": "I Luga o le Auala",
+      "lbl-showHelper": "Faaali Atu le Fesoasoani ia Mesh",
+      "ph-errorNode": "Mea sese o loo misi node.",
+      "ph-selectNode": "Filifili le node..."
+    },
+    "video": {
+      "name": "Vitio",
+      "description": "E uta ma le malosi se vitio.",
+      "lbl-video": "Vitio",
+      "lbl-projection": "Galuega Faatino",
+      "lbl-islivestream": "Ola i le Stream",
+      "lbl-interactable": "E Mafai Ona Faaaoga",
+      "lbl-id": "Element Id",
+      "lbl-play": "Ta",
+      "lbl-pause": "Taofi",
+      "error-url": "Mea Sese o loo Sii Mai i le URL"
+    },
+    "volumetric": {
+      "name": "Volumetric",
+      "description": "E sii mai ma le malosi se vitio o le leo.",
+      "uvolPaths": "Auala a le UVOL",
+      "playmode": "Ta le Tulaga o le Ta",
+      "playtitle": "Ta",
+      "pausetitle": "Taofi"
+    },
+    "spline": {
+      "description": "O le faia ma le faaeteete e fatu ai ma faia ni pi'o.",
+      "lbl-addNode": "Faaopoopo i ai le node i le pi'o."
+    },
+    "systemnode": {
+      "description": "Faapipii le tusiga.",
+      "lbl-filePath": "Url",
+      "lbl-systemUpdateType": "Manatu o le Injection",
+      "lbl-enableClient": "Client",
+      "lbl-enableServer": "Server",
+      "lbl-args": "Args",
+      "error-url": "Mea Sese o loo Sii Mai le Tusiga Mai le URL"
+    },
+    "portal": {
+      "lbl-portal": "Faitotoa Fesootai",
+      "lbl-redirect": "Faaaoga le Itulau e Toe Faatonutonu Ai",
+      "description": "O se ata i tagata taaalo o le tele o tagata taaalo i nofoaga patino",
+      "lbl-locationName": "Nofoaga",
+      "lbl-modelUrl": "Model URL",
+      "lbl-displayText": "Faaali le Anotusi",
+      "lbl-cubemapBake": "Cubemap bake",
+      "lbl-spawnPosition": "Tulaga o le Faasu'esu'",
+      "lbl-spawnRotation": "Spawn Rotation",
+      "lbl-triggerPosition": "Tulaga o le Trigger",
+      "lbl-triggerRotation": "Trigger Rotation",
+      "lbl-triggerScale": "Fua o le Trigger"
+    },
+    "postprocessing": {
+      "name": "Faagaoioia pe a Uma le Aoga",
+      "description": "Mo le faaaogaina o aafiaga o le Post Processing ia te oe."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Galuega Faatino Fou",
+      "backLink": "Toe foi i galuega faatino",
+      "featured": "Featured",
+      "all": "Tagata Uma",
+      "newProject": "Galuega Faatino Fou e Le'i Tofiaina",
+      "ph-search": "Sa'ili ni vaaiga..."
+    },
+    "grid": {
+      "loading": "Uta..."
+    },
+    "page": {
+      "header": "Susu maia",
+      "headerMsg": "Afai e te fou iinei matou te fautuaina le faia o le aoaoga. A leai, ia oso sa'o i totonu ma fatu se galuega faatino mai le amataga pe mai se tasi o a tatou mamanu.",
+      "lbl-startTutorial": "Amata le Aoaoga",
+      "projects": "Galuega Faatino",
+      "lbl-newProject": "Galuega Faatino Fou"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Uta...",
+      "placeObject": "Tuu le Mea Faitino",
+      "placeObjectAtOrigin": "Tuu le Mea Faitino i le Amataga",
+      "copyURL": "Kopi le URL",
+      "openInNewTab": "Tatala le URL i le Tab Fou",
+      "deleteAsset": "Tape le Asset"
+    },
+    "filebrowser": {
+      "addNewFolder": "Faaopoopo le Faila Fou",
+      "cutAsset": "Oti",
+      "copyAsset": "Kopi",
+      "pasteAsset": "Paste",
+      "renameAsset": "Toefaaigoa",
+      "viewAssetProperties": "Maimoa i Meatotino"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Toefaaigoa",
+    "lbl-duplicate": "Kopi",
+    "lbl-group": "Vaega",
+    "lbl-delete": "Tape",
+    "lbl-expandAll": "Faalautele Mea Uma",
+    "lbl-collapseAll": "Ta'u Atu Mea Uma",
+    "isseus": "Faafitauli:"
+  },
+  "dnd": {
+    "nodes": "{{count}} Nodes Filifilia",
+    "models": "Faataitaiga {{count}} ua Filifilia",
+    "images": "{{count}} Ata ua Filifilia",
+    "videos": "Vitio {{count}} ua Filifilia",
+    "audio": "{{count}} Punaoa Otio ua Filifilia"
+  },
+  "dialog": {
+    "title": "Faatonu",
+    "lbl-confirm": "Ok",
+    "lbl-cancel": "Faaleaogaina",
+    "exportProject": {
+      "title": "Galuega Faatino e Auina Atu",
+      "lbl-confirm": "Galuega Faatino e Auina Atu",
+      "lbl-combineMesh": "Tuufaatasi Mea e Fiafia i Ai",
+      "lbl-removeUnused": "Aveese Mea Faitino e Le o Faaaogaina"
+    },
+    "performance": {
+      "title": "Siaki le Faatinoga",
+      "lbl-confirm": "Vaaiga i le Lolomiina",
+      "learnMore": "Aoao Atili",
+      "lbl-polycount": "Faitauga o le Polygon",
+      "lbl-material": "Mea e Faaaoga",
+      "lbl-texture": "Textures",
+      "lbl-lights": "Moli",
+      "lbl-fileSize": "Telē o le Faila",
+      "info-polycount": "Matou te fautuaina lau vaaiga ia aua nei silia ma le 50,000 tafatolu mo masini feaveai.",
+      "info-material": "Matou te fautuaina le le silia ma le 25 ni mea tulaga ese i lau vaaiga e faaitiitia ai le faaaogaina o masini feaveai.",
+      "info-texture": "Matou te fautuaina au tusiga e le sili atu ma le 256MB o vitio RAM mo masini feaveai. Matou te fautuaina foi mai le faaaogaina o feau feaveai i telefoni feaveai e sili atu ma le 2048 x 2048.",
+      "info-lights": "E ui e le mafai ona ola moli i masini feaveai, ae matou te fautuaina le le faaaogaina o ni moli e le sili atu ma le 3 i lau vaaiga (o moli o moli ma moli o le ea) mo lau vaaiga e tamoe ai i le pito i lalo o le PCs.",
+      "info-fileSize": "Matou te fautuaina atu se faila mulimuli e le sili atu ma le 16MB mo fesootaiga e maualalo le vaega o le faila. O le toe faaitiitia o le tele o le faila o le a faaitiitia ai le taimi e sii mai ai lau vaaiga.",
+      "txt-polycount": "{{count}} Triangles",
+      "txt-material": "O Mea e {{count}}",
+      "txt-ram": "~{{count}} Video RAM",
+      "txt-texture": "{{count}} Anotusi Tetele",
+      "txt-lights": "Malamalama {{count}}"
+    },
+    "progress": {
+      "title": "Uta...",
+      "msg": "Uta...",
+      "lbl-cancel": "Faaleaogaina"
+    },
+    "publish": {
+      "title": "Vaaiga i le Lolomiina",
+      "lbl-confirm": "Sefe ma Lolomi",
+      "lbl-name": "Igoa o le Vaaiga",
+      "info-name": "O le igoa e tatau ona i le va o le 4 ma le 64 mataitusi ma e le mafai ona aofia ai ni faamamafa"
+    },
+    "published": {
+      "title": "Ua Lolomiina le Vaaiga",
+      "header": "Ua uma ona lolomiina lau vaaiga.",
+      "lbl-view": "Maimoa i Lau Vaaiga"
+    },
+    "saveNewProject": {
+      "title": "Lagolago",
+      "lbl-name": "Igoa o le Galuega Faatino",
+      "info-name": "O le igoa e tatau ona i le va o le 4 ma le 64 mataitusi ma e le mafai ona aofia ai ni faamamafa",
+      "lbl-confirm": "Sefe le Galuega Faatino"
+    },
+    "support": {
+      "title": "Lagolago",
+      "header": "Pe e mana'omia ona lipotia mai se faafitauli?",
+      "msg": "E mafai ona e failaina se <1>lomiga o le GitHub</1> pe i-meli mai ia i matou mo se fesoasoani i <3>{{mail}}</3>",
+      "discord": "E mafai fo'i ona e maua i matou i le <1>Discord</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Ata o le Bing",
+      "search": "Saili e ala i le Bing"
+    },
+    "bingVideo": {
+      "name": "Vitio o le Bing",
+      "search": "Saili e ala i le Bing"
+    },
+    "element": {
+      "name": "Elemene"
+    },
+    "myAssets": {
+      "name": "O A'u Assets"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Saili e ala i le Google"
+    },
+    "tenor": {
+      "name": "Tenor GIFs",
+      "search": "Saili e ala i le Tenor",
+      "ph-search": "Su'e le GIFs..."
+    },
+    "sketchfab": {
+      "name": "1999, 10.",
+      "search": "Saili e ala i le Su'esu'eina o le Tusi a Paia"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Sii mai le Asset"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Sa'ili i ata..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Saili vitio..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Saili aseta..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Sa'ili ni faaa'oa'oga..."
+    },
+    "useUpload": {
+      "multipleFileError": "E le taliaina e ta i totonu ni faila se tele.",
+      "mineTypeError": "E lē tutusa le \"{{name}}\" ma ituaiga o mime o loo mulimuli mai: {{types}}",
+      "progressTitle": "Siiina Mai o Faila",
+      "progressMsg": "Siiina mai o faila {{uploaded}} o {{total}}: {{percentage}}%",
+      "uploadError": "Sii Mai le Mea Sese",
+      "uploadErrorMsg": "Mea sese i le siiina i luga o le faila: {{message}}",
+      "uploadErrorDefaultMsg": "Sa i ai se mea sese e le mailoa"
+    }
+  },
+  "openLink": {
+    "description": "Faamolemole kiliki le Tatala e alu ai i le sootaga.",
+    "lbl-open": "Tatala"
+  },
+  "interactableModel": {
+    "lbl-buy": "Faatau",
+    "lbl-learnMore": "Aoao Atili"
+  },
+  "corsProxyButton": {
+    "tooltip": "Faaaoga le Tautua Sui a le CORS"
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "loading": "Ifaka Iphrojeki",
+  "loadingMsg": "Ifaka umklamo...",
+  "loadingError": "Iphutha ekufakeni iphrojeki",
+  "loadingErrorMsg": "Kube nephutha uma kulayishwa umklamo.",
+  "selectSceneMsg": "Khetha isigcawu ukuqala ukudlala ngenjini",
+  "error": "Iphutha",
+  "errorMsg": "Kube nephutha elingaziwa.",
+  "generateScreenshot": "Yenza Isihenqo Sephrojekthi",
+  "generateScreenshotMsg": "Yenza isihenqo sephrojekthi...",
+  "newScene": "Yakha Isigcawu",
+  "saving": "Ukulondoloza Iphrojeki",
+  "savingMsg": "Kugcinwa iphrojeki...",
+  "savingError": "Iphutha Ekulondolozeni Iphrojeki",
+  "savingErrorMsg": "Kube nephutha uma kulondolozwa iphrojeki.",
+  "savingSceneErrorMsg": "Isimo asilaywa kahle. Zama ukuphinda ulayine le ndawo.",
+  "duplicating": "Umsebenzi Ophinda Kabili",
+  "duplicatingMsg": "Kuphinda kabili umsebenzi...",
+  "exporting": "Iphrojeki Yokuthekelisa",
+  "exportingMsg": "Kuthekelisa umklamo...",
+  "exportingError": "Iphutha Ekuthekelisani Iphrojeki",
+  "exportingErrorMsg": "Kube nephutha uma kuthekeliswa umklamo.",
+  "importLegacy": "Ngenisa Izwe Lefa",
+  "importLegacyMsg": "Isixwayiso! Lokhu kuyobhala ngaphezu kwesigcawu sakho esikhona! Uqinisekile ukuthi ufisa ukuqhubeka?",
+  "publishingError": "Iphutha Ekushicileleni Iphrojeki",
+  "publishingErrorMsg": "Kube nephutha elingaziwa.",
+  "publishingScene": "Ukushicilela Isimo",
+  "publishingSceneMsg": "Ishicilela isigcawu...",
+  "uploadingThumbnailMsg": "Ifaka isithonjana...",
+  "uploadingSceneMsg": "Isigcawu sokufaka: {{percentage}}%",
+  "envMapError": "Iphutha ekufakeni izithombe ze-cubemap {{files}}",
+  "lbl-return": "Buyela",
+  "menubar": {
+    "newScene": "Isenzakalo Esisha",
+    "saveScene": "Londoloza Isimo",
+    "saveAs": "Londoloza njenge",
+    "importAsset": "Ngenisa I-Asset",
+    "exportGLB": "Thekelisa njenge-glTF (.glb) ...",
+    "importScene": "Ngenisa isigcawu",
+    "exportScene": "Thekelisa isigcawu",
+    "quit": "Yeka"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Uhlobo lwefayela olungahlosiwe lwefayela: \"{{name}}\". Ifayela kufanele libe umfanekiso, ividiyo, noma uhlobo lwe-glb.",
+    "addObject": "addObject: ngaphambi kokuba into ingatholakali",
+    "removeObject": "removeObject: node akutholakali. Lokhu kungenxa yokususa i - node engasekho.",
+    "noParent": "{{node}} \"{{name}}\" alunamzali. Phinda usebenza ezintweni ezikhona njengamanje.",
+    "undefinedParent": "umhleli.reparent: iParent entsha ayichaziwe",
+    "notAuthenticated": "Akuqinisekiswanga",
+    "fetchingProjectError": "Iphutha ekulandeni imisebenzi: {{error}}",
+    "fetchingRouteError": "Iphutha ekulandeni imizila: {{error}}",
+    "unknownError": "Iphutha elingaziwa",
+    "resolveURL": "Iphutha ekuxazululeni i- url \"{{url}}\":",
+    "mediaSearchAborted": "Ukucinga kwemidiya kukhawuliwe",
+    "methodNotImplemented": "Indlela ayisetshenziswanga.",
+    "saveProjectAborted": "Londoloza isigcawu esikhishwa ngokukhishwa kwezisu",
+    "unsavedChanges": "Izinguquko Ezingalolongiwe",
+    "unsavedChangesMsg": "Lesi simo siye sashintshwa. Ucelwa ukuba ulondoloze izinguquko zakho.",
+    "projectCreationFail": "Ukwakhiwa kwephrojeki kwehlulekile. {{reason}}",
+    "projectDeletionFail": "Ukususwa kwephrojeki kwehlulekile. {{reason}}",
+    "savingProjectFail": "Ukulondoloza iphrojeki kwehlulekile. {{reason}}",
+    "sceneTooLarge": "Isimo sisikhulu kakhulu ({{size}} MB) ukuba sinyathelise. Ubukhulu obuphelele {{maxSize}} MB.",
+    "sceneCreationFail": "Ukudalwa kwesimo kwehlulekile. {{reason}}",
+    "uploadAborted": "Faka ngokukhishwa kwezisu",
+    "uploadFailed": "Ukufaka kwehlulekile {{reason}}",
+    "assetDeletionFail": "Ukususwa kwempahla kwehlulekile. {{reason}}",
+    "projectAssetDeletionFail": "Ukususwa kwephrojeki kwehlulekile. {{reason}}",
+    "networkError": "Iphutha Lomphambo: {{status}}. {{text}}",
+    "unknownStatus": "Isimo Sokungaziwa",
+    "CORS": "Kungenzeka ukuthi iphutha le-CORS",
+    "urlFetchError": "Yehluleka ukulanda \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Bona",
+    "command": {
+      "movecamera": "Hambisa Ikhamera",
+      "flyFast": "Fly fast",
+      "orbit": "Orbit / Khetha",
+      "pan": "Pan",
+      "fly": "Fly",
+      "focus": "Gxila",
+      "rotateLeft": "Jikeleza Kwesokunxele",
+      "rotateRight": "Jikeleza Ngakwesokudla",
+      "cancelPlacement": "Khansela Indawo Yokubeka",
+      "placeDuplicate": "Indawo Ephinda Mbayo",
+      "cancelGrab": "Khansela Ukubamba",
+      "grab": "Grab",
+      "deselectAll": "Qeda Konke"
+    },
+    "state": {
+      "header": "Stats",
+      "memory": "Inkumbulo",
+      "geometries": "Geometries",
+      "textures": "Imibhalo",
+      "render": "Render",
+      "FPS": "FPS",
+      "frameTime": "Isikhathi Sohlaka",
+      "calls": "Izingcingo",
+      "triangles": "Triangles",
+      "points": "Amaphoyinti",
+      "lines": "Imigqa"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Shicilela",
+    "lbl-published": "Ishicilelwe",
+    "command": {
+      "translate": "Humusha",
+      "rotate": "Jikeleza",
+      "scale": "Scale",
+      "toggleSpace": "Guquguqula Isikhala Sokuguqula",
+      "togglePivot": "Guqula I-Pivot",
+      "toggleSnapMode": "Guquguqula Indlela Yokuqhephuka",
+      "toggleGrid": "Guquguqula Ukubonakala Kohlaka",
+      "increaseGridSize": "Yandisa Ubukhulu Bezinhlaka",
+      "descreaseGridSize": "Nciphisa Ubukhulu Bezinhlaka",
+      "stopPreview": "Yima Ukubona Ngaphambilini Isimo",
+      "playPreview": "Bona ngaphambilini Isigcawu"
+    }
+  },
+  "properties": {
+    "title": "Izici",
+    "lbl-visible": "Okubonakalayo",
+    "lbl-preventBake": "Vimbela Ukubhaka",
+    "lbl-persist": "Persist",
+    "multipleNodeSelected": "Ama-Multiple Node ezinhlobo ezihlukahlukene ezikhethiwe",
+    "noNodeSelected": "Akukho kho okukhethiwe",
+    "ambientLight": {
+      "name": "Ukukhanya Okumnene",
+      "description": "Ukukhanya okukhanyisa zonke izinto endaweni yakho.",
+      "lbl-intensity": "Ukuqina",
+      "lbl-color": "Umbala"
+    },
+    "envmap": {
+      "name": "Ibalazo Lendawo Ezungezile",
+      "description": "izici zamabalazo endawo"
+    },
+    "asset": {
+      "name": "Asset",
+      "description": "Iqoqo lezingxenye zenkundla ezingalayishwa kakhulu futhi zithululwe",
+      "lbl-options": "Izinketho",
+      "lbl-assetPath": "Umkhondo We-Asset",
+      "lbl-assetName": "Igama Lokuthekelisa",
+      "lbl-exportOptions": "Izinketho Zokuthekelisa",
+      "lbl-export": "Thekelisa I-Asset",
+      "lbl-load": "Faka Esigcawini",
+      "lbl-unload": "Khipha",
+      "lbl-reload": "Faka futhi"
+    },
+    "audio": {
+      "name": "Okuzwakalayo",
+      "description": "Ilayisha ngokunengqondo umsindo.",
+      "lbl-audiourl": "I-Url Elalelwayo",
+      "lbl-controls": "izilawuli",
+      "info-controls": "Guquguqula ukubonakala kwezilawuli zemidiya.",
+      "lbl-autoplay": "Ukudlala Ngokuzenzakalelayo",
+      "info-autoplay": "Uma kuyiqiniso, imidiya izodlala uma iqala ukungena.",
+      "lbl-synchronize": "Vumelanisa",
+      "info-synchronize": "Uma kuyiqiniso, imidiya izovunyelaniswa kuwo wonke amaklayenti axhunyiwe.",
+      "lbl-loop": "Loop",
+      "info-loop": "Uma iqiniso imidiya izongena phakade.",
+      "lbl-audioType": "Uhlobo Lokuzwakalayo",
+      "lbl-distanceModel": "Uhlobo Lwebanga",
+      "info-distanceModel": "I - algorithim yasetshenziselwa ukubala i - audio rolloff.",
+      "lbl-rolloffFactor": "Rolloff Factor",
+      "info-rolloffFactor": "Ukubaluleka okukabili okuchaza indlela umthamo oncipha ngokushesha ngayo njengoba umthombo usuka esilalelini. 0 kuya ku- 1",
+      "info-rfInfinity": "Ukubaluleka okukabili okuchaza indlela umthamo oncipha ngokushesha ngayo njengoba umthombo usuka esilalelini. 0 Kuya Ekungaphelini",
+      "lbl-refDistance": "Ref Distance",
+      "info-refDistance": "Ukubaluleka okukabili okumelela ibanga lokunciphisa umthamo njengoba umthombo wokuzwakalayo uqhubekela phambili esilalelini.",
+      "lbl-maxDistance": "Ibanga Lemax",
+      "info-maxDistance": "Inani eliphindwe kabili elimelela ibanga eliphakeme phakathi komthombo wokuzwakalayo nesilaleli, ngemva kwalokho umthamo awusanciphiswa.",
+      "lbl-coneInnerAngle": "Cone Inner Angle",
+      "info-coneInnerAngle": "Inani eliphindwe kabili elichaza i - engela, ngamazinga athile, le - cone ngaphakathi kuyo ngeke kube khona ukuncishiswa okukhulu.",
+      "lbl-coneOuterAngle": "Cone Outer Angle",
+      "info-coneOuterAngle": "Inani eliphindwe kabili elichaza i - engela, ngamazinga athile, le - cone ngaphandle kwayo umthamo oyoncishiswa ngenani elingapheli, elichazwa i - coneOuterGain.",
+      "lbl-coreOuterGain": "Qeda Inzuzo Yangaphandle",
+      "info-coreOuterGain": "Inani eliphindwe kabili elichaza izinga lokuncipha komthamo ngaphandle kwe - cone echazwa i - coneOuterAngle. Inani layo elimisiwe lingu - 0, okusho ukuthi awukho umsindo ongazwakala.",
+      "lbl-volume": "Umsindo",
+      "lbl-play": "Dlala",
+      "lbl-pause": "Misa okwesikhashana",
+      "error-url": "Iphutha Ekulayishiseni I-URL"
+    },
+    "boxCollider": {
+      "description": "Ibhokisi elingabonakali izinto ezizophuma noma ziphumule phezu kwalo.\nNgaphandle kwamabhamuza, izinto ziwela phansi futhi zidlule ezindongeni.",
+      "lbl-isTrigger": "Trigger"
+    },
+    "camera": {
+      "name": "Ikhamera",
+      "description": "Izimiso zekhamera.",
+      "lbl-camera-raycast": "Ukukhishwa Kwekhamera",
+      "lbl-camera-raycast-toggle": "Vuleka",
+      "lbl-camera-raycast-frequency": "Frequency",
+      "lbl-camera-raycast-count": "Ukubala Kweray",
+      "lbl-camera-raycast-length": "Ubude Beray"
+    },
+    "directionalLight": {
+      "name": "Ukukhanya Okuqondisayo",
+      "description": "Ukukhanya okukhanyisa yonke indawo, kodwa kukhipha uhlangothi olulodwa.",
+      "lbl-color": "Umbala",
+      "lbl-intensity": "Ukuqina",
+      "lbl-cameraFar": "Ikhamera Ekude",
+      "lbl-cameraNear": "Ikhamera Eseduze",
+      "lbl-cameraTop": "Ikhamera Phezulu",
+      "lbl-cameraBottom": "Ikhamera Engezansi",
+      "lbl-cameraLeft": "Ikhamera Esele",
+      "lbl-cameraRight": "Ikhamera Kwesokudla",
+      "lbl-useInCSM": "Sebenzisa ku-CSM",
+      "lbl-castShadow": "Cast Shadow",
+      "lbl-disableForCSM": "Yenqatbalwe ngoba ibalazo lesithunzi le-Cascade livunyelwe.",
+      "lbl-shadowmapResolution": "Isinqumo Sebalazo Esingcolile",
+      "lbl-shadowBias": "Shadow Bias",
+      "lbl-shadowRadius": "Shadow Radius",
+      "lbl-showCameraHelper": "Khombisa Umsizi Wekhamera"
+    },
+    "groundPlane": {
+      "name": "Ground Plane",
+      "description": "Indiza eyisicaba efinyelela kude.",
+      "lbl-color": "Umbala",
+      "lbl-receiveShadow": "Yamukela Ithunzi",
+      "lbl-generateNavmesh": "Generate Navmesh"
+    },
+    "link": {
+      "description": "Xhumanisa nekamelo noma kwiwebhusaythi.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "Ibalazwe le - e.g. le - 3D geospatial le - e.g."
+    },
+    "model": {
+      "description": "Uhlobo lwe-3D esigcawini sakho, olulayishwa kwi-GLTF URL noma ifayela.",
+      "lbl-usingGPUInstancingFlag": "Sebenzisa I-GPU Instancing",
+      "lbl-modelurl": "Model Url",
+      "lbl-envmapUrl": "Environment Map Url",
+      "lbl-textureOverride": "Override Texture",
+      "lbl-materialOverride": "Material Overrides",
+      "error-url": "Iphutha Ekulayishiseni I-URL",
+      "lbl-loopAnimation": "Khiya Ukugqiba",
+      "lbl-isAvatar": "I - Avatar",
+      "lbl-isGPUInstancing": "Isebenzisa i-GPU Instancing",
+      "lbl-isDynamic": "Is Dynamic",
+      "lbl-castShadow": "Cast Shadow",
+      "lbl-receiveShadow": "Yamukela Ithunzi",
+      "lbl-interactable": "Interactable",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "Igama",
+      "lbl-url": "Model Url",
+      "lbl-buy": "Thenga i- Url",
+      "lbl-learnMore": "Funda Okwengeziwe Nge - Url",
+      "lbl-htmlContent": "Okuqukethwe kwe-Html",
+      "lbl-interactionText": "Umbhalo Oxhumanayo",
+      "lbl-interactionType": "Uhlobo Lokusebenzelana"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Material",
+      "error-materialID": "Iphutha ekutholeni Izinto Zokwakha",
+      "placeholder-materialID": "Khetha Izinto Ezibonakalayo",
+      "lbl-patternTarget": "Ukuqhathanisa Okuseceleni",
+      "lbl-pattern": "Isibonelo",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Uhlobo Lokusebenzelana",
+      "text": "Umbhalo Oxhumanayo",
+      "distance": "Ibanga Lokuxhumana",
+      "theme": "Indikimba Yokusebenzelana",
+      "name": "Igama Lokuxhumana",
+      "description": "Incazelo Yokusebenzelana",
+      "images": "Izithombe Zokusebenzelana",
+      "videos": "Amavidiyo Okuxhumana",
+      "urls": "Interaction Urls",
+      "models": "Interaction Models"
+    },
+    "group": {
+      "name": "Iqembu",
+      "description": "Iqembu lezinto eziningi ezingahanjiswa noma zihlanganiswe ndawonye.\nDonsa bese uphonsa izinto eQenjini Kusigubuzelo Sabefundisi."
+    },
+    "hemisphere": {
+      "name": "Ukukhanya Kwenkabazwe",
+      "description": "Ukukhanya okukhanyisa isimo phezulu ngokuqondile.",
+      "lbl-skyColor": "Umbala wesibhakabhaka",
+      "lbl-groundColor": "Umbala Ongaphansi Komhlaba",
+      "lbl-intensity": "Ukuqina"
+    },
+    "image": {
+      "name": "Isithombe",
+      "description": "Ifaka isithombe ngokunengqondo.",
+      "lbl-imgURL": "I-Url yesithombe",
+      "lbl-transparency": "Indlela Yokubona Ngalé",
+      "lbl-alphaCutoff": "Alpha Cutoff",
+      "lbl-projection": "Projection",
+      "lbl-side": "Uhlangothi",
+      "info-controls": "Guquguqula ukubonakala kwezilawuli zemidiya.",
+      "info-transparency": "Indlela yokusebenzisa ukwehluka:",
+      "info-opaque": "'opaque' = no transparency",
+      "info-blend": "'blend' = sebenzisa ishaneli ye-alpha yezithombe",
+      "info-mask": "'mask' = Sebenzisa inani elicacisiwe lokusika ku/ukudlulela ngalé (umdlali ophambili)",
+      "info-alphaCutoff": "Ama-pixel anamanani e-alpha aphansi kunalawa azobonakala ngalé",
+      "error-url": "I-URL engeqinisekisiwe"
+    },
+    "name": {
+      "lbl-name": "Igama"
+    },
+    "partileEmitter": {
+      "description": "Particle emitter ukuze wakhe izinhlayiya.",
+      "lbl-particleCount": "Ukubala Kwengxenye",
+      "lbl-image": "Isithombe",
+      "lbl-ageRandomness": "Ukungazetheki Kweminyaka",
+      "lbl-lifetime": "Isikhathi Sokuphila",
+      "lbl-lifetimeRandomness": "Ukungahleleki Kwangesikhathi Sokuphila",
+      "lbl-sizeCurve": "Usimejiki Olinganayo",
+      "lbl-startPSize": "Ubukhulu Bengxenye Yokuqala",
+      "lbl-endPSize": "Ubukhulu Bengxenye",
+      "lbl-sizeRandomness": "Ubungako Obuzenzeka",
+      "lbl-colorCurve": "Ijika Lemibala",
+      "lbl-startColor": "Qala Umbala",
+      "lbl-startOpacity": "Qala Ukunganaki",
+      "lbl-middleColor": "Umbala Ophakathi",
+      "lbl-middleOpacity": "Ukunganaki Okuphakathi",
+      "lbl-endColor": "Umbala Ogcinayo",
+      "lbl-endOpacity": "End Opacity",
+      "lbl-velocityCurve": "Ijika Elisheshayo",
+      "lbl-startVelocity": "Qala I-Velocity",
+      "lbl-endVelocity": "Qeda I-Velocity",
+      "lbl-angularVelocity": "Angular Velocity",
+      "info-ageRandomness": "Ubungako bokuhlukahluka phakathi kwalapho izinhlayi zizala khona.",
+      "info-lifetime": "Inkathi enkulu yenhlaya ngaphambi kokuba iphinde ivunwe.",
+      "info-lifetimeRandomness": "Isilinganiso sokuhlukahluka phakathi kwezikhathi zokuphila kwezinhlaywa.",
+      "info-sizeRandomness": "Isilinganiso sokuhlukahluka phakathi kwe - particle esiqala ubukhulu.",
+      "error-url": "Iphutha Ekulayishiseni I-URL"
+    },
+    "clouds": {
+      "name": "Cloud",
+      "description": "Sprite umthamo wefu osekelwe efwini.",
+      "lbl-image": "Isithombe se-Sprite",
+      "lbl-wroldScale": "Isilinganiso Sezwe",
+      "lbl-dimensions": "Ubungako",
+      "lbl-noiseZoom": "Noise Zoom",
+      "lbl-noiseOffset": "Noise Offset",
+      "lbl-spriteScale": "Sprite Scale",
+      "lbl-fogColor": "Umbala Wefogi",
+      "lbl-fogRange": "Ububanzi Befogi",
+      "error-url": "Iphutha Ekulayishiseni I-URL"
+    },
+    "ocean": {
+      "name": "Ulwandle",
+      "description": "Ulwandle lunamagagasi negwebu",
+      "lbl-normalMap": "Ibalazo Elijwayelekile",
+      "lbl-distortionMap": "Ibalazwe Lokuhlanekezelwa",
+      "lbl-envMap": "Ibalazo Lendawo Ezungezile",
+      "lbl-color": "Umbala",
+      "lbl-shallowWaterColor": "Umbala Wamanzi Ongajulile",
+      "lbl-shallowToDeepDistance": "Ukungajulile Kuze Kube Sebangeni Elijulile",
+      "lbl-opacityFadeDistance": "I-Opacity Inciphisa Ibanga",
+      "lbl-opacityRange": "Ububanzi Be - opacity",
+      "lbl-shininess": "Ubukhazikhazi",
+      "lbl-reflectivity": "Ukucabanga",
+      "lbl-foamColor": "Umbala wegwebu",
+      "lbl-foamSpeed": "Isivinini Segwebu",
+      "lbl-foamTiling": "Ukubopha Igwebu",
+      "lbl-bigWaveTiling": "Ukubopha Okukhulu Kwamagagasi",
+      "lbl-bigWaveSpeed": "Isivinini Esikhulu Segagasi",
+      "lbl-bigWaveHeight": "Ukuphakama Kwamagagasi Amakhulu",
+      "lbl-waveSpeed": "Isivinini Segagasi",
+      "lbl-waveScale": "Wave Scale",
+      "lbl-waveTiling": "Wave Tiling",
+      "lbl-waveDistortionSpeed": "Isivinini Sokuhlanekezelwa Kwamagagasi",
+      "lbl-waveDistortionTiling": "Ukuhlanekezelwa Kwamagagasi",
+      "error-url": "Iphutha Ekulayishiseni I-URL"
+    },
+    "water": {
+      "name": "Amanzi",
+      "description": "Amanzi amancane"
+    },
+    "interior": {
+      "name": "Interior",
+      "description": "Indawo ene - cube ehleliwe ukuze ilingise izindawo ezingaphakathi",
+      "lbl-cubeMap": "Cube Map texture",
+      "lbl-tiling": "Isilinganiso sokubola",
+      "lbl-size": "Ubukhulu be-Surface",
+      "error-url": "Iphutha Ekulayishiseni I-URL"
+    },
+    "pointLight": {
+      "description": "Ukukhanya okukhipha nhlangothi zonke kusuka endaweni eyodwa.",
+      "lbl-color": "Umbala",
+      "lbl-intensity": "Ukuqina",
+      "lbl-range": "Ububanzi",
+      "lbl-decay": "Decay"
+    },
+    "scene": {
+      "name": "Isimo",
+      "description": "Into eyinhloko yalesi senzakalo.",
+      "lbl-bgcolor": "Umbala Wesizinda",
+      "lbl-fogType": "Uhlobo Lwefogi",
+      "lbl-fogColor": "Umbala Wefogi",
+      "lbl-forNearDistance": "Inkungu Eseduze Nebanga",
+      "lbl-fogFarDistance": "Ibanga Elide Lefogi",
+      "lbl-fogDensity": "Fog Density",
+      "lbl-audioSettings": "Sebenzisa Okuzwakalayo Kokuma",
+      "lbl-avatarDistanceModel": "Avatar Distance Model",
+      "lbl-avatarRolloffFactor": "Avatar Rolloff Factor",
+      "lbl-avatarRefDistance": "Avatar Ref Distance",
+      "lbl-avatarMaxDistance": "Ibanga Lemax Le-Avatar",
+      "lbl-mediaVolume": "Umsindo Wemidiya",
+      "lbl-mediaDistanceModel": "Uhlobo Lwebanga Lemidiya",
+      "lbl-mediaRolloffFactor": "Isici Semidiya",
+      "lbl-mediaRefDistance": "Ibanga Le-Ref Yemidiya",
+      "lbl-mediaMaxDistance": "Ibanga Lemax Yemidiya",
+      "lbl-mediaConeInnerAngle": "I-Engela Yemidiya",
+      "lbl-mediaConeOuterAngle": "I-Engela Engaphandle Yemidiya",
+      "lbl-mediaConeOuterGain": "Inzuzo Engaphandle Kwemidiya",
+      "info-avatarDistanceModel": "I - algorithim yasetshenziselwa ukubala i - audio rolloff.",
+      "info-avatarRolloffFactor": "Ukubaluleka okukabili okuchaza indlela umthamo oncipha ngokushesha ngayo njengoba umthombo usuka esilalelini. 0 kuya ku- 1",
+      "info-avatarRolloffFactorInifinity": "Ukubaluleka okukabili okuchaza indlela umthamo oncipha ngokushesha ngayo njengoba umthombo usuka esilalelini. 0 Kuya Ekungaphelini",
+      "info-avatarRefDistance": "Ukubaluleka okukabili okumelela ibanga lokunciphisa umthamo njengoba umthombo wokuzwakalayo uqhubekela phambili esilalelini.",
+      "info-avatarMaxDistance": "Inani eliphindwe kabili elimelela ibanga eliphakeme phakathi komthombo wokuzwakalayo nesilaleli, ngemva kwalokho umthamo awusanciphiswa.",
+      "info-mediaDistanceModel": "I - algorithim yasetshenziselwa ukubala i - audio rolloff.",
+      "info-mediaRolloffFactor": "Ukubaluleka okukabili okuchaza indlela umthamo oncipha ngokushesha ngayo njengoba umthombo usuka esilalelini. 0 kuya ku- 1",
+      "info-mediaRolloffFactorInfinity": "Ukubaluleka okukabili okuchaza indlela umthamo oncipha ngokushesha ngayo njengoba umthombo usuka esilalelini. 0 Kuya Ekungaphelini",
+      "info-mediaRefDistance": "Ukubaluleka okukabili okumelela ibanga lokunciphisa umthamo njengoba umthombo wokuzwakalayo uqhubekela phambili esilalelini.",
+      "info-mediaMaxDistance": "Inani eliphindwe kabili elimelela ibanga eliphakeme phakathi komthombo wokuzwakalayo nesilaleli, ngemva kwalokho umthamo awusanciphiswa.",
+      "info-mediaConeInnerAngle": "Inani eliphindwe kabili elichaza i - engela, ngamazinga athile, le - cone ngaphakathi kuyo ngeke kube khona ukuncishiswa okukhulu.",
+      "info-mediaConeOuterAngle": "Inani eliphindwe kabili elichaza i - engela, ngamazinga athile, le - cone ngaphandle kwayo umthamo oyoncishiswa ngenani elingapheli, elichazwa i - coneOuterGain.",
+      "info-mediaConeOuterGain": "Inani eliphindwe kabili elichaza izinga lokuncipha komthamo ngaphandle kwe - cone echazwa i - coneOuterAngle. Inani layo elimisiwe lingu - 0, okusho ukuthi awukho umsindo ongazwakala.",
+      "lbl-simpleMaterials": "Sebenzisa Izinto Ezilula",
+      "lbl-lods": "LODs",
+      "info-lods": "Imisa amabanga lapho amazinga okushintsha kwemininingwane.",
+      "info-simpleMaterials": "Iguqula zonke izinto ezibizayo kwabalula ukuze basuse umthwalo.",
+      "lbl-rendererSettings": "Qaphelisisa Izimiso Ze-Renderer",
+      "lbl-csm": "Amabalazo Ethunzi",
+      "info-csm": "Ivumela amabalazo esithunzi.",
+      "lbl-toneMapping": "Ukuhlela I-Tone",
+      "info-toneMapping": "Ivumela ukudweba ibalazo endaweni yokudlala. Ayinawo umphumela uma inqubo yokuposa ivunyelwa.",
+      "lbl-toneMappingExposure": "Ukuchayeka Ekuklameni Ibalazo",
+      "info-toneMappingExposure": "Isho ukuchayeka kwephini lokudweba ibalazwe. Ayinawo umphumela uma inqubo yokuposa ivunyelwa.",
+      "lbl-shadowMapType": "Uhlobo Lwebalazo Elithunzi",
+      "info-shadowMapType": "Uhlobo lwebalazo elinwabuzelo",
+      "error-url": "Iphutha Ekulayishiseni I-URL"
+    },
+    "sceneCamera": {
+      "name": "Bona ngaphambilini Ikhamera",
+      "description": "Ikhamera esetshenziselwa ukuphehla isithonjana senkundla yakho kanye nendawo yokuqala yekhamera ebona ngaphambilini.",
+      "lbl-setFromViewPort": "Misa Kusuka Ekubukeni"
+    },
+    "skybox": {
+      "name": "Ibhokisi Lesibhakabhaka",
+      "description": "",
+      "lbl-timeOfDay": "Isikhathi Sosuku",
+      "lbl-color": "Umbala",
+      "lbl-latitude": "Latitude",
+      "lbl-luminance": "Luminance",
+      "lbl-scattering": "Isilinganiso Esisakazayo",
+      "lbl-scatteringDistance": "Ukusakaza Ibanga",
+      "lbl-horizonStart": "Isiqalo Esivundlile",
+      "lbl-horizonEnd": "Umkhathizwe Ukuphela",
+      "lbl-texture": "Texture",
+      "lbl-skyType": "Uhlobo Lwesibhakabhaka",
+      "error-url": "Iphutha Ekulayishiseni I-URL"
+    },
+    "spawnPoint": {
+      "name": "Iphoyinti elizacile",
+      "description": "Iphuzu lapho abantu beyovela khona lapho bengena endaweni yakho.\nUphawu olukulomdlalo kumelela ubukhulu bangempela be - avatar."
+    },
+    "spotLight": {
+      "description": "Ukukhanya okukhipha uhlangothi, okukhanyisa izinto ezingaphakathi kwe - cone.",
+      "lbl-color": "Umbala",
+      "lbl-intensity": "Ukuqina",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Angle",
+      "lbl-range": "Ububanzi",
+      "lbl-decay": "Decay"
+    },
+    "transform": {
+      "title": "Ukuguqulwa",
+      "lbl-postition": "Isikhundla",
+      "lbl-rotation": "Ukujikeleza",
+      "lbl-scale": "Scale"
+    },
+    "triggereVolume": {
+      "description": "Imisa isici entweni okuqondiswe kuyo bese uhamba.",
+      "lbl-target": "Into",
+      "lbl-onenter": "Ukungena",
+      "lbl-onexit": "Ukuphuma",
+      "lbl-showHelper": "Khombisa UMsizi",
+      "ph-errorNode": "Iphutha ekulahlileni.",
+      "ph-selectNode": "Khetha i-node..."
+    },
+    "video": {
+      "name": "Ividiyo",
+      "description": "Ifaka i - video ngokunengqondo.",
+      "lbl-video": "Ividiyo",
+      "lbl-projection": "Projection",
+      "lbl-islivestream": "Umfudlana Ophilayo",
+      "lbl-interactable": "Interactable",
+      "lbl-id": "I-Id Ye-Element",
+      "lbl-play": "Dlala",
+      "lbl-pause": "Misa okwesikhashana",
+      "error-url": "Iphutha Ekulayishiseni I-URL"
+    },
+    "volumetric": {
+      "name": "Volumetric",
+      "description": "Ifaka i - video ye - volumetric.",
+      "uvolPaths": "Izindlela ze-UVOL",
+      "playmode": "Indlela Yokudlala",
+      "playtitle": "Dlala",
+      "pausetitle": "Misa okwesikhashana"
+    },
+    "spline": {
+      "description": "Yakha futhi ihlele amajika ngendlela oyiqokile.",
+      "lbl-addNode": "Yengeza i-node kwijika."
+    },
+    "systemnode": {
+      "description": "Faka umbhalo.",
+      "lbl-filePath": "Url",
+      "lbl-systemUpdateType": "Iphoyinti Lokujovwa",
+      "lbl-enableClient": "Iklayent",
+      "lbl-enableServer": "Umnikezeli",
+      "lbl-args": "Args",
+      "error-url": "Iphutha Ekufakeni Umbhalo Ovela Ku-URL"
+    },
+    "portal": {
+      "lbl-portal": "Imbobo Yokuxhuma Ehlanganisiwe",
+      "lbl-redirect": "Sebenzisa Ukuqondwa Kabusha Kwekhasi",
+      "description": "Imbobo Yokuxhuma kubadlali bezingcingo ukuze icacise indawo",
+      "lbl-locationName": "Indawo",
+      "lbl-modelUrl": "Model URL",
+      "lbl-displayText": "Bonisa Umbhalo",
+      "lbl-cubemapBake": "Cubemap bake",
+      "lbl-spawnPosition": "Isikhundla Sokuzalana",
+      "lbl-spawnRotation": "Ukujikeleza Okuzacile",
+      "lbl-triggerPosition": "Isikhundla Esisheshayo",
+      "lbl-triggerRotation": "Trigger Rotation",
+      "lbl-triggerScale": "Trigger Scale"
+    },
+    "postprocessing": {
+      "name": "Post Processing",
+      "description": "Ukufaka imiphumela yeposi kuwe."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Iphrojeki Entsha",
+      "backLink": "Buyela emisebenzini",
+      "featured": "Okuboniswe",
+      "all": "Konke",
+      "newProject": "Umsebenzi Omusha Ongenalutho",
+      "ph-search": "Cinga izigcawu..."
+    },
+    "grid": {
+      "loading": "Isafaka..."
+    },
+    "page": {
+      "header": "Wamukelekile",
+      "headerMsg": "Uma umusha lapha situsa ukuba udlule kumfundisi. Ngalé kwalokho, gxumela khona kanye futhi wakhe umsebenzi ngokuklwebha noma komunye wamatemplate ethu.",
+      "lbl-startTutorial": "Qala Ukufundisa",
+      "projects": "Projects",
+      "lbl-newProject": "Iphrojeki Entsha"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Isafaka...",
+      "placeObject": "Indawo",
+      "placeObjectAtOrigin": "Beka Into Emsukeni",
+      "copyURL": "Kopisha i-URL",
+      "openInNewTab": "Vula i-URL kwithebhu Entsha",
+      "deleteAsset": "Susa I-Asset"
+    },
+    "filebrowser": {
+      "addNewFolder": "Yengeza Ifolda Entsha",
+      "cutAsset": "Sika",
+      "copyAsset": "Kopisha",
+      "pasteAsset": "Namathisela",
+      "renameAsset": "Qamba Kabusha",
+      "viewAssetProperties": "Bona Izici"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Qamba Kabusha",
+    "lbl-duplicate": "Duplicate",
+    "lbl-group": "Iqembu",
+    "lbl-delete": "Susa",
+    "lbl-expandAll": "Yandisa Konke",
+    "lbl-collapseAll": "Wohloka Konke",
+    "isseus": "Izimpikiswano:"
+  },
+  "dnd": {
+    "nodes": "{{count}} Amanode Akhethwe",
+    "models": "{{count}} Izinhlobo Ezikhethiwe",
+    "images": "{{count}} Izithombe Ezikhethiwe",
+    "videos": "{{count}} Amavidiyo Akhethwe",
+    "audio": "{{count}} Imithombo Yokuzwakalayo Ikhethiwe"
+  },
+  "dialog": {
+    "title": "Umhleli",
+    "lbl-confirm": "Kulungile",
+    "lbl-cancel": "Khansela",
+    "exportProject": {
+      "title": "Thekelisa Iphrojeki",
+      "lbl-confirm": "Thekelisa Iphrojeki",
+      "lbl-combineMesh": "Hlanganisa Ama - meshe",
+      "lbl-removeUnused": "Khipha Izinto Ezingasetshenziswa"
+    },
+    "performance": {
+      "title": "Ukuhlola Umsebenzi",
+      "lbl-confirm": "Shicilela Isimo",
+      "learnMore": "Funda kabanzi",
+      "lbl-polycount": "Ukubala KwePolygon",
+      "lbl-material": "Izinto Zokwakha",
+      "lbl-texture": "Imibhalo",
+      "lbl-lights": "Izibani",
+      "lbl-fileSize": "Ubukhulu Befayela",
+      "info-polycount": "Situsa ukuba isigcawu sakho sisebenzise onxantathu abangaphezu kuka - 50 000 ukuze bathole imishini ephathwayo.",
+      "info-material": "Situsa ukusebenzisa izinto eziyingqayizivele ezingaphezu kuka - 25 endaweni yakho ukuze unciphise ukuhambela kwemishini ephathwayo.",
+      "info-texture": "Sincoma ama - texture akho asebenzisa i - RAM ye - video engaphezu kuka - 256MB yemishini ephathwayo. Situsa nokusebenzisa imidwebo emikhulu ku - 2048 x 2048.",
+      "info-lights": "Nakuba izibani ezinamandla zingavunyelwe emishinini ephathwayo, situsa ukusebenzisa izibani ezingaphezu kwezintathu esigcawini sakho (ukukhipha izibani ezivusa inkanuko nezinkanyiso) ukuze isigcawu sakho sigijimele ama - PC aphansi.",
+      "info-fileSize": "Sincoma ubukhulu bokugcina befayela obungengaphezu kuka - 16MB ukuze kube nezinxumano ze-bandwidth eziphansi. Ukunciphisa ubukhulu befayela kuzonciphisa isikhathi esisithathayo sokwehlisa isigcawu sakho.",
+      "txt-polycount": "{{count}} Triangles",
+      "txt-material": "{{count}} Izinto Zokwakha",
+      "txt-ram": "~{{count}} - VIDEO RAM",
+      "txt-texture": "{{count}} Izindawo Ezinkulu",
+      "txt-lights": "{{count}} Izibani"
+    },
+    "progress": {
+      "title": "Isafaka...",
+      "msg": "Isafaka...",
+      "lbl-cancel": "Khansela"
+    },
+    "publish": {
+      "title": "Shicilela Isimo",
+      "lbl-confirm": "Londoloza bese Ushicilela",
+      "lbl-name": "Igama Lesigcawu",
+      "info-name": "Igama kufanele libe phakathi kwezinhlamvu ezi-4 no-64 futhi alikwazi ukuba nemihlobiso engaphansi"
+    },
+    "published": {
+      "title": "Isigcawu Esishicilelwe",
+      "header": "Isigcawu sakho sishicilelwe.",
+      "lbl-view": "Bheka Isimo Sakho"
+    },
+    "saveNewProject": {
+      "title": "Ukusekela",
+      "lbl-name": "Igama Lephrojeki",
+      "info-name": "Igama kufanele libe phakathi kwezinhlamvu ezi-4 no-64 futhi alikwazi ukuba nemihlobiso engaphansi",
+      "lbl-confirm": "Londoloza Iphrojeki"
+    },
+    "support": {
+      "title": "Ukusekela",
+      "header": "Ingabe kudingeka sibike inkinga?",
+      "msg": "Ungafaka <1>Impikiswano YeGitHub</1> noma iposi le-elekthroniki ukuze sisekele <3>{{mail}}</3>",
+      "discord": "Ungasithola futhi <1>kuDisord</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Izithombe ezicwebezelayo",
+      "search": "Cinga ngokubhaka"
+    },
+    "bingVideo": {
+      "name": "Amavidiyo E-Bing",
+      "search": "Cinga ngokubhaka"
+    },
+    "element": {
+      "name": "Izakhi"
+    },
+    "myAssets": {
+      "name": "Impahla Yami"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Cinga nge-Google"
+    },
+    "tenor": {
+      "name": "Tenor GIFs",
+      "search": "Cingwa Ngetheyitha",
+      "ph-search": "Cinga ama-GIFs..."
+    },
+    "sketchfab": {
+      "name": "Sketchfab",
+      "search": "Cinga nge-Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Faka I-Asset"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Cinga izithombe..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Cinga amavidiyo..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Cinga impahla..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Cinga izinhlobo..."
+    },
+    "useUpload": {
+      "multipleFileError": "Ukufakwa akuwamukeli amafayela amaningi.",
+      "mineTypeError": "\"{{name}}\" ayihambisani nezinhlobo noma izelulo ezilandelayo: {{types}}",
+      "progressTitle": "Ifaka Amafayela",
+      "progressMsg": "Ifaka amafayela {{uploaded}} {{total}}: {{percentage}}%",
+      "uploadError": "Iphutha Lokufaka",
+      "uploadErrorMsg": "Iphutha ekufakeni ifayela: {{message}}",
+      "uploadErrorDefaultMsg": "Kube nephutha elingaziwa"
+    }
+  },
+  "openLink": {
+    "description": "Ucelwa ukuba uchofoze i-Open ukuze uhambe uyisihlanganisi.",
+    "lbl-open": "Vula"
+  },
+  "interactableModel": {
+    "lbl-buy": "Thenga",
+    "lbl-learnMore": "Funda kabanzi"
+  },
+  "corsProxyButton": {
+    "tooltip": "Sebenzisa Umnikezeli Womelayo we-Cors"
+  }
+}

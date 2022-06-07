@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Potrditveno e-poštno sporočilo",
+      "resendEmail": "Preverite e-pošto in preverite račun. Če e-poštnega sporočila niste prejeli, kliknite {{here}} ponovno pošljite e-poštno sporočilo za preverjanje.",
+      "haveAnAccount": "Imaš račun?"
+    },
+    "forgotPassword": {
+      "header": "Pozabljeno geslo",
+      "enterEmail": "Vnesite registrirani e-poštni naslov in poslali vam bomo povezavo za ponastavitev gesla.",
+      "lbl-email": "E-poštni naslov",
+      "lbl-submit": "Pošlji povezavo",
+      "emailSent": "Poslano je bilo ponastavitev e-pošte z geslom. Preverite svojo e-pošto."
+    },
+    "login": {
+      "email": "E-poštni | SMS",
+      "username": "Uporabniško ime + geslo",
+      "social": "Socialen"
+    },
+    "magiklink": {
+      "header": "Povezava za prijavo",
+      "descriptionEmail": "Prosimo, vnesite svoj e-poštni naslov in poslali vam bomo prijavno povezavo preko e-pošte.",
+      "descriptionSMS": "Prosimo, vnesite vašo telefonsko številko in poslali vam bomo prijavno povezavo preko SMS-a.",
+      "descriptionEmailSMS": "Prosimo, vnesite svoj e-poštni naslov ali telefonsko številko (10 števk, samo v ZDA) in poslali vam bomo prijavno povezavo preko e-pošte ali SMS-a.",
+      "descriptionSMSUS": "Prosimo, vnesite vašo telefonsko številko (samo 10 števk, samo ZDA) in poslali vam bomo prijavno povezavo preko SMS-a.",
+      "lbl-email": "E-poštni naslov",
+      "lbl-emailPhone": "E-poštna ali telefonska številka",
+      "lbl-phone": "Telefonska številka",
+      "agree": "Strinjam se z ",
+      "terms": "Pogoji poslovanja",
+      "lbl-submit": "Pošlji prijavno povezavo",
+      "email-sent-msg": "Prijava Magic Link je bila poslana. Preverite e-pošto.",
+      "success-msg": "Prijava Magic Link je bila poslana. Preverite e-pošto ali SMS.",
+      "sms-sent-msg": "Prijava Magic Link je bila poslana. Prosimo, preverite sms."
+    },
+    "passwordLogin": {
+      "header": "Prijava",
+      "lbl-email": "E-poštni naslov",
+      "lbl-password": "Geslo",
+      "lbl-rememberMe": "Zapomni si me.",
+      "lbl-signin": "Prijava",
+      "forgotPassword": "Ste pozabili geslo?",
+      "signup": "Nimaš računa? Prijava",
+      "lbl-login": "Prijava",
+      "ph-password": "Geslo",
+      "ph-email": "E-pošta"
+    },
+    "social": {
+      "gitHub": "Prijava z GitHub",
+      "google": "Prijava z Googlom",
+      "facebook": "Prijava s Facebookom",
+      "linkedin": "Prijava s Linkedinom",
+      "twitter": "Prijava s Twitterjem"
+    },
+    "register": {
+      "header": "Prijava",
+      "login": "Prijava",
+      "lbl-signup": "Prijava",
+      "lbl-password": "Geslo",
+      "lbl-email": "E-poštni naslov",
+      "passwordNotMatch": "Gesla se ne ujemajo",
+      "ph-password": "Geslo",
+      "ph-confirmPassword": "Potrditev gesla",
+      "ph-email": "E-pošta"
+    },
+    "resetPassword": {
+      "header": "Ponastavi geslo",
+      "description": "Prosimo, vnesite geslo za svoj e-poštni naslov",
+      "lbl-submit": "Ponastavi geslo",
+      "lbl-password": "Geslo",
+      "lbl-confirmPassword": "Potrditev gesla",
+      "passwordNotMatch": "Gesla se ne ujemajo",
+      "nowLoginYourAccount": "Zdaj se lahko prijavite v račun",
+      "yourPasswordResetSuccess": "Vaše geslo je bilo uspešno ponastavilo!"
+    },
+    "verifyEmail": {
+      "header": "Preverjanje e-pošte",
+      "processing": "Počakajte trenutek med obdelavo..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Lokacije",
+      "loading": "Nakladanje",
+      "col-name": "Ime",
+      "col-scene": "Scene",
+      "col-maxuser": "Največ uporabnikov",
+      "lbl-search": "Iskanje lokacij",
+      "lbl-new": "Nov"
+    },
+    "newLocation": {
+      "title": "Lokacija",
+      "success": "Uspešno shranjeno.",
+      "failure": "Nekaj je šlo narobe.",
+      "removeSuccess": "Lokacija je bila uspešno odstranjena.",
+      "nameInUse": "Ime je v uporabi.",
+      "nameRequire": "Zahtevano je ime.",
+      "validNumber": "Dovoljene so samo številke(0-9).",
+      "lbl-name": "Ime",
+      "lbl-maxuser": "Največ uporabnikov",
+      "lbl-scene": "Scene",
+      "lbl-type": "Vrsta",
+      "lbl-ve": "Omogočen videoposnetek",
+      "lbl-gme": "Omogočeni globalni mediji",
+      "lbl-update": "Posodobitev",
+      "lbl-create": "Ustvariti",
+      "tooltipCanNotBeDeleted": "Preddverja ni mogoče izbrisati",
+      "confirmation": "Si prepričan?",
+      "lbl-yes": "Da",
+      "lbl-no": "Ne"
+    },
+    "share": {
+      "lbl-share": "Delež",
+      "ph-phoneEmail": "Povabilo po e-pošti ali telefonski številki",
+      "lbl-phoneEmail": "Pošlji na e-pošto ali telefonsko številko",
+      "lbl-copy": "Kopirati",
+      "lbl-send-invite": "Pošlji povabilo",
+      "title": "Skupna raba URL-ja lokacije z ekipo",
+      "linkCopied": "Povezava, kopirana v odložišče."
+    },
+    "setting": {
+      "audio": "Avdio",
+      "lbl-volume": "Glasnost",
+      "lbl-microphone": "Mikrofon",
+      "graphics": "Grafika",
+      "controls": "Kontrolnike",
+      "lbl-control-type": "Vrsta krmilnika",
+      "lbl-control-scheme": "Kontrolna shema",
+      "lbl-resolution": "Resolucija",
+      "lbl-shadow": "Sence",
+      "lbl-pp": "Obdelava objav",
+      "lbl-pbr": "Celoten PBR",
+      "lbl-automatic": "Avtomatski",
+      "xrusersetting": "XR uporabniške nastavitve",
+      "rotation": "Vrtenje",
+      "rotation-smooth-speed": "Gladka hitrost vrtenja",
+      "rotation-angle": "Kot vrtenja",
+      "moving": "Gibljejo",
+      "user-avatar": "Nastavitev Avatarja",
+      "invert-rotation": "Obrni vrtenje in premikanje palic",
+      "show-avatar": "Pokaži Avatar"
+    },
+    "profile": {
+      "lbl-profile": "Profil",
+      "lbl-settings": "Nastavitve",
+      "lbl-username": "Uporabniško ime",
+      "update-msg": "Uporabniško ime posodobljeno",
+      "inviteCode": "Povabi kodo",
+      "youAreAn": "Vi ste",
+      "youAreA": "Vi ste",
+      "showUserId": "Pokaži ID uporabnika",
+      "hideUserId": "Skrij ID uporabnika",
+      "showApiKey": "Pokaži api ključ",
+      "hideApiKey": "Skrij api ključ",
+      "apiKey": "Tipka API",
+      "logout": "Odjava",
+      "connectPhone": "Povezovanje telefonske številke",
+      "connectEmail": "Povezovanje e-pošte",
+      "connectPhoneEmail": "Povezovanje e-pošte ali telefonske številke",
+      "or": "Ali",
+      "lbl-wallet": "Prijava z denarnico",
+      "ph-email": "E-pošta",
+      "ph-phone": "Telefonska številka",
+      "ph-phoneEmail": "Telefonska številka / e-pošta",
+      "phoneEmailError": "Neveljaven telefon # ali e-poštni naslov",
+      "phoneError": "Neveljaven telefon #",
+      "emailError": "Neveljaven e-poštni naslov",
+      "loginWithReadyPlayerMe": "Prijava z Ready Player Me",
+      "connectSocial": "Povezovanje s socialnimi računi",
+      "createOne": "Če nimate računa, bo za vas ustvarjen nov",
+      "connections": {
+        "title": "Povezave",
+        "ipError": "Aktivnega ponudnika identitete ni mogoče odstraniti",
+        "disconnect": "Prekiniti",
+        "connect": "Povezati"
+      },
+      "profileDropdown": {
+        "avatar": "Ikona uporabnika Avatar",
+        "profile": "Profil",
+        "adminConsole": "Skrbnišna konzola",
+        "logout": "Odjava"
+      },
+      "userIcon": {
+        "lbl-name": "Tvoje ime",
+        "lbl-update": "Posodobitev",
+        "userId": "ID uporabnika",
+        "ph-uploadImg": "Nalaganje slike izdelka",
+        "lbl-selectAcvatar": "Izberite Avatar",
+        "lbl-submit": "Predložiti"
+      },
+      "userSettings": {
+        "volume": "Glasnost",
+        "microphone": "Mikrofon",
+        "resolution": "Resolucija",
+        "high": "Visok",
+        "low": "Nizek",
+        "spatialAudio": "Uporaba prostorskega zvoka",
+        "enterMuted": "Vstop v sobo pritisnjena"
+      }
+    },
+    "oauth": {
+      "authenticating": "Preverjanje pristnosti...",
+      "authFailed": "{{service}} preverjanje pristnosti ni uspelo."
+    },
+    "magikLink": {
+      "wait": "Počakajte trenutek med obdelavo..."
+    },
+    "dashboard": {
+      "header": "Armaturni plošči",
+      "dashboard": "Armaturni plošči",
+      "users": "Uporabniki",
+      "feeds": "Viri",
+      "instance": "Primerek",
+      "locations": "Lokacije",
+      "invites": "Vabi",
+      "sessions": "Zasedanje",
+      "groups": "Skupine",
+      "parties": "Stranke",
+      "chats": "Klepeti",
+      "content": "Paketi vsebine",
+      "projects": "Projektov",
+      "scenes": "Prizorov",
+      "avatars": "Avatarji",
+      "benchmarking": "Benchmarking",
+      "bots": "Pošto"
+    }
+  },
+  "oauth": {
+    "authenticating": "Preverjanje pristnosti...",
+    "authFailed": "{{service}} preverjanje pristnosti ni uspelo."
+  },
+  "magikLink": {
+    "wait": "Počakajte trenutek med obdelavo..."
+  },
+  "dashboard": {
+    "header": "Armaturni plošči",
+    "dashboard": "Armaturni plošči",
+    "users": "Uporabniki",
+    "feeds": "Viri",
+    "instance": "Primerek",
+    "locations": "Lokacije",
+    "routes": "Poti",
+    "projects": "Projektov",
+    "invites": "Vabi",
+    "sessions": "Zasedanje",
+    "groups": "Skupine",
+    "parties": "Stranke",
+    "chats": "Klepeti",
+    "content": "Paketi vsebine",
+    "scenes": "Prizorov",
+    "avatars": "Avatarji",
+    "benchmarking": "Benchmarking",
+    "bots": "Pošto",
+    "setting": "Nastavitve"
+  },
+  "avatar": {
+    "title": "Naložite Avatar",
+    "lbl-browse": "Brskati",
+    "lbl-thumbnail": "Sličica",
+    "lbl-upload": "Upload",
+    "selectAvatar": "Izberite Avatar ...",
+    "selectThumbnail": "Izberite sličici ...",
+    "rotate": "Zavrtite",
+    "pan": "Pan",
+    "noBone": "Obejct ne vsebuje nobenih kosti ali kože",
+    "outOfBound": "Predmet ni vezan.",
+    "emptyObj": "Predmet je prazen.",
+    "maxTriangleError": "Predmet vsebuje večje od {{allowedTriangles}} obrazov.",
+    "selectValidFile": "Izberite veljavno 3d avatar datoteko.",
+    "selectValidThumbnail": "Izbrana veljavna datoteka sličk.",
+    "fileOversized": "Velikost datoteke Avatar mora biti med {{minSize}} MB in {{maxSize}} MB",
+    "confirmation": "Si prepričan?",
+    "canNotBeRemoved": "Aktivnega Avatara ni mogoče odstraniti",
+    "remove": "Odstrani avatar",
+    "uploadFiles": "Nalaganje datotek",
+    "useUrlInstead": "Namesto tega uporabite URL",
+    "avatar": "Avatar",
+    "cancel": "Odpovedati",
+    "createAvatar": "Ustvari Avatar",
+    "delete": "Izbrisati",
+    "view": "Pogled",
+    "uploadAvatarInfo": "Posodabljanje informacij o avatarju",
+    "name": "Ime",
+    "enterName": "Vnesite ime",
+    "avatarInformation": "Avatar informacije",
+    "description": "Opis",
+    "key": "Ključ",
+    "none": "Nobena",
+    "submit": "Predložiti",
+    "edit": "Urediti",
+    "avatarUrl": "Avatar url",
+    "upload-success-msg": "Avatar naložen uspešno.",
+    "remove-success-msg": "Avatar naložen uspešno.",
+    "warning-msg": "Avatar vir je prazen, ste sinhronizirali avatarje s shranjevanjem statičnih datotek?"
+  },
+  "personMenu": {
+    "inviteToParty": "Povabi na zabavo",
+    "addAsFriend": "Dodaj kot prijatelja",
+    "mute": "Mute",
+    "block": "Blok"
+  },
+  "person": {
+    "you": "Ti",
+    "yourScreen": "Zaslon",
+    "muteForEveryone": "Nem za vse",
+    "unmuteForEveryone": "Neusmiljene za vse",
+    "muteMe": "Utišaj me.",
+    "unmuteMe": "Odklopi me.",
+    "muteThisPerson": "Izklopi to osebo",
+    "unmuteThisPerson": "Odklopi to osebo",
+    "openPictureInPicture": "Odpri sliko na sliki"
+  }
+}

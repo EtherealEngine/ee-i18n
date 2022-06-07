@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Email xác nhận",
+      "resendEmail": "Vui lòng kiểm tra email của bạn để xác minh tài khoản của bạn. Nếu bạn không nhận được email, vui lòng bấm {{here}} để gửi lại email xác minh.",
+      "haveAnAccount": "Có tài khoản không?"
+    },
+    "forgotPassword": {
+      "header": "Quên Mật khẩu",
+      "enterEmail": "Vui lòng nhập địa chỉ email đã đăng ký của bạn và chúng tôi sẽ gửi cho bạn một liên kết đặt lại mật khẩu.",
+      "lbl-email": "Địa chỉ Email",
+      "lbl-submit": "Nối kết Gửi",
+      "emailSent": "Đặt lại mật khẩu Email đã được gửi. Vui lòng kiểm tra email của bạn."
+    },
+    "login": {
+      "email": "| email SMS",
+      "username": "Tên người dùng + Mật khẩu",
+      "social": "Xã hội"
+    },
+    "magiklink": {
+      "header": "Nối kết Đăng nhập",
+      "descriptionEmail": "Vui lòng nhập địa chỉ email của bạn và chúng tôi sẽ gửi cho bạn một liên kết đăng nhập qua Email.",
+      "descriptionSMS": "Vui lòng nhập số điện thoại của bạn và chúng tôi sẽ gửi cho bạn một liên kết đăng nhập qua SMS.",
+      "descriptionEmailSMS": "Vui lòng nhập địa chỉ email hoặc số điện thoại của bạn (10 chữ số, chỉ ở Hoa Kỳ) và chúng tôi sẽ gửi cho bạn một liên kết đăng nhập qua Email hoặc SMS.",
+      "descriptionSMSUS": "Vui lòng nhập số điện thoại của bạn (chỉ 10 chữ số, chỉ ở Hoa Kỳ) và chúng tôi sẽ gửi cho bạn một liên kết đăng nhập qua SMS.",
+      "lbl-email": "Địa chỉ email",
+      "lbl-emailPhone": "Email hoặc số điện thoại",
+      "lbl-phone": "Số điện thoại",
+      "agree": "Tôi đồng ý với việc ",
+      "terms": "Điều khoản & Điều kiện",
+      "lbl-submit": "Gửi Nối kết Đăng nhập",
+      "email-sent-msg": "Login Magic Link đã được gửi đi. Vui lòng kiểm tra email của bạn.",
+      "success-msg": "Login Magic Link đã được gửi đi. Vui lòng kiểm tra email hoặc SMS của bạn.",
+      "sms-sent-msg": "Login Magic Link đã được gửi đi. Vui lòng kiểm tra TIN NHẮN SMS của bạn."
+    },
+    "passwordLogin": {
+      "header": "Đăng nhập",
+      "lbl-email": "Địa chỉ Email",
+      "lbl-password": "Mật khẩu",
+      "lbl-rememberMe": "Hãy nhớ đến tôi",
+      "lbl-signin": "Đăng nhập",
+      "forgotPassword": "Quên mật khẩu?",
+      "signup": "Không có tài khoản? Đăng ký",
+      "lbl-login": "Đăng nhập",
+      "ph-password": "Mật khẩu",
+      "ph-email": "Email"
+    },
+    "social": {
+      "gitHub": "Đăng nhập bằng GitHub",
+      "google": "Đăng nhập bằng Google",
+      "facebook": "Đăng nhập bằng Facebook",
+      "linkedin": "Đăng nhập bằng Linkedin",
+      "twitter": "Đăng nhập bằng Twitter"
+    },
+    "register": {
+      "header": "Đăng ký",
+      "login": "Đăng nhập",
+      "lbl-signup": "Đăng ký",
+      "lbl-password": "Mật khẩu",
+      "lbl-email": "Địa chỉ Email",
+      "passwordNotMatch": "Mật khẩu không khớp",
+      "ph-password": "Mật khẩu",
+      "ph-confirmPassword": "Xác nhận Mật khẩu",
+      "ph-email": "Email"
+    },
+    "resetPassword": {
+      "header": "Đặt lại Mật khẩu",
+      "description": "Vui lòng nhập mật khẩu của bạn cho địa chỉ email của bạn",
+      "lbl-submit": "Đặt lại Mật khẩu",
+      "lbl-password": "Mật khẩu",
+      "lbl-confirmPassword": "Xác nhận Mật khẩu",
+      "passwordNotMatch": "Mật khẩu không khớp",
+      "nowLoginYourAccount": "Bây giờ bạn có thể đăng nhập vào tài khoản của mình",
+      "yourPasswordResetSuccess": "Mật khẩu của bạn đã được đặt lại thành công!"
+    },
+    "verifyEmail": {
+      "header": "Xác minh Email",
+      "processing": "Vui lòng chờ một chút trong khi xử lý..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Địa điểm",
+      "loading": "Tải",
+      "col-name": "Tên",
+      "col-scene": "Cảnh",
+      "col-maxuser": "Người dùng Tối đa",
+      "lbl-search": "Tìm kiếm vị trí",
+      "lbl-new": "Mới"
+    },
+    "newLocation": {
+      "title": "Vị trí",
+      "success": "Được lưu thành công.",
+      "failure": "Có gì đó không ổn.",
+      "removeSuccess": "Vị trí bị xóa thành công.",
+      "nameInUse": "Tên đang được sử dụng.",
+      "nameRequire": "Tên là bắt buộc.",
+      "validNumber": "Chỉ có các con số (0-9) được phép.",
+      "lbl-name": "Tên",
+      "lbl-maxuser": "Người dùng Tối đa",
+      "lbl-scene": "Cảnh",
+      "lbl-type": "Kiểu",
+      "lbl-ve": "Video đã bật",
+      "lbl-gme": "Kích hoạt Phương tiện Truyền thông Toàn cầu",
+      "lbl-update": "Cập nhật",
+      "lbl-create": "Tạo",
+      "tooltipCanNotBeDeleted": "Sảnh đợi không thể bị xóa",
+      "confirmation": "Bạn có chắc không?",
+      "lbl-yes": "Có",
+      "lbl-no": "Không"
+    },
+    "share": {
+      "lbl-share": "Chia sẻ",
+      "ph-phoneEmail": "Mời qua email hoặc số điện thoại",
+      "lbl-phoneEmail": "Gửi email hoặc số điện thoại",
+      "lbl-copy": "Bản sao",
+      "lbl-send-invite": "Gửi Lời mời",
+      "title": "Chia sẻ URL Vị trí của bạn với nhóm của bạn",
+      "linkCopied": "Nối kết được sao chép vào clipboard."
+    },
+    "setting": {
+      "audio": "Âm thanh",
+      "lbl-volume": "Âm lượng",
+      "lbl-microphone": "Micrô",
+      "graphics": "Đồ họa",
+      "controls": "Điều khiển",
+      "lbl-control-type": "Loại bộ điều khiển",
+      "lbl-control-scheme": "Sơ đồ Điều khiển",
+      "lbl-resolution": "Nghị quyết",
+      "lbl-shadow": "Bóng tối",
+      "lbl-pp": "Xử lý hậu kỳ",
+      "lbl-pbr": "PBR đầy đủ",
+      "lbl-automatic": "Tự động",
+      "xrusersetting": "Thiết đặt Người dùng XR",
+      "rotation": "Xoay",
+      "rotation-smooth-speed": "Tốc độ quay mượt mà",
+      "rotation-angle": "Góc quay",
+      "moving": "Di chuyển",
+      "user-avatar": "Thiết đặt Avatar",
+      "invert-rotation": "Đảo ngược xoay và di chuyển gậy",
+      "show-avatar": "Hiện Avatar"
+    },
+    "profile": {
+      "lbl-profile": "Hồ sơ",
+      "lbl-settings": "Cài đặt",
+      "lbl-username": "Tên người dùng",
+      "update-msg": "Tên người dùng được cập nhật",
+      "inviteCode": "Mã Mời",
+      "youAreAn": "Bạn là một",
+      "youAreA": "Bạn là một",
+      "showUserId": "Hiện ID Người dùng",
+      "hideUserId": "Ẩn ID Người dùng",
+      "showApiKey": "Hiện khóa API",
+      "hideApiKey": "Ẩn khóa API",
+      "apiKey": "Khóa API",
+      "logout": "Đăng xuất",
+      "connectPhone": "Kết nối số điện thoại của bạn",
+      "connectEmail": "Kết nối email của bạn",
+      "connectPhoneEmail": "Kết nối email hoặc số điện thoại của bạn",
+      "or": "Hoặc",
+      "lbl-wallet": "Đăng nhập bằng Ví",
+      "ph-email": "Email",
+      "ph-phone": "Số điện thoại",
+      "ph-phoneEmail": "Số điện thoại / Email",
+      "phoneEmailError": "Điện thoại không hợp lệ # hoặc địa chỉ email",
+      "phoneError": "Điện thoại không hợp lệ #",
+      "emailError": "Địa chỉ email không hợp lệ",
+      "loginWithReadyPlayerMe": "Đăng nhập với Ready Player Me",
+      "connectSocial": "Kết nối với tài khoản xã hội",
+      "createOne": "Nếu bạn không có tài khoản, một tài khoản mới sẽ được tạo cho bạn.",
+      "connections": {
+        "title": "Kết nối",
+        "ipError": "Không thể loại bỏ Nhà cung cấp Danh tính đang hoạt động",
+        "disconnect": "Ngắt kết nối",
+        "connect": "Kết nối"
+      },
+      "profileDropdown": {
+        "avatar": "Biểu tượng Hình đại diện người dùng",
+        "profile": "Hồ sơ",
+        "adminConsole": "Bảng điều khiển quản trị",
+        "logout": "Logout"
+      },
+      "userIcon": {
+        "lbl-name": "Tên bạn",
+        "lbl-update": "Cập nhật",
+        "userId": "Id người dùng",
+        "ph-uploadImg": "Tải lên Hình ảnh Sản phẩm",
+        "lbl-selectAcvatar": "Chọn Avatar",
+        "lbl-submit": "Trình"
+      },
+      "userSettings": {
+        "volume": "Âm lượng",
+        "microphone": "Micrô",
+        "resolution": "Nghị quyết",
+        "high": "Cao",
+        "low": "Thấp",
+        "spatialAudio": "Sử dụng âm thanh không gian",
+        "enterMuted": "Nhập Phòng Tắt tiếng"
+      }
+    },
+    "oauth": {
+      "authenticating": "Đang xác thực...",
+      "authFailed": "{{service}} xác thực thất bại."
+    },
+    "magikLink": {
+      "wait": "Vui lòng chờ một chút trong khi xử lý..."
+    },
+    "dashboard": {
+      "header": "Bảng điều khiển",
+      "dashboard": "Bảng điều khiển",
+      "users": "Người dùng",
+      "feeds": "Feeds",
+      "instance": "Ví dụ",
+      "locations": "Địa điểm",
+      "invites": "Mời",
+      "sessions": "Buổi",
+      "groups": "Nhóm",
+      "parties": "Bên",
+      "chats": "Chat",
+      "content": "Gói Nội dung",
+      "projects": "Dự án",
+      "scenes": "Cảnh",
+      "avatars": "Avatar",
+      "benchmarking": "Điểm chuẩn",
+      "bots": "Chương trình"
+    }
+  },
+  "oauth": {
+    "authenticating": "Đang xác thực...",
+    "authFailed": "{{service}} xác thực thất bại."
+  },
+  "magikLink": {
+    "wait": "Vui lòng chờ một chút trong khi xử lý..."
+  },
+  "dashboard": {
+    "header": "Bảng điều khiển",
+    "dashboard": "Bảng điều khiển",
+    "users": "Người dùng",
+    "feeds": "Feeds",
+    "instance": "Ví dụ",
+    "locations": "Địa điểm",
+    "routes": "Tuyến",
+    "projects": "Dự án",
+    "invites": "Mời",
+    "sessions": "Buổi",
+    "groups": "Nhóm",
+    "parties": "Bên",
+    "chats": "Chat",
+    "content": "Gói Nội dung",
+    "scenes": "Cảnh",
+    "avatars": "Avatar",
+    "benchmarking": "Điểm chuẩn",
+    "bots": "Chương trình",
+    "setting": "Cài đặt"
+  },
+  "avatar": {
+    "title": "Tải lên Avatar",
+    "lbl-browse": "Duyệt",
+    "lbl-thumbnail": "Thu nhỏ",
+    "lbl-upload": "Tải lên",
+    "selectAvatar": "Chọn Avatar...",
+    "selectThumbnail": "Chọn Hình thu nhỏ...",
+    "rotate": "Xoay",
+    "pan": "Chảo",
+    "noBone": "Obejct không chứa bất kỳ xương hoặc da",
+    "outOfBound": "Đối tượng đã vượt quá giới hạn.",
+    "emptyObj": "Đối tượng trống rỗng.",
+    "maxTriangleError": "Đối tượng chứa nhiều hơn {{allowedTriangles}} khuôn mặt.",
+    "selectValidFile": "Chọn tệp avatar 3d hợp lệ.",
+    "selectValidThumbnail": "Tệp Hình thu nhỏ hợp lệ đã chọn.",
+    "fileOversized": "Kích thước tệp Avatar phải nằm trong khoảng từ {{minSize}} MB đến mb {{maxSize}}",
+    "confirmation": "Bạn có chắc không?",
+    "canNotBeRemoved": "Không thể loại bỏ Avatar đang hoạt động",
+    "remove": "Loại bỏ avatar",
+    "uploadFiles": "Tải lên tệp",
+    "useUrlInstead": "Thay vào đó, hãy sử dụng URL",
+    "avatar": "Avatar",
+    "cancel": "Hủy",
+    "createAvatar": "Tạo Avatar",
+    "delete": "Xóa",
+    "view": "Cảnh",
+    "uploadAvatarInfo": "Cập nhật thông tin avatar",
+    "name": "Tên",
+    "enterName": "Nhập tên",
+    "avatarInformation": "Thông tin Avatar",
+    "description": "Sự miêu tả",
+    "key": "Chìa khoá",
+    "none": "Không ai",
+    "submit": "Trình",
+    "edit": "Biên tập",
+    "avatarUrl": "Url Avatar",
+    "upload-success-msg": "Avatar được tải lên thành công.",
+    "remove-success-msg": "Avatar được tải lên thành công.",
+    "warning-msg": "Tài nguyên avatar trống rỗng, bạn đã đồng bộ avatar với bộ nhớ tệp tĩnh chưa?"
+  },
+  "personMenu": {
+    "inviteToParty": "Mời dự tiệc",
+    "addAsFriend": "Thêm Làm Bạn",
+    "mute": "Câm",
+    "block": "Khối"
+  },
+  "person": {
+    "you": "Mày",
+    "yourScreen": "Màn hình của bạn",
+    "muteForEveryone": "Tắt tiếng cho tất cả mọi người",
+    "unmuteForEveryone": "Bật tiếng cho tất cả mọi người",
+    "muteMe": "Tắt tiếng tôi",
+    "unmuteMe": "Bật tiếng cho tôi",
+    "muteThisPerson": "Tắt tiếng người này",
+    "unmuteThisPerson": "Bật tiếng cho người này",
+    "openPictureInPicture": "Mở Ảnh trong Ảnh"
+  }
+}
