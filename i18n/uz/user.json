@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Tasdiqlash elektron pochtasi",
+      "resendEmail": "Iltimos, hisobingizni tekshirish uchun elektron pochtangizni tekshiring. Agar siz elektron pochta xabarini olmagan bo'lsangiz, iltimos, tekshirish elektron pochtasini qayta yuborish uchun {{here}} bosing.",
+      "haveAnAccount": "Hisob-vaʼdasi bormi?"
+    },
+    "forgotPassword": {
+      "header": "Maxfiy soʻzni unutish",
+      "enterEmail": "Iltimos, ro'yxatdan o'tgan elektron pochta manzilingizni kiriting va biz sizga parolni tiklash havolasini yuboramiz.",
+      "lbl-email": "Elektron pochta manzili",
+      "lbl-submit": "Bogʻni joʻnatish",
+      "emailSent": "Maxfiy soʻzni tiklash Elektron pochta joʻnatildi. Iltimos, elektron pochtangizni tekshiring."
+    },
+    "login": {
+      "email": "Elektron pochta | SMS",
+      "username": "Foydalanuvchi nomi + maxfiy soʻz",
+      "social": "Ijtimoiy"
+    },
+    "magiklink": {
+      "header": "Kirish bog'lamasi",
+      "descriptionEmail": "Iltimos, elektron pochta manzilingizni kiriting va biz sizga Elektron pochta orqali kirish havolasini yuboramiz.",
+      "descriptionSMS": "Iltimos, telefon raqamingizni kiriting va biz sizga SMS orqali kirish havolasini yuboramiz.",
+      "descriptionEmailSMS": "Iltimos, elektron pochta manzilingizni yoki telefon raqamingizni kiriting (faqat AQSh) va biz sizga elektron pochta yoki SMS orqali kirish havolasini yuboramiz.",
+      "descriptionSMSUS": "Iltimos, telefon raqamingizni kiriting (faqat AQSh) va biz sizga SMS orqali kirish havolasini yuboramiz.",
+      "lbl-email": "Elektron pochta manzili",
+      "lbl-emailPhone": "Elektron pochta yoki telefon raqami",
+      "lbl-phone": "Telefon raqami",
+      "agree": "Men roziman ",
+      "terms": "Shartlar va shartlar",
+      "lbl-submit": "Kirish bogʻini joʻnatish",
+      "email-sent-msg": "Login Magic Link jo'natildi. Iltimos, elektron pochtangizni tekshiring.",
+      "success-msg": "Login Magic Link jo'natildi. Iltimos, elektron pochta yoki SMS-xabarlaringizni tekshiring.",
+      "sms-sent-msg": "Login Magic Link jo'natildi. Iltimos, SMS-ni tekshiring."
+    },
+    "passwordLogin": {
+      "header": "Tizimga kiring",
+      "lbl-email": "Elektron pochta manzili",
+      "lbl-password": "Maxfiy soʻz",
+      "lbl-rememberMe": "Meni eslab",
+      "lbl-signin": "Tizimga kiring",
+      "forgotPassword": "Maxfiy soʻzni unutdingizmi?",
+      "signup": "Hisob yo'qmi? Ro'yxatdan o'ting",
+      "lbl-login": "Kirish",
+      "ph-password": "Maxfiy soʻz",
+      "ph-email": "E-pochta"
+    },
+    "social": {
+      "gitHub": "GitHub bilan kirish",
+      "google": "Google bilan kirish",
+      "facebook": "Facebook bilan kirish",
+      "linkedin": "Linkedin bilan kirish",
+      "twitter": "Twitter bilan kirish"
+    },
+    "register": {
+      "header": "Ro'yxatdan o'ting",
+      "login": "Kirish",
+      "lbl-signup": "Ro'yxatdan o'ting",
+      "lbl-password": "Maxfiy soʻz",
+      "lbl-email": "Elektron pochta manzili",
+      "passwordNotMatch": "Maxfiy soʻzlar mos kelmaydi",
+      "ph-password": "Maxfiy soʻz",
+      "ph-confirmPassword": "Maxfiy soʻz tasdiqlash",
+      "ph-email": "E-pochta"
+    },
+    "resetPassword": {
+      "header": "Maxfiy soʻzni tiklash",
+      "description": "Iltimos elektron pochta manzilingiz uchun maxfiy soʻzingizni kiriting",
+      "lbl-submit": "Maxfiy soʻzni tiklash",
+      "lbl-password": "Maxfiy soʻz",
+      "lbl-confirmPassword": "Maxfiy soʻz tasdiqlash",
+      "passwordNotMatch": "Maxfiy soʻzlar mos kelmaydi",
+      "nowLoginYourAccount": "Endi hisobingizga kirishingiz mumkin",
+      "yourPasswordResetSuccess": "Maxfiy soʻz muvaffaqiyatli tiklandi!"
+    },
+    "verifyEmail": {
+      "header": "Elektron pochtani tasdiqlash",
+      "processing": "Iltimos, ishlov berishda bir lahza kutib turing..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Manzillar",
+      "loading": "Yuklanmoqda",
+      "col-name": "Nom",
+      "col-scene": "Sahna",
+      "col-maxuser": "Maks foydalanuvchilar",
+      "lbl-search": "Manzillarni qidirish",
+      "lbl-new": "Yangi"
+    },
+    "newLocation": {
+      "title": "Manzil",
+      "success": "Muvaffaqiyatli saqlab qoʻyildi.",
+      "failure": "Bir narsa noto'g'ri bo'ldi.",
+      "removeSuccess": "Manzil muvaffaqiyatli olib tashlandi.",
+      "nameInUse": "Nomi istifoda ast.",
+      "nameRequire": "Ism-sharif talab qilinadi.",
+      "validNumber": "Faqat sonlar(0-9) ruxsat etiladi.",
+      "lbl-name": "Nom",
+      "lbl-maxuser": "Maks foydalanuvchilar",
+      "lbl-scene": "Sahna",
+      "lbl-type": "Turi",
+      "lbl-ve": "Video yoqilgan",
+      "lbl-gme": "Global media yoqilgan",
+      "lbl-update": "Yangilash",
+      "lbl-create": "Yaratish",
+      "tooltipCanNotBeDeleted": "Lobbini o'chirib bo'lmaydi",
+      "confirmation": "Ishonchingiz komilmi?",
+      "lbl-yes": "Ha",
+      "lbl-no": "Yo'q"
+    },
+    "share": {
+      "lbl-share": "Baham ko'rish",
+      "ph-phoneEmail": "Elektron pochta yoki telefon raqami orqali taklif qilish",
+      "lbl-phoneEmail": "Elektron pochta yoki telefon raqamiga yuborish",
+      "lbl-copy": "Nusxa olish",
+      "lbl-send-invite": "Taklifni yuborish",
+      "title": "Manzil url-manzilingizni jamoangiz bilan baham ko'ring",
+      "linkCopied": "Bog'lama ko'chirib klipbordga."
+    },
+    "setting": {
+      "audio": "Audio",
+      "lbl-volume": "Disk qismi",
+      "lbl-microphone": "Mikrofon",
+      "graphics": "Grafika",
+      "controls": "Boshqaruv elementlari",
+      "lbl-control-type": "Boshqaruvchi turi",
+      "lbl-control-scheme": "Boshqaruv sxemasi",
+      "lbl-resolution": "Qaror",
+      "lbl-shadow": "Soyalar",
+      "lbl-pp": "Postni qayta ishlash",
+      "lbl-pbr": "Toʻliq PBR",
+      "lbl-automatic": "Avtomatik",
+      "xrusersetting": "XR foydalanuvchi moslamalari",
+      "rotation": "Burish",
+      "rotation-smooth-speed": "Burish tekis tezlik",
+      "rotation-angle": "Burish burchagi",
+      "moving": "Koʻchirish",
+      "user-avatar": "Avatar moslamasi",
+      "invert-rotation": "Teskari aylantirish va tayoqchalarni ko'chirish",
+      "show-avatar": "Avatarni koʻrsatish"
+    },
+    "profile": {
+      "lbl-profile": "Profil",
+      "lbl-settings": "Moslamalar",
+      "lbl-username": "Foydalanuvchi nomi",
+      "update-msg": "Foydalanuvchi nomi yangilandi",
+      "inviteCode": "Taklif kodi",
+      "youAreAn": "Siz",
+      "youAreA": "Siz",
+      "showUserId": "Foydalanuvchi identifikatorini koʻrsatish",
+      "hideUserId": "Foydalanuvchi identifikatorini bekitish",
+      "showApiKey": "API tugmalar birikkini koʻrsatish",
+      "hideApiKey": "API kalitini bekitish",
+      "apiKey": "API tugmasi",
+      "logout": "Tizimdan chiqish",
+      "connectPhone": "Telefon raqamingizni ulashing",
+      "connectEmail": "E-pochtangizni ulash",
+      "connectPhoneEmail": "E-pochtangizni yoki telefon raqamingizni ulash",
+      "or": "Yoki",
+      "lbl-wallet": "Qopchiq bilan kirish",
+      "ph-email": "E-pochta",
+      "ph-phone": "Telefon raqami",
+      "ph-phoneEmail": "Telefon raqami / E-mail",
+      "phoneEmailError": "Xato telefon # yoki elektron pochta manzili",
+      "phoneError": "Xato telefon #",
+      "emailError": "Xato elektron pochta manzili",
+      "loginWithReadyPlayerMe": "Menga tayyor pleyer bilan kiring",
+      "connectSocial": "Ijtimoiy hisob-kitoblar bilan bog'lanish",
+      "createOne": "Hisobingiz bo'lmasa, siz uchun yangisi yaratiladi",
+      "connections": {
+        "title": "Ulanishlar",
+        "ipError": "Faol identifikatorni olib tashlab boʻlmadi",
+        "disconnect": "uzilish",
+        "connect": "Ulanish"
+      },
+      "profileDropdown": {
+        "avatar": "Foydalanuvchi avatar nishonchasi",
+        "profile": "Profil",
+        "adminConsole": "Admin Konsol",
+        "logout": "Tizimga kirish"
+      },
+      "userIcon": {
+        "lbl-name": "Ismingiz",
+        "lbl-update": "Yangilash",
+        "userId": "Foydalanuvchi identifikatori",
+        "ph-uploadImg": "Mahsulot rasmini yuklash",
+        "lbl-selectAcvatar": "Avatarni tanlash",
+        "lbl-submit": "Topshiring"
+      },
+      "userSettings": {
+        "volume": "Disk qismi",
+        "microphone": "Mikrofon",
+        "resolution": "Qaror",
+        "high": "Yuqori",
+        "low": "Past",
+        "spatialAudio": "Matn oʻrni audiosini qoʻllash",
+        "enterMuted": "Xonaga oʻzgarish kiring"
+      }
+    },
+    "oauth": {
+      "authenticating": "Avtorizatsiya qilinmoqda...",
+      "authFailed": "{{service}} tasdiqlash muvaffaqiyatsiz tugadi."
+    },
+    "magikLink": {
+      "wait": "Iltimos, ishlov berishda bir lahza kutib turing..."
+    },
+    "dashboard": {
+      "header": "Boshqaruv paneli",
+      "dashboard": "Boshqaruv paneli",
+      "users": "Foydalanuvchilar",
+      "feeds": "To'plamlar",
+      "instance": "Namuna",
+      "locations": "Manzillar",
+      "invites": "Takliflar",
+      "sessions": "Seanslar",
+      "groups": "Guruhlar",
+      "parties": "Partiyalar",
+      "chats": "Suhbatlar",
+      "content": "Tarkib paketlari",
+      "projects": "Loyihalar",
+      "scenes": "Sahnalar",
+      "avatars": "Avatarlar",
+      "benchmarking": "Benchmarking",
+      "bots": "Botlar"
+    }
+  },
+  "oauth": {
+    "authenticating": "Avtorizatsiya qilinmoqda...",
+    "authFailed": "{{service}} tasdiqlash muvaffaqiyatsiz tugadi."
+  },
+  "magikLink": {
+    "wait": "Iltimos, ishlov berishda bir lahza kutib turing..."
+  },
+  "dashboard": {
+    "header": "Boshqaruv paneli",
+    "dashboard": "Boshqaruv paneli",
+    "users": "Foydalanuvchilar",
+    "feeds": "To'plamlar",
+    "instance": "Namuna",
+    "locations": "Manzillar",
+    "routes": "Yoʻnalishlar",
+    "projects": "Loyihalar",
+    "invites": "Takliflar",
+    "sessions": "Seanslar",
+    "groups": "Guruhlar",
+    "parties": "Partiyalar",
+    "chats": "Suhbatlar",
+    "content": "Tarkib paketlari",
+    "scenes": "Sahnalar",
+    "avatars": "Avatarlar",
+    "benchmarking": "Benchmarking",
+    "bots": "Botlar",
+    "setting": "Moslamalar"
+  },
+  "avatar": {
+    "title": "Avatarni yozib qoʻyish",
+    "lbl-browse": "Koʻrish",
+    "lbl-thumbnail": "Miniatyura",
+    "lbl-upload": "Yuklash",
+    "selectAvatar": "Avatarni tanlang...",
+    "selectThumbnail": "Miniatyurani tanlang...",
+    "rotate": "Burish",
+    "pan": "Toʻlqini",
+    "noBone": "Obejct tarkibida hech qanday suyak va teri bo'lmaydi",
+    "outOfBound": "Ob'ekt chegaradan tashqarida.",
+    "emptyObj": "Obyekt bo'sh.",
+    "maxTriangleError": "Ob'ekt tarkibida {{allowedTriangles}} yuzdan ortiq.",
+    "selectValidFile": "Toʻgʻri 3d avatar faylini tanlang.",
+    "selectValidThumbnail": "Tanlangan haqiqiy miniatyura fayli.",
+    "fileOversized": "Avatar fayl o'lchami {{minSize}} MB va {{maxSize}} MB oralig'ida bo'lishi kerak",
+    "confirmation": "Ishonchingiz komilmi?",
+    "canNotBeRemoved": "Aktiv Avatarni olib tashlab boʻlmaydi",
+    "remove": "Avatarni olib tashlash",
+    "uploadFiles": "Fayllarni yuklash",
+    "useUrlInstead": "Urldan foydalanish",
+    "avatar": "Avatar",
+    "cancel": "Bekor qilish",
+    "createAvatar": "Avatarni yaratish",
+    "delete": "Oʻchirish",
+    "view": "Koʻrish",
+    "uploadAvatarInfo": "Avtor haqida maʼlumotni yangilash",
+    "name": "Nom",
+    "enterName": "Nomini kiriting",
+    "avatarInformation": "Avatar haqida maʼlumot",
+    "description": "Taʼrifi",
+    "key": "Kalit",
+    "none": "Hech kim",
+    "submit": "Topshiring",
+    "edit": "Tahrirlash",
+    "avatarUrl": "Avatar url",
+    "upload-success-msg": "Avatar muvaffaqiyatli yozib qoʻyildi.",
+    "remove-success-msg": "Avatar muvaffaqiyatli yozib qoʻyildi.",
+    "warning-msg": "Avatar manbasi boʻsh, avtorlarni statik fayl saqlashga sinxronladingizmi?"
+  },
+  "personMenu": {
+    "inviteToParty": "Partiyaga taklif",
+    "addAsFriend": "Doʻst sifatida qoʻshish",
+    "mute": "Oʻchir",
+    "block": "Bloklash"
+  },
+  "person": {
+    "you": "Sen",
+    "yourScreen": "Sizning ekraningiz",
+    "muteForEveryone": "Hamma uchun oʻchir",
+    "unmuteForEveryone": "Hamma uchun bekitgan",
+    "muteMe": "Meni o'chirib qo'yadi",
+    "unmuteMe": "Meni bekor qil",
+    "muteThisPerson": "Ushbu shaxsni oʻchirmoq",
+    "unmuteThisPerson": "Ushbu shaxsni bekor qiling",
+    "openPictureInPicture": "Rasmni rasmda ochish"
+  }
+}

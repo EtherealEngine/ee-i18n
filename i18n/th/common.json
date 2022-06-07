@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "กําลังโหลดเพจ..."
+  },
+  "tooltip": {
+    "pressKey": "กด {{tip}} เพื่อ {{message}}"
+  },
+  "toast": {
+    "joined": "เข้าร่วม",
+    "left": "ซ้าย"
+  },
+  "navUserWidget": {
+    "login": "เข้าสู่ระบบ"
+  },
+  "loader": {
+    "connecting": "กําลังเชื่อมต่อกับโลก...",
+    "entering": "กําลังเข้าสู่โลก...",
+    "loading": "การโหลด   ",
+    "objectRemaining": "{{count}} ออบเจ็กต์ที่เหลืออยู่",
+    "objectRemainingPlural": "{{count}} วัตถุที่เหลืออยู่",
+    "loadingObjects": "การโหลดวัตถุ",
+    "loadingComplete": "การโหลดเสร็จสมบูรณ์",
+    "joiningWorld": "การเข้าร่วมโลก"
+  },
+  "alert": {
+    "eventWasSuccess": "เหตุการณ์สําเร็จแล้ว",
+    "errorWasEncountered": "พบข้อผิดพลาด",
+    "eventInProgress": "เหตุการณ์กําลังดําเนินการอยู่",
+    "seconds": "วินาที",
+    "cancelCountdown": "การปิดโมดอลนี้จะยกเลิกการนับถอยหลัง"
+  },
+  "debug": {
+    "refresh": "ฟื้นฟู",
+    "stats": "สถิติ",
+    "debugOptions": "ตัวเลือกดีบัก",
+    "physicsDebug": "ฟิสิกส์",
+    "avatarDebug": "อวตาร",
+    "nodeHelperDebug": "ตัวช่วยเหลือโหนด",
+    "gridDebug": "ตาราง",
+    "simpleMaterials": "วัสดุที่เรียบง่าย",
+    "tick": "เห็บ",
+    "worldStore": "เวิลด์สโตร์",
+    "engineStore": "ร้านเครื่องยนต์",
+    "namedEntities": "เอนทิตีที่มีชื่อ",
+    "networkObject": "วัตถุเครือข่าย",
+    "networkClients": "ไคลเอนต์เน็ตเวิร์ก"
+  },
+  "recording": {
+    "videoRecorder": "เครื่องบันทึกวิดีโอ",
+    "waitingForPermissions": "กําลังรอสิทธิ์",
+    "selectVideoSource": "เลือกแหล่งวิดีโอ",
+    "screen": "จอ",
+    "camera": "กล้องถ่ายรูป",
+    "microphone": "ไมโครโฟน",
+    "startRecording": "เริ่มการบันทึก",
+    "pauseRecording": "หยุดการบันทึกชั่วคราว",
+    "resumeRecording": "ดําเนินการบันทึกต่อ",
+    "stopRecording": "หยุดการบันทึก"
+  },
+  "typing": "พิมพ์   ",
+  "gameServer": {
+    "browserError": "ข้อผิดพลาดของเบราว์เซอร์",
+    "browserErrorMessage": "เบราว์เซอร์ของคุณไม่สนับสนุนที่เก็บข้อมูลในโหมดการเรียกดูแบบส่วนตัว ลองเบราว์เซอร์อื่น หรือออกจากโหมดการเรียกดูแบบส่วนตัว",
+    "noAvailableServers": "ไม่มีเซิร์ฟเวอร์ที่พร้อมใช้งาน",
+    "noAvailableServersMessage": "ไม่มีเซิร์ฟเวอร์ใด ๆ ที่พร้อมให้คุณเชื่อมต่อ กําลังพยายามเชื่อมต่อใหม่ใน",
+    "worldDisconnected": "โลกถูกตัดการเชื่อมต่อ",
+    "worldDisconnectedMessage": "คุณสูญเสียการเชื่อมต่อกับโลก เราจะพยายามเชื่อมต่อใหม่ก่อนที่เวลาต่อไปนี้จะหมดลง มิฉะนั้นคุณจะถูกส่งต่อไปยังอินสแตนซ์อื่น",
+    "webGLNotEnabled": "ไม่ได้เปิดใช้งาน WebGL",
+    "webGLNotEnabledMessage": "เบราว์เซอร์ของคุณไม่สนับสนุน WebGL หรือถูกปิดใช้งาน โปรดเปิดใช้งาน WebGL หรือพิจารณาอัปเกรดเป็นเบราว์เซอร์รุ่นล่าสุดของคุณ",
+    "youKickedFromWorld": "คุณถูกไล่ออกจากโลก",
+    "youKickedFromWorldMessage": "คุณถูกไล่ออกจากโลกนี้ด้วยเหตุผลดังต่อไปนี้",
+    "invalidLocation": "ตําแหน่งที่ตั้งไม่ถูกต้อง",
+    "cantFindLocation": "เราหาสถานที่ไม่เจอ",
+    "misspelledOrNotExist": "อาจสะกดผิด หรืออาจไม่มีอยู่จริง",
+    "loading": "การโหลด",
+    "low-frame-error": "ตรวจพบความสมบูรณ์ที่ไม่ดีให้พิจารณาเปิดใช้งานการเร่งความเร็วฮาร์ดแวร์ในเบราว์เซอร์ของคุณและเปิดเบราว์เซอร์ของคุณใหม่",
+    "low-frame-title": "เปิดใช้งานการเร่งฮาร์ดแวร์เพื่อประสบการณ์ที่ดีขึ้น!"
+  },
+  "error": {
+    "loading-error": "ไม่สามารถโหลดข้อมูลผู้ใช้ได้",
+    "validation-error": "โปรดใส่{{type}}ที่ถูกต้อง",
+    "login-error": "ไม่สามารถเข้าสู่ระบบได้"
+  }
+}

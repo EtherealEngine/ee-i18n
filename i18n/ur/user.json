@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "تصدیق ی میل",
+      "resendEmail": "براہ کرم اپنے اکاؤنٹ کی تصدیق کے لیے اپنا ای میل چیک کریں۔ اگر آپ کو ای میل نہیں ملا تو تصدیقی ای میل دوبارہ بھیجنے کے لیے {{here}} پر کلک کریں۔",
+      "haveAnAccount": "ایک اکاؤنٹ ہے؟"
+    },
+    "forgotPassword": {
+      "header": "پاس ورڈ بھول گیا",
+      "enterEmail": "براہ کرم اپنا رجسٹرڈ ای میل پتہ درج کریں اور ہم آپ کو پاس ورڈ ری سیٹ لنک بھیجیں گے۔",
+      "lbl-email": "ای میل پتہ",
+      "lbl-submit": "لنک بھیجیں",
+      "emailSent": "پاس ورڈ ای میل ری سیٹ کریں بھیجا گیا۔ براہ کرم اپنا ای میل چیک کریں۔"
+    },
+    "login": {
+      "email": "ای میل | ایس ایم ایس",
+      "username": "صارف نام + پاس ورڈ",
+      "social": "معاشرتی"
+    },
+    "magiklink": {
+      "header": "لاگ ان لنک",
+      "descriptionEmail": "براہ کرم اپنا ای میل پتہ درج کریں اور ہم آپ کو ای میل کے ذریعے لاگ ان لنک بھیجیں گے۔",
+      "descriptionSMS": "براہ کرم اپنا فون نمبر درج کریں اور ہم آپ کو ایس ایم ایس کے ذریعے لاگ ان لنک بھیجیں گے۔",
+      "descriptionEmailSMS": "براہ کرم اپنا ای میل پتہ یا فون نمبر درج کریں (10 عدد، صرف امریکہ) اور ہم آپ کو ای میل یا ایس ایم ایس کے ذریعے لاگ ان لنک بھیجیں گے۔",
+      "descriptionSMSUS": "براہ کرم اپنا فون نمبر درج کریں (10 عدد، صرف امریکہ) اور ہم آپ کو ایس ایم ایس کے ذریعے لاگ ان لنک بھیجیں گے۔",
+      "lbl-email": "ای میل پتہ",
+      "lbl-emailPhone": "ای میل یا فون نمبر",
+      "lbl-phone": "فون نمبر",
+      "agree": "میں اس سے اتفاق کرتا ہوں ",
+      "terms": "شرائط و ضوابط",
+      "lbl-submit": "لاگ ان لنک بھیجیں",
+      "email-sent-msg": "لاگ ان میجک لنک بھیجا گیا۔ براہ کرم اپنا ای میل چیک کریں۔",
+      "success-msg": "لاگ ان میجک لنک بھیجا گیا۔ براہ کرم اپنا ای میل یا ایس ایم ایس چیک کریں۔",
+      "sms-sent-msg": "لاگ ان میجک لنک بھیجا گیا۔ براہ کرم اپنا ایس ایم ایس چیک کریں۔"
+    },
+    "passwordLogin": {
+      "header": "سائن ان کریں",
+      "lbl-email": "ای میل پتہ",
+      "lbl-password": "پاسورڈ",
+      "lbl-rememberMe": "مجھے یاد رکھیں",
+      "lbl-signin": "سائن ان کریں",
+      "forgotPassword": "پاس ورڈ بھول گئے؟",
+      "signup": "ایک اکاؤنٹ نہیں ہے؟ سائن اپ کریں",
+      "lbl-login": "درج کريں",
+      "ph-password": "پاسورڈ",
+      "ph-email": "ای میل"
+    },
+    "social": {
+      "gitHub": "گیٹ ہب کے ساتھ لاگ ان کریں",
+      "google": "گوگل کے ساتھ لاگ ان کریں",
+      "facebook": "فیس بک کے ساتھ لاگ ان کریں",
+      "linkedin": "لنکڈ ان کے ساتھ لاگ ان کریں",
+      "twitter": "ٹوئٹر کے ساتھ لاگ ان کریں"
+    },
+    "register": {
+      "header": "سائن اپ کریں",
+      "login": "درج کريں",
+      "lbl-signup": "سائن اپ کریں",
+      "lbl-password": "پاسورڈ",
+      "lbl-email": "ای میل پتہ",
+      "passwordNotMatch": "پاس ورڈ میل نہیں کھاتے",
+      "ph-password": "پاسورڈ",
+      "ph-confirmPassword": "پاس ورڈ تصدیق کریں",
+      "ph-email": "ای میل"
+    },
+    "resetPassword": {
+      "header": "پاس ورڈ پھر سیٹ کریں",
+      "description": "براہ کرم اپنا ای میل پتہ کے لیے اپنا پاس ورڈ درج کریں",
+      "lbl-submit": "پاس ورڈ پھر سیٹ کریں",
+      "lbl-password": "پاسورڈ",
+      "lbl-confirmPassword": "پاس ورڈ تصدیق کریں",
+      "passwordNotMatch": "پاس ورڈ میل نہیں کھاتے",
+      "nowLoginYourAccount": "اب آپ اپنے اکاؤنٹ میں لاگ ان کر سکتے ہیں",
+      "yourPasswordResetSuccess": "آپ کا پاس ورڈ کامیابی سے ری سیٹ ہو گیا!"
+    },
+    "verifyEmail": {
+      "header": "ای میل کی توثیق کریں",
+      "processing": "براہ کرم پروسیسنگ کے دوران ایک لمحہ انتظار کریں..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "محل وقوع",
+      "loading": "لوڈنگ",
+      "col-name": "نام",
+      "col-scene": "منظر",
+      "col-maxuser": "زیادہ سے زیادہ صارفین",
+      "lbl-search": "مقامات تلاش کریں",
+      "lbl-new": "نیا"
+    },
+    "newLocation": {
+      "title": "جگہ",
+      "success": "کامیابی سے محفوظ کیا.",
+      "failure": "کچھ غلط ہو گیا.",
+      "removeSuccess": "مقام کامیابی سے ہٹا دیا گیا۔",
+      "nameInUse": "نام استعمال میں ہے۔",
+      "nameRequire": "نام درکار ہے۔",
+      "validNumber": "صرف نمبروں (0-9) کی اجازت ہے۔",
+      "lbl-name": "نام",
+      "lbl-maxuser": "زیادہ سے زیادہ صارفین",
+      "lbl-scene": "منظر",
+      "lbl-type": "قسم",
+      "lbl-ve": "ویڈیو فعال",
+      "lbl-gme": "عالمی میڈیا فعال",
+      "lbl-update": "تازہ کاری",
+      "lbl-create": "تخلیق",
+      "tooltipCanNotBeDeleted": "لابی حذف نہیں کی جا سکتی",
+      "confirmation": "تمھيں يقين ہے?",
+      "lbl-yes": "ہاں",
+      "lbl-no": "نہيں"
+    },
+    "share": {
+      "lbl-share": "حصہ",
+      "ph-phoneEmail": "ای میل یا فون نمبر کے ذریعہ مدعو کریں",
+      "lbl-phoneEmail": "ای میل یا فون نمبر پر بھیجیں",
+      "lbl-copy": "نقل",
+      "lbl-send-invite": "دعوت بھیجیں",
+      "title": "اپنی ٹیم کے ساتھ اپنا محل وقوع یو آر ایل شیئر کریں",
+      "linkCopied": "تراشہ بورڈ سے نقل کردہ لنک کریں۔"
+    },
+    "setting": {
+      "audio": "سمعی",
+      "lbl-volume": "صوت",
+      "lbl-microphone": "مائکروفون",
+      "graphics": "گرافکس",
+      "controls": "کنٹرول",
+      "lbl-control-type": "کنٹرولر قسم",
+      "lbl-control-scheme": "کنٹرول اسکیم",
+      "lbl-resolution": "استقلال",
+      "lbl-shadow": "سائے",
+      "lbl-pp": "پوسٹ پروسیسنگ",
+      "lbl-pbr": "مکمل پی بی آر",
+      "lbl-automatic": "خودکار",
+      "xrusersetting": "ایکس آر صارف سیٹنگیں",
+      "rotation": "گردش",
+      "rotation-smooth-speed": "گردش ہموار رفتار",
+      "rotation-angle": "گردش زاویہ",
+      "moving": "منتقل",
+      "user-avatar": "اوتار سیٹنگ",
+      "invert-rotation": "الٹا گردش اور لاٹھیاں منتقل",
+      "show-avatar": "اوتار نمایش کریں"
+    },
+    "profile": {
+      "lbl-profile": "پروفائل",
+      "lbl-settings": "سیٹنگیں",
+      "lbl-username": "نام صارف",
+      "update-msg": "صارف نام تازہ کاری",
+      "inviteCode": "کوڈ دعوت دیں",
+      "youAreAn": "آپ ایک ہیں",
+      "youAreA": "تم ایک ہو",
+      "showUserId": "صارف شناختی کار نمایش کریں",
+      "hideUserId": "صارف شناختی کار چھپائیں",
+      "showApiKey": "اے پی آئی کلید دکھائیں",
+      "hideApiKey": "اے پی آئی کلید چھپائیں",
+      "apiKey": "اے پی آئی کلید",
+      "logout": "لاگ آؤٹ کریں",
+      "connectPhone": "اپنا فون نمبر جوڑیں",
+      "connectEmail": "اپنا ای میل جوڑیں",
+      "connectPhoneEmail": "اپنا ای میل یا فون نمبر جوڑیں",
+      "or": "یا",
+      "lbl-wallet": "بٹوے کے ساتھ لاگ ان کریں",
+      "ph-email": "ای میل",
+      "ph-phone": "فون نمبر",
+      "ph-phoneEmail": "فون نمبر / ای میل",
+      "phoneEmailError": "ناجائز فون # یا ای میل پتہ",
+      "phoneError": "ناجائز فون #",
+      "emailError": "ناجائز ای میل پتہ",
+      "loginWithReadyPlayerMe": "تیار کھلاڑی مجھے کے ساتھ لاگ ان کریں",
+      "connectSocial": "سماجی کھاتوں سے جڑیں",
+      "createOne": "اگر آپ کا اکاؤنٹ نہیں ہے تو آپ کے لیے نیا اکاؤنٹ بنایا جائے گا",
+      "connections": {
+        "title": "کنکشن",
+        "ipError": "فعال شناختی مہیا کار نہیں ہٹا سکتا",
+        "disconnect": "منقطع",
+        "connect": "ملانا"
+      },
+      "profileDropdown": {
+        "avatar": "صارف اوتار شبیہ",
+        "profile": "پروفائل",
+        "adminConsole": "ایڈمن کنسول",
+        "logout": "لاگ آؤٹ کریں"
+      },
+      "userIcon": {
+        "lbl-name": "آپکا نام",
+        "lbl-update": "تازہ کاری",
+        "userId": "صارف کی شناختی",
+        "ph-uploadImg": "مصنوعات کی تصویر اپ لوڈ کریں",
+        "lbl-selectAcvatar": "اوتار منتخب کریں",
+        "lbl-submit": "جمع کرائیں"
+      },
+      "userSettings": {
+        "volume": "صوت",
+        "microphone": "مائکروفون",
+        "resolution": "استقلال",
+        "high": "اونچا",
+        "low": "چھوٹا",
+        "spatialAudio": "مقامی آڈیو استعمال کریں",
+        "enterMuted": "کمرہ خاموش داخل کریں"
+      }
+    },
+    "oauth": {
+      "authenticating": "توثیق کر رہا ہے...",
+      "authFailed": "{{service}} توثیق ناکام ہو گئی۔"
+    },
+    "magikLink": {
+      "wait": "براہ کرم پروسیسنگ کے دوران ایک لمحہ انتظار کریں..."
+    },
+    "dashboard": {
+      "header": "ڈیش بورڈ",
+      "dashboard": "ڈیش بورڈ",
+      "users": "صارفین",
+      "feeds": "فیڈ",
+      "instance": "مثال",
+      "locations": "محل وقوع",
+      "invites": "دعوت یں",
+      "sessions": "سیشن",
+      "groups": "گروپ",
+      "parties": "جماعتوں",
+      "chats": "چیٹ",
+      "content": "مشمول پیک",
+      "projects": "منصوبوں",
+      "scenes": "مناظر",
+      "avatars": "اوتار",
+      "benchmarking": "بینچ مارکنگ",
+      "bots": "بوٹس"
+    }
+  },
+  "oauth": {
+    "authenticating": "توثیق کر رہا ہے...",
+    "authFailed": "{{service}} توثیق ناکام ہو گئی۔"
+  },
+  "magikLink": {
+    "wait": "براہ کرم پروسیسنگ کے دوران ایک لمحہ انتظار کریں..."
+  },
+  "dashboard": {
+    "header": "ڈیش بورڈ",
+    "dashboard": "ڈیش بورڈ",
+    "users": "صارفین",
+    "feeds": "فیڈ",
+    "instance": "مثال",
+    "locations": "محل وقوع",
+    "routes": "راستوں",
+    "projects": "منصوبوں",
+    "invites": "دعوت یں",
+    "sessions": "سیشن",
+    "groups": "گروپ",
+    "parties": "جماعتوں",
+    "chats": "چیٹ",
+    "content": "مشمول پیک",
+    "scenes": "مناظر",
+    "avatars": "اوتار",
+    "benchmarking": "بینچ مارکنگ",
+    "bots": "بوٹس",
+    "setting": "سیٹنگیں"
+  },
+  "avatar": {
+    "title": "اوتار اپ لوڈ کریں",
+    "lbl-browse": "براؤز",
+    "lbl-thumbnail": "پورنہ",
+    "lbl-upload": "اپ لوڈ",
+    "selectAvatar": "اوتار منتخب کریں...",
+    "selectThumbnail": "تھمبنیل منتخب کریں...",
+    "rotate": "گھمائیں",
+    "pan": "پین",
+    "noBone": "اوبیجکٹ میں کوئی ہڈیاں یا جلد نہیں ہوتی",
+    "outOfBound": "آبجیکٹ پابند سے باہر ہے۔",
+    "emptyObj": "آبجیکٹ خالی ہے۔",
+    "maxTriangleError": "آبجیکٹ میں {{allowedTriangles}} چہروں سے زیادہ ہوتا ہے۔",
+    "selectValidFile": "جائز 3ڈی اوتار مسل منتخب کریں۔",
+    "selectValidThumbnail": "منتخب کردہ جائز تھمبنیل مسل۔",
+    "fileOversized": "اوتار فائل سائز {{minSize}} ایم بی اور {{maxSize}} ایم بی کے درمیان ہونا ضروری ہے",
+    "confirmation": "تمھيں يقين ہے?",
+    "canNotBeRemoved": "فعال اوتار ہٹایا نہیں جا سکتا",
+    "remove": "اوتار ہٹائیں",
+    "uploadFiles": "مسلیں اپ لوڈ کریں",
+    "useUrlInstead": "اس کی بجائے یو آر ایل استعمال کریں",
+    "avatar": "اوتار",
+    "cancel": "منسوخ",
+    "createAvatar": "اوتار بنائیں",
+    "delete": "مٹانا",
+    "view": "منظر",
+    "uploadAvatarInfo": "معلومات اوتار تازہ کریں",
+    "name": "نام",
+    "enterName": "نام داخل کریں",
+    "avatarInformation": "اوتار معلومات",
+    "description": "بیان",
+    "key": "چابی",
+    "none": "کوئی",
+    "submit": "جمع کرائیں",
+    "edit": "تدوین",
+    "avatarUrl": "اوتار یو آر ایل",
+    "upload-success-msg": "اوتار کامیابی سے اپ لوڈ کیا گیا۔",
+    "remove-success-msg": "اوتار کامیابی سے اپ لوڈ کیا گیا۔",
+    "warning-msg": "اوتار وسیلہ خالی ہے، کیا آپ نے اپنے جامد فائل سٹوریج میں اوتار وں کو سنک کیا ہے؟"
+  },
+  "personMenu": {
+    "inviteToParty": "پارٹی میں مدعو کریں",
+    "addAsFriend": "بطور دوست اضافہ کریں",
+    "mute": "خاموش",
+    "block": "روکنا"
+  },
+  "person": {
+    "you": "تم",
+    "yourScreen": "آپ کی سکرین",
+    "muteForEveryone": "ہر ایک کے لئے خاموش",
+    "unmuteForEveryone": "ہر ایک کے لئے غیر خاموش",
+    "muteMe": "مجھے خاموش کریں",
+    "unmuteMe": "مجھے غیر خاموش کریں",
+    "muteThisPerson": "اس شخص کو خاموش کریں",
+    "unmuteThisPerson": "اس شخص کو غیر موٹ کریں",
+    "openPictureInPicture": "تصویر میں تصویر کھولیں"
+  }
+}

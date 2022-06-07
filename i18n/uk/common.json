@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Завантаження сторінки..."
+  },
+  "tooltip": {
+    "pressKey": "Натисніть {{tip}} , щоб {{message}}"
+  },
+  "toast": {
+    "joined": "Приєднався до",
+    "left": "Ліворуч"
+  },
+  "navUserWidget": {
+    "login": "Ввійти"
+  },
+  "loader": {
+    "connecting": "Зв'язок зі світом...",
+    "entering": "Увійшовши у світ...",
+    "loading": "Завантаження...",
+    "objectRemaining": "{{count}} об'єкт, що залишився",
+    "objectRemainingPlural": "{{count}} залишилися об'єкти",
+    "loadingObjects": "Завантаження об'єктів",
+    "loadingComplete": "Завантаження завершено",
+    "joiningWorld": "Приєднатися до світу"
+  },
+  "alert": {
+    "eventWasSuccess": "Подія пройшла успішно",
+    "errorWasEncountered": "Сталася помилка",
+    "eventInProgress": "Триває подія",
+    "seconds": "Секунд",
+    "cancelCountdown": "Закриття цього модала скасує зворотний відлік"
+  },
+  "debug": {
+    "refresh": "Оновити",
+    "stats": "Статистика",
+    "debugOptions": "Параметри налагодження",
+    "physicsDebug": "Фізика",
+    "avatarDebug": "Аватар",
+    "nodeHelperDebug": "Помічник вузла",
+    "gridDebug": "Сітка",
+    "simpleMaterials": "Прості матеріали",
+    "tick": "Галочку",
+    "worldStore": "Світовий магазин",
+    "engineStore": "Магазин двигунів",
+    "namedEntities": "Іменовані сутності",
+    "networkObject": "Мережний об'єкт",
+    "networkClients": "Мережеві клієнти"
+  },
+  "recording": {
+    "videoRecorder": "Відеомагнітофон",
+    "waitingForPermissions": "Очікування дозволів",
+    "selectVideoSource": "Вибір джерела відео",
+    "screen": "Екрані",
+    "camera": "Камери",
+    "microphone": "Мікрофон",
+    "startRecording": "Почати запис",
+    "pauseRecording": "Призупинити запис",
+    "resumeRecording": "Відновити запис",
+    "stopRecording": "Зупинити записування"
+  },
+  "typing": "Набравши...",
+  "gameServer": {
+    "browserError": "Помилка браузера",
+    "browserErrorMessage": "Ваш браузер не підтримує зберігання в режимі приватного перегляду. Спробуйте інший браузер або вийдіть з режиму приватного перегляду.",
+    "noAvailableServers": "Немає доступних серверів",
+    "noAvailableServersMessage": "Для підключення до вас немає серверів. Спроба повторного підключення в",
+    "worldDisconnected": "Світ відключений",
+    "worldDisconnectedMessage": "Ви втратили зв'язок зі світом. Ми постараємося відновити зв'язок, перш ніж закінчиться наступний час, інакше ви будете перенаправлені в інший екземпляр.",
+    "webGLNotEnabled": "WebGL не ввімкнуто",
+    "webGLNotEnabledMessage": "Браузер не підтримує WebGL або його вимкнуто. Будь ласка, увімкніть WebGL або подумайте про оновлення до останньої версії вашого браузера.",
+    "youKickedFromWorld": "Вас вигнали зі світу",
+    "youKickedFromWorldMessage": "Вас вигнали з цього світу з наступної причини.",
+    "invalidLocation": "Неприпустиме розташування",
+    "cantFindLocation": "Ми не можемо знайти місце",
+    "misspelledOrNotExist": "Він може бути написаний з помилкою, або він може не існувати.",
+    "loading": "Завантаження",
+    "low-frame-error": "Виявлено погану perfomance розглянути можливість включення використовувати апаратне прискорення у вашому браузері і повернути браузер",
+    "low-frame-title": "Увімкніть апаратне прискорення для кращого досвіду!"
+  },
+  "error": {
+    "loading-error": "Не вдалося завантажити дані користувача",
+    "validation-error": "Введіть припустимі {{type}}",
+    "login-error": "Не вдалося ввійти до системи"
+  }
+}

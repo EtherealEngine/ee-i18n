@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Nalaganje strani ..."
+  },
+  "tooltip": {
+    "pressKey": "Pritisnite {{tip}} za {{message}}"
+  },
+  "toast": {
+    "joined": "Pridružil",
+    "left": "Levo"
+  },
+  "navUserWidget": {
+    "login": "Prijava"
+  },
+  "loader": {
+    "connecting": "Povezujem se s svetom...",
+    "entering": "Vstop v svet...",
+    "loading": "Nakladanje...",
+    "objectRemaining": "{{count}} predmet ostane",
+    "objectRemainingPlural": "{{count}} predmeti",
+    "loadingObjects": "Nalaganje predmetov",
+    "loadingComplete": "Nalaganje dokončano",
+    "joiningWorld": "Vstop v svet"
+  },
+  "alert": {
+    "eventWasSuccess": "Dogodek je bil uspešen",
+    "errorWasEncountered": "Prišlo je do napake",
+    "eventInProgress": "Dogodek v teku",
+    "seconds": "Sekund",
+    "cancelCountdown": "Če zaprete ta način, boste preklicali odštevanje"
+  },
+  "debug": {
+    "refresh": "Osvežiti",
+    "stats": "Statistika",
+    "debugOptions": "Možnosti odpravljanja napak",
+    "physicsDebug": "Fizika",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Pomoč pri nodeju",
+    "gridDebug": "Mreža",
+    "simpleMaterials": "Preprosti materiali",
+    "tick": "Klošč",
+    "worldStore": "Svetovna trgovina",
+    "engineStore": "Trgovina motorjev",
+    "namedEntities": "Imenovane entitete",
+    "networkObject": "Omrežni predmet",
+    "networkClients": "Omrežni odjemalci"
+  },
+  "recording": {
+    "videoRecorder": "Video snemalnik",
+    "waitingForPermissions": "Čakanje na dovoljenja",
+    "selectVideoSource": "Izbira vira videoposnetkov",
+    "screen": "Zaslon",
+    "camera": "Fotoaparat",
+    "microphone": "Mikrofon",
+    "startRecording": "Začni snemati",
+    "pauseRecording": "Zaustavi snemanje",
+    "resumeRecording": "Nadaljevanje snemanja",
+    "stopRecording": "Ustavi snemanje"
+  },
+  "typing": "Tipkanje...",
+  "gameServer": {
+    "browserError": "Napaka brskalnika",
+    "browserErrorMessage": "Brskalnik ne podpira shranjevanja v zasebnem načinu brskanja. Poskusite drug brskalnik ali pa zapustite zasebni način brskanja.",
+    "noAvailableServers": "Ni na voljo strežnikov",
+    "noAvailableServersMessage": "Ni na voljo nobenega strežnika, s katerega bi se lahko povezali. Poskus vnašanja povezave",
+    "worldDisconnected": "Svet je odklopljen",
+    "worldDisconnectedMessage": "Izgubil si povezavo s svetom. Poskušali se bomo znova zklopiti, preden zmanjka naslednjega časa, sicer boste posredovani na drug primerek.",
+    "webGLNotEnabled": "WebGL ni omogočen",
+    "webGLNotEnabledMessage": "Vaš brskalnik ne podpira webGL ali pa je onemogočen. Omogočite WebGL ali razmislite o nadgradnji na najnovejšo različico brskalnika.",
+    "youKickedFromWorld": "Vrgli so te iz sveta.",
+    "youKickedFromWorldMessage": "Iz tega sveta so te vrgli iz naslednjega razloga.",
+    "invalidLocation": "Neveljavna lokacija",
+    "cantFindLocation": "Ne moremo najti lokacije.",
+    "misspelledOrNotExist": "Morda je pravilno napisana ali pa ne obstaja.",
+    "loading": "Nakladanje",
+    "low-frame-error": "Odkril slabo parfomance razmislite o omogočanju uporabe strojne opreme pospeševanje v brskalniku in vnošenje brskalnika",
+    "low-frame-title": "Omogočite pospešek strojne opreme za boljšo izkušnjo!"
+  },
+  "error": {
+    "loading-error": "Nalaganje uporabniških podatkov ni uspelo",
+    "validation-error": "Vnesite veljavne {{type}}",
+    "login-error": "Prijava ni uspela"
+  }
+}

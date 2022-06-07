@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "\"daleghpu'.\""
+  },
+  "tooltip": {
+    "pressKey": "{{message}} {{tip}} 'ej ghu'vam"
+  },
+  "toast": {
+    "joined": "'Igh",
+    "left": "poS"
+  },
+  "navUserWidget": {
+    "login": "QonoS"
+  },
+  "loader": {
+    "connecting": "\"wejpuH\" QumwI'ghomquv.",
+    "entering": "choraQ.",
+    "loading": "\"'eh.",
+    "objectRemaining": "{{count}} 'meH'laH",
+    "objectRemainingPlural": "{{count}} 'laH",
+    "loadingObjects": "tu'lu'",
+    "loadingComplete": "pagh vImuSHa'chugh",
+    "joiningWorld": "qo'"
+  },
+  "alert": {
+    "eventWasSuccess": "qaSpu'bogh wamwI''e'",
+    "errorWasEncountered": "Qovpatlh QIvpa'",
+    "eventInProgress": "'oSpu'bogh",
+    "seconds": "cha'DIch",
+    "cancelCountdown": "qo' HochDaq bIQtIq rurchoH"
+  },
+  "debug": {
+    "refresh": "poq",
+    "stats": "Dotlh",
+    "debugOptions": "'ovelya",
+    "physicsDebug": "pe'vIl",
+    "avatarDebug": "ghum",
+    "nodeHelperDebug": "naDev joH",
+    "gridDebug": "bochenmoH.",
+    "simpleMaterials": "may'rIy",
+    "tick": "tI'qa'",
+    "worldStore": "qor",
+    "engineStore": "QuQtI'",
+    "namedEntities": "'enqIyDu",
+    "networkObject": "'ovelya",
+    "networkClients": "qeylIS"
+  },
+  "recording": {
+    "videoRecorder": "qonwI'",
+    "waitingForPermissions": "'oH leghpu'",
+    "selectVideoSource": "Qapla' ghob",
+    "screen": "gheD",
+    "camera": "mIllogh qonwI'",
+    "microphone": "much",
+    "startRecording": "qo'",
+    "pauseRecording": "qEylIS",
+    "resumeRecording": "qo'",
+    "stopRecording": "yIqonQo'"
+  },
+  "typing": "pagh. qatlh...",
+  "gameServer": {
+    "browserError": "choraQ",
+    "browserErrorMessage": "laSvargh QuchlIj yIchav. tera'Daq ghuSchoH Hoch, vImuSHa'chu'.",
+    "noAvailableServers": "qeylIS be'nal",
+    "noAvailableServersMessage": "vaj, SoHvaD ngaghqoqDaj lutu'lu' 'e' vIHech. naDev yIghoSQo'",
+    "worldDisconnected": "quvHa'ghach",
+    "worldDisconnectedMessage": "naDev DaQorghtaHvIS. DaH ngemHomDaq pawtaHvIS, Humanpu' net Chaw'bej.",
+    "webGLNotEnabled": "loQ ma'oy'",
+    "webGLNotEnabledMessage": "mu'qaD veSDuj Daleghpu'bogh bIQoylaHbe'chugh. qaStaHvIS wa'maHlIj tlhaQ nIvqu' ghoSjaj.",
+    "youKickedFromWorld": "qo' DarurchoH",
+    "youKickedFromWorldMessage": "qo' DaQorghmeH mIw vODleH DaDa",
+    "invalidLocation": "parmaq",
+    "cantFindLocation": "ma'avlaHbe'",
+    "misspelledOrNotExist": "vaj jIHvaD lo'laHbe' ghaH, jIHvaD chenmoHtaHvIS.",
+    "loading": "Dech",
+    "low-frame-error": "qo' Hoch Data'rupbogh qo' Hoch Dalo'chugh",
+    "low-frame-title": "nuqneH, 'entepray'Daq SuvwI'na' qa' 'enqIyDu!"
+  },
+  "error": {
+    "loading-error": "Huy'vam mIw Qoylu'pu'bogh",
+    "validation-error": "{{type}}Daq",
+    "login-error": "qeylIS"
+  }
+}

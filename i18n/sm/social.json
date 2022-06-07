@@ -1,0 +1,202 @@
+{
+  "addComment": "Faaopoopo se Manatu Faaalia...",
+  "share": "Faasoa atu",
+  "suggestions": "Fautuaga Mo Oe",
+  "seeAll": "Tagai i Mea Uma",
+  "likes": "Mea e Fiafia i Ai",
+  "viewComments": "Maimoa i manatu faaalia uma {{count}}",
+  "more": "isi mea",
+  "username": "igoa faaaoga",
+  "fullName": "Faaiu o le Igoa",
+  "reportInApporpriate": "Lipoti e Le Talafeagai",
+  "unfollow": "Le mulimuli",
+  "goToPost": "Alu i le Ta",
+  "shareModal": "Faasoa atu",
+  "copyLink": "Kopi le Sootaga",
+  "embed": "Embed",
+  "cancel": "Faaleaogaina",
+  "confirm": "Faamautu",
+  "save": "Sefe",
+  "profilePic": "{{user}}le talaaga otooto o le tagata lava ia",
+  "ara": "Ara",
+  "follow": "Mulimuli i le",
+  "flames": "Flames",
+  "continue": "Faaauau Pea",
+  "partyInvitationSent": "Auina atu le valaaulia a le vaega",
+  "arMedia": {
+    "back": "Toe Foi i Tua",
+    "clip": "Clip",
+    "backgrounds": "Talaaga",
+    "start": "Amata"
+  },
+  "arMediaform": {
+    "title": "Autu",
+    "type": "Ituaiga",
+    "clip": "Clip",
+    "background": "Talaaga",
+    "scene": "Vaaiga",
+    "save": "Sefe",
+    "manifest-file": "Faaali . faila o le manifest",
+    "audio-file": "faila Mp4",
+    "dracosis-file": "Dracosis .uvol file",
+    "preview-file": "Muai maimoa i le faila o ata"
+  },
+  "creator": {
+    "myVideos": "O A'u Vitio",
+    "savedVideos": "Vitio ua Sefeina",
+    "back": "Toe Foi i Tua",
+    "blocked-list": "Lisi ua Polokaina",
+    "block-user": "Tagata e Faaaogaina le Poloka",
+    "dialog-content": "O le a e le vaai i le talaaga otooto ma le anotusi o le tagata faaaoga"
+  },
+  "creatorForm": {
+    "back": "Toe Foi i Tua",
+    "edit": "Faasa'o le Talaaga Otooto",
+    "save": "Sefe",
+    "changeAvatar": "Sui le ata o le avatar",
+    "ph-selectPreview": "Filifili le muai vaaiga",
+    "ph-name": "Lou igoa",
+    "ph-username": "Lou Igoa Faaaoga",
+    "ph-email": "O Lau Imeli",
+    "ph-tags": "Faailoga",
+    "ph-link": "Sootaga",
+    "ph-aboutYou": "O nisi mea e uiga ia te oe",
+    "ph-twitter": "twitter",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Saini e Alu i Fafo"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Tagata Faaaoga",
+    "feeds": "Fafagaina",
+    "arMedia": "Ala o Faasalalauga Vitio",
+    "editor": "Faatonu",
+    "creator": "Foafoa"
+  },
+  "featured": {
+    "empty-list": "Leai ni meaai mo le taimi nei ..."
+  },
+  "feed": {
+    "back": "Toe Foi i Tua",
+    "related": "Meaai fesootai",
+    "is-repoted-message": "Ua lipotia mai le fafagaina!"
+  },
+  "feedForm": {
+    "back": "Toe Foi i Tua",
+    "thanks": "Faafetai mo le faasoaina mai ma le faaleleia o lo matou nuu",
+    "share": "Faasoa atu se mea i le alalafaga",
+    "upload": "Sii mai le Vitio",
+    "ph-selectVideo": "Filifili le Vitio",
+    "preview": "Muai vaaiga i le ata",
+    "ph-selectPreview": "Filifili le muai vaaiga",
+    "createFeed": "Ina ia mafai ona fatu se meaai, e tatau ona i ai sau vitio ma se ata e muai maimoa i ai!!!",
+    "ph-videoName": "Igoa o lau vitio",
+    "ph-type": "Ta mea e te manao e faasoa atu i le alalafaga ... ",
+    "lbl-share": "Faasoa atu",
+    "save": "Sefe ma Alu i le Isi"
+  },
+  "feedMenu": {
+    "featured": "Featured",
+    "creators": "O Lē na Foafoaina Mea",
+    "feed": "O Le Fafagaga"
+  },
+  "header": {
+    "lbl-volumetric": "Volumetric"
+  },
+  "login": {
+    "account": "E i ai se tala?",
+    "login": "Alu i Totonu",
+    "resetPassword": "Faamau Toe Seti le Uputatala Fake (o se sootaga lenei mai le imeli)",
+    "notHavingAccount": "E le o i ai se faitotoa?",
+    "signUp": "Saini e Alu i Luga",
+    "forgotPassword": "Ua galo le uputatala?",
+    "back": "Toe Foi i Tua",
+    "or": "PO O LE"
+  },
+  "comment": {
+    "add": "Faaopoopo i ai lou manatu faaalia..."
+  },
+  "notification": {
+    "feedFire": " fa'apēa'i lau mea'ai",
+    "feedBookmarked": " faailoga lau meaai",
+    "comment": " O le a le mea e te manao ai:",
+    "commentFire": " Fai sau faamatalaga e fafaga",
+    "follow": " amata ona mulimuli atu iā 'oe",
+    "unfollow": " 'aua le mulimuli atu iā te 'oe",
+    "followed": " na mulimuli atu iā 'oe",
+    "activity": "Gaoioiga"
+  },
+  "onBoarding": {
+    "welcome": "Susu maia!",
+    "description": "O le faaputuga tele o faataatiaga e 370+ mo le iOS prototyping.",
+    "next": "O Le Isi",
+    "discover": "Maua tusiga,",
+    "news": "tala fou & pou",
+    "lines": "O faalogona na e uuna'ia ai lo tatou naunau i mea e tatou te manana'o i ai ma o tatou faanaunauga.",
+    "getStarted": "Ia Amata",
+    "meetUp": "Feiloai ma",
+    "friends": "uo.",
+    "meet": "Feiloai ma uo"
+  },
+  "shareForm": {
+    "arcMedia": "Faasoa atu",
+    "videoCreated": "Sa Ou Fatuina Le Vitio Lenei",
+    "shareWithBuddies": "Faasoa atu i le au buddies",
+    "shareVideo": "Faasoa atu le Vitio",
+    "save": "Sefe I Le Tauvalaauga",
+    "cancel": "Faaleaogaina",
+    "close": "Tapuni",
+    "addFeed": "Faaopoopo le Fafaga"
+  },
+  "simpleModal": {
+    "emptyList": "Lisi o mea e le o i ai",
+    "followers": " mulimuli i le",
+    "following": " tagata e mulimuli ia te ia",
+    "flames": " afi mumu"
+  },
+  "splash": {
+    "screen": "Lau o le Splash",
+    "logo": "Tagavai"
+  },
+  "story": {
+    "profilePic": "{{user}}le talaaga otooto o le tagata lava ia"
+  },
+  "view": {
+    "cancel": "Faaleaogaina",
+    "choice": "E lua ni ituaiga eseese o lipine e filifili mai ai",
+    "verticalMode": "O le ituaiga o le vertical mode e i ai se taimi e 30 sec e faamaumau ai",
+    "horizontalMode": "O le ituaiga o le Horizontal e i ai se taimi e le faatapulaaina o faamaumauga",
+    "start": "Amata",
+    "not-show": "Aua nei toe faaalia",
+    "welcome": "Susu Maia i le ARC!  Fai ni vitio patino ma se tasi o a tatou ata ma faapipii i a outou ala o faasalalauga faaagafesootai!",
+    "step": "LAASAGA {{step}}",
+    "text-step-1": "Filifili se faamatalaga mai le faletusi.",
+    "text-step-2": "O le mea lenei e ta'u o le Augmented Reality, o lea ia faata'ita'i le avanoa i lau meapu'eata mai lea itu i lea itu mo le 3-5 sekone i le mea e te manao ia i ai le faatinoga o le hologram.",
+    "text-step-3-part-1": "Oomi faatasi le lau i le nofoaga e te manao e taula ai le vaega o le fale.",
+    "text-step-3-part-2": "TIP!  Oomi i se isi mea e aveese ai le ata i se isi tulaga.",
+    "text-step-3-part-3": "TIP!  E mafai ona e toe faatulagaina le vaega o le hologram e ala i le kiina po o le faalauteleina o le lau i lou limamatua ma le limatusi.",
+    "text-step-4-part-1": "Oomi faalua le faamau o le faamaumauga mumu e AMATA ai lau pueina o le vitio.",
+    "text-step-4-part-2": "Oomi faalua le faamau o le faamaumauga mumu e TAOFI ai."
+  },
+  "video": {
+    "back": "Toe Foi i Tua"
+  },
+  "terms": {
+    "confirmTerms": "Ua Ou ioe i Tuutuuga o le Auaunaga",
+    "confirmPolicy": "Ua ou ioe i Aiaiga Faavae o le Le Faalauaiteleina"
+  },
+  "registration": {
+    "ph-phoneEmail": "Faaaoga le telefoni / imeli",
+    "facebook": "Faaauau i le Facebook",
+    "google": "Faaauau i le Google",
+    "linkedin": "Faaauau i le Sootaga",
+    "twitter": "Faaauau i le Twitter",
+    "gitHub": "Faaauau i le GitHub",
+    "connect": "Faafesootai lau imeli po o le numera o le telefoni",
+    "logIn": "Alu i totonu",
+    "LogInTo": "Alu i totonu i le",
+    "continueAsGuest": "Faaauau o se malo faaaloalogia"
+  }
+}

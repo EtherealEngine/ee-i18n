@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Sahypa ýüklenýär..."
+  },
+  "tooltip": {
+    "pressKey": "metbugat {{tip}} {{message}}"
+  },
+  "toast": {
+    "joined": "goşulan",
+    "left": "galan"
+  },
+  "navUserWidget": {
+    "login": "Giriň"
+  },
+  "loader": {
+    "connecting": "Dünýä bilen baglanşykly...",
+    "entering": "Dünýä girmek...",
+    "loading": "%s ýüklenýär...",
+    "objectRemaining": "{{count}} zady galyndy",
+    "objectRemainingPlural": "{{count}} zatlar galýar",
+    "loadingObjects": "Objekler Ýüklenýär",
+    "loadingComplete": "Ýüklemek Tamamlandy",
+    "joiningWorld": "Dünýä goşulmak"
+  },
+  "alert": {
+    "eventWasSuccess": "Waka üstünlikli boldy",
+    "errorWasEncountered": "Hata duçar boldy",
+    "eventInProgress": "Geçirilýän waka",
+    "seconds": "sekunt",
+    "cancelCountdown": "Bu modaly ýapmak sanawy ýatyrar"
+  },
+  "debug": {
+    "refresh": "Täzele",
+    "stats": "Statisler",
+    "debugOptions": "Gaýd Etmek Opşenler",
+    "physicsDebug": "Fizika",
+    "avatarDebug": "Awatar",
+    "nodeHelperDebug": "Näz-nygýaý ýardamçysy",
+    "gridDebug": "Şebit",
+    "simpleMaterials": "Ýönekeý Materiallar",
+    "tick": "Tik",
+    "worldStore": "Bütindünýä dükany",
+    "engineStore": "Motor dükany",
+    "namedEntities": "At dakylan jemagatlar",
+    "networkObject": "Syýaw Obşy",
+    "networkClients": "Netijäniň Klientleri"
+  },
+  "recording": {
+    "videoRecorder": "Wideo ýazgyçy",
+    "waitingForPermissions": "Rugsatnamalara garaşmak",
+    "selectVideoSource": "Wideo çeşmäni saýla",
+    "screen": "Ekran",
+    "camera": "Kamera",
+    "microphone": "Mikrofon",
+    "startRecording": "Ýazgyny başla",
+    "pauseRecording": "Säginme ýazgysy",
+    "resumeRecording": "Ýazgyny dowam etdir",
+    "stopRecording": "Ýazga geçirmäň"
+  },
+  "typing": "Typýan...",
+  "gameServer": {
+    "browserError": "Ahtaryş hatasy",
+    "browserErrorMessage": "Brauzeriňiz hususy gözetme modunda saklanmagy goldamaýar. Ýa başga bir ahtaryş çyzgysyny synap görüň, ýa-da ahtaryş ahtaryş dan çykyň.",
+    "noAvailableServers": "Elýeterli Serwer ýok",
+    "noAvailableServersMessage": "Siziň birikdirmek üçin elýeterli serwerýok ýok. Ýene-de birikdiriljek bolýan",
+    "worldDisconnected": "Dünýä kesilýär",
+    "worldDisconnectedMessage": "Dünýä bilen baglanyşygyňy ýitirdiň. Indiki wagt gutarmanka ýene birikdirmäge çalyşarys, ýogsa başga bir ýagdaýa ilerlärsiňiz.",
+    "webGLNotEnabled": "WebGL mümkin däl",
+    "webGLNotEnabledMessage": "Brauzeriňiz WebGL goldamaýar ýa-da öçürilen. WebGL-y mümkin etmegiňizi ýa-da brauzeriňiziň iň soňky görnüşine täzelenmegi göz öňünde tutmagyňyzy haýyş edýäris.",
+    "youKickedFromWorld": "Seni dünýeden kowdular,",
+    "youKickedFromWorldMessage": "Aşakdaky sebäp bilen bu dünýäden kowuldyň seni,",
+    "invalidLocation": "Ýery nämüçindir",
+    "cantFindLocation": "Biz ol ýerini tapyp bilmeýäris,",
+    "misspelledOrNotExist": "Ol ýalňyş ýa-da ýok bolmagy mümkin.",
+    "loading": "ýüklemek",
+    "low-frame-error": "Ýaramaz perfomens brauzeriňizde enjamlary ulanmaga mümkinçilik bermek we brauzeriňizi ret etmek barada oýlanyň",
+    "low-frame-title": "Has gowy tejribe almak üçin enjamlary çaltlandyryň!"
+  },
+  "error": {
+    "loading-error": "Ullançy barada maglumat ýüklemekde hata boldy",
+    "validation-error": "Munuň üçin mümkin {{type}}",
+    "login-error": "%s'i gaýd etmek üçin barlanyp bilmedi: %s"
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "loading": "Mradi wa Kupakia",
+  "loadingMsg": "Inapakia mradi...",
+  "loadingError": "Kosa la kupakia mradi",
+  "loadingErrorMsg": "Kulikuwa na kosa wakati wa kupakia mradi.",
+  "selectSceneMsg": "Teua Scene ili kuanza kucheza na injini",
+  "error": "Kosa",
+  "errorMsg": "Kulikuwa na makosa yasiyojulikana.",
+  "generateScreenshot": "Kuzalisha Picha ya skrini ya Mradi",
+  "generateScreenshotMsg": "Inazalisha picha ya skrini ya mradi...",
+  "newScene": "Unda Eneo",
+  "saving": "Mradi wa Kuokoa",
+  "savingMsg": "Inahifadhi mradi...",
+  "savingError": "Mradi wa Kuhifadhi Kosa",
+  "savingErrorMsg": "Kulikuwa na makosa wakati wa kuhifadhi mradi.",
+  "savingSceneErrorMsg": "Eneo halijapakiwa vizuri. Jaribu kupakia upya eneo la tukio.",
+  "duplicating": "Mradi wa Kurudia",
+  "duplicatingMsg": "Mradi wa ukarabati...",
+  "exporting": "Mradi wa Kusafirisha Nje",
+  "exportingMsg": "Inahamisha mradi...",
+  "exportingError": "Kosa la Kuhamisha Mradi",
+  "exportingErrorMsg": "Kulikuwa na kosa wakati wa kuhamisha mradi.",
+  "importLegacy": "Leta Ulimwengu wa Urithi",
+  "importLegacyMsg": "Onyo! Hii itaandika juu ya eneo lako lililopo! Una uhakika unataka kuendelea?",
+  "publishingError": "Mradi wa Uchapishaji wa Kosa",
+  "publishingErrorMsg": "Kulikuwa na makosa yasiyojulikana.",
+  "publishingScene": "Kuchapisha Scene",
+  "publishingSceneMsg": "Eneo la kuchapisha...",
+  "uploadingThumbnailMsg": "Inapakia kijipicha...",
+  "uploadingSceneMsg": "Inapakia eneo: {{percentage}}%",
+  "envMapError": "Kosa la kupakia picha za cubemap {{files}}",
+  "lbl-return": "Kurudi",
+  "menubar": {
+    "newScene": "Scene Mpya",
+    "saveScene": "Hifadhi Mandhari",
+    "saveAs": "Hifadhi Kama",
+    "importAsset": "Leta Mali",
+    "exportGLB": "Hamisha kama binary glTF (.glb) ...",
+    "importScene": "Leta eneo",
+    "exportScene": "Hamisha eneo",
+    "quit": "Aga"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Aina ya faili isiyotegemezwa ya faili: \"{{name}}\". Faili lazima iwe mfano wa picha, video, au glb.",
+    "addObject": "addObject: kabla ya kipengee kutopatikana",
+    "removeObject": "removeObject: node haipatikani. Hii ni kwa sababu ya kuondoa nodi ambayo haipo tena kwenye eneo la tukio.",
+    "noParent": "{{node}} \"{{name}}\" hana mzazi. Reparent inafanya kazi tu kwenye vitu ambavyo kwa sasa viko kwenye eneo la tukio.",
+    "undefinedParent": "mhariri.reparent: MpyaParent haijafafanuliwa",
+    "notAuthenticated": "Haijathibitishwa",
+    "fetchingProjectError": "Miradi ya kuchota kosa: {{error}}",
+    "fetchingRouteError": "Njia za kuchota kosa: {{error}}",
+    "unknownError": "Kosa lisilojulikana",
+    "resolveURL": "Kosa la kutatua url \"{{url}}\":",
+    "mediaSearchAborted": "Utafutaji wa midia umefutwa",
+    "methodNotImplemented": "Njia ambayo haijatekelezwa.",
+    "saveProjectAborted": "Hifadhi eneo lililofutwa",
+    "unsavedChanges": "Mabadiliko yasiyohifadhiwa",
+    "unsavedChangesMsg": "Eneo hilo limebadilishwa. Tafadhali hifadhi mabadiliko yako.",
+    "projectCreationFail": "Uundaji wa mradi ulishindwa. {{reason}}",
+    "projectDeletionFail": "Ufutaji wa mradi umeshindikana. {{reason}}",
+    "savingProjectFail": "Mradi wa kuokoa umeshindikana. {{reason}}",
+    "sceneTooLarge": "Scene ni kubwa sana ({{size}} MB) kuchapisha. Ukubwa wa juu ni mb {{maxSize}} .",
+    "sceneCreationFail": "Uundaji wa eneo hilo umeshindikana. {{reason}}",
+    "uploadAborted": "Pakia aborted",
+    "uploadFailed": "Pakia {{reason}} imeshindwa",
+    "assetDeletionFail": "Ufutaji wa mali umeshindikana. {{reason}}",
+    "projectAssetDeletionFail": "Ufutaji wa Mali ya Mradi umeshindikana. {{reason}}",
+    "networkError": "Kosa la Mtandao: {{status}}. {{text}}",
+    "unknownStatus": "Hali Isiyojulikana",
+    "CORS": "Labda kosa la CORS",
+    "urlFetchError": "Imeshindwa kuchota \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Viewport",
+    "command": {
+      "movecamera": "Hamisha Kamera",
+      "flyFast": "Ruka haraka",
+      "orbit": "Orbit / Chagua",
+      "pan": "Pan",
+      "fly": "Kuruka",
+      "focus": "Lengo",
+      "rotateLeft": "Zungusha Kushoto",
+      "rotateRight": "Zungusha Kulia",
+      "cancelPlacement": "Katisha Uwekaji",
+      "placeDuplicate": "Seti Rudufu",
+      "cancelGrab": "Katisha Grab",
+      "grab": "Kunyakua",
+      "deselectAll": "Chagua Yote"
+    },
+    "state": {
+      "header": "Takwimu",
+      "memory": "Kumbukumbu",
+      "geometries": "Geometries",
+      "textures": "Textures",
+      "render": "Kutoa",
+      "FPS": "RAMPROGRAMMEN",
+      "frameTime": "Saa ya Fremu",
+      "calls": "Wito",
+      "triangles": "Pembetatu",
+      "points": "Pointi",
+      "lines": "Mistari"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Chapisha",
+    "lbl-published": "Kuchapishwa",
+    "command": {
+      "translate": "Kutafsiri",
+      "rotate": "Zungusha",
+      "scale": "Rekebisha",
+      "toggleSpace": "Togoa Badilisha Nafasi",
+      "togglePivot": "Togoa Geuza Chegemo",
+      "toggleSnapMode": "Togoa Hali ya Snap",
+      "toggleGrid": "Togoa Mwonekano wa Gridi",
+      "increaseGridSize": "Ongeza Ukubwa wa Gridi",
+      "descreaseGridSize": "Punguza Ukubwa wa Gridi",
+      "stopPreview": "Komesha Mwoneko awali eneo",
+      "playPreview": "Mwoneko awali wa Eneo"
+    }
+  },
+  "properties": {
+    "title": "Sifa",
+    "lbl-visible": "Inayoonekana",
+    "lbl-preventBake": "Zuia Kuoka",
+    "lbl-persist": "Endelea",
+    "multipleNodeSelected": "Nodi nyingi za aina tofauti zilizoteuliwa",
+    "noNodeSelected": "Hakuna fundo lililoteuliwa",
+    "ambientLight": {
+      "name": "Mwanga uliopo",
+      "description": "Mwanga ambao unaangaza vitu vyote katika eneo lako.",
+      "lbl-intensity": "Kiwango",
+      "lbl-color": "Rangi"
+    },
+    "envmap": {
+      "name": "Ramani ya Mazingira",
+      "description": "sifa za ramani ya mazingira"
+    },
+    "asset": {
+      "name": "Mali",
+      "description": "Kikundi cha vipengele vya eneo ambavyo vinaweza kupakiwa kwa nguvu na kupakiwa",
+      "lbl-options": "Machaguo",
+      "lbl-assetPath": "Kijia cha Mali",
+      "lbl-assetName": "Hamisha Jina",
+      "lbl-exportOptions": "Machaguo ya Hamisha",
+      "lbl-export": "Hamisha Mali",
+      "lbl-load": "Pakia Kwenye Eneo",
+      "lbl-unload": "Upakuaji",
+      "lbl-reload": "Upya"
+    },
+    "audio": {
+      "name": "Sikizi",
+      "description": "Kwa nguvu hupakia sauti.",
+      "lbl-audiourl": "Url Sikizi",
+      "lbl-controls": "Vidhibiti",
+      "info-controls": "Geuza mwonekano wa vidhibiti vya midia.",
+      "lbl-autoplay": "Chezesha Otomatiki",
+      "info-autoplay": "Ikiwa ni kweli, vyombo vya habari vitacheza wakati wa kwanza kuingia kwenye eneo la tukio.",
+      "lbl-synchronize": "Landanisha",
+      "info-synchronize": "Ikiwa ni kweli, media itasawazishwa kwa wateja wote waliounganishwa.",
+      "lbl-loop": "Loop",
+      "info-loop": "Ikiwa ni kweli vyombo vya habari vitaingia kwa muda usiojulikana.",
+      "lbl-audioType": "Aina Sikizi",
+      "lbl-distanceModel": "Mfano wa Umbali",
+      "info-distanceModel": "Algorithim kutumika kuhesabu rolloff audio.",
+      "lbl-rolloffFactor": "Sababu ya Rolloff",
+      "info-rolloffFactor": "Thamani mara mbili inayoelezea jinsi sauti inavyopunguzwa haraka wakati chanzo kinaondoka kutoka kwa msikilizaji. 0 hadi 1",
+      "info-rfInfinity": "Thamani mara mbili inayoelezea jinsi sauti inavyopunguzwa haraka wakati chanzo kinaondoka kutoka kwa msikilizaji. 0 kwa Infinity",
+      "lbl-refDistance": "Ref Umbali",
+      "info-refDistance": "Thamani mara mbili inayowakilisha umbali wa kumbukumbu ya kupunguza sauti kama chanzo cha sauti kinasonga zaidi kutoka kwa msikilizaji.",
+      "lbl-maxDistance": "Umbali Wa Juu",
+      "info-maxDistance": "Thamani mara mbili inayowakilisha umbali wa juu kati ya chanzo cha sauti na msikilizaji, baada ya hapo sauti haijapunguzwa zaidi.",
+      "lbl-coneInnerAngle": "Pembe ya Ndani ya Koe",
+      "info-coneInnerAngle": "Thamani mara mbili inayoelezea pembe, kwa digrii, ya koni ndani yake hakutakuwa na kupunguza kiasi.",
+      "lbl-coneOuterAngle": "Pembe ya nje ya Koe",
+      "info-coneOuterAngle": "Thamani mara mbili inayoelezea pembe, kwa digrii, ya koni nje ambayo sauti itapunguzwa na thamani ya mara kwa mara, inayofafanuliwa na sifa ya coneOuterGain.",
+      "lbl-coreOuterGain": "Faida ya nje ya Koeli",
+      "info-coreOuterGain": "Thamani mara mbili inayoelezea kiasi cha kupunguza sauti nje ya koni iliyofafanuliwa na sifa ya coneOuterAngle. Thamani yake chaguo-msingi ni 0, ikimaanisha kuwa hakuna sauti inayoweza kusikika.",
+      "lbl-volume": "Kiasi",
+      "lbl-play": "Kucheza",
+      "lbl-pause": "Sitisha",
+      "error-url": "Kosa la Kupakia Kutoka URL"
+    },
+    "boxCollider": {
+      "description": "Sanduku lisiloonekana ambalo vitu vitaruka au kupumzika juu ya.\nBila colliders, vitu vitaanguka kupitia sakafu na kupitia kuta.",
+      "lbl-isTrigger": "Kisituo"
+    },
+    "camera": {
+      "name": "Kamera",
+      "description": "Mipangilio ya kamera.",
+      "lbl-camera-raycast": "Kamera Raycasting",
+      "lbl-camera-raycast-toggle": "Kuwezeshwa",
+      "lbl-camera-raycast-frequency": "Frequency",
+      "lbl-camera-raycast-count": "Hesabu ya Ray",
+      "lbl-camera-raycast-length": "Urefu wa Ray"
+    },
+    "directionalLight": {
+      "name": "Mwanga wa mwelekeo",
+      "description": "Mwanga ambao unaangaza eneo lote, lakini hutoa mwelekeo mmoja.",
+      "lbl-color": "Rangi",
+      "lbl-intensity": "Kiwango",
+      "lbl-cameraFar": "Kamera Mbali",
+      "lbl-cameraNear": "Kamera Karibu",
+      "lbl-cameraTop": "Kamera Juu",
+      "lbl-cameraBottom": "Kamera Chini",
+      "lbl-cameraLeft": "Kamera Kushoto",
+      "lbl-cameraRight": "Kamera Kulia",
+      "lbl-useInCSM": "Matumizi katika CSM",
+      "lbl-castShadow": "Kivuli cha Kutupa",
+      "lbl-disableForCSM": "Imezimwa kwa sababu ramani ya kivuli cha Cascade imewezeshwa.",
+      "lbl-shadowmapResolution": "Azimio la Ramani Kivuli",
+      "lbl-shadowBias": "Bias ya Kivuli",
+      "lbl-shadowRadius": "Radius Kivuli",
+      "lbl-showCameraHelper": "Onyesha Kisaidizi cha Kamera"
+    },
+    "groundPlane": {
+      "name": "Ndege ya Ardhini",
+      "description": "Ndege ya ardhini ya gorofa ambayo inaenea kwa umbali.",
+      "lbl-color": "Rangi",
+      "lbl-receiveShadow": "Pokea Kivuli",
+      "lbl-generateNavmesh": "Tengeneza Navmesh"
+    },
+    "link": {
+      "description": "Unganisha kwenye chumba au tovuti.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "Ramani ya geospatial ya 3D ya k.m. mji."
+    },
+    "model": {
+      "description": "Mfano wa 3D katika eneo lako, uliopakiwa kutoka kwa URL ya GLTF au faili.",
+      "lbl-usingGPUInstancingFlag": "Tumia Instancing ya GPU",
+      "lbl-modelurl": "Url ya Mfano",
+      "lbl-envmapUrl": "Url ya Ramani ya Mazingira",
+      "lbl-textureOverride": "Override Texture",
+      "lbl-materialOverride": "Overrides nyenzo",
+      "error-url": "Kosa la Kupakia Kutoka URL",
+      "lbl-loopAnimation": "Uhuishaji wa Loop",
+      "lbl-isAvatar": "Ni Avatar",
+      "lbl-isGPUInstancing": "Inatumia Instancing ya GPU",
+      "lbl-isDynamic": "Ni Nguvu",
+      "lbl-castShadow": "Kivuli cha Kutupa",
+      "lbl-receiveShadow": "Pokea Kivuli",
+      "lbl-interactable": "Kuingiliana",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "Jina",
+      "lbl-url": "Url ya Mfano",
+      "lbl-buy": "Nunua Url",
+      "lbl-learnMore": "Jifunze Url Zaidi",
+      "lbl-htmlContent": "Maudhui ya Html",
+      "lbl-interactionText": "Matini ya Mwingiliano",
+      "lbl-interactionType": "Aina ya Mwingiliano"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Vifaa",
+      "error-materialID": "Kosa la kutafuta Nyenzo",
+      "placeholder-materialID": "Teua Nyenzo",
+      "lbl-patternTarget": "Mechi ya Ruwaza",
+      "lbl-pattern": "Mfano",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Aina ya Mwingiliano",
+      "text": "Matini ya Mwingiliano",
+      "distance": "Umbali wa Mwingiliano",
+      "theme": "Mandhari ya Mwingiliano",
+      "name": "Jina la Mwingiliano",
+      "description": "Maelezo ya Mwingiliano",
+      "images": "Picha za Mwingiliano",
+      "videos": "Video za Mwingiliano",
+      "urls": "Urls za Mwingiliano",
+      "models": "Mifano ya Mwingiliano"
+    },
+    "group": {
+      "name": "Kikundi",
+      "description": "Kikundi cha vipengee vingi ambavyo vinaweza kuhamishwa au kunakiliwa pamoja.\nBuruta na udondoshe vipengee kwenye Kikundi katika Hierarchy."
+    },
+    "hemisphere": {
+      "name": "Mwanga wa Hemisphere",
+      "description": "Mwanga ambao unaangaza eneo kutoka juu moja kwa moja.",
+      "lbl-skyColor": "Rangi ya Sky",
+      "lbl-groundColor": "Rangi ya Ardhi",
+      "lbl-intensity": "Kiwango"
+    },
+    "image": {
+      "name": "Taswira",
+      "description": "Kwa nguvu hupakia picha.",
+      "lbl-imgURL": "Url ya Taswira",
+      "lbl-transparency": "Hali ya Uwazi",
+      "lbl-alphaCutoff": "Alpha Cutoff",
+      "lbl-projection": "Makadirio",
+      "lbl-side": "Upande",
+      "info-controls": "Geuza mwonekano wa vidhibiti vya midia.",
+      "info-transparency": "Jinsi ya kutumia uwazi:",
+      "info-opaque": "'opaque' = hakuna uwazi",
+      "info-blend": "'blend' = tumia picha alpha channel",
+      "info-mask": "'mask' = Tumia thamani maalum ya kukata kwa uwazi wa juu / mbali (zaidi ya kufanya)",
+      "info-alphaCutoff": "Pixels zilizo na thamani za alpha chini kuliko hii itakuwa wazi",
+      "error-url": "URL batili"
+    },
+    "name": {
+      "lbl-name": "Jina"
+    },
+    "partileEmitter": {
+      "description": "Particle emitter ili kuunda chembe.",
+      "lbl-particleCount": "Hesabu ya Particle",
+      "lbl-image": "Taswira",
+      "lbl-ageRandomness": "Umri randomness",
+      "lbl-lifetime": "Maisha",
+      "lbl-lifetimeRandomness": "Randomness ya Maisha",
+      "lbl-sizeCurve": "Mtao wa Ukubwa",
+      "lbl-startPSize": "Anza Ukubwa wa Particle",
+      "lbl-endPSize": "Maliza Ukubwa wa Particle",
+      "lbl-sizeRandomness": "Ukubwa randomness",
+      "lbl-colorCurve": "Mtao wa Rangi",
+      "lbl-startColor": "Anza Rangi",
+      "lbl-startOpacity": "Anza Opacity",
+      "lbl-middleColor": "Rangi ya Kati",
+      "lbl-middleOpacity": "Opacity ya Kati",
+      "lbl-endColor": "Maliza Rangi",
+      "lbl-endOpacity": "Maliza Opacity",
+      "lbl-velocityCurve": "Mtao wa Velocity",
+      "lbl-startVelocity": "Anza Velocity",
+      "lbl-endVelocity": "Maliza Velocity",
+      "lbl-angularVelocity": "Angular Velocity",
+      "info-ageRandomness": "Kiasi cha tofauti kati ya wakati chembe zinazalishwa.",
+      "info-lifetime": "Umri wa juu wa chembe kabla ya respawned.",
+      "info-lifetimeRandomness": "Kiasi cha tofauti kati ya maisha ya chembe.",
+      "info-sizeRandomness": "Kiasi cha tofauti kati ya ukubwa wa kuanzia chembe.",
+      "error-url": "Kosa la Kupakia Kutoka URL"
+    },
+    "clouds": {
+      "name": "Wingu",
+      "description": "Sprite msingi wingu kiasi.",
+      "lbl-image": "Picha ya Sprite",
+      "lbl-wroldScale": "Kiwango cha Dunia",
+      "lbl-dimensions": "Vipimo",
+      "lbl-noiseZoom": "Kuza kelele",
+      "lbl-noiseOffset": "Kelele Offset",
+      "lbl-spriteScale": "Kipimo cha Sprite",
+      "lbl-fogColor": "Rangi ya Ukungu",
+      "lbl-fogRange": "Masafa ya Ukungu",
+      "error-url": "Kosa la Kupakia Kutoka URL"
+    },
+    "ocean": {
+      "name": "Bahari",
+      "description": "Uso wa bahari na mawimbi na povu",
+      "lbl-normalMap": "Ramani ya Kawaida",
+      "lbl-distortionMap": "Ramani ya Upotoshaji",
+      "lbl-envMap": "Ramani ya Mazingira",
+      "lbl-color": "Rangi",
+      "lbl-shallowWaterColor": "Rangi ya Maji ya Shallow",
+      "lbl-shallowToDeepDistance": "Shallow kwa Umbali wa Kina",
+      "lbl-opacityFadeDistance": "Umbali wa Opacity Fade",
+      "lbl-opacityRange": "Masafa ya Opacity",
+      "lbl-shininess": "Shininess",
+      "lbl-reflectivity": "Kutafakari",
+      "lbl-foamColor": "Rangi ya Povu",
+      "lbl-foamSpeed": "Kasi ya Povu",
+      "lbl-foamTiling": "Tiling ya Povu",
+      "lbl-bigWaveTiling": "Tiling Kubwa ya Wimbi",
+      "lbl-bigWaveSpeed": "Kasi ya Wimbi Kubwa",
+      "lbl-bigWaveHeight": "Urefu wa Wimbi Kubwa",
+      "lbl-waveSpeed": "Kasi ya Wimbi",
+      "lbl-waveScale": "Kipimo cha Wimbi",
+      "lbl-waveTiling": "Wimbi Tiling",
+      "lbl-waveDistortionSpeed": "Kasi ya Upotoshaji wa Wimbi",
+      "lbl-waveDistortionTiling": "Tiling ya Upotoshaji wa Wimbi",
+      "error-url": "Kosa la Kupakia Kutoka URL"
+    },
+    "water": {
+      "name": "Maji",
+      "description": "Uso mdogo wa maji"
+    },
+    "interior": {
+      "name": "Mambo",
+      "description": "Uso ulio na muundo wa cube uliochorwa ili kuiga mazingira ya ndani",
+      "lbl-cubeMap": "Muundo wa Ramani ya Cube",
+      "lbl-tiling": "Kiasi cha Tiling",
+      "lbl-size": "Ukubwa wa uso",
+      "error-url": "Kosa la Kupakia Kutoka URL"
+    },
+    "pointLight": {
+      "description": "Mwanga ambao hutoa katika pande zote kutoka kwa hatua moja.",
+      "lbl-color": "Rangi",
+      "lbl-intensity": "Kiwango",
+      "lbl-range": "Masafa",
+      "lbl-decay": "Decay"
+    },
+    "scene": {
+      "name": "Eneo",
+      "description": "Kitu cha mizizi ya eneo la tukio.",
+      "lbl-bgcolor": "Rangi ya Mandharinyuma",
+      "lbl-fogType": "Aina ya Ukungu",
+      "lbl-fogColor": "Rangi ya Ukungu",
+      "lbl-forNearDistance": "Umbali wa Fog Karibu",
+      "lbl-fogFarDistance": "Umbali wa Mbali wa Fog",
+      "lbl-fogDensity": "Uzito wa Fog",
+      "lbl-audioSettings": "Tumia Sauti ya Nafasi",
+      "lbl-avatarDistanceModel": "Mfano wa Umbali wa Avatar",
+      "lbl-avatarRolloffFactor": "Sababu ya Rolloff ya Avatar",
+      "lbl-avatarRefDistance": "Umbali wa Avatar Ref",
+      "lbl-avatarMaxDistance": "Umbali wa Avatar Max",
+      "lbl-mediaVolume": "Kiasi cha Midia",
+      "lbl-mediaDistanceModel": "Mfano wa Umbali wa Midia",
+      "lbl-mediaRolloffFactor": "Sababu ya Rolloff ya Vyombo vya Habari",
+      "lbl-mediaRefDistance": "Umbali wa Ref ya Midia",
+      "lbl-mediaMaxDistance": "Umbali wa Midia Max",
+      "lbl-mediaConeInnerAngle": "Pembe ya Ndani ya Cone ya Vyombo vya Habari",
+      "lbl-mediaConeOuterAngle": "Pembe ya nje ya Koni ya Midia",
+      "lbl-mediaConeOuterGain": "Faida ya nje ya Vyombo vya Habari",
+      "info-avatarDistanceModel": "Algorithim kutumika kuhesabu rolloff audio.",
+      "info-avatarRolloffFactor": "Thamani mara mbili inayoelezea jinsi sauti inavyopunguzwa haraka wakati chanzo kinaondoka kutoka kwa msikilizaji. 0 hadi 1",
+      "info-avatarRolloffFactorInifinity": "Thamani mara mbili inayoelezea jinsi sauti inavyopunguzwa haraka wakati chanzo kinaondoka kutoka kwa msikilizaji. 0 kwa Infinity",
+      "info-avatarRefDistance": "Thamani mara mbili inayowakilisha umbali wa kumbukumbu ya kupunguza sauti kama chanzo cha sauti kinasonga zaidi kutoka kwa msikilizaji.",
+      "info-avatarMaxDistance": "Thamani mara mbili inayowakilisha umbali wa juu kati ya chanzo cha sauti na msikilizaji, baada ya hapo sauti haijapunguzwa zaidi.",
+      "info-mediaDistanceModel": "Algorithim kutumika kuhesabu rolloff audio.",
+      "info-mediaRolloffFactor": "Thamani mara mbili inayoelezea jinsi sauti inavyopunguzwa haraka wakati chanzo kinaondoka kutoka kwa msikilizaji. 0 hadi 1",
+      "info-mediaRolloffFactorInfinity": "Thamani mara mbili inayoelezea jinsi sauti inavyopunguzwa haraka wakati chanzo kinaondoka kutoka kwa msikilizaji. 0 kwa Infinity",
+      "info-mediaRefDistance": "Thamani mara mbili inayowakilisha umbali wa kumbukumbu ya kupunguza sauti kama chanzo cha sauti kinasonga zaidi kutoka kwa msikilizaji.",
+      "info-mediaMaxDistance": "Thamani mara mbili inayowakilisha umbali wa juu kati ya chanzo cha sauti na msikilizaji, baada ya hapo sauti haijapunguzwa zaidi.",
+      "info-mediaConeInnerAngle": "Thamani mara mbili inayoelezea pembe, kwa digrii, ya koni ndani yake hakutakuwa na kupunguza kiasi.",
+      "info-mediaConeOuterAngle": "Thamani mara mbili inayoelezea pembe, kwa digrii, ya koni nje ambayo sauti itapunguzwa na thamani ya mara kwa mara, inayofafanuliwa na sifa ya coneOuterGain.",
+      "info-mediaConeOuterGain": "Thamani mara mbili inayoelezea kiasi cha kupunguza sauti nje ya koni iliyofafanuliwa na sifa ya coneOuterAngle. Thamani yake chaguo-msingi ni 0, ikimaanisha kuwa hakuna sauti inayoweza kusikika.",
+      "lbl-simpleMaterials": "Tumia Vifaa Rahisi",
+      "lbl-lods": "LODs",
+      "info-lods": "Huseti umbali ambao viwango vya mabadiliko ya kina.",
+      "info-simpleMaterials": "Hubadilisha vifaa vyote vya gharama kubwa kuwa rahisi kuchukua mzigo kutoka kwa utoaji wa eneo.",
+      "lbl-rendererSettings": "Mipangilio ya Renderer ya Override",
+      "lbl-csm": "Ramani za Kivuli za Cascading",
+      "info-csm": "Inawezesha ramani za kivuli za cascading.",
+      "lbl-toneMapping": "Ramani ya Toni",
+      "info-toneMapping": "Huwezesha ramani ya toni kwenye kitoaji cha eneo. Haina athari wakati usindikaji wa chapisho umewezeshwa.",
+      "lbl-toneMappingExposure": "Mfiduo wa Ramani ya Toni",
+      "info-toneMappingExposure": "Inabainisha mfiduo wa ramani ya sauti kwenye mtoaji wa eneo. Haina athari wakati usindikaji wa chapisho umewezeshwa.",
+      "lbl-shadowMapType": "Aina ya Ramani Kivuli",
+      "info-shadowMapType": "Aina ya ramani ya kivuli",
+      "error-url": "Kosa la Kupakia Kutoka URL"
+    },
+    "sceneCamera": {
+      "name": "Kamera ya Mwoneko awali wa Eneo",
+      "description": "Kamera inayotumiwa kuzalisha kijipicha cha eneo lako na nafasi ya kuanzia kwa kamera ya kukagua.",
+      "lbl-setFromViewPort": "Seti Kutoka kwenye Viewport"
+    },
+    "skybox": {
+      "name": "Kikasha skybox",
+      "description": "",
+      "lbl-timeOfDay": "Muda wa Siku",
+      "lbl-color": "Rangi",
+      "lbl-latitude": "Latitude",
+      "lbl-luminance": "Mwangaza",
+      "lbl-scattering": "Kiasi cha Kutawanya",
+      "lbl-scatteringDistance": "Umbali wa Kutawanya",
+      "lbl-horizonStart": "Mwanzo wa Horizon",
+      "lbl-horizonEnd": "Mwisho wa Horizon",
+      "lbl-texture": "Unamu",
+      "lbl-skyType": "Aina ya Sky",
+      "error-url": "Kosa la Kupakia Kutoka URL"
+    },
+    "spawnPoint": {
+      "name": "Pointi ya Spawn",
+      "description": "Mahali ambapo watu wataonekana wanapoingia kwenye eneo lako.\nIkoni katika Viewport inawakilisha saizi halisi ya avatar."
+    },
+    "spotLight": {
+      "description": "Mwanga ambao hutoa kando ya mwelekeo, vitu vinavyoangaza ndani ya koni.",
+      "lbl-color": "Rangi",
+      "lbl-intensity": "Kiwango",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Pembe",
+      "lbl-range": "Masafa",
+      "lbl-decay": "Decay"
+    },
+    "transform": {
+      "title": "Kubadilisha",
+      "lbl-postition": "Nafasi",
+      "lbl-rotation": "Mzunguko",
+      "lbl-scale": "Rekebisha"
+    },
+    "triggereVolume": {
+      "description": "Huseti sifa kwenye kipengee lengwa kwenye ingiza na kuondoka.",
+      "lbl-target": "Kipengee",
+      "lbl-onenter": "Kwenye Ingiza",
+      "lbl-onexit": "Kwenye Toka",
+      "lbl-showHelper": "Onyesha Kisaidizi Mesh",
+      "ph-errorNode": "Kosa la kukosa fundo.",
+      "ph-selectNode": "Teua fundo..."
+    },
+    "video": {
+      "name": "Video",
+      "description": "Kwa nguvu hupakia video.",
+      "lbl-video": "Video",
+      "lbl-projection": "Makadirio",
+      "lbl-islivestream": "Mkondo wa Moja kwa Moja",
+      "lbl-interactable": "Kuingiliana",
+      "lbl-id": "Elementi Id",
+      "lbl-play": "Kucheza",
+      "lbl-pause": "Sitisha",
+      "error-url": "Kosa la Kupakia Kutoka URL"
+    },
+    "volumetric": {
+      "name": "Volumetric",
+      "description": "Kwa nguvu hupakia video ya sauti.",
+      "uvolPaths": "Njia za UVOL",
+      "playmode": "Hali ya Kucheza",
+      "playtitle": "Kucheza",
+      "pausetitle": "Sitisha"
+    },
+    "spline": {
+      "description": "Kwa nguvu unda na ubadilishe curves.",
+      "lbl-addNode": "Ongeza fundo kwenye curve."
+    },
+    "systemnode": {
+      "description": "Ambatisha hati.",
+      "lbl-filePath": "Url",
+      "lbl-systemUpdateType": "Pointi ya Sindano",
+      "lbl-enableClient": "Mteja",
+      "lbl-enableServer": "Seva",
+      "lbl-args": "Args",
+      "error-url": "Kosa la Kupakia Hati Kutoka URL"
+    },
+    "portal": {
+      "lbl-portal": "Portal Iliyounganishwa",
+      "lbl-redirect": "Tumia Kuelekeza Upya Ukurasa",
+      "description": "Portat kwa wachezaji wa teleport kwa eneo maalum",
+      "lbl-locationName": "Mahali",
+      "lbl-modelUrl": "URL ya Mfano",
+      "lbl-displayText": "Onyesha Matini",
+      "lbl-cubemapBake": "Uokaji wa Cubemap",
+      "lbl-spawnPosition": "Nafasi ya Spawn",
+      "lbl-spawnRotation": "Mzunguko wa Spawn",
+      "lbl-triggerPosition": "Nafasi ya Trigger",
+      "lbl-triggerRotation": "Mzunguko wa Trigger",
+      "lbl-triggerScale": "Kipimo cha Trigger"
+    },
+    "postprocessing": {
+      "name": "Usindikaji wa Post",
+      "description": "Kwa kutumia athari za Usindikaji wa Post kwenye eneo lako."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Mradi Mpya",
+      "backLink": "Rudi kwenye miradi",
+      "featured": "Matukio",
+      "all": "Wote",
+      "newProject": "Mradi Mpya wa Empty",
+      "ph-search": "Tafutiza matukio..."
+    },
+    "grid": {
+      "loading": "Kupakia..."
+    },
+    "page": {
+      "header": "Karibu",
+      "headerMsg": "Ikiwa wewe ni mpya hapa tunapendekeza kupitia mafunzo. Vinginevyo, ruka ndani na uunda mradi kutoka mwanzo au kutoka kwa moja ya templeti zetu.",
+      "lbl-startTutorial": "Anza Mafunzo",
+      "projects": "Miradi",
+      "lbl-newProject": "Mradi Mpya"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Kupakia...",
+      "placeObject": "Weka Kipengee",
+      "placeObjectAtOrigin": "Weka Kipengee katika Asili",
+      "copyURL": "Nakili URL",
+      "openInNewTab": "Fungua URL katika kichupo kipya",
+      "deleteAsset": "Futa Mali"
+    },
+    "filebrowser": {
+      "addNewFolder": "Ongeza Kabrasha Jipya",
+      "cutAsset": "Kata",
+      "copyAsset": "Nakili",
+      "pasteAsset": "Bandika",
+      "renameAsset": "Ita jina jipya",
+      "viewAssetProperties": "Onyesha Sifa"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Ita jina jipya",
+    "lbl-duplicate": "Rudufu",
+    "lbl-group": "Kikundi",
+    "lbl-delete": "Futa",
+    "lbl-expandAll": "Finyuza Yote",
+    "lbl-collapseAll": "Kunja Yote",
+    "isseus": "Masuala:"
+  },
+  "dnd": {
+    "nodes": "Nodi za {{count}} zimeteuliwa",
+    "models": "Mifano ya {{count}} iliyochaguliwa",
+    "images": "{{count}} Picha Zilizoteuliwa",
+    "videos": "{{count}} Video Zilizoteuliwa",
+    "audio": "vyanzo vya Sauti vya {{count}} vilivyoteuliwa"
+  },
+  "dialog": {
+    "title": "Kihariri",
+    "lbl-confirm": "Sawa kabisa",
+    "lbl-cancel": "Katisha",
+    "exportProject": {
+      "title": "Hamisha Mradi",
+      "lbl-confirm": "Hamisha Mradi",
+      "lbl-combineMesh": "Changanya Meshes",
+      "lbl-removeUnused": "Ondoa Vipengee Visivyotumika"
+    },
+    "performance": {
+      "title": "Ukaguzi wa Utendaji",
+      "lbl-confirm": "Chapisha Mandhari",
+      "learnMore": "Jifunze zaidi",
+      "lbl-polycount": "Hesabu ya Polygon",
+      "lbl-material": "Vifaa",
+      "lbl-texture": "Textures",
+      "lbl-lights": "Taa",
+      "lbl-fileSize": "Ukubwa wa Faili",
+      "info-polycount": "Tunapendekeza eneo lako litumie zaidi ya pembetatu 50,000 kwa vifaa vya rununu.",
+      "info-material": "Tunapendekeza kutumia vifaa zaidi ya 25 vya kipekee katika eneo lako ili kupunguza simu za kuchora kwenye vifaa vya rununu.",
+      "info-texture": "Tunapendekeza textures yako itumie si zaidi ya 256MB ya RAM ya video kwa vifaa vya rununu. Tunapendekeza pia dhidi ya kutumia textures kubwa kuliko 2048 x 2048.",
+      "info-lights": "Wakati taa zenye nguvu hazijawezeshwa kwenye vifaa vya rununu, tunapendekeza kutumia taa zaidi ya 3 kwenye eneo lako (ukiondoa taa zilizopo na za hemisphere) kwa eneo lako kukimbia kwenye Kompyuta za mwisho za chini.",
+      "info-fileSize": "Tunapendekeza saizi ya mwisho ya faili ya si zaidi ya 16MB kwa miunganisho ya chini ya bandwidth. Kupunguza ukubwa wa faili kutapunguza muda unaochukua kupakua eneo lako.",
+      "txt-polycount": "Pembetatu za {{count}}",
+      "txt-material": "Vifaa vya {{count}}",
+      "txt-ram": "~{{count}} RAM ya Video",
+      "txt-texture": "{{count}} Textures Kubwa",
+      "txt-lights": "Taa za {{count}}"
+    },
+    "progress": {
+      "title": "Kupakia...",
+      "msg": "Kupakia...",
+      "lbl-cancel": "Katisha"
+    },
+    "publish": {
+      "title": "Chapisha Mandhari",
+      "lbl-confirm": "Hifadhi na Chapisha",
+      "lbl-name": "Jina la Eneo",
+      "info-name": "Jina lazima liwe kati ya vibambo 4 na 64 na haliwezi kuwa na mkazo"
+    },
+    "published": {
+      "title": "Scene Iliyochapishwa",
+      "header": "Picha yako imechapishwa.",
+      "lbl-view": "Tazama Mandhari Yako"
+    },
+    "saveNewProject": {
+      "title": "Msaada",
+      "lbl-name": "Jina la Mradi",
+      "info-name": "Jina lazima liwe kati ya vibambo 4 na 64 na haliwezi kuwa na mkazo",
+      "lbl-confirm": "Hifadhi Mradi"
+    },
+    "support": {
+      "title": "Msaada",
+      "header": "Unahitaji kutoa taarifa ya tatizo?",
+      "msg": "Unaweza kufungua <1>Suala la GitHub</1> au tutumie barua pepe kwa msaada katika <3>{{mail}}</3>",
+      "discord": "Unaweza pia kutupata kwenye <1>Discord</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Picha za Bing",
+      "search": "Tafutiza kwa Bing"
+    },
+    "bingVideo": {
+      "name": "Video za Bing",
+      "search": "Tafutiza kwa Bing"
+    },
+    "element": {
+      "name": "Mambo"
+    },
+    "myAssets": {
+      "name": "Mali Zangu"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Utafutaji wa Google"
+    },
+    "tenor": {
+      "name": "GIF za Tenor",
+      "search": "Tafutiza kwa Tenor",
+      "ph-search": "Tafutiza GIF..."
+    },
+    "sketchfab": {
+      "name": "Sketchfab",
+      "search": "Tafutiza kwa Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Pakia Mali"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Tafutiza taswira..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Tafutiza video..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Tafutiza mali..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Tafutiza mifano..."
+    },
+    "useUpload": {
+      "multipleFileError": "Ingizo halikubali faili nyingi.",
+      "mineTypeError": "\"{{name}}\" haioani na aina zifuatazo za mime au viendelezi: {{types}}",
+      "progressTitle": "Inapakia Faili",
+      "progressMsg": "Inapakia faili {{uploaded}} ya {{total}}: {{percentage}}%",
+      "uploadError": "Kosa la Kupakia",
+      "uploadErrorMsg": "Kosa la kupakia faili: {{message}}",
+      "uploadErrorDefaultMsg": "Kulikuwa na kosa lisilojulikana"
+    }
+  },
+  "openLink": {
+    "description": "Tafadhali bofya Fungua ili uende kwenye kiungo.",
+    "lbl-open": "Fungua"
+  },
+  "interactableModel": {
+    "lbl-buy": "Kununua",
+    "lbl-learnMore": "Jifunze zaidi"
+  },
+  "corsProxyButton": {
+    "tooltip": "Tumia Seva ya Wakala wa Cors"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Sii mai le itulau..."
+  },
+  "tooltip": {
+    "pressKey": "Oomi le {{tip}} e {{message}} ai"
+  },
+  "toast": {
+    "joined": "auai",
+    "left": "agavale"
+  },
+  "navUserWidget": {
+    "login": "Alu i Totonu"
+  },
+  "loader": {
+    "connecting": "Fesootai atu i le lalolagi...",
+    "entering": "Ulufale atu i le lalolagi...",
+    "loading": "Uta...",
+    "objectRemaining": "{{count}} mea faitino o loo totoe",
+    "objectRemainingPlural": "{{count}} mea faitino o loo totoe",
+    "loadingObjects": "Utaina o Mea Faitino",
+    "loadingComplete": "Ua Maea le Utaina",
+    "joiningWorld": "Auai i le Lalolagi"
+  },
+  "alert": {
+    "eventWasSuccess": "Na manuia mea na tutupu",
+    "errorWasEncountered": "Sa fetaiai ma se mea sese",
+    "eventInProgress": "Mea na tutupu o loo faagasolo",
+    "seconds": "sekone",
+    "cancelCountdown": "O le tapunia o le vaega lenei o le a faaleaogaina ai le faitauga"
+  },
+  "debug": {
+    "refresh": "Faafou",
+    "stats": "Stats",
+    "debugOptions": "Filifiliga o le Debug",
+    "physicsDebug": "Physics",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Node Helper",
+    "gridDebug": "Grid",
+    "simpleMaterials": "O Mea Faigofie",
+    "tick": "Tick",
+    "worldStore": "Faleoloa o le Lalolagi",
+    "engineStore": "Faleoloa o le Engine",
+    "namedEntities": "Entities ua Ta'ua o le Entities",
+    "networkObject": "Mea Faitino o le Upegafesootai",
+    "networkClients": "Clients o le Upegafesootai"
+  },
+  "recording": {
+    "videoRecorder": "Tusi talafaamaumau o le vitio",
+    "waitingForPermissions": "Faatalitali mo ni faatagaga",
+    "selectVideoSource": "Filifili le puna o le vitio",
+    "screen": "Lau",
+    "camera": "Camera",
+    "microphone": "Meafaaleoteleleo",
+    "startRecording": "Amata ona pueina",
+    "pauseRecording": "Taofi le pueina",
+    "resumeRecording": "Toe faaauau le pueina",
+    "stopRecording": "Taofi le pueina"
+  },
+  "typing": "Typing...",
+  "gameServer": {
+    "browserError": "Mea Sese o le Browser",
+    "browserErrorMessage": "E le lagolagoina e lau palausa le teuina o meaai i le faiga o le sailiga patino. A le o le faataitai o se isi palausa, po o le aluese mai le faiga o le sailiga patino.",
+    "noAvailableServers": "E Le o Maua ni Tautua Autu",
+    "noAvailableServersMessage": "E le o i ai ni tautua autu o avanoa mo oe e fesootai i ai. Taumafai e toe fesootai i le",
+    "worldDisconnected": "Lalolagi ua Le Toe I Ai se Mea",
+    "worldDisconnectedMessage": "Ua e le toe fesootai ma le lalolagi. O le a matou taumafai e toe fesootai a o lei uma le taimi e sosoo ai, a le o lea o le a e agai atu i se isi taimi.",
+    "webGLNotEnabled": "E le mafai e le UepiGL ona maua",
+    "webGLNotEnabledMessage": "E le lagolagoina e lau palausa le WebGL, pe le atoatoa foi le malosi. Faamolemole ia mafai ona faaaoga le WebGL pe mafaufau e faafou i le lomiga aupito lata mai o lau palausa.",
+    "youKickedFromWorld": "Ua tuliesea oe mai le lalolagi",
+    "youKickedFromWorldMessage": "Na tuliesea outou mai lenei lalolagi ona o le mafuaaga lenei",
+    "invalidLocation": "Nofoaga e le o aoga",
+    "cantFindLocation": "E le mafai ona tatou maua le nofoaga",
+    "misspelledOrNotExist": "Atonu e sese le sipelaga, pe atonu foi e le o i ai.",
+    "loading": "utaina",
+    "low-frame-error": "Ua iloa e se tagata le lelei o le perfomance mafaufau e mafai ona faaaoga le Use Hardware acceleration i lau palausa ma toe faafou lau palausa",
+    "low-frame-title": "Faataga le saoasaoa o le masini mo se poto masani sili atu!"
+  },
+  "error": {
+    "loading-error": "Le mafai ona uta faamatalaga o le tagata faaaoga",
+    "validation-error": "Faamolemole ta i totonu {{type}} aoga",
+    "login-error": "Le mafai ona alu i totonu"
+  }
+}

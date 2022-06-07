@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "بەت قاچىلىنىۋاتىدۇ..."
+  },
+  "tooltip": {
+    "pressKey": "{{tip}} بېسىپ {{message}}"
+  },
+  "toast": {
+    "joined": "قوشۇلدى",
+    "left": "سول"
+  },
+  "navUserWidget": {
+    "login": "تىزىملاش"
+  },
+  "loader": {
+    "connecting": "دۇنياغا ئۇلىنىۋاتىدۇ...",
+    "entering": "دۇنياغا كىرىش...",
+    "loading": "قاچىلىنىۋاتىدۇ...",
+    "objectRemaining": "{{count}} ئوبيېكتى قېلىپ قالدى",
+    "objectRemainingPlural": "{{count}} قالغان جىسىملار",
+    "loadingObjects": "قاچىلاش ئوبيېكتلىرى",
+    "loadingComplete": "قاچىلاش تاماملاندى",
+    "joiningWorld": "دۇنياغا قوشۇلۇش"
+  },
+  "alert": {
+    "eventWasSuccess": "پائالىيەت غەلبىلىك بولدى",
+    "errorWasEncountered": "بىر خاتالىق كۆرۈلدى",
+    "eventInProgress": "ئىش داۋاملىشىۋاتىدۇ",
+    "seconds": "سېكۇنت",
+    "cancelCountdown": "بۇ مودىلنى تاقاش تەتۈر ساناقنى ئەمەلدىن قالدۇرىدۇ"
+  },
+  "debug": {
+    "refresh": "يېڭىلاش",
+    "stats": "ستاتىستىكا",
+    "debugOptions": "Debug تاللانمىلىرى",
+    "physicsDebug": "فىزىكا",
+    "avatarDebug": "باش سۈرەت",
+    "nodeHelperDebug": "تۈگۈن ياردەمچىسى",
+    "gridDebug": "Grid",
+    "simpleMaterials": "ئاددىي ماتېرىياللار",
+    "tick": "ت ر ت",
+    "worldStore": "دۇنيا ماگىزىنى",
+    "engineStore": "ماتور دۇكىنى",
+    "namedEntities": "نام بېرىلگەن شەيدالار",
+    "networkObject": "تور ئوبېكتى",
+    "networkClients": "تور خېرىدارلىرى"
+  },
+  "recording": {
+    "videoRecorder": "سىنئالغۇ",
+    "waitingForPermissions": "ئىجازەت كۈتۈش",
+    "selectVideoSource": "سىن مەنبەسىنى تاللاڭ",
+    "screen": "ئېكران",
+    "camera": "كامېرا",
+    "microphone": "مىكروفون",
+    "startRecording": "ئۈنگە ئېلىشنى باشلاش",
+    "pauseRecording": "ئۈن ئېلىشنى توختىتىش",
+    "resumeRecording": "ئۈن ئېلىشنى ئەسلىگە كەلتۈرۈش",
+    "stopRecording": "ئۈنگە ئېلىشنى توختىتىش"
+  },
+  "typing": "خەت ئۇرۇش...",
+  "gameServer": {
+    "browserError": "تور كۆرگۈچ خاتالىقى",
+    "browserErrorMessage": "تور كۆرگۈچىڭىز شەخسىي كەزمە ھالىتىدە ساقلاشنى قوللىمايدۇ. ياكى باشقا تور كۆرگۈچنى سىناپ بېقىڭ، ياكى شەخسىي كەزمە ھالىتىدىن چېكىنسىڭىز بولىدۇ.",
+    "noAvailableServers": "ئىشلەتكىلى بولىدىغان مۇلازىمىتېرلار يوق",
+    "noAvailableServersMessage": "ئۇلاشقا بولىدىغان مۇلازىمىتېر يوق. قايتا ئۇلىنىشقا ئۇرۇنۇش",
+    "worldDisconnected": "دۇنيا بىلەن بولغان ئالاقىسى ئۈزۈلدى",
+    "worldDisconnectedMessage": "دۇنيا بىلەن بولغان باغلىنىشىڭىزنى يوقىتىپ قويدىڭىز. تۆۋەندىكى ۋاقىت ئاخىرلىشىشتىن بۇرۇن قايتا ئۇلىنىش قىلىشقا تىرىشىمىز، بولمىسا باشقا بىر نۇسخا ئالغا سۈرۈلىسىز.",
+    "webGLNotEnabled": "WebGL نى قوزغىمىدى",
+    "webGLNotEnabledMessage": "تور كۆرگۈچىڭىز WebGL نى قوللىمايدۇ، ياكى چەكلەنگەن. WebGL نى قوزغىتىڭ ياكى تور كۆرگۈچىڭىزنىڭ ئەڭ يېڭى نەشىرىگە يېڭىلاشنى ئويلىشىپ بېقىڭ.",
+    "youKickedFromWorld": "جاھاندىن تەپتى سېنى.",
+    "youKickedFromWorldMessage": "تۆۋەندىكى سەۋەبلەر بىلەن بۇ دۇنيادىن تەپتىڭىز",
+    "invalidLocation": "ئىناۋەتسىز ئورنى",
+    "cantFindLocation": "بىز ئورۇننى تاپالمىدۇق",
+    "misspelledOrNotExist": "خاتا يېزىلىشى مۇمكىن، ياكى مەۋجۇت بولماسلىقى مۇمكىن.",
+    "loading": "يۈكلەش",
+    "low-frame-error": "كۆرۈش تور كۆرگۈچتە قاتتىق دېتال ئىشلىتىش سۈرئىتىنى تېزلىتىشنى ئىقتىدارلاشتۇرۇشنى ئويلىشىپ، تور كۆرگۈچىڭىزنى قايتا چاتما",
+    "low-frame-title": "تېخىمۇ ياخشى تەجرىبىلەرنى يارىتىش ئۈچۈن قاتتىق دېتال سۈرئىتىنى تېزلىتىشنى قوزغىتىڭ!"
+  },
+  "error": {
+    "loading-error": "ئىشلەتكۈچى سانلىق مەلۇماتىنى قاچىلاش مەغلۇپ بولدى",
+    "validation-error": "كۈچكە ئىگە {{type}} كىرگۈزۈڭ",
+    "login-error": "تىزىملىتىپ كىرگەندىن كېيىن مەغلۇپ بولدى"
+  }
+}

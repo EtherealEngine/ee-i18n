@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Api teiaha..."
+  },
+  "tooltip": {
+    "pressKey": "A taumi i te {{tip}} i nia i te {{message}}"
+  },
+  "toast": {
+    "joined": "Te mau mana'o tauturu no te",
+    "left": "aui"
+  },
+  "navUserWidget": {
+    "login": "A tomo i roto"
+  },
+  "loader": {
+    "connecting": "Te taairaa i rotopu i te ao nei...",
+    "entering": "Te tomoraa ' tu i roto i te ao nei...",
+    "loading": "Te faautaraa...",
+    "objectRemaining": "{{count}} tao'a e toe ra",
+    "objectRemainingPlural": "{{count}} mau tao'a e toe ra",
+    "loadingObjects": "Te faautaraa i te mau tauihaa",
+    "loadingComplete": "Te faautaraa i te mau tauihaa",
+    "joiningWorld": "Te amuiraa ' tu i roto i te ao nei"
+  },
+  "alert": {
+    "eventWasSuccess": "Ua manuïa te ohipa",
+    "errorWasEncountered": "Ua itehia te hoê hape",
+    "eventInProgress": "Ohipa e tupu ra",
+    "seconds": "Te mau tetoni",
+    "cancelCountdown": "E faaore te opaniraa i teie modal i te taioraa"
+  },
+  "debug": {
+    "refresh": "Te tamǎr",
+    "stats": "Stats",
+    "debugOptions": "Te mau ravea no te patoi i te reira",
+    "physicsDebug": "Physics",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Te taata tauturu i te pae no te maa",
+    "gridDebug": "Grid",
+    "simpleMaterials": "Te mau materia ohie",
+    "tick": "Tick",
+    "worldStore": "Te fare toa a te ao nei",
+    "engineStore": "Engine Store",
+    "namedEntities": "Te mau taatiraa i mairihia i te i'oa",
+    "networkObject": "Pu'ereni pu'ereni",
+    "networkClients": "Te mau faanahoraa pu'ereni"
+  },
+  "recording": {
+    "videoRecorder": "Papa'i parau video",
+    "waitingForPermissions": "Tia'iraa i te mau parau faati'a",
+    "selectVideoSource": "Ma'iti i te rave'a video",
+    "screen": "Te paruai",
+    "camera": "Camera",
+    "microphone": "Microphone",
+    "startRecording": "Haamata i te haruharuraa",
+    "pauseRecording": "Tape'araa i te haruharuraa",
+    "resumeRecording": "Haamata faahou te haruharuraa",
+    "stopRecording": "A faaea i te tapa'opa'o"
+  },
+  "typing": "Te patapataraa...",
+  "gameServer": {
+    "browserError": "Hape no te faanahoraa",
+    "browserErrorMessage": "Aita ta outou faanahoraa no te Itenati e turu nei i te haaputuraa na roto i te rave'a omo'e. A tamata i te tahi atu faanahoraa no te Itenati, e aore râ, a haere i rapae i te faanahoraa no te hi'opo'araa.",
+    "noAvailableServers": "Aita e afata teata e vai ra",
+    "noAvailableServersMessage": "Aita e vai ra te mau rave'a no te tuati atu ia outou. Te tamataraa i te faaho'i-faahou-raa mai i roto i te",
+    "worldDisconnected": "Ua taa ê te ao nei",
+    "worldDisconnectedMessage": "Ua mo'e to outou tu'atiraa e te ao nei. E tamata matou i te farerei faahou hou a hope ai te taime i muri nei, ia ore ana'e, e faahaerehia ïa oe i te tahi atu taime.",
+    "webGLNotEnabled": "Te mau mana'o tauturu no te haapiiraa e te aparauraa",
+    "webGLNotEnabledMessage": "Aita ta outou faanahoraa no te Itenati e turu ra i te WebGL, e aore râ, e huma ana'e te reira. A faati'a i te WebGL e aore râ a feruri ia taui i te faanahoraa apî roa a'e o ta outou faanahoraa no te Itenati.",
+    "youKickedFromWorld": "Ua tiahihia outou mai roto mai i te ao nei",
+    "youKickedFromWorldMessage": "Ua tiahihia mai outou mai roto mai i teie nei ao no te tumu i muri nei",
+    "invalidLocation": "Vahi tano ore",
+    "cantFindLocation": "Aita e itehia ia matou te vahi",
+    "misspelledOrNotExist": "E nehenehe te reira e hape, aore ra aita paha e vai ra.",
+    "loading": "Te mau mana'o tauturu no te",
+    "low-frame-error": "A hi'opo'a i te hoê faanahoraa e ere i te mea maitai no te faaohipa i te matini roro uira i roto i ta outou faanahoraa no te Itenati e a faaapî i ta outou faanahoraa no te Itenati",
+    "low-frame-title": "A faaetaeta i te matini no te ite maitai a'e !"
+  },
+  "error": {
+    "loading-error": "Aita i manuïa i te faauta i te mau haamaramaramaraa no ni'a i te taata e faaohipa ra",
+    "validation-error": "A tuu mai i te {{type}} mana'o",
+    "login-error": "Aita i manuïa i te papa'i"
+  }
+}

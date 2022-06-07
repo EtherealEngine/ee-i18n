@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "ገጽ ጽዒንካ..."
+  },
+  "tooltip": {
+    "pressKey": "{{message}} {{tip}} ጸቕጢ ግጠም"
+  },
+  "toast": {
+    "joined": "ተጸምበረ",
+    "left": "ጸጋም"
+  },
+  "navUserWidget": {
+    "login": "እቶ"
+  },
+  "loader": {
+    "connecting": "ምስ ዓለም ምትእስሳር ምግባር...",
+    "entering": "ናብ ዓለም ምእታው...",
+    "loading": "ምጻር...",
+    "objectRemaining": "{{count}} ዝተረፈ ነገር",
+    "objectRemainingPlural": "ዝተረፈ ነገራት {{count}}",
+    "loadingObjects": "ኣቕሑ ጽዒንካ",
+    "loadingComplete": "ምሉእ ጽዕነት",
+    "joiningWorld": "ምስ ዓለም ምሕባር"
+  },
+  "alert": {
+    "eventWasSuccess": "እቲ ፍጻመ ዕዉት ነበረ",
+    "errorWasEncountered": "ጌጋ ኣጋጠሞም",
+    "eventInProgress": "እቲ ዚካየድ ዘሎ ፍጻመ",
+    "seconds": "ካልኢት",
+    "cancelCountdown": "ነዚ ኣሰራርሓ እዚ ምዕጻዉ ንቝጽሪ ምጽብጻብ ኪስርዞ እዩ"
+  },
+  "debug": {
+    "refresh": "ዕረፍቲ",
+    "stats": "ኣሃዛት",
+    "debugOptions": "ኣማራጺታት ጌጋ",
+    "physicsDebug": "ፊዚክስ",
+    "avatarDebug": "ኣቫታር",
+    "nodeHelperDebug": "ኖድ ሓጋዚ",
+    "gridDebug": "መስመር",
+    "simpleMaterials": "ቀሊል ናውቲ",
+    "tick": "ቲኬት",
+    "worldStore": "ዓለምለኻዊ ድኳን",
+    "engineStore": "መኽዘን ሞተር",
+    "namedEntities": "ስም ዝወሃቦም ትካላት",
+    "networkObject": "መርበብ ሓበሬታ",
+    "networkClients": "ዓማዊል መርበብ ሓበሬታ"
+  },
+  "recording": {
+    "videoRecorder": "መቐዝሒ ቪድዮ",
+    "waitingForPermissions": "ፍቓድ ምጽባይ",
+    "selectVideoSource": "ምንጪ ቪድዮ ምረጽ",
+    "screen": "ስክሪን",
+    "camera": "ካሜራ",
+    "microphone": "ማይክሮፎን",
+    "startRecording": "ምቕዳሕ ጀምር",
+    "pauseRecording": "ምቕዳሕ ደው ምባል",
+    "resumeRecording": "ምቕዳሕ ቀጽል",
+    "stopRecording": "ምምዝጋብ ኣቋርጽ"
+  },
+  "typing": "ብታይፕ...",
+  "gameServer": {
+    "browserError": "ጌጋ ብሮሹር",
+    "browserErrorMessage": "ብሮውዝካ ነቲ ኣብ ናይ ብሕቲ ኣድራሻታት ዚኽዘን መኽዘን ኣይድግፎን እዩ። ወይ ካልእ ብራዛር ፈትን ወይ ከኣ ናይ ብሕቲ ገጻት ኣዳሉ ።",
+    "noAvailableServers": "ክርከብ ዝከኣል ሰርቨር የለን",
+    "noAvailableServersMessage": "ከተራኽቦ እትኽእል ሰርቨር የለን ። እንደገና ኽትራኸብ ምፍታን",
+    "worldDisconnected": "ዓለም ተበታቲና",
+    "worldDisconnectedMessage": "ምስ ዓለም ዘሎካ ርክብ ኣጥፊእካ ኢኻ። እቲ ቐጺሉ ዘሎ ግዜ ቕድሚ ምውዳኡ እንደገና ኽንራኸብ ክንፍትን ኢና እንተ ዘይኰይኑ ናብ ካልእ ኣጋጣሚ ኽትሰድዱ ኢኹም።",
+    "webGLNotEnabled": "ወብ GL ኣይዕየን",
+    "webGLNotEnabledMessage": "ብራውተርካ ንወብGL ኣይድግፎን እዩ ወይ ስንኩል እዩ። በጃኻ ወብ GL ከም ዚህሉ ግበር ወይ ከኣ ነቲ ኣብ ቀረባ እዋን ዝወጸ ሕታም ብሮውዝካ ኸተዐርዮ ሕሰብ።",
+    "youKickedFromWorld": "ካብ ዓለም ተሃዊኽካ ኢኻ",
+    "youKickedFromWorldMessage": "በዚ ዚስዕብ ምኽንያት ካብዛ ዓለም እዚኣ ተሰጐጕካ",
+    "invalidLocation": "ዘይግቡእ ቦታ",
+    "cantFindLocation": "ነቲ ቦታ ኽንረኽቦ ኣይንኽእልን ኢና",
+    "misspelledOrNotExist": "ብጌጋ ኺጸሓፍ ወይ ከኣ ከይህሉ ይኽእል እዩ ።",
+    "loading": "ጽዕነት",
+    "low-frame-error": "ሕማቕ ኣሰራርሓ ኸም ዘሎ ምስ ፈለጥካ ኣብ ብሮውዝካ ቕልጡፍ ዕቤት ኣጠቓቕማ ሃርድware ክትጥቀምን ንብራውዝካ ኽትመልሶን ትኽእል ኢኻ",
+    "low-frame-title": "ዝሓሸ ተመክሮ ምእንቲ ኺህልወካ ኣቕሑ ብቕልጡፍ ከም ዚቀላጠፍ ግበረሉ።"
+  },
+  "error": {
+    "loading-error": "ሓበሬታ ተጠቃሚ ኺጽዕኑ ኣይከኣሉን",
+    "validation-error": "በጃኹም ግቡእ ሓበሬታ {{type}}",
+    "login-error": "ናብ ቤት ኣይኣተኽን"
+  }
+}

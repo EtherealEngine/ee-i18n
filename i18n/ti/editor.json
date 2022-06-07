@@ -1,0 +1,718 @@
+{
+  "loading": "ፕሮጀክት ጽዕነት",
+  "loadingMsg": "ፕሮጀክት ጽዕነት...",
+  "loadingError": "ፕሮጀክት ጽዕነት ጌጋ",
+  "loadingErrorMsg": "ነቲ ፕሮጀክት ክትጽዕኖ ኸለኻ ጌጋ እዩ ነይሩ ።",
+  "selectSceneMsg": "ብሞተር ክትጻወት እትጅምር ትርኢት ምረጽ",
+  "error": "ጌጋ",
+  "errorMsg": "ዘይተፈልጠ ጌጋ እዩ ነይሩ ።",
+  "generateScreenshot": "ናይ ፕሮጀክት ስክሪንስእሊ ምውጻእ",
+  "generateScreenshotMsg": "ናይ ፕሮጀክት ስክሪን ስእሊ ምውጻእ...",
+  "newScene": "ትርኢት ፍጠር",
+  "saving": "ፕሮጀክት ምዕቃብ",
+  "savingMsg": "ፕሮጀክት ምዕቃብ...",
+  "savingError": "ፕሮጀክት ምዕቃብ ጌጋ",
+  "savingErrorMsg": "ነቲ ፕሮጀክት ከተድሕኖ ኸለኻ ጌጋ እዩ ነይሩ ።",
+  "savingSceneErrorMsg": "እቲ ትርኢት ብግቡእ ኣይጽዕንን እዩ ። ነቲ ፍጻመ እንደገና ጽዓኖ።",
+  "duplicating": "ፕሮጀክት ምደጋግመ",
+  "duplicatingMsg": "ናይ ምምሕልላፍ ፕሮጀክት...",
+  "exporting": "ፕሮጀክት ሰደድ",
+  "exportingMsg": "ናይ ወጻኢ ፕሮጀክት...",
+  "exportingError": "ፕሮጀክት ሰደድ ጌጋ",
+  "exportingErrorMsg": "ነቲ ፕሮጀክት ናብ ወጻኢ ኽትልእኽ ከለኻ ጌጋ እዩ ነይሩ ።",
+  "importLegacy": "ውርሻ ዓለም",
+  "importLegacyMsg": "መጠንቀቕታ! እዚ ነቲ ዘሎካ ትርኢት ኪጽሕፎ እዩ! ክትቅጽል ከም እትደሊ ርግጸኛ ዲኻ ?",
+  "publishingError": "ፕሮጀክት ሕትመት ጌጋ",
+  "publishingErrorMsg": "ዘይተፈልጠ ጌጋ እዩ ነይሩ ።",
+  "publishingScene": "ትርኢት ሕትመት",
+  "publishingSceneMsg": "ናይ ሕትመት ትርኢት...",
+  "uploadingThumbnailMsg": "ዓባይቶ ኣራጊፍካ...",
+  "uploadingSceneMsg": "ኣራጊፍካ ፦ {{percentage}}%",
+  "envMapError": "ስእልታት ኩብካፕ ምልኣኽ ጌጋ {{files}}",
+  "lbl-return": "ተመለስ",
+  "menubar": {
+    "newScene": "ሓድሽ ትርኢት",
+    "saveScene": "ትርኢት ኣድሕን",
+    "saveAs": "ኣድሕን",
+    "importAsset": "ኣታዊ ምምሕልላፍ",
+    "exportGLB": "ከም ቢናሪ glTF (.glb) ...",
+    "importScene": "ናይ import ትርኢት",
+    "exportScene": "ናይ ንግዲ ዅነታት",
+    "quit": "ኣቋሪጽካ"
+  },
+  "errors": {
+    "fileTypeNotSupported": "ዘይድገፍ ዓይነት ፋይል ፦ \"{{name}}\" ። ፋይል ስእሊ ቪድዮ ወይ ሞደል ግሎብ ኪኸውን ኣለዎ።",
+    "addObject": "addObject፦ ሓደ ነገር ቅድሚ ምርካቡ",
+    "removeObject": "removeObject - መትሓዚ ኣይተረኽበን ። ከምዚ ዝዀነሉ ምኽንያት ከኣ ነቲ ኣብቲ ትርኢት ዘይርአ መላግቦታት ስለ ዘልገሶ ኢዩ።",
+    "noParent": "{{node}} \"{{name}}\" ወላዲ የብሉን ። ሪፓረንት ኣብዚ እዋን እዚ ኣብ ዘሎ ነገራት ጥራይ እዩ ዚዓዪ ።",
+    "undefinedParent": "ኣሰናዳኢ.reparent - newParent ኣይተገልጸን",
+    "notAuthenticated": "ሓቅነቱ እተረጋገጸ ኣይኰነን",
+    "fetchingProjectError": "ፕሮጀክትታት ምምዓድ ጌጋ፦ {{error}}",
+    "fetchingRouteError": "ግጉይ መገድታት ፦ {{error}}",
+    "unknownError": "ዘይተፈልጠ ጌጋ",
+    "resolveURL": "\"{{url}}\"",
+    "mediaSearchAborted": "መራኸቢ ብዙሓን ንምርካብ ዚግበር ዝነበረ ጻዕሪ ተቛረጸ",
+    "methodNotImplemented": "ሜላ ኣይተኣታተወን ።",
+    "saveProjectAborted": "ነቲ ዅነታት እንተ ኣጽኒዕዎ",
+    "unsavedChanges": "ዘይድሕን ለውጥታት",
+    "unsavedChangesMsg": "እቲ ዅነታት ተቐዪሩ እዩ ። በጃኹም ለውጥታትኩም ኣዋህልሉ ።",
+    "projectCreationFail": "ፍጥረት ፕሮጀክት ፈሸለ ። {{reason}}",
+    "projectDeletionFail": "እቲ ፕሮጀክት ተደምሰሰ ። {{reason}}",
+    "savingProjectFail": "ፕሮጀክት ምድሓን ፈሸለ ። {{reason}}",
+    "sceneTooLarge": "እቲ ትርኢት ኣዝዩ ዓብዪ ({{size}} ቢ. ቢ. ዝለዓለ ግዝፊ {{maxSize}} ቢ. ቢ.",
+    "sceneCreationFail": "ፍጥረት ፈሸለ ። {{reason}}",
+    "uploadAborted": "ምንጻል ጥንሲ ኣራግፍ",
+    "uploadFailed": "{{reason}} ኣራጊፍካ ምልኣኽ ፈሸለ",
+    "assetDeletionFail": "ንብረት ምጥፋእ ፈሸለ ። {{reason}}",
+    "projectAssetDeletionFail": "ንብረት ፕሮጀክት ምጥፋእ ፈሸለ ። {{reason}}",
+    "networkError": "ጌጋ መርበብ ሓበሬታ ፦ {{status}}. {{text}}",
+    "unknownStatus": "ዘይፍለጥ ኵነታት",
+    "CORS": "ምናልባት ጌጋ CORS ኪኸውን ይኽእል እዩ",
+    "urlFetchError": "\"{{url}}\" ኣይረኸቡን"
+  },
+  "viewport": {
+    "title": "ቪውፖርት",
+    "command": {
+      "movecamera": "ካሜራ ኣንቀሳቕስ",
+      "flyFast": "ቀልጢፍካ ነፍር",
+      "orbit": "ምሕራይ / ምረጽ",
+      "pan": "ፓን",
+      "fly": "ነፋሪት",
+      "focus": "ኣተኵር",
+      "rotateLeft": "ብጸጋማይ ጫፍ ይዘውር",
+      "rotateRight": "ንየማን ተዘውር",
+      "cancelPlacement": "ቦታ ሰረዝ",
+      "placeDuplicate": "ምደግመሉ",
+      "cancelGrab": "ስረዝ",
+      "grab": "መንዚዕካ ሓዞ",
+      "deselectAll": "ንዅሉ ሕረ"
+    },
+    "state": {
+      "header": "ኣሃዛት",
+      "memory": "ተዘክሮ",
+      "geometries": "ጂኦሜትሪ",
+      "textures": "ቅርጽታት",
+      "render": "ዘረፍቲ",
+      "FPS": "FPS",
+      "frameTime": "ግዜ መቐመጢ",
+      "calls": "ደወል",
+      "triangles": "ስሉስ ኵርናዕ",
+      "points": "ነጥብታት",
+      "lines": "መስመራት"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "ሕትመት",
+    "lbl-published": "እተሓትመ",
+    "command": {
+      "translate": "ተርጉም",
+      "rotate": "ተዘውር",
+      "scale": "ስፍሓት",
+      "toggleSpace": "ቦታ ምቕያር",
+      "togglePivot": "ቀንዲ ነጥቢ ለውጢ",
+      "toggleSnapMode": "ቅጽበታዊ ኣሰራርሓ",
+      "toggleGrid": "ናይ ምርኣይ ክእለት",
+      "increaseGridSize": "ግዝፊ መስመር ምውሳኽ",
+      "descreaseGridSize": "ግዝፊ መስመር ምንካይ",
+      "stopPreview": "ኣቐዲምካ ምርኣይ ኣቋርጽ",
+      "playPreview": "ኣቐዲምካ ናይ ምርኣይ ክእለት"
+    }
+  },
+  "properties": {
+    "title": "ባህርያት",
+    "lbl-visible": "ዚርአ",
+    "lbl-preventBake": "ባኒ ኸይትሰቲ ተኸልከለ",
+    "lbl-persist": "ከይተሓለልካ ተጽንዕ",
+    "multipleNodeSelected": "እተመርጸ እተፈላለየ ዓይነት መእተዊታት",
+    "noNodeSelected": "ዋላ ሓንቲ መምዘኒ ኣይተመርጸን",
+    "ambientLight": {
+      "name": "ኣብ ከባቢኡ ዘሎ ብርሃን",
+      "description": "ንዅሉ እቲ ኣብ ትርኢትካ ዘሎ ነገራት ዜብርህ ብርሃን።",
+      "lbl-intensity": "ጽዓት",
+      "lbl-color": "ሕብሪ"
+    },
+    "envmap": {
+      "name": "ካርታ ኣከባቢ",
+      "description": "ባህርያት ካርታ ኣከባቢ"
+    },
+    "asset": {
+      "name": "ሃብቲ",
+      "description": "ብብርቱዕ ጸቕጢ ኺጽዕኑን ኬራግፉን ዚኽእሉ ተዋጽኦታት ትርኢት",
+      "lbl-options": "ኣማራጺታት",
+      "lbl-assetPath": "መገዲ ሃብቲ",
+      "lbl-assetName": "ስም ሰደድ",
+      "lbl-exportOptions": "ኣማራጺታት ሰደድ",
+      "lbl-export": "ኣታዊ ሰደድ",
+      "lbl-load": "ጾር ናብ ትርኢት",
+      "lbl-unload": "ኣራግፍ",
+      "lbl-reload": "እንደገና ጽዓን"
+    },
+    "audio": {
+      "name": "ኣውድዮ",
+      "description": "ኣውድዮ ብውሕሉል መገዲ ይጽዕኖ።",
+      "lbl-audiourl": "ኣውድዮ ኡርል",
+      "lbl-controls": "ቍጽጽርታት",
+      "info-controls": "ነቲ መራኸቢ ብዙሓን ዚቈጻጸሮ ነገራት ከም ዚርአ ምግባር።",
+      "lbl-autoplay": "ኣውቶማቲክ ጸወታ",
+      "info-autoplay": "ሓቂ እንተ ዀይኑ መራኸቢ ብዙሓን ንፈለማ ግዜ ናብቲ ትርኢት ኪኣቱ ኸሎ ኺጻወት እዩ።",
+      "lbl-synchronize": "ምትሕንፋጽ",
+      "info-synchronize": "እዚ ሓቂ እንተ ዀይኑ መራኸቢ ብዙሓን ኣብ ኵሎም እቶም ምስኡ ርክብ ዘለዎም ዓማዊል ምትሕንፋጽ ኪግበር እዩ።",
+      "lbl-loop": "ሕንጻጽ",
+      "info-loop": "ሓቂ እንተ ዀይኑ መራኸቢ ብዙሓን ንሓዋሩ ኺዘናግዑ እዮም።",
+      "lbl-audioType": "ዓይነት ኣውድዮ",
+      "lbl-distanceModel": "ሞደል ርሕቐት",
+      "info-distanceModel": "ኣልጎሪቲም ኣውድዮ ንምጽብጻብ የገልግል ነበረ።",
+      "lbl-rolloffFactor": "ናይ ምዝዋር ረቛሒ",
+      "info-rolloffFactor": "እቲ ምንጪ ኻብ ሰማዕቱ ኺርሕቕ ከሎ እቲ ድምጺ ኽሳዕ ክንደይ ብቕልጡፍ ከም ዚንኪ ዚገልጽ ድርብ ዋጋ። ካብ 0 ኽሳዕ 1",
+      "info-rfInfinity": "እቲ ምንጪ ኻብ ሰማዕቱ ኺርሕቕ ከሎ እቲ ድምጺ ኽሳዕ ክንደይ ብቕልጡፍ ከም ዚንኪ ዚገልጽ ድርብ ዋጋ። 0 ናብ መወዳእታ",
+      "lbl-refDistance": "ርሕቐት ርሓቕ",
+      "info-refDistance": "እቲ ምንጪ ኣውድዮ ኻብ ሰማዕቱ እናረሓቐ ኪኸይድ ከሎ ነቲ መወከሲ ርሕቐት ዜመልክት ዕጽፊ ዋጋ።",
+      "lbl-maxDistance": "ዝለዓለ ርሕቐት",
+      "info-maxDistance": "ዕጽፊ ዋጋ ነቲ ኣብ መንጎ ምንጪ ኣውድዮን ሰማዕትን ዘሎ ዝለዓለ ርሕቐት ዜመልክት እዩ፣ ድሕሪኡ እቲ ድምጺ ኣይነከየን።",
+      "lbl-coneInnerAngle": "ውሽጣዊ ዅርናዕ ኮናዊ",
+      "info-coneInnerAngle": "ነቲ ኣብ ውሽጡ ዘሎ ኮናዊ ቕርጺ ብእተወሰነ ደረጃ ዚገልጽ ዕጽፊ ዋጋ ።",
+      "lbl-coneOuterAngle": "ናይ ወጻኢ ዅርናዕ ኮናዊ",
+      "info-coneOuterAngle": "ነቲ ዅርናዕ ብዲግሪ ዚገልጾ ዕጽፊ ዋጋ እቲ ኮናዊ ቕርጺ በቲ ኮናዊ ቕርጺ ዚግለጽ ቀጻሊ ዋጋ ይንኪ ።",
+      "lbl-coreOuterGain": "ደጋዊ ረብሓ",
+      "info-coreOuterGain": "ካብ ኮናዊ ዅርናዕ ወጻኢ ዘሎ መጠን መጠን ድምጺ ኸም ዝነከየ ዚገልጽ ድርብ ዋጋ ። ዋጋኡ 0 እዩ ፣ እዚ ኸኣ ድምጺ ኺስማዕ ከም ዘይክእል ዚሕብር እዩ ።",
+      "lbl-volume": "መጠን ድምጺ",
+      "lbl-play": "ተጻወት",
+      "lbl-pause": "ዕረፍቲ",
+      "error-url": "ካብ URL እተላእከ ጌጋ"
+    },
+    "boxCollider": {
+      "description": "ሓደ ነገር ዚወጽእ ወይ ኣብ ልዕሊኡ ዜዕርፍ ዘይርአ ሳጹን።\nብዘይ ግጭት ሓደ ነገር ኣብ ባይታ ወዲቑ ብመናድቕ ይሓልፍ።",
+      "lbl-isTrigger": "መላግቦታት"
+    },
+    "camera": {
+      "name": "ካሜራ",
+      "description": "ናይ ካሜራ ኣቀማምጣ።",
+      "lbl-camera-raycast": "ናይ ካሜራ ጩራ",
+      "lbl-camera-raycast-toggle": "ዚከኣል",
+      "lbl-camera-raycast-frequency": "ፍጻመ",
+      "lbl-camera-raycast-count": "ቍጽሪ ረይ",
+      "lbl-camera-raycast-length": "ንውሓት ረይ"
+    },
+    "directionalLight": {
+      "name": "ኣንፈት ዝበርህ ብርሃን",
+      "description": "ንብምሉኡ እቲ ትርኢት ዜብርህ ግን ከኣ ብሓደ ኣንፈት ዜውጽእ ብርሃን።",
+      "lbl-color": "ሕብሪ",
+      "lbl-intensity": "ጽዓት",
+      "lbl-cameraFar": "ርሑቕ ካሜራ",
+      "lbl-cameraNear": "ካሜራ ቐሪባ",
+      "lbl-cameraTop": "ላዕሊ ካሜራ",
+      "lbl-cameraBottom": "ታሕተዋይ ክፋል ካሜራ",
+      "lbl-cameraLeft": "ጸጋም ካሜራ",
+      "lbl-cameraRight": "የማን ካሜራ",
+      "lbl-useInCSM": "ኣብ ሲ. ኤስ.",
+      "lbl-castShadow": "ጽላሎት",
+      "lbl-disableForCSM": "ካርታ ጽላሎት ካስካድ ስለ ዚከኣል ስንኩል እዩ።",
+      "lbl-shadowmapResolution": "ናይ ጽላሎት ካርታ ኣቕዋም",
+      "lbl-shadowBias": "ኣድልዎ ጽላሎት",
+      "lbl-shadowRadius": "ጽላሎት ራድዮስ",
+      "lbl-showCameraHelper": "ሓጋዚ ካሜራ ኣርእዮ"
+    },
+    "groundPlane": {
+      "name": "ናይ መሬት ነፋሪት",
+      "description": "ካብ ርሑቕ እትዝርጋሕ ጸፊሕ ነፋሪት።",
+      "lbl-color": "ሕብሪ",
+      "lbl-receiveShadow": "ጽላሎት ተቐበል",
+      "lbl-generateNavmesh": "ናቭመሽ ኣዳሉ"
+    },
+    "link": {
+      "description": "ምስ ሓደ ኽፍሊ ወይ ወብ ሳይት ኣራኽብ ።",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "3D ካርታ ጂኦግራፍያዊ ኣቀማምጣ ኸተማ።"
+    },
+    "model": {
+      "description": "ኣብ ትርኢትካ ኻብ GLTF URL ወይ ፋይል እተጻዕነት 3D ሞደል።",
+      "lbl-usingGPUInstancingFlag": "ዘይስታንሲንግ ጂ. ፒ. ዩ.",
+      "lbl-modelurl": "ሞደል ኡርል",
+      "lbl-envmapUrl": "ካርታ ኣከባቢ ኡርል",
+      "lbl-textureOverride": "ነቲ ኣሰራርሓ ሸለል በልዎ",
+      "lbl-materialOverride": "ስጋዊ ነገራት ዕሽሽ ይብለና",
+      "error-url": "ካብ URL እተላእከ ጌጋ",
+      "lbl-loopAnimation": "ህያውነት ሕንጻጽ",
+      "lbl-isAvatar": "ኣቫታር",
+      "lbl-isGPUInstancing": "ኣብ ዘይምግዳስ GPU ይጥቀም ኣሎ",
+      "lbl-isDynamic": "ብርቱዕ ድዩ ?",
+      "lbl-castShadow": "ጽላሎት",
+      "lbl-receiveShadow": "ጽላሎት ተቐበል",
+      "lbl-interactable": "ዚራኸብ",
+      "lbl-matrixAutoUpdate": "ማትሪክስ ኣውቶማቲክ",
+      "lbl-name": "ስም",
+      "lbl-url": "ሞደል ኡርል",
+      "lbl-buy": "ኡርል ዓድግ",
+      "lbl-learnMore": "ዝያዳ ኡርል ተምሃር",
+      "lbl-htmlContent": "ትሕዝቶ Html",
+      "lbl-interactionText": "ጽሑፍ ርክብ",
+      "lbl-interactionType": "ዓይነት ርክብ"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "ስጋዊ ነገራት",
+      "error-materialID": "ስጋዊ ነገራት ምርካብ ጌጋ",
+      "placeholder-materialID": "ናውቲ ምረጽ",
+      "lbl-patternTarget": "ምስዚ ዚመሳሰል ንድፊ",
+      "lbl-pattern": "ኣብነት",
+      "lbl-isRegex": "ሬጀክስ"
+    },
+    "interaction": {
+      "type": "ዓይነት ርክብ",
+      "text": "ጽሑፍ ርክብ",
+      "distance": "ርሕቐት ርክብ",
+      "theme": "ፍረ ነገር ርክብ",
+      "name": "ስም ምትሕንፋጽ",
+      "description": "መግለጺ ምትሕንፋጽ",
+      "images": "ምስሊ ምትሕንፋጽ",
+      "videos": "ምትሕብባር ቪድዮታት",
+      "urls": "ምትሕንፋጽ ኡርልስ",
+      "models": "ሞደል ርክብ"
+    },
+    "group": {
+      "name": "ጕጅለ",
+      "description": "ብሓደ ኺንቀሳቐስ ወይ ኪደጋገፍ ዚኽእል እተፈላለየ ነገራት ኣሎ።\nኣቕሑ ጐቲትካ ናብታ ጕጅለ መራሕቲ ሃይማኖት ደርብዮ።"
+    },
+    "hemisphere": {
+      "name": "ብርሃን ንፍቀ-ኽቢ",
+      "description": "ነቲ ትርኢት ብቐጥታ ኣብ ልዕሊኡ ዜብርሆ ብርሃን።",
+      "lbl-skyColor": "ሕብሪ ሰማይ",
+      "lbl-groundColor": "ሕብሪ መሬት",
+      "lbl-intensity": "ጽዓት"
+    },
+    "image": {
+      "name": "ምስሊ",
+      "description": "ብውሕሉል መገዲ ምስሊ ይጽዕኑ ።",
+      "lbl-imgURL": "ምስሊ ኡርል",
+      "lbl-transparency": "ናይ ብርሃን ኣገባብ",
+      "lbl-alphaCutoff": "ኣልፋ ካቶፍ",
+      "lbl-projection": "ፕሮጀክት",
+      "lbl-side": "ጐድኒ",
+      "info-controls": "ነቲ መራኸቢ ብዙሓን ዚቈጻጸሮ ነገራት ከም ዚርአ ምግባር።",
+      "info-transparency": "ብኸመይ ብርሃን ከም እትጥቀም፦",
+      "info-opaque": "'ኦፓክ' = ብርሃን የብሉን",
+      "info-blend": "'ምትሕንፋጽ' = ነቲ ምስልታት ኣልፋ ዚብሃል መትረብ ተጠቐመሉ",
+      "info-mask": "'ማስኬራ' = ኣብ/ኦፍ ጽሬት (ዝያዳ ተዋሳኢ) እተወሰነ ዋጋ ተጠቐም",
+      "info-alphaCutoff": "ካብዚ ዝተሓተ ዋጋ ኣልፋ ዘለዎ ፒክሰል ብሩህ ክኸውን ኢዩ",
+      "error-url": "ዘይግቡእ URL"
+    },
+    "name": {
+      "lbl-name": "ስም"
+    },
+    "partileEmitter": {
+      "description": "ንጥረ ነገራት ንምፍጣር ዜውጽእ ንጥረ ነገር።",
+      "lbl-particleCount": "ቍጽሪ ንጥረ ነገር",
+      "lbl-image": "ምስሊ",
+      "lbl-ageRandomness": "ሃንደበታዊ ዕድመ",
+      "lbl-lifetime": "ኣብ ምሉእ ህይወትና",
+      "lbl-lifetimeRandomness": "ኣብ ምሉእ ህይወትና ሃንደበታዊ ምዃን",
+      "lbl-sizeCurve": "ግዝፊ ዓቐኑ",
+      "lbl-startPSize": "ግዝፊ ንጥረ ነገር ጀምር",
+      "lbl-endPSize": "ግዝፊ ንጥረ ነገር",
+      "lbl-sizeRandomness": "ግዝፊ ሃንደበታዊ",
+      "lbl-colorCurve": "ሕብራዊ ጥውይዋይ",
+      "lbl-startColor": "ሕብሪ ጀምር",
+      "lbl-startOpacity": "ዘይእሩም ምዃን ጀምር",
+      "lbl-middleColor": "ማእከላይ ሕብሪ",
+      "lbl-middleOpacity": "ማእከላይ ግኡዝነት",
+      "lbl-endColor": "መወዳእታ ሕብሪ",
+      "lbl-endOpacity": "ዘይእሩም ምዃን ኣቋርጽ",
+      "lbl-velocityCurve": "ጥውይዋይ ፍጥነት",
+      "lbl-startVelocity": "ፍጥነት ጀምር",
+      "lbl-endVelocity": "ፍጥነትኣ ኣቋርጽ",
+      "lbl-angularVelocity": "ፍጥነት ኵርናዕ",
+      "info-ageRandomness": "ኣብ መንጎ ንጥረ ነገራት ዚፍጠር መጠን ፍልልይ ።",
+      "info-lifetime": "ሓደ ንጥረ ነገር ቅድሚ ምፍጣሩ ዝለዓለ ዕድመ ኣለዎ።",
+      "info-lifetimeRandomness": "ኣብ መንጎ ህይወት ንጥረ ነገራት ዘሎ ፍልልይ ።",
+      "info-sizeRandomness": "ኣብ መንጎ ግዝፊ ንጥረ ነገር ዘሎ ፍልልይ ።",
+      "error-url": "ካብ URL እተላእከ ጌጋ"
+    },
+    "clouds": {
+      "name": "ደበና",
+      "description": "ኣብ ደበና እተመስረተ ድምጺ ስፕሪት ።",
+      "lbl-image": "ስፕሪት ምስሊ",
+      "lbl-wroldScale": "ስፍሓት ዓለም",
+      "lbl-dimensions": "ስፍሓት",
+      "lbl-noiseZoom": "ዕቤት ድምጺ",
+      "lbl-noiseOffset": "ናይ ጫውጫው ታዕታዕ",
+      "lbl-spriteScale": "ስፍሓት ስፕሪት",
+      "lbl-fogColor": "ሕብሪ ግመ",
+      "lbl-fogRange": "ሰንሰለት ግመ",
+      "error-url": "ካብ URL እተላእከ ጌጋ"
+    },
+    "ocean": {
+      "name": "ውቅያኖስ",
+      "description": "ማዕበልን ዓፍራታትን ዘለዎ ጽፍሒ ውቅያኖስ",
+      "lbl-normalMap": "ንቡር ካርታ",
+      "lbl-distortionMap": "ናይ ምጥዋይ ካርታ",
+      "lbl-envMap": "ካርታ ኣከባቢ",
+      "lbl-color": "ሕብሪ",
+      "lbl-shallowWaterColor": "ዕምቈት ዘይብሉ ሕብሪ ማይ",
+      "lbl-shallowToDeepDistance": "ዕምቈት ዘይብሉ ርሕቐት",
+      "lbl-opacityFadeDistance": "ዘይምሹእ ርሕቐት",
+      "lbl-opacityRange": "ስፍሓት ርኡይነት",
+      "lbl-shininess": "ልሕሉሕ ምዃን",
+      "lbl-reflectivity": "ምስትንታን",
+      "lbl-foamColor": "ሕብሪ ዓፍራ",
+      "lbl-foamSpeed": "ፍጥነት ዓፍራ",
+      "lbl-foamTiling": "ዓፍራ ምቕማጥም",
+      "lbl-bigWaveTiling": "ዓብዪ ማዕበል",
+      "lbl-bigWaveSpeed": "ዓብዪ ፍጥነት ማዕበል",
+      "lbl-bigWaveHeight": "ዓብዪ ማዕበል",
+      "lbl-waveSpeed": "ፍጥነት ማዕበል",
+      "lbl-waveScale": "ስፍሓት ማዕበል",
+      "lbl-waveTiling": "ማዕበል",
+      "lbl-waveDistortionSpeed": "ፍጥነት ምጥዋይ ማዕበል",
+      "lbl-waveDistortionTiling": "ምጥዋይ ማዕበል",
+      "error-url": "ካብ URL እተላእከ ጌጋ"
+    },
+    "water": {
+      "name": "ማይ",
+      "description": "ንእሽቶ ዝባን ማይ"
+    },
+    "interior": {
+      "name": "ውሽጣዊ ኽፋል",
+      "description": "ውሽጣዊ ኣከባቢ ንምቕዳሕ ብካርታ እተሰርሐ ኩብ ዘለዎ ዝባን",
+      "lbl-cubeMap": "ቅርጺ ካርታ ኩብ",
+      "lbl-tiling": "መጠን ምቕማጢ",
+      "lbl-size": "ግዝፊ ጽፍሒ",
+      "error-url": "ካብ URL እተላእከ ጌጋ"
+    },
+    "pointLight": {
+      "description": "ካብ ሓንቲ ነጥቢ ናብ ኵሉ ኣንፈት ዜውጽእ ብርሃን።",
+      "lbl-color": "ሕብሪ",
+      "lbl-intensity": "ጽዓት",
+      "lbl-range": "ሰንሰለት",
+      "lbl-decay": "ምምሽማሽ"
+    },
+    "scene": {
+      "name": "ትርኢት",
+      "description": "ሱር እቲ ትርኢት ።",
+      "lbl-bgcolor": "ሕብሪ ድሕረ ባይታ",
+      "lbl-fogType": "ዓይነት ግመ",
+      "lbl-fogColor": "ሕብሪ ግመ",
+      "lbl-forNearDistance": "ኣብ ጥቓ ርሑቕ ዘሎ ግመ",
+      "lbl-fogFarDistance": "ርሑቕ ዘሎ ግመ",
+      "lbl-fogDensity": "ጽዑቕ ግመ",
+      "lbl-audioSettings": "ኣቃውማ ኣውድዮ ተጠቐም",
+      "lbl-avatarDistanceModel": "ሞደል ርሕቐት ኣቫታር",
+      "lbl-avatarRolloffFactor": "ረቛሒ ሮልኦፍ ኣቫታር",
+      "lbl-avatarRefDistance": "ርሕቐት ኣቫታር",
+      "lbl-avatarMaxDistance": "ኣቫታር ማክስ ርሕቐት",
+      "lbl-mediaVolume": "መጠን መራኸቢ ብዙሓን",
+      "lbl-mediaDistanceModel": "ሞደል ርሕቐት መራኸቢ ብዙሓን",
+      "lbl-mediaRolloffFactor": "መራኸቢ ብዙሓን",
+      "lbl-mediaRefDistance": "ርሕቐት መራኸቢ ብዙሓን",
+      "lbl-mediaMaxDistance": "መራኸቢ ብዙሓን ዘለዎ ርሕቐት",
+      "lbl-mediaConeInnerAngle": "ውሽጣዊ ዅርናዕ መራኸቢ ብዙሓን",
+      "lbl-mediaConeOuterAngle": "መራኸቢ ብዙሓን ኮናዊ ዅርናዕ",
+      "lbl-mediaConeOuterGain": "መራኸቢ ብዙሓን ዝረኸቦ ረብሓ",
+      "info-avatarDistanceModel": "ኣልጎሪቲም ኣውድዮ ንምጽብጻብ የገልግል ነበረ።",
+      "info-avatarRolloffFactor": "እቲ ምንጪ ኻብ ሰማዕቱ ኺርሕቕ ከሎ እቲ ድምጺ ኽሳዕ ክንደይ ብቕልጡፍ ከም ዚንኪ ዚገልጽ ድርብ ዋጋ። ካብ 0 ኽሳዕ 1",
+      "info-avatarRolloffFactorInifinity": "እቲ ምንጪ ኻብ ሰማዕቱ ኺርሕቕ ከሎ እቲ ድምጺ ኽሳዕ ክንደይ ብቕልጡፍ ከም ዚንኪ ዚገልጽ ድርብ ዋጋ። 0 ናብ መወዳእታ",
+      "info-avatarRefDistance": "እቲ ምንጪ ኣውድዮ ኻብ ሰማዕቱ እናረሓቐ ኪኸይድ ከሎ ነቲ መወከሲ ርሕቐት ዜመልክት ዕጽፊ ዋጋ።",
+      "info-avatarMaxDistance": "ዕጽፊ ዋጋ ነቲ ኣብ መንጎ ምንጪ ኣውድዮን ሰማዕትን ዘሎ ዝለዓለ ርሕቐት ዜመልክት እዩ፣ ድሕሪኡ እቲ ድምጺ ኣይነከየን።",
+      "info-mediaDistanceModel": "ኣልጎሪቲም ኣውድዮ ንምጽብጻብ የገልግል ነበረ።",
+      "info-mediaRolloffFactor": "እቲ ምንጪ ኻብ ሰማዕቱ ኺርሕቕ ከሎ እቲ ድምጺ ኽሳዕ ክንደይ ብቕልጡፍ ከም ዚንኪ ዚገልጽ ድርብ ዋጋ። ካብ 0 ኽሳዕ 1",
+      "info-mediaRolloffFactorInfinity": "እቲ ምንጪ ኻብ ሰማዕቱ ኺርሕቕ ከሎ እቲ ድምጺ ኽሳዕ ክንደይ ብቕልጡፍ ከም ዚንኪ ዚገልጽ ድርብ ዋጋ። 0 ናብ መወዳእታ",
+      "info-mediaRefDistance": "እቲ ምንጪ ኣውድዮ ኻብ ሰማዕቱ እናረሓቐ ኪኸይድ ከሎ ነቲ መወከሲ ርሕቐት ዜመልክት ዕጽፊ ዋጋ።",
+      "info-mediaMaxDistance": "ዕጽፊ ዋጋ ነቲ ኣብ መንጎ ምንጪ ኣውድዮን ሰማዕትን ዘሎ ዝለዓለ ርሕቐት ዜመልክት እዩ፣ ድሕሪኡ እቲ ድምጺ ኣይነከየን።",
+      "info-mediaConeInnerAngle": "ነቲ ኣብ ውሽጡ ዘሎ ኮናዊ ቕርጺ ብእተወሰነ ደረጃ ዚገልጽ ዕጽፊ ዋጋ ።",
+      "info-mediaConeOuterAngle": "ነቲ ዅርናዕ ብዲግሪ ዚገልጾ ዕጽፊ ዋጋ እቲ ኮናዊ ቕርጺ በቲ ኮናዊ ቕርጺ ዚግለጽ ቀጻሊ ዋጋ ይንኪ ።",
+      "info-mediaConeOuterGain": "ካብ ኮናዊ ዅርናዕ ወጻኢ ዘሎ መጠን መጠን ድምጺ ኸም ዝነከየ ዚገልጽ ድርብ ዋጋ ። ዋጋኡ 0 እዩ ፣ እዚ ኸኣ ድምጺ ኺስማዕ ከም ዘይክእል ዚሕብር እዩ ።",
+      "lbl-simpleMaterials": "ቀሊል ነገራት ተጠቐም",
+      "lbl-lods": "መሕብኢ",
+      "info-lods": "መጠን ዝርዝር ነገራት ዚቕየረሉ ርሕቐት ይሰርዕ ።",
+      "info-simpleMaterials": "ንዅሉ ኽቡር ናውቲ ናብ ዝቐለለ ይቕይሮ።",
+      "lbl-rendererSettings": "ነቲ ኣተራጕማ ሸለል በሎ",
+      "lbl-csm": "ካርታታት ጽላሎት",
+      "info-csm": "ካርታታት ጽላሎት ከም ዚስራሕ ይገብሮ።",
+      "lbl-toneMapping": "ካርታ ቃና",
+      "info-toneMapping": "ነቲ ኣብቲ ትርኢት ዚርአ ኣተራጕማ ናይ ቃና ድምጽ ከም ዚስእል ይገብሮ። ኣሰራርሓ ጶስጣ ኽትክእል ከለኻ ዋላ ሓንቲ ጽልዋ የብሉን።",
+      "lbl-toneMappingExposure": "ናይ ቃና ካርታ ምቅላዕ",
+      "info-toneMappingExposure": "ነቲ ኣብ ቲኦካርነር ዘሎ ናይ ቃና ካርታ ግለጽ። ኣሰራርሓ ጶስጣ ኽትክእል ከለኻ ዋላ ሓንቲ ጽልዋ የብሉን።",
+      "lbl-shadowMapType": "ዓይነት ካርታ ጽላሎት",
+      "info-shadowMapType": "ዓይነት ካርታ ጽላሎት",
+      "error-url": "ካብ URL እተላእከ ጌጋ"
+    },
+    "sceneCamera": {
+      "name": "ካሜራ ትርኢት",
+      "description": "እታ ካሜራ ነቲ ትርኢትካ ዚኸውን ዓባይቶኣ ንምድላውን ነታ ኣቐዲማ እትርአ ካሜራ ንምጅማርን ትጥቀመላ እያ ።",
+      "lbl-setFromViewPort": "ካብ ቦታ ናብ ቦታ ምጕዓዝ"
+    },
+    "skybox": {
+      "name": "ሳጹን ሰማይ",
+      "description": "",
+      "lbl-timeOfDay": "ግዜ መዓልቲ",
+      "lbl-color": "ሕብሪ",
+      "lbl-latitude": "መላግቦታት",
+      "lbl-luminance": "ብርሃን",
+      "lbl-scattering": "ምብታን",
+      "lbl-scatteringDistance": "ርሕቐት ምብታን",
+      "lbl-horizonStart": "ኣድማስ ይጅምር",
+      "lbl-horizonEnd": "መወዳእታ ኣድማስ",
+      "lbl-texture": "ቅርጺ",
+      "lbl-skyType": "ዓይነት ሰማይ",
+      "error-url": "ካብ URL እተላእከ ጌጋ"
+    },
+    "spawnPoint": {
+      "name": "ነጥቢ ስፓውን",
+      "description": "ሰባት ናብ ትርኢትካ ኺኣትዉ ኸለዉ ዚርኣዩሉ ነጥቢ።\nእቲ ኣብ ቪውፖርት ዘሎ ስእሊ ናይ ሓቂ ግዝፊ ኣቫታር እዩ ዜመልክት ።"
+    },
+    "spotLight": {
+      "description": "ናብ ኣንፈት ዜውጽእ ብርሃን ኣብ ውሽጢ ኮናዊ ቕርጺ ዜብርህ ነገር።",
+      "lbl-color": "ሕብሪ",
+      "lbl-intensity": "ጽዓት",
+      "lbl-penumbra": "ፐኑምብራ",
+      "lbl-angle": "ኵርናዕ",
+      "lbl-range": "ሰንሰለት",
+      "lbl-decay": "ምምሽማሽ"
+    },
+    "transform": {
+      "title": "ለውጢ",
+      "lbl-postition": "ቦታ",
+      "lbl-rotation": "ዑደት",
+      "lbl-scale": "ስፍሓት"
+    },
+    "triggereVolume": {
+      "description": "ኣብቲ ዕላማ እቲ ንብረት ኣቐሚጥካ ኽትከይድ ኢኻ።",
+      "lbl-target": "ዕላማ",
+      "lbl-onenter": "ኣብ ምእታው",
+      "lbl-onexit": "ኣብ ምውጻእ",
+      "lbl-showHelper": "ሓጋዚ ሜሽ ኣርእዮ",
+      "ph-errorNode": "ጌጋ ርእስኻ ምግታእ።",
+      "ph-selectNode": "መእተዊ ምረጽ..."
+    },
+    "video": {
+      "name": "ቪድዮ",
+      "description": "ብውሕሉል መገዲ ቪድዮ ይጽዕኑ።",
+      "lbl-video": "ቪድዮ",
+      "lbl-projection": "ፕሮጀክት",
+      "lbl-islivestream": "ህያው ወሓይዝ",
+      "lbl-interactable": "ዚራኸብ",
+      "lbl-id": "መንነት ባእታታት",
+      "lbl-play": "ተጻወት",
+      "lbl-pause": "ዕረፍቲ",
+      "error-url": "ካብ URL እተላእከ ጌጋ"
+    },
+    "volumetric": {
+      "name": "ጥራዛት",
+      "description": "ብውሕሉል መገዲ ሓንቲ ጥራዛት ዘለዋ ቪድዮ ጽዒና እያ ።",
+      "uvolPaths": "መገድታት UVOL",
+      "playmode": "ኣገባብ ጸወታ",
+      "playtitle": "ተጻወት",
+      "pausetitle": "ዕረፍቲ"
+    },
+    "spline": {
+      "description": "ጥውይዋይ መገዲ ብምፍጣርን ብምልማድን እዩ ።",
+      "lbl-addNode": "ኣብ ጥውይዋይ ቦታ ርእስኻ ወሲኽካ።"
+    },
+    "systemnode": {
+      "description": "ነቲ ጽሑፍ ኣጣብቖ።",
+      "lbl-filePath": "ኡርል",
+      "lbl-systemUpdateType": "ነጥቢ መርፍእ",
+      "lbl-enableClient": "ዓማዊል",
+      "lbl-enableServer": "ሰርቨር",
+      "lbl-args": "ኣርግስ",
+      "error-url": "ካብ URL እተላእከ ጽሑፍ ጌጋ ምጽዓን"
+    },
+    "portal": {
+      "lbl-portal": "እተኣሳሰረ ወደብ",
+      "lbl-redirect": "ገጽ እንደገና ተጠቐመሉ",
+      "description": "ተወዳደርቲ ተሌፎን ኣበይ ከም ዘለዉ ዚሕብር ፖርት",
+      "lbl-locationName": "ቦታ",
+      "lbl-modelUrl": "ሞደል URL",
+      "lbl-displayText": "ጽሑፍ ኣርኢ",
+      "lbl-cubemapBake": "ብሽኮቲ ኩብካርታ",
+      "lbl-spawnPosition": "ቦታ ምፍሕፋሕ",
+      "lbl-spawnRotation": "ዑደት ስፓውን",
+      "lbl-triggerPosition": "መትከል ምግታእ",
+      "lbl-triggerRotation": "ምምሕያሽ",
+      "lbl-triggerScale": "ስፍሓት ተጐታቲ"
+    },
+    "postprocessing": {
+      "name": "ኣሰራርሓ ጶስጣ",
+      "description": "ኣሰራርሓ ጶስጣ ኣብ ትርኢትካ ኽትጥቀመሉ ትኽእል ኢኻ።"
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "ሓድሽ ፕሮጀክት",
+      "backLink": "ናብ ፕሮጀክትታት ተመለስኩ",
+      "featured": "ገጽ",
+      "all": "ኵሉ",
+      "newProject": "ሓድሽ ባዶ ፕሮጀክት",
+      "ph-search": "ትርኢት ድለዩ..."
+    },
+    "grid": {
+      "loading": "ምጻር..."
+    },
+    "page": {
+      "header": "እንቋዕ ብደሓን መጻእኩም",
+      "headerMsg": "ኣብዚ ሓድሽ እንተ ዄንካ ነቲ ትምህርቲ ኽትሓልፎ ኢና እንመኽረካ። እንተ ዘይኰይኑ ብኡንብኡ ዘሊልካ ብምእታው ካብ ቍራጽ ወይ ካብ ሓደ ኻብቲ ቕርጽታትና ፕሮጀክት ፍጠር።",
+      "lbl-startTutorial": "ትምህርቲ ጀምር",
+      "projects": "ፕሮጀክትታት",
+      "lbl-newProject": "ሓድሽ ፕሮጀክት"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "ምጻር...",
+      "placeObject": "ሓደ ነገር ኣቐምጥ",
+      "placeObjectAtOrigin": "ሓደ ነገር መበቈሉ ኣቐምጦ",
+      "copyURL": "URL ቐዲሕካ",
+      "openInNewTab": "ኣብ ሓድሽ ታብ URL ኽፈት",
+      "deleteAsset": "ንብረት ኣወግድ"
+    },
+    "filebrowser": {
+      "addNewFolder": "ሓድሽ ፋይል ወሲኽካ",
+      "cutAsset": "ቍረጽ",
+      "copyAsset": "ቅዳሕ",
+      "pasteAsset": "መቐመጢ",
+      "renameAsset": "ስም ካዕካዕ",
+      "viewAssetProperties": "ባህርያት ርኣይ"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "ስም ካዕካዕ",
+    "lbl-duplicate": "ምደጋገም",
+    "lbl-group": "ጕጅለ",
+    "lbl-delete": "ኣወግድ",
+    "lbl-expandAll": "ንዅሉ ኣስፍሖ",
+    "lbl-collapseAll": "ኵሉ ምፍራሱ",
+    "isseus": "ጕዳያት ፦"
+  },
+  "dnd": {
+    "nodes": "{{count}} ኖዶስ ተመርጸ",
+    "models": "እተመርጹ ሞደል {{count}}",
+    "images": "እተመርጸ {{count}} ምስልታት",
+    "videos": "እተመርጸ ቪድዮታት {{count}}",
+    "audio": "{{count}} እተመርጸ ምንጪ ኣውድዮ"
+  },
+  "dialog": {
+    "title": "ኣሰናዳኢ",
+    "lbl-confirm": "ሐራይ",
+    "lbl-cancel": "ደምስስ",
+    "exportProject": {
+      "title": "ፕሮጀክት ሰደድ",
+      "lbl-confirm": "ፕሮጀክት ሰደድ",
+      "lbl-combineMesh": "መሸፈኒ ኣጣምር",
+      "lbl-removeUnused": "ዘይተጠቐምካሉ ነገራት ኣወግድ"
+    },
+    "performance": {
+      "title": "ናይ ኣሰራርሓ ምርመራ",
+      "lbl-confirm": "ትርኢት ሕተም",
+      "learnMore": "ዝያዳ ተምሃር",
+      "lbl-polycount": "ቍጽሪ ብዙሐ-ግዝዋ",
+      "lbl-material": "ናውቲ",
+      "lbl-texture": "ቅርጽታት",
+      "lbl-lights": "መብራህቲ",
+      "lbl-fileSize": "መጠን ፋይል",
+      "info-polycount": "ንሞባይል ተሌፎን ካብ 50,000 ዘይበዝሕ ስሉስ ኵርናዕ ክትጥቀም ከም ዘሎካ ንምሕጸነካ።",
+      "info-material": "ኣብ ሞባይል ተሌፎን ንዚግበር ምብጻሕ ንምንካይ ካብ 25 ፍሉይ ናውቲ ንላዕሊ ኽትጥቀም ከም ዘሎካ ሓሳብ ንህብ ኢና።",
+      "info-texture": "ንሞባይል ተሌፎን ካብ 256MB ዘይበዝሕ ቪድዮ ራም ክትጥቀም ከም ዘሎካ ነመኽረካ ። ካብ 2048 x 2048 ዚዓቢ ኣሰራርሓ ኸይንጥቀም እውን ሓሳብ ንህብ ኢና ።",
+      "info-lights": "ኣብ ሞባይል ተሌፎን ብርቱዕ መብራህቲ ኺስራሕ ዘይከኣል እኳ እንተ ዀነ ኣብ ትርኢትካ ኻብ 3 ንላዕሊ መብራህቲ (ብዘይ እቲ ኣብ ከባቢኡን ኣብ ንፍቀ-ኽቢ ዚርከብ መብራህትን) ክትጥቀም ከም ዘሎካ ሓሳብ ንህብ ኢና።",
+      "info-fileSize": "ትሑት ስፍሓት ባንድ ዘለዎ ናይ መወዳእታ ፋይል ካብ 16MB ዘይበዝሕ ምዃኑ ሓሳብ ንህብ ኢና ። ግዝፊ እቲ ፋይል ምንካይ ነቲ ትርኢትካ ንምራግ ዚወስዶ ግዜ ይንክዮ።",
+      "txt-polycount": "{{count}} ስሉስ ኵርናዕ",
+      "txt-material": "{{count}} ናውቲ",
+      "txt-ram": "~{{count}} ቪድዮ ራም",
+      "txt-texture": "{{count}} ዓበይቲ ኣወሃህባታት",
+      "txt-lights": "{{count}} መብራህቲ"
+    },
+    "progress": {
+      "title": "ምጻር...",
+      "msg": "ምጻር...",
+      "lbl-cancel": "ደምስስ"
+    },
+    "publish": {
+      "title": "ትርኢት ሕተም",
+      "lbl-confirm": "ኣድሕንን ሕተምን",
+      "lbl-name": "ስም ትርኢት",
+      "info-name": "ስም ካብ 4 ኽሳዕ 64 ፊደላት ኪኸውን ኣለዎ ዜጕልሕ ነገራት እውን ኪሕዝ ኣይክእልን እዩ"
+    },
+    "published": {
+      "title": "እተሓትመ ትርኢት",
+      "header": "ትርኢትካ ተሓቲሙ ኣሎ ።",
+      "lbl-view": "ትርኢትካ ርአ"
+    },
+    "saveNewProject": {
+      "title": "ደገፍ",
+      "lbl-name": "ስም ፕሮጀክት",
+      "info-name": "ስም ካብ 4 ኽሳዕ 64 ፊደላት ኪኸውን ኣለዎ ዜጕልሕ ነገራት እውን ኪሕዝ ኣይክእልን እዩ",
+      "lbl-confirm": "ፕሮጀክት ኣዋህልል"
+    },
+    "support": {
+      "title": "ደገፍ",
+      "header": "ብዛዕባ ሓደ ጸገም ጸብጻብ ክትህብ የድልየካ ድዩ ?",
+      "msg": "ኣብ <3>{{mail}}</3> ደገፍ ንምርካብ <1>ናይ ጊትሀብ ጕዳይ</1> ክትምዝግብ ወይ ኢ-መይል ክትልእከልና ትኽእል ኢኻ",
+      "discord": "ኣብ <1>ዘይምስምማዕ</1> እውን ክትረኽቡና ትኽእሉ ኢኹም"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "ምስልታት ምስሊ",
+      "search": "ቢንግ ምንዳይ"
+    },
+    "bingVideo": {
+      "name": "ቪድዮታት ቢንግ",
+      "search": "ቢንግ ምንዳይ"
+    },
+    "element": {
+      "name": "ባእታታት"
+    },
+    "myAssets": {
+      "name": "ንብረተይ"
+    },
+    "googlePoly": {
+      "name": "ጎልጋል ፖሊ",
+      "search": "ብGoogl ድለ"
+    },
+    "tenor": {
+      "name": "ቴኖር ጂኢፍ",
+      "search": "ብቴኖር ምንዳይ",
+      "ph-search": "ጂ. ኣይ. ኤፍ."
+    },
+    "sketchfab": {
+      "name": "ስእሊ",
+      "search": "ብስኬትፋብ ምንዳይ"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "ኣታዊኣ ኣራግፍ"
+    },
+    "imageSourcePanel": {
+      "ph-search": "ምስሊ ድለ..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "ቪድዮታት ድለዩ..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "ንብረት ድለዩ..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "ሞዴላት ድለዩ..."
+    },
+    "useUpload": {
+      "multipleFileError": "ብዙሕ ፋይላት ኣይቅበልን እዩ ።",
+      "mineTypeError": "\"{{name}}\" እዚ ዚስዕብ ዓይነት ማይም ወይ ስፍሓት ኣይሰማማዕን እዩ ፦ {{types}}",
+      "progressTitle": "ፋይላት ኣራጊፍካ",
+      "progressMsg": "ፋይላት {{uploaded}} {{total}}ኣራጊፍካ ፦ {{percentage}}%",
+      "uploadError": "ጌጋታት ኣራግፍ",
+      "uploadErrorMsg": "ፋይል ኣራጊፍካ ጌጋ፦ {{message}}",
+      "uploadErrorDefaultMsg": "ዘይተፈልጠ ጌጋ ነበረ"
+    }
+  },
+  "openLink": {
+    "description": "ናብቲ ሊንክ ምእንቲ ኽትጐዓዝ በጃኻ ነቲ ኽፉት ጠውቕ።",
+    "lbl-open": "ክፉት"
+  },
+  "interactableModel": {
+    "lbl-buy": "ዓድግ",
+    "lbl-learnMore": "ዝያዳ ተምሃር"
+  },
+  "corsProxyButton": {
+    "tooltip": "ኮርስ ፕሮክሲ ሰርቨር ተጠቐም"
+  }
+}

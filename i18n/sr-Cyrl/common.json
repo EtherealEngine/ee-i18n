@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Учитавање странице..."
+  },
+  "tooltip": {
+    "pressKey": "Притисните {{tip}} на {{message}}"
+  },
+  "toast": {
+    "joined": "Придрућио",
+    "left": "Лево"
+  },
+  "navUserWidget": {
+    "login": "Пријавити се"
+  },
+  "loader": {
+    "connecting": "Повезивање са светом...",
+    "entering": "Улазак у свет...",
+    "loading": "Учитавање...",
+    "objectRemaining": "{{count}} преостали објекат",
+    "objectRemainingPlural": "{{count}} преосталих објеката",
+    "loadingObjects": "Учитавање објеката",
+    "loadingComplete": "Учитавање је довршено",
+    "joiningWorld": "Придруживање свету"
+  },
+  "alert": {
+    "eventWasSuccess": "Догађај је био успешан",
+    "errorWasEncountered": "Дошло је до грешке",
+    "eventInProgress": "Догађај је у току",
+    "seconds": "Секунди",
+    "cancelCountdown": "Затварање овог модала ће отказати одбројавање"
+  },
+  "debug": {
+    "refresh": "Освежи",
+    "stats": "Статистику",
+    "debugOptions": "Опције отклањања грешака",
+    "physicsDebug": "Физика",
+    "avatarDebug": "Аватар",
+    "nodeHelperDebug": "Помагач за главу",
+    "gridDebug": "Мрећу",
+    "simpleMaterials": "Једноставни материјали",
+    "tick": "Тик",
+    "worldStore": "Светска продавница",
+    "engineStore": "Машинско складиште",
+    "namedEntities": "Именовани ентитети",
+    "networkObject": "Мрежни објекат",
+    "networkClients": "Мрежни клијенти"
+  },
+  "recording": {
+    "videoRecorder": "Видео рекордер",
+    "waitingForPermissions": "Чекање дозвола",
+    "selectVideoSource": "Избор извора видео записа",
+    "screen": "Екрану",
+    "camera": "Камеру",
+    "microphone": "Микрофон",
+    "startRecording": "Започни снимање",
+    "pauseRecording": "Паузирај снимање",
+    "resumeRecording": "Настави снимање",
+    "stopRecording": "Заустави снимање"
+  },
+  "typing": "Куцање...",
+  "gameServer": {
+    "browserError": "Грешка прегледача",
+    "browserErrorMessage": "Ваш прегледач не подржава складиштење у приватном режиму прегледања. Покушајте са другим прегледачем или изађите из приватног режима прегледања.",
+    "noAvailableServers": "Нема доступних сервера",
+    "noAvailableServersMessage": "Нема доступних сервера за повезивање. Покушај поновног повезивања у",
+    "worldDisconnected": "Свет је искључен",
+    "worldDisconnectedMessage": "Изгубио си везу са светом. Покушаћемо поново да се повежемо пре него што истекне следеће време, у супротном ћете бити прослеђени другој инстанци.",
+    "webGLNotEnabled": "WебГЛ није омогућен",
+    "webGLNotEnabledMessage": "Ваш прегледач не подржава WебГЛ или је онемогућен. Омогућите WебГЛ или размислите о надоградњи на најновију верзију прегледача.",
+    "youKickedFromWorld": "Избачен си из света",
+    "youKickedFromWorldMessage": "Избачен си са овог света из следећег разлога",
+    "invalidLocation": "Неважећа локација",
+    "cantFindLocation": "Не можемо наћи локацију",
+    "misspelledOrNotExist": "Можда је погрешно написана или не постоји.",
+    "loading": "Учитавање",
+    "low-frame-error": "Откривена је лоша перфоманција размислите о омогућавању коришћења хардверског убрзања у прегледачу и поновном коришћењу прегледача",
+    "low-frame-title": "Омогућите хардверско убрзање ради бољег искуства!"
+  },
+  "error": {
+    "loading-error": "Учитавање корисничких података није успело",
+    "validation-error": "Унесите важеће {{type}}",
+    "login-error": "Пријављивање није успело"
+  }
+}

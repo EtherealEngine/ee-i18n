@@ -1,0 +1,202 @@
+{
+  "addComment": "Yengeza Ukukhulumela...",
+  "share": "Ukwabelana",
+  "suggestions": "Ukusikisela Kwakho",
+  "seeAll": "Bheka Konke",
+  "likes": "Izinto ezifanayo",
+  "viewComments": "Bheka konke ukukhulumela {{count}}",
+  "more": "okunye",
+  "username": "igama lomsebenzisi",
+  "fullName": "Igama Lesizungu",
+  "reportInApporpriate": "Report Inappropriate",
+  "unfollow": "Unfollow",
+  "goToPost": "Iya Eposini",
+  "shareModal": "Ukwabelana",
+  "copyLink": "Kopisha Isihlanganisi",
+  "embed": "Embed",
+  "cancel": "Khansela",
+  "confirm": "Qinisekisa",
+  "save": "Londoloza",
+  "profilePic": "{{user}}'s profile pic",
+  "ara": "Ara",
+  "follow": "Landela",
+  "flames": "Amalangabi",
+  "continue": "Qhubeka",
+  "partyInvitationSent": "Isimemo seqembu sithunyelwe",
+  "arMedia": {
+    "back": "Emuva",
+    "clip": "Isiqeshi",
+    "backgrounds": "Izizinda",
+    "start": "Qala"
+  },
+  "arMediaform": {
+    "title": "Isihloko",
+    "type": "Uhlobo",
+    "clip": "Isiqeshi",
+    "background": "Isizinda",
+    "scene": "Isimo",
+    "save": "Londoloza",
+    "manifest-file": "Bonisa ifayela .bonisa ifayela",
+    "audio-file": "Ifayela le-Mp4",
+    "dracosis-file": "Dracosis .uvol file",
+    "preview-file": "Bona ngaphambilini ifayela lesithombe"
+  },
+  "creator": {
+    "myVideos": "Amavidiyo Ami",
+    "savedVideos": "Amavidiyo Alondoloziwe",
+    "back": "Emuva",
+    "blocked-list": "Uhlu Oluvinjiwe",
+    "block-user": "Vimbela Umsebenzisi",
+    "dialog-content": "Ngeke uyibone imininingwane nokuqukethwe komsebenzisi"
+  },
+  "creatorForm": {
+    "back": "Emuva",
+    "edit": "Hlela kahle Imininingwane Egciniwe",
+    "save": "Londoloza",
+    "changeAvatar": "Guqula isithombe se-avatar",
+    "ph-selectPreview": "Khetha ukubona ngaphambilini",
+    "ph-name": "Igama lakho",
+    "ph-username": "Igama lakho lomsebenzisi",
+    "ph-email": "Iposi Lakho Le-elek",
+    "ph-tags": "Izilengiso",
+    "ph-link": "Xhumanisa",
+    "ph-aboutYou": "Okwengeziwe ngawe",
+    "ph-twitter": "twitter",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Ukusayina-Out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Abasebenzisi",
+    "feeds": "Izifunzo",
+    "arMedia": "Imidiya Yevidiyo",
+    "editor": "Umhleli",
+    "creator": "UMdali"
+  },
+  "featured": {
+    "empty-list": "Akukho zifunzo zamanje ..."
+  },
+  "feed": {
+    "back": "Emuva",
+    "related": "Ukudla okuhlobene",
+    "is-repoted-message": "Kubikwa ukudla!"
+  },
+  "feedForm": {
+    "back": "Emuva",
+    "thanks": "Ngiyabonga ngokuhlanganyela nokuthuthukisa umphakathi wethu",
+    "share": "Hlanganyela okuthile nomphakathi",
+    "upload": "Faka Ividiyo",
+    "ph-selectVideo": "Khetha Ividiyo",
+    "preview": "Bona ngaphambilini isithombe",
+    "ph-selectPreview": "Khetha ukubona ngaphambilini",
+    "createFeed": "Ukuze wakhe isifunzo kufanele ube nevidiyo nesithombe sokubuka ngaphambilini!!!",
+    "ph-videoName": "Igama levidiyo yakho",
+    "ph-type": "Bhala lokho ofuna ukukwabelana ngakho nomphakathi ... ",
+    "lbl-share": "Ukwabelana",
+    "save": "Londoloza bese uya Okulandelayo"
+  },
+  "feedMenu": {
+    "featured": "Okuboniswe",
+    "creators": "Abakhi",
+    "feed": "Ukudla"
+  },
+  "header": {
+    "lbl-volumetric": "Volumetric"
+  },
+  "login": {
+    "account": "Ingabe unokulandisa?",
+    "login": "Ngena",
+    "resetPassword": "Qalisa kabusha inkinobho yegama lokungena (lapha kungaba isihlanganisi esivela kwi-imeyli)",
+    "notHavingAccount": "Ingabe ayinayo i- akhawunti?",
+    "signUp": "Bhalisa",
+    "forgotPassword": "Ingabelibaleka igama lokungena?",
+    "back": "Emuva",
+    "or": "NOMA"
+  },
+  "comment": {
+    "add": "Yengeza impendulo yakho..."
+  },
+  "notification": {
+    "feedFire": " dubula isifunzo sakho",
+    "feedBookmarked": " isifunzo sakho",
+    "comment": " kukhulumela isifunzo sakho:",
+    "commentFire": " khipha impendulo yakho ukuze udle",
+    "follow": " iqale ukukulandela",
+    "unfollow": " misa ukulandela",
+    "followed": " kulandela wena",
+    "activity": "Umsebenzi"
+  },
+  "onBoarding": {
+    "welcome": "Wamukelekile!",
+    "description": "Iqoqo elikhulu kunawo wonke lesakhiwo esingu - 370+ se- iOS prototyping.",
+    "next": "Okulandelayo",
+    "discover": "Thola izihloko,",
+    "news": "izindaba & posts",
+    "lines": "Yileyo mizwa esenza sithande isayensi yezinkanyezi nesifiso sethu.",
+    "getStarted": "Qalisa",
+    "meetUp": "Nansi",
+    "friends": "abangane.",
+    "meet": "Ake uhlangane nabangane"
+  },
+  "shareForm": {
+    "arcMedia": "Ukwabelana",
+    "videoCreated": "Ngakha le video",
+    "shareWithBuddies": "Yabelana nababuki",
+    "shareVideo": "Yabelana Ngevidiyo",
+    "save": "Londoloza Kumqulu Wekhamera",
+    "cancel": "Khansela",
+    "close": "Vala",
+    "addFeed": "Yengeza Isifunzo"
+  },
+  "simpleModal": {
+    "emptyList": "Uhlu olungenalutho",
+    "followers": " okulandelayo",
+    "following": " abalandeli",
+    "flames": " amalangabi"
+  },
+  "splash": {
+    "screen": "Isihenqo Esihlabayo",
+    "logo": "Logo"
+  },
+  "story": {
+    "profilePic": "{{user}}'s profile pic"
+  },
+  "view": {
+    "cancel": "Khansela",
+    "choice": "Unezindlela ezimbili zokuqopha ezihlukene ongakhetha kuzo",
+    "verticalMode": "Indlela emile inamarekhodi angu - 30",
+    "horizontalMode": "Indlela evundlile inesikhathi sokuqopha esingenamkhawulo",
+    "start": "Qala",
+    "not-show": "Ungaphiki futhi",
+    "welcome": "Wamukelekile E - ARC!  Yenza ama - video omuntu siqu nomunye wama - hologram ethu bese uyifaka emizileni yakho yezokuxhumana!",
+    "step": "ISINYATHELO {{step}}",
+    "text-step-1": "Khetha i - hologram kumtapo.",
+    "text-step-2": "Lokhu kuyiqiniso elinezelwe, ngakho hlola isikhala ngekhamera yakho kusuka ohlangothini kuya kolunye lwemizuzwana engu - 3-5 lapho ufuna ukuba umsebenzi we - hologram ube khona.",
+    "text-step-3-part-1": "Tap isihenqo kanye endaweni lapho ufuna khona i - hologram isekelwe.",
+    "text-step-3-part-2": "ICEBISO!  Tap kanye nakwezinye izindawo ukuze uhambise i - hologram kwesinye isikhundla.",
+    "text-step-3-part-3": "ICEBISO!  Ungaphinda uhlanganise i - hologram ngokushaya noma ukwandisa isihenqo ngesithupha nomunwe wakho wezikhombo.",
+    "text-step-4-part-1": "Inkinobho ebomvu kabili yokuqopha iqopha ukuze iqale ukuqopha ividiyo yakho.",
+    "text-step-4-part-2": "Inkinobho ebomvu kabili yerekhodi elibomvu ku-STOP."
+  },
+  "video": {
+    "back": "Emuva"
+  },
+  "terms": {
+    "confirmTerms": "Ngiyavuma Ukuthi Nginenkonzo",
+    "confirmPolicy": "Ngivumelana Nomgomo Wobumfihlo"
+  },
+  "registration": {
+    "ph-phoneEmail": "Sebenzisa ucingo / iposi le-elekthroniki",
+    "facebook": "Qhubeka ne-Facebook",
+    "google": "Qhubeka noGoogle",
+    "linkedin": "Qhubeka ne-Linkedin",
+    "twitter": "Qhubeka noTwitter",
+    "gitHub": "Qhubeka noGitHub",
+    "connect": "Xhuma iposi lakho le-elekthroniki noma inombolo yocingo",
+    "logIn": "Ngena ngemvume",
+    "LogInTo": "Ngena ku",
+    "continueAsGuest": "Qhubeka njengesivakashi"
+  }
+}

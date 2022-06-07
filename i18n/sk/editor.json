@@ -1,0 +1,718 @@
+{
+  "loading": "Načítanie projektu",
+  "loadingMsg": "Načítava sa projekt...",
+  "loadingError": "Projekt načítania chýb",
+  "loadingErrorMsg": "Pri načítavaní projektu sa vyskytla chyba.",
+  "selectSceneMsg": "Ak chcete začať hrať s motorom, vyberte položku Scéna",
+  "error": "Chyba",
+  "errorMsg": "Vyskytla sa neznáma chyba.",
+  "generateScreenshot": "Generovanie snímky obrazovky projektu",
+  "generateScreenshotMsg": "Generuje sa snímka obrazovky projektu...",
+  "newScene": "Vytvorenie scény",
+  "saving": "Záchrana projektu",
+  "savingMsg": "Ukladá sa projekt...",
+  "savingError": "Projekt ukladania chýb",
+  "savingErrorMsg": "Pri ukladaní projektu sa vyskytla chyba.",
+  "savingSceneErrorMsg": "Scéna nie je správne načítaná. Skúste znovu načítať scénu.",
+  "duplicating": "Duplikačný projekt",
+  "duplicatingMsg": "Duplicitný projekt...",
+  "exporting": "Export projektu",
+  "exportingMsg": "Exportuje sa projekt...",
+  "exportingError": "Chyba pri exporte projektu",
+  "exportingErrorMsg": "Pri exporte projektu sa vyskytla chyba.",
+  "importLegacy": "Import Legacy World",
+  "importLegacyMsg": "Varovanie! To prepíše vašu existujúcu scénu! Ste si istý, že chcete pokračovať?",
+  "publishingError": "Projekt publikovania chýb",
+  "publishingErrorMsg": "Vyskytla sa neznáma chyba.",
+  "publishingScene": "Publikačná scéna",
+  "publishingSceneMsg": "Publikačná scéna...",
+  "uploadingThumbnailMsg": "Nahráva sa miniatúra...",
+  "uploadingSceneMsg": "Scéna nahrávania: {{percentage}}%",
+  "envMapError": "Chybové načítavanie obrázkov cubemapy {{files}}",
+  "lbl-return": "Vrátiť",
+  "menubar": {
+    "newScene": "Nová scéna",
+    "saveScene": "Uloženie scény",
+    "saveAs": "Uložiť ako",
+    "importAsset": "Import aktív",
+    "exportGLB": "Exportovať ako binárne glTF (.glb) ...",
+    "importScene": "Import scény",
+    "exportScene": "Export scény",
+    "quit": "Prestať"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Nepodporovaný typ súboru pre súbor: \"{{name}}\". Súbor musí byť obrázok, video alebo glb model.",
+    "addObject": "addObject: pred nájdením objektu",
+    "removeObject": "removeObject: uzol sa nenašiel. Je to spôsobené odstránením uzla, ktorý už nie je na scéne.",
+    "noParent": "{{node}} \"{{name}}\" nemá rodiča. Reparent pracuje iba na objektoch, ktoré sa momentálne nachádzajú na scéne.",
+    "undefinedParent": "editor.reparent: newParent je nedefinovaný",
+    "notAuthenticated": "Neoverené",
+    "fetchingProjectError": "Chybové načítavanie projektov: {{error}}",
+    "fetchingRouteError": "Trasy načítania chýb: {{error}}",
+    "unknownError": "Neznáma chyba",
+    "resolveURL": "Riešenie chýb URL \"{{url}}\":",
+    "mediaSearchAborted": "Vyhľadávanie v médiách bolo prerušené",
+    "methodNotImplemented": "Metóda nie je implementovaná.",
+    "saveProjectAborted": "Uloženie prerušenej scény",
+    "unsavedChanges": "Neuložené zmeny",
+    "unsavedChangesMsg": "Scéna bola upravená. Prosím, uložte svoje zmeny.",
+    "projectCreationFail": "Vytvorenie projektu zlyhalo. {{reason}}",
+    "projectDeletionFail": "Odstránenie projektu zlyhalo. {{reason}}",
+    "savingProjectFail": "Záchrana projektu zlyhala. {{reason}}",
+    "sceneTooLarge": "Scéna je príliš veľká ({{size}} MB) na publikovanie. Maximálna veľkosť je {{maxSize}} MB.",
+    "sceneCreationFail": "Tvorba scény zlyhala. {{reason}}",
+    "uploadAborted": "Nahratie prerušeného",
+    "uploadFailed": "Nahratie neúspešného {{reason}}",
+    "assetDeletionFail": "Vymazanie majetku zlyhalo. {{reason}}",
+    "projectAssetDeletionFail": "Odstránenie projektového majetku zlyhalo. {{reason}}",
+    "networkError": "Sieťová chyba: {{status}}. {{text}}",
+    "unknownStatus": "Neznámy stav",
+    "CORS": "Možná chyba CORS",
+    "urlFetchError": "Nepodarilo sa prinavrátiť \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Zobrazenia",
+    "command": {
+      "movecamera": "Premiestnenie kamery",
+      "flyFast": "Lietajte rýchlejšie",
+      "orbit": "Obežná dráha / Výber",
+      "pan": "Panvica",
+      "fly": "Letieť",
+      "focus": "Zamerať",
+      "rotateLeft": "Otočiť doľava",
+      "rotateRight": "Otočiť doprava",
+      "cancelPlacement": "Zrušenie umiestnenia",
+      "placeDuplicate": "Umiestnenie duplikátu",
+      "cancelGrab": "Zrušiť uchopenie",
+      "grab": "Uchopiť",
+      "deselectAll": "Zrušiť výber všetkých"
+    },
+    "state": {
+      "header": "Štatistiky",
+      "memory": "Pamäť",
+      "geometries": "Geometrie",
+      "textures": "Textúry",
+      "render": "Podať",
+      "FPS": "FPS",
+      "frameTime": "Čas snímok",
+      "calls": "Hovory",
+      "triangles": "Trojuholníky",
+      "points": "Body",
+      "lines": "Riadky"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Publikovať",
+    "lbl-published": "Uverejnené",
+    "command": {
+      "translate": "Prekladať",
+      "rotate": "Rotovať",
+      "scale": "Stupnica",
+      "toggleSpace": "Prepínanie transformačného priestoru",
+      "togglePivot": "Prepínanie transformačného pivota",
+      "toggleSnapMode": "Prepínanie režimu prichytenia",
+      "toggleGrid": "Prepínanie viditeľnosti mriežky",
+      "increaseGridSize": "Zväčšenie veľkosti mriežky",
+      "descreaseGridSize": "Zmenšenie veľkosti mriežky",
+      "stopPreview": "Zastavenie ukážky scény",
+      "playPreview": "Ukážková scéna"
+    }
+  },
+  "properties": {
+    "title": "Vlastnosti",
+    "lbl-visible": "Viditeľný",
+    "lbl-preventBake": "Zabrániť pečeniu",
+    "lbl-persist": "Pretrvávať",
+    "multipleNodeSelected": "Vybraté viaceré uzly rôznych typov",
+    "noNodeSelected": "Nie je vybratý žiadny uzol",
+    "ambientLight": {
+      "name": "Okolité svetlo",
+      "description": "Svetlo, ktoré osvetľuje všetky objekty vo vašej scéne.",
+      "lbl-intensity": "Intenzita",
+      "lbl-color": "Farba"
+    },
+    "envmap": {
+      "name": "Mapa životného prostredia",
+      "description": "vlastnosti mapy prostredia"
+    },
+    "asset": {
+      "name": "Majetok",
+      "description": "Zoskupenie komponentov scény, ktoré je možné dynamicky nakladať a vykladať",
+      "lbl-options": "Možnosti",
+      "lbl-assetPath": "Cesta aktív",
+      "lbl-assetName": "Názov exportu",
+      "lbl-exportOptions": "Možnosti exportu",
+      "lbl-export": "Export aktívum",
+      "lbl-load": "Načítanie na scénu",
+      "lbl-unload": "Uvoľniť",
+      "lbl-reload": "Reload"
+    },
+    "audio": {
+      "name": "Zvukový",
+      "description": "Dynamicky načítava zvuk.",
+      "lbl-audiourl": "Zvuková URL adresa",
+      "lbl-controls": "Ovládacie prvky",
+      "info-controls": "Prepínanie viditeľnosti ovládacích prvkov médií.",
+      "lbl-autoplay": "Automatické prehrávanie",
+      "info-autoplay": "Ak je to pravda, médiá budú hrať pri prvom vstupe na scénu.",
+      "lbl-synchronize": "Synchronizovať",
+      "info-synchronize": "Ak je to pravda, médium sa synchronizuje so všetkými pripojenými klientmi.",
+      "lbl-loop": "Slučka",
+      "info-loop": "Ak je to pravda, médiá budú zvoniť donekonečna.",
+      "lbl-audioType": "Typ zvuku",
+      "lbl-distanceModel": "Model vzdialenosti",
+      "info-distanceModel": "Algorithim používal na výpočet zvukového rolloffu.",
+      "lbl-rolloffFactor": "Faktor rolloff",
+      "info-rolloffFactor": "Dvojitá hodnota popisujúca, ako rýchlo sa hlasitosť zníži, keď sa zdroj vzdiali od poslucháča. 0 až 1",
+      "info-rfInfinity": "Dvojitá hodnota popisujúca, ako rýchlo sa hlasitosť zníži, keď sa zdroj vzdiali od poslucháča. 0 do nekonečna",
+      "lbl-refDistance": "Ref vzdialenosť",
+      "info-refDistance": "Dvojitá hodnota predstavujúca referenčnú vzdialenosť na zníženie hlasitosti, keď sa zdroj zvuku pohybuje ďalej od poslucháča.",
+      "lbl-maxDistance": "Maximálna vzdialenosť",
+      "info-maxDistance": "Dvojitá hodnota predstavujúca maximálnu vzdialenosť medzi zdrojom zvuku a poslucháčom, po ktorej sa hlasitosť ďalej neznižuje.",
+      "lbl-coneInnerAngle": "Vnútorný uhol kužeľa",
+      "info-coneInnerAngle": "Dvojitá hodnota popisujúca uhol kužeľa v stupňoch, vo vnútri ktorého nedôjde k zníženiu objemu.",
+      "lbl-coneOuterAngle": "Vonkajší uhol kužeľa",
+      "info-coneOuterAngle": "Dvojitá hodnota popisujúca uhol kužeľa, mimo ktorého sa objem zníži o konštantnú hodnotu, definovanú atribútom coneOuterGain v stupňoch.",
+      "lbl-coreOuterGain": "Kužeľ vonkajší zisk",
+      "info-coreOuterGain": "Dvojitá hodnota popisujúca množstvo zníženia objemu mimo kužeľa definovaná atribútom coneOuterAngle. Jeho predvolená hodnota je 0, čo znamená, že nie je počuť žiadny zvuk.",
+      "lbl-volume": "Objem",
+      "lbl-play": "Hrať",
+      "lbl-pause": "Pauza",
+      "error-url": "Chybové načítavanie z URL adresy"
+    },
+    "boxCollider": {
+      "description": "Neviditeľná krabica, od ktorej sa objekty odrazia alebo spočinie.\nBez urýchľovačov budú objekty padať cez podlahy a prechádzať cez steny.",
+      "lbl-isTrigger": "Spustiť"
+    },
+    "camera": {
+      "name": "Fotoaparát",
+      "description": "Nastavenia fotoaparátu.",
+      "lbl-camera-raycast": "Fotoaparát Raycasting",
+      "lbl-camera-raycast-toggle": "Povolené",
+      "lbl-camera-raycast-frequency": "Frekvencia",
+      "lbl-camera-raycast-count": "Počet lúčov",
+      "lbl-camera-raycast-length": "Dĺžka lúča"
+    },
+    "directionalLight": {
+      "name": "Smerové svetlo",
+      "description": "Svetlo, ktoré osvetľuje celú scénu, ale vyžaruje jedným smerom.",
+      "lbl-color": "Farba",
+      "lbl-intensity": "Intenzita",
+      "lbl-cameraFar": "Fotoaparát ďaleko",
+      "lbl-cameraNear": "Fotoaparát v blízkosti",
+      "lbl-cameraTop": "Vrchná časť fotoaparátu",
+      "lbl-cameraBottom": "Spodná časť fotoaparátu",
+      "lbl-cameraLeft": "Fotoaparát vľavo",
+      "lbl-cameraRight": "Fotoaparát vpravo",
+      "lbl-useInCSM": "Použitie v CSM",
+      "lbl-castShadow": "Vrhajte tieň",
+      "lbl-disableForCSM": "Zakázané, pretože je povolená tieňová mapa Kaskády.",
+      "lbl-shadowmapResolution": "Rozlíšenie tieňovej mapy",
+      "lbl-shadowBias": "Tieňové skreslenie",
+      "lbl-shadowRadius": "Polomer tieňa",
+      "lbl-showCameraHelper": "Zobraziť pomocníka fotoaparátu"
+    },
+    "groundPlane": {
+      "name": "Pozemná rovina",
+      "description": "Rovinatá prízemná rovina, ktorá siaha do diaľky.",
+      "lbl-color": "Farba",
+      "lbl-receiveShadow": "Prijať tieň",
+      "lbl-generateNavmesh": "Generovať Navmesh"
+    },
+    "link": {
+      "description": "Prepojenie na izbu alebo webovú stránku.",
+      "lbl-url": "URL adresa"
+    },
+    "map": {
+      "description": "3D geopriestorová mapa napr. mesta."
+    },
+    "model": {
+      "description": "3D model vo vašej scéne načítaný z URL alebo súboru GLTF.",
+      "lbl-usingGPUInstancingFlag": "Použitie GPU v stoji",
+      "lbl-modelurl": "Url adresa modelu",
+      "lbl-envmapUrl": "Url adresa mapy prostredia",
+      "lbl-textureOverride": "Prepísanie textúry",
+      "lbl-materialOverride": "Prepisovanie materiálu",
+      "error-url": "Chybové načítavanie z URL adresy",
+      "lbl-loopAnimation": "Animácia slučky",
+      "lbl-isAvatar": "Ako vysloviť Avatar",
+      "lbl-isGPUInstancing": "Používa GPU vstanci",
+      "lbl-isDynamic": "Je dynamický",
+      "lbl-castShadow": "Vrhajte tieň",
+      "lbl-receiveShadow": "Prijať tieň",
+      "lbl-interactable": "Interagovateľné",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "Meno",
+      "lbl-url": "Url adresa modelu",
+      "lbl-buy": "Zakúpenie URL adresy",
+      "lbl-learnMore": "Ďalšie informácie o URL adrese",
+      "lbl-htmlContent": "Html Obsah",
+      "lbl-interactionText": "Text interakcie",
+      "lbl-interactionType": "Typ interakcie"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Materiál",
+      "error-materialID": "Materiál na vyhľadávanie chýb",
+      "placeholder-materialID": "Výber materiálu",
+      "lbl-patternTarget": "Zhoda vzorov",
+      "lbl-pattern": "Vzorka",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Typ interakcie",
+      "text": "Text interakcie",
+      "distance": "Interakčná vzdialenosť",
+      "theme": "Téma interakcie",
+      "name": "Názov interakcie",
+      "description": "Popis interakcie",
+      "images": "Obrázky interakcie",
+      "videos": "Interakčné videá",
+      "urls": "Url adresy interakcie",
+      "models": "Interakčné modely"
+    },
+    "group": {
+      "name": "Skupina",
+      "description": "Skupina viacerých objektov, ktoré je možné premiestniť alebo duplikovať dohromady.\nPresuňte objekty do skupiny v hierarchii."
+    },
+    "hemisphere": {
+      "name": "Svetlo hemisféry",
+      "description": "Svetlo, ktoré osvetľuje scénu priamo nad hlavou.",
+      "lbl-skyColor": "Farba oblohy",
+      "lbl-groundColor": "Farba zeme",
+      "lbl-intensity": "Intenzita"
+    },
+    "image": {
+      "name": "Obraz",
+      "description": "Dynamicky načíta obrázok.",
+      "lbl-imgURL": "Url adresa obrázka",
+      "lbl-transparency": "Režim priehľadnosti",
+      "lbl-alphaCutoff": "Alfa cutoff",
+      "lbl-projection": "Výčnelok",
+      "lbl-side": "Strana",
+      "info-controls": "Prepínanie viditeľnosti ovládacích prvkov médií.",
+      "info-transparency": "Ako aplikovať transparentnosť:",
+      "info-opaque": "\"nepriehľadné\" = žiadna transparentnosť",
+      "info-blend": "\"blend\" = použitie alfa kanála obrázkov",
+      "info-mask": "\"maska\" = Použitie stanovenej hraničnej hodnoty pre priehľadnosť zapnutia a vypnutia (výkonnejší)",
+      "info-alphaCutoff": "Pixely s alfa hodnotami nižšími ako táto budú transparentné",
+      "error-url": "Neplatná ADRESA URL"
+    },
+    "name": {
+      "lbl-name": "Meno"
+    },
+    "partileEmitter": {
+      "description": "Žiarič častíc na vytváranie častíc.",
+      "lbl-particleCount": "Počet častíc",
+      "lbl-image": "Obraz",
+      "lbl-ageRandomness": "Veková náhodnosť",
+      "lbl-lifetime": "Životnosť",
+      "lbl-lifetimeRandomness": "Doživotná náhodnosť",
+      "lbl-sizeCurve": "Krivka veľkosti",
+      "lbl-startPSize": "Spustenie veľkosti častíc",
+      "lbl-endPSize": "Veľkosť koncových častíc",
+      "lbl-sizeRandomness": "Veľkosť Náhodnosť",
+      "lbl-colorCurve": "Farebná krivka",
+      "lbl-startColor": "Farba spustenia",
+      "lbl-startOpacity": "Spustenie nepriehľadnosti",
+      "lbl-middleColor": "Stredná farba",
+      "lbl-middleOpacity": "Stredná nepriehľadnosť",
+      "lbl-endColor": "Koncová farba",
+      "lbl-endOpacity": "Koniec nepriehľadnosti",
+      "lbl-velocityCurve": "Krivka rýchlosti",
+      "lbl-startVelocity": "Štartovacia rýchlosť",
+      "lbl-endVelocity": "Koncová rýchlosť",
+      "lbl-angularVelocity": "Uhlová rýchlosť",
+      "info-ageRandomness": "Množstvo variácií medzi tým, kedy sa častice splodia.",
+      "info-lifetime": "Maximálny vek častice pred jej respawnovaním.",
+      "info-lifetimeRandomness": "Množstvo rozdielov medzi životnosťou častíc.",
+      "info-sizeRandomness": "Množstvo variácií medzi počiatočnými veľkosťami častíc.",
+      "error-url": "Chybové načítavanie z URL adresy"
+    },
+    "clouds": {
+      "name": "Oblak",
+      "description": "Objem cloudu založený na Sprite.",
+      "lbl-image": "Obrázok Sprite",
+      "lbl-wroldScale": "Svetová mierka",
+      "lbl-dimensions": "Rozmery",
+      "lbl-noiseZoom": "Zoom šumu",
+      "lbl-noiseOffset": "Odsadenie hluku",
+      "lbl-spriteScale": "Spriteho stupnica",
+      "lbl-fogColor": "Farba hmly",
+      "lbl-fogRange": "Rozsah hmly",
+      "error-url": "Chybové načítavanie z URL adresy"
+    },
+    "ocean": {
+      "name": "Oceán",
+      "description": "Povrch oceánu s vlnami a penou",
+      "lbl-normalMap": "Normálna mapa",
+      "lbl-distortionMap": "Mapa skreslenia",
+      "lbl-envMap": "Mapa životného prostredia",
+      "lbl-color": "Farba",
+      "lbl-shallowWaterColor": "Plytká farba vody",
+      "lbl-shallowToDeepDistance": "Plytké do hlbokej vzdialenosti",
+      "lbl-opacityFadeDistance": "Vzdialenosť vyblednutia nepriehľadnosti",
+      "lbl-opacityRange": "Rozsah nepriehľadnosti",
+      "lbl-shininess": "Lesk",
+      "lbl-reflectivity": "Odrazivosť",
+      "lbl-foamColor": "Penová farba",
+      "lbl-foamSpeed": "Rýchlosť peny",
+      "lbl-foamTiling": "Penové obklady",
+      "lbl-bigWaveTiling": "Obklady veľkých vĺn",
+      "lbl-bigWaveSpeed": "Rýchlosť veľkých vĺn",
+      "lbl-bigWaveHeight": "Výška veľkej vlny",
+      "lbl-waveSpeed": "Rýchlosť vlny",
+      "lbl-waveScale": "Vlnová stupnica",
+      "lbl-waveTiling": "Vlnové obklady",
+      "lbl-waveDistortionSpeed": "Rýchlosť skreslenia vlny",
+      "lbl-waveDistortionTiling": "Obklady skreslenia vĺn",
+      "error-url": "Chybové načítavanie z URL adresy"
+    },
+    "water": {
+      "name": "Voda",
+      "description": "Malá vodná plocha"
+    },
+    "interior": {
+      "name": "Vnútorný",
+      "description": "Povrch so zmapovanou textúrou kocky napodobňujúci vnútorné prostredie",
+      "lbl-cubeMap": "Textúra mapy kocky",
+      "lbl-tiling": "Množstvo obkladov",
+      "lbl-size": "Veľkosť povrchu",
+      "error-url": "Chybové načítavanie z URL adresy"
+    },
+    "pointLight": {
+      "description": "Svetlo, ktoré vyžaruje vo všetkých smeroch z jedného bodu.",
+      "lbl-color": "Farba",
+      "lbl-intensity": "Intenzita",
+      "lbl-range": "Rozsah",
+      "lbl-decay": "Hniť"
+    },
+    "scene": {
+      "name": "Scéna",
+      "description": "Hlavný objekt scény.",
+      "lbl-bgcolor": "Farba pozadia",
+      "lbl-fogType": "Typ hmly",
+      "lbl-fogColor": "Farba hmly",
+      "lbl-forNearDistance": "Hmla v blízkosti vzdialenosti",
+      "lbl-fogFarDistance": "Hmla ďaleko",
+      "lbl-fogDensity": "Hustota hmly",
+      "lbl-audioSettings": "Použitie polohového zvuku",
+      "lbl-avatarDistanceModel": "Avatar dištančný model",
+      "lbl-avatarRolloffFactor": "Avatar Rolloff Factor",
+      "lbl-avatarRefDistance": "Vzdialenosť Avatar Ref",
+      "lbl-avatarMaxDistance": "Avatar Maximálna vzdialenosť",
+      "lbl-mediaVolume": "Objem médií",
+      "lbl-mediaDistanceModel": "Model vzdialenosti médií",
+      "lbl-mediaRolloffFactor": "Faktor rolloffu médií",
+      "lbl-mediaRefDistance": "Vzdialenosť media ref",
+      "lbl-mediaMaxDistance": "Médium Maximálna vzdialenosť",
+      "lbl-mediaConeInnerAngle": "Vnútorný uhol mediálneho kužeľa",
+      "lbl-mediaConeOuterAngle": "Vonkajší uhol kužeľa média",
+      "lbl-mediaConeOuterGain": "Mediálny kužeľ Vonkajší zisk",
+      "info-avatarDistanceModel": "Algorithim používal na výpočet zvukového rolloffu.",
+      "info-avatarRolloffFactor": "Dvojitá hodnota popisujúca, ako rýchlo sa hlasitosť zníži, keď sa zdroj vzdiali od poslucháča. 0 až 1",
+      "info-avatarRolloffFactorInifinity": "Dvojitá hodnota popisujúca, ako rýchlo sa hlasitosť zníži, keď sa zdroj vzdiali od poslucháča. 0 do nekonečna",
+      "info-avatarRefDistance": "Dvojitá hodnota predstavujúca referenčnú vzdialenosť na zníženie hlasitosti, keď sa zdroj zvuku pohybuje ďalej od poslucháča.",
+      "info-avatarMaxDistance": "Dvojitá hodnota predstavujúca maximálnu vzdialenosť medzi zdrojom zvuku a poslucháčom, po ktorej sa hlasitosť ďalej neznižuje.",
+      "info-mediaDistanceModel": "Algorithim používal na výpočet zvukového rolloffu.",
+      "info-mediaRolloffFactor": "Dvojitá hodnota popisujúca, ako rýchlo sa hlasitosť zníži, keď sa zdroj vzdiali od poslucháča. 0 až 1",
+      "info-mediaRolloffFactorInfinity": "Dvojitá hodnota popisujúca, ako rýchlo sa hlasitosť zníži, keď sa zdroj vzdiali od poslucháča. 0 do nekonečna",
+      "info-mediaRefDistance": "Dvojitá hodnota predstavujúca referenčnú vzdialenosť na zníženie hlasitosti, keď sa zdroj zvuku pohybuje ďalej od poslucháča.",
+      "info-mediaMaxDistance": "Dvojitá hodnota predstavujúca maximálnu vzdialenosť medzi zdrojom zvuku a poslucháčom, po ktorej sa hlasitosť ďalej neznižuje.",
+      "info-mediaConeInnerAngle": "Dvojitá hodnota popisujúca uhol kužeľa v stupňoch, vo vnútri ktorého nedôjde k zníženiu objemu.",
+      "info-mediaConeOuterAngle": "Dvojitá hodnota popisujúca uhol kužeľa, mimo ktorého sa objem zníži o konštantnú hodnotu, definovanú atribútom coneOuterGain v stupňoch.",
+      "info-mediaConeOuterGain": "Dvojitá hodnota popisujúca množstvo zníženia objemu mimo kužeľa definovaná atribútom coneOuterAngle. Jeho predvolená hodnota je 0, čo znamená, že nie je počuť žiadny zvuk.",
+      "lbl-simpleMaterials": "Používajte jednoduché materiály",
+      "lbl-lods": "LODs",
+      "info-lods": "Nastaví vzdialenosti, v ktorých sa menia úrovne detailov.",
+      "info-simpleMaterials": "Konvertuje všetky drahé materiály na jednoduchšie, aby sa zaťaženie odstránilo z vykresľovania scény.",
+      "lbl-rendererSettings": "Prepísanie nastavení vykresľovača",
+      "lbl-csm": "Kaskádové tieňové mapy",
+      "info-csm": "Umožňuje kaskádové tieňové mapy.",
+      "lbl-toneMapping": "Mapovanie tónov",
+      "info-toneMapping": "Umožňuje mapovanie tónov na vykresľovači scény. Nemá žiadny účinok, keď je povolené následné spracovanie.",
+      "lbl-toneMappingExposure": "Expozícia mapovania tónu",
+      "info-toneMappingExposure": "Určuje expozíciu mapovania tónu na vykresľovači scény. Nemá žiadny účinok, keď je povolené následné spracovanie.",
+      "lbl-shadowMapType": "Typ tieňovej mapy",
+      "info-shadowMapType": "Typ tieňovej mapy",
+      "error-url": "Chybové načítavanie z URL adresy"
+    },
+    "sceneCamera": {
+      "name": "Ukážková kamera scény",
+      "description": "Fotoaparát použitý na generovanie miniatúry pre vašu scénu a východiskovú pozíciu pre náhľadovú kameru.",
+      "lbl-setFromViewPort": "Množina z zobraziť zobrazenie"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "Čas dňa",
+      "lbl-color": "Farba",
+      "lbl-latitude": "Zemepisná šírka",
+      "lbl-luminance": "Svietivosť",
+      "lbl-scattering": "Rozptylové množstvo",
+      "lbl-scatteringDistance": "Rozptylová vzdialenosť",
+      "lbl-horizonStart": "Začiatok horizontu",
+      "lbl-horizonEnd": "Koniec horizontu",
+      "lbl-texture": "Textúra",
+      "lbl-skyType": "Typ oblohy",
+      "error-url": "Chybové načítavanie z URL adresy"
+    },
+    "spawnPoint": {
+      "name": "Bod trenia",
+      "description": "Bod, v ktorom sa ľudia objavia, keď vstúpia na vašu scénu.\nIkona v zobrazení predstavuje skutočnú veľkosť avatara."
+    },
+    "spotLight": {
+      "description": "Svetlo, ktoré vyžaruje smerom a osvetľuje objekty v kužeľu.",
+      "lbl-color": "Farba",
+      "lbl-intensity": "Intenzita",
+      "lbl-penumbra": "Polotieň",
+      "lbl-angle": "Uhol",
+      "lbl-range": "Rozsah",
+      "lbl-decay": "Hniť"
+    },
+    "transform": {
+      "title": "Transformovať",
+      "lbl-postition": "Pozícia",
+      "lbl-rotation": "Rotácia",
+      "lbl-scale": "Stupnica"
+    },
+    "triggereVolume": {
+      "description": "Nastaví vlastnosť cieľového objektu pri vstupe a odchode.",
+      "lbl-target": "Namietať",
+      "lbl-onenter": "Pri vstupe",
+      "lbl-onexit": "Pri výstupe",
+      "lbl-showHelper": "Zobrazenie sieťky Pomocníka",
+      "ph-errorNode": "Chyba chýba uzol.",
+      "ph-selectNode": "Vyberte uzol..."
+    },
+    "video": {
+      "name": "Video",
+      "description": "Dynamicky načíta video.",
+      "lbl-video": "Video",
+      "lbl-projection": "Výčnelok",
+      "lbl-islivestream": "Priamy prenos",
+      "lbl-interactable": "Interagovateľné",
+      "lbl-id": "Identifikácia prvku",
+      "lbl-play": "Hrať",
+      "lbl-pause": "Pauza",
+      "error-url": "Chybové načítavanie z URL adresy"
+    },
+    "volumetric": {
+      "name": "Objemová",
+      "description": "Dynamicky načítava objemové video.",
+      "uvolPaths": "Cesty UVOL",
+      "playmode": "Režim prehrávania",
+      "playtitle": "Hrať",
+      "pausetitle": "Pauza"
+    },
+    "spline": {
+      "description": "Dynamicky vytvárajte a prispôsobte krivky.",
+      "lbl-addNode": "Pridajte uzol do krivky."
+    },
+    "systemnode": {
+      "description": "Priložiť skript.",
+      "lbl-filePath": "URL adresa",
+      "lbl-systemUpdateType": "Bod vstrekovania",
+      "lbl-enableClient": "Klient",
+      "lbl-enableServer": "Server",
+      "lbl-args": "Args",
+      "error-url": "Chybové načítavanie skriptu z adresy URL"
+    },
+    "portal": {
+      "lbl-portal": "Prepojený portál",
+      "lbl-redirect": "Použitie presmerovania stránky",
+      "description": "Portat na teleportovanie hráčov na určené miesto",
+      "lbl-locationName": "Miesto",
+      "lbl-modelUrl": "Url adresa modelu",
+      "lbl-displayText": "Zobrazenie textu",
+      "lbl-cubemapBake": "Cubemapové pečenie",
+      "lbl-spawnPosition": "Poloha trenia",
+      "lbl-spawnRotation": "Rotácia trenia",
+      "lbl-triggerPosition": "Pozícia spúšťača",
+      "lbl-triggerRotation": "Otáčanie spúšte",
+      "lbl-triggerScale": "Spúšťacia stupnica"
+    },
+    "postprocessing": {
+      "name": "Následné spracovanie",
+      "description": "Na aplikáciu efektov následného spracovania na scénu."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Nový projekt",
+      "backLink": "Späť na Projekty",
+      "featured": "Odporúčané",
+      "all": "Všetko",
+      "newProject": "Nový prázdny projekt",
+      "ph-search": "Vyhľadávajú sa scény..."
+    },
+    "grid": {
+      "loading": "Nakladanie..."
+    },
+    "page": {
+      "header": "Vitaj",
+      "headerMsg": "Ak ste tu nový, odporúčame prejsť si tutoriál. V opačnom prípade skočte priamo dovnútra a vytvorte projekt od nuly alebo z jednej z našich šablón.",
+      "lbl-startTutorial": "Spustiť výukový program",
+      "projects": "Projekty",
+      "lbl-newProject": "Nový projekt"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Nakladanie...",
+      "placeObject": "Umiestnenie objektu",
+      "placeObjectAtOrigin": "Umiestnenie objektu na pôvod",
+      "copyURL": "Kopírovanie URL adresy",
+      "openInNewTab": "Otvorenie URL adresy na novej karte",
+      "deleteAsset": "Odstránenie majetku"
+    },
+    "filebrowser": {
+      "addNewFolder": "Pridanie nového priečinka",
+      "cutAsset": "Rezať",
+      "copyAsset": "Kopírovať",
+      "pasteAsset": "Prilepiť",
+      "renameAsset": "Premenovať",
+      "viewAssetProperties": "Zobrazenie vlastností"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Premenovať",
+    "lbl-duplicate": "Duplikát",
+    "lbl-group": "Skupina",
+    "lbl-delete": "Odstrániť",
+    "lbl-expandAll": "Rozšírte všetko",
+    "lbl-collapseAll": "Zrútenie všetkých",
+    "isseus": "Problémy:"
+  },
+  "dnd": {
+    "nodes": "vybraté {{count}} uzly",
+    "models": "{{count}} vybrané modely",
+    "images": "{{count}} vybraté obrázky",
+    "videos": "{{count}} vybraté videá",
+    "audio": "{{count}} vybraté zdroje zvuku"
+  },
+  "dialog": {
+    "title": "Editor",
+    "lbl-confirm": "Ok",
+    "lbl-cancel": "Zrušiť",
+    "exportProject": {
+      "title": "Export projektu",
+      "lbl-confirm": "Export projektu",
+      "lbl-combineMesh": "Kombinovanie ôk",
+      "lbl-removeUnused": "Odstránenie nepoužitých objektov"
+    },
+    "performance": {
+      "title": "Kontrola výkonnosti",
+      "lbl-confirm": "Publikovať scénu",
+      "learnMore": "Zistiť viac",
+      "lbl-polycount": "Počet polygónov",
+      "lbl-material": "Materiály",
+      "lbl-texture": "Textúry",
+      "lbl-lights": "Svetla",
+      "lbl-fileSize": "Veľkosť súboru",
+      "info-polycount": "Odporúčame, aby vaša scéna nepoužívala viac ako 50 000 trojuholníkov pre mobilné zariadenia.",
+      "info-material": "Odporúčame použiť vo vašej scéne najviac 25 jedinečných materiálov na zníženie volaní na mobilných zariadeniach.",
+      "info-texture": "Odporúčame, aby vaše textúry nepoužívali viac ako 256 MB video RAM pre mobilné zariadenia. Odporúčame tiež nepoužívať textúry väčšie ako 2048 x 2048.",
+      "info-lights": "Zatiaľ čo dynamické svetlá nie sú povolené na mobilných zariadeniach, odporúčame vo vašej scéne používať najviac 3 svetlá (okrem okolitých a hemisférových svetiel), aby vaša scéna bežala na počítačoch nižšej triedy.",
+      "info-fileSize": "Pre pripojenie s nízkou šírkou pásma odporúčame konečnú veľkosť súboru najviac 16 MB. Zmenšením veľkosti súboru sa skráti čas potrebný na stiahnutie scény.",
+      "txt-polycount": "{{count}} trojuholníky",
+      "txt-material": "{{count}} materiály",
+      "txt-ram": "~{{count}} Video RAM",
+      "txt-texture": "{{count}} veľké textúry",
+      "txt-lights": "{{count}} svetlá"
+    },
+    "progress": {
+      "title": "Nakladanie...",
+      "msg": "Nakladanie...",
+      "lbl-cancel": "Zrušiť"
+    },
+    "publish": {
+      "title": "Publikovať scénu",
+      "lbl-confirm": "Uloženie a publikovanie",
+      "lbl-name": "Názov scény",
+      "info-name": "Názov musí byť medzi 4 a 64 znakmi a nemôže obsahovať podčiarknutia"
+    },
+    "published": {
+      "title": "Scéna publikovaná",
+      "header": "Vaša scéna bola zverejnená.",
+      "lbl-view": "Zobrazenie scény"
+    },
+    "saveNewProject": {
+      "title": "Podporovať",
+      "lbl-name": "Názov projektu",
+      "info-name": "Názov musí byť medzi 4 a 64 znakmi a nemôže obsahovať podčiarknutia",
+      "lbl-confirm": "Uloženie Projektu"
+    },
+    "support": {
+      "title": "Podporovať",
+      "header": "Potrebujete nahlásiť problém?",
+      "msg": "Môžete podať <1>GitHub Issue</1> alebo nám poslať e-mail na podporu na <3>{{mail}}</3>",
+      "discord": "Nájdete nás aj na <1>Discorde</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Obrázky Bing",
+      "search": "Vyhľadávanie podľa Bingu"
+    },
+    "bingVideo": {
+      "name": "Videá bingu",
+      "search": "Vyhľadávanie podľa Bingu"
+    },
+    "element": {
+      "name": "Prvky"
+    },
+    "myAssets": {
+      "name": "Môj majetok"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Vyhľadávanie podľa Google"
+    },
+    "tenor": {
+      "name": "Tenorové GIF",
+      "search": "Vyhľadávanie podľa Tenor",
+      "ph-search": "Vyhľadávajú gify..."
+    },
+    "sketchfab": {
+      "name": "Sketchfab",
+      "search": "Vyhľadávanie podľa Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Nahratie aktíva"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Vyhľadávajú sa obrázky..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Vyhľadávajú sa videá..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Vyhľadávajú sa aktíva..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Vyhľadávajú sa modely..."
+    },
+    "useUpload": {
+      "multipleFileError": "Vstup neakceptuje viac súborov.",
+      "mineTypeError": "\"{{name}}\" sa nezhoduje s nasledujúcimi typmi alebo rozšíreniami mímov: {{types}}",
+      "progressTitle": "Nahrávanie súborov",
+      "progressMsg": "Nahrávanie súborov {{uploaded}} {{total}}: {{percentage}}%",
+      "uploadError": "Chyba nahrávania",
+      "uploadErrorMsg": "Súbor na nahrávanie chýb: {{message}}",
+      "uploadErrorDefaultMsg": "Vyskytla sa neznáma chyba"
+    }
+  },
+  "openLink": {
+    "description": "Kliknutím na tlačidlo Otvoriť prejdite na prepojenie.",
+    "lbl-open": "Otvorený"
+  },
+  "interactableModel": {
+    "lbl-buy": "Kúpiť",
+    "lbl-learnMore": "Zistiť viac"
+  },
+  "corsProxyButton": {
+    "tooltip": "Používanie servera Cors Proxy Server"
+  }
+}

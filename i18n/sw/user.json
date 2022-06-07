@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Barua pepe ya Uthibitisho",
+      "resendEmail": "Tafadhali angalia barua pepe yako ili kuthibitisha akaunti yako. Ikiwa haukupata barua pepe, tafadhali bofya {{here}} ili kutuma tena barua pepe ya uthibitishaji.",
+      "haveAnAccount": "Je, una akaunti?"
+    },
+    "forgotPassword": {
+      "header": "Imesahau Nywila",
+      "enterEmail": "Tafadhali ingiza anwani yako ya barua pepe iliyosajiliwa na tutakutumia kiungo cha kuweka upya nenosiri.",
+      "lbl-email": "Anwani ya Barua pepe",
+      "lbl-submit": "Tuma Kiungo",
+      "emailSent": "Weka upya Barua pepe ya Nywila ilitumwa. Tafadhali angalia barua pepe yako."
+    },
+    "login": {
+      "email": "| barua pepe SMS",
+      "username": "Jina la Mtumiaji + Nenosiri",
+      "social": "Kijamii"
+    },
+    "magiklink": {
+      "header": "Kiungo cha Kuingia",
+      "descriptionEmail": "Tafadhali ingiza anwani yako ya barua pepe na tutakutumia kiungo cha kuingia kupitia Barua pepe.",
+      "descriptionSMS": "Tafadhali ingiza nambari yako ya simu na tutakutumia kiungo cha kuingia kupitia SMS.",
+      "descriptionEmailSMS": "Tafadhali ingiza anwani yako ya barua pepe au nambari ya simu (tarakimu 10, Us tu) na tutakutumia kiungo cha kuingia kupitia Barua pepe au SMS.",
+      "descriptionSMSUS": "Tafadhali ingiza nambari yako ya simu (tarakimu 10, Us tu) na tutakutumia kiungo cha kuingia kupitia SMS.",
+      "lbl-email": "Anwani ya barua pepe",
+      "lbl-emailPhone": "Barua pepe au nambari ya simu",
+      "lbl-phone": "Namba ya simu",
+      "agree": "Nakubaliana na ",
+      "terms": "Masharti na Masharti",
+      "lbl-submit": "Tuma Kiungo cha Kuingia",
+      "email-sent-msg": "Ingia Magic Link ilitumwa. Tafadhali angalia barua pepe yako.",
+      "success-msg": "Ingia Magic Link ilitumwa. Tafadhali angalia barua pepe yako au SMS.",
+      "sms-sent-msg": "Ingia Magic Link ilitumwa. Tafadhali angalia SMS yako."
+    },
+    "passwordLogin": {
+      "header": "Ingia ndani",
+      "lbl-email": "Anwani ya Barua pepe",
+      "lbl-password": "Nywila",
+      "lbl-rememberMe": "Nikumbuke",
+      "lbl-signin": "Ingia ndani",
+      "forgotPassword": "Umesahau nywila?",
+      "signup": "Je, huna akaunti? Jisajili",
+      "lbl-login": "Ingia ndani",
+      "ph-password": "Nywila",
+      "ph-email": "Barua pepe"
+    },
+    "social": {
+      "gitHub": "Ingia na GitHub",
+      "google": "Ingia kwenye Google",
+      "facebook": "Ingia na Facebook",
+      "linkedin": "Ingia na Linkedin",
+      "twitter": "Ingia na Twitter"
+    },
+    "register": {
+      "header": "Jisajili",
+      "login": "Ingia ndani",
+      "lbl-signup": "Jisajili",
+      "lbl-password": "Nywila",
+      "lbl-email": "Anwani ya Barua pepe",
+      "passwordNotMatch": "Nywila Hazioani",
+      "ph-password": "Nywila",
+      "ph-confirmPassword": "Thibitisha Nywila",
+      "ph-email": "Barua pepe"
+    },
+    "resetPassword": {
+      "header": "Weka upya Nywila",
+      "description": "Tafadhali ingiza nenosiri lako kwa anwani yako ya barua pepe",
+      "lbl-submit": "Weka upya Nywila",
+      "lbl-password": "Nywila",
+      "lbl-confirmPassword": "Thibitisha Nywila",
+      "passwordNotMatch": "Nywila Hazioani",
+      "nowLoginYourAccount": "Sasa unaweza kuingia kwenye akaunti yako",
+      "yourPasswordResetSuccess": "Nywila yako ilifanikiwa kuweka upya!"
+    },
+    "verifyEmail": {
+      "header": "Thibitisha Barua pepe",
+      "processing": "Tafadhali subiri kwa muda wakati unachakata..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Mahali",
+      "loading": "Kupakia",
+      "col-name": "Jina",
+      "col-scene": "Eneo",
+      "col-maxuser": "Watumiaji wa Max",
+      "lbl-search": "Tafutiza maeneo",
+      "lbl-new": "Mpya"
+    },
+    "newLocation": {
+      "title": "Mahali",
+      "success": "Imehifadhiwa kwa Ufanisi.",
+      "failure": "Kuna kitu kimeenda vibaya.",
+      "removeSuccess": "Mahali paliondolewa kwa ufanisi.",
+      "nameInUse": "Jina linatumika.",
+      "nameRequire": "Jina linahitajika.",
+      "validNumber": "Nambari tu (0-9) zinaruhusiwa.",
+      "lbl-name": "Jina",
+      "lbl-maxuser": "Watumiaji wa Max",
+      "lbl-scene": "Eneo",
+      "lbl-type": "Aina",
+      "lbl-ve": "Video Imewezeshwa",
+      "lbl-gme": "Midia ya Ulimwenguni Imewezeshwa",
+      "lbl-update": "Sasisha",
+      "lbl-create": "Unda",
+      "tooltipCanNotBeDeleted": "Lobby haiwezi kufutwa",
+      "confirmation": "Una uhakika?",
+      "lbl-yes": "Ndiyo",
+      "lbl-no": "La"
+    },
+    "share": {
+      "lbl-share": "Kushiriki",
+      "ph-phoneEmail": "Alika kwa barua pepe au nambari ya simu",
+      "lbl-phoneEmail": "Tuma kwa barua pepe au nambari ya simu",
+      "lbl-copy": "Nakili",
+      "lbl-send-invite": "Tuma Mwaliko",
+      "title": "Shiriki URL yako ya Mahali na timu yako",
+      "linkCopied": "Unganisha kunakiliwa kwenye ubaoklipu."
+    },
+    "setting": {
+      "audio": "Sikizi",
+      "lbl-volume": "Kiasi",
+      "lbl-microphone": "Mikrofoni",
+      "graphics": "Michoro",
+      "controls": "Vidhibiti",
+      "lbl-control-type": "Aina ya Mdhibiti",
+      "lbl-control-scheme": "Mpango wa Kudhibiti",
+      "lbl-resolution": "Mwonekano",
+      "lbl-shadow": "Vivuli",
+      "lbl-pp": "Usindikaji wa Post",
+      "lbl-pbr": "PBR Kamili",
+      "lbl-automatic": "Otomatiki",
+      "xrusersetting": "Mipangilio ya Mtumiaji ya XR",
+      "rotation": "Mzunguko",
+      "rotation-smooth-speed": "Kasi ya Smooth ya Mzunguko",
+      "rotation-angle": "Pembe ya Mzunguko",
+      "moving": "Kusonga",
+      "user-avatar": "Mpangilio wa Avatar",
+      "invert-rotation": "Geuza Mzunguko na Hamisha Vijiti",
+      "show-avatar": "Onyesha Avatar"
+    },
+    "profile": {
+      "lbl-profile": "Umbo",
+      "lbl-settings": "Vipimo",
+      "lbl-username": "Jina la mtumiaji",
+      "update-msg": "Jina la mtumiaji limesasaishwa",
+      "inviteCode": "Alika Msimbo",
+      "youAreAn": "Wewe ni",
+      "youAreA": "Wewe ni",
+      "showUserId": "Onyesha Kitambulisho cha Mtumiaji",
+      "hideUserId": "Ficha Kitambulisho cha Mtumiaji",
+      "showApiKey": "Onyesha ufunguo wa API",
+      "hideApiKey": "Ficha ufunguo wa API",
+      "apiKey": "Ufunguo wa API",
+      "logout": "Ingia nje",
+      "connectPhone": "Unganisha nambari yako ya simu",
+      "connectEmail": "Unganisha barua pepe yako",
+      "connectPhoneEmail": "Unganisha barua pepe yako au nambari ya simu",
+      "or": "Au",
+      "lbl-wallet": "Ingia na Wallet",
+      "ph-email": "Barua pepe",
+      "ph-phone": "Namba ya Simu",
+      "ph-phoneEmail": "Nambari ya Simu / Barua pepe",
+      "phoneEmailError": "Simu batili # au anwani ya barua pepe",
+      "phoneError": "Simu batili #",
+      "emailError": "Anwani batili ya barua pepe",
+      "loginWithReadyPlayerMe": "Ingia na Mchezaji Tayari Mimi",
+      "connectSocial": "Unganisha na akaunti za kijamii",
+      "createOne": "Ikiwa huna akaunti, mpya itaundwa kwa ajili yako",
+      "connections": {
+        "title": "Miunganisho",
+        "ipError": "Haiwezi kuondoa Mtoa Kitambulisho amilifu",
+        "disconnect": "Tenganisha",
+        "connect": "Kuunganisha"
+      },
+      "profileDropdown": {
+        "avatar": "Ikoni ya Avatar ya Mtumiaji",
+        "profile": "Umbo",
+        "adminConsole": "Dashibodi ya Msimamizi",
+        "logout": "Logout"
+      },
+      "userIcon": {
+        "lbl-name": "Jina lako",
+        "lbl-update": "Sasisha",
+        "userId": "Kitambulisho cha mtumiaji",
+        "ph-uploadImg": "Pakia Picha ya Bidhaa",
+        "lbl-selectAcvatar": "Teua Avatar",
+        "lbl-submit": "Wasilisha"
+      },
+      "userSettings": {
+        "volume": "Kiasi",
+        "microphone": "Mikrofoni",
+        "resolution": "Mwonekano",
+        "high": "Juu",
+        "low": "Chini",
+        "spatialAudio": "Tumia Sauti ya Anga",
+        "enterMuted": "Ingiza Chumba Kilichonyamazishwa"
+      }
+    },
+    "oauth": {
+      "authenticating": "Inathibitisha...",
+      "authFailed": "uhalalishaji {{service}} umeshindikana."
+    },
+    "magikLink": {
+      "wait": "Tafadhali subiri kwa muda wakati unachakata..."
+    },
+    "dashboard": {
+      "header": "Dashibodi",
+      "dashboard": "Dashibodi",
+      "users": "Watumiaji",
+      "feeds": "Vilishi",
+      "instance": "Mfano",
+      "locations": "Mahali",
+      "invites": "Anawaalika",
+      "sessions": "Vikao",
+      "groups": "Vikundi",
+      "parties": "Vyama vya",
+      "chats": "Soga",
+      "content": "Vifurushi vya Maudhui",
+      "projects": "Miradi",
+      "scenes": "Scenes",
+      "avatars": "Avatars",
+      "benchmarking": "Benchmarking",
+      "bots": "Roboti"
+    }
+  },
+  "oauth": {
+    "authenticating": "Inathibitisha...",
+    "authFailed": "uhalalishaji {{service}} umeshindikana."
+  },
+  "magikLink": {
+    "wait": "Tafadhali subiri kwa muda wakati unachakata..."
+  },
+  "dashboard": {
+    "header": "Dashibodi",
+    "dashboard": "Dashibodi",
+    "users": "Watumiaji",
+    "feeds": "Vilishi",
+    "instance": "Mfano",
+    "locations": "Mahali",
+    "routes": "Njia",
+    "projects": "Miradi",
+    "invites": "Anawaalika",
+    "sessions": "Vikao",
+    "groups": "Vikundi",
+    "parties": "Vyama vya",
+    "chats": "Soga",
+    "content": "Vifurushi vya Maudhui",
+    "scenes": "Scenes",
+    "avatars": "Avatars",
+    "benchmarking": "Benchmarking",
+    "bots": "Roboti",
+    "setting": "Vipimo"
+  },
+  "avatar": {
+    "title": "Pakia Avatar",
+    "lbl-browse": "Vinjari",
+    "lbl-thumbnail": "Kijipicha",
+    "lbl-upload": "Kupakia",
+    "selectAvatar": "Teua Avatar...",
+    "selectThumbnail": "Teua Kijipicha...",
+    "rotate": "Zungusha",
+    "pan": "Pan",
+    "noBone": "Obejct haina mifupa yoyote au ngozi",
+    "outOfBound": "Kipengee kimefungwa.",
+    "emptyObj": "Kipengee ni tupu.",
+    "maxTriangleError": "Kipengee kina nyuso kubwa kuliko {{allowedTriangles}} .",
+    "selectValidFile": "Chagua faili halali ya avatar ya 3d.",
+    "selectValidThumbnail": "Faili halali ya Kijipicha iliyochaguliwa.",
+    "fileOversized": "Ukubwa wa faili ya Avatar lazima iwe kati ya MB {{minSize}} na MB {{maxSize}}",
+    "confirmation": "Una uhakika?",
+    "canNotBeRemoved": "Avatar amilifu haiwezi kuondolewa",
+    "remove": "Ondoa avatar",
+    "uploadFiles": "Pakia faili",
+    "useUrlInstead": "Tumia url badala yake",
+    "avatar": "Avatar",
+    "cancel": "Katisha",
+    "createAvatar": "Unda Avatar",
+    "delete": "Futa",
+    "view": "Mwoneko",
+    "uploadAvatarInfo": "Sasisha Taarifa ya avatar",
+    "name": "Jina",
+    "enterName": "Ingiza jina",
+    "avatarInformation": "Taarifa ya Avatar",
+    "description": "Maelezo",
+    "key": "Muhimu",
+    "none": "Hakuna",
+    "submit": "Wasilisha",
+    "edit": "Hariri",
+    "avatarUrl": "Avatar url",
+    "upload-success-msg": "Avatar imepakiwa kwa mafanikio.",
+    "remove-success-msg": "Avatar imepakiwa kwa mafanikio.",
+    "warning-msg": "Rasilimali ya Avatar ni tupu, je, umesawazisha avatars kwenye hifadhi yako ya faili tuli?"
+  },
+  "personMenu": {
+    "inviteToParty": "Alika Kwenye Sherehe",
+    "addAsFriend": "Ongeza Kama Rafiki",
+    "mute": "Mute",
+    "block": "Zuia"
+  },
+  "person": {
+    "you": "Wewe",
+    "yourScreen": "Skrini yako",
+    "muteForEveryone": "Mute kwa kila mtu",
+    "unmuteForEveryone": "Unmute kwa kila mtu",
+    "muteMe": "Nipe mkate",
+    "unmuteMe": "Unmute me",
+    "muteThisPerson": "Mute mtu huyu",
+    "unmuteThisPerson": "Unmute mtu huyu",
+    "openPictureInPicture": "Fungua Picha katika Picha"
+  }
+}

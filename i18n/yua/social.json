@@ -1,0 +1,202 @@
+{
+  "addComment": "Añadir comentario...",
+  "share": "Ts'aaj",
+  "suggestions": "Sugerencias ti' tech",
+  "seeAll": "Wil tuláakal",
+  "likes": "Uts tu",
+  "viewComments": "Wil tuláakal le comentarios {{count}}",
+  "more": "asab",
+  "username": "K'aaba' usuario",
+  "fullName": "K'aaba' uláak'",
+  "reportInApporpriate": "Reportar inapropiado",
+  "unfollow": "Cha' u t'u'uchpachtik",
+  "goToPost": "Bin Publicar",
+  "shareModal": "Ts'aaj",
+  "copyLink": "Copiar enlace",
+  "embed": "Tak' t'aan",
+  "cancel": "Xu'uls a meyaj",
+  "confirm": "Confirmar",
+  "save": "Salvar",
+  "profilePic": "Oochel perfil {{user}}",
+  "ara": "Ara",
+  "follow": "T'u'uch",
+  "flames": "Llamas",
+  "continue": "Táanil",
+  "partyInvitationSent": "Invitación te' cha'ano' enviada",
+  "arMedia": {
+    "back": "Paachil",
+    "clip": "Pinza",
+    "backgrounds": "Fondos",
+    "start": "Káajsik"
+  },
+  "arMediaform": {
+    "title": "Título",
+    "type": "Bin yano'ob",
+    "clip": "Pinza",
+    "background": "Yiit",
+    "scene": "Beyo'",
+    "save": "Salvar",
+    "manifest-file": "Archivo.manifest",
+    "audio-file": "Archivo Mp4",
+    "dracosis-file": "Archivo Dracosis.uvol",
+    "preview-file": "Sáasil previa ti' le archivo wíimbala'"
+  },
+  "creator": {
+    "myVideos": "In Videos",
+    "savedVideos": "Videos guardados",
+    "back": "Paachil",
+    "blocked-list": "Tsoolol bloqueados",
+    "block-user": "Bloquear usuario",
+    "dialog-content": "Ma' wilik le perfil yéetel le contenido le usuario"
+  },
+  "creatorForm": {
+    "back": "Paachil",
+    "edit": "Editar perfil",
+    "save": "Salvar",
+    "changeAvatar": "K'ex wíimbala' u avatar",
+    "ph-selectPreview": "Seleccionar sáasil previa",
+    "ph-name": "A llamas",
+    "ph-username": "U k'aaba' usuario",
+    "ph-email": "U correo electrónico",
+    "ph-tags": "Etiquetas",
+    "ph-link": "Enlace",
+    "ph-aboutYou": "Asab yóok'ol ta",
+    "ph-twitter": "Twitter",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Muts'ik in xoknáalo'obo'"
+  },
+  "dashboard": {
+    "title": "Salpicadero",
+    "dashboard": "Salpicadero",
+    "users": "Usuarios",
+    "feeds": "Tuláakal",
+    "arMedia": "Medios video",
+    "editor": "Editor",
+    "creator": "Creador"
+  },
+  "featured": {
+    "empty-list": "Mina'an feeds tuméen bejla'e'..."
+  },
+  "feed": {
+    "back": "Paachil",
+    "related": "Feeds relacionados",
+    "is-repoted-message": "Ku informa ti' le alimentación!"
+  },
+  "feedForm": {
+    "back": "Paachil",
+    "thanks": "Yuumbo'otik ts'aiko'on yéetel ma'alo'obkíinsiko'ob k kaajal",
+    "share": "Comparte ba'al yéetel kaaj",
+    "upload": "Na'akal video",
+    "ph-selectVideo": "Seleccionar vídeo",
+    "preview": "Sáasil u previa le wíimbala'",
+    "ph-selectPreview": "Seleccionar sáasil previa",
+    "createFeed": "Ch'a'iko'ob jump'éel feed k'a'abéet a yaantal jump'éel video yéetel juntúul wíimbala' u sáasil previa!!!",
+    "ph-videoName": "U k'aaba' a vídeo",
+    "ph-type": "Ts'íibt ba'ax Táak a ts'aiko'on yéetel kaaj... ",
+    "lbl-share": "Ts'aaj",
+    "save": "Ooks yéetel ts'o'oksik uláak'"
+  },
+  "feedMenu": {
+    "featured": "Recomendados",
+    "creators": "Máaxo'ob",
+    "feed": "Le Feed"
+  },
+  "header": {
+    "lbl-volumetric": "Volumétrico"
+  },
+  "login": {
+    "account": "Yaan wáaj teech jump'éel yilaje'.",
+    "login": "Máaxo'ob xoknáalo'obo'",
+    "resetPassword": "Botón Restablecer contraseña falsa (way habría jump'éel enlace correo electrónico).",
+    "notHavingAccount": "Mina'an teech jump'éel yilaje'.",
+    "signUp": "Nuup'abáa",
+    "forgotPassword": "Tu'ubsaj u contraseña.",
+    "back": "Paachil",
+    "or": "O"
+  },
+  "comment": {
+    "add": "Añade a comentario..."
+  },
+  "notification": {
+    "feedFire": " wak'aj a feed",
+    "feedBookmarked": " marcado bey favorito a feed",
+    "comment": " comentó u feed:",
+    "commentFire": " wak'aj u comentario utia'al u tséentik",
+    "follow": " Káaj u t'u'uchpachtik teech",
+    "unfollow": " Tu p'ataj u t'u'uchpachtik ti'",
+    "followed": " teech tu ch'a'ajo'oltaj",
+    "activity": "Actividad"
+  },
+  "onBoarding": {
+    "welcome": "Máanen!",
+    "description": "Le asab colección asab u 370 diseños utia'al u sukbenilo'ob prototipos iOS.",
+    "next": "Láak'",
+    "discover": "Descubre artículos,",
+    "news": "T'aano'ob yéetel posts",
+    "lines": "Le le sentimientos le ku impulsan k yaakunaj tuméen le astronomía yéetel k kin ts'íiboltik.",
+    "getStarted": "Comenzar",
+    "meetUp": "Much'ikuba'ob yéetel",
+    "friends": "etail.",
+    "meet": "Reúnete yéetel etail"
+  },
+  "shareForm": {
+    "arcMedia": "Ts'aaj",
+    "videoCreated": "Ts'o'ok in tu le video",
+    "shareWithBuddies": "Ts'aiko'on yéetel etail",
+    "shareVideo": "Ts'aiko'on video",
+    "save": "Ooks ti' le carrete le cámara",
+    "cancel": "Xu'uls a meyaj",
+    "close": "Muts'ik in",
+    "addFeed": "Añadir feed"
+  },
+  "simpleModal": {
+    "emptyList": "Lista vacía",
+    "followers": " uláak'",
+    "following": " Seguidores",
+    "flames": " Llamas"
+  },
+  "splash": {
+    "screen": "Pantalla presentación",
+    "logo": "Logotipo"
+  },
+  "story": {
+    "profilePic": "Oochel perfil {{user}}"
+  },
+  "view": {
+    "cancel": "Xu'uls a meyaj",
+    "choice": "Yaan ka'ap'éel modos u grabación jejeláas utia'al elegir",
+    "verticalMode": "Le modo verticales yaan jump'éel k'iin grabación 30 segundos",
+    "horizontalMode": "Le modo horizontales yaan jump'éel k'iin grabación ilimitado",
+    "start": "Káajsik",
+    "not-show": "Ma' sut we'esik",
+    "welcome": "Bienvenido u ARC!  Beet videos xookilo' yéetel juntúul k hologramas yéetel publícalo ti' a canales redes ts'áabal!",
+    "step": "PASO {{step}}",
+    "text-step-1": "Elija jump'éel holograma le biblioteca.",
+    "text-step-2": "Le ba'ala' es súutulo'ob jaajil Aumentada, bey u escanea le kúuchil yéetel a cámara tséel tséel ichil 3-5 segundos tu'ux táak u ka'ansaje' táan u rendimiento le holograma.",
+    "text-step-3-part-1": "Tin maachaj le pantalla juntéene' tu kúuchil tu'ux k'áato' u ancle le holograma.",
+    "text-step-3-part-2": "PROPINA!  Tin maachaj juntéene' táanxel utia'al u péeksik le holograma ti' uláak' posición.",
+    "text-step-3-part-3": "PROPINA!  Je'el k'ex le Buka'aj le holograma pellizcando wa expandiendo le pantalla yéetel u na' k'ab yéetel u yaal índice.",
+    "text-step-4-part-1": "Tin maachaj ka'atéen le botón chak u grabación yo'osal MÁAXo'ob u grabación video.",
+    "text-step-4-part-2": "Tin maachaj ka'atéen le botón chak u grabación utia'al u JE'ELEL."
+  },
+  "video": {
+    "back": "Paachil"
+  },
+  "terms": {
+    "confirmTerms": "Je'el in wóotik le Términos u mayaj",
+    "confirmPolicy": "Je'el in wóotik le Política u yojeta'al mixba'al"
+  },
+  "registration": {
+    "ph-phoneEmail": "Biilankiltej nu'ukul t'aan leti' correo electrónico",
+    "facebook": "Táanil Facebook",
+    "google": "Táanil Google",
+    "linkedin": "Táanil Linkedin",
+    "twitter": "Táanil Twitter",
+    "gitHub": "Táanil GitHub",
+    "connect": "Conecta a correo electrónico wa meyaj ku nu'ukul t'aan",
+    "logIn": "Kas a meyaja'",
+    "LogInTo": "Inicie xoknáalo'obo' ti'",
+    "continueAsGuest": "Táanil bey invitado"
+  }
+}

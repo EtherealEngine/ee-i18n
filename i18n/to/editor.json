@@ -1,0 +1,718 @@
+{
+  "loading": "Lolotonga Load e Ngāué",
+  "loadingMsg": "Lolotonga load e ngāué...",
+  "loadingError": "Fehalaaki hono load e ngāué",
+  "loadingErrorMsg": "Naʻe ʻi ai ha fehalaaki ʻi hono load e ngāué.",
+  "selectSceneMsg": "Fili ʻa e meʻa ke kamata vaʻinga ʻaki ʻa e mīsiní",
+  "error": "Fehālaaki",
+  "errorMsg": "Naʻe ʻi ai ha fehalaaki taʻeʻiloa.",
+  "generateScreenshot": "Fokotuʻu e ʻAta ʻo e Ngāué",
+  "generateScreenshotMsg": "Fokotuʻu ha ʻata ʻo e ngāué...",
+  "newScene": "Faʻu ha ʻAta",
+  "saving": "Ngāue Fakahaofi Moʻuí",
+  "savingMsg": "Ngāue ki hono fakahaofi ʻo e fakamoʻuí...",
+  "savingError": "Fehalaaki ʻi he Ngāue ki hono Seivi ʻo",
+  "savingErrorMsg": "Naʻe ʻi ai ha fehalaaki ʻi hono seivi ʻo e ngāué.",
+  "savingSceneErrorMsg": "ʻOku ʻikai fakaheka totonu ʻa e meʻa naʻe hokó. Feinga ke toe fakahū ʻa e meʻa naʻe hokó.",
+  "duplicating": "Ngāue ki Hono Hiki Tataú",
+  "duplicatingMsg": "Ngāue ki hono hiki tataú...",
+  "exporting": "Hiki Atu o ha Ngāue",
+  "exportingMsg": "Hiki atu ʻa e ngāué...",
+  "exportingError": "Fehalaaki hono Hiki Atu ʻo e Ngāué",
+  "exportingErrorMsg": "Naʻe ʻi ai ha fehalaaki ʻi hono hiki atu ʻo e ngāué.",
+  "importLegacy": "Hiki Mai ʻa e Mamani Tukufakaholo",
+  "importLegacyMsg": "Fakatokanga! ʻE hanga ʻe he meʻá ni ʻo ikunaʻi hoʻo meʻa ʻoku lolotonga hok ʻOkú ke fakapapauʻi ʻokú ke fie hoko atu?",
+  "publishingError": "Fehālaaki ʻi he Ngāue ki hono Pulusí",
+  "publishingErrorMsg": "Naʻe ʻi ai ha fehalaaki taʻeʻiloa.",
+  "publishingScene": "Konga ki hono Pulusi",
+  "publishingSceneMsg": "Konga ʻo e pulusi ...",
+  "uploadingThumbnailMsg": "Upload e ʻata...",
+  "uploadingSceneMsg": "Upload e ʻata: {{percentage}}%",
+  "envMapError": "Fehalaaki hono fakahū ʻo e ngaahi ʻata {{files}} ki he kiupí",
+  "lbl-return": "Toe Foki",
+  "menubar": {
+    "newScene": "Konga Foʻou",
+    "saveScene": "Seivi e Meʻa ne Hokó",
+    "saveAs": "Seivi Ko e",
+    "importAsset": "Hiki Mai ʻa e Koloa",
+    "exportGLB": "Export ko binary glTF (.glb) ...",
+    "importScene": "Hiki mai ʻa e ʻata",
+    "exportScene": "ʻAve ʻa e meʻa naʻe",
+    "quit": "Tuku"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Faʻahinga faile ʻoku ʻikai poupouʻi ki he failé: \"{{name}}\". Kuo pau ke hoko ʻa e failé ko ha ʻīmisi, vitiō, pe sīpinga glb.",
+    "addObject": "addObject: kimuʻa pea ʻikai maʻu e meʻa",
+    "removeObject": "removeObject: ʻikai maʻu ʻa e node. ʻOku tupu ʻeni mei hono toʻo ha taha ʻoku ʻikai ke toe ʻi he feituʻu ko ia.",
+    "noParent": "{{node}} \"{{name}}\" ʻoku ʻikai haʻane mātuʻa. Reparent ngaue pe ʻi he ngaahi meʻa ʻoku lolotonga ʻi he feituʻu ko ia.",
+    "undefinedParent": "ʻētitá.toe fakatomalá: ʻOku ʻikai fakamatalaʻi ʻa e Foʻi Kui foʻoú",
+    "notAuthenticated": "ʻIkai fakamoʻoniʻi",
+    "fetchingProjectError": "Fehālaaki ʻi hono ʻomi ʻo e ngaahi ngāué: {{error}}",
+    "fetchingRouteError": "Fehalaaki fetching ngaahi halanga vaka: {{error}}",
+    "unknownError": "Fehalaaki ʻoku ʻikai ʻiloʻí",
+    "resolveURL": "Fehalaaki ʻi hono fakaleleiʻi ʻo e url \"{{url}}\":",
+    "mediaSearchAborted": "Aborted e fekumi ki he mitia",
+    "methodNotImplemented": "ʻIkai fakahoko e foungá.",
+    "saveProjectAborted": "Seivi ʻa e ʻata aborted",
+    "unsavedChanges": "Ngaahi Liliu Ne Teʻeki Seivi",
+    "unsavedChangesMsg": "Kuo liliu e meʻa naʻe hokó. Kātaki ʻo seivi hoʻo ngaahi liliú.",
+    "projectCreationFail": "Naʻe ʻikai lava hono faʻu ʻo e ngāué {{reason}}",
+    "projectDeletionFail": "Naʻe ʻikai lava hono tāmateʻi ʻo e ngāué. {{reason}}",
+    "savingProjectFail": "Naʻe ʻikai lava ʻa e Ngāue Ki Hono Fakahaofi ʻo {{reason}}",
+    "sceneTooLarge": "ʻOku fuʻu lahi ʻa e ʻata ({{size}} MB) ke pulusi. Ko e lahi tahá ko e {{maxSize}} MB.",
+    "sceneCreationFail": "Naʻe ʻikai lava ʻa e konga ʻo e fakatupú. {{reason}}",
+    "uploadAborted": "Upload aborted",
+    "uploadFailed": "ʻIkai lava ʻo upload {{reason}}",
+    "assetDeletionFail": "ʻIkai lava hono tamateʻi ʻo e koloa. {{reason}}",
+    "projectAssetDeletionFail": "ʻIkai lava hono toʻo ʻo e Koloa Ngāué. {{reason}}",
+    "networkError": "Fehālaaki ʻi he Netiueká: {{status}}. {{text}}",
+    "unknownStatus": "Tuʻunga ʻIkai ʻIloʻí",
+    "CORS": "Mahalo ko ha fehalaaki CORS",
+    "urlFetchError": "ʻIkai lava ke ʻomi ʻa e \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Tuʻuaki",
+    "command": {
+      "movecamera": "ʻUnuakiʻi ʻa e Meʻ",
+      "flyFast": "Puna vave ange",
+      "orbit": "Tuʻuʻanga / Fili",
+      "pan": "Tini",
+      "fly": "Puna",
+      "focus": "Tukutaha e Tokangá",
+      "rotateLeft": "Vilo ki toʻohemá",
+      "rotateRight": "Vilo ki toʻomataʻú",
+      "cancelPlacement": "Kaniseli e Feituʻu ke Ngāue",
+      "placeDuplicate": "Kuo ʻOsi ʻi ai hano Tatau",
+      "cancelGrab": "Kaniseli e Piki",
+      "grab": "Piki",
+      "deselectAll": "ʻIkai Fili Kotoa"
+    },
+    "state": {
+      "header": "Stats.allblacks.comas",
+      "memory": "Manatu",
+      "geometries": "Ngaahi meʻa ʻoku faʻu ʻaki",
+      "textures": "Fotunga Tuilalanga",
+      "render": "Fakahoko",
+      "FPS": "NGAAHI SAME",
+      "frameTime": "Taimi ʻEsia",
+      "calls": "Ngaahi Uiuiʻí",
+      "triangles": "Ngaahi Tapatolu",
+      "points": "Ngaahi Poini",
+      "lines": "Ngaahi Lainé"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Pulusi",
+    "lbl-published": "Pulusi",
+    "command": {
+      "translate": "Liliu lea",
+      "rotate": "Vilo",
+      "scale": "Meʻafua",
+      "toggleSpace": "Toggle Liliu ʻa e Feituʻu ke Liliu",
+      "togglePivot": "Toggle Liliu ʻa e Hono Pikiʻanga",
+      "toggleSnapMode": "Toggle Snap Mode",
+      "toggleGrid": "Toggle Hono Fakatokangaʻi ʻo e Grid",
+      "increaseGridSize": "Fakalahi e Lahi ʻo e Grid",
+      "descreaseGridSize": "Holoki e Lahi ʻo e Grid",
+      "stopPreview": "Taʻofi e Tomuʻa Vakaiʻí",
+      "playPreview": "Tomuʻa Vakaiʻi e ʻAta"
+    }
+  },
+  "properties": {
+    "title": "Ngaahi Koloá",
+    "lbl-visible": "ʻAsi Mai",
+    "lbl-preventBake": "Fakaʻehiʻehi mei he Taʻo",
+    "lbl-persist": "Vilitaki",
+    "multipleNodeSelected": "Ngaahi faʻahinga kehekehe kuo filí",
+    "noNodeSelected": "ʻIkai fili ha node",
+    "ambientLight": {
+      "name": "Ko Hono Takai ʻo e Māmá",
+      "description": "Ko ha maama ʻokú ne fakamaamangia ʻa e ngaahi meʻa kotoa pē ʻi ho ʻatá.",
+      "lbl-intensity": "Mālohí",
+      "lbl-color": "Valivali"
+    },
+    "envmap": {
+      "name": "Mape ʻo e ʻĀtakaí",
+      "description": "ngaahi koloa ki he mape ʻo e ʻatakai"
+    },
+    "asset": {
+      "name": "Koloa",
+      "description": "Ko hano fakakulupu ʻo e ngaahi konga ʻe lava ke dynamically fakaheka mo fakahifo",
+      "lbl-options": "Ngaahi Meʻa ke Fili Aí",
+      "lbl-assetPath": "Hala ʻo e Koloa",
+      "lbl-assetName": "ʻAve ʻa e Hingoá",
+      "lbl-exportOptions": "Ngaahi Meʻa ke Fili Mei Aí",
+      "lbl-export": "Hiki Atu ʻa e Koloa",
+      "lbl-load": "Fakahū ki he Feituʻú",
+      "lbl-unload": "Fakahifo",
+      "lbl-reload": "Toe fakahū"
+    },
+    "audio": {
+      "name": "Ongó",
+      "description": "Dynamically load e ongó.",
+      "lbl-audiourl": "Url ʻo e Ongó",
+      "lbl-controls": "puleʻi",
+      "info-controls": "Toggle hono fakatokangaʻi ʻo e puleʻi ʻo e mitia.",
+      "lbl-autoplay": "Vaʻinga Meʻalele",
+      "info-autoplay": "Kapau ʻoku moʻoni, ʻe vaʻinga ʻa e mitia ʻi heʻene fuofua hu ki he feituʻu ko ia.",
+      "lbl-synchronize": "Fokotuʻunga Tatau",
+      "info-synchronize": "Kapau ʻoku moʻoni, ʻe Synchronized ʻa e mītiá ʻi he kau kasitomaa kotoa ʻoku fehokotakí.",
+      "lbl-loop": "Pelu Fakafuopotopoto",
+      "info-loop": "Kapau ʻoku moʻoni ʻe pelu fakafuopotopoto taʻe fakangatangata ʻa e mītiá.",
+      "lbl-audioType": "Faʻahinga ʻo e Ongó",
+      "lbl-distanceModel": "Sīpinga ʻo e Mamaʻó",
+      "info-distanceModel": "Naʻe fakaʻaongaʻi ʻa e algorithim ke fikaʻi ʻa e ongo rolloff.",
+      "lbl-rolloffFactor": "Rolloff meʻa",
+      "info-rolloffFactor": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakamatalaʻi ʻa e vave hono fakasiʻisiʻi ʻo e leʻó ʻi he mavahe ʻa e maʻuʻanga tokoní mei he tokotaha fanongó. 0 ki he 1",
+      "info-rfInfinity": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakamatalaʻi ʻa e vave hono fakasiʻisiʻi ʻo e leʻó ʻi he mavahe ʻa e maʻuʻanga tokoní mei he tokotaha fanongó. 0 ki he ʻikai ha meʻa",
+      "lbl-refDistance": "Mamaʻo Hono Fakafekauʻaki",
+      "info-refDistance": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakafofongaʻi ʻa e vāmamaʻo ʻo hono fakasiʻisiʻi ʻo e leʻó ʻi he ʻunu ke mamaʻo ange ʻa e maʻuʻanga ongo mei he",
+      "lbl-maxDistance": "Mamaʻo ʻo Meki",
+      "info-maxDistance": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakafofongaʻi ʻa e mamaʻo taha ʻi he vahaʻa ʻo e maʻuʻanga ongo mo e tokotaha fanongó, pea hili iá ʻoku ʻikai toe fakasiʻisiʻi ʻa e leʻó.",
+      "lbl-coneInnerAngle": "Tuliki ʻo e Loto ʻi lotó",
+      "info-coneInnerAngle": "Ko ha tuʻunga ʻulungaanga mahuʻinga ʻe ua ʻoku ne fakamatalaʻi ʻa e tuliki, ʻi he ngaahi tikili, ʻo ha meʻa ʻi loto he ʻikai ke toe holo.",
+      "lbl-coneOuterAngle": "Tuliki ʻi Tuʻa",
+      "info-coneOuterAngle": "Ko ha tuʻunga ʻulungaanga mahuʻinga ʻe ua ʻoku ne fakamatalaʻi ʻa e tuliki, ʻi he ngaahi tikili, ʻo ha meʻa ʻi tuʻa ʻa ia ʻe fakasiʻisiʻi ai ʻa e tohi ʻaki ha tuʻunga ʻulungaanga mahuʻinga maʻu pe, ʻa ia ʻoku fakaʻuhingaʻi ʻe he coneOuterGain attribute.",
+      "lbl-coreOuterGain": "Maʻu ʻi tuʻa",
+      "info-coreOuterGain": "Ko ha tuʻunga ʻulungaanga mahuʻinga ʻe ua ʻoku ne fakamatalaʻi ʻa e lahi ʻo e leʻo ʻoku holo ʻi tuʻa ʻi he ʻuhinga coneOuterAngle. Ko hono tuʻunga ʻulungaanga mahuʻinga naʻe ʻuluaki seti ko e 0, ʻa ia ko hono ʻuhinga he ʻikai lava ke ongona ha leʻo.",
+      "lbl-volume": "Voliume",
+      "lbl-play": "Vaʻinga",
+      "lbl-pause": "Kiʻi Mālōl",
+      "error-url": "Fehalaaki hono Load mei he URL"
+    },
+    "boxCollider": {
+      "description": "ʻOku ʻi ai ha puha pulipulia ʻe mavahe pe mālōlō ai ʻa e ngaahi meʻá ʻi ʻolunga.\nKa ʻikai colliders, ʻe to ʻa e ngaahi meʻa ʻi he faliki pea hu atu ʻi he ngaahi holisi.",
+      "lbl-isTrigger": "Fakatupu"
+    },
+    "camera": {
+      "name": "Meʻafaitaá",
+      "description": "Ngaahi feituʻu ki he meʻafaitaá.",
+      "lbl-camera-raycast": "Camera Raycasting",
+      "lbl-camera-raycast-toggle": "Fakaʻatā",
+      "lbl-camera-raycast-frequency": "Tuʻo Lahi Hono Faí",
+      "lbl-camera-raycast-count": "Lau Lei",
+      "lbl-camera-raycast-length": "Lōloa ʻo Ray"
+    },
+    "directionalLight": {
+      "name": "Maama Fakahinohino",
+      "description": "Ko ha maama ʻoku ne fakamaamangia kotoa ʻa e meʻa naʻe hoko, ka emits ʻi ha feituʻu pe ʻe taha.",
+      "lbl-color": "Valivali",
+      "lbl-intensity": "Mālohí",
+      "lbl-cameraFar": "Meʻafaitaa mamaʻo",
+      "lbl-cameraNear": "Meʻafaita Ofi",
+      "lbl-cameraTop": "Meʻafaitaa ʻi ʻolunga",
+      "lbl-cameraBottom": "Meʻafaitā ʻi Laló",
+      "lbl-cameraLeft": "Meʻafaitā Toʻohemá",
+      "lbl-cameraRight": "Meʻafaitā Toʻomataʻ",
+      "lbl-useInCSM": "Fakaʻaongaʻi ʻi he CSM",
+      "lbl-castShadow": "Kapusi ʻa e ʻata",
+      "lbl-disableForCSM": "Fakataʻeʻaongaʻi koeʻuhi he ʻoku fakaʻata ʻa e mape Cascade ʻata.",
+      "lbl-shadowmapResolution": "Fakaleleiʻi ʻo e mape ʻi he malumalu ʻ",
+      "lbl-shadowBias": "ʻAta taʻefaitotonu",
+      "lbl-shadowRadius": "ʻAta ʻoku ofi",
+      "lbl-showCameraHelper": "Fakaʻasi e Meʻa Faitaá"
+    },
+    "groundPlane": {
+      "name": "Vakapuna Kelekelé",
+      "description": "Ko ha vakapuna kelekele tokalelei ʻoku aʻu atu ki he mamaʻo.",
+      "lbl-color": "Valivali",
+      "lbl-receiveShadow": "Maʻu ha ʻAta",
+      "lbl-generateNavmesh": "Fakatupu Navmesh"
+    },
+    "link": {
+      "description": "Fakafehokotaki ki ha loki pe ha uepisaiti.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "3H geospatial mape ʻo e e.g. ko ha kolo."
+    },
+    "model": {
+      "description": "Ko ha sipinga 3H ʻi hoʻo meʻa naʻe hoko, ʻa ia ʻoku fakaheka mei ha URL pe faile GLTF.",
+      "lbl-usingGPUInstancingFlag": "Fakaʻaongaʻi ʻa e GPU Instancing",
+      "lbl-modelurl": "Sīpinga URL",
+      "lbl-envmapUrl": "Mape ʻo e ʻAtakai URL",
+      "lbl-textureOverride": "Liliu ʻo e Anga Kimuʻá",
+      "lbl-materialOverride": "Ngaahi Liliu ʻo e Nāunaú",
+      "error-url": "Fehalaaki hono Load mei he URL",
+      "lbl-loopAnimation": "Ngaungaue Pelu Fakafuopotopoto",
+      "lbl-isAvatar": "Ko e meʻa ia ʻoku hoko",
+      "lbl-isGPUInstancing": "ʻOku fakaʻaongaʻi ʻa e GPU Instancing",
+      "lbl-isDynamic": "ʻOku Longomoʻui",
+      "lbl-castShadow": "Kapusi ʻa e ʻata",
+      "lbl-receiveShadow": "Maʻu ha ʻAta",
+      "lbl-interactable": "Fengaueʻaki",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "Hingoá",
+      "lbl-url": "Sīpinga URL",
+      "lbl-buy": "Fakatau URL",
+      "lbl-learnMore": "Ako ha URL Lahi Ange",
+      "lbl-htmlContent": "Kakano ʻo e HTML",
+      "lbl-interactionText": "Fakamatala ki he Fengāueʻakí",
+      "lbl-interactionType": "Faʻahinga Fengāueʻakí"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Nāunau",
+      "error-materialID": "Fehālaaki ʻi hono kumi ʻo e nā",
+      "placeholder-materialID": "Fili ʻa e Nāunaú",
+      "lbl-patternTarget": "Fakatauhoa e Sīpingá",
+      "lbl-pattern": "Sīpingá",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Faʻahinga Fengāueʻakí",
+      "text": "Fakamatala ki he Fengāueʻakí",
+      "distance": "Vāmamaʻo ʻo e Fengāue",
+      "theme": "Kaveinga ʻo e Fengaueʻaki",
+      "name": "Hingoa ʻo e Fengāueʻakí",
+      "description": "Fakamatala ki he Fengāueʻakí",
+      "images": "Ngaahi ʻAta ʻo e Fengaueʻaki",
+      "videos": "Ngaahi Vitiō Fepōtalanoaʻakí",
+      "urls": "Ngaahi URL Fengāueʻakí",
+      "models": "Kau Ta Sipinga ʻo e Fengaueʻaki"
+    },
+    "group": {
+      "name": "Kulupú",
+      "description": "Ko ha kulupu ʻo ha ngaahi meʻa kehekehe ʻe lava ke hiki pe hiki tatau.\nTohoʻi mo fakatooki ʻa e ngaahi meʻa ki he kulupu ʻi he fakahokohoko."
+    },
+    "hemisphere": {
+      "name": "Maama ʻo e Hemisifia",
+      "description": "Ko ha maama ʻokú ne hulungia ʻa e ʻatá mei ha misini fakaʻata lahi hangatonu.",
+      "lbl-skyColor": "Lanu ʻo e langi",
+      "lbl-groundColor": "Lanu ʻo e Kelekelé",
+      "lbl-intensity": "Mālohí"
+    },
+    "image": {
+      "name": "ʻĪmisí",
+      "description": "Dynamically load ha ʻimisi.",
+      "lbl-imgURL": "ʻImisi URL",
+      "lbl-transparency": "Tuʻunga ʻo e Femahinoʻaki",
+      "lbl-alphaCutoff": "Fakangata ʻo e ʻĀlifá",
+      "lbl-projection": "Fakafuofuaʻí",
+      "lbl-side": "Tafaʻaki",
+      "info-controls": "Toggle hono fakatokangaʻi ʻo e puleʻi ʻo e mitia.",
+      "info-transparency": "Founga hono fakaʻaongaʻi ʻo e femahinoʻakí:",
+      "info-opaque": "ʻ ʻikai ha meʻa ʻ = ʻikai ha femahinoʻaki",
+      "info-blend": "ʻtuifioʻ = fakaʻaongaʻi ʻa e ngaahi ʻimisi ʻo e senolo ʻalifa",
+      "info-mask": "ʻFakapuliʻ = Fakaʻaongaʻi ha tuʻunga ʻulungaanga mahuʻinga ʻo e Fakangata ki he on/off transparency (toe lahi ange)",
+      "info-alphaCutoff": "ʻE ʻikai puli ʻa e pixel mo e ngaahi tuʻunga ʻulungaanga mahuʻinga ʻo e ʻAlifa ʻi he meʻa ni",
+      "error-url": "HALA ʻa e URL"
+    },
+    "name": {
+      "lbl-name": "Hingoá"
+    },
+    "partileEmitter": {
+      "description": "Kihiʻi konga siʻi ʻo e meʻa ke faʻu ʻaki ha fanga kiʻi momo",
+      "lbl-particleCount": "Lau Kihiʻi Konga Siʻi",
+      "lbl-image": "ʻĪmisí",
+      "lbl-ageRandomness": "Taʻu Randomness",
+      "lbl-lifetime": "Moʻuí Kotoa",
+      "lbl-lifetimeRandomness": "Randomness ʻi he moʻui kotoa",
+      "lbl-sizeCurve": "Lahi ʻo e Pikoʻanga",
+      "lbl-startPSize": "Kamataʻaki e Lahi ʻo e Momoʻi Meʻa",
+      "lbl-endPSize": "Lahi ʻo e Ngataʻangá",
+      "lbl-sizeRandomness": "Lahi ʻo e Randomness",
+      "lbl-colorCurve": "Pikoʻanga Lanu",
+      "lbl-startColor": "Lanu Kamatá",
+      "lbl-startOpacity": "Kamata ʻa e loto vilitaki",
+      "lbl-middleColor": "Lanu Lotó",
+      "lbl-middleOpacity": "Loto Vilitaki",
+      "lbl-endColor": "Lanu Fakaʻosí",
+      "lbl-endOpacity": "Ngataʻanga Opacity",
+      "lbl-velocityCurve": "Malohi Pikoʻanga",
+      "lbl-startVelocity": "Kamata Mālohi",
+      "lbl-endVelocity": "Ngataʻangá Mālohi",
+      "lbl-angularVelocity": "Mālohi ʻo e Tō ʻo",
+      "info-ageRandomness": "Ko e lahi ʻo e faikehekehe ʻi he taimi ʻoku spawned ai ʻa e ngaahi momoʻi meʻa.",
+      "info-lifetime": "Ko e taʻu motuʻa lahi taha ʻo ha kihiʻi konga siʻi kimuʻa pea toki tā.",
+      "info-lifetimeRandomness": "Ko e lahi ʻo e faikehekehe ʻi he vahaʻa ʻo e moʻui.",
+      "info-sizeRandomness": "Ko e lahi ʻo e faikehekehe ʻi he vahaʻa ʻo e lalahi ʻoku kamataʻaki.",
+      "error-url": "Fehalaaki hono Load mei he URL"
+    },
+    "clouds": {
+      "name": "ʻAo",
+      "description": "Sprite fakatefito ʻi he ʻao.",
+      "lbl-image": "Sprite Image",
+      "lbl-wroldScale": "Meʻafua ʻa māmaní",
+      "lbl-dimensions": "Fua",
+      "lbl-noiseZoom": "Longoaʻa fakaʻata",
+      "lbl-noiseOffset": "Seti ʻo e Longoaʻá",
+      "lbl-spriteScale": "Meʻafua Sprite",
+      "lbl-fogColor": "Lanu ʻo e kakapu",
+      "lbl-fogRange": "Kakapu",
+      "error-url": "Fehalaaki hono Load mei he URL"
+    },
+    "ocean": {
+      "name": "ʻŌsení",
+      "description": "Fukahi tahi mo e peau mo e koa",
+      "lbl-normalMap": "Mape Angamahení",
+      "lbl-distortionMap": "Mape Ki Hono Fakakeheʻí",
+      "lbl-envMap": "Mape ʻo e ʻĀtakaí",
+      "lbl-color": "Valivali",
+      "lbl-shallowWaterColor": "Lanu Mamaha ʻo e Vaí",
+      "lbl-shallowToDeepDistance": "Mamaʻo ʻo aʻu ki he Mamaʻo",
+      "lbl-opacityFadeDistance": "Molia atu ʻa e loto vilitaki",
+      "lbl-opacityRange": "Ngaahi Meʻa ʻo e Loto Vilitaki",
+      "lbl-shininess": "Shininess",
+      "lbl-reflectivity": "Reflectivity",
+      "lbl-foamColor": "Lanu ʻo e Foam",
+      "lbl-foamSpeed": "Vave ʻa e foam",
+      "lbl-foamTiling": "Koa tiling",
+      "lbl-bigWaveTiling": "Fuʻu peau lalahi ʻoku ʻikai ke ʻi ai ha taha",
+      "lbl-bigWaveSpeed": "Vave ʻo e peau lahi",
+      "lbl-bigWaveHeight": "Maʻolunga ʻo e peau lahi",
+      "lbl-waveSpeed": "Vave ʻa e Peau",
+      "lbl-waveScale": "Meʻafua ʻo e Peau",
+      "lbl-waveTiling": "Tā ʻo e Peaú",
+      "lbl-waveDistortionSpeed": "Vave Hono Fakakeheʻi ʻo e Peaú",
+      "lbl-waveDistortionTiling": "Fakakeheʻi ʻo e Peaú",
+      "error-url": "Fehalaaki hono Load mei he URL"
+    },
+    "water": {
+      "name": "Vai",
+      "description": "Kiʻi vai siʻisiʻi"
+    },
+    "interior": {
+      "name": "Loto",
+      "description": "Ko ha meʻa ʻoku ʻi ai e kiupi kuo fikaʻi ke faʻifaʻitaki ki he ngaahi ʻatakai ʻo loto",
+      "lbl-cubeMap": "Mape ʻo e kiupí",
+      "lbl-tiling": "Lahi ʻo e ʻōhí",
+      "lbl-size": "Lahi ʻo e laá",
+      "error-url": "Fehalaaki hono Load mei he URL"
+    },
+    "pointLight": {
+      "description": "Ko ha maama ʻoku emits ʻi he ngaahi feituʻu kotoa pe mei ha feituʻu pe ʻe taha.",
+      "lbl-color": "Valivali",
+      "lbl-intensity": "Mālohí",
+      "lbl-range": "Ngaahi Meʻa Kehekehe",
+      "lbl-decay": "Mate"
+    },
+    "scene": {
+      "name": "Meʻa naʻe hok",
+      "description": "Ko e taumuʻa ʻo e meʻa naʻe hoko.",
+      "lbl-bgcolor": "Lanu ʻo e Puipuituʻá",
+      "lbl-fogType": "Faʻahinga Kakapú",
+      "lbl-fogColor": "Lanu ʻo e kakapu",
+      "lbl-forNearDistance": "Kakapu Ofi ki he Mamaʻó",
+      "lbl-fogFarDistance": "Mamaʻo ʻo e Kakapu",
+      "lbl-fogDensity": "Kakapu Density",
+      "lbl-audioSettings": "Fakaʻaongaʻi e Ongó ʻi he Tuʻungá",
+      "lbl-avatarDistanceModel": "Sipinga mamaʻo ʻo e meʻa ʻoku hoko",
+      "lbl-avatarRolloffFactor": "Hoko ʻa e Rolloff ko e meʻa",
+      "lbl-avatarRefDistance": "Fakafekauʻaki ʻo e mamaʻo",
+      "lbl-avatarMaxDistance": "Ko e mamaʻo ʻo Meki",
+      "lbl-mediaVolume": "Voliume ʻo e Mītiá",
+      "lbl-mediaDistanceModel": "Sīpinga Mamaʻo ʻo e Mītiá",
+      "lbl-mediaRolloffFactor": "Rolloff ʻo e mitia",
+      "lbl-mediaRefDistance": "Fakafekauʻaki ʻo e Mītiá",
+      "lbl-mediaMaxDistance": "Mamaʻo ʻo e Mītiá",
+      "lbl-mediaConeInnerAngle": "Tuliki ʻi loto ʻo e Mitia",
+      "lbl-mediaConeOuterAngle": "Tuliki ki tuʻa ʻo e Mitia",
+      "lbl-mediaConeOuterGain": "Maʻu ʻa e mitia ʻi tuʻa",
+      "info-avatarDistanceModel": "Naʻe fakaʻaongaʻi ʻa e algorithim ke fikaʻi ʻa e ongo rolloff.",
+      "info-avatarRolloffFactor": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakamatalaʻi ʻa e vave hono fakasiʻisiʻi ʻo e leʻó ʻi he mavahe ʻa e maʻuʻanga tokoní mei he tokotaha fanongó. 0 ki he 1",
+      "info-avatarRolloffFactorInifinity": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakamatalaʻi ʻa e vave hono fakasiʻisiʻi ʻo e leʻó ʻi he mavahe ʻa e maʻuʻanga tokoní mei he tokotaha fanongó. 0 ki he ʻikai ha meʻa",
+      "info-avatarRefDistance": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakafofongaʻi ʻa e vāmamaʻo ʻo hono fakasiʻisiʻi ʻo e leʻó ʻi he ʻunu ke mamaʻo ange ʻa e maʻuʻanga ongo mei he",
+      "info-avatarMaxDistance": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakafofongaʻi ʻa e mamaʻo taha ʻi he vahaʻa ʻo e maʻuʻanga ongo mo e tokotaha fanongó, pea hili iá ʻoku ʻikai toe fakasiʻisiʻi ʻa e leʻó.",
+      "info-mediaDistanceModel": "Naʻe fakaʻaongaʻi ʻa e algorithim ke fikaʻi ʻa e ongo rolloff.",
+      "info-mediaRolloffFactor": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakamatalaʻi ʻa e vave hono fakasiʻisiʻi ʻo e leʻó ʻi he mavahe ʻa e maʻuʻanga tokoní mei he tokotaha fanongó. 0 ki he 1",
+      "info-mediaRolloffFactorInfinity": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakamatalaʻi ʻa e vave hono fakasiʻisiʻi ʻo e leʻó ʻi he mavahe ʻa e maʻuʻanga tokoní mei he tokotaha fanongó. 0 ki he ʻikai ha meʻa",
+      "info-mediaRefDistance": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakafofongaʻi ʻa e vāmamaʻo ʻo hono fakasiʻisiʻi ʻo e leʻó ʻi he ʻunu ke mamaʻo ange ʻa e maʻuʻanga ongo mei he",
+      "info-mediaMaxDistance": "Ko ha tuʻunga ʻulungāanga mahuʻinga ʻe ua ʻokú ne fakafofongaʻi ʻa e mamaʻo taha ʻi he vahaʻa ʻo e maʻuʻanga ongo mo e tokotaha fanongó, pea hili iá ʻoku ʻikai toe fakasiʻisiʻi ʻa e leʻó.",
+      "info-mediaConeInnerAngle": "Ko ha tuʻunga ʻulungaanga mahuʻinga ʻe ua ʻoku ne fakamatalaʻi ʻa e tuliki, ʻi he ngaahi tikili, ʻo ha meʻa ʻi loto he ʻikai ke toe holo.",
+      "info-mediaConeOuterAngle": "Ko ha tuʻunga ʻulungaanga mahuʻinga ʻe ua ʻoku ne fakamatalaʻi ʻa e tuliki, ʻi he ngaahi tikili, ʻo ha meʻa ʻi tuʻa ʻa ia ʻe fakasiʻisiʻi ai ʻa e tohi ʻaki ha tuʻunga ʻulungaanga mahuʻinga maʻu pe, ʻa ia ʻoku fakaʻuhingaʻi ʻe he coneOuterGain attribute.",
+      "info-mediaConeOuterGain": "Ko ha tuʻunga ʻulungaanga mahuʻinga ʻe ua ʻoku ne fakamatalaʻi ʻa e lahi ʻo e leʻo ʻoku holo ʻi tuʻa ʻi he ʻuhinga coneOuterAngle. Ko hono tuʻunga ʻulungaanga mahuʻinga naʻe ʻuluaki seti ko e 0, ʻa ia ko hono ʻuhinga he ʻikai lava ke ongona ha leʻo.",
+      "lbl-simpleMaterials": "Fakaʻaongaʻi ha Nāunau Faingofua",
+      "lbl-lods": "LODS",
+      "info-lods": "Fokotuʻu ʻa e mamaʻo ʻa ia ʻoku liliu ai ʻa e ngaahi tuʻunga ʻo e fakaikiiki.",
+      "info-simpleMaterials": "Fakaului ʻa e ngaahi nāunau totongi mamafa kotoa pē ki ha niʻihi ʻoku faingofua angé ke toʻo ʻa e uta mei he meʻa ʻoku fakatātāʻí.",
+      "lbl-rendererSettings": "Liliu e Ngaahi Feituʻu ʻOkú Ne ʻOatu e Meʻa ke Faí",
+      "lbl-csm": "Akilotoa ngaahi mape ʻata",
+      "info-csm": "ʻAi ke akilotoa ʻa e ngaahi mape ʻo e ʻata.",
+      "lbl-toneMapping": "Mape ʻo e Ongó",
+      "info-toneMapping": "ʻAi ke mape e ongo ʻi he feituʻu renderer. ʻOku ʻikai hano ʻaonga ʻi he taimi ʻe lava ai ʻo ngāue ki ha post processing.",
+      "lbl-toneMappingExposure": "Ko Hono Mapeʻi ʻo e Ongó",
+      "info-toneMappingExposure": "Fakamahinoʻi ʻa e founga hono mape ʻo e ongo ʻi he feituʻu renderer. ʻOku ʻikai hano ʻaonga ʻi he taimi ʻe lava ai ʻo ngāue ki ha post processing.",
+      "lbl-shadowMapType": "Taipeʻi ʻo e Faʻahinga Mape",
+      "info-shadowMapType": "Faʻahinga ʻata mape",
+      "error-url": "Fehalaaki hono Load mei he URL"
+    },
+    "sceneCamera": {
+      "name": "Meʻa Faitā Ki Hono Tomuʻa Vakaiʻ",
+      "description": "Ko e meʻa faita ʻoku fakaʻaongaʻi ke fakatupu ʻaki ʻa e thumbnail ki he meʻa ʻoku ke sio ki ai pea mo e tuʻunga kamataʻanga ʻo e meʻa faita tomuʻa vakaiʻi.",
+      "lbl-setFromViewPort": "Seti mei Viewport"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "Taimi ʻo e ʻAhó",
+      "lbl-color": "Valivali",
+      "lbl-latitude": "Tauʻatāina",
+      "lbl-luminance": "Luminance",
+      "lbl-scattering": "Lahi ʻo e Fakamoveteveté",
+      "lbl-scatteringDistance": "Vāmamaʻo ʻo e Fakamoveteveté",
+      "lbl-horizonStart": "Kamata ʻa e tafaʻaki langi",
+      "lbl-horizonEnd": "Tafaʻaki Langi",
+      "lbl-texture": "Anga kimuʻá",
+      "lbl-skyType": "Faʻahinga ʻo e langí",
+      "error-url": "Fehalaaki hono Load mei he URL"
+    },
+    "spawnPoint": {
+      "name": "Spawn poini",
+      "description": "Ko ha tuʻunga ʻe ʻasi mai ai e kakai ʻi he taimi te nau hu ai ki hoʻo meʻa ʻoku fai.\nʻOku fakafofongaʻi ʻe he fakaʻilonga ʻi he Viewport ʻa e lahi totonu ʻo ha meʻa ʻoku hoko."
+    },
+    "spotLight": {
+      "description": "Ko ha maama ʻoku emits ʻi ha fakahinohino mo ha ngaahi meʻa fakamaama ʻi loto ʻi ha feituʻu.",
+      "lbl-color": "Valivali",
+      "lbl-intensity": "Mālohí",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Tuliki",
+      "lbl-range": "Ngaahi Meʻa Kehekehe",
+      "lbl-decay": "Mate"
+    },
+    "transform": {
+      "title": "Liliu",
+      "lbl-postition": "Lakangá",
+      "lbl-rotation": "Viló",
+      "lbl-scale": "Meʻafua"
+    },
+    "triggereVolume": {
+      "description": "Fokotuʻu ha kelekele ʻi he meʻa ʻoku fakataumuʻa ki ai ʻa e fakahuu pea mavahe.",
+      "lbl-target": "Taumuʻa",
+      "lbl-onenter": "ʻI he Fakahū",
+      "lbl-onexit": "ʻI he Hū ki Tuʻá",
+      "lbl-showHelper": "Fakaʻaliʻali ʻa e Tokotaha Tokoni Nailoni",
+      "ph-errorNode": "Fehalaaki ʻoku pulia.",
+      "ph-selectNode": "Fili ʻa e node..."
+    },
+    "video": {
+      "name": "Vitiō",
+      "description": "Dynamically load ha foʻi vitio.",
+      "lbl-video": "Vitiō",
+      "lbl-projection": "Fakafuofuaʻí",
+      "lbl-islivestream": "Stream Hangatonu",
+      "lbl-interactable": "Fengaueʻaki",
+      "lbl-id": "Konga ID",
+      "lbl-play": "Vaʻinga",
+      "lbl-pause": "Kiʻi Mālōl",
+      "error-url": "Fehalaaki hono Load mei he URL"
+    },
+    "volumetric": {
+      "name": "Leʻolahi",
+      "description": "Dynamically load ha foʻi vitio volumetric.",
+      "uvolPaths": "Ngaahi Hala UVOL",
+      "playmode": "Play Mode",
+      "playtitle": "Vaʻinga",
+      "pausetitle": "Kiʻi Mālōl"
+    },
+    "spline": {
+      "description": "Dynamically faʻu mo fakapatonu curves.",
+      "lbl-addNode": "Tanaki atu ha ngaahi meʻa ke Pikoʻanga."
+    },
+    "systemnode": {
+      "description": "Fakapipiki ʻa e laʻipepa.",
+      "lbl-filePath": "URL",
+      "lbl-systemUpdateType": "Poini ʻo e Huhu",
+      "lbl-enableClient": "Tokotaha ʻOku ʻOmí",
+      "lbl-enableServer": "Server",
+      "lbl-args": "Args",
+      "error-url": "Fehalaaki hono Load e Script mei he URL"
+    },
+    "portal": {
+      "lbl-portal": "Fehokotaki ʻa e Portal",
+      "lbl-redirect": "Fakaʻaongaʻi e Peesi ʻOku Toe Fakafoki Maí",
+      "description": "Ko ha Portat ki teleport kau vaʻinga ki ha feituʻu pau",
+      "lbl-locationName": "Feituʻú",
+      "lbl-modelUrl": "Sīpinga URL",
+      "lbl-displayText": "Fakaʻasi e Fakamatalá",
+      "lbl-cubemapBake": "Cubemap taʻo",
+      "lbl-spawnPosition": "Fokotuʻu ʻa e Lakangá",
+      "lbl-spawnRotation": "Spawn Vilo",
+      "lbl-triggerPosition": "Tuʻunga naʻá ne Fakatupu e ʻ",
+      "lbl-triggerRotation": "Fakatupu ʻo e Viló",
+      "lbl-triggerScale": "Meʻafua ke kamata ʻaki"
+    },
+    "postprocessing": {
+      "name": "Fokotuʻu ʻa e Ngāué",
+      "description": "Ki hono fakaʻaongaʻi ʻo e ngaahi ola ʻo e ngaue ki he Post kiate koe."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Ngāue Foʻou",
+      "backLink": "Foki ki he ngaahi ngāué",
+      "featured": "ʻOku ʻoatu",
+      "all": "Kotoa pē",
+      "newProject": "Ngāue Foʻou kuo Teʻeki Ngāueʻ",
+      "ph-search": "Fekumi ʻi ha ngaahi ʻata..."
+    },
+    "grid": {
+      "loading": "Load..."
+    },
+    "page": {
+      "header": "ʻOku Talitali Lelei Koe",
+      "headerMsg": "Kapau ʻoku ke foʻou heni ʻoku mau fokotuʻu atu ke ke fakahoko e lesoni. Ka ʻikai, ke ke puna ki loto ʻo faʻu ha ngaue mei ha ngaahi meʻa kehe pe mei ha taha ʻo ʻetau ngaahi sipinga.",
+      "lbl-startTutorial": "Kamata ʻa e lesoni",
+      "projects": "Ngaahi Ngāué",
+      "lbl-newProject": "Ngāue Foʻou"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Load...",
+      "placeObject": "Fokotuʻu ha Meʻa",
+      "placeObjectAtOrigin": "Fokotuʻu ha Meʻa ʻi he Origin",
+      "copyURL": "Hiki tatau ʻa e URL",
+      "openInNewTab": "Fakaava ʻa e URL ʻi he New Tab",
+      "deleteAsset": "Toʻo ʻa e Koloa"
+    },
+    "filebrowser": {
+      "addNewFolder": "Tānaki ha Foulutā Foʻou",
+      "cutAsset": "Kosi",
+      "copyAsset": "Hiki Tatau",
+      "pasteAsset": "Fakapipiki",
+      "renameAsset": "Toe Fakahingoa",
+      "viewAssetProperties": "Vakai ki he Ngaahi Koloá"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Toe Fakahingoa",
+    "lbl-duplicate": "ʻOsi ʻi ai ha Tatau",
+    "lbl-group": "Kulupú",
+    "lbl-delete": "Tāmateʻi",
+    "lbl-expandAll": "Fakalahi Kotoa",
+    "lbl-collapseAll": "Fakasiʻisiʻi Kotoa",
+    "isseus": "Ngaahi Palopalemá:"
+  },
+  "dnd": {
+    "nodes": "{{count}} Fili ha Ngaahi Meʻa ke Fili mei ai",
+    "models": "Fili ha Kau Tā Sīpinga {{count}}",
+    "images": "{{count}} Ngaahi ʻAta kuo Fili",
+    "videos": "Fili ʻo e Ngaahi Vitiō {{count}}",
+    "audio": "Fili {{count}} Ngaahi Maʻuʻanga Tokoni ki he Ongó"
+  },
+  "dialog": {
+    "title": "ʻĒtitá",
+    "lbl-confirm": "Sai pē",
+    "lbl-cancel": "Kaniseli",
+    "exportProject": {
+      "title": "Hiki Atu ʻa e Ngāué",
+      "lbl-confirm": "Hiki Atu ʻa e Ngāué",
+      "lbl-combineMesh": "Fakatahaʻi ʻa e Mesiloni",
+      "lbl-removeUnused": "Toʻo ʻa e Ngaahi Meʻa ʻOku Teʻeki Fakaʻaongaʻ"
+    },
+    "performance": {
+      "title": "Vakaiʻi ʻo e Ngāué",
+      "lbl-confirm": "Pulusi ʻa e meʻa naʻe ho",
+      "learnMore": "Ako Lahi Ange",
+      "lbl-polycount": "Lau ʻo e Polygon",
+      "lbl-material": "Ngaahi Nāunaú",
+      "lbl-texture": "Fotunga Tuilalanga",
+      "lbl-lights": "Ngaahi Māmá",
+      "lbl-fileSize": "Lahi ʻo e Failé",
+      "info-polycount": "ʻOku mau fokotuʻu atu ke ʻoua naʻa toe laka hake ʻi he tapatolu ʻe 50,000 hono fakaʻaongaʻi ki he ngaahi device toʻotoʻo.",
+      "info-material": "ʻOku mau fokotuʻu atu ke ʻoua naʻa toe laka hake he nāunau makehe ʻe 25 ʻi he feituʻu ʻokú ke ʻi aí ke fakasiʻisiʻi hono tā ha telefoni ʻi he ngaahi meʻangāue toʻotoʻó",
+      "info-texture": "ʻOku mau fokotuʻu atu ke ʻoua naʻa toe laka hake ʻi he 256MB ʻo e vitio RAM ki he ngaahi meʻangaue toʻotoʻo. ʻOku mau toe fokotuʻu atu foki ke fakaʻaongaʻi ʻa e fotunga tuilalanga ʻo lahi ange ʻi he 2048 x 2048.",
+      "info-lights": "Neongo ʻoku ʻikai fakaʻata ʻa e ngaahi maama longomoʻui ʻi he ngaahi meʻangaue toʻotoʻo, ka ʻoku mau fokotuʻu atu ke ʻoua naʻa toe laka hake ʻi he maama ʻe 3 ʻi hoʻo meʻa ʻoku ke mamata ki ai (toʻo ʻa e ngaahi maama ʻo e Hemisifia) ke ke lele ʻi he tafaʻaki ki lalo ʻo e CS.",
+      "info-fileSize": "ʻOku mau fokotuʻu atu ha faile fakaʻosi ʻo ʻikai toe lahi ange ʻi he 16MB ki he ngaahi fehokotaki bandwidth maʻulalo. ʻE hanga ʻe hono fakasiʻisiʻi ʻo e lahi ʻo e faile ʻo fakasiʻisiʻi ʻa e taimi ʻe fie maʻu ke download ai hoʻo meʻa ʻoku fai.",
+      "txt-polycount": "{{count}} tapatolu",
+      "txt-material": "Ngaahi Nāunau {{count}}",
+      "txt-ram": "~{{count}} Video RAM",
+      "txt-texture": "{{count}} Fotunga Fakaʻofoʻofa Lalahi",
+      "txt-lights": "{{count}} māmá"
+    },
+    "progress": {
+      "title": "Load...",
+      "msg": "Load...",
+      "lbl-cancel": "Kaniseli"
+    },
+    "publish": {
+      "title": "Pulusi ʻa e meʻa naʻe ho",
+      "lbl-confirm": "Seivi mo Pulusi",
+      "lbl-name": "Hingoa ʻo e Konga",
+      "info-name": "Kuo pau ke ʻi he vahaʻa ʻo e mataʻitohi ʻe 4 mo e 64 ʻa e hingoá pea ʻikai lava ke ʻasi ai ha fakamamafaʻi"
+    },
+    "published": {
+      "title": "Pulusi ʻo e Meʻa",
+      "header": "Kuo ʻosi pulusi hoʻo meʻa naʻe hoko.",
+      "lbl-view": "Mamataʻi e Meʻa ʻOkú ke Mamata Aí"
+    },
+    "saveNewProject": {
+      "title": "Poupou",
+      "lbl-name": "Hingoa ʻo e Ngāué",
+      "info-name": "Kuo pau ke ʻi he vahaʻa ʻo e mataʻitohi ʻe 4 mo e 64 ʻa e hingoá pea ʻikai lava ke ʻasi ai ha fakamamafaʻi",
+      "lbl-confirm": "Seivi e Ngāué"
+    },
+    "support": {
+      "title": "Poupou",
+      "header": "Fie maʻu ke lipooti ha palopalema?",
+      "msg": "Te ke lava ʻo faile ha <1>palopalema GitHub</1> pe ʻi-meili mai ke maʻu ha poupou ʻi he <3>{{mail}}</3>",
+      "discord": "Te ke lava foki ʻo ʻiloʻi kimautolu ʻi he <1>Keé</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Bing Images",
+      "search": "Kumi ʻaki e Bing"
+    },
+    "bingVideo": {
+      "name": "Ngaahi Vitiō Bing",
+      "search": "Kumi ʻaki e Bing"
+    },
+    "element": {
+      "name": "Ngaahi ʻElemeniti"
+    },
+    "myAssets": {
+      "name": "Ko ʻEku Ngaahi Koloá"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Fekumi ʻi he Google"
+    },
+    "tenor": {
+      "name": "Tenor GIFs",
+      "search": "Kumi ʻaki ʻa e Tēnoá",
+      "ph-search": "Kumi ʻa e GIFs..."
+    },
+    "sketchfab": {
+      "name": "Tā fakatātā",
+      "search": "Fekumi ʻi he Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Upload ʻa e Koloa"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Fekumi ʻi he ngaahi ʻīmisí..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Kumi ʻa e ngaahi vitioó..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Kumi ʻa e ngaahi koloa..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Kumi ha kau ta sipinga ..."
+    },
+    "useUpload": {
+      "multipleFileError": "ʻOku ʻikai tali ʻe he fakahū ha ngaahi faile lahi.",
+      "mineTypeError": "\"{{name}}\" ʻoku ʻikai tatau ia mo e faʻahinga mime pe fakaloloaʻi ko ʻeni: {{types}}",
+      "progressTitle": "Upload e Ngaahi Failé",
+      "progressMsg": "Upload e ngaahi faile {{uploaded}} ʻo e {{total}}: {{percentage}}%",
+      "uploadError": "Upload e Fehālaakí",
+      "uploadErrorMsg": "Fehalaaki hono upload ʻo e failé: {{message}}",
+      "uploadErrorDefaultMsg": "Naʻe ʻi ai ha fehalaaki naʻe ʻikai ʻiloʻi"
+    }
+  },
+  "openLink": {
+    "description": "Kātaki ʻo lomiʻi ʻi he Open ke ʻalu ki he fehokotakiʻangá.",
+    "lbl-open": "Fakaava"
+  },
+  "interactableModel": {
+    "lbl-buy": "Fakatau",
+    "lbl-learnMore": "Ako Lahi Ange"
+  },
+  "corsProxyButton": {
+    "tooltip": "Fakaʻaongaʻi ʻa e Cors Proxy Server"
+  }
+}

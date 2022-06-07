@@ -1,0 +1,718 @@
+{
+  "loading": "Mashruuca Loading",
+  "loadingMsg": "Mashruuca Loading ...",
+  "loadingError": "Mashruuca loading error",
+  "loadingErrorMsg": "Waxa jiray qalad markii la rarayay mashruuca.",
+  "selectSceneMsg": "Dooro Muuqaal si ay u bilaabaan la engine ciyaaro",
+  "error": "Khalad",
+  "errorMsg": "Waxaa jiray qalad aan la garanayn.",
+  "generateScreenshot": "abuurin Screenshot Project",
+  "generateScreenshotMsg": "Abuurin screenshot mashruuca ...",
+  "newScene": "Abuuri Goobta",
+  "saving": "Saving Project",
+  "savingMsg": "Mashruuca Badbaadinta ...",
+  "savingError": "Mashruuca Badbaadinta Khaladaadka",
+  "savingErrorMsg": "Qalad ayaa jiray markii la badbaadinayay mashruuca.",
+  "savingSceneErrorMsg": "Muuqaalka si habboon looma rarto. Isku day inaad dib u cusboonaysiiso goobta.",
+  "duplicating": "Mashruuca Duplicating",
+  "duplicatingMsg": "Mashruuca Duplicating ...",
+  "exporting": "Project Dhoofinta",
+  "exportingMsg": "Mashruuca Dhoofinta ...",
+  "exportingError": "Mashruuca Dhoofinta Qaladka",
+  "exportingErrorMsg": "Qalad markii la dhoofinayay mashruucaasi waa uu jiray.",
+  "importLegacy": "Import Legacy World",
+  "importLegacyMsg": "Digniin. Tani waxay qori doontaa goobtaada hadda jirta! Ma hubtaa in aad rajeyneysid in aad sii wadato?",
+  "publishingError": "Mashruuca Daabacaadda Khaladaadka",
+  "publishingErrorMsg": "Waxaa jiray qalad aan la garanayn.",
+  "publishingScene": "Publishing Goobta",
+  "publishingSceneMsg": "Publishing goobta ...",
+  "uploadingThumbnailMsg": "thumbnail galin ...",
+  "uploadingSceneMsg": "Goobta dheereynta: {{percentage}}%",
+  "envMapError": "Khaladaadka oo ku dhejinaya sawirrada cubemap-ka {{files}}",
+  "lbl-return": "Dib u noqoshada",
+  "menubar": {
+    "newScene": "Muuqaalka Cusub",
+    "saveScene": "Save Scene",
+    "saveAs": "100 Save",
+    "importAsset": "Import Hantida",
+    "exportGLB": "Dhoofinta sida glTF binary (.glb) ...",
+    "importScene": "goobta Import",
+    "exportScene": "goobta dhoofinta",
+    "quit": "Haku"
+  },
+  "errors": {
+    "fileTypeNotSupported": "nooca file aan la cayin for file: \"\"{{name}}\". File waa in image ah, video ah, ama model glb.",
+    "addObject": "addObject: kahor wax aan la helin",
+    "removeObject": "removeObject: node lama helin. Tan waxaa sabab u ah in ay meesha ka saarto qanjir aan ku jirin goobta.",
+    "noParent": "{{node}} \"{{name}}\" waalid ma leh. Reparent kaliya ka shaqeeya walxaha hadda ku jira goobta.",
+    "undefinedParent": "editor.reparent: newParent waa undefined",
+    "notAuthenticated": "Lama garanayo",
+    "fetchingProjectError": "Mashaariicda Qabashada Khaladaadka: {{error}}",
+    "fetchingRouteError": "Waddooyin Qabsashada khaladaadka: {{error}}",
+    "unknownError": "Qalad aan la aqoon",
+    "resolveURL": "Xalinta Url \"{{url}}\":",
+    "mediaSearchAborted": "Raadinta warbaahinta oo la joojiyey",
+    "methodNotImplemented": "Method aan la hirgelin.",
+    "saveProjectAborted": "Save goobta laga joojiyay",
+    "unsavedChanges": "Isbeddelada aan la hubin",
+    "unsavedChangesMsg": "Muuqaalka waa la badalaay. Fadlan badbaadi isbedelkaaga.",
+    "projectCreationFail": "Abuurista mashruucu wuu fashilmay. {{reason}}",
+    "projectDeletionFail": "Tirtirka mashruuca wuu fashilmay. {{reason}}",
+    "savingProjectFail": "Saving Project fashilmay. {{reason}}",
+    "sceneTooLarge": "Goobta aad ayey u weyn tahay ({{size}} MB) in la daabaco. Cabbirka ugu badan waa {{maxSize}} MB.",
+    "sceneCreationFail": "Goobtii abuurka ayaa guuldareysatay. {{reason}}",
+    "uploadAborted": "Upload oo la joojiyay",
+    "uploadFailed": "Upload fashilantay {{reason}}",
+    "assetDeletionFail": "Hanti tirtirka hantida ayaa fashilantay. {{reason}}",
+    "projectAssetDeletionFail": "Tirtirka Mashruuca Hantida ayaa fashilantay. {{reason}}",
+    "networkError": "Khaladaadka Shabakadda: {{status}}. {{text}}",
+    "unknownStatus": "Status lama yaqaan",
+    "CORS": "Waxaa suurtagal ah qalad CORS ah",
+    "urlFetchError": "Ku guuldareystay inuu qaado \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Viewport",
+    "command": {
+      "movecamera": "Dhaqaaji Camera",
+      "flyFast": "Fly dhaqso",
+      "orbit": "Laalaada / Dooro",
+      "pan": "Pan",
+      "fly": "Duuli",
+      "focus": "Focus",
+      "rotateLeft": "Bidix",
+      "rotateRight": "Wareega Xaqa",
+      "cancelPlacement": "Joojinta Meelaynta",
+      "placeDuplicate": "Dhigaalka Duubka",
+      "cancelGrab": "Kansal qaboojinta",
+      "grab": "Qabooqsada",
+      "deselectAll": "Alle Alle"
+    },
+    "state": {
+      "header": "Stats",
+      "memory": "Xasuusta",
+      "geometries": "Geometries",
+      "textures": "Qaabbilaada",
+      "render": "Haku",
+      "FPS": "FPS",
+      "frameTime": "Time jir",
+      "calls": "Wicitaanada",
+      "triangles": "Saddex-geesoodka",
+      "points": "Dhibcaha",
+      "lines": "Khadadka"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Publish",
+    "lbl-published": "Published",
+    "command": {
+      "translate": "Tarjun",
+      "rotate": "Rotate",
+      "scale": "Miisaanka",
+      "toggleSpace": "Toggle Transform Space",
+      "togglePivot": "Toggle Transform Pivot",
+      "toggleSnapMode": "Toggle Snap Mode",
+      "toggleGrid": "Muuqaalka Toggle Grid",
+      "increaseGridSize": "Kordhi Size Grid",
+      "descreaseGridSize": "Yaree Grid Size",
+      "stopPreview": "Jooji Muuqaalka Muuqaalka",
+      "playPreview": "Muuqaalka Muuqaalka"
+    }
+  },
+  "properties": {
+    "title": "Guryaha",
+    "lbl-visible": "Muuqda",
+    "lbl-preventBake": "Ka hortaga Bake",
+    "lbl-persist": "waayay",
+    "multipleNodeSelected": "Nodes Multiple noocyada kala duwan xulay",
+    "noNodeSelected": "No node xulashada",
+    "ambientLight": {
+      "name": "iftiinka Light",
+      "description": "Iftiinka oo iftiimiya dhamaan walxaha ku jira goobtaada.",
+      "lbl-intensity": "Intensity",
+      "lbl-color": "midabka"
+    },
+    "envmap": {
+      "name": "Bay'ada Map",
+      "description": "bay'ada karta guryaha"
+    },
+    "asset": {
+      "name": "Hantida",
+      "description": "Kooxayn ka kooban qaybaha muuqaalka kuwaas oo si firfircoon loo rari karo oo la dejin karo",
+      "lbl-options": "Fursadaha",
+      "lbl-assetPath": "Asset Path",
+      "lbl-assetName": "dhoofinta Name",
+      "lbl-exportOptions": "Xulasho dhoofinta",
+      "lbl-export": "Dhoofinta Asset",
+      "lbl-load": "Ku shub goobta",
+      "lbl-unload": "kari",
+      "lbl-reload": "Reload"
+    },
+    "audio": {
+      "name": "Audio",
+      "description": "Si firfircoon u xamuuliya audio.",
+      "lbl-audiourl": "Audio Url",
+      "lbl-controls": "kontoroolada",
+      "info-controls": "Toggle aragtida ay maamusho warbaahintu maamusho.",
+      "lbl-autoplay": "Auto Play",
+      "info-autoplay": "Haddii ay run tahay, saxaafadda ayaa ciyaareysa markii ugu horeysay ee ay soo galaan goobta.",
+      "lbl-synchronize": "Synchronize",
+      "info-synchronize": "Haddii ay run noqoto, saxaafada waa la isku waafaqi doonaa dhamaan macaamiisha ku xiran.",
+      "lbl-loop": "Loop",
+      "info-loop": "Haddii ay run noqdaan warbaahinta ayaa loop aan xad lahayn.",
+      "lbl-audioType": "Nooca Audio",
+      "lbl-distanceModel": "Distance Model",
+      "info-distanceModel": "Algorithim waxaa loo isticmaalaa in lagu xisaabiyo duuban codka.",
+      "lbl-rolloffFactor": "Rolloff Factor",
+      "info-rolloffFactor": "Laba qiime oo qiimeeynaya sida ugu dhakhsaha badan uu hoos ugu dhacay mugga markuu ilaha ka guurayo qofka dhegeysanaya. 0 a 1",
+      "info-rfInfinity": "Laba qiime oo qiimeeynaya sida ugu dhakhsaha badan uu hoos ugu dhacay mugga markuu ilaha ka guurayo qofka dhegeysanaya. 0 ilaa Xaddid la'aan",
+      "lbl-refDistance": "Ref Distance",
+      "info-refDistance": "Qiime laba jibbaaran oo matalaya masaafada tixraaca si loo yareeyo mugga iyadoo ilaha maqalku ay kor ugu sii guurayaan dhegeystaha.",
+      "lbl-maxDistance": "Max Distance",
+      "info-maxDistance": "Qiime laba jibbaar ah oo ka dhigan masaafada ugu badan ee u dhaxaysa ilaha codka leh iyo qofka dhegeystay, kadibna mugga kama hoos dhacayo.",
+      "lbl-coneInnerAngle": "cone Inner xaglaha",
+      "info-coneInnerAngle": "A double value sharaxaya xagal, darajo ahaan, ee koorka gudaha ah oo aan jiri doonin mugga dhimis mugga.",
+      "lbl-coneOuterAngle": "Cone xagal dibadda",
+      "info-coneOuterAngle": "Qiime labanlaab ah oo qeexaya xagal, darajo ahaan, koor ka baxsan kaas oo mugga lagu dhimi doono qiimo joogto ah, oo lagu qeexay sifada koortaOuterGain.",
+      "lbl-coreOuterGain": "cone firxad ahee",
+      "info-coreOuterGain": "Qiime laba jibbaaran oo qeexaya cadadka hoos-u-dhaca mugga ee ka baxsan kowka oo lagu qeexay sifada coneOuterAngle. Its default value is 0, taasoo la micno ah in cod ma la maqli karo.",
+      "lbl-volume": "Volume",
+      "lbl-play": "Play",
+      "lbl-pause": "Haku",
+      "error-url": "Xayiraadda qaladka ee URL"
+    },
+    "boxCollider": {
+      "description": "Sanduuq aan la arki karin oo walxuhu ayey kasoo kabsanayaan ama ku nasanayaan dushiisa.\nHaddii aanay dhicin, walxuhu waxay ku soo dhex dhacaan dabaqyada oo waxay dhex mari doonaan gowrado.",
+      "lbl-isTrigger": "Trigger"
+    },
+    "camera": {
+      "name": "camera",
+      "description": "goobaha Camera.",
+      "lbl-camera-raycast": "Sawirada Raycasting",
+      "lbl-camera-raycast-toggle": "Awood",
+      "lbl-camera-raycast-frequency": "Frequency",
+      "lbl-camera-raycast-count": "Ray Count",
+      "lbl-camera-raycast-length": "Ray Length"
+    },
+    "directionalLight": {
+      "name": "Jiho Light",
+      "description": "Nal iftiimiya muuqaalka oo dhan, laakin hal jiho ayuu ku wehelinayaa.",
+      "lbl-color": "midabka",
+      "lbl-intensity": "Intensity",
+      "lbl-cameraFar": "Fog Camera",
+      "lbl-cameraNear": "Camera Dhow",
+      "lbl-cameraTop": "Camera Top",
+      "lbl-cameraBottom": "Hoos Camera",
+      "lbl-cameraLeft": "Camera Left",
+      "lbl-cameraRight": "Camera Xaqa",
+      "lbl-useInCSM": "Isticmaal CSM",
+      "lbl-castShadow": "Tuur Shadow",
+      "lbl-disableForCSM": "Naafo sababtoo ah khariidadda hooska cascade ayaa awood u leh.",
+      "lbl-shadowmapResolution": "Shadow Map Resolution",
+      "lbl-shadowBias": "Shadow Bias",
+      "lbl-shadowRadius": "Shadow gacan gacan",
+      "lbl-showCameraHelper": "Show Camera Caawiye"
+    },
+    "groundPlane": {
+      "name": "Diyaarad Dhulka",
+      "description": "Diyaarad dhulka saaran oo ku sii fidsan masaafada",
+      "lbl-color": "midabka",
+      "lbl-receiveShadow": "Hel Shadow",
+      "lbl-generateNavmesh": "abuuri Navmesh"
+    },
+    "link": {
+      "description": "Iskuxirka qolka ama bogga internetka.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "3D map geospatial of e.g. magaalo."
+    },
+    "model": {
+      "description": "model A 3D goobta, raran ka URL GLTF ama file a.",
+      "lbl-usingGPUInstancingFlag": "Isticmaal GPU Instancing",
+      "lbl-modelurl": "Model Url",
+      "lbl-envmapUrl": "Khariidadda Degaanka Url",
+      "lbl-textureOverride": "ka horjaanta texture",
+      "lbl-materialOverride": "waxyaabaha Overrides",
+      "error-url": "Xayiraadda qaladka ee URL",
+      "lbl-loopAnimation": "Loop Animation",
+      "lbl-isAvatar": "Is Avatar",
+      "lbl-isGPUInstancing": "Ma Isticmaalka GPU Instancing",
+      "lbl-isDynamic": "Is Dynamic",
+      "lbl-castShadow": "Tuur Shadow",
+      "lbl-receiveShadow": "Hel Shadow",
+      "lbl-interactable": "Interactable",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "magaca",
+      "lbl-url": "Model Url",
+      "lbl-buy": "Buy Url",
+      "lbl-learnMore": "Baro More Url",
+      "lbl-htmlContent": "Html Content",
+      "lbl-interactionText": "Dhexgalka Text",
+      "lbl-interactionType": "Dhexgalka Type"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Mida",
+      "error-materialID": "Helitaanka Khaladaadka Waxyaabaha",
+      "placeholder-materialID": "dooro Waxyaabaha",
+      "lbl-patternTarget": "Kulanka Qaabka",
+      "lbl-pattern": "Qaabka",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Dhexgalka Type",
+      "text": "Dhexgalka Text",
+      "distance": "Isdhexgalka Distance",
+      "theme": "Mawduuca Interaction",
+      "name": "Dhexgalka Name",
+      "description": "Description dhexgalka",
+      "images": "Isdhexgalka Images",
+      "videos": "ka dhex-dhex-muuqata Videos",
+      "urls": "Interaction Urls",
+      "models": "daydo dhexgalka"
+    },
+    "group": {
+      "name": "Koox",
+      "description": "Koox walxo badan ka kooban oo la isu-hor-keeni karo ama la isku-dubari karo.\nKu jiid oo ku rid walxaha Kooxda ee Hierarchy dhexdiisa."
+    },
+    "hemisphere": {
+      "name": "Hemisphere Light",
+      "description": "Nalka muuqaalka ka ifinaya si toos ah dusha sare.",
+      "lbl-skyColor": "Sky Color",
+      "lbl-groundColor": "Dhulka Color",
+      "lbl-intensity": "Intensity"
+    },
+    "image": {
+      "name": "Sawir",
+      "description": "Si firfircoon ayaa xayiraya sawir.",
+      "lbl-imgURL": "Image Url",
+      "lbl-transparency": "Transparency Mode",
+      "lbl-alphaCutoff": "Alpha Cutoff",
+      "lbl-projection": "Saadaasha",
+      "lbl-side": "Sida",
+      "info-controls": "Toggle aragtida ay maamusho warbaahintu maamusho.",
+      "info-transparency": "Sida loo adeegsado daahfurnaanta:",
+      "info-opaque": "'opaque' = daahfurnaan la'aan",
+      "info-blend": "'blend' = isticmaal sawirada alpha channel",
+      "info-mask": "'maaskaro' = Isticmaal qiimaha goynta ee ku qeexan daahfurnaanta ku-meel-gaarka ah / dib-u-dhigista (waxqabad badan)",
+      "info-alphaCutoff": "Pixels leh qiyamka alpha ee ka hooseeya tan waxay noqon doontaa mid daahfuran",
+      "error-url": "URL aan sharci ahayn"
+    },
+    "name": {
+      "lbl-name": "magaca"
+    },
+    "partileEmitter": {
+      "description": "Emitter emitter si ay u abuuraan qoqoble.",
+      "lbl-particleCount": "Count qoyaan",
+      "lbl-image": "Sawir",
+      "lbl-ageRandomness": "Da'da Randomness",
+      "lbl-lifetime": "nolosha",
+      "lbl-lifetimeRandomness": "Natiijada Nolosha",
+      "lbl-sizeCurve": "Mida ubaxyada",
+      "lbl-startPSize": "Start qoqob Size",
+      "lbl-endPSize": "End naxdii Size",
+      "lbl-sizeRandomness": "Size Randomness",
+      "lbl-colorCurve": "qalooca Color",
+      "lbl-startColor": "Start Color",
+      "lbl-startOpacity": "Bilow Opacity",
+      "lbl-middleColor": "Midabka Dhexe",
+      "lbl-middleOpacity": "Opacity Dhexe",
+      "lbl-endColor": "Midabka dhamaadka",
+      "lbl-endOpacity": "End Opacity",
+      "lbl-velocityCurve": "Qalooca Xasaasiyadeed",
+      "lbl-startVelocity": "Bilow Xaasasiga",
+      "lbl-endVelocity": "End Xasaasi",
+      "lbl-angularVelocity": "Xawaaraha Angular",
+      "info-ageRandomness": "Kala-duwanaanshaha u dhexeeya markii walxaha la soo bixinayo.",
+      "info-lifetime": "Da'da ugu badan ee curiye da'da u ah inta aan dib loo dhigin ka hor.",
+      "info-lifetimeRandomness": "Tirada kala duwanaanshaha u dhexeeya walxaha nolosha.",
+      "info-sizeRandomness": "Tirada kala duwanaanshaha u dhexeeya sizes walxaha bilaabanaya.",
+      "error-url": "Xayiraadda qaladka ee URL"
+    },
+    "clouds": {
+      "name": "Cloud",
+      "description": "Sprite ku salaysan mugga daruuriga.",
+      "lbl-image": "Sprite Image",
+      "lbl-wroldScale": "World Scale",
+      "lbl-dimensions": "Cabbiraadyada",
+      "lbl-noiseZoom": "Sanqadh Zoom",
+      "lbl-noiseOffset": "Sanqadhaha Offset",
+      "lbl-spriteScale": "Sprite Scale",
+      "lbl-fogColor": "Midabka Ceeryaanta",
+      "lbl-fogRange": "Fog Range",
+      "error-url": "Xayiraadda qaladka ee URL"
+    },
+    "ocean": {
+      "name": "Ocean",
+      "description": "dusha Ocean leh hirarka iyo xumbo",
+      "lbl-normalMap": "Map Caadi ah",
+      "lbl-distortionMap": "Karta Distoorka",
+      "lbl-envMap": "Bay'ada Map",
+      "lbl-color": "midabka",
+      "lbl-shallowWaterColor": "midabka Biyaha midabka ah",
+      "lbl-shallowToDeepDistance": "Jaale si Deep Distance",
+      "lbl-opacityFadeDistance": "Opacity daata Distance",
+      "lbl-opacityRange": "Opacity Range",
+      "lbl-shininess": "Shininess",
+      "lbl-reflectivity": "Dib u eegista",
+      "lbl-foamColor": "Xumbo Color",
+      "lbl-foamSpeed": "Speed xumbo",
+      "lbl-foamTiling": "Tiling xumbo",
+      "lbl-bigWaveTiling": "Big Wave Tiling",
+      "lbl-bigWaveSpeed": "Big Wave Speed",
+      "lbl-bigWaveHeight": "Big Wave Dhererka",
+      "lbl-waveSpeed": "Wave Speed",
+      "lbl-waveScale": "Wave Miisaanka",
+      "lbl-waveTiling": "Wave Tiling",
+      "lbl-waveDistortionSpeed": "Wave qashin Speed",
+      "lbl-waveDistortionTiling": "Wave qalloocan Tiling",
+      "error-url": "Xayiraadda qaladka ee URL"
+    },
+    "water": {
+      "name": "Biyaha",
+      "description": "dusha biyaha Yar"
+    },
+    "interior": {
+      "name": "Arrimaha Gudaha",
+      "description": "dusha A la texture saaraaye mapped in ay ku daydaan jawiga gudaha",
+      "lbl-cubeMap": "Cube Map texture",
+      "lbl-tiling": "lacagta Tiling",
+      "lbl-size": "size oogada",
+      "error-url": "Xayiraadda qaladka ee URL"
+    },
+    "pointLight": {
+      "description": "Nalka oo dhan dhan ka soo baxa nal hal dhibic ka soo baxa.",
+      "lbl-color": "midabka",
+      "lbl-intensity": "Intensity",
+      "lbl-range": "Range",
+      "lbl-decay": "ansixin"
+    },
+    "scene": {
+      "name": "Scene",
+      "description": "Shayga salka u ah goobta.",
+      "lbl-bgcolor": "Background Color",
+      "lbl-fogType": "Nooca ceeryaamo",
+      "lbl-fogColor": "Midabka Ceeryaanta",
+      "lbl-forNearDistance": "Fog Near Distance",
+      "lbl-fogFarDistance": "Fog Far Distance",
+      "lbl-fogDensity": "Fog Density",
+      "lbl-audioSettings": "Isticmaal Positional Audio",
+      "lbl-avatarDistanceModel": "Avatar Distance Model",
+      "lbl-avatarRolloffFactor": "Avatar Rolloff Factor",
+      "lbl-avatarRefDistance": "Avatar Ref Distance",
+      "lbl-avatarMaxDistance": "Avatar Max Distance",
+      "lbl-mediaVolume": "Media Mugga",
+      "lbl-mediaDistanceModel": "Media Distance Model",
+      "lbl-mediaRolloffFactor": "Media Rolloff Factor",
+      "lbl-mediaRefDistance": "Warbaahinta Ref Distance",
+      "lbl-mediaMaxDistance": "Media Max Distance",
+      "lbl-mediaConeInnerAngle": "Media cone Inner xagal",
+      "lbl-mediaConeOuterAngle": "Media Cone xagal dibadda ah",
+      "lbl-mediaConeOuterGain": "Media cone dibadda ah Guul",
+      "info-avatarDistanceModel": "Algorithim waxaa loo isticmaalaa in lagu xisaabiyo duuban codka.",
+      "info-avatarRolloffFactor": "Laba qiime oo qiimeeynaya sida ugu dhakhsaha badan uu hoos ugu dhacay mugga markuu ilaha ka guurayo qofka dhegeysanaya. 0 a 1",
+      "info-avatarRolloffFactorInifinity": "Laba qiime oo qiimeeynaya sida ugu dhakhsaha badan uu hoos ugu dhacay mugga markuu ilaha ka guurayo qofka dhegeysanaya. 0 ilaa Xaddid la'aan",
+      "info-avatarRefDistance": "Qiime laba jibbaaran oo matalaya masaafada tixraaca si loo yareeyo mugga iyadoo ilaha maqalku ay kor ugu sii guurayaan dhegeystaha.",
+      "info-avatarMaxDistance": "Qiime laba jibbaar ah oo ka dhigan masaafada ugu badan ee u dhaxaysa ilaha codka leh iyo qofka dhegeystay, kadibna mugga kama hoos dhacayo.",
+      "info-mediaDistanceModel": "Algorithim waxaa loo isticmaalaa in lagu xisaabiyo duuban codka.",
+      "info-mediaRolloffFactor": "Laba qiime oo qiimeeynaya sida ugu dhakhsaha badan uu hoos ugu dhacay mugga markuu ilaha ka guurayo qofka dhegeysanaya. 0 a 1",
+      "info-mediaRolloffFactorInfinity": "Laba qiime oo qiimeeynaya sida ugu dhakhsaha badan uu hoos ugu dhacay mugga markuu ilaha ka guurayo qofka dhegeysanaya. 0 ilaa Xaddid la'aan",
+      "info-mediaRefDistance": "Qiime laba jibbaaran oo matalaya masaafada tixraaca si loo yareeyo mugga iyadoo ilaha maqalku ay kor ugu sii guurayaan dhegeystaha.",
+      "info-mediaMaxDistance": "Qiime laba jibbaar ah oo ka dhigan masaafada ugu badan ee u dhaxaysa ilaha codka leh iyo qofka dhegeystay, kadibna mugga kama hoos dhacayo.",
+      "info-mediaConeInnerAngle": "A double value sharaxaya xagal, darajo ahaan, ee koorka gudaha ah oo aan jiri doonin mugga dhimis mugga.",
+      "info-mediaConeOuterAngle": "Qiime labanlaab ah oo qeexaya xagal, darajo ahaan, koor ka baxsan kaas oo mugga lagu dhimi doono qiimo joogto ah, oo lagu qeexay sifada koortaOuterGain.",
+      "info-mediaConeOuterGain": "Qiime laba jibbaaran oo qeexaya cadadka hoos-u-dhaca mugga ee ka baxsan kowka oo lagu qeexay sifada coneOuterAngle. Its default value is 0, taasoo la micno ah in cod ma la maqli karo.",
+      "lbl-simpleMaterials": "Isticmaal Qalabka Simple",
+      "lbl-lods": "LODs",
+      "info-lods": "Waxay dajisaa masaafada heerarka si faahfaahsan isu bedelaan.",
+      "info-simpleMaterials": "Badashaa dhammaan qalabka qaali ah in kuwa fudud si ay u qaadaan xamuulka ka baxsan goobta.",
+      "lbl-rendererSettings": "Override Renderer Settings",
+      "lbl-csm": "Cascading Khariidadaha Shadow",
+      "info-csm": "Waxay awood u siineysaa khariidadaha hooska ah.",
+      "lbl-toneMapping": "Tone Mapping",
+      "info-toneMapping": "Waxay awood u tahay khariidaynta tone on haya'ad goobta. Ma laha wax saameyn ah marka processing a post waa awood.",
+      "lbl-toneMappingExposure": "Gaadhista Tone Khariidadda",
+      "info-toneMappingExposure": "Qeexan muuqaalka khariidaynta tone ee renderer goobta. Ma laha wax saameyn ah marka processing a post waa awood.",
+      "lbl-shadowMapType": "Nooca Khariidadda Shadow",
+      "info-shadowMapType": "Type of map hooska",
+      "error-url": "Xayiraadda qaladka ee URL"
+    },
+    "sceneCamera": {
+      "name": "Muuqaal Muuqaal Muuqaal Muuqaal Camera",
+      "description": "camera waxaa loo isticmaalaa si ay u curiyaan thumbnail ee goobta iyo booska bilowga for camera horudhac ah.",
+      "lbl-setFromViewPort": "Ka soo Hor Viewport"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "Time of Day",
+      "lbl-color": "midabka",
+      "lbl-latitude": "Latitude",
+      "lbl-luminance": "luminance",
+      "lbl-scattering": "Daadinta daadinta",
+      "lbl-scatteringDistance": "kala Firdhina Distance",
+      "lbl-horizonStart": "Bilowga Horizon",
+      "lbl-horizonEnd": "Horizon End",
+      "lbl-texture": "qoraalka",
+      "lbl-skyType": "Sky Type",
+      "error-url": "Xayiraadda qaladka ee URL"
+    },
+    "spawnPoint": {
+      "name": "dhalaalisa",
+      "description": "Barta ay dadku kasoo muuqan doonaan markii ay goobtaada ka soo galaan.\nicon ee ku jira Viewport waxay u dhigantaa cabbirka dhabta ah ee avatar ah."
+    },
+    "spotLight": {
+      "description": "Nalka oo jiho ka baxa, oo wax ka iftiimiya walxaha ku jira gows.",
+      "lbl-color": "midabka",
+      "lbl-intensity": "Intensity",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "xaglaha",
+      "lbl-range": "Range",
+      "lbl-decay": "ansixin"
+    },
+    "transform": {
+      "title": "Transform",
+      "lbl-postition": "Mowqifka",
+      "lbl-rotation": "Wareegga",
+      "lbl-scale": "Miisaanka"
+    },
+    "triggereVolume": {
+      "description": "Dejiyaa hanti ku saabsan shayga bartilmaameedka ah marka la galo laga tago iyo ka tago.",
+      "lbl-target": "Walxaha",
+      "lbl-onenter": "On Enter",
+      "lbl-onexit": "On Exit",
+      "lbl-showHelper": "Show Caawiyaha mesh",
+      "ph-errorNode": "Qanjirka maqan.",
+      "ph-selectNode": "Xulo qanjirka ..."
+    },
+    "video": {
+      "name": "Muuqaalo",
+      "description": "Si firfircoon ayaa u raran fiidiyow.",
+      "lbl-video": "Muuqaalo",
+      "lbl-projection": "Saadaasha",
+      "lbl-islivestream": "Live Stream",
+      "lbl-interactable": "Interactable",
+      "lbl-id": "Element Id",
+      "lbl-play": "Play",
+      "lbl-pause": "Haku",
+      "error-url": "Xayiraadda qaladka ee URL"
+    },
+    "volumetric": {
+      "name": "Volumetric",
+      "description": "Wuxuu si dhaqso ah u shubmaa fiidiyow mutadawicii ah.",
+      "uvolPaths": "Waddooyinka UVOL",
+      "playmode": "Play Mode",
+      "playtitle": "Play",
+      "pausetitle": "Haku"
+    },
+    "spline": {
+      "description": "Si firfircoon u abuuraan una astaystaan qalooca.",
+      "lbl-addNode": "Ku dar qandhida si ay u qaloocdo."
+    },
+    "systemnode": {
+      "description": "Ku lifaaq script.",
+      "lbl-filePath": "Url",
+      "lbl-systemUpdateType": "Dhibicda isku duritaanka",
+      "lbl-enableClient": "Client",
+      "lbl-enableServer": "Server",
+      "lbl-args": "Args",
+      "error-url": "Ku qalad qalad ah oo laga soo saaray URL"
+    },
+    "portal": {
+      "lbl-portal": "Linked Portal",
+      "lbl-redirect": "Isticmaal Page Redirect",
+      "description": "Portat A in ciyaartoyda teleport in goobta lagu qeexay",
+      "lbl-locationName": "Goobta",
+      "lbl-modelUrl": "Model URL",
+      "lbl-displayText": "Bandhigay Text",
+      "lbl-cubemapBake": "Cubemap dubay",
+      "lbl-spawnPosition": "Dhalaanka Position",
+      "lbl-spawnRotation": "Spawn Wareegtada",
+      "lbl-triggerPosition": "Trigger Position",
+      "lbl-triggerRotation": "kiciyaan wareegga",
+      "lbl-triggerScale": "Miisaanka kiciya"
+    },
+    "postprocessing": {
+      "name": "Post Processing",
+      "description": "Waayo, codsanaya saamaynta Post Processing in aad goobta."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Mashruuc cusub",
+      "backLink": "Back mashaariicda",
+      "featured": "Muuqaalka",
+      "all": "Alle",
+      "newProject": "Mashruuc Cusub oo Madhan",
+      "ph-search": "Search muuqaalada ..."
+    },
+    "grid": {
+      "loading": "Loading..."
+    },
+    "page": {
+      "header": "Soo dhawoow",
+      "headerMsg": "Haddii aad halkan ku cusub tahay waxaan kugula talineynaa in aad marto tutorial-ga. Haddii kale, u bood siig gudaha oo la abuuro mashruuc ka xoqin ama ka mid ah habyaaladeena.",
+      "lbl-startTutorial": "Bilow Tutorial",
+      "projects": "Mashaariicda",
+      "lbl-newProject": "Mashruuc cusub"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Loading...",
+      "placeObject": "Ku Meelka Walxaha",
+      "placeObjectAtOrigin": "Bedel Waxyaabaha At Asal ahaan",
+      "copyURL": "Nuqul URL",
+      "openInNewTab": "Fur URL-ka cusub ee Tab Cusub",
+      "deleteAsset": "Hantida Delete"
+    },
+    "filebrowser": {
+      "addNewFolder": "Ku dar Folder New",
+      "cutAsset": "Cut",
+      "copyAsset": "Nuqul",
+      "pasteAsset": "Paste",
+      "renameAsset": "Rename",
+      "viewAssetProperties": "View Guryaha"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Rename",
+    "lbl-duplicate": "Duubka",
+    "lbl-group": "Koox",
+    "lbl-delete": "delete",
+    "lbl-expandAll": "Ballaarinta Alle",
+    "lbl-collapseAll": "Dhamaan Iskudelka",
+    "isseus": "Haku:"
+  },
+  "dnd": {
+    "nodes": "{{count}} Nodes Xulashada",
+    "models": "daydo {{count}} Xulashada",
+    "images": "{{count}} Images Xulashada",
+    "videos": "{{count}} Videos xulashada",
+    "audio": "{{count}} Ilaha Xogta Laga soo xulay"
+  },
+  "dialog": {
+    "title": "Tifaftire",
+    "lbl-confirm": "Haye",
+    "lbl-cancel": "Jooji",
+    "exportProject": {
+      "title": "Project dhoofinta",
+      "lbl-confirm": "Project dhoofinta",
+      "lbl-combineMesh": "Isku dar meshes",
+      "lbl-removeUnused": "Ka saar Walxaha aan la isticmaalin"
+    },
+    "performance": {
+      "title": "Performance Hubi",
+      "lbl-confirm": "Publish Goobta",
+      "learnMore": "Waxbadan baro",
+      "lbl-polycount": "Polygon Count",
+      "lbl-material": "Qalabka",
+      "lbl-texture": "Qaabbilaada",
+      "lbl-lights": "lights",
+      "lbl-fileSize": "Mida faylka",
+      "info-polycount": "Waxaan ku talineynaa in aad goobta isticmaalaan wax ka badan 50,000 saddexagal for qalabka mobile.",
+      "info-material": "Waxaan ku talinaynaa in la isticmaalayo ma ka badan 25 qalabka u gaar ah ee goobtaada si loo yareeyo wicitaanada barbaro on qalabka mobile.",
+      "info-texture": "Waxaan kugula talineynaa qaabab aad isticmaasho wax ka badan 256MB of video RAM for qalabka mobile. Waxaan sidoo kale ku talineynaa inaan la isticmaalin qaabab ka weyn 2048 x 2048.",
+      "info-lights": "Inkastoo nalalka firfircoon aan awood on qalabka mobile, waxaan ku talinaynaa in la isticmaalayo ma badnayn 3 nalalka in aad goobta (marka laga reebo daarmayaay'e nalalka daarmayaay'e) si aad goobta in ay ordi on ku-takhasusay dhamaadka hoose.",
+      "info-fileSize": "Waxaan kugula talineynaa in size file kama dambaysta ah oo aan ka badnayn 16MB xiriir bandwidth hooseeyo. Yaraynta size file yarayn doonaa waqtiga ay qaadataa si aad u soo dejisan goobta.",
+      "txt-polycount": "{{count}} saddex xagalka",
+      "txt-material": "{{count}} Qalabka",
+      "txt-ram": "~{{count}} Video RAM",
+      "txt-texture": "{{count}} qaabab Large",
+      "txt-lights": "{{count}} Lights"
+    },
+    "progress": {
+      "title": "Loading...",
+      "msg": "Loading...",
+      "lbl-cancel": "Jooji"
+    },
+    "publish": {
+      "title": "Publish Goobta",
+      "lbl-confirm": "Save and Publish",
+      "lbl-name": "Magaca Muuqaalka",
+      "info-name": "Magacku waa inuu ahaadaa inta u dhaxaysa 4 iyo 64 calaamado mana ku jiri karo underscores"
+    },
+    "published": {
+      "title": "Muuqaal la daabacay",
+      "header": "Muuqaalkaaga ayaa la daabacay.",
+      "lbl-view": "Eeg Muuqaalkaaga"
+    },
+    "saveNewProject": {
+      "title": "Taageero",
+      "lbl-name": "Magaca Mashruuca",
+      "info-name": "Magacku waa inuu ahaadaa inta u dhaxaysa 4 iyo 64 calaamado mana ku jiri karo underscores",
+      "lbl-confirm": "Save Project"
+    },
+    "support": {
+      "title": "Taageero",
+      "header": "Ma u baahan tahay inaad soo sheegto dhibaatada?",
+      "msg": "Waxaad u fayli kartaa <1>Arrinta GitHub</1> ama noogu soo iimayl u soo-mail si aad u hesho taageero <3>{{mail}}</3>",
+      "discord": "Waxaad sidoo kale naga heli kartaa on <1>Discord</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Bing Images",
+      "search": "Raadi Bing"
+    },
+    "bingVideo": {
+      "name": "Fiidiyowyada Bing",
+      "search": "Raadi Bing"
+    },
+    "element": {
+      "name": "Elements"
+    },
+    "myAssets": {
+      "name": "My Hantida"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Raadi Google"
+    },
+    "tenor": {
+      "name": "Tenor GIFs",
+      "search": "Haku by Tenor",
+      "ph-search": "Haku GIFs..."
+    },
+    "sketchfab": {
+      "name": "Sketchfab",
+      "search": "Raadi Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Upload Hantida"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Haku images..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Haku videos..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "hantida Search ..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "daydo Search ..."
+    },
+    "useUpload": {
+      "multipleFileError": "Input ma aqbali files badan.",
+      "mineTypeError": "\"{{name}}\" ma u dhigma noocyada mime soo socda ama kordhinta soo socda: {{types}}",
+      "progressTitle": "Uploading Files",
+      "progressMsg": "Faylasha gudbinta {{uploaded}} of {{total}}: {{percentage}}%",
+      "uploadError": "Kaddid",
+      "uploadErrorMsg": "Faylka gudbinta qaladka: {{message}}",
+      "uploadErrorDefaultMsg": "Waxaa jiray qalad aan la garaneynin"
+    }
+  },
+  "openLink": {
+    "description": "Fadlan guji Open ah si ay u maraan si link ah.",
+    "lbl-open": "Wuxuu furan yahay"
+  },
+  "interactableModel": {
+    "lbl-buy": "Iibsadaan",
+    "lbl-learnMore": "Waxbadan baro"
+  },
+  "corsProxyButton": {
+    "tooltip": "Isticmaal Cors Proxy Server"
+  }
+}

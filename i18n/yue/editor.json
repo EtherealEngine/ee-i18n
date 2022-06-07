@@ -1,0 +1,718 @@
+{
+  "loading": "加載項目",
+  "loadingMsg": "正在加載項目...",
+  "loadingError": "加載項目時出錯",
+  "loadingErrorMsg": "加載項目時出錯。",
+  "selectSceneMsg": "選擇場景以開始使用引擎",
+  "error": "錯誤",
+  "errorMsg": "出現未知錯誤。",
+  "generateScreenshot": "生成項目屏幕截图",
+  "generateScreenshotMsg": "正在生成項目屏幕截图...",
+  "newScene": "創建場景",
+  "saving": "保存項目",
+  "savingMsg": "正在保存項目...",
+  "savingError": "保存項目時出錯",
+  "savingErrorMsg": "保存項目時出錯。",
+  "savingSceneErrorMsg": "場景未正確加载。 嘗試重新加載場景。",
+  "duplicating": "複製項目",
+  "duplicatingMsg": "正在複製項目...",
+  "exporting": "導出項目",
+  "exportingMsg": "正在導出項目...",
+  "exportingError": "導出項目時出錯",
+  "exportingErrorMsg": "導出項目時出錯。",
+  "importLegacy": "導入傳統世界",
+  "importLegacyMsg": "警告！ 將覆蓋你現有嘅場景！ 你確定要繼續啊？",
+  "publishingError": "發佈項目時出錯",
+  "publishingErrorMsg": "出現未知錯誤。",
+  "publishingScene": "發佈場景",
+  "publishingSceneMsg": "發佈場景...",
+  "uploadingThumbnailMsg": "正在上傳縮略圖...",
+  "uploadingSceneMsg": "上傳場景： {{percentage}}%",
+  "envMapError": "加載多維數據集映射圖像{{files}}時出錯",
+  "lbl-return": "返回",
+  "menubar": {
+    "newScene": "新建場景",
+    "saveScene": "保存場景",
+    "saveAs": "另存為",
+    "importAsset": "導入資產",
+    "exportGLB": "導出為二進制glTF （.glb ）...",
+    "importScene": "導入場景",
+    "exportScene": "導出場景",
+    "quit": "退出"
+  },
+  "errors": {
+    "fileTypeNotSupported": "文件唔支持嘅文件類型：“{{name}}”。 文件必須係圖像、視頻或glb模型。",
+    "addObject": "add對象：在找不到對象之前",
+    "removeObject": "刪除對象：未找到節點。 係由於刪除咗唔再位於場景中嘅節點。",
+    "noParent": "{{node}} “{{name}}”冇父級。 重定父級僅適用於當前位於場景中嘅對象。",
+    "undefinedParent": "editor.reparent： newParent is undefined",
+    "notAuthenticated": "未通過身份驗證",
+    "fetchingProjectError": "提取項目時出錯： {{error}}",
+    "fetchingRouteError": "提取路由時出錯： {{error}}",
+    "unknownError": "未知錯誤",
+    "resolveURL": "解析url“{{url}}”時出錯：",
+    "mediaSearchAborted": "媒體搜索中止",
+    "methodNotImplemented": "方法未實現。",
+    "saveProjectAborted": "保存場景中止",
+    "unsavedChanges": "未保存嘅更改",
+    "unsavedChangesMsg": "場景已被修改。 請保存您的更改。",
+    "projectCreationFail": "項目創建失敗。 {{reason}}",
+    "projectDeletionFail": "項目刪除失敗。 {{reason}}",
+    "savingProjectFail": "保存項目失敗。 {{reason}}",
+    "sceneTooLarge": "場景太大（{{size}} MB ）無法發佈。 最大大小為 {{maxSize}} MB。",
+    "sceneCreationFail": "場景創建失敗。 {{reason}}",
+    "uploadAborted": "上載已中止",
+    "uploadFailed": "上載失敗 {{reason}}",
+    "assetDeletionFail": "資產刪除失敗。 {{reason}}",
+    "projectAssetDeletionFail": "項目資產刪除失敗。 {{reason}}",
+    "networkError": "網絡錯誤： {{status}}。 {{text}}",
+    "unknownStatus": "未知狀態",
+    "CORS": "可能係CORS錯誤",
+    "urlFetchError": "無法獲取桎梏{{url}}桎梏"
+  },
+  "viewport": {
+    "title": "視窗",
+    "command": {
+      "movecamera": "移動相機",
+      "flyFast": "飛得更快",
+      "orbit": "軌道/選擇",
+      "pan": "泛",
+      "fly": "飛",
+      "focus": "重點",
+      "rotateLeft": "向左旋轉",
+      "rotateRight": "向右旋轉",
+      "cancelPlacement": "取消展示位置",
+      "placeDuplicate": "放置重複項",
+      "cancelGrab": "取消抓取",
+      "grab": "抓",
+      "deselectAll": "取消全選"
+    },
+    "state": {
+      "header": "統計",
+      "memory": "記憶",
+      "geometries": "幾何",
+      "textures": "紋理",
+      "render": "呈現",
+      "FPS": "轉數快",
+      "frameTime": "幀時間",
+      "calls": "調用",
+      "triangles": "三角形",
+      "points": "點",
+      "lines": "線"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "發佈",
+    "lbl-published": "發表",
+    "command": {
+      "translate": "翻譯",
+      "rotate": "旋轉",
+      "scale": "規模",
+      "toggleSpace": "切換變換空間",
+      "togglePivot": "切換變換樞軸",
+      "toggleSnapMode": "切換捕捉模式",
+      "toggleGrid": "切換網格可見性",
+      "increaseGridSize": "增加網格大小",
+      "descreaseGridSize": "減小網格大小",
+      "stopPreview": "停止預覽場景",
+      "playPreview": "預覽場景"
+    }
+  },
+  "properties": {
+    "title": "性能",
+    "lbl-visible": "可見",
+    "lbl-preventBake": "防止烘烤",
+    "lbl-persist": "堅持",
+    "multipleNodeSelected": "揀咗多個不同類型嘅節點",
+    "noNodeSelected": "未選擇節點",
+    "ambientLight": {
+      "name": "環境光",
+      "description": "照亮場景中所有對象嘅光源。",
+      "lbl-intensity": "強度",
+      "lbl-color": "顏色"
+    },
+    "envmap": {
+      "name": "環境地圖",
+      "description": "環境映射屬性"
+    },
+    "asset": {
+      "name": "資產",
+      "description": "可動態加載同卸載嘅場景組件組",
+      "lbl-options": "選項",
+      "lbl-assetPath": "資產路徑",
+      "lbl-assetName": "導出名稱",
+      "lbl-exportOptions": "導出選項",
+      "lbl-export": "導出資產",
+      "lbl-load": "加载到場景中",
+      "lbl-unload": "卸載",
+      "lbl-reload": "重新加載"
+    },
+    "audio": {
+      "name": "音頻",
+      "description": "動態加載音頻。",
+      "lbl-audiourl": "音頻網址",
+      "lbl-controls": "控制",
+      "info-controls": "切換媒體控件嘅可見性。",
+      "lbl-autoplay": "自動播放",
+      "info-autoplay": "如果為true，媒體將在首次進入場景時播放。",
+      "lbl-synchronize": "同步",
+      "info-synchronize": "如果為true，則媒體將喺所有連接嘅客戶耑上同步。",
+      "lbl-loop": "圈",
+      "info-loop": "如果為true，媒體將無限期咁循環。",
+      "lbl-audioType": "音頻類型",
+      "lbl-distanceModel": "距離模型",
+      "info-distanceModel": "用于計算音頻滾降嘅算法。",
+      "lbl-rolloffFactor": "滾降系數",
+      "info-rolloffFactor": "一個雙精度值，描述当源遠離偵聽器時音量減小嘅速度。 0比1",
+      "info-rfInfinity": "一個雙精度值，描述当源遠離偵聽器時音量減小嘅速度。 0到無窮大",
+      "lbl-refDistance": "參考距離",
+      "info-refDistance": "一個雙精度值，表示当音頻源離聽者更遠時降低音量嘅參考距離。",
+      "lbl-maxDistance": "最大距離",
+      "info-maxDistance": "一個雙精度值，表示音頻源和聽者之間嘅最大距離，在此之後，音量唔會進一步降低。",
+      "lbl-coneInnerAngle": "錐內角",
+      "info-coneInnerAngle": "描述圓錐體的角度（以度為單位）的雙精度值，其內部不會減少體積。",
+      "lbl-coneOuterAngle": "錐體外角",
+      "info-coneOuterAngle": "一個雙精度值，描述圓錐體的角度（以度為單位），超出該角度的體積將減少一個常量值，該值由圓錐體輸出增益屬性定義。",
+      "lbl-coreOuterGain": "錐體外部增益",
+      "info-coreOuterGain": "一個雙精度值，用于描述由coneOuterAngle屬性定義嘅圓錐體外嘅體積減小量。 其默認值為0，表示聽不到任何聲音。",
+      "lbl-volume": "卷",
+      "lbl-play": "玩",
+      "lbl-pause": "暫停",
+      "error-url": "從網址加載時出錯"
+    },
+    "boxCollider": {
+      "description": "一個看不見的盒子，物體會由上面反彈或放喺上面。\n如果冇碰撞体，物體會掉過地板穿過牆壁。",
+      "lbl-isTrigger": "觸發"
+    },
+    "camera": {
+      "name": "相機",
+      "description": "相機設置。",
+      "lbl-camera-raycast": "攝錄機光線投射",
+      "lbl-camera-raycast-toggle": "啟用",
+      "lbl-camera-raycast-frequency": "頻率",
+      "lbl-camera-raycast-count": "射線計數",
+      "lbl-camera-raycast-length": "射線長度"
+    },
+    "directionalLight": {
+      "name": "定向光",
+      "description": "照亮整個場景，但沿單一方向發射嘅光。",
+      "lbl-color": "顏色",
+      "lbl-intensity": "強度",
+      "lbl-cameraFar": "相機遠",
+      "lbl-cameraNear": "相機附近",
+      "lbl-cameraTop": "相機頂部",
+      "lbl-cameraBottom": "相機底部",
+      "lbl-cameraLeft": "相機左側",
+      "lbl-cameraRight": "相機右側",
+      "lbl-useInCSM": "在CSM中使用",
+      "lbl-castShadow": "投射陰影",
+      "lbl-disableForCSM": "已禁用，因為啟用了級聯陰影貼圖。",
+      "lbl-shadowmapResolution": "陰影貼圖分辨率",
+      "lbl-shadowBias": "陰影偏差",
+      "lbl-shadowRadius": "陰影半徑",
+      "lbl-showCameraHelper": "顯示相機助手"
+    },
+    "groundPlane": {
+      "name": "地平面",
+      "description": "延伸到遠處嘅平面平面。",
+      "lbl-color": "顏色",
+      "lbl-receiveShadow": "接收陰影",
+      "lbl-generateNavmesh": "生成導航網格"
+    },
+    "link": {
+      "description": "連結到聊天室或網站。",
+      "lbl-url": "網址"
+    },
+    "map": {
+      "description": "例如，城市嘅3D地理空間地圖。"
+    },
+    "model": {
+      "description": "場景中嘅3D模型，從GLTF URL或文件加載。",
+      "lbl-usingGPUInstancingFlag": "使用GPU實例化",
+      "lbl-modelurl": "型號網址",
+      "lbl-envmapUrl": "環境地圖網址",
+      "lbl-textureOverride": "覆蓋紋理",
+      "lbl-materialOverride": "材料覆蓋",
+      "error-url": "從網址加載時出錯",
+      "lbl-loopAnimation": "循環動畫",
+      "lbl-isAvatar": "係阿凡達",
+      "lbl-isGPUInstancing": "正在使用GPU實例化",
+      "lbl-isDynamic": "係動態嘅",
+      "lbl-castShadow": "投射陰影",
+      "lbl-receiveShadow": "接收陰影",
+      "lbl-interactable": "可交互",
+      "lbl-matrixAutoUpdate": "矩阵自動更新",
+      "lbl-name": "名字",
+      "lbl-url": "型號網址",
+      "lbl-buy": "購買網址",
+      "lbl-learnMore": "了解更多網址",
+      "lbl-htmlContent": "網頁內容",
+      "lbl-interactionText": "交互文本",
+      "lbl-interactionType": "交互類型"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "材料",
+      "error-materialID": "查找材料時出錯",
+      "placeholder-materialID": "選擇材料",
+      "lbl-patternTarget": "模式匹配",
+      "lbl-pattern": "模式",
+      "lbl-isRegex": "正則表達式"
+    },
+    "interaction": {
+      "type": "交互類型",
+      "text": "交互文本",
+      "distance": "交互距離",
+      "theme": "互動主題",
+      "name": "交互組件名稱",
+      "description": "交互描述",
+      "images": "交互圖像",
+      "videos": "互動視頻",
+      "urls": "互動網址",
+      "models": "交互模型"
+    },
+    "group": {
+      "name": "群",
+      "description": "可以一起移動或複製嘅組多個對象。\n把對象拖放到層次結構中嘅組中。"
+    },
+    "hemisphere": {
+      "name": "半球燈",
+      "description": "從正上方照亮場景嘅燈光。",
+      "lbl-skyColor": "天空顏色",
+      "lbl-groundColor": "底色",
+      "lbl-intensity": "強度"
+    },
+    "image": {
+      "name": "圖像",
+      "description": "動態加載圖像。",
+      "lbl-imgURL": "圖片網址",
+      "lbl-transparency": "透明模式",
+      "lbl-alphaCutoff": "阿爾法截止",
+      "lbl-projection": "投影",
+      "lbl-side": "邊",
+      "info-controls": "切換媒體控件嘅可見性。",
+      "info-transparency": "如何應用透明度：",
+      "info-opaque": "“不透明”=無透明度",
+      "info-blend": "“混合”=使用圖像Alpha通道",
+      "info-mask": "“遮罩”=對開/關透明度使用指定的截止值（性能更高）",
+      "info-alphaCutoff": "Alpha值低於此值嘅像素將係透明嘅",
+      "error-url": "無效嘅網址"
+    },
+    "name": {
+      "lbl-name": "名字"
+    },
+    "partileEmitter": {
+      "description": "用于創建粒子嘅粒子發射器。",
+      "lbl-particleCount": "粒子計數",
+      "lbl-image": "圖像",
+      "lbl-ageRandomness": "年齡隨機性",
+      "lbl-lifetime": "世",
+      "lbl-lifetimeRandomness": "生命周期隨機性",
+      "lbl-sizeCurve": "尺寸曲線",
+      "lbl-startPSize": "起始粒徑",
+      "lbl-endPSize": "末端粒徑",
+      "lbl-sizeRandomness": "大小隨機性",
+      "lbl-colorCurve": "顏色曲線",
+      "lbl-startColor": "起始顏色",
+      "lbl-startOpacity": "開始唔透明度",
+      "lbl-middleColor": "中色",
+      "lbl-middleOpacity": "中唔透明度",
+      "lbl-endColor": "結束顏色",
+      "lbl-endOpacity": "結束唔透明度",
+      "lbl-velocityCurve": "速度曲線",
+      "lbl-startVelocity": "啟動速度",
+      "lbl-endVelocity": "端面速度",
+      "lbl-angularVelocity": "角速度",
+      "info-ageRandomness": "粒子生成時間之間嘅變化量。",
+      "info-lifetime": "粒子喺重生之前嘅最長年齡。",
+      "info-lifetimeRandomness": "粒子壽命之間嘅變化量。",
+      "info-sizeRandomness": "起始大小之間嘅變化量。",
+      "error-url": "從網址加載時出錯"
+    },
+    "clouds": {
+      "name": "雲",
+      "description": "基於精靈嘅雲卷。",
+      "lbl-image": "精靈圖像",
+      "lbl-wroldScale": "世界規模",
+      "lbl-dimensions": "尺寸",
+      "lbl-noiseZoom": "噪啲變焦",
+      "lbl-noiseOffset": "噪聲偏移",
+      "lbl-spriteScale": "精靈比例",
+      "lbl-fogColor": "霧色",
+      "lbl-fogRange": "霧範圍",
+      "error-url": "從網址加載時出錯"
+    },
+    "ocean": {
+      "name": "海洋",
+      "description": "海面有波浪和泡沫",
+      "lbl-normalMap": "法線地圖",
+      "lbl-distortionMap": "失真貼圖",
+      "lbl-envMap": "環境地圖",
+      "lbl-color": "顏色",
+      "lbl-shallowWaterColor": "淺水色",
+      "lbl-shallowToDeepDistance": "淺到深距離",
+      "lbl-opacityFadeDistance": "唔透明度淡入淡出距離",
+      "lbl-opacityRange": "唔透明度範圍",
+      "lbl-shininess": "閃亮感",
+      "lbl-reflectivity": "反射率",
+      "lbl-foamColor": "泡沫顏色",
+      "lbl-foamSpeed": "發泡速度",
+      "lbl-foamTiling": "泡沫平舖",
+      "lbl-bigWaveTiling": "大浪平舖",
+      "lbl-bigWaveSpeed": "大浪速度",
+      "lbl-bigWaveHeight": "大浪高度",
+      "lbl-waveSpeed": "波浪速度",
+      "lbl-waveScale": "波浪尺度",
+      "lbl-waveTiling": "波浪平舖",
+      "lbl-waveDistortionSpeed": "波形失真速度",
+      "lbl-waveDistortionTiling": "波形失真平舖",
+      "error-url": "從網址加載時出錯"
+    },
+    "water": {
+      "name": "水",
+      "description": "水面細"
+    },
+    "interior": {
+      "name": "內部",
+      "description": "具有映射立方體紋理嘅表面，用于模擬內部環境",
+      "lbl-cubeMap": "立方體貼圖紋理",
+      "lbl-tiling": "平舖量",
+      "lbl-size": "表面尺寸",
+      "error-url": "從網址加載時出錯"
+    },
+    "pointLight": {
+      "description": "從單個點向所有方向發射嘅光。",
+      "lbl-color": "顏色",
+      "lbl-intensity": "強度",
+      "lbl-range": "範圍",
+      "lbl-decay": "衰變"
+    },
+    "scene": {
+      "name": "現場",
+      "description": "場景嘅根對象。",
+      "lbl-bgcolor": "背景顏色",
+      "lbl-fogType": "霧類型",
+      "lbl-fogColor": "霧色",
+      "lbl-forNearDistance": "霧近距離",
+      "lbl-fogFarDistance": "霧遠距離",
+      "lbl-fogDensity": "霧密度",
+      "lbl-audioSettings": "使用位置音頻",
+      "lbl-avatarDistanceModel": "頭像距離模型",
+      "lbl-avatarRolloffFactor": "阿凡達滾降因子",
+      "lbl-avatarRefDistance": "阿凡達參考距離",
+      "lbl-avatarMaxDistance": "頭像最大距離",
+      "lbl-mediaVolume": "媒體音量",
+      "lbl-mediaDistanceModel": "媒體距離模型",
+      "lbl-mediaRolloffFactor": "介質滾降系數",
+      "lbl-mediaRefDistance": "媒體參考距離",
+      "lbl-mediaMaxDistance": "介質最大距離",
+      "lbl-mediaConeInnerAngle": "介質錐內角",
+      "lbl-mediaConeOuterAngle": "介質錐外角",
+      "lbl-mediaConeOuterGain": "介質錐体外部增益",
+      "info-avatarDistanceModel": "用于計算音頻滾降嘅算法。",
+      "info-avatarRolloffFactor": "一個雙精度值，描述当源遠離偵聽器時音量減小嘅速度。 0比1",
+      "info-avatarRolloffFactorInifinity": "一個雙精度值，描述当源遠離偵聽器時音量減小嘅速度。 0到無窮大",
+      "info-avatarRefDistance": "一個雙精度值，表示当音頻源離聽者更遠時降低音量嘅參考距離。",
+      "info-avatarMaxDistance": "一個雙精度值，表示音頻源和聽者之間嘅最大距離，在此之後，音量唔會進一步降低。",
+      "info-mediaDistanceModel": "用于計算音頻滾降嘅算法。",
+      "info-mediaRolloffFactor": "一個雙精度值，描述当源遠離偵聽器時音量減小嘅速度。 0比1",
+      "info-mediaRolloffFactorInfinity": "一個雙精度值，描述当源遠離偵聽器時音量減小嘅速度。 0到無窮大",
+      "info-mediaRefDistance": "一個雙精度值，表示当音頻源離聽者更遠時降低音量嘅參考距離。",
+      "info-mediaMaxDistance": "一個雙精度值，表示音頻源和聽者之間嘅最大距離，在此之後，音量唔會進一步降低。",
+      "info-mediaConeInnerAngle": "描述圓錐體的角度（以度為單位）的雙精度值，其內部不會減少體積。",
+      "info-mediaConeOuterAngle": "一個雙精度值，描述圓錐體的角度（以度為單位），超出該角度的體積將減少一個常量值，該值由圓錐體輸出增益屬性定義。",
+      "info-mediaConeOuterGain": "一個雙精度值，用于描述由coneOuterAngle屬性定義嘅圓錐體外嘅體積減小量。 其默認值為0，表示聽不到任何聲音。",
+      "lbl-simpleMaterials": "使用簡單材質",
+      "lbl-lods": "詳細級別",
+      "info-lods": "設置細節層次變化嘅距離。",
+      "info-simpleMaterials": "把所有昂貴嘅材質轉換為更簡單嘅材質，以減輕場景渲染嘅負擔。",
+      "lbl-rendererSettings": "覆蓋渲染器設置",
+      "lbl-csm": "級聯陰影貼圖",
+      "info-csm": "啟用級聯陰影貼圖。",
+      "lbl-toneMapping": "色調映射",
+      "info-toneMapping": "喺場景渲染器上啟用色調映射。 啟用後處理時不起作用。",
+      "lbl-toneMappingExposure": "色調映射曝光",
+      "info-toneMappingExposure": "指定場景渲染器上嘅色調映射曝光。 啟用後處理時不起作用。",
+      "lbl-shadowMapType": "陰影貼圖類型",
+      "info-shadowMapType": "陰影貼圖嘅類型",
+      "error-url": "從網址加載時出錯"
+    },
+    "sceneCamera": {
+      "name": "場景預覽攝錄機",
+      "description": "用于生成場景縮略圖嘅攝錄機以及預覽攝錄機嘅起始位置。",
+      "lbl-setFromViewPort": "從視口設置"
+    },
+    "skybox": {
+      "name": "天空盒",
+      "description": "",
+      "lbl-timeOfDay": "一日中嘅時間",
+      "lbl-color": "顏色",
+      "lbl-latitude": "緯度",
+      "lbl-luminance": "亮度",
+      "lbl-scattering": "散射量",
+      "lbl-scatteringDistance": "散射距離",
+      "lbl-horizonStart": "地平線開始",
+      "lbl-horizonEnd": "地平線盡頭",
+      "lbl-texture": "質地",
+      "lbl-skyType": "天空類型",
+      "error-url": "從網址加載時出錯"
+    },
+    "spawnPoint": {
+      "name": "生成點",
+      "description": "用戶進入您的場景時將出現緊嘅啲。\n视口中嘅圖標表示頭像嘅實際大小。"
+    },
+    "spotLight": {
+      "description": "沿一個方向發射嘅光，照亮圓錐體內嘅物體。",
+      "lbl-color": "顏色",
+      "lbl-intensity": "強度",
+      "lbl-penumbra": "半影",
+      "lbl-angle": "角度",
+      "lbl-range": "範圍",
+      "lbl-decay": "衰變"
+    },
+    "transform": {
+      "title": "變換",
+      "lbl-postition": "位置",
+      "lbl-rotation": "旋轉",
+      "lbl-scale": "規模"
+    },
+    "triggereVolume": {
+      "description": "進入同離開時設置目標對象緊嘅屬性。",
+      "lbl-target": "對象",
+      "lbl-onenter": "輸入時",
+      "lbl-onexit": "退出時",
+      "lbl-showHelper": "顯示助手網格",
+      "ph-errorNode": "缺少節點時出錯。",
+      "ph-selectNode": "選擇節點..."
+    },
+    "video": {
+      "name": "視頻",
+      "description": "動態加载視頻。",
+      "lbl-video": "視頻",
+      "lbl-projection": "投影",
+      "lbl-islivestream": "直播",
+      "lbl-interactable": "可交互",
+      "lbl-id": "元素標識",
+      "lbl-play": "玩",
+      "lbl-pause": "暫停",
+      "error-url": "從網址加載時出錯"
+    },
+    "volumetric": {
+      "name": "體積",
+      "description": "動態加载體積視頻。",
+      "uvolPaths": "UVOL Paths",
+      "playmode": "播放模式",
+      "playtitle": "玩",
+      "pausetitle": "暫停"
+    },
+    "spline": {
+      "description": "動態創建和自定義曲線。",
+      "lbl-addNode": "把節點添加到曲線。"
+    },
+    "systemnode": {
+      "description": "附加腳本。",
+      "lbl-filePath": "網址",
+      "lbl-systemUpdateType": "注射點",
+      "lbl-enableClient": "客戶",
+      "lbl-enableServer": "服務器",
+      "lbl-args": "參數",
+      "error-url": "從URL加載腳本時出錯"
+    },
+    "portal": {
+      "lbl-portal": "連結門戶",
+      "lbl-redirect": "使用頁面重定向",
+      "description": "把玩家傳送到指定位置嘅Portat",
+      "lbl-locationName": "位置",
+      "lbl-modelUrl": "模型網址",
+      "lbl-displayText": "顯示文本",
+      "lbl-cubemapBake": "立方體地圖烘焙",
+      "lbl-spawnPosition": "生成位置",
+      "lbl-spawnRotation": "生成旋轉",
+      "lbl-triggerPosition": "觸發位置",
+      "lbl-triggerRotation": "觸發器旋轉",
+      "lbl-triggerScale": "觸發刻度"
+    },
+    "postprocessing": {
+      "name": "後處理",
+      "description": "用于把後期處理效果應用於場景。"
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "新建項目",
+      "backLink": "返回項目",
+      "featured": "特色",
+      "all": "都",
+      "newProject": "新建空項目",
+      "ph-search": "搜索場景..."
+    },
+    "grid": {
+      "loading": "裝載。。。"
+    },
+    "page": {
+      "header": "歡迎",
+      "headerMsg": "如果您是新手，我們建議您閱讀本教程。 否則，請直接跳入並從頭開始或由我哋嘅糢闆之一創建項目。",
+      "lbl-startTutorial": "開始教程",
+      "projects": "項目",
+      "lbl-newProject": "新建項目"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "裝載。。。",
+      "placeObject": "放置對象",
+      "placeObjectAtOrigin": "將對象置於原點",
+      "copyURL": "複製網址",
+      "openInNewTab": "在新標籤頁中打開網址",
+      "deleteAsset": "刪除資產"
+    },
+    "filebrowser": {
+      "addNewFolder": "添加新文件夾",
+      "cutAsset": "切",
+      "copyAsset": "複製",
+      "pasteAsset": "糊",
+      "renameAsset": "重命名",
+      "viewAssetProperties": "查看屬性"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "重命名",
+    "lbl-duplicate": "重複",
+    "lbl-group": "群",
+    "lbl-delete": "刪除",
+    "lbl-expandAll": "展開全部",
+    "lbl-collapseAll": "全部拗",
+    "isseus": "問題："
+  },
+  "dnd": {
+    "nodes": "{{count}} 選定嘅節點",
+    "models": "{{count}} 所選型號",
+    "images": "{{count}} 所選圖像",
+    "videos": "{{count}} 視頻已選",
+    "audio": "{{count}} 選定嘅音頻源"
+  },
+  "dialog": {
+    "title": "編輯器",
+    "lbl-confirm": "仲可以",
+    "lbl-cancel": "取消",
+    "exportProject": {
+      "title": "出口項目",
+      "lbl-confirm": "出口項目",
+      "lbl-combineMesh": "合併網格",
+      "lbl-removeUnused": "刪除未使用的對象"
+    },
+    "performance": {
+      "title": "性能檢查",
+      "lbl-confirm": "發佈場景",
+      "learnMore": "瞭解更多信息",
+      "lbl-polycount": "多邊形計數",
+      "lbl-material": "材料",
+      "lbl-texture": "紋理",
+      "lbl-lights": "燈",
+      "lbl-fileSize": "文件大小",
+      "info-polycount": "我哋建議您的場景喺移動設備上使用唔超過50，000個三角形。",
+      "info-material": "我哋建議喺場景中使用唔超過25種獨特嘅材質，以減少移動設備上嘅繪製調用。",
+      "info-texture": "我哋建議您的紋理喺移動設備上使用唔超過256MB嘅視頻RAM。 我哋仲建議唔好使用大於2048 x 2048嘅紋理。",
+      "info-lights": "雖然移動設備上未啟用動態燈光，但我哋建議喺場景中使用唔超過3個燈光（唔包括環境燈光同半球燈光），以便場景喺低端電腦上運行。",
+      "info-fileSize": "對於低帶寬連接，我哋建議最終文件大小唔超過16MB。 減小文件大小將減少下載場景所需嘅時間。",
+      "txt-polycount": "{{count}} 三角形",
+      "txt-material": "{{count}} 材料",
+      "txt-ram": "~{{count}} 視頻內存",
+      "txt-texture": "{{count}} 大紋理",
+      "txt-lights": "{{count}} 燈"
+    },
+    "progress": {
+      "title": "裝載。。。",
+      "msg": "裝載。。。",
+      "lbl-cancel": "取消"
+    },
+    "publish": {
+      "title": "發佈場景",
+      "lbl-confirm": "保存並發佈",
+      "lbl-name": "場景名稱",
+      "info-name": "名稱必須介乎4到64個字符之間，並且不能包含下劃線"
+    },
+    "published": {
+      "title": "場景已發佈",
+      "header": "您的場景已發佈。",
+      "lbl-view": "查看您的場景"
+    },
+    "saveNewProject": {
+      "title": "支持",
+      "lbl-name": "項目名稱",
+      "info-name": "名稱必須介乎4到64個字符之間，並且不能包含下劃線",
+      "lbl-confirm": "保存項目"
+    },
+    "support": {
+      "title": "支持",
+      "header": "需要報告問題？",
+      "msg": "你可以提交<1>GitHub問題</1>或發送電子郵件畀我哋以獲取支持<3>，{{mail}}</3>",
+      "discord": "您也可以在<1>Discord</1>上找到我們"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "必應圖像",
+      "search": "按必應搜索"
+    },
+    "bingVideo": {
+      "name": "必應視頻",
+      "search": "按必應搜索"
+    },
+    "element": {
+      "name": "元素"
+    },
+    "myAssets": {
+      "name": "我嘅資產"
+    },
+    "googlePoly": {
+      "name": "穀謌保利",
+      "search": "按穀謌搜索"
+    },
+    "tenor": {
+      "name": "年期GIF",
+      "search": "按男高音搜索",
+      "ph-search": "搜索GIF..."
+    },
+    "sketchfab": {
+      "name": "素描",
+      "search": "按素描厂搜索"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "上傳資產"
+    },
+    "imageSourcePanel": {
+      "ph-search": "搜索圖片..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "搜索視頻..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "搜索資產..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "搜索模型..."
+    },
+    "useUpload": {
+      "multipleFileError": "輸入唔接受多個文件。",
+      "mineTypeError": "“{{name}}”與以下啞劇類型或擴展名唔匹配： {{types}}",
+      "progressTitle": "上傳文件",
+      "progressMsg": "貼文件 {{uploaded}} / {{total}}： {{percentage}}%",
+      "uploadError": "上傳錯誤",
+      "uploadErrorMsg": "上傳文件時出錯： {{message}}",
+      "uploadErrorDefaultMsg": "出現未知錯誤"
+    }
+  },
+  "openLink": {
+    "description": "請單擊“打開”以導航到該連結。",
+    "lbl-open": "打開"
+  },
+  "interactableModel": {
+    "lbl-buy": "買",
+    "lbl-learnMore": "瞭解更多信息"
+  },
+  "corsProxyButton": {
+    "tooltip": "使用Cors代理服務器"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "صفحہ لوڈ کر رہا ہے..."
+  },
+  "tooltip": {
+    "pressKey": "{{message}} کے لیے {{tip}} دبائیں"
+  },
+  "toast": {
+    "joined": "ملانا",
+    "left": "بائیں"
+  },
+  "navUserWidget": {
+    "login": "درج کريں"
+  },
+  "loader": {
+    "connecting": "دنیا سے جڑرہا ہے...",
+    "entering": "دنیا میں داخل ہو رہا ہے...",
+    "loading": "لوڈنگ...",
+    "objectRemaining": "{{count}} آبجیکٹ باقی",
+    "objectRemainingPlural": "{{count}} اشیاء باقی",
+    "loadingObjects": "آبجیکٹ لوڈ کر رہا ہے",
+    "loadingComplete": "مکمل لوڈ کر رہا ہے",
+    "joiningWorld": "دنیا میں شمولیت"
+  },
+  "alert": {
+    "eventWasSuccess": "واقعہ کامیاب رہا",
+    "errorWasEncountered": "ایک نقص کا سامنا کرنا پڑا",
+    "eventInProgress": "پیش رفت کا واقعہ",
+    "seconds": "سیکنڈ",
+    "cancelCountdown": "اس ماڈل کو بند کرنے سے الٹی گنتی منسوخ ہو جائے گی"
+  },
+  "debug": {
+    "refresh": "تازہ",
+    "stats": "اعداد و شمار",
+    "debugOptions": "اختیارات تغیر کریں",
+    "physicsDebug": "طبیعیات",
+    "avatarDebug": "اوتار",
+    "nodeHelperDebug": "نوڈ مددگار",
+    "gridDebug": "گرڈ",
+    "simpleMaterials": "سادہ مواد",
+    "tick": "ٹک کریں",
+    "worldStore": "ورلڈ سٹور",
+    "engineStore": "انجن سٹور",
+    "namedEntities": "نام کی ہستیاں",
+    "networkObject": "نیٹ ورک آبجیکٹ",
+    "networkClients": "نیٹ ورک گاہک"
+  },
+  "recording": {
+    "videoRecorder": "ویڈیو ریکارڈر",
+    "waitingForPermissions": "اجازتوں کا انتظار کر رہا ہے",
+    "selectVideoSource": "ویڈیو ماخذ منتخب کریں",
+    "screen": "پردہ",
+    "camera": "کیمرہ",
+    "microphone": "مائکروفون",
+    "startRecording": "ریکارڈنگ شروع کریں",
+    "pauseRecording": "ریکارڈنگ روکیں",
+    "resumeRecording": "ریکارڈنگ دوبارہ شروع کریں",
+    "stopRecording": "ریکارڈنگ روکیں"
+  },
+  "typing": "ٹائپ...",
+  "gameServer": {
+    "browserError": "براؤزر نقص",
+    "browserErrorMessage": "آپ کا براؤزر نجی براؤزنگ موڈ میں سٹوریج کو سپورٹ نہیں کرتا۔ یا تو کوئی اور براؤزر آزمائیں، یا نجی براؤزنگ موڈ سے باہر نکلیں۔",
+    "noAvailableServers": "کوئی دستیاب سرور نہیں",
+    "noAvailableServersMessage": "آپ کے جڑنے کے لیے کوئی سرور دستیاب نہیں ہے۔ دوبارہ جڑنے کی کوشش کر رہا ہے",
+    "worldDisconnected": "دنیا منقطع",
+    "worldDisconnectedMessage": "آپ نے دنیا کے ساتھ اپنا تعلق کھو دیا ہے۔ ہم اگلے وقت کے ختم ہونے سے پہلے دوبارہ جڑنے کی کوشش کریں گے، ورنہ آپ کو ایک مختلف مثال پر بھیج دیا جائے گا۔",
+    "webGLNotEnabled": "ویب جی ایل فعال نہیں",
+    "webGLNotEnabledMessage": "آپ کا براؤزر ویب جی ایل کو سپورٹ نہیں کرتا، یا یہ غیر فعال ہے۔ براہ کرم ویب جی ایل کو فعال کریں یا اپنے براؤزر کے تازہ ترین ورژن میں اپ گریڈ کرنے پر غور کریں۔",
+    "youKickedFromWorld": "آپ کو دنیا سے لات ماری گئی ہے",
+    "youKickedFromWorldMessage": "آپ کو مندرجہ ذیل وجہ سے اس دنیا سے لات ماری گئی",
+    "invalidLocation": "ناجائز محل وقوع",
+    "cantFindLocation": "ہم محل وقوع نہیں مل رہا",
+    "misspelledOrNotExist": "اس کی غلط تحریف ہو سکتی ہے، یا یہ موجود نہیں ہو سکتی۔",
+    "loading": "لوڈنگ",
+    "low-frame-error": "ایک ناقص پرفومینس کا پتہ چلا ہے جو آپ کے براؤزر میں ہارڈ ویئر ایکسلریشن استعمال کرنے اور اپنے براؤزر کو ریلاچ کرنے کے قابل بنانے پر غور کرتا ہے",
+    "low-frame-title": "بہتر تجربے کے لئے ہارڈ ویئر ایکسلریشن فعال کریں!"
+  },
+  "error": {
+    "loading-error": "صارف کوائف لوڈ کرنے میں ناکام",
+    "validation-error": "براہ کرم جائز {{type}} ان پٹ کریں",
+    "login-error": "لاگ ان کرنے میں ناکام"
+  }
+}

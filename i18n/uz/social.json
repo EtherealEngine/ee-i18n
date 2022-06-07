@@ -1,0 +1,202 @@
+{
+  "addComment": "Izoh qoʻshish...",
+  "share": "Baham ko'rish",
+  "suggestions": "Siz uchun takliflar",
+  "seeAll": "Hammasini koʻrish",
+  "likes": "Yoqtirishlar",
+  "viewComments": "Barcha {{count}} izohlarni koʻrish",
+  "more": "ko'proq",
+  "username": "foydalanuvchi nomi",
+  "fullName": "Ismi familiyasi",
+  "reportInApporpriate": "Notoʻgʻri xabar berish",
+  "unfollow": "Yoʻq qilish",
+  "goToPost": "Pochtaga o'tish",
+  "shareModal": "Baham ko'rish",
+  "copyLink": "Bogʻlamadan nusxa olish",
+  "embed": "Qoʻshish",
+  "cancel": "Bekor qilish",
+  "confirm": "Tasdiqlash",
+  "save": "Saqlash",
+  "profilePic": "{{user}}profilli pic",
+  "ara": "Ara",
+  "follow": "Kuzatib boring",
+  "flames": "Alangalar",
+  "continue": "Davom etish",
+  "partyInvitationSent": "Yuborilgan partiya taklifi",
+  "arMedia": {
+    "back": "Orqaga",
+    "clip": "Klip",
+    "backgrounds": "Orqa fon",
+    "start": "Boshlash"
+  },
+  "arMediaform": {
+    "title": "Sarlavha",
+    "type": "Turi",
+    "clip": "Klip",
+    "background": "Orqa fon",
+    "scene": "Sahna",
+    "save": "Saqlash",
+    "manifest-file": "Manifest .manifest fayli",
+    "audio-file": "Mp4 fayli",
+    "dracosis-file": "Dracosis .uvol fayli",
+    "preview-file": "Rasm faylini koʻrib chiqish"
+  },
+  "creator": {
+    "myVideos": "Videolarim",
+    "savedVideos": "Saqlangan videolar",
+    "back": "Orqaga",
+    "blocked-list": "Bloklangan ro'yxat",
+    "block-user": "Foydalanuvchini bloklash",
+    "dialog-content": "Foydalanuvchining profili va tarkibini koʻrmaysiz"
+  },
+  "creatorForm": {
+    "back": "Orqaga",
+    "edit": "Profilni tahrirlash",
+    "save": "Saqlash",
+    "changeAvatar": "Avatar rasmini oʻzgartirish",
+    "ph-selectPreview": "Koʻrib chiqishni tanlang",
+    "ph-name": "Ismingiz",
+    "ph-username": "Foydalanuvchi ismingiz",
+    "ph-email": "Sizning E-mail",
+    "ph-tags": "Teglar",
+    "ph-link": "Bogʻlama",
+    "ph-aboutYou": "Siz haqingizda ko'proq",
+    "ph-twitter": "twitter",
+    "ph-instagram": "Instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Ro'yxatdan o'tish"
+  },
+  "dashboard": {
+    "title": "Boshqaruv paneli",
+    "dashboard": "Boshqaruv paneli",
+    "users": "Foydalanuvchilar",
+    "feeds": "To'plamlar",
+    "arMedia": "Video Media",
+    "editor": "Tahrirchi",
+    "creator": "Yaratuvchi"
+  },
+  "featured": {
+    "empty-list": "Hozir uchun ovqatlanish yo'q ..."
+  },
+  "feed": {
+    "back": "Orqaga",
+    "related": "Tegishli ozuqalar",
+    "is-repoted-message": "Oziq-ovqat haqida xabar berilgan!"
+  },
+  "feedForm": {
+    "back": "Orqaga",
+    "thanks": "Jamiyatimizni bo'lishish va yaxshilash uchun rahmat",
+    "share": "Jamiyat bilan biron bir narsani baham ko'ring",
+    "upload": "Videoni yuklash",
+    "ph-selectVideo": "Videoni tanlash",
+    "preview": "Rasmni koʻrib chiqish",
+    "ph-selectPreview": "Koʻrib chiqishni tanlang",
+    "createFeed": "To'plamni yaratish uchun sizda video va ko'rib chiqish rasmi bo'lishi kerak!!!",
+    "ph-videoName": "Videongizning nomi",
+    "ph-type": "Jamiyat bilan baham ko'rmoqchi bo'lgan narsalarni yozing ... ",
+    "lbl-share": "Baham ko'rish",
+    "save": "Saqlash va keyingi borish"
+  },
+  "feedMenu": {
+    "featured": "Tavsiya etilgan",
+    "creators": "Yaratuvchilar",
+    "feed": "Bes"
+  },
+  "header": {
+    "lbl-volumetric": "Hajmiy"
+  },
+  "login": {
+    "account": "Hisob-vaʼdasi bormi?",
+    "login": "Kirish",
+    "resetPassword": "Maxfiy soʻzni tiklash soxta tugmasi (bu yerda elektron pochta orqali bogʻlanish boʻlardi)",
+    "notHavingAccount": "Hisob yo'qmi?",
+    "signUp": "Ro'yxatdan o'ting",
+    "forgotPassword": "Maxfiy soʻzni unutdingizmi?",
+    "back": "Orqaga",
+    "or": "OʻR"
+  },
+  "comment": {
+    "add": "Izohingizni qoʻshing..."
+  },
+  "notification": {
+    "feedFire": " sizning ovqatingizni ishdan bo'shatdi",
+    "feedBookmarked": " to'plamingizga xatcho'plar qo'shilgan",
+    "comment": " sizning tasmangizni sharhladi:",
+    "commentFire": " to'ydirish uchun sharhingizni ishdan bo'shatdi",
+    "follow": " sizga ergashishni boshladi",
+    "unfollow": " sizga ergashishni to'xtatdi",
+    "followed": " Sizga ergashdi",
+    "activity": "Faoliyat"
+  },
+  "onBoarding": {
+    "welcome": "Xush kelibsiz!",
+    "description": "iOS prototipi uchun 370 + layouts eng katta to'plami.",
+    "next": "Keyingi",
+    "discover": "Maqolalarni kashf qilish,",
+    "news": "yangiliklar & xabarlar",
+    "lines": "Astronomiyaga boʻlgan muhabbatimizni, orzu-umidimizni oʻsha his-tuygʻular yoʻlga qoʻyadi.",
+    "getStarted": "Ishga tushirish",
+    "meetUp": "Bilan uchrashing",
+    "friends": "do'stlar.",
+    "meet": "Do'stlar bilan uchrashing"
+  },
+  "shareForm": {
+    "arcMedia": "Baham ko'rish",
+    "videoCreated": "Bu videoni yaratdim",
+    "shareWithBuddies": "Do'stlar bilan baham ko'ring",
+    "shareVideo": "Videoni ulashing",
+    "save": "Kamera ruliga saqlash",
+    "cancel": "Bekor qilish",
+    "close": "Yopish",
+    "addFeed": "Toʻplamni qoʻshish"
+  },
+  "simpleModal": {
+    "emptyList": "Boʻsh roʻyxat",
+    "followers": " quyidagilarga rioya qilish",
+    "following": " izdoshlar",
+    "flames": " Alanga"
+  },
+  "splash": {
+    "screen": "Splesh oynasi",
+    "logo": "Logotip"
+  },
+  "story": {
+    "profilePic": "{{user}}profilli pic"
+  },
+  "view": {
+    "cancel": "Bekor qilish",
+    "choice": "Sizda tanlash uchun ikki xil yozish rejimi mavjud",
+    "verticalMode": "Vertikal rejim 30 soniya rekord vaqtga ega",
+    "horizontalMode": "Gorizontal rejim cheksiz rekord vaqtga ega",
+    "start": "Boshlash",
+    "not-show": "Boshqa koʻrsatma",
+    "welcome": "ARC ga xush kelibsiz!  Bizning hologramalardan biri bilan shaxsiy videolarni yarating va ijtimoiy tarmoqlardagi kanallaringizga joylashtiring!",
+    "step": "qadam {{step}}",
+    "text-step-1": "Kutubxonadan hologramma tanlash.",
+    "text-step-2": "Bu kuchaytirilgan haqiqat, shuning uchun kamerangiz bilan bo'sh joyni yonma-yon skanerlang hologramma ishlashi istagan joyda 3-5 soniya davomida.",
+    "text-step-3-part-1": "Hologramma langarlangan bo'lishini xohlagan joyingizda ekranga bir marta bosing.",
+    "text-step-3-part-2": "MASLAHAT!  Hologrammani boshqa joyga ko'chirish uchun boshqa joyga bir marta teging.",
+    "text-step-3-part-3": "MASLAHAT!  Ekranni bosh barmog'ingiz va indeks barmog'ingiz bilan siqish yoki kengaytirish orqali hologrammani o'lchamlarini o'zgartirishingiz mumkin.",
+    "text-step-4-part-1": "Video yozuvingizni boshlash uchun qizil yozuv tugmasini ikki marta bosing.",
+    "text-step-4-part-2": "STOP uchun ikki marta qizil yozuv tugmasini bosing."
+  },
+  "video": {
+    "back": "Orqaga"
+  },
+  "terms": {
+    "confirmTerms": "Xizmat shartlariga rozilik bildiraman",
+    "confirmPolicy": "Maxfiylik siyosatiga roziman"
+  },
+  "registration": {
+    "ph-phoneEmail": "Telefon / elektron pochtadan foydalanish",
+    "facebook": "Facebook bilan davom eting",
+    "google": "Google bilan davom eting",
+    "linkedin": "Linkedin bilan davom eting",
+    "twitter": "Twitter bilan davom eting",
+    "gitHub": "GitHub bilan davom eting",
+    "connect": "E-pochtangizni yoki telefon raqamingizni ulash",
+    "logIn": "Kirish",
+    "LogInTo": "Kirish",
+    "continueAsGuest": "Mehmon bo'lib davom eting"
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "loading": "Dự án tải",
+  "loadingMsg": "Đang tải dự án...",
+  "loadingError": "Dự án tải lỗi",
+  "loadingErrorMsg": "Có một lỗi khi tải dự án.",
+  "selectSceneMsg": "Chọn Cảnh để bắt đầu chơi với động cơ",
+  "error": "Lỗi",
+  "errorMsg": "Có một lỗi không xác định.",
+  "generateScreenshot": "Tạo Ảnh chụp màn hình Dự án",
+  "generateScreenshotMsg": "Tạo ảnh chụp màn hình dự án...",
+  "newScene": "Tạo Cảnh",
+  "saving": "Dự án Tiết kiệm",
+  "savingMsg": "Dự án tiết kiệm...",
+  "savingError": "Dự án Lưu Lỗi",
+  "savingErrorMsg": "Có một sai lầm khi lưu dự án.",
+  "savingSceneErrorMsg": "Cảnh không được tải đúng cách. Hãy thử tải lại cảnh.",
+  "duplicating": "Dự án sao chép",
+  "duplicatingMsg": "Dự án trùng lặp...",
+  "exporting": "Dự án xuất khẩu",
+  "exportingMsg": "Dự án xuất khẩu...",
+  "exportingError": "Dự án Xuất Lỗi",
+  "exportingErrorMsg": "Có một sai sót khi xuất khẩu dự án.",
+  "importLegacy": "Nhập Thế giới Di sản",
+  "importLegacyMsg": "Cảnh báo! Điều này sẽ ghi đè lên cảnh hiện tại của bạn! Bạn có chắc chắn muốn tiếp tục?",
+  "publishingError": "Dự án Phát hành Lỗi",
+  "publishingErrorMsg": "Có một lỗi không xác định.",
+  "publishingScene": "Cảnh Phát hành",
+  "publishingSceneMsg": "Cảnh xuất bản...",
+  "uploadingThumbnailMsg": "Đang tải lên hình thu nhỏ...",
+  "uploadingSceneMsg": "Cảnh tải lên: {{percentage}}%",
+  "envMapError": "Lỗi tải ảnh cubemap {{files}}",
+  "lbl-return": "Về",
+  "menubar": {
+    "newScene": "Cảnh Mới",
+    "saveScene": "Lưu Cảnh",
+    "saveAs": "Lưu Dưới dạng",
+    "importAsset": "Tài sản Nhập",
+    "exportGLB": "Xuất khẩu dưới dạng glTF nhị phân (.glb)...",
+    "importScene": "Cảnh nhập",
+    "exportScene": "Cảnh xuất",
+    "quit": "Bỏ"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Loại tệp không được hỗ trợ cho tệp: \"{{name}}\". Tệp phải là mô hình hình ảnh, video hoặc glb.",
+    "addObject": "addObject: trước khi đối tượng không tìm thấy",
+    "removeObject": "removeObject: nút không tìm thấy. Điều này là do loại bỏ một nút không còn trong cảnh.",
+    "noParent": "{{node}} \"{{name}}\" không có cha mẹ. Bồi thường chỉ hoạt động trên các đối tượng hiện đang ở hiện trường.",
+    "undefinedParent": "editor.reparent: newParent không xác định",
+    "notAuthenticated": "Chưa được xác thực",
+    "fetchingProjectError": "Dự án tìm lỗi: {{error}}",
+    "fetchingRouteError": "Các tuyến đường tìm lỗi: {{error}}",
+    "unknownError": "Lỗi không xác định",
+    "resolveURL": "Url giải quyết lỗi \"{{url}}\":",
+    "mediaSearchAborted": "Tìm kiếm phương tiện bị hủy bỏ",
+    "methodNotImplemented": "Phương pháp không được thực hiện.",
+    "saveProjectAborted": "Lưu cảnh bị hủy bỏ",
+    "unsavedChanges": "Thay đổi chưa lưu",
+    "unsavedChangesMsg": "Hiện trường đã được sửa đổi. Vui lòng lưu các thay đổi của bạn.",
+    "projectCreationFail": "Việc tạo ra dự án đã thất bại. {{reason}}",
+    "projectDeletionFail": "Xóa dự án thất bại. {{reason}}",
+    "savingProjectFail": "Dự án tiết kiệm thất bại. {{reason}}",
+    "sceneTooLarge": "Cảnh quá lớn ({{size}} MB) để xuất bản. Kích thước tối đa là {{maxSize}} MB.",
+    "sceneCreationFail": "Tạo cảnh thất bại. {{reason}}",
+    "uploadAborted": "Tải lên bị hủy bỏ",
+    "uploadFailed": "Tải lên {{reason}} thất bại",
+    "assetDeletionFail": "Xóa tài sản thất bại. {{reason}}",
+    "projectAssetDeletionFail": "Việc xóa tài sản dự án thất bại. {{reason}}",
+    "networkError": "Lỗi mạng: {{status}}. {{text}}",
+    "unknownStatus": "Trạng thái Không xác định",
+    "CORS": "Có thể là lỗi CORS",
+    "urlFetchError": "Thất bại trong việc tìm kiếm \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Viewport",
+    "command": {
+      "movecamera": "Di chuyển Máy ảnh",
+      "flyFast": "Bay nhanh hơn",
+      "orbit": "Quỹ đạo / Chọn",
+      "pan": "Chảo",
+      "fly": "Bay",
+      "focus": "Tập trung",
+      "rotateLeft": "Xoay Trái",
+      "rotateRight": "Xoay phải",
+      "cancelPlacement": "Hủy vị trí",
+      "placeDuplicate": "Đặt Trùng lặp",
+      "cancelGrab": "Hủy Grab",
+      "grab": "Chộp",
+      "deselectAll": "Bỏ chọn tất cả"
+    },
+    "state": {
+      "header": "Thống kê",
+      "memory": "Trí nhớ",
+      "geometries": "Hình học",
+      "textures": "Textures",
+      "render": "Render",
+      "FPS": "FPS",
+      "frameTime": "Thời gian khung hình",
+      "calls": "Cuộc gọi",
+      "triangles": "Tam giác",
+      "points": "Điểm",
+      "lines": "Dòng"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Xuất bản",
+    "lbl-published": "Công bố",
+    "command": {
+      "translate": "Dịch",
+      "rotate": "Xoay",
+      "scale": "Vảy",
+      "toggleSpace": "Chuyển đổi Không gian Chuyển đổi",
+      "togglePivot": "Chuyển đổi Pivot",
+      "toggleSnapMode": "Chuyển đổi Chế độ Chụp",
+      "toggleGrid": "Chuyển đổi khả năng hiển thị lưới",
+      "increaseGridSize": "Tăng kích thước lưới điện",
+      "descreaseGridSize": "Giảm kích thước lưới",
+      "stopPreview": "Dừng Xem trước Cảnh",
+      "playPreview": "Xem trước Cảnh"
+    }
+  },
+  "properties": {
+    "title": "Thuộc tính",
+    "lbl-visible": "Hiển thị",
+    "lbl-preventBake": "Ngăn ngừa nướng bánh",
+    "lbl-persist": "Tồn tại",
+    "multipleNodeSelected": "Nhiều Nút của các loại khác nhau được chọn",
+    "noNodeSelected": "Không có nút nào được chọn",
+    "ambientLight": {
+      "name": "Ánh sáng xung quanh",
+      "description": "Một ánh sáng chiếu sáng tất cả các đối tượng trong cảnh của bạn.",
+      "lbl-intensity": "Cường độ",
+      "lbl-color": "Màu"
+    },
+    "envmap": {
+      "name": "Bản đồ môi trường",
+      "description": "thuộc tính bản đồ môi trường"
+    },
+    "asset": {
+      "name": "Tài sản",
+      "description": "Một nhóm các thành phần cảnh có thể được tải và dỡ tải linh hoạt",
+      "lbl-options": "Tùy chọn",
+      "lbl-assetPath": "Đường dẫn Tài sản",
+      "lbl-assetName": "Xuất Tên",
+      "lbl-exportOptions": "Tùy chọn Xuất",
+      "lbl-export": "Tài sản Xuất khẩu",
+      "lbl-load": "Tải vào cảnh",
+      "lbl-unload": "Dỡ",
+      "lbl-reload": "Reload"
+    },
+    "audio": {
+      "name": "Âm thanh",
+      "description": "Tự động tải âm thanh.",
+      "lbl-audiourl": "Url Âm thanh",
+      "lbl-controls": "Điều khiển",
+      "info-controls": "Chuyển đổi khả năng hiển thị của các điều khiển phương tiện truyền thông.",
+      "lbl-autoplay": "Phát Tự động",
+      "info-autoplay": "Nếu đúng, các phương tiện truyền thông sẽ chơi khi lần đầu tiên bước vào cảnh.",
+      "lbl-synchronize": "Đồng bộ hoá",
+      "info-synchronize": "Nếu đúng, các phương tiện truyền thông sẽ được đồng bộ hóa trên tất cả các khách hàng được kết nối.",
+      "lbl-loop": "Vòng lặp",
+      "info-loop": "Nếu đúng, các phương tiện truyền thông sẽ lặp lại vô thời hạn.",
+      "lbl-audioType": "Loại Âm thanh",
+      "lbl-distanceModel": "Mô hình khoảng cách",
+      "info-distanceModel": "Algorithim được sử dụng để tính toán cuộn âm thanh.",
+      "lbl-rolloffFactor": "Hệ số cuộn",
+      "info-rolloffFactor": "Một giá trị kép mô tả tốc độ giảm âm lượng khi nguồn di chuyển ra khỏi người nghe. 0 đến 1",
+      "info-rfInfinity": "Một giá trị kép mô tả tốc độ giảm âm lượng khi nguồn di chuyển ra khỏi người nghe. 0 đến Vô cực",
+      "lbl-refDistance": "Khoảng cách Ref",
+      "info-refDistance": "Một giá trị kép đại diện cho khoảng cách tham chiếu để giảm âm lượng khi nguồn âm thanh di chuyển xa hơn từ người nghe.",
+      "lbl-maxDistance": "Khoảng cách tối đa",
+      "info-maxDistance": "Một giá trị kép đại diện cho khoảng cách tối đa giữa nguồn âm thanh và người nghe, sau đó âm lượng không bị giảm thêm nữa.",
+      "lbl-coneInnerAngle": "Góc trong hình nón",
+      "info-coneInnerAngle": "Một giá trị kép mô tả góc, theo độ, của một hình nón bên trong sẽ không có giảm âm lượng.",
+      "lbl-coneOuterAngle": "Góc ngoài hình nón",
+      "info-coneOuterAngle": "Một giá trị kép mô tả góc, theo độ, của một hình nón bên ngoài trong đó khối lượng sẽ được giảm bởi một giá trị không đổi, được xác định bởi thuộc tính coneOuterGain.",
+      "lbl-coreOuterGain": "Lợi nhuận bên ngoài hình nón",
+      "info-coreOuterGain": "Một giá trị kép mô tả số lượng giảm khối lượng bên ngoài hình nón được xác định bởi thuộc tính coneOuterAngle. Giá trị mặc định của nó là 0, có nghĩa là không có âm thanh nào có thể được nghe thấy.",
+      "lbl-volume": "Âm lượng",
+      "lbl-play": "Chơi",
+      "lbl-pause": "Tạm dừng",
+      "error-url": "Tải lỗi từ URL"
+    },
+    "boxCollider": {
+      "description": "Một hộp vô hình mà các vật thể sẽ bật ra khỏi hoặc nghỉ ngơi trên đầu trang.\nNếu không có máy va chạm, các vật thể sẽ rơi qua sàn nhà và đi qua các bức tường.",
+      "lbl-isTrigger": "Kích hoạt"
+    },
+    "camera": {
+      "name": "Máy quay phim",
+      "description": "Cài đặt máy ảnh.",
+      "lbl-camera-raycast": "Raycasting máy ảnh",
+      "lbl-camera-raycast-toggle": "Kích hoạt",
+      "lbl-camera-raycast-frequency": "Tần số",
+      "lbl-camera-raycast-count": "Số lượng tia",
+      "lbl-camera-raycast-length": "Chiều dài tia"
+    },
+    "directionalLight": {
+      "name": "Ánh sáng định hướng",
+      "description": "Một ánh sáng chiếu sáng toàn bộ cảnh, nhưng phát ra dọc theo một hướng duy nhất.",
+      "lbl-color": "Màu",
+      "lbl-intensity": "Cường độ",
+      "lbl-cameraFar": "Máy ảnh Xa",
+      "lbl-cameraNear": "Máy ảnh gần",
+      "lbl-cameraTop": "Đầu máy ảnh",
+      "lbl-cameraBottom": "Đáy máy ảnh",
+      "lbl-cameraLeft": "Máy ảnh trái",
+      "lbl-cameraRight": "Máy ảnh bên phải",
+      "lbl-useInCSM": "Sử dụng trong CSM",
+      "lbl-castShadow": "Đổ bóng",
+      "lbl-disableForCSM": "Bị vô hiệu hóa vì bản đồ bóng Cascade được bật.",
+      "lbl-shadowmapResolution": "Độ phân giải Bản đồ Bóng tối",
+      "lbl-shadowBias": "Thiên vị bóng tối",
+      "lbl-shadowRadius": "Bán kính bóng tối",
+      "lbl-showCameraHelper": "Hiện Trợ giúp Máy ảnh"
+    },
+    "groundPlane": {
+      "name": "Máy bay mặt đất",
+      "description": "Một chiếc máy bay mặt đất phẳng kéo dài đến khoảng cách.",
+      "lbl-color": "Màu",
+      "lbl-receiveShadow": "Nhận Bóng",
+      "lbl-generateNavmesh": "Tạo Navmesh"
+    },
+    "link": {
+      "description": "Liên kết đến một căn phòng hoặc một trang web.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "Bản đồ không gian địa lý 3D của ví dụ: một thành phố."
+    },
+    "model": {
+      "description": "Mô hình 3D trong cảnh của bạn, được tải từ URL hoặc tệp GLTF.",
+      "lbl-usingGPUInstancingFlag": "Sử dụng GPU Instancing",
+      "lbl-modelurl": "Url Mô hình",
+      "lbl-envmapUrl": "Url Bản đồ Môi trường",
+      "lbl-textureOverride": "Ghi đè Kết cấu",
+      "lbl-materialOverride": "Ghi đè Vật liệu",
+      "error-url": "Tải lỗi từ URL",
+      "lbl-loopAnimation": "Hoạt hình Vòng lặp",
+      "lbl-isAvatar": "Avatar là Avatar",
+      "lbl-isGPUInstancing": "Đang sử dụng GPU Instancing",
+      "lbl-isDynamic": "Là năng động",
+      "lbl-castShadow": "Đổ bóng",
+      "lbl-receiveShadow": "Nhận Bóng",
+      "lbl-interactable": "Có thể tương tác",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "Tên",
+      "lbl-url": "Url Mô hình",
+      "lbl-buy": "Url Mua",
+      "lbl-learnMore": "Tìm hiểu thêm Url",
+      "lbl-htmlContent": "Nội dung Html",
+      "lbl-interactionText": "Văn bản Tương tác",
+      "lbl-interactionType": "Loại tương tác"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Vật liệu",
+      "error-materialID": "Lỗi tìm Tài liệu",
+      "placeholder-materialID": "Chọn Vật liệu",
+      "lbl-patternTarget": "Khớp mẫu",
+      "lbl-pattern": "Khuôn mẫu",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Loại tương tác",
+      "text": "Văn bản Tương tác",
+      "distance": "Khoảng cách tương tác",
+      "theme": "Chủ đề Tương tác",
+      "name": "Tên tương tác",
+      "description": "Mô tả tương tác",
+      "images": "Hình ảnh tương tác",
+      "videos": "Video tương tác",
+      "urls": "Url tương tác",
+      "models": "Mô hình tương tác"
+    },
+    "group": {
+      "name": "Nhóm",
+      "description": "Một nhóm nhiều đối tượng có thể được di chuyển hoặc sao chép với nhau.\nKéo và thả các đối tượng vào Nhóm trong Cấu trúc phân cấp."
+    },
+    "hemisphere": {
+      "name": "Ánh sáng bán cầu",
+      "description": "Một ánh sáng chiếu sáng khung cảnh từ trực tiếp trên cao.",
+      "lbl-skyColor": "Màu bầu trời",
+      "lbl-groundColor": "Màu mặt đất",
+      "lbl-intensity": "Cường độ"
+    },
+    "image": {
+      "name": "Ảnh",
+      "description": "Tự động tải một hình ảnh.",
+      "lbl-imgURL": "Url Hình ảnh",
+      "lbl-transparency": "Chế độ minh bạch",
+      "lbl-alphaCutoff": "Alpha Cutoff",
+      "lbl-projection": "Chiếu",
+      "lbl-side": "Bên",
+      "info-controls": "Chuyển đổi khả năng hiển thị của các điều khiển phương tiện truyền thông.",
+      "info-transparency": "Cách áp dụng tính minh bạch:",
+      "info-opaque": "'mờ đục' = không minh bạch",
+      "info-blend": "'blend' = sử dụng kênh alpha hình ảnh",
+      "info-mask": "'mặt nạ' = Sử dụng giá trị cắt được chỉ định để bật / tắt độ trong suốt (hiệu suất cao hơn)",
+      "info-alphaCutoff": "Pixel có giá trị alpha thấp hơn mức này sẽ trong suốt",
+      "error-url": "URL không hợp lệ"
+    },
+    "name": {
+      "lbl-name": "Tên"
+    },
+    "partileEmitter": {
+      "description": "Bộ phát hạt để tạo ra các hạt.",
+      "lbl-particleCount": "Số lượng hạt",
+      "lbl-image": "Ảnh",
+      "lbl-ageRandomness": "Ngẫu nhiên tuổi tác",
+      "lbl-lifetime": "Đời",
+      "lbl-lifetimeRandomness": "Ngẫu nhiên trọn đời",
+      "lbl-sizeCurve": "Đường cong kích thước",
+      "lbl-startPSize": "Bắt đầu Kích thước Hạt",
+      "lbl-endPSize": "Kích thước hạt cuối",
+      "lbl-sizeRandomness": "Kích thước ngẫu nhiên",
+      "lbl-colorCurve": "Đường cong màu",
+      "lbl-startColor": "Bắt đầu Màu",
+      "lbl-startOpacity": "Bắt đầu Mờ đục",
+      "lbl-middleColor": "Màu giữa",
+      "lbl-middleOpacity": "Độ mờ trung bình",
+      "lbl-endColor": "Màu Kết thúc",
+      "lbl-endOpacity": "Chấm dứt độ mờ đục",
+      "lbl-velocityCurve": "Đường cong vận tốc",
+      "lbl-startVelocity": "Vận tốc Bắt đầu",
+      "lbl-endVelocity": "Vận tốc cuối",
+      "lbl-angularVelocity": "Vận tốc góc",
+      "info-ageRandomness": "Số lượng biến đổi giữa khi các hạt được sinh ra.",
+      "info-lifetime": "Tuổi tối đa của một hạt trước khi nó được hồi sinh.",
+      "info-lifetimeRandomness": "Số lượng biến đổi giữa tuổi thọ hạt.",
+      "info-sizeRandomness": "Số lượng biến đổi giữa các kích thước bắt đầu hạt.",
+      "error-url": "Tải lỗi từ URL"
+    },
+    "clouds": {
+      "name": "Mây",
+      "description": "Khối lượng đám mây dựa trên Sprite.",
+      "lbl-image": "Ảnh Sprite",
+      "lbl-wroldScale": "Quy mô thế giới",
+      "lbl-dimensions": "Kích thước",
+      "lbl-noiseZoom": "Zoom tiếng ồn",
+      "lbl-noiseOffset": "Bù đắp tiếng ồn",
+      "lbl-spriteScale": "Thang đo sprite",
+      "lbl-fogColor": "Màu sương mù",
+      "lbl-fogRange": "Phạm vi sương mù",
+      "error-url": "Tải lỗi từ URL"
+    },
+    "ocean": {
+      "name": "Đại dương",
+      "description": "Bề mặt đại dương với sóng và bọt",
+      "lbl-normalMap": "Bản đồ bình thường",
+      "lbl-distortionMap": "Bản đồ biến dạng",
+      "lbl-envMap": "Bản đồ môi trường",
+      "lbl-color": "Màu",
+      "lbl-shallowWaterColor": "Màu nước nông",
+      "lbl-shallowToDeepDistance": "Khoảng cách nông đến sâu",
+      "lbl-opacityFadeDistance": "Khoảng cách mờ dần mờ đục",
+      "lbl-opacityRange": "Phạm vi độ mờ đục",
+      "lbl-shininess": "Độ sáng bóng",
+      "lbl-reflectivity": "Độ phản xạ",
+      "lbl-foamColor": "Màu bọt",
+      "lbl-foamSpeed": "Tốc độ bọt",
+      "lbl-foamTiling": "Ốp lát bọt",
+      "lbl-bigWaveTiling": "Ốp lát sóng lớn",
+      "lbl-bigWaveSpeed": "Tốc độ sóng lớn",
+      "lbl-bigWaveHeight": "Chiều cao sóng lớn",
+      "lbl-waveSpeed": "Tốc độ sóng",
+      "lbl-waveScale": "Thang đo sóng",
+      "lbl-waveTiling": "Ốp lát sóng",
+      "lbl-waveDistortionSpeed": "Tốc độ biến dạng sóng",
+      "lbl-waveDistortionTiling": "Ốp lát biến dạng sóng",
+      "error-url": "Tải lỗi từ URL"
+    },
+    "water": {
+      "name": "Nước",
+      "description": "Mặt nước nhỏ"
+    },
+    "interior": {
+      "name": "Nội thất",
+      "description": "Một bề mặt với kết cấu hình khối được ánh xạ để mô phỏng môi trường nội thất",
+      "lbl-cubeMap": "Kết cấu Bản đồ Hình khối",
+      "lbl-tiling": "Số lượng ốp lát",
+      "lbl-size": "Kích thước bề mặt",
+      "error-url": "Tải lỗi từ URL"
+    },
+    "pointLight": {
+      "description": "Một ánh sáng phát ra theo mọi hướng từ một điểm duy nhất.",
+      "lbl-color": "Màu",
+      "lbl-intensity": "Cường độ",
+      "lbl-range": "Phạm vi",
+      "lbl-decay": "Rã"
+    },
+    "scene": {
+      "name": "Cảnh",
+      "description": "Đối tượng gốc rễ của hiện trường.",
+      "lbl-bgcolor": "Màu nền",
+      "lbl-fogType": "Loại sương mù",
+      "lbl-fogColor": "Màu sương mù",
+      "lbl-forNearDistance": "Sương mù gần khoảng cách",
+      "lbl-fogFarDistance": "Sương mù Khoảng cách xa",
+      "lbl-fogDensity": "Mật độ sương mù",
+      "lbl-audioSettings": "Sử dụng âm thanh vị trí",
+      "lbl-avatarDistanceModel": "Mô hình khoảng cách Avatar",
+      "lbl-avatarRolloffFactor": "Hệ số cuộn Avatar",
+      "lbl-avatarRefDistance": "Khoảng cách Avatar Ref",
+      "lbl-avatarMaxDistance": "Khoảng cách Tối đa Avatar",
+      "lbl-mediaVolume": "Âm lượng Phương tiện",
+      "lbl-mediaDistanceModel": "Mô hình Khoảng cách Phương tiện",
+      "lbl-mediaRolloffFactor": "Hệ số cuộn phương tiện",
+      "lbl-mediaRefDistance": "Khoảng cách Ref Phương tiện",
+      "lbl-mediaMaxDistance": "Khoảng cách tối đa phương tiện",
+      "lbl-mediaConeInnerAngle": "Media Nón Góc trong",
+      "lbl-mediaConeOuterAngle": "Hình nón phương tiện truyền thông Góc ngoài",
+      "lbl-mediaConeOuterGain": "Phương tiện truyền hình nón bên ngoài Gain",
+      "info-avatarDistanceModel": "Algorithim được sử dụng để tính toán cuộn âm thanh.",
+      "info-avatarRolloffFactor": "Một giá trị kép mô tả tốc độ giảm âm lượng khi nguồn di chuyển ra khỏi người nghe. 0 đến 1",
+      "info-avatarRolloffFactorInifinity": "Một giá trị kép mô tả tốc độ giảm âm lượng khi nguồn di chuyển ra khỏi người nghe. 0 đến Vô cực",
+      "info-avatarRefDistance": "Một giá trị kép đại diện cho khoảng cách tham chiếu để giảm âm lượng khi nguồn âm thanh di chuyển xa hơn từ người nghe.",
+      "info-avatarMaxDistance": "Một giá trị kép đại diện cho khoảng cách tối đa giữa nguồn âm thanh và người nghe, sau đó âm lượng không bị giảm thêm nữa.",
+      "info-mediaDistanceModel": "Algorithim được sử dụng để tính toán cuộn âm thanh.",
+      "info-mediaRolloffFactor": "Một giá trị kép mô tả tốc độ giảm âm lượng khi nguồn di chuyển ra khỏi người nghe. 0 đến 1",
+      "info-mediaRolloffFactorInfinity": "Một giá trị kép mô tả tốc độ giảm âm lượng khi nguồn di chuyển ra khỏi người nghe. 0 đến Vô cực",
+      "info-mediaRefDistance": "Một giá trị kép đại diện cho khoảng cách tham chiếu để giảm âm lượng khi nguồn âm thanh di chuyển xa hơn từ người nghe.",
+      "info-mediaMaxDistance": "Một giá trị kép đại diện cho khoảng cách tối đa giữa nguồn âm thanh và người nghe, sau đó âm lượng không bị giảm thêm nữa.",
+      "info-mediaConeInnerAngle": "Một giá trị kép mô tả góc, theo độ, của một hình nón bên trong sẽ không có giảm âm lượng.",
+      "info-mediaConeOuterAngle": "Một giá trị kép mô tả góc, theo độ, của một hình nón bên ngoài trong đó khối lượng sẽ được giảm bởi một giá trị không đổi, được xác định bởi thuộc tính coneOuterGain.",
+      "info-mediaConeOuterGain": "Một giá trị kép mô tả số lượng giảm khối lượng bên ngoài hình nón được xác định bởi thuộc tính coneOuterAngle. Giá trị mặc định của nó là 0, có nghĩa là không có âm thanh nào có thể được nghe thấy.",
+      "lbl-simpleMaterials": "Sử dụng vật liệu đơn giản",
+      "lbl-lods": "LODs",
+      "info-lods": "Đặt khoảng cách ở mức độ thay đổi chi tiết.",
+      "info-simpleMaterials": "Chuyển đổi tất cả các vật liệu đắt tiền sang các vật liệu đơn giản hơn để giảm tải kết xuất cảnh.",
+      "lbl-rendererSettings": "Ghi đè Thiết đặt Renderer",
+      "lbl-csm": "Bản đồ bóng xếp tầng",
+      "info-csm": "Cho phép bản đồ bóng đổ.",
+      "lbl-toneMapping": "Ánh xạ Giai điệu",
+      "info-toneMapping": "Cho phép ánh xạ giai điệu trên trình kết xuất cảnh. Không có tác dụng khi quá trình xử lý bài đăng được kích hoạt.",
+      "lbl-toneMappingExposure": "Phơi sáng Ánh xạ Tông màu",
+      "info-toneMappingExposure": "Chỉ định phơi sáng ánh xạ giai điệu trên trình kết xuất cảnh. Không có tác dụng khi quá trình xử lý bài đăng được kích hoạt.",
+      "lbl-shadowMapType": "Loại Bản đồ Bóng tối",
+      "info-shadowMapType": "Loại bản đồ bóng tối",
+      "error-url": "Tải lỗi từ URL"
+    },
+    "sceneCamera": {
+      "name": "Camera Xem trước Cảnh",
+      "description": "Máy ảnh được sử dụng để tạo hình thu nhỏ cho cảnh của bạn và vị trí bắt đầu cho máy ảnh xem trước.",
+      "lbl-setFromViewPort": "Đặt Từ Viewport"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "Thời gian trong ngày",
+      "lbl-color": "Màu",
+      "lbl-latitude": "Vĩ độ",
+      "lbl-luminance": "Độ sáng",
+      "lbl-scattering": "Số lượng tán xạ",
+      "lbl-scatteringDistance": "Khoảng cách tán xạ",
+      "lbl-horizonStart": "Bắt đầu Chân trời",
+      "lbl-horizonEnd": "Kết thúc Chân trời",
+      "lbl-texture": "Kết cấu",
+      "lbl-skyType": "Loại bầu trời",
+      "error-url": "Tải lỗi từ URL"
+    },
+    "spawnPoint": {
+      "name": "Điểm sinh sản",
+      "description": "Một điểm mà mọi người sẽ xuất hiện khi họ bước vào cảnh của bạn.\nBiểu tượng trong Viewport đại diện cho kích thước thực tế của avatar."
+    },
+    "spotLight": {
+      "description": "Một ánh sáng phát ra dọc theo một hướng, chiếu sáng các vật thể trong một hình nón.",
+      "lbl-color": "Màu",
+      "lbl-intensity": "Cường độ",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Góc",
+      "lbl-range": "Phạm vi",
+      "lbl-decay": "Rã"
+    },
+    "transform": {
+      "title": "Biến",
+      "lbl-postition": "Vị trí",
+      "lbl-rotation": "Xoay",
+      "lbl-scale": "Vảy"
+    },
+    "triggereVolume": {
+      "description": "Đặt thuộc tính trên đối tượng mục tiêu khi vào và rời đi.",
+      "lbl-target": "Đối tượng",
+      "lbl-onenter": "Khi Vào",
+      "lbl-onexit": "Khi Thoát",
+      "lbl-showHelper": "Hiện Lưới Trợ giúp",
+      "ph-errorNode": "Lỗi thiếu nút.",
+      "ph-selectNode": "Chọn nút..."
+    },
+    "video": {
+      "name": "Video",
+      "description": "Tự động tải video.",
+      "lbl-video": "Video",
+      "lbl-projection": "Chiếu",
+      "lbl-islivestream": "Phát trực tiếp",
+      "lbl-interactable": "Có thể tương tác",
+      "lbl-id": "Id Phần tử",
+      "lbl-play": "Chơi",
+      "lbl-pause": "Tạm dừng",
+      "error-url": "Tải lỗi từ URL"
+    },
+    "volumetric": {
+      "name": "Thể tích",
+      "description": "Tự động tải video thể tích.",
+      "uvolPaths": "Đường dẫn UVOL",
+      "playmode": "Chế độ Phát",
+      "playtitle": "Chơi",
+      "pausetitle": "Tạm dừng"
+    },
+    "spline": {
+      "description": "Tự động tạo và tùy chỉnh các đường cong.",
+      "lbl-addNode": "Thêm nút vào đường cong."
+    },
+    "systemnode": {
+      "description": "Đính kèm kịch bản.",
+      "lbl-filePath": "Url",
+      "lbl-systemUpdateType": "Điểm tiêm",
+      "lbl-enableClient": "Khách hàng",
+      "lbl-enableServer": "Máy chủ",
+      "lbl-args": "Args",
+      "error-url": "Lỗi tải tập lệnh từ URL"
+    },
+    "portal": {
+      "lbl-portal": "Cổng thông tin được liên kết",
+      "lbl-redirect": "Sử dụng Chuyển hướng Trang",
+      "description": "Portat để dịch chuyển người chơi đến vị trí được chỉ định",
+      "lbl-locationName": "Vị trí",
+      "lbl-modelUrl": "URL Mô hình",
+      "lbl-displayText": "Hiển thị Văn bản",
+      "lbl-cubemapBake": "Bánh nướng Cubemap",
+      "lbl-spawnPosition": "Vị trí sinh sản",
+      "lbl-spawnRotation": "Vòng quay sinh sản",
+      "lbl-triggerPosition": "Vị trí kích hoạt",
+      "lbl-triggerRotation": "Xoay kích hoạt",
+      "lbl-triggerScale": "Thang kích hoạt"
+    },
+    "postprocessing": {
+      "name": "Xử lý hậu kỳ",
+      "description": "Để áp dụng hiệu ứng Xử lý Sau cho cảnh của bạn."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Dự án mới",
+      "backLink": "Trở lại với các dự án",
+      "featured": "Nổi bật",
+      "all": "Tất cả",
+      "newProject": "Dự án trống mới",
+      "ph-search": "Tìm kiếm cảnh..."
+    },
+    "grid": {
+      "loading": "Tải..."
+    },
+    "page": {
+      "header": "Chào mừng",
+      "headerMsg": "Nếu bạn là người mới ở đây, chúng tôi khuyên bạn nên đi qua hướng dẫn. Nếu không, hãy nhảy ngay vào và tạo một dự án từ đầu hoặc từ một trong các mẫu của chúng tôi.",
+      "lbl-startTutorial": "Hướng dẫn Bắt đầu",
+      "projects": "Dự án",
+      "lbl-newProject": "Dự án mới"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Tải...",
+      "placeObject": "Đặt Đối tượng",
+      "placeObjectAtOrigin": "Đặt Đối tượng tại Nguồn gốc",
+      "copyURL": "Sao chép URL",
+      "openInNewTab": "Mở URL trong Tab Mới",
+      "deleteAsset": "Xóa Tài sản"
+    },
+    "filebrowser": {
+      "addNewFolder": "Thêm Cặp Mới",
+      "cutAsset": "Cắt",
+      "copyAsset": "Bản sao",
+      "pasteAsset": "Dán",
+      "renameAsset": "Rename",
+      "viewAssetProperties": "Xem Thuộc tính"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Rename",
+    "lbl-duplicate": "Bản sao",
+    "lbl-group": "Nhóm",
+    "lbl-delete": "Xóa",
+    "lbl-expandAll": "Bung rộng Tất cả",
+    "lbl-collapseAll": "Thu gọn Tất cả",
+    "isseus": "Vấn đề:"
+  },
+  "dnd": {
+    "nodes": "{{count}} nút được chọn",
+    "models": "Mô hình {{count}} đã chọn",
+    "images": "{{count}} Ảnh đã chọn",
+    "videos": "{{count}} Video được chọn",
+    "audio": "{{count}} Nguồn Âm thanh đã chọn"
+  },
+  "dialog": {
+    "title": "Biên tập viên",
+    "lbl-confirm": "Ok",
+    "lbl-cancel": "Hủy",
+    "exportProject": {
+      "title": "Dự án Xuất khẩu",
+      "lbl-confirm": "Dự án Xuất khẩu",
+      "lbl-combineMesh": "Kết hợp lưới",
+      "lbl-removeUnused": "Loại bỏ Các đối tượng không sử dụng"
+    },
+    "performance": {
+      "title": "Kiểm tra hiệu suất",
+      "lbl-confirm": "Phát hành Cảnh",
+      "learnMore": "Tìm hiểu thêm",
+      "lbl-polycount": "Số lượng đa giác",
+      "lbl-material": "Vật liệu",
+      "lbl-texture": "Textures",
+      "lbl-lights": "Đèn",
+      "lbl-fileSize": "Kích thước Tệp",
+      "info-polycount": "Chúng tôi khuyên bạn nên sử dụng cảnh của bạn không quá 50.000 hình tam giác cho thiết bị di động.",
+      "info-material": "Chúng tôi khuyên bạn nên sử dụng không quá 25 tài liệu độc đáo trong cảnh của bạn để giảm các cuộc gọi vẽ trên thiết bị di động.",
+      "info-texture": "Chúng tôi khuyên bạn nên sử dụng kết cấu của bạn không quá 256MB RAM video cho thiết bị di động. Chúng tôi cũng khuyên bạn không nên sử dụng kết cấu lớn hơn 2048 x 2048.",
+      "info-lights": "Mặc dù đèn động không được bật trên thiết bị di động, chúng tôi khuyên bạn nên sử dụng không quá 3 đèn trong cảnh của bạn (không bao gồm đèn xung quanh và bán cầu) để cảnh của bạn chạy trên PC cấp thấp.",
+      "info-fileSize": "Chúng tôi đề xuất kích thước tệp cuối cùng không quá 16MB cho các kết nối băng thông thấp. Giảm kích thước tệp sẽ làm giảm thời gian cần thiết để tải xuống cảnh của bạn.",
+      "txt-polycount": "Tam giác {{count}}",
+      "txt-material": "Vật liệu {{count}}",
+      "txt-ram": "~{{count}} RAM video",
+      "txt-texture": "{{count}} kết cấu lớn",
+      "txt-lights": "Đèn {{count}}"
+    },
+    "progress": {
+      "title": "Tải...",
+      "msg": "Tải...",
+      "lbl-cancel": "Hủy"
+    },
+    "publish": {
+      "title": "Phát hành Cảnh",
+      "lbl-confirm": "Lưu và Phát hành",
+      "lbl-name": "Tên Cảnh",
+      "info-name": "Tên phải nằm trong khoảng từ 4 đến 64 ký tự và không thể chứa dấu gạch dưới"
+    },
+    "published": {
+      "title": "Cảnh Được xuất bản",
+      "header": "Cảnh của bạn đã được xuất bản.",
+      "lbl-view": "Xem cảnh của bạn"
+    },
+    "saveNewProject": {
+      "title": "Hỗ trợ",
+      "lbl-name": "Tên dự án",
+      "info-name": "Tên phải nằm trong khoảng từ 4 đến 64 ký tự và không thể chứa dấu gạch dưới",
+      "lbl-confirm": "Lưu Dự án"
+    },
+    "support": {
+      "title": "Hỗ trợ",
+      "header": "Cần phải báo cáo một vấn đề?",
+      "msg": "Bạn có thể gửi <1>vấn đề GitHub</1> hoặc e-mail cho chúng tôi để được hỗ trợ tại <3>{{mail}}</3>",
+      "discord": "Bạn cũng có thể tìm thấy chúng tôi trên <1>Discord</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Hình ảnh Bing",
+      "search": "Tìm kiếm bởi Bing"
+    },
+    "bingVideo": {
+      "name": "Video về Bing",
+      "search": "Tìm kiếm bởi Bing"
+    },
+    "element": {
+      "name": "Yếu tố"
+    },
+    "myAssets": {
+      "name": "Tài sản của tôi"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Tìm kiếm của Google"
+    },
+    "tenor": {
+      "name": "Gif tenor",
+      "search": "Tìm kiếm bởi Tenor",
+      "ph-search": "Tìm kiếm GIF..."
+    },
+    "sketchfab": {
+      "name": "Sketchfab",
+      "search": "Tìm kiếm bởi Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Tải lên Tài sản"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Tìm kiếm hình ảnh..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Tìm kiếm video..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Tìm kiếm tài sản..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Các mô hình tìm kiếm..."
+    },
+    "useUpload": {
+      "multipleFileError": "Đầu vào không chấp nhận nhiều tệp.",
+      "mineTypeError": "\"{{name}}\" không khớp với các loại mime hoặc phần mở rộng sau đây: {{types}}",
+      "progressTitle": "Tải lên Tệp",
+      "progressMsg": "Tải lên tệp {{uploaded}} {{total}}: {{percentage}}%",
+      "uploadError": "Lỗi Tải lên",
+      "uploadErrorMsg": "Lỗi tải lên tệp: {{message}}",
+      "uploadErrorDefaultMsg": "Có một lỗi không xác định"
+    }
+  },
+  "openLink": {
+    "description": "Vui lòng bấm vào Mở để dẫn hướng đến nối kết.",
+    "lbl-open": "Mở"
+  },
+  "interactableModel": {
+    "lbl-buy": "Mua",
+    "lbl-learnMore": "Tìm hiểu thêm"
+  },
+  "corsProxyButton": {
+    "tooltip": "Sử dụng Cors Proxy Server"
+  }
+}

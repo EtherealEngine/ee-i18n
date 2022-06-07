@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "อีเมลยืนยัน",
+      "resendEmail": "โปรดตรวจสอบอีเมลของคุณเพื่อยืนยันบัญชีของคุณ หากคุณไม่ได้รับอีเมล โปรดคลิก {{here}} เพื่อส่งอีเมลยืนยันอีกครั้ง",
+      "haveAnAccount": "มีบัญชีหรือไม่?"
+    },
+    "forgotPassword": {
+      "header": "ลืมรหัสผ่าน",
+      "enterEmail": "กรุณากรอกอีเมลที่ลงทะเบียนไว้ และเราจะส่งลิงก์รีเซ็ตรหัสผ่านให้คุณ",
+      "lbl-email": "ที่อยู่อีเมล",
+      "lbl-submit": "ส่งการเชื่อมโยง",
+      "emailSent": "ส่งอีเมลรหัสผ่านใหม่แล้ว โปรดตรวจสอบอีเมลของคุณ"
+    },
+    "login": {
+      "email": "|อีเมล SMS",
+      "username": "ชื่อผู้ใช้ + รหัสผ่าน",
+      "social": "สังคม"
+    },
+    "magiklink": {
+      "header": "ลิงค์เข้าสู่ระบบ",
+      "descriptionEmail": "กรุณากรอกอีเมลของท่าน และเราจะส่งลิงค์เข้าสู่ระบบให้ทางอีเมล์",
+      "descriptionSMS": "กรุณากรอกหมายเลขโทรศัพท์และเราจะส่งลิงค์เข้าสู่ระบบทาง SMS ให้คุณ",
+      "descriptionEmailSMS": "กรุณากรอกอีเมลหรือหมายเลขโทรศัพท์ (10 หลัก, สหรัฐอเมริกาเท่านั้น) และเราจะส่งลิงค์เข้าสู่ระบบให้คุณทางอีเมลหรือ SMS",
+      "descriptionSMSUS": "กรุณากรอกหมายเลขโทรศัพท์ (10 หลัก, สหรัฐอเมริกาเท่านั้น) และเราจะส่งลิงค์เข้าสู่ระบบทาง SMS ให้คุณ",
+      "lbl-email": "ที่อยู่อีเมล",
+      "lbl-emailPhone": "อีเมลหรือหมายเลขโทรศัพท์",
+      "lbl-phone": "หมายเลขโทรศัพท์",
+      "agree": "ฉันเห็นด้วยกับ ",
+      "terms": "ข้อกําหนดและเงื่อนไข",
+      "lbl-submit": "ส่งการเชื่อมโยงการเข้าสู่ระบบ",
+      "email-sent-msg": "ส่งลิงค์เมจิกเข้าสู่ระบบแล้ว โปรดตรวจสอบอีเมลของคุณ",
+      "success-msg": "ส่งลิงค์เมจิกเข้าสู่ระบบแล้ว โปรดตรวจสอบอีเมลหรือ SMS ของคุณ",
+      "sms-sent-msg": "ส่งลิงค์เมจิกเข้าสู่ระบบแล้ว โปรดตรวจสอบ SMS ของคุณ"
+    },
+    "passwordLogin": {
+      "header": "เข้าสู่ระบบ",
+      "lbl-email": "ที่อยู่อีเมล",
+      "lbl-password": "รหัสผ่าน",
+      "lbl-rememberMe": "จดจําฉันไว้",
+      "lbl-signin": "เข้าสู่ระบบ",
+      "forgotPassword": "ลืมรหัสผ่าน?",
+      "signup": "ยังไม่มีบัญชี? ไซน์อัพ",
+      "lbl-login": "เข้าสู่ระบบ",
+      "ph-password": "รหัสผ่าน",
+      "ph-email": "อีเมล"
+    },
+    "social": {
+      "gitHub": "เข้าสู่ระบบด้วย GitHub",
+      "google": "เข้าสู่ระบบด้วย Google",
+      "facebook": "เข้าสู่ระบบด้วย Facebook",
+      "linkedin": "เข้าสู่ระบบด้วย Linkedin",
+      "twitter": "เข้าสู่ระบบด้วยทวิตเตอร์"
+    },
+    "register": {
+      "header": "ไซน์อัพ",
+      "login": "เข้าสู่ระบบ",
+      "lbl-signup": "ไซน์อัพ",
+      "lbl-password": "รหัสผ่าน",
+      "lbl-email": "ที่อยู่อีเมล",
+      "passwordNotMatch": "รหัสผ่านไม่ตรงกัน",
+      "ph-password": "รหัสผ่าน",
+      "ph-confirmPassword": "ยืนยันรหัสผ่าน",
+      "ph-email": "อีเมล"
+    },
+    "resetPassword": {
+      "header": "ตั้งค่ารหัสผ่านใหม่",
+      "description": "กรุณาใส่รหัสผ่านสําหรับที่อยู่อีเมลของคุณ",
+      "lbl-submit": "ตั้งค่ารหัสผ่านใหม่",
+      "lbl-password": "รหัสผ่าน",
+      "lbl-confirmPassword": "ยืนยันรหัสผ่าน",
+      "passwordNotMatch": "รหัสผ่านไม่ตรงกัน",
+      "nowLoginYourAccount": "ตอนนี้คุณสามารถเข้าสู่ระบบบัญชีของคุณได้แล้ว",
+      "yourPasswordResetSuccess": "รหัสผ่านของคุณถูกตั้งค่าใหม่เรียบร้อยแล้ว!"
+    },
+    "verifyEmail": {
+      "header": "ยืนยันอีเมล",
+      "processing": "โปรดรอสักครู่ขณะกําลังประมวลผล..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "ตำแหน่งที่ตั้ง",
+      "loading": "การโหลด",
+      "col-name": "ชื่อ",
+      "col-scene": "ฉาก",
+      "col-maxuser": "ผู้ใช้สูงสุด",
+      "lbl-search": "ค้นหาสถานที่",
+      "lbl-new": "ใหม่"
+    },
+    "newLocation": {
+      "title": "สถานที่",
+      "success": "บันทึกเรียบร้อยแล้ว",
+      "failure": "มีบางอย่างผิดพลาด",
+      "removeSuccess": "เอาตําแหน่งที่ตั้งออกเรียบร้อยแล้ว",
+      "nameInUse": "ชื่อถูกใช้งานอยู่",
+      "nameRequire": "ต้องระบุชื่อ",
+      "validNumber": "อนุญาตเฉพาะตัวเลข(0-9) เท่านั้น",
+      "lbl-name": "ชื่อ",
+      "lbl-maxuser": "ผู้ใช้สูงสุด",
+      "lbl-scene": "ฉาก",
+      "lbl-type": "ประเภท",
+      "lbl-ve": "เปิดใช้งานวิดีโอแล้ว",
+      "lbl-gme": "เปิดใช้งานสื่อส่วนกลาง",
+      "lbl-update": "อัพเดต",
+      "lbl-create": "สร้าง",
+      "tooltipCanNotBeDeleted": "ไม่สามารถลบล็อบบี้ได้",
+      "confirmation": "เธอแน่ใจหรือ ",
+      "lbl-yes": "ใช่",
+      "lbl-no": "ไม่ใช่"
+    },
+    "share": {
+      "lbl-share": "ใช้ร่วมกัน",
+      "ph-phoneEmail": "เชิญทางอีเมลหรือหมายเลขโทรศัพท์",
+      "lbl-phoneEmail": "ส่งไปยังอีเมลหรือหมายเลขโทรศัพท์",
+      "lbl-copy": "ลอก",
+      "lbl-send-invite": "ส่งการเชิญ",
+      "title": "แชร์ URL ตําแหน่งที่ตั้งของคุณกับทีมของคุณ",
+      "linkCopied": "ลิงก์ที่คัดลอกไปยังคลิปบอร์ด"
+    },
+    "setting": {
+      "audio": "เสียง",
+      "lbl-volume": "ปริมาตร",
+      "lbl-microphone": "ไมโครโฟน",
+      "graphics": "ภาพกราฟฟิก",
+      "controls": "ควบคุม",
+      "lbl-control-type": "ชนิดตัวควบคุม",
+      "lbl-control-scheme": "โครงร่างตัวควบคุม",
+      "lbl-resolution": "มติ",
+      "lbl-shadow": "เงา",
+      "lbl-pp": "ลงรายการบัญชีการประมวลผล",
+      "lbl-pbr": "PBR เต็ม",
+      "lbl-automatic": "อัตโนมัติ",
+      "xrusersetting": "การตั้งค่าผู้ใช้ XR",
+      "rotation": "การหมุน",
+      "rotation-smooth-speed": "หมุนความเร็วเรียบ",
+      "rotation-angle": "มุมการหมุน",
+      "moving": "ย้าย",
+      "user-avatar": "การตั้งค่าอวตาร",
+      "invert-rotation": "กลับการหมุนและย้ายแท่ง",
+      "show-avatar": "แสดงอวตาร"
+    },
+    "profile": {
+      "lbl-profile": "โปรไฟล์",
+      "lbl-settings": "การตั้งค่า",
+      "lbl-username": "ชื่อผู้ใช้",
+      "update-msg": "ชื่อผู้ใช้ที่ปรับปรุงแล้ว",
+      "inviteCode": "รหัสเชิญ",
+      "youAreAn": "คุณคือ",
+      "youAreA": "คุณคือ",
+      "showUserId": "แสดง ID ผู้ใช้",
+      "hideUserId": "ซ่อน ID ผู้ใช้",
+      "showApiKey": "แสดงคีย์ API",
+      "hideApiKey": "ซ่อนคีย์ API",
+      "apiKey": "คีย์ API",
+      "logout": "ออกจากระบบ",
+      "connectPhone": "เชื่อมต่อหมายเลขโทรศัพท์ของคุณ",
+      "connectEmail": "เชื่อมต่ออีเมลของคุณ",
+      "connectPhoneEmail": "เชื่อมต่ออีเมลหรือหมายเลขโทรศัพท์ของคุณ",
+      "or": "หรือ",
+      "lbl-wallet": "เข้าสู่ระบบด้วยกระเป๋าสตางค์",
+      "ph-email": "อีเมล",
+      "ph-phone": "หมายเลขโทรศัพท์",
+      "ph-phoneEmail": "หมายเลขโทรศัพท์ / อีเมล",
+      "phoneEmailError": "หมายเลขโทรศัพท์หรือที่อยู่อีเมลไม่ถูกต้อง",
+      "phoneError": "โทรศัพท์ไม่ถูกต้อง #",
+      "emailError": "ที่อยู่อีเมลไม่ถูกต้อง",
+      "loginWithReadyPlayerMe": "เข้าสู่ระบบด้วยผู้เล่นพร้อมฉัน",
+      "connectSocial": "เชื่อมต่อกับบัญชีโซเชียล",
+      "createOne": "หากคุณไม่มีบัญชี จะมีการสร้างบัญชีใหม่ให้คุณ",
+      "connections": {
+        "title": "คน รู้จัก",
+        "ipError": "ไม่สามารถเอาตัวให้บริการข้อมูลเฉพาะตัวที่ใช้งานอยู่ออกได้",
+        "disconnect": "ยก เลิก",
+        "connect": "ติด"
+      },
+      "profileDropdown": {
+        "avatar": "ไอคอนรูปประจําตัวผู้ใช้",
+        "profile": "โปรไฟล์",
+        "adminConsole": "คอนโซลผู้ดูแลระบบ",
+        "logout": "ออกจากระบบ"
+      },
+      "userIcon": {
+        "lbl-name": "ชื่อของเธอ",
+        "lbl-update": "อัพเดต",
+        "userId": "รหัสผู้ใช้",
+        "ph-uploadImg": "อัปโหลดรูปผลิตภัณฑ์",
+        "lbl-selectAcvatar": "เลือกรูปประจําตัว",
+        "lbl-submit": "ส่ง"
+      },
+      "userSettings": {
+        "volume": "ปริมาตร",
+        "microphone": "ไมโครโฟน",
+        "resolution": "มติ",
+        "high": "สูง",
+        "low": "ต่ํา",
+        "spatialAudio": "ใช้เสียงเชิงพื้นที่",
+        "enterMuted": "ป้อนห้องที่ปิดเสียง"
+      }
+    },
+    "oauth": {
+      "authenticating": "กําลังรับรองความถูกต้อง...",
+      "authFailed": "การรับรองความถูกต้องของ{{service}}ล้มเหลว"
+    },
+    "magikLink": {
+      "wait": "โปรดรอสักครู่ขณะกําลังประมวลผล..."
+    },
+    "dashboard": {
+      "header": "แผงหน้าปัด",
+      "dashboard": "แผงหน้าปัด",
+      "users": "คน",
+      "feeds": "เนื้อหาสรุป",
+      "instance": "ตัวอย่าง",
+      "locations": "ตำแหน่งที่ตั้ง",
+      "invites": "เชิญ",
+      "sessions": "เซ สชัน",
+      "groups": "กลุ่ม",
+      "parties": "ปาร์ตี้",
+      "chats": "สนทนา",
+      "content": "ชุดเนื้อหา",
+      "projects": "โครงการ",
+      "scenes": "ฉาก",
+      "avatars": "อวตาร",
+      "benchmarking": "เปรียบ เทียบ",
+      "bots": "บอ"
+    }
+  },
+  "oauth": {
+    "authenticating": "กําลังรับรองความถูกต้อง...",
+    "authFailed": "การรับรองความถูกต้องของ{{service}}ล้มเหลว"
+  },
+  "magikLink": {
+    "wait": "โปรดรอสักครู่ขณะกําลังประมวลผล..."
+  },
+  "dashboard": {
+    "header": "แผงหน้าปัด",
+    "dashboard": "แผงหน้าปัด",
+    "users": "คน",
+    "feeds": "เนื้อหาสรุป",
+    "instance": "ตัวอย่าง",
+    "locations": "ตำแหน่งที่ตั้ง",
+    "routes": "เส้น ทาง",
+    "projects": "โครงการ",
+    "invites": "เชิญ",
+    "sessions": "เซ สชัน",
+    "groups": "กลุ่ม",
+    "parties": "ปาร์ตี้",
+    "chats": "สนทนา",
+    "content": "ชุดเนื้อหา",
+    "scenes": "ฉาก",
+    "avatars": "อวตาร",
+    "benchmarking": "เปรียบ เทียบ",
+    "bots": "บอ",
+    "setting": "การตั้งค่า"
+  },
+  "avatar": {
+    "title": "อัปโหลดรูปประจําตัว",
+    "lbl-browse": "เล็ม",
+    "lbl-thumbnail": "รูปขนาดย่อ",
+    "lbl-upload": "อัปโหลด",
+    "selectAvatar": "เลือกรูปประจําตัว...",
+    "selectThumbnail": "เลือกรูปขนาดย่อ...",
+    "rotate": "หมุน",
+    "pan": "กระทะ",
+    "noBone": "Obejct ไม่มีกระดูกหรือผิวหนังใด ๆ",
+    "outOfBound": "วัตถุอยู่นอกขอบเขต",
+    "emptyObj": "วัตถุว่างเปล่า",
+    "maxTriangleError": "วัตถุมีใบหน้ามากกว่า {{allowedTriangles}}",
+    "selectValidFile": "เลือกไฟล์อวตาร 3 มิติที่ถูกต้อง",
+    "selectValidThumbnail": "เลือกแฟ้มรูปขนาดย่อที่ถูกต้อง",
+    "fileOversized": "ขนาดแฟ้มรูปประจําตัวต้องอยู่ระหว่าง {{minSize}} MB ถึง {{maxSize}} MB",
+    "confirmation": "เธอแน่ใจหรือ ",
+    "canNotBeRemoved": "ไม่สามารถเอารูปประจําตัวที่ใช้งานอยู่ออกได้",
+    "remove": "ลบอวตาร",
+    "uploadFiles": "อัพโหลดไฟล์",
+    "useUrlInstead": "ใช้ URL แทน",
+    "avatar": "อวตาร",
+    "cancel": "ยกเลิก",
+    "createAvatar": "สร้างอวตาร",
+    "delete": "ลบ",
+    "view": "ทิวทัศน์",
+    "uploadAvatarInfo": "อัปเดตข้อมูลอวตาร",
+    "name": "ชื่อ",
+    "enterName": "ป้อนชื่อ",
+    "avatarInformation": "ข้อมูลอวตาร",
+    "description": "การบรรยาย",
+    "key": "กุญแจ",
+    "none": "ไม่มีใคร",
+    "submit": "ส่ง",
+    "edit": "แก้ไข",
+    "avatarUrl": "URL รูปประจําตัว",
+    "upload-success-msg": "อัพโหลดอวตารเรียบร้อยแล้ว",
+    "remove-success-msg": "อัพโหลดอวตารเรียบร้อยแล้ว",
+    "warning-msg": "ทรัพยากรอวตารว่างเปล่าคุณได้ซิงค์อวตารกับที่เก็บข้อมูลไฟล์แบบคงที่ของคุณหรือไม่?"
+  },
+  "personMenu": {
+    "inviteToParty": "เชิญเข้าร่วมปาร์ตี้",
+    "addAsFriend": "เพิ่มเป็นเพื่อน",
+    "mute": "ใบ้",
+    "block": "บล็อก"
+  },
+  "person": {
+    "you": "ท่าน",
+    "yourScreen": "หน้าจอของคุณ",
+    "muteForEveryone": "ปิดเสียงสําหรับทุกคน",
+    "unmuteForEveryone": "เปิดเสียงสําหรับทุกคน",
+    "muteMe": "ปิดเสียงฉัน",
+    "unmuteMe": "เปิดเสียงฉัน",
+    "muteThisPerson": "ปิดเสียงบุคคลนี้",
+    "unmuteThisPerson": "เปิดเสียงบุคคลนี้",
+    "openPictureInPicture": "เปิดรูปภาพในรูปภาพ"
+  }
+}

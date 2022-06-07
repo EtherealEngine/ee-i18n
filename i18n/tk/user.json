@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Tassyklatma E-poçtasy",
+      "resendEmail": "Hasabyňyzy barlamak üçin e-poçtaňyzy barlaň. Eger siz e-poçta almadyk bolsaňyz, barlama e-poçtasyny täzeden ibermek üçin {{here}} basmagyňyzy haýyş edýäris.",
+      "haveAnAccount": "Siziň hasabyňyz barmy?"
+    },
+    "forgotPassword": {
+      "header": "Paroly Unutdyr",
+      "enterEmail": "Haýyş, siziň hasaba alnan e-poçta salgyňyzy giriň we biz size paroly täzeden resmileşdirmek baglaýyşyny ibereris.",
+      "lbl-email": "Elektron adresi",
+      "lbl-submit": "Baglaýyşy Iber",
+      "emailSent": "Paroly Gaýd Etmek E-poçtasy ugradyldy. E-poçtaňyzy barlaň."
+    },
+    "login": {
+      "email": "E-poçta | SMS",
+      "username": "UlanyjyAdy + Parol",
+      "social": "Sosial"
+    },
+    "magiklink": {
+      "header": "Giriş baglaýyşy",
+      "descriptionEmail": "E-poçta salgyňyzy girmegiňizi haýyş edýäris we biz size Email arkaly giriş baglaýyşyny ibereris.",
+      "descriptionSMS": "Telefon belgiňizi girmegiňizi haýyş edýäris we sms arkaly size login linkini ibereris.",
+      "descriptionEmailSMS": "E-poçta salgyňyzy ýa-da telefon belgiňizi (10 san, diňe ABŞ) girmegiňizi haýyş edýäris. Biz size Email ýa-da SMS arkaly login linkini ibereris.",
+      "descriptionSMSUS": "Siziň telefon belgiňizi (10 san, diňe ABŞ) girmegiňizi haýyş edýäris. Sms arkaly size login linkini ibereris.",
+      "lbl-email": "Elektron salgysy",
+      "lbl-emailPhone": "E-poçta ýa-da Telefon belgisi",
+      "lbl-phone": "Telefon belgisi",
+      "agree": "razydyryn men, ",
+      "terms": "Şertler we şertler",
+      "lbl-submit": "Giriş baglaýyşyny Iber",
+      "email-sent-msg": "Login Magic Link ugradyldy. E-poçtaňyzy barlaň.",
+      "success-msg": "Login Magic Link ugradyldy. E-poçtaňyzy ýa-da SMS-iňizi barlaň.",
+      "sms-sent-msg": "Login Magic Link ugradyldy. Sms-iňizi barlaň."
+    },
+    "passwordLogin": {
+      "header": "Hasaba gir",
+      "lbl-email": "Elektron adresi",
+      "lbl-password": "Parol",
+      "lbl-rememberMe": "Meni ýatda sakla",
+      "lbl-signin": "Hasaba gir",
+      "forgotPassword": "Paroly unutdyňmy?",
+      "signup": "Hasaby ýokmy? Bellige alyn",
+      "lbl-login": "Giriň",
+      "ph-password": "Parol",
+      "ph-email": "E-poçta"
+    },
+    "social": {
+      "gitHub": "GitHub bilen Gir",
+      "google": "Google bilen giriň",
+      "facebook": "Facebook bilen giriň",
+      "linkedin": "Linkedin bilen giriň",
+      "twitter": "Twitter bilen giriň"
+    },
+    "register": {
+      "header": "Bellige alyn",
+      "login": "Giriň",
+      "lbl-signup": "Bellige alyn",
+      "lbl-password": "Parol",
+      "lbl-email": "Elektron adresi",
+      "passwordNotMatch": "Parollar Gabat Gelmesin",
+      "ph-password": "Parol",
+      "ph-confirmPassword": "Paroly Tassykla",
+      "ph-email": "E-poçta"
+    },
+    "resetPassword": {
+      "header": "Paroly Gaýd Etmek",
+      "description": "E-poçta adresiňiz üçin parolyňyzy girmegiňizi haýyş edýäris",
+      "lbl-submit": "Paroly Gaýd Etmek",
+      "lbl-password": "Parol",
+      "lbl-confirmPassword": "Paroly Tassykla",
+      "passwordNotMatch": "Parollar Gabat Gelmesin",
+      "nowLoginYourAccount": "Indi hasabyňyza girip bilersiňiz",
+      "yourPasswordResetSuccess": "Parolyňyz başurtgyn täzeden dikeldildi!"
+    },
+    "verifyEmail": {
+      "header": "E-poçtyny Barla",
+      "processing": "Işläp durka biraz garaşmagyňyzy haýyş edýäris..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Ýerler",
+      "loading": "Ýüklemek",
+      "col-name": "Ady",
+      "col-scene": "Sahna",
+      "col-maxuser": "Maks Ulanyjylar",
+      "lbl-search": "Ýery gözle",
+      "lbl-new": "Täze"
+    },
+    "newLocation": {
+      "title": "Paýtagt",
+      "success": "Gaýd edildi",
+      "failure": "Bir zat oňaýsyz ýagdaýa düşdi.",
+      "removeSuccess": "Ýery aýryldy",
+      "nameInUse": "At ulanmakda.",
+      "nameRequire": "At dakmak talap edilýär.",
+      "validNumber": "Diňe sanlara(0-9) ýol berilýär.",
+      "lbl-name": "Ady",
+      "lbl-maxuser": "Maks Ulanyjylar",
+      "lbl-scene": "Sahna",
+      "lbl-type": "Hili",
+      "lbl-ve": "Wideo Mümkin",
+      "lbl-gme": "Global Media Mümkinçilikli",
+      "lbl-update": "_Täzele",
+      "lbl-create": "Ýarad",
+      "tooltipCanNotBeDeleted": "Lobby öçürip bolmaýar",
+      "confirmation": "Çynyňy aýdýaňmy?",
+      "lbl-yes": "Hawa",
+      "lbl-no": "Ýok"
+    },
+    "share": {
+      "lbl-share": "Paýlaş",
+      "ph-phoneEmail": "E-poçta ýa-da telefon belgisi arkaly çagyryň",
+      "lbl-phoneEmail": "E-poçta ýa-da telefon belgisine iber",
+      "lbl-copy": "Nusgala",
+      "lbl-send-invite": "Iber Çakylyk",
+      "title": "Ýerleşiş URL-nyňyzy toparyňyz bilen paýlaşyň",
+      "linkCopied": "Klipe göçürilen baglaýyş."
+    },
+    "setting": {
+      "audio": "Ses",
+      "lbl-volume": "Mazmun",
+      "lbl-microphone": "Mikrofon",
+      "graphics": "Grafika",
+      "controls": "Kontroller",
+      "lbl-control-type": "Controller Type",
+      "lbl-control-scheme": "Kontrol",
+      "lbl-resolution": "Çözüliş",
+      "lbl-shadow": "Kösenýänler",
+      "lbl-pp": "Post Işlemek",
+      "lbl-pbr": "Doly PBR",
+      "lbl-automatic": "Otomatik",
+      "xrusersetting": "XR Ulanyjy Sazlamalary",
+      "rotation": "Aýlanma",
+      "rotation-smooth-speed": "Aýlawyň sazlaşykly tizligi",
+      "rotation-angle": "Aýlaw Burç",
+      "moving": "Süýşmek",
+      "user-avatar": "Awatar Düzüm",
+      "invert-rotation": "Dolanyşygy tersine öwür we taýaklary süýşür",
+      "show-avatar": "Awatar görkez"
+    },
+    "profile": {
+      "lbl-profile": "Profil",
+      "lbl-settings": "Sazlamalar",
+      "lbl-username": "Ullançy ady",
+      "update-msg": "Ulanyjy ady täzelendi",
+      "inviteCode": "Kod çagyr",
+      "youAreAn": "Sen bir",
+      "youAreA": "Siz bir",
+      "showUserId": "Ullançy kimligini görkez",
+      "hideUserId": "Ullançy Kimligini Gizle",
+      "showApiKey": "API açaryny görkez",
+      "hideApiKey": "Açary Gizle",
+      "apiKey": "API açary",
+      "logout": "Çyk",
+      "connectPhone": "Telefon belgiňizi birikdiriň",
+      "connectEmail": "E-poçtaňyzy birikdiriň",
+      "connectPhoneEmail": "E-poçtaňyzy ýa-da telefon belgiňizi birikdiriň",
+      "or": "Ýa-da",
+      "lbl-wallet": "Gapjygy bilen giriň",
+      "ph-email": "E-poçta",
+      "ph-phone": "Telefon Nomeri",
+      "ph-phoneEmail": "Telefon belgisi / E-mail",
+      "phoneEmailError": "Nätakyk telefon # ýa-da e-poçta adresi",
+      "phoneError": "Nämüçindir telefon #",
+      "emailError": "E-poçta adresi",
+      "loginWithReadyPlayerMe": "Taýýar Oýunçy Men bilen Giriş",
+      "connectSocial": "Sosial hasaplar bilen aragatnaşyk saklaň",
+      "createOne": "Eger-de hasabyň bolmasa, seniň üçin täzesi dörediler",
+      "connections": {
+        "title": "Baglaýyşlar",
+        "ipError": "Mätäji Gaýd Etmek Başarany Aýryp bolmady",
+        "disconnect": "kes",
+        "connect": "Bagla"
+      },
+      "profileDropdown": {
+        "avatar": "Ullançy Awatar Simwoly",
+        "profile": "Profil",
+        "adminConsole": "Admin Konsol",
+        "logout": "Logout"
+      },
+      "userIcon": {
+        "lbl-name": "Siziň adyňyz",
+        "lbl-update": "_Täzele",
+        "userId": "Ullançy kimligi",
+        "ph-uploadImg": "Harydyň Suratyny Ýükle",
+        "lbl-selectAcvatar": "Awatar",
+        "lbl-submit": "Tabşyr"
+      },
+      "userSettings": {
+        "volume": "Mazmun",
+        "microphone": "Mikrofon",
+        "resolution": "Çözüliş",
+        "high": "Ýokary",
+        "low": "Azlyk",
+        "spatialAudio": "Spatial Audio ulanyň",
+        "enterMuted": "Otaga gir"
+      }
+    },
+    "oauth": {
+      "authenticating": "Tassyklamak...",
+      "authFailed": "{{service}} edil mäni şowsuzlyga uçrady."
+    },
+    "magikLink": {
+      "wait": "Işläp durka biraz garaşmagyňyzy haýyş edýäris..."
+    },
+    "dashboard": {
+      "header": "Pano",
+      "dashboard": "Pano",
+      "users": "Ulanyjylar",
+      "feeds": "Besetler",
+      "instance": "Gaýd",
+      "locations": "Ýerler",
+      "invites": "Çakylyk",
+      "sessions": "Sessiýalar",
+      "groups": "Toparlar",
+      "parties": "Taraplar",
+      "chats": "Çatlar",
+      "content": "_Mazmunlar",
+      "projects": "Taslamalar",
+      "scenes": "Sahnalar",
+      "avatars": "Awatarlar",
+      "benchmarking": "Benchmarking",
+      "bots": "Botlar"
+    }
+  },
+  "oauth": {
+    "authenticating": "Tassyklamak...",
+    "authFailed": "{{service}} edil mäni şowsuzlyga uçrady."
+  },
+  "magikLink": {
+    "wait": "Işläp durka biraz garaşmagyňyzy haýyş edýäris..."
+  },
+  "dashboard": {
+    "header": "Pano",
+    "dashboard": "Pano",
+    "users": "Ulanyjylar",
+    "feeds": "Besetler",
+    "instance": "Gaýd",
+    "locations": "Ýerler",
+    "routes": "Ýollar",
+    "projects": "Taslamalar",
+    "invites": "Çakylyk",
+    "sessions": "Sessiýalar",
+    "groups": "Toparlar",
+    "parties": "Taraplar",
+    "chats": "Çatlar",
+    "content": "_Mazmunlar",
+    "scenes": "Sahnalar",
+    "avatars": "Awatarlar",
+    "benchmarking": "Benchmarking",
+    "bots": "Botlar",
+    "setting": "Sazlamalar"
+  },
+  "avatar": {
+    "title": "Awatar ýükle",
+    "lbl-browse": "Gözler",
+    "lbl-thumbnail": "Başam barmak",
+    "lbl-upload": "Ýükle",
+    "selectAvatar": "Awatar saýla...",
+    "selectThumbnail": "Başam barmak saýla...",
+    "rotate": "Döner",
+    "pan": "Pan",
+    "noBone": "Obejctde hiç bir süňk ýa-da deri ýok,",
+    "outOfBound": "Zat biri-biri bilen bagly däl.",
+    "emptyObj": "Zat boş.",
+    "maxTriangleError": "Onda {{allowedTriangles}} ýüzlerden uly zat bolýar.",
+    "selectValidFile": "Häzirki faýly saýla.",
+    "selectValidThumbnail": "Saýylan bir faýly gaýd ed.",
+    "fileOversized": "Awatar faýlulunyň ululyky {{minSize}} MB bilen {{maxSize}} MB arasynda bolmaly",
+    "confirmation": "Çynyňy aýdýaňmy?",
+    "canNotBeRemoved": "Aktiw Awatar aýrylyp bilinmez",
+    "remove": "Awatar ynsala",
+    "uploadFiles": "Faýllary ýükle",
+    "useUrlInstead": "Onuň ýerine url ulan",
+    "avatar": "Awatar",
+    "cancel": "Ýatyrmak",
+    "createAvatar": "Awatar Bejer",
+    "delete": "Sil",
+    "view": "Görniş",
+    "uploadAvatarInfo": "Awatar Maglumaty Täzele",
+    "name": "Ady",
+    "enterName": "Adyny girdir",
+    "avatarInformation": "Awatar Maglumatlary",
+    "description": "Wasp",
+    "key": "Açar",
+    "none": "Hiç kim",
+    "submit": "Tabşyr",
+    "edit": "Edit",
+    "avatarUrl": "Awatar url",
+    "upload-success-msg": "Awatar üstünlik bilen ýüklendi.",
+    "remove-success-msg": "Awatar üstünlik bilen ýüklendi.",
+    "warning-msg": "Awatar serişdesi boş, siz awatarlary siziň statiki faýl saklamagyňyza sinhronlaşdyňyzmy?"
+  },
+  "personMenu": {
+    "inviteToParty": "Oturylyşyga çagyrmak",
+    "addAsFriend": "Dost goş",
+    "mute": "Ewez et",
+    "block": "Blok"
+  },
+  "person": {
+    "you": "Sen",
+    "yourScreen": "Ekranyňyz",
+    "muteForEveryone": "Hemmeler üçin lal",
+    "unmuteForEveryone": "Hemmeler üçin sähelçe",
+    "muteMe": "Meni dymdyr",
+    "unmuteMe": "Meni äşgä et",
+    "muteThisPerson": "Bu adamy äşgä et",
+    "unmuteThisPerson": "Bu adamyň sönmäni aýt",
+    "openPictureInPicture": "Suratdaky suraty aç"
+  }
+}

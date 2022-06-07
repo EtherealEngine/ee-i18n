@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Rata uira no te haamauraa",
+      "resendEmail": "A hi'opo'a i ta outou rata uira no te hi'opo'a i ta outou tomoraa. Mai te mea e, aita outou i farii i te hoê rata uira, a pata i te {{here}} no te hapono faahou i te rata uira.",
+      "haveAnAccount": "E faatiaraa anei ta ' na?"
+    },
+    "forgotPassword": {
+      "header": "Forgot Password",
+      "enterEmail": "A tomo i roto i ta oe vahi rata uira i tapa'ohia e e hapono atu matou i te hoê hono ta'o huna.",
+      "lbl-email": "Imere",
+      "lbl-submit": "A hapono i te hono",
+      "emailSent": "Ua haponohia te rata uira no te ta'o huna. A hi'opo'a i ta outou rata uira."
+    },
+    "login": {
+      "email": "Rata uira | TE MAU NOTA",
+      "username": "UserName + Password",
+      "social": "Te mau mea sotiare"
+    },
+    "magiklink": {
+      "header": "Hono no te Tapa'oraa i'oa",
+      "descriptionEmail": "A papa'i i ta outou rata uira e e hapono atu matou i te hoê hono tapa'o na roto i te rata uira.",
+      "descriptionSMS": "A patapata i ta outou numera niuniu e e hapono atu matou i te hoê hono tapa'o na roto i te SMS.",
+      "descriptionEmailSMS": "A patapata mai i ta outou rata uira e aore râ te numera niuniu (10 toata, US noa) e e hapono atu matou i te hoê hono tapa'o na roto i te rata uira e aore râ te SMS.",
+      "descriptionSMSUS": "A papa'i i ta outou numera niuniu (10 toata, US ana'e) e e hapono atu matou i te hoê hono taamu na roto i te SMS.",
+      "lbl-email": "Rata uira",
+      "lbl-emailPhone": "Rata uira e aore râ te numera niuniu",
+      "lbl-phone": "Numera niuniu",
+      "agree": "Ua tu'ati to'u mana'o i to te ",
+      "terms": "Te mau parau e te mau titauraa",
+      "lbl-submit": "Hapono i te hono tapa'o",
+      "email-sent-msg": "Ua haponohia'tu te mau parau faati'a. A hi'opo'a i ta outou rata uira.",
+      "success-msg": "Ua haponohia'tu te mau parau faati'a. A hi'opo'a i ta outou rata uira e aore râ te SMS.",
+      "sms-sent-msg": "Ua haponohia'tu te mau parau faati'a. A hi'opoa na i ta outou mau SMS."
+    },
+    "passwordLogin": {
+      "header": "A tomo i roto",
+      "lbl-email": "Imere",
+      "lbl-password": "Ta'o huna",
+      "lbl-rememberMe": "A haamana'o mai ia'u",
+      "lbl-signin": "A tomo i roto",
+      "forgotPassword": "Forgot password?",
+      "signup": "Aita anei ta oe e aamu ? A tomo i roto",
+      "lbl-login": "A tomo i roto",
+      "ph-password": "Ta'o huna",
+      "ph-email": "Rata uira"
+    },
+    "social": {
+      "gitHub": "Tapa'oraa e te GitHub",
+      "google": "Tapa'o e o Google",
+      "facebook": "Tapa'oraa i ni'a ia Facebook",
+      "linkedin": "Tapa'oraa i'oa e te faatu'atiraa",
+      "twitter": "Tapa'oraa i ni'a ia Twitter"
+    },
+    "register": {
+      "header": "A tomo i roto",
+      "login": "A tomo i roto",
+      "lbl-signup": "A tomo i roto",
+      "lbl-password": "Ta'o huna",
+      "lbl-email": "Imere",
+      "passwordNotMatch": "Aita te mau parau huna e tu'ati ra",
+      "ph-password": "Ta'o huna",
+      "ph-confirmPassword": "Te haamauraa i te parau huna",
+      "ph-email": "Rata uira"
+    },
+    "resetPassword": {
+      "header": "Faaapî i te parau huna",
+      "description": "A papa'i i ta oe parau huna no ta oe vahi rata uira",
+      "lbl-submit": "Faaapî i te parau huna",
+      "lbl-password": "Ta'o huna",
+      "lbl-confirmPassword": "Te haamauraa i te parau huna",
+      "passwordNotMatch": "Aita te mau parau huna e tu'ati ra",
+      "nowLoginYourAccount": "E nehenehe ta oe e tomo i roto i ta oe afata moni i teie nei",
+      "yourPasswordResetSuccess": "Ua manuïa ta oe parau huna!"
+    },
+    "verifyEmail": {
+      "header": "Hi'opo'a i te rata uira",
+      "processing": "A tia'i na maa taime iti..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Te mau vahi",
+      "loading": "Te faautaraa i te tauihaa",
+      "col-name": "I'oa",
+      "col-scene": "Hoho'a",
+      "col-maxuser": "Te feia e farii nei, a faaite mai.",
+      "lbl-search": "Ma'imi i te vahi",
+      "lbl-new": "Apî"
+    },
+    "newLocation": {
+      "title": "Vahi",
+      "success": "Faaorahia ma te manuïa.",
+      "failure": "Ua tupu te hoê fifi.",
+      "removeSuccess": "Ua tatarahia te vahi ma te manuïa.",
+      "nameInUse": "Te faaohipahia ra te i'oa.",
+      "nameRequire": "Titauhia te i'oa.",
+      "validNumber": "Te mau numera ana'e (0-9) e faati'ahia.",
+      "lbl-name": "I'oa",
+      "lbl-maxuser": "Te feia e farii nei, a faaite mai.",
+      "lbl-scene": "Hoho'a",
+      "lbl-type": "Huru",
+      "lbl-ve": "Hoho'a video",
+      "lbl-gme": "Te mau rave'a haaparareraa na te ao atoa nei",
+      "lbl-update": "Faananearaa",
+      "lbl-create": "Hamani",
+      "tooltipCanNotBeDeleted": "Eita e nehenehe e tumâ i te mau hoho'a",
+      "confirmation": "Ua papû ia oe ?",
+      "lbl-yes": "E",
+      "lbl-no": "Aita"
+    },
+    "share": {
+      "lbl-share": "Faaite",
+      "ph-phoneEmail": "Titau-manihini-hia na roto i te rata uira e aore râ te numera niuniu",
+      "lbl-phoneEmail": "Hapono i te rata uira e aore râ te numera niuniu",
+      "lbl-copy": "Hoho'a",
+      "lbl-send-invite": "Hapono i te aniraa",
+      "title": "A faaite i to outou vahi nohoraa i ta outou pŭpŭ",
+      "linkCopied": "A taamu i te hoho'a i ni'a i te iri papa'i."
+    },
+    "setting": {
+      "audio": "Faaroo",
+      "lbl-volume": "Buka",
+      "lbl-microphone": "Microphone",
+      "graphics": "Te mau nota",
+      "controls": "Te mau nota",
+      "lbl-control-type": "Te huru o te taata hi'opo'a",
+      "lbl-control-scheme": "Hi'opo'araa i te tereraa o te",
+      "lbl-resolution": "Faaotiraa",
+      "lbl-shadow": "Te mau nota",
+      "lbl-pp": "Te faanahoraa i muri a'e i te haapiiraa",
+      "lbl-pbr": "TE MAU NOTA",
+      "lbl-automatic": "Te mau mana'o tauturu no te",
+      "xrusersetting": "Te mau faanahoraa no te faaohipa i te XR",
+      "rotation": "Te mau mana'o tauturu no te",
+      "rotation-smooth-speed": "Te tere - vitiviti - raa o te mau pereoo uira",
+      "rotation-angle": "Rotation Angle",
+      "moving": "Te haereraa i mua",
+      "user-avatar": "Te mau mana'o tauturu no te haapiiraa",
+      "invert-rotation": "Te tauiraa i te mau raau e te tauiraa i te mau raau",
+      "show-avatar": "A faaite i te mau mana'o"
+    },
+    "profile": {
+      "lbl-profile": "Profile",
+      "lbl-settings": "Te mau faanahoraa",
+      "lbl-username": "I'oa tomoraa",
+      "update-msg": "I'oa tomoraa i faaapîhia",
+      "inviteCode": "Titau i te numera",
+      "youAreAn": "E taata outou",
+      "youAreA": "E taata outou",
+      "showUserId": "Faaite i te i'oa o te taata faaohipa",
+      "hideUserId": "Huna i te ID o te taata faaohipa",
+      "showApiKey": "Faaite i te mana'o tauturu",
+      "hideApiKey": "Huna i te api parau",
+      "apiKey": "API PO'IPO'I",
+      "logout": "A haere i rapae",
+      "connectPhone": "A tuati i ta outou numera niuniu",
+      "connectEmail": "A tuati i ta outou rata uira",
+      "connectPhoneEmail": "Tuati i ta outou rata uira e aore râ ta outou numera niuniu",
+      "or": "E aore râ,",
+      "lbl-wallet": "Te tapa'o e te Wallet",
+      "ph-email": "Rata uira",
+      "ph-phone": "Numera niuniu",
+      "ph-phoneEmail": "Numera niuniu / Rata uira",
+      "phoneEmailError": "Aita i tano te niuniu # e aore râ te vahi rata uira",
+      "phoneError": "Niuniu mana'o-ore-hia #",
+      "emailError": "Te mau rata uira mana'o-ore-hia",
+      "loginWithReadyPlayerMe": "Tapa'o i to'u i'oa i ni'a ia'u",
+      "connectSocial": "Tu'ati i te mau aamu sotiare",
+      "createOne": "Mai te mea e, aita ta outou e aamu, e hamanihia ïa te hoê mea apî no outou",
+      "connections": {
+        "title": "Te mau tu'atiraa",
+        "ipError": "Eita e nehenehe e tatara i te mau mea e ere i te mea faufaa roa",
+        "disconnect": "Te mau mana'o tauturu no te",
+        "connect": "Tu'ati"
+      },
+      "profileDropdown": {
+        "avatar": "Hoho'a no te taata faaohipa",
+        "profile": "Profile",
+        "adminConsole": "Admin Console",
+        "logout": "Logout"
+      },
+      "userIcon": {
+        "lbl-name": "To oe i'oa",
+        "lbl-update": "Faananearaa",
+        "userId": "Te mau nota",
+        "ph-uploadImg": "A faauta uira mai i te hoho'a o te tao'",
+        "lbl-selectAcvatar": "Ma'iti i te reo",
+        "lbl-submit": "Hapono"
+      },
+      "userSettings": {
+        "volume": "Buka",
+        "microphone": "Microphone",
+        "resolution": "Faaotiraa",
+        "high": "Teitei",
+        "low": "Haehaa",
+        "spatialAudio": "Faaohipa i te materia faaroo mo'a",
+        "enterMuted": "Tomo i roto i te piha tei faaîhia"
+      }
+    },
+    "oauth": {
+      "authenticating": "Te haapapuraa...",
+      "authFailed": "Aita {{service}} i manuïa."
+    },
+    "magikLink": {
+      "wait": "A tia'i na maa taime iti..."
+    },
+    "dashboard": {
+      "header": "Dashboard",
+      "dashboard": "Dashboard",
+      "users": "Te mau taata e faaohipa",
+      "feeds": "Te mau maa",
+      "instance": "Hi'oraa",
+      "locations": "Te mau vahi",
+      "invites": "Titau-manihini-raa",
+      "sessions": "Te mau tuhaa haapiiraa",
+      "groups": "Te mau pŭpŭ",
+      "parties": "Te mau nota",
+      "chats": "Chats",
+      "content": "Tabula ohipa",
+      "projects": "Te mau opuaraa",
+      "scenes": "Te mau hoho'a",
+      "avatars": "Te feia e farii nei, a faaite mai.",
+      "benchmarking": "Te tapa'oraa i te i'oa",
+      "bots": "Te mau nota"
+    }
+  },
+  "oauth": {
+    "authenticating": "Te haapapuraa...",
+    "authFailed": "Aita {{service}} i manuïa."
+  },
+  "magikLink": {
+    "wait": "A tia'i na maa taime iti..."
+  },
+  "dashboard": {
+    "header": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Te mau taata e faaohipa",
+    "feeds": "Te mau maa",
+    "instance": "Hi'oraa",
+    "locations": "Te mau vahi",
+    "routes": "Te mau mana'o tauturu no te",
+    "projects": "Te mau opuaraa",
+    "invites": "Titau-manihini-raa",
+    "sessions": "Te mau tuhaa haapiiraa",
+    "groups": "Te mau pŭpŭ",
+    "parties": "Te mau nota",
+    "chats": "Chats",
+    "content": "Tabula ohipa",
+    "scenes": "Te mau hoho'a",
+    "avatars": "Te feia e farii nei, a faaite mai.",
+    "benchmarking": "Te tapa'oraa i te i'oa",
+    "bots": "Te mau nota",
+    "setting": "Te mau faanahoraa"
+  },
+  "avatar": {
+    "title": "A faauta uira mai i te ava'e",
+    "lbl-browse": "Te mau mana'o tauturu no te",
+    "lbl-thumbnail": "Thumbnail",
+    "lbl-upload": "Upload",
+    "selectAvatar": "Ma'iti i te reo...",
+    "selectThumbnail": "A maiti i te Thumbnail...",
+    "rotate": "Faaohu",
+    "pan": "Pan",
+    "noBone": "Aita e ivi aore ra e iri to roto i te Obejct",
+    "outOfBound": "Aita e oti'a to te mau mea atoa.",
+    "emptyObj": "Aita e taata i roto.",
+    "maxTriangleError": "Mea rahi a'e te tao'a i {{allowedTriangles}} hoho'a mata.",
+    "selectValidFile": "A ma'iti i te putu'ite 3d avatar.",
+    "selectValidThumbnail": "Ua ma'itihia te putu'ite Thumbnail.",
+    "fileOversized": "E mea ti'a ia vai te faito o te putu'ite i rotopu i te {{minSize}} MB e {{maxSize}} MB",
+    "confirmation": "Ua papû ia oe ?",
+    "canNotBeRemoved": "Eita e nehenehe e iriti i te mau hoho'a",
+    "remove": "Tatara i te ava'e",
+    "uploadFiles": "Faauta uira mai i te mau putu'ite",
+    "useUrlInstead": "Faaohipa i te url",
+    "avatar": "Avatar",
+    "cancel": "Faaoreraa hapa",
+    "createAvatar": "Hamani i te hoê hoho'a",
+    "delete": "Tumâ",
+    "view": "Hi'o",
+    "uploadAvatarInfo": "Faananea i te haamaramaramaraa",
+    "name": "I'oa",
+    "enterName": "Tuu i te i'oa",
+    "avatarInformation": "Haamaramaramaraa no te haponoraa",
+    "description": "Faataaraa",
+    "key": "Taviri",
+    "none": "Aita hoê a'e",
+    "submit": "Hapono",
+    "edit": "Faanahonahoraa",
+    "avatarUrl": "Avatar url",
+    "upload-success-msg": "Ua î roa te mau pereoo uira i te mau tau atoa.",
+    "remove-success-msg": "Ua î roa te mau pereoo uira i te mau tau atoa.",
+    "warning-msg": "Aita e taata i roto i te mau ravea no te ava'e, ua faatuati anei outou i te mau ava'e i nia i ta outou haapueraa parau?"
+  },
+  "personMenu": {
+    "inviteToParty": "Titau-manihini-raa i te arearearaa",
+    "addAsFriend": "A amui mai ei hoa",
+    "mute": "Te mau mana'o tauturu no te",
+    "block": "Api no te a'oraa"
+  },
+  "person": {
+    "you": "Outou",
+    "yourScreen": "Ta outou paruai",
+    "muteForEveryone": "E mea faufaa ore no te mau taata atoa",
+    "unmuteForEveryone": "Te aroha ore no te mau taata atoa",
+    "muteMe": "A faaha'ehaa ia'u",
+    "unmuteMe": "A faaore mai i ta'u hape",
+    "muteThisPerson": "A faaino i teie taata",
+    "unmuteThisPerson": "Faaore i te hape a teie taata",
+    "openPictureInPicture": "A hohora i te hoho'a"
+  }
+}

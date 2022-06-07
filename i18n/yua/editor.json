@@ -1,0 +1,718 @@
+{
+  "loading": "Kuuch úuchik",
+  "loadingMsg": "Beetiko'on tsol...",
+  "loadingError": "Ba'alo' a le kuuch úuchik",
+  "loadingErrorMsg": "U ts'o'ok producido jump'éel ba'alo' a le kuuch úuchik.",
+  "selectSceneMsg": "Seleccione beyo' utia'al comenzar báaxal yéetel le kisbuuts'o'",
+  "error": "Ba'alo'",
+  "errorMsg": "Yanchaj juntúul ba'alo' desconocido.",
+  "generateScreenshot": "Generación captura pantalla úuchik",
+  "generateScreenshotMsg": "Generando captura pantalla úuchik...",
+  "newScene": "Crear beyo'",
+  "saving": "Úuchik u guardado",
+  "savingMsg": "T'áal k'u' u tsol...",
+  "savingError": "Ba'alo' le ooks úuchik",
+  "savingErrorMsg": "U ts'o'ok producido jump'éel ba'alo' ti' le ooks úuchik.",
+  "savingSceneErrorMsg": "Le beyo' ma' u carga belil. Intenta recargar le beyo'.",
+  "duplicating": "Duplicación úuchik",
+  "duplicatingMsg": "Duplicando tsol...",
+  "exporting": "Jo'osa'al bisbil ba'alche'obo' u úuchik",
+  "exportingMsg": "Exportando tsol...",
+  "exportingError": "Ba'alo' ti' le exportar úuchik",
+  "exportingErrorMsg": "U ts'o'ok producido jump'éel ba'alo' ti' le exportar úuchik.",
+  "importLegacy": "Importar way heredado",
+  "importLegacyMsg": "Advertencia! Le ba'ala' sobrescribirá a existente beyo'! Táan wáaj a seguro u ka ts'íiboltik táanil.",
+  "publishingError": "Ba'alo' ti' le publicar úuchik",
+  "publishingErrorMsg": "Yanchaj juntúul ba'alo' desconocido.",
+  "publishingScene": "Beyo' editorial",
+  "publishingSceneMsg": "Beyo' editorial...",
+  "uploadingThumbnailMsg": "Beetiko'on miniaturas...",
+  "uploadingSceneMsg": "Na'akal beyo': {{percentage}}chúumuk",
+  "envMapError": "Ba'alo' a le kuuch máak ye'esajil u ch'óoy ye'esajil u {{files}}",
+  "lbl-return": "Devolución",
+  "menubar": {
+    "newScene": "Túumben beyo'",
+    "saveScene": "Ooks beyo'",
+    "saveAs": "Ooks bey",
+    "importAsset": "Importar activo",
+    "exportGLB": "Exportar bey binario glTF (.glb)...",
+    "importScene": "Importar beyo'",
+    "exportScene": "Beyo' jo'osa'al bisbil ba'alche'obo'",
+    "quit": "Renunciar"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Bin yano'ob archivo ma' compatible utia'al u archivo: \"{{name}}\". Le archivo k'a'ana'an u beel jump'éel bix u wíimbala', vídeo wa glb.",
+    "addObject": "addObject: Ma'ili' ti' u le objeto ma' u encontrara",
+    "removeObject": "removeObject: nodo ma' Kaxa'antbil. Le ba'ala' k'a'ana'an u eliminación jump'éel nodo ts'o'ok ma' u ti' le beyo'.",
+    "noParent": "{{node}} \"{{name}}\" mina'an u yúumo'ob. Reparent chéen meyaj ti' meentiko'ob lu'umo'oba' bejla'e' ti' le beyo'.",
+    "undefinedParent": "editor.reparent: newParent ma' táan definido",
+    "notAuthenticated": "Ma' autenticado",
+    "fetchingProjectError": "Ba'alo' u u kaxtik múuch'meyaj: {{error}}",
+    "fetchingRouteError": "Ba'alo' u u kaxant rutas: {{error}}",
+    "unknownError": "Ba'alo' desconocido",
+    "resolveURL": "Ba'alo' ti' le resolver url \"{{url}}\":",
+    "mediaSearchAborted": "Leti'ob medios anulada",
+    "methodNotImplemented": "Método ma' implementado.",
+    "saveProjectAborted": "Ooks beyo' anulada",
+    "unsavedChanges": "Cambios ma' guardados",
+    "unsavedChangesMsg": "Le beyo' u sido modificada. Much guarde u cambios.",
+    "projectCreationFail": "Ba'alo' ti' le sukbenilo'ob úuchik. {{reason}}",
+    "projectDeletionFail": "Ba'alo' ti' le eliminación úuchik. {{reason}}",
+    "savingProjectFail": "Ba'alo' le ooks úuchik. {{reason}}",
+    "sceneTooLarge": "Le beyo' nojoch jach ({{size}} MB) utia'al publicar le. Buka'aj máximo jach u {{maxSize}} MB.",
+    "sceneCreationFail": "Ba'alo' ti' le sukbenilo'ob escenas. {{reason}}",
+    "uploadAborted": "Kuuch anulada",
+    "uploadFailed": "Ba'alo' a le kuuch {{reason}}",
+    "assetDeletionFail": "Ba'alo' ti' le eliminación activos. {{reason}}",
+    "projectAssetDeletionFail": "Ba'alo' ti' le eliminación activos úuchik. {{reason}}",
+    "networkError": "Ba'alo' páawo'ob: {{status}}. {{text}}",
+    "unknownStatus": "Noj desconocido",
+    "CORS": "Posiblemente jump'éel ba'alo' CORS",
+    "urlFetchError": "Ba'alo' ti' le kéen p'áatak \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Viewport",
+    "command": {
+      "movecamera": "Péeksik cámara",
+      "flyFast": "Xik'nal asab séeb",
+      "orbit": "Órbita leti' Seleccionar",
+      "pan": "Cacerola",
+      "fly": "Xik'nal",
+      "focus": "Chúumukil óolal",
+      "rotateLeft": "Girar le izquierda",
+      "rotateRight": "Girar le derecha",
+      "cancelPlacement": "Cancelar colocación",
+      "placeDuplicate": "Colocar duplicado",
+      "cancelGrab": "Cancelar grab",
+      "grab": "Mach",
+      "deselectAll": "Anule le selección tuláakal"
+    },
+    "state": {
+      "header": "Estadísticas",
+      "memory": "Memoria",
+      "geometries": "Geometrías",
+      "textures": "Texturas",
+      "render": "Beetej",
+      "FPS": "FPS",
+      "frameTime": "K'iinil marco",
+      "calls": "Llamadas",
+      "triangles": "Triángulos",
+      "points": "Ti'its",
+      "lines": "Lineas"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Publicar",
+    "lbl-published": "Publicado",
+    "command": {
+      "translate": "Suut t'aan",
+      "rotate": "Rotar",
+      "scale": "Escama",
+      "toggleSpace": "Alternar kúuchil transformación",
+      "togglePivot": "Alternar pivote transformación",
+      "toggleSnapMode": "Alternar le modo ajuste",
+      "toggleGrid": "Alternar visibilidad cuadrícula",
+      "increaseGridSize": "Ya'abtal le Buka'aj le cuadrícula",
+      "descreaseGridSize": "Disminuir le Buka'aj le cuadrícula",
+      "stopPreview": "Je'elel le sáasil previa ti' le beyo'",
+      "playPreview": "Sáasil u previa le beyo'"
+    }
+  },
+  "properties": {
+    "title": "Propiedades",
+    "lbl-visible": "Visible",
+    "lbl-preventBake": "Je'e bix u páajtale' le horneado",
+    "lbl-persist": "Persistir",
+    "multipleNodeSelected": "Ya'ab k'oja'ano'ob nodos ti' jejeláas tipos seleccionados",
+    "noNodeSelected": "Mina'an nodo seleccionado",
+    "ambientLight": {
+      "name": "Sáasil ambiental",
+      "description": "Junp'éel sáasil u boon tuláakal le meentiko'ob a beyo'.",
+      "lbl-intensity": "Intensidad",
+      "lbl-color": "Boonil"
+    },
+    "envmap": {
+      "name": "Ye'esajil u le entorno ye'esajil u ye'",
+      "description": "propiedades le ye'esajil u le entorno ye'esajil u ye'esajil u le entorno ye"
+    },
+    "asset": {
+      "name": "Activo",
+      "description": "Juntúul agrupación componentes beyo' ku páajtal kuuch yéetel descargar dinámicamente",
+      "lbl-options": "Uláak' ba'alo'ob",
+      "lbl-assetPath": "Bejil le activos",
+      "lbl-assetName": "K'aaba' jo'osa'al bisbil ba'alche'",
+      "lbl-exportOptions": "Opciones u jo'osa'al bisbil ba'alche'obo'",
+      "lbl-export": "Exportar activos",
+      "lbl-load": "Kuuch ti' beyo'",
+      "lbl-unload": "Descargar",
+      "lbl-reload": "Recargar"
+    },
+    "audio": {
+      "name": "Audio",
+      "description": "Carga audio dinámicamente.",
+      "lbl-audiourl": "Audio Url",
+      "lbl-controls": "mandos",
+      "info-controls": "Alterna u visibilidad le controles multimedia.",
+      "lbl-autoplay": "Kuxtal kajnáalo'ob yo'osal",
+      "info-autoplay": "Wa jaaj, le medios ku reproducirán ka entren tumen yáax ka'atéen ti' beyo'.",
+      "lbl-synchronize": "Sincronizar",
+      "info-synchronize": "Wa k'eex, le medios ku sincronizarán ti' tuláakal le clientes conectados.",
+      "lbl-loop": "Bucle",
+      "info-loop": "Wa jaaj, le medios ku repetirán indefinidamente.",
+      "lbl-audioType": "Bin yano'ob audio",
+      "lbl-distanceModel": "Bix distancia",
+      "info-distanceModel": "Le algorithim utilizado utia'al u calcular le rolloff audio.",
+      "lbl-rolloffFactor": "Rolloff Factor",
+      "info-rolloffFactor": "Ku 30 naaj u describe le xookilo'ob yéetel le ka u reduce u volumen a medida ti' le fuente aleja ti' le oyente. 0 u 1",
+      "info-rfInfinity": "Ku 30 naaj u describe le xookilo'ob yéetel le ka u reduce u volumen a medida ti' le fuente aleja ti' le oyente. 0 tak le infinito",
+      "lbl-refDistance": "Nachil ti' k'a'ana'an",
+      "info-refDistance": "Ku 30 naaj u leti' le nachil ti' k'a'ana'an Cancún utia'al u xu'ulsiko'ob le volumen a medida ti' le fuente audio aleja ti' le oyente.",
+      "lbl-maxDistance": "Distancia wóolis",
+      "info-maxDistance": "Ku 30 naaj u leti' le distancia wóolis ichil le fuente audio yéetel le oyente, ka' le ba'ax le volumen ma' u reduce asab.",
+      "lbl-coneInnerAngle": "Ángulo interior ti' le cono",
+      "info-coneInnerAngle": "Ku 30 naaj u describe le ángulo ti' grados, u jump'éel cono ichil le ma' wáaj reducción volumen.",
+      "lbl-coneOuterAngle": "Ángulo exterior ti' le cono",
+      "info-coneOuterAngle": "Ku 30 naaj u describe le ángulo ti' grados, u jump'éel cono paach le le volumen ku reducirá tumen ku 30 constante, definido tumen le atributo coneOuterGain.",
+      "lbl-coreOuterGain": "Li'isik tojol exterior ti' le cono",
+      "info-coreOuterGain": "Ku 30 naaj u describe le cantidad reducción volumen paach le cono definido tumen le atributo coneOuterAngle. U predeterminado ku jach 0, ba'ax u k'áat u ya'al ba'ax ma' u páajtal wu'uyik Ba'axe' juum.",
+      "lbl-volume": "Volumen",
+      "lbl-play": "Báaxal",
+      "lbl-pause": "Pausa",
+      "error-url": "Ba'alo' a le kuuch tak url"
+    },
+    "boxCollider": {
+      "description": "Jump'éel jiri'ich invisible kin le meentiko'ob rebotarán wa descansarán yóok'ol.\nMa' colisionadores, le meentiko'ob caerán ti' le pisos yéetel atravesarán le pak'.",
+      "lbl-isTrigger": "Detonante"
+    },
+    "camera": {
+      "name": "Cámara",
+      "description": "Configuración ti' le cámara.",
+      "lbl-camera-raycast": "Cámara Raycasting",
+      "lbl-camera-raycast-toggle": "Habilitado",
+      "lbl-camera-raycast-frequency": "Frecuencia",
+      "lbl-camera-raycast-count": "Recuento rayos",
+      "lbl-camera-raycast-length": "Longitud le rayo"
+    },
+    "directionalLight": {
+      "name": "Sáasil direccional",
+      "description": "Junp'éel sáasil u boon tuláakal le beyo', chéen ba'ale' u emite a lo largo de jump'éel tin juunal dirección.",
+      "lbl-color": "Boonil",
+      "lbl-intensity": "Intensidad",
+      "lbl-cameraFar": "Cámara náach",
+      "lbl-cameraNear": "Cámara naats'il",
+      "lbl-cameraTop": "Tu'ux superior ti' le cámara",
+      "lbl-cameraBottom": "Tu'ux inferior ti' le cámara",
+      "lbl-cameraLeft": "Cámara izquierda",
+      "lbl-cameraRight": "Cámara k'abil beya'",
+      "lbl-useInCSM": "Búukinta'al ti' CSM",
+      "lbl-castShadow": "Proyectar oochel",
+      "lbl-disableForCSM": "Deshabilitado tuméen le ye'esajil u sombras ti' cascada ye'esajil u ye'esajil u meyaj habilitado.",
+      "lbl-shadowmapResolution": "Resolución ye'esajil u sombras ye'esajil u ye'esajil u sombras ye'esajil",
+      "lbl-shadowBias": "Sesgo oochel",
+      "lbl-shadowRadius": "Radio oochel",
+      "lbl-showCameraHelper": "We'esik yáantajil cámara"
+    },
+    "groundPlane": {
+      "name": "Plano lu'um",
+      "description": "Jump'éel plano lu'um táats' che' ku Jaay ti' le distancia.",
+      "lbl-color": "Boonil",
+      "lbl-receiveShadow": "K'amik oochel",
+      "lbl-generateNavmesh": "Generar Navmesh"
+    },
+    "link": {
+      "description": "Enlace ti' jump'éel naja' ku wa jump'éel ts'ono'oto' web.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "Mapa geoespacial 3D u, je'ebix, jump'éel kaajil."
+    },
+    "model": {
+      "description": "Jump'éel bix u 3D ti' u beyo', cargado tak jump'éel URL wa archivo GLTF.",
+      "lbl-usingGPUInstancingFlag": "Biilankiltej instancias GPU",
+      "lbl-modelurl": "URL le bix",
+      "lbl-envmapUrl": "URL le ye'esajil u le entorno ye'esajil u ye'esajil u le entorno ye'es",
+      "lbl-textureOverride": "Anular textura",
+      "lbl-materialOverride": "Anulaciones xooko'obo'",
+      "error-url": "Ba'alo' a le kuuch tak url",
+      "lbl-loopAnimation": "Animación bucle",
+      "lbl-isAvatar": "Jach Avatar",
+      "lbl-isGPUInstancing": "Táan u usando le instancia GPU",
+      "lbl-isDynamic": "Ku ts'o'okole' ku",
+      "lbl-castShadow": "Proyectar oochel",
+      "lbl-receiveShadow": "K'amik oochel",
+      "lbl-interactable": "Interactivo",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "K'aaba'",
+      "lbl-url": "URL le bix",
+      "lbl-buy": "Maan URL",
+      "lbl-learnMore": "A wojeltik URL",
+      "lbl-htmlContent": "Contenido Html",
+      "lbl-interactionText": "Analte'o' interacción",
+      "lbl-interactionType": "Bin yano'ob interacción"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Xooko'obo'",
+      "error-materialID": "Ba'alo' yaan u kaxtik material",
+      "placeholder-materialID": "Seleccionar material",
+      "lbl-patternTarget": "Coincidencia patrones",
+      "lbl-pattern": "Patrón",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Bin yano'ob interacción",
+      "text": "Analte'o' interacción",
+      "distance": "Nachil ti' interacción Cancún",
+      "theme": "Chun tuukulo' interacción",
+      "name": "K'aaba' interacción",
+      "description": "Tsoolil le interacción",
+      "images": "Máak interacción",
+      "videos": "Videos interacción",
+      "urls": "URL interacción",
+      "models": "Modelos interacción"
+    },
+    "group": {
+      "name": "Múuch'",
+      "description": "Junp'éel múuch' ya'ab meentiko'ob tu u páajtal péeksik wa duplicar múuch'.\nArrastre ka suelte meentiko'ob ti' le múuch' u meyajil."
+    },
+    "hemisphere": {
+      "name": "Sáasil le hemisferio",
+      "description": "Junp'éel sáasil u boon le beyo' Jun tak ka'anal.",
+      "lbl-skyColor": "U boonil le ka'ano'",
+      "lbl-groundColor": "U boonil le lu'umo'",
+      "lbl-intensity": "Intensidad"
+    },
+    "image": {
+      "name": "Wíimbala'",
+      "description": "Carga dinámicamente jump'éel wíimbala'.",
+      "lbl-imgURL": "URL le wíimbala'",
+      "lbl-transparency": "Modo transparencia",
+      "lbl-alphaCutoff": "Límite alfa",
+      "lbl-projection": "Proyección",
+      "lbl-side": "Tséel",
+      "info-controls": "Alterna u visibilidad le controles multimedia.",
+      "info-transparency": "Bix aplicar le transparencia:",
+      "info-opaque": ". opaco' = ma' transparencia",
+      "info-blend": ". blend' = utilizar u beel alfa máak",
+      "info-mask": ". máscara' = meyaj ku 30 corte especificado utia'al u transparencia t'aba'an leti' apagado (asab xoknáalo'obo').",
+      "info-alphaCutoff": "Le píxeles yéetel uts' k'ajóolilo'obo' alfa inferiores ti' este serán transparentes",
+      "error-url": "URL ma' válida"
+    },
+    "name": {
+      "lbl-name": "K'aaba'"
+    },
+    "partileEmitter": {
+      "description": "Emisor u partículas ch'a'iko'ob partículas.",
+      "lbl-particleCount": "Recuento partículas",
+      "lbl-image": "Wíimbala'",
+      "lbl-ageRandomness": "Aleatoriedad le ts'o'oka'an",
+      "lbl-lifetime": "Kuxtal",
+      "lbl-lifetimeRandomness": "Aleatoriedad u tumen kuxtal",
+      "lbl-sizeCurve": "Curva Buka'aj",
+      "lbl-startPSize": "Máaxo'ob Buka'aj partícula",
+      "lbl-endPSize": "Buka'aj partícula final",
+      "lbl-sizeRandomness": "Aleatoriedad le Buka'aj",
+      "lbl-colorCurve": "Curva u boonil",
+      "lbl-startColor": "U boonil u Chúunul",
+      "lbl-startOpacity": "Máaxo'ob Opacidad",
+      "lbl-middleColor": "Boonil chúumuk",
+      "lbl-middleOpacity": "Opacidad chúumuk",
+      "lbl-endColor": "Boonil final",
+      "lbl-endOpacity": "Ts'o'okol le opacidad",
+      "lbl-velocityCurve": "Curva velocidad",
+      "lbl-startVelocity": "Velocidad Chúunul",
+      "lbl-endVelocity": "Velocidad final",
+      "lbl-angularVelocity": "Velocidad angular",
+      "info-ageRandomness": "Le cantidad variación ichil le súutuko' ku u generan le partículas.",
+      "info-lifetime": "Le ts'o'oka'an wóolis jump'éel partícula Ma'ili' ti' u reaparezca.",
+      "info-lifetimeRandomness": "Le cantidad variación ichil le vidas le partículas.",
+      "info-sizeRandomness": "Le cantidad variación ichil le tamaños iniciales ti' partículas.",
+      "error-url": "Ba'alo' a le kuuch tak url"
+    },
+    "clouds": {
+      "name": "Múuyal",
+      "description": "Volumen u múuyal ku ti' Sprites.",
+      "lbl-image": "Wíimbala' u Sprite",
+      "lbl-wroldScale": "Escala mundial",
+      "lbl-dimensions": "Dimensiones",
+      "lbl-noiseZoom": "Zoom juum",
+      "lbl-noiseOffset": "Compensación juum",
+      "lbl-spriteScale": "Escala Sprite",
+      "lbl-fogColor": "Boonil niebla",
+      "lbl-fogRange": "Rango niebla",
+      "error-url": "Ba'alo' a le kuuch tak url"
+    },
+    "ocean": {
+      "name": "Océano",
+      "description": "Superficie le océano yéetel olas yéetel espuma",
+      "lbl-normalMap": "Mapa Normal",
+      "lbl-distortionMap": "Ye'esajil u distorsión ye'esajil u ye'esajil u ye'",
+      "lbl-envMap": "Ye'esajil u le entorno ye'esajil u ye'",
+      "lbl-color": "Boonil",
+      "lbl-shallowWaterColor": "U boonil ja' Jach taam",
+      "lbl-shallowToDeepDistance": "Nachil ti' poca taamil Cancún u taamil",
+      "lbl-opacityFadeDistance": "Nachil ti' desvanecimiento opacidad Cancún",
+      "lbl-opacityRange": "Rango opacidad",
+      "lbl-shininess": "Lets'bal",
+      "lbl-reflectivity": "Reflectividad",
+      "lbl-foamColor": "U boonil le espuma",
+      "lbl-foamSpeed": "Velocidad espuma",
+      "lbl-foamTiling": "Revestimiento espuma",
+      "lbl-bigWaveTiling": "Mosaico olas nukuch",
+      "lbl-bigWaveSpeed": "Velocidad le nojoch ola",
+      "lbl-bigWaveHeight": "Nojoch ka'anilo' ola",
+      "lbl-waveSpeed": "Velocidad onda",
+      "lbl-waveScale": "Escala onda",
+      "lbl-waveTiling": "Mosaico olas",
+      "lbl-waveDistortionSpeed": "Velocidad distorsión onda",
+      "lbl-waveDistortionTiling": "Mosaico distorsión onda",
+      "error-url": "Ba'alo' a le kuuch tak url"
+    },
+    "water": {
+      "name": "Ja'",
+      "description": "Chan superficie ja'"
+    },
+    "interior": {
+      "name": "Interior",
+      "description": "Jump'éel superficie yéetel textura ch'óoy mapeada utia'al u emular ambientes interiores",
+      "lbl-cubeMap": "Textura le ye'esajil u le ch'óoy ye'esajil u ye'esajil u ye'es",
+      "lbl-tiling": "Cantidad mosaico",
+      "lbl-size": "Buka'aj le superficie",
+      "error-url": "Ba'alo' a le kuuch tak url"
+    },
+    "pointLight": {
+      "description": "Junp'éel sáasil emite ti' tuláakal le direcciones tak jump'éel chéen ch'aaj.",
+      "lbl-color": "Boonil",
+      "lbl-intensity": "Intensidad",
+      "lbl-range": "Gama",
+      "lbl-decay": "Decaer"
+    },
+    "scene": {
+      "name": "Beyo'",
+      "description": "Objeto moots le beyo'.",
+      "lbl-bgcolor": "U boonil yiit",
+      "lbl-fogType": "Bin yano'ob niebla",
+      "lbl-fogColor": "Boonil niebla",
+      "lbl-forNearDistance": "Niebla naats' le distancia",
+      "lbl-fogFarDistance": "Niebla nojoch distancia",
+      "lbl-fogDensity": "Densidad niebla",
+      "lbl-audioSettings": "Biilankiltej audio posicional",
+      "lbl-avatarDistanceModel": "Bix nachil ti' Cancún avatar",
+      "lbl-avatarRolloffFactor": "Avatar Rolloff Factor",
+      "lbl-avatarRefDistance": "Nachil ti' k'a'ana'an le avatar Cancún",
+      "lbl-avatarMaxDistance": "Distancia wóolis le avatar",
+      "lbl-mediaVolume": "Volumen medios",
+      "lbl-mediaDistanceModel": "Bix nachil ti' medios Cancún",
+      "lbl-mediaRolloffFactor": "Factor rolloff medios",
+      "lbl-mediaRefDistance": "Nachil ti' k'a'ana'an medios Cancún",
+      "lbl-mediaMaxDistance": "Distancia wóolis le medios",
+      "lbl-mediaConeInnerAngle": "Ángulo meyajo'ob ti' le cono medios",
+      "lbl-mediaConeOuterAngle": "Ángulo exterior ti' le cono medios",
+      "lbl-mediaConeOuterGain": "Li'isik tojol externa ti' le cono medios",
+      "info-avatarDistanceModel": "Le algorithim utilizado utia'al u calcular le rolloff audio.",
+      "info-avatarRolloffFactor": "Ku 30 naaj u describe le xookilo'ob yéetel le ka u reduce u volumen a medida ti' le fuente aleja ti' le oyente. 0 u 1",
+      "info-avatarRolloffFactorInifinity": "Ku 30 naaj u describe le xookilo'ob yéetel le ka u reduce u volumen a medida ti' le fuente aleja ti' le oyente. 0 tak le infinito",
+      "info-avatarRefDistance": "Ku 30 naaj u leti' le nachil ti' k'a'ana'an Cancún utia'al u xu'ulsiko'ob le volumen a medida ti' le fuente audio aleja ti' le oyente.",
+      "info-avatarMaxDistance": "Ku 30 naaj u leti' le distancia wóolis ichil le fuente audio yéetel le oyente, ka' le ba'ax le volumen ma' u reduce asab.",
+      "info-mediaDistanceModel": "Le algorithim utilizado utia'al u calcular le rolloff audio.",
+      "info-mediaRolloffFactor": "Ku 30 naaj u describe le xookilo'ob yéetel le ka u reduce u volumen a medida ti' le fuente aleja ti' le oyente. 0 u 1",
+      "info-mediaRolloffFactorInfinity": "Ku 30 naaj u describe le xookilo'ob yéetel le ka u reduce u volumen a medida ti' le fuente aleja ti' le oyente. 0 tak le infinito",
+      "info-mediaRefDistance": "Ku 30 naaj u leti' le nachil ti' k'a'ana'an Cancún utia'al u xu'ulsiko'ob le volumen a medida ti' le fuente audio aleja ti' le oyente.",
+      "info-mediaMaxDistance": "Ku 30 naaj u leti' le distancia wóolis ichil le fuente audio yéetel le oyente, ka' le ba'ax le volumen ma' u reduce asab.",
+      "info-mediaConeInnerAngle": "Ku 30 naaj u describe le ángulo ti' grados, u jump'éel cono ichil le ma' wáaj reducción volumen.",
+      "info-mediaConeOuterAngle": "Ku 30 naaj u describe le ángulo ti' grados, u jump'éel cono paach le le volumen ku reducirá tumen ku 30 constante, definido tumen le atributo coneOuterGain.",
+      "info-mediaConeOuterGain": "Ku 30 naaj u describe le cantidad reducción volumen paach le cono definido tumen le atributo coneOuterAngle. U predeterminado ku jach 0, ba'ax u k'áat u ya'al ba'ax ma' u páajtal wu'uyik Ba'axe' juum.",
+      "lbl-simpleMaterials": "Meyaj materiales simples",
+      "lbl-lods": "LODs",
+      "info-lods": "Je'ets'el le distancias ti' le ku jeel le niveles detalle.",
+      "info-simpleMaterials": "P'áatal tuláakal le materiales caros ti' láak'o'ob asab simples utia'al tselik u kuuch le representación escenas.",
+      "lbl-rendererSettings": "Anular u configuración le renderizador",
+      "lbl-csm": "Mapas sombras ti' cascada",
+      "info-csm": "Habilita mapas u sombras ti' cascada.",
+      "lbl-toneMapping": "Mapeo tonos",
+      "info-toneMapping": "Habilita le asignación tonos ti' le renderizador escenas. Mina'an mix efecto ka u habilita jump'éel procesamiento posterior.",
+      "lbl-toneMappingExposure": "Exposición mapeo tonos",
+      "info-toneMappingExposure": "Especifica le exposición asignación tonos ti' le representador escenas. Mina'an mix efecto ka u habilita jump'éel procesamiento posterior.",
+      "lbl-shadowMapType": "Bin yano'ob ye'esajil u sombras ye'esajil u ye'esajil u ye'esajil",
+      "info-shadowMapType": "Bin yano'ob ye'esajil u sombras ye'esajil u ye'esajil u ye'esajil",
+      "error-url": "Ba'alo' a le kuuch tak url"
+    },
+    "sceneCamera": {
+      "name": "Cámara u sáasil previa u beyo'",
+      "description": "Le cámara utilizada ti' generar u miniatura le beyo' yéetel le posición inicial ti' le cámara u sáasil previa.",
+      "lbl-setFromViewPort": "Establecer tak le ventana gráfica"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "P'isib k'iin",
+      "lbl-color": "Boonil",
+      "lbl-latitude": "Latitud",
+      "lbl-luminance": "Luminancia",
+      "lbl-scattering": "Cantidad dispersión",
+      "lbl-scatteringDistance": "Nachil ti' dispersión Cancún",
+      "lbl-horizonStart": "Chúunul u Horizonte",
+      "lbl-horizonEnd": "Ts'o'okol le horizonte",
+      "lbl-texture": "Textura",
+      "lbl-skyType": "Bin yano'ob ka'an",
+      "error-url": "Ba'alo' a le kuuch tak url"
+    },
+    "spawnPoint": {
+      "name": "Ch'aaj desove",
+      "description": "Jump'éel ch'aaj le máako'ob aparecerán ka entren ti' a beyo'.\nLe icono le ventana gráfica leti' le Buka'aj xíimbal tumen jump'éel avatar."
+    },
+    "spotLight": {
+      "description": "Junp'éel sáasil emite a lo largo de jump'éel dirección, iluminando meentiko'ob ichil jump'éel cono.",
+      "lbl-color": "Boonil",
+      "lbl-intensity": "Intensidad",
+      "lbl-penumbra": "Penumbra",
+      "lbl-angle": "Ángulo",
+      "lbl-range": "Gama",
+      "lbl-decay": "Decaer"
+    },
+    "transform": {
+      "title": "Transformar",
+      "lbl-postition": "Posición",
+      "lbl-rotation": "Rotación",
+      "lbl-scale": "Escama"
+    },
+    "triggereVolume": {
+      "description": "Je'ets'el jump'éel propiedad ti' le objeto destino le wokol yéetel jóok'ol.",
+      "lbl-target": "Objeto",
+      "lbl-onenter": "In le wokol",
+      "lbl-onexit": "U tíip'ik",
+      "lbl-showHelper": "We'esik malla auxiliar",
+      "ph-errorNode": "Ba'alo' u si'ipil nodo.",
+      "ph-selectNode": "Seleccione le nodo..."
+    },
+    "video": {
+      "name": "Vídeo",
+      "description": "Carga dinámicamente jump'éel vídeo.",
+      "lbl-video": "Vídeo",
+      "lbl-projection": "Proyección",
+      "lbl-islivestream": "Yaantal ti' vivo",
+      "lbl-interactable": "Interactivo",
+      "lbl-id": "Identificador elemento",
+      "lbl-play": "Báaxal",
+      "lbl-pause": "Pausa",
+      "error-url": "Ba'alo' a le kuuch tak url"
+    },
+    "volumetric": {
+      "name": "Volumétrico",
+      "description": "Carga dinámicamente jump'éel vídeo volumétrico.",
+      "uvolPaths": "Rutas UVOL",
+      "playmode": "Modo báaxal",
+      "playtitle": "Báaxal",
+      "pausetitle": "Pausa"
+    },
+    "spline": {
+      "description": "Crea ka personaliza curvas dinámicamente.",
+      "lbl-addNode": "Ku ts'áabal nodo ti' le curva."
+    },
+    "systemnode": {
+      "description": "Adjuntar script.",
+      "lbl-filePath": "URL",
+      "lbl-systemUpdateType": "Ch'aaj inyección",
+      "lbl-enableClient": "Cliente",
+      "lbl-enableServer": "Servidor",
+      "lbl-args": "Args",
+      "error-url": "Ba'alo' a le kuuch le script tak le URL"
+    },
+    "portal": {
+      "lbl-portal": "Portal vinculado",
+      "lbl-redirect": "Biilankiltej redireccionamiento linki abas kaambal",
+      "description": "Jump'éel Portat utia'al u teletransportar le aj báaxalo'ob ti' le tu'ux ku yaantal especificada",
+      "lbl-locationName": "Tu'ux ku yaantal",
+      "lbl-modelUrl": "URL le bix",
+      "lbl-displayText": "We'esik analte'o'",
+      "lbl-cubemapBake": "Cubemap hornear",
+      "lbl-spawnPosition": "Posición spawn",
+      "lbl-spawnRotation": "Rotación desove",
+      "lbl-triggerPosition": "Posición le gatillo",
+      "lbl-triggerRotation": "Rotación le disparador",
+      "lbl-triggerScale": "Escala disparo"
+    },
+    "postprocessing": {
+      "name": "Post Procesamiento",
+      "description": "Utia'al aplicar táanil posprocesamiento ti' le beyo'."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Túumben tsol",
+      "backLink": "K'a' múuch' meyajo'ob.",
+      "featured": "Recomendados",
+      "all": "Tuláakal",
+      "newProject": "Túumben tsol vacío",
+      "ph-search": "Kaxant escenas..."
+    },
+    "grid": {
+      "loading": "Kuuch..."
+    },
+    "page": {
+      "header": "Máanen",
+      "headerMsg": "Wa teech túumben waye' a recomendamos sigas le tutorial. Tu contrario, salta Jun yéetel crea jump'éel tsol tak cero wa tak jump'éel k plantillas.",
+      "lbl-startTutorial": "Máaxo'ob tutorial",
+      "projects": "Múuch' meyajo'ob.",
+      "lbl-newProject": "Túumben tsol"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Kuuch...",
+      "placeObject": "Place (objeto).",
+      "placeObjectAtOrigin": "Colocar le objeto ti' k'aaba'",
+      "copyURL": "Copiar URL",
+      "openInNewTab": "Je'e URL ti' túumben táan",
+      "deleteAsset": "Tselik activo"
+    },
+    "filebrowser": {
+      "addNewFolder": "Ku ts'áabal túumben carpeta",
+      "cutAsset": "Ch'ak",
+      "copyAsset": "Copiar",
+      "pasteAsset": "Jats'ik",
+      "renameAsset": "Rebautizar",
+      "viewAssetProperties": "Wil propiedades"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Rebautizar",
+    "lbl-duplicate": "Duplicado",
+    "lbl-group": "Múuch'",
+    "lbl-delete": "Borrar",
+    "lbl-expandAll": "Expandir tuláakal",
+    "lbl-collapseAll": "Contraer tuláakal",
+    "isseus": "Cuestiones:"
+  },
+  "dnd": {
+    "nodes": "{{count}} Nodos seleccionados",
+    "models": "{{count}} Modelos seleccionados",
+    "images": "{{count}} seleccionadas",
+    "videos": "{{count}} Videos seleccionados",
+    "audio": "{{count}} Fuentes u audio seleccionadas"
+  },
+  "dialog": {
+    "title": "Editor",
+    "lbl-confirm": "Ma'alo'ob",
+    "lbl-cancel": "Xu'uls a meyaj",
+    "exportProject": {
+      "title": "Úuchik u jo'osa'al bisbil ba'alche'obo'",
+      "lbl-confirm": "Úuchik u jo'osa'al bisbil ba'alche'obo'",
+      "lbl-combineMesh": "Combinar mallas",
+      "lbl-removeUnused": "Luk'ul Teeche' meentiko'ob ma' utilizados"
+    },
+    "performance": {
+      "title": "Comprobación rendimiento",
+      "lbl-confirm": "Publicar beyo'",
+      "learnMore": "Kan uláak' ba'alo'ob",
+      "lbl-polycount": "Recuento u polígonos",
+      "lbl-material": "Materiales",
+      "lbl-texture": "Texturas",
+      "lbl-lights": "Luces",
+      "lbl-fileSize": "Buka'aj le archivo",
+      "info-polycount": "Recomendamos u u beyo' ma' use asab u 50,000 triángulos utia'al u dispositivos móviles.",
+      "info-material": "Recomendamos biilankiltej ma' asab u 25 materiales únicos ti' u beyo' utia'al u xu'ulsiko'ob le llamadas boonol tu dispositivos móviles.",
+      "info-texture": "Recomendamos ka u texturas ma' usen asab 256 MB RAM video utia'al u dispositivos móviles. Xan recomendamos ma' biilankiltej texturas mayores 2048 x 2048.",
+      "info-lights": "Wa bien le luces dinámicas ma' táan habilitadas ti' dispositivos móviles, recomendamos biilankiltej ma' asab ti' 3 luces ti' u beyo' (excluyendo le luces ambientales yéetel hemisféricas) utia'al u u beyo' ejecute ti' PC gama baja.",
+      "info-fileSize": "Recomendamos jump'éel Buka'aj archivo final u ma' asab ti' 16 MB utia'al conexiones t'okik ancho banda. Xu'ulsiko'ob le Buka'aj le archivo reducirá le k'iin ku Xáan descargar le beyo'.",
+      "txt-polycount": "triángulos {{count}}",
+      "txt-material": "materiales {{count}}",
+      "txt-ram": "~{{count}} RAM vídeo",
+      "txt-texture": "{{count}} Texturas nukuch",
+      "txt-lights": "{{count}} Luces"
+    },
+    "progress": {
+      "title": "Kuuch...",
+      "msg": "Kuuch...",
+      "lbl-cancel": "Xu'uls a meyaj"
+    },
+    "publish": {
+      "title": "Publicar beyo'",
+      "lbl-confirm": "Ooks yéetel publicar",
+      "lbl-name": "K'aaba' le beyo'",
+      "info-name": "U k'aaba' k'a'ana'an yaantal ichil 4 yéetel 64 caracteres yéetel ma' u xu'ulsa'al guiones bajos"
+    },
+    "published": {
+      "title": "Beyo' publicada",
+      "header": "A beyo' u sido publicada.",
+      "lbl-view": "Wilik le beyo'"
+    },
+    "saveNewProject": {
+      "title": "Áantaj",
+      "lbl-name": "K'aaba' úuchik",
+      "info-name": "U k'aaba' k'a'ana'an yaantal ichil 4 yéetel 64 caracteres yéetel ma' u xu'ulsa'al guiones bajos",
+      "lbl-confirm": "Ooks tsol"
+    },
+    "support": {
+      "title": "Áantaj",
+      "header": "K'abéet reportar jump'éel talamil.",
+      "msg": "Je'el Ka'abet jump'éel talamil <1>GitHub</1> wa túuxtik to'on jump'éel correo electrónico tia'al <3> bix{{mail}}</3>",
+      "discord": "Xan a kaxtik k ti <1>' Discord</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Máak u Bing",
+      "search": "Kaxant tumen Bing"
+    },
+    "bingVideo": {
+      "name": "Bing Videos",
+      "search": "Kaxant tumen Bing"
+    },
+    "element": {
+      "name": "Elementos"
+    },
+    "myAssets": {
+      "name": "In activos"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Leti'ob tumen Google"
+    },
+    "tenor": {
+      "name": "GIF tenor",
+      "search": "Leti'ob tumen Tenor",
+      "ph-search": "Kaxant GIFs..."
+    },
+    "sketchfab": {
+      "name": "Sketchfab",
+      "search": "Kaxant tumen Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Kuuch activo"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Kaxant máak..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Kaxant vídeos..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Kaxant activos..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Kaxant modelos..."
+    },
+    "useUpload": {
+      "multipleFileError": "Jool le sajkabo' ma' acepta ya'ab archivos.",
+      "mineTypeError": "\"{{name}}\" Ma' coincide yéetel le je'ela' tipos ti' mime wa extensiones: {{types}}",
+      "progressTitle": "Kuuch archivos",
+      "progressMsg": "Kuuch archivos {{uploaded}} {{total}}: {{percentage}}chúumuk",
+      "uploadError": "Ba'alo' kuuch",
+      "uploadErrorMsg": "Ba'alo' a le kuuch le archivo: {{message}}",
+      "uploadErrorDefaultMsg": "U ts'o'ok u producido jump'éel ba'alo' desconocido"
+    }
+  },
+  "openLink": {
+    "description": "Beetik clic ti' Je'e utia'al u navegar le enlace.",
+    "lbl-open": "Je'e"
+  },
+  "interactableModel": {
+    "lbl-buy": "Maan",
+    "lbl-learnMore": "Kan uláak' ba'alo'ob"
+  },
+  "corsProxyButton": {
+    "tooltip": "Biilankiltej cors Proxy Server"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Iposi Le-elekthroniki",
+      "resendEmail": "Ucelwa ukuba uhlole iposi lakho le-elekthroniki ukuqinisekisa i-akhawunti yakho. Uma ungalitholi iposi le-elekthroniki, ucelwa ukuba uchofoze {{here}} ukuvuselela iposi le-elekthroniki lokuqinisekisa.",
+      "haveAnAccount": "Ingabe unokulandisa?"
+    },
+    "forgotPassword": {
+      "header": "Igama Lokungena Elikhohlakele",
+      "enterEmail": "Ucelwa ukuba ufake ikheli lakho leposi le-elekthroniki elibhalisiwe futhi sizokuthumelela isihlanganisi sokulinda kabusha igama lokungena.",
+      "lbl-email": "Ikheli Leposi Le-e",
+      "lbl-submit": "Thumela Isihlanganisi",
+      "emailSent": "Qalise kabusha Iposi Legama Lokungena lithunyelwe. Ucelwa ukuba uhlole iposi lakho le-elekthroni"
+    },
+    "login": {
+      "email": "Iposi le-elekthroniki | SMS",
+      "username": "Igama Lomsebenzisi + Igama lokungena",
+      "social": "Social"
+    },
+    "magiklink": {
+      "header": "Isihlanganisi Sokungena",
+      "descriptionEmail": "Ucelwa ukuba ufake ikheli lakho leposi le-elekthroniki futhi sizokuthumelela isihlanganisi sokungena nge-Imeyli.",
+      "descriptionSMS": "Ucelwa ukuba ufake inombolo yakho yocingo bese sikuthumela isihlanganisi sokungena nge-SMS.",
+      "descriptionEmailSMS": "Ucelwa ukuba ufake ikheli lakho leposi le-elekthroniki noma inombolo yocingo (inombolo engu-10, i-US kuphela) futhi sizokuthumelela isihlanganisi sokungena nge-Email noma i-SMS.",
+      "descriptionSMSUS": "Ucelwa ukuba ufake inombolo yakho yocingo (inombolo engu-10, US kuphela) futhi sizokuthumela isihlanganisi sokungena nge-SMS.",
+      "lbl-email": "Ikheli leposi le-e",
+      "lbl-emailPhone": "Iposi le-elekthroniki noma inombolo yo",
+      "lbl-phone": "Inombolo yocingo",
+      "agree": "Ngiyavuma ",
+      "terms": "Amagama & Izimo",
+      "lbl-submit": "Thumela Isihlanganisi Sokungena",
+      "email-sent-msg": "Isihlanganisi Se-Magic Link sokungena sithunyelwe. Ngicela uhlole i-Imeyli yakho.",
+      "success-msg": "Isihlanganisi Se-Magic Link sokungena sithunyelwe. Uyacelwa ukuba uhlole i-Imeyli yakho noma i-SMS.",
+      "sms-sent-msg": "Isihlanganisi Se-Magic Link sokungena sithunyelwe. Ngicela uhlole i-SMS yakho."
+    },
+    "passwordLogin": {
+      "header": "Ngena",
+      "lbl-email": "Ikheli Leposi Le-e",
+      "lbl-password": "Igama lokungena",
+      "lbl-rememberMe": "Ngikhumbule",
+      "lbl-signin": "Ngena",
+      "forgotPassword": "Ingabelibaleka igama lokungena?",
+      "signup": "Ingabe ayinayo i- akhawunti? Bhalisa",
+      "lbl-login": "Ngena ngemvume",
+      "ph-password": "Igama lokungena",
+      "ph-email": "Iposi le-e"
+    },
+    "social": {
+      "gitHub": "Ngena noGitHub",
+      "google": "Ngena noGoogle",
+      "facebook": "Ngena nge-Facebook",
+      "linkedin": "Ngena nge-Linkedin",
+      "twitter": "Ngena nge-Twitter"
+    },
+    "register": {
+      "header": "Bhalisa",
+      "login": "Ngena ngemvume",
+      "lbl-signup": "Bhalisa",
+      "lbl-password": "Igama lokungena",
+      "lbl-email": "Ikheli Leposi Le-e",
+      "passwordNotMatch": "Amagama okungena Awahambisani",
+      "ph-password": "Igama lokungena",
+      "ph-confirmPassword": "Qinisekisa Igama Lokungena",
+      "ph-email": "Iposi le-e"
+    },
+    "resetPassword": {
+      "header": "Qalisa kabusha Igama Lokungena",
+      "description": "Ucelwa ukuba ufake igama lakho lokungena lekheli lakho leposi le-elekthroniki",
+      "lbl-submit": "Qalisa kabusha Igama Lokungena",
+      "lbl-password": "Igama lokungena",
+      "lbl-confirmPassword": "Qinisekisa Igama Lokungena",
+      "passwordNotMatch": "Amagama okungena Awahambisani",
+      "nowLoginYourAccount": "Manje ungangena kwi-akhawunti yakho",
+      "yourPasswordResetSuccess": "Igama lakho lokungena lamiswa kabusha ngempumelelo!"
+    },
+    "verifyEmail": {
+      "header": "Qinisekisa Iposi Le-elekthro",
+      "processing": "Ucelwa ukuba ulinde isikhathi ngenkathi ulungisa..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Izindawo",
+      "loading": "Ukufaka",
+      "col-name": "Igama",
+      "col-scene": "Isimo",
+      "col-maxuser": "Abasebenzisi Bemax",
+      "lbl-search": "Cinga izindawo",
+      "lbl-new": "Okusha"
+    },
+    "newLocation": {
+      "title": "Indawo",
+      "success": "Ukulondolozwa Ngempumelelo.",
+      "failure": "Kukhona okungahambi kahle.",
+      "removeSuccess": "Indawo ikhishiwe ngempumelelo.",
+      "nameInUse": "Igama liyasetshenziswa.",
+      "nameRequire": "Igama liyadingeka.",
+      "validNumber": "Izinombolo kuphela(0-9) ezivunyelwe.",
+      "lbl-name": "Igama",
+      "lbl-maxuser": "Abasebenzisi Bemax",
+      "lbl-scene": "Isimo",
+      "lbl-type": "Uhlobo",
+      "lbl-ve": "Ividiyo Ivunyelwe",
+      "lbl-gme": "Imidiya Yembulunga Yonke Ivunyelwe",
+      "lbl-update": "Update",
+      "lbl-create": "Yakha",
+      "tooltipCanNotBeDeleted": "Ukungena ngeke kususwe",
+      "confirmation": "Uqinisekile?",
+      "lbl-yes": "Yebo",
+      "lbl-no": "Cha"
+    },
+    "share": {
+      "lbl-share": "Ukwabelana",
+      "ph-phoneEmail": "Mema ngeposi le-elekthroniki noma inombolo yocingo",
+      "lbl-phoneEmail": "Thumela ku-imeyli noma inombolo yocingo",
+      "lbl-copy": "Kopisha",
+      "lbl-send-invite": "Thumela Isimemo",
+      "title": "Yabelana nge-URL yakho Yendawo neqembu lakho",
+      "linkCopied": "Xhumanisa okukopishwe kwibhodi yemisiko."
+    },
+    "setting": {
+      "audio": "Okuzwakalayo",
+      "lbl-volume": "Umsindo",
+      "lbl-microphone": "Microphone",
+      "graphics": "Imifanekiso",
+      "controls": "Izilawuli",
+      "lbl-control-type": "Uhlobo Lomlawuli",
+      "lbl-control-scheme": "Isikimu Sokulawula",
+      "lbl-resolution": "Isinqumo",
+      "lbl-shadow": "Amathunzi",
+      "lbl-pp": "Post Processing",
+      "lbl-pbr": "I-PBR egcwele",
+      "lbl-automatic": "Okuzenzakalelayo",
+      "xrusersetting": "Izimiso Zomsebenzisi we-XR",
+      "rotation": "Ukujikeleza",
+      "rotation-smooth-speed": "Isivinini Sokushelela",
+      "rotation-angle": "Rotation Angle",
+      "moving": "Ukuthutha",
+      "user-avatar": "Isimiso Se-Avatar",
+      "invert-rotation": "Guqulela Ukujikeleza Nokunyakazisa Izinduku",
+      "show-avatar": "Khombisa i-Avatar"
+    },
+    "profile": {
+      "lbl-profile": "Imininingwane egciniwe",
+      "lbl-settings": "Izimiso",
+      "lbl-username": "Igama lomsebenzisi",
+      "update-msg": "Igama lomsebenzisi libuyekeziwe",
+      "inviteCode": "Mema Ikhodi",
+      "youAreAn": "Ungumlobeli",
+      "youAreA": "Ungu-",
+      "showUserId": "Khombisa I-ID yomsebenzisi",
+      "hideUserId": "Fihla i-ID yomsebenzisi",
+      "showApiKey": "Khombisa ukhiye we-API",
+      "hideApiKey": "Fihla ukhiye we-API",
+      "apiKey": "Ukhiye we-API",
+      "logout": "Phuma",
+      "connectPhone": "Xhuma inombolo yakho yocingo",
+      "connectEmail": "Xhuma iposi lakho le-ele",
+      "connectPhoneEmail": "Xhuma iposi lakho le-elekthroniki noma inombolo yocingo",
+      "or": "Noma",
+      "lbl-wallet": "Ngena ngeWallet",
+      "ph-email": "Iposi le-e",
+      "ph-phone": "Inombolo Yocingo",
+      "ph-phoneEmail": "Inombolo Yocingo / Iposi Le-elekthroni",
+      "phoneEmailError": "Ucingo olungaqinisekisiwe # noma ikheli leposi le-elekthroniki",
+      "phoneError": "Ucingo olungaqinisekisiwe #",
+      "emailError": "Ikheli leposi le-elekthroniki elingaqinisekisiwe",
+      "loginWithReadyPlayerMe": "Ngena nesidlali Esilungile",
+      "connectSocial": "Xhumana nama-akhawunti ezenhlalo",
+      "createOne": "Uma ungenayo i-akhawunti, entsha izokwakhiwa",
+      "connections": {
+        "title": "Izinxumano",
+        "ipError": "Ayikwazi ukususa Umnikezeli Wesazisi Esisebenzayo",
+        "disconnect": "Nqamula",
+        "connect": "Xhuma"
+      },
+      "profileDropdown": {
+        "avatar": "Uphawu lwe-Avatar Yomsebenzisi",
+        "profile": "Imininingwane egciniwe",
+        "adminConsole": "Admin Console",
+        "logout": "Phuma"
+      },
+      "userIcon": {
+        "lbl-name": "Igama lakho",
+        "lbl-update": "Update",
+        "userId": "I-id yomsebenzisi",
+        "ph-uploadImg": "Faka Isithombe Somkhiqizo",
+        "lbl-selectAcvatar": "Khetha i-Avatar",
+        "lbl-submit": "Hambisa"
+      },
+      "userSettings": {
+        "volume": "Umsindo",
+        "microphone": "Microphone",
+        "resolution": "Isinqumo",
+        "high": "Phezulu",
+        "low": "Phansi",
+        "spatialAudio": "Sebenzisa Okuzwakalayo",
+        "enterMuted": "Faka Igumbi Lokucwecwa"
+      }
+    },
+    "oauth": {
+      "authenticating": "Kuqinisekiswa...",
+      "authFailed": "{{service}} ukuqinisekiswa kwehlulekile."
+    },
+    "magikLink": {
+      "wait": "Ucelwa ukuba ulinde isikhathi ngenkathi ulungisa..."
+    },
+    "dashboard": {
+      "header": "Dashboard",
+      "dashboard": "Dashboard",
+      "users": "Abasebenzisi",
+      "feeds": "Izifunzo",
+      "instance": "Instance",
+      "locations": "Izindawo",
+      "invites": "Izimemo",
+      "sessions": "Iziwombe",
+      "groups": "Amaqembu",
+      "parties": "Parties",
+      "chats": "Chats",
+      "content": "Amaphakethe Okuqukethwe",
+      "projects": "Projects",
+      "scenes": "Imifanekiso",
+      "avatars": "Avatars",
+      "benchmarking": "Benchmarking",
+      "bots": "Bots"
+    }
+  },
+  "oauth": {
+    "authenticating": "Kuqinisekiswa...",
+    "authFailed": "{{service}} ukuqinisekiswa kwehlulekile."
+  },
+  "magikLink": {
+    "wait": "Ucelwa ukuba ulinde isikhathi ngenkathi ulungisa..."
+  },
+  "dashboard": {
+    "header": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Abasebenzisi",
+    "feeds": "Izifunzo",
+    "instance": "Instance",
+    "locations": "Izindawo",
+    "routes": "Imizila",
+    "projects": "Projects",
+    "invites": "Izimemo",
+    "sessions": "Iziwombe",
+    "groups": "Amaqembu",
+    "parties": "Parties",
+    "chats": "Chats",
+    "content": "Amaphakethe Okuqukethwe",
+    "scenes": "Imifanekiso",
+    "avatars": "Avatars",
+    "benchmarking": "Benchmarking",
+    "bots": "Bots",
+    "setting": "Izimiso"
+  },
+  "avatar": {
+    "title": "Faka I-Avatar",
+    "lbl-browse": "Phequlula",
+    "lbl-thumbnail": "Thumbnail",
+    "lbl-upload": "Faka",
+    "selectAvatar": "Khetha i-Avatar...",
+    "selectThumbnail": "Khetha Isithonjana...",
+    "rotate": "Jikeleza",
+    "pan": "Pan",
+    "noBone": "I - obejct ayinawo amathambo noma isikhumba",
+    "outOfBound": "Into ayiboshiwe.",
+    "emptyObj": "Into ayinalutho.",
+    "maxTriangleError": "Into iqukethe ubuso obungaphezu {{allowedTriangles}} .",
+    "selectValidFile": "Khetha ifayela le-avatar eliqinisekisiwe 3d.",
+    "selectValidThumbnail": "Ifayela le-Thumbnail elikhethiwe.",
+    "fileOversized": "Ubukhulu befayela le-Avatar kufanele babe phakathi {{minSize}} MB ne {{maxSize}} MB",
+    "confirmation": "Uqinisekile?",
+    "canNotBeRemoved": "I-Avatar esebenzayo ayikwazi ukususwa",
+    "remove": "Khipha i-avatar",
+    "uploadFiles": "Faka amafayela",
+    "useUrlInstead": "Sebenzisa i-url esikhundleni salokho",
+    "avatar": "Avatar",
+    "cancel": "Khansela",
+    "createAvatar": "Yakha i-Avatar",
+    "delete": "Susa",
+    "view": "Bona",
+    "uploadAvatarInfo": "Buyekeza Ulwazi Lwe-avatar",
+    "name": "Igama",
+    "enterName": "Faka igama",
+    "avatarInformation": "Avatar Information",
+    "description": "Incazelo",
+    "key": "Ukhiye",
+    "none": "Akukho",
+    "submit": "Hambisa",
+    "edit": "Hlela kahle",
+    "avatarUrl": "Avatar url",
+    "upload-success-msg": "U- Avatar Ufaka Ngempumelelo.",
+    "remove-success-msg": "U- Avatar Ufaka Ngempumelelo.",
+    "warning-msg": "Umnyombo we-Avatar awunalutho, ingabe uvumelanise ama-avatar kwisilondolozi sakho sefayela?"
+  },
+  "personMenu": {
+    "inviteToParty": "Memela Emcimbini",
+    "addAsFriend": "Yengeza Njengomngane",
+    "mute": "Mute",
+    "block": "Vimbela"
+  },
+  "person": {
+    "you": "Wena",
+    "yourScreen": "Isihenqo Sakho",
+    "muteForEveryone": "Mute kubo bonke abantu",
+    "unmuteForEveryone": "Khipha wonke umuntu",
+    "muteMe": "Ngimite",
+    "unmuteMe": "Ngikhiphe",
+    "muteThisPerson": "Mlahlile lo muntu",
+    "unmuteThisPerson": "Khipha lo muntu",
+    "openPictureInPicture": "Vula Isithombe Esithombeni"
+  }
+}

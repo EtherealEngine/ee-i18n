@@ -1,0 +1,718 @@
+{
+  "loading": "Laddar projekt",
+  "loadingMsg": "Laddar projekt...",
+  "loadingError": "Fel vid laddning av projekt",
+  "loadingErrorMsg": "Det uppstod ett fel vid inläsningen av projektet.",
+  "selectSceneMsg": "Välj Scen för att börja spela med motorn",
+  "error": "Fel",
+  "errorMsg": "Det uppstod ett okänt fel.",
+  "generateScreenshot": "Generera projektskärmdump",
+  "generateScreenshotMsg": "Generera projekt skärmdump ...",
+  "newScene": "Skapa scen",
+  "saving": "Spara projekt",
+  "savingMsg": "Spara projekt...",
+  "savingError": "Fel vid sparande av projekt",
+  "savingErrorMsg": "Det uppstod ett fel när projektet sparades.",
+  "savingSceneErrorMsg": "Scenen läses inte in ordentligt. Försök ladda om scenen.",
+  "duplicating": "Duplicera projekt",
+  "duplicatingMsg": "Duplicera projekt...",
+  "exporting": "Exportera projekt",
+  "exportingMsg": "Exportera projekt...",
+  "exportingError": "Fel vid export av projekt",
+  "exportingErrorMsg": "Det uppstod ett fel vid export av projektet.",
+  "importLegacy": "Importera äldre värld",
+  "importLegacyMsg": "Varning! Detta kommer att skriva över din befintliga scen! Är du säker på att du vill fortsätta?",
+  "publishingError": "Fel vid publiceringsprojekt",
+  "publishingErrorMsg": "Det uppstod ett okänt fel.",
+  "publishingScene": "Publiceringsscen",
+  "publishingSceneMsg": "Förlagsscen...",
+  "uploadingThumbnailMsg": "Ladda upp miniatyrbild ...",
+  "uploadingSceneMsg": "Uppladdningsscen: {{percentage}}%",
+  "envMapError": "Fel vid laddning av kubkartbilder {{files}}",
+  "lbl-return": "Återvända",
+  "menubar": {
+    "newScene": "Ny scen",
+    "saveScene": "Spara scen",
+    "saveAs": "Spara som",
+    "importAsset": "Importera tillgång",
+    "exportGLB": "Exportera som binär glTF (.glb) ...",
+    "importScene": "Importera scen",
+    "exportScene": "Exportera scen",
+    "quit": "Lämna"
+  },
+  "errors": {
+    "fileTypeNotSupported": "Filtyp som inte stöds för fil: \"{{name}}\". Filen måste vara en bild-, video- eller glb-modell.",
+    "addObject": "addObject: innan objektet inte hittades",
+    "removeObject": "removeObject: noden hittades inte. Detta beror på att du tar bort en nod som inte längre finns i scenen.",
+    "noParent": "{{node}} \"{{name}}\" har ingen förälder. Reparent arbetar bara på objekt som för närvarande finns i scenen.",
+    "undefinedParent": "editor.reparent: newParent är odefinierad",
+    "notAuthenticated": "Inte autentiserad",
+    "fetchingProjectError": "Fel vid hämtning av projekt: {{error}}",
+    "fetchingRouteError": "Fel vid hämtning av rutter: {{error}}",
+    "unknownError": "Okänt fel",
+    "resolveURL": "Fel vid lösning av url \"{{url}}\":",
+    "mediaSearchAborted": "Mediesökningen avbröts",
+    "methodNotImplemented": "Metoden inte implementerad.",
+    "saveProjectAborted": "Spara scen avbruten",
+    "unsavedChanges": "Ändringar som inte sparats",
+    "unsavedChangesMsg": "Scenen har modifierats. Spara dina ändringar.",
+    "projectCreationFail": "Det gick inte att skapa projekt. {{reason}}",
+    "projectDeletionFail": "Projektborttagningen misslyckades. {{reason}}",
+    "savingProjectFail": "Det gick inte att spara Project. {{reason}}",
+    "sceneTooLarge": "Scenen är för stor ({{size}} MB) för att publiceras. Maximal storlek är {{maxSize}} MB.",
+    "sceneCreationFail": "Scenskapandet misslyckades. {{reason}}",
+    "uploadAborted": "Uppladdningen avbröts",
+    "uploadFailed": "Uppladdningen misslyckades {{reason}}",
+    "assetDeletionFail": "Borttagning av tillgångar misslyckades. {{reason}}",
+    "projectAssetDeletionFail": "Borttagning av projekttillgångar misslyckades. {{reason}}",
+    "networkError": "Nätverksfel: {{status}}. {{text}}",
+    "unknownStatus": "Okänd status",
+    "CORS": "Eventuellt ett CORS-fel",
+    "urlFetchError": "Det gick inte att hämta \"{{url}}\""
+  },
+  "viewport": {
+    "title": "Vyport",
+    "command": {
+      "movecamera": "Flytta kamera",
+      "flyFast": "Flyga snabbare",
+      "orbit": "Omloppsbana / Välj",
+      "pan": "Panna",
+      "fly": "Flyga",
+      "focus": "Fokus",
+      "rotateLeft": "Rotera åt vänster",
+      "rotateRight": "Rotera åt höger",
+      "cancelPlacement": "Avbryt placering",
+      "placeDuplicate": "Placera duplikat",
+      "cancelGrab": "Avbryt Grab",
+      "grab": "Gripa",
+      "deselectAll": "Avmarkera alla"
+    },
+    "state": {
+      "header": "Statistik",
+      "memory": "Minne",
+      "geometries": "Geometrier",
+      "textures": "Texturer",
+      "render": "Rendera",
+      "FPS": "FPS",
+      "frameTime": "Ramtid",
+      "calls": "Samtal",
+      "triangles": "Trianglar",
+      "points": "Poäng",
+      "lines": "Linjer"
+    }
+  },
+  "toolbar": {
+    "lbl-publish": "Publicera",
+    "lbl-published": "Publicerad",
+    "command": {
+      "translate": "Översätta",
+      "rotate": "Rotera",
+      "scale": "Skala",
+      "toggleSpace": "Växla Transformera utrymme",
+      "togglePivot": "Växla Transformera pivot",
+      "toggleSnapMode": "Växla Snap-läge",
+      "toggleGrid": "Växla rutnätssynlighet",
+      "increaseGridSize": "Öka rutnätets storlek",
+      "descreaseGridSize": "Minska rutnätets storlek",
+      "stopPreview": "Sluta förhandsgranska scenen",
+      "playPreview": "Förhandsgranska scen"
+    }
+  },
+  "properties": {
+    "title": "Egenskaper",
+    "lbl-visible": "Synlig",
+    "lbl-preventBake": "Förhindra bakning",
+    "lbl-persist": "Framhärda",
+    "multipleNodeSelected": "Flera noder av olika typer valda",
+    "noNodeSelected": "Ingen nod vald",
+    "ambientLight": {
+      "name": "Omgivande ljus",
+      "description": "Ett ljus som lyser upp alla objekt i din scen.",
+      "lbl-intensity": "Intensitet",
+      "lbl-color": "Färg"
+    },
+    "envmap": {
+      "name": "Miljö karta",
+      "description": "egenskaper för miljökarta"
+    },
+    "asset": {
+      "name": "Tillgång",
+      "description": "En gruppering av scenkomponenter som kan laddas och lossas dynamiskt",
+      "lbl-options": "Alternativ",
+      "lbl-assetPath": "Sökvägen till tillgången",
+      "lbl-assetName": "Exportera namn",
+      "lbl-exportOptions": "Exportera alternativ",
+      "lbl-export": "Exportera tillgång",
+      "lbl-load": "Ladda in i scenen",
+      "lbl-unload": "Lossa",
+      "lbl-reload": "Reload"
+    },
+    "audio": {
+      "name": "Ljud",
+      "description": "Laddar ljud dynamiskt.",
+      "lbl-audiourl": "Webbadress till ljud",
+      "lbl-controls": "Kontroller",
+      "info-controls": "Växla synligheten för mediekontrollerna.",
+      "lbl-autoplay": "Automatisk uppspelning",
+      "info-autoplay": "Om det är sant kommer media att spelas upp när de först kommer in på scenen.",
+      "lbl-synchronize": "Synkronisera",
+      "info-synchronize": "Om det är sant synkroniseras mediet på alla anslutna klienter.",
+      "lbl-loop": "Ögla",
+      "info-loop": "Om det är sant kommer media att loopa på obestämd tid.",
+      "lbl-audioType": "Ljudtyp",
+      "lbl-distanceModel": "Avståndsmodell",
+      "info-distanceModel": "Algorithim används för att beräkna ljudavrullning.",
+      "lbl-rolloffFactor": "Rolloff-faktor",
+      "info-rolloffFactor": "Ett dubbelt värde som beskriver hur snabbt volymen minskas när källan rör sig bort från lyssnaren. 0 till 1",
+      "info-rfInfinity": "Ett dubbelt värde som beskriver hur snabbt volymen minskas när källan rör sig bort från lyssnaren. 0 till oändligheten",
+      "lbl-refDistance": "Ref Avstånd",
+      "info-refDistance": "Ett dubbelt värde som representerar referensavståndet för att minska volymen när ljudkällan rör sig längre från lyssnaren.",
+      "lbl-maxDistance": "Max avstånd",
+      "info-maxDistance": "Ett dubbelt värde som representerar det maximala avståndet mellan ljudkällan och lyssnaren, varefter volymen inte sänks ytterligare.",
+      "lbl-coneInnerAngle": "Konens inre vinkel",
+      "info-coneInnerAngle": "Ett dubbelvärde som beskriver vinkeln, i grader, på en kon inuti vilken det inte kommer att finnas någon volymminskning.",
+      "lbl-coneOuterAngle": "Konens yttre vinkel",
+      "info-coneOuterAngle": "Ett dubbelvärde som beskriver vinkeln, i grader, på en kon utanför vilken volymen kommer att reduceras med ett konstant värde, definierat av attributet coneOuterGain.",
+      "lbl-coreOuterGain": "Kon yttre förstärkning",
+      "info-coreOuterGain": "Ett dubbelvärde som beskriver mängden volymminskning utanför konen som definieras av attributet coneOuterAngle. Standardvärdet är 0, vilket innebär att inget ljud kan höras.",
+      "lbl-volume": "Volym",
+      "lbl-play": "Leka",
+      "lbl-pause": "Paus",
+      "error-url": "Fel vid laddning från URL"
+    },
+    "boxCollider": {
+      "description": "En osynlig låda som föremålen studsar av eller vilar ovanpå.\nUtan kolliderare kommer föremål att falla genom golv och gå igenom väggar.",
+      "lbl-isTrigger": "Utlösa"
+    },
+    "camera": {
+      "name": "Kamera",
+      "description": "Kamerainställningar.",
+      "lbl-camera-raycast": "Raycasting av kamera",
+      "lbl-camera-raycast-toggle": "Aktiverat",
+      "lbl-camera-raycast-frequency": "Frekvens",
+      "lbl-camera-raycast-count": "Ray Count",
+      "lbl-camera-raycast-length": "Strållängd"
+    },
+    "directionalLight": {
+      "name": "Riktat ljus",
+      "description": "Ett ljus som lyser upp hela scenen, men avger längs en enda riktning.",
+      "lbl-color": "Färg",
+      "lbl-intensity": "Intensitet",
+      "lbl-cameraFar": "Kamera långt",
+      "lbl-cameraNear": "Kamera nära",
+      "lbl-cameraTop": "Kamera Topp",
+      "lbl-cameraBottom": "Kamerans botten",
+      "lbl-cameraLeft": "Kamera kvar",
+      "lbl-cameraRight": "Kameran rätt",
+      "lbl-useInCSM": "Använd i CSM",
+      "lbl-castShadow": "Kasta skugga",
+      "lbl-disableForCSM": "Inaktiverad eftersom Cascade shadow map är aktiverat.",
+      "lbl-shadowmapResolution": "Upplösning av skuggkarta",
+      "lbl-shadowBias": "Skugga bias",
+      "lbl-shadowRadius": "Skugga radie",
+      "lbl-showCameraHelper": "Visa kamerahjälpen"
+    },
+    "groundPlane": {
+      "name": "Markplan",
+      "description": "Ett plant markplan som sträcker sig in i fjärran.",
+      "lbl-color": "Färg",
+      "lbl-receiveShadow": "Ta emot skugga",
+      "lbl-generateNavmesh": "Generera Navmesh"
+    },
+    "link": {
+      "description": "Länk till ett rum eller en webbplats.",
+      "lbl-url": "URL"
+    },
+    "map": {
+      "description": "3D geospatial karta över t.ex. en stad."
+    },
+    "model": {
+      "description": "En 3D-modell i din scen, laddad från en GLTF-URL eller fil.",
+      "lbl-usingGPUInstancingFlag": "Använd GPU Instancing",
+      "lbl-modelurl": "Modellens url",
+      "lbl-envmapUrl": "Url för miljökarta",
+      "lbl-textureOverride": "Åsidosätt textur",
+      "lbl-materialOverride": "Åsidosättande av material",
+      "error-url": "Fel vid laddning från URL",
+      "lbl-loopAnimation": "Loop animering",
+      "lbl-isAvatar": "Är Avatar",
+      "lbl-isGPUInstancing": "Använder GPU-instancing",
+      "lbl-isDynamic": "Är dynamisk",
+      "lbl-castShadow": "Kasta skugga",
+      "lbl-receiveShadow": "Ta emot skugga",
+      "lbl-interactable": "Interagerande",
+      "lbl-matrixAutoUpdate": "MatrixAutoUpdate",
+      "lbl-name": "Namn",
+      "lbl-url": "Modellens url",
+      "lbl-buy": "Köp url",
+      "lbl-learnMore": "Läs mer Url",
+      "lbl-htmlContent": "Html-innehåll",
+      "lbl-interactionText": "Interaktion Text",
+      "lbl-interactionType": "Typ av interaktion"
+    },
+    "materialAssignment": {
+      "lbl-materialID": "Material",
+      "error-materialID": "Fel vid sökning av material",
+      "placeholder-materialID": "Välj material",
+      "lbl-patternTarget": "Mönstermatchning",
+      "lbl-pattern": "Mönster",
+      "lbl-isRegex": "Regex"
+    },
+    "interaction": {
+      "type": "Typ av interaktion",
+      "text": "Interaktion Text",
+      "distance": "Interaktion Avstånd",
+      "theme": "Interaktion Tema",
+      "name": "Interaktion namn",
+      "description": "Interaktion Beskrivning",
+      "images": "Bilder för interaktion",
+      "videos": "Interaktion Videor",
+      "urls": "Webbadresser för interaktion",
+      "models": "Interaktionsmodeller"
+    },
+    "group": {
+      "name": "Grupp",
+      "description": "En grupp med flera objekt som kan flyttas eller dupliceras tillsammans.\nDra och släpp objekt i gruppen i hierarkin."
+    },
+    "hemisphere": {
+      "name": "Halvklotets ljus",
+      "description": "Ett ljus som lyser upp scenen direkt över huvudet.",
+      "lbl-skyColor": "Himmel färg",
+      "lbl-groundColor": "Markfärg",
+      "lbl-intensity": "Intensitet"
+    },
+    "image": {
+      "name": "Bild",
+      "description": "Laddar en bild dynamiskt.",
+      "lbl-imgURL": "Webbadress till bild",
+      "lbl-transparency": "Transparens läge",
+      "lbl-alphaCutoff": "Alfa Cutoff",
+      "lbl-projection": "Projektion",
+      "lbl-side": "Sida",
+      "info-controls": "Växla synligheten för mediekontrollerna.",
+      "info-transparency": "Så här tillämpar du transparens:",
+      "info-opaque": "\"ogenomskinlig\" = ingen insyn",
+      "info-blend": "'blend' = använd bilderna alfakanal",
+      "info-mask": "'mask' = Använd ett angivet brytvärde för på/av-transparens (mer presterande)",
+      "info-alphaCutoff": "Pixlar med alfavärden som är lägre än detta kommer att vara transparenta",
+      "error-url": "Ogiltig URL"
+    },
+    "name": {
+      "lbl-name": "Namn"
+    },
+    "partileEmitter": {
+      "description": "Partikelsändare för att skapa partiklar.",
+      "lbl-particleCount": "Antal partiklar",
+      "lbl-image": "Bild",
+      "lbl-ageRandomness": "Ålder slumpmässighet",
+      "lbl-lifetime": "Livstid",
+      "lbl-lifetimeRandomness": "Livstid slumpmässighet",
+      "lbl-sizeCurve": "Storlekskurva",
+      "lbl-startPSize": "Starta partikelstorlek",
+      "lbl-endPSize": "Slut partikelstorlek",
+      "lbl-sizeRandomness": "Slumpmässig storlek",
+      "lbl-colorCurve": "Färgkurva",
+      "lbl-startColor": "Starta färg",
+      "lbl-startOpacity": "Starta opacitet",
+      "lbl-middleColor": "Mellanfärg",
+      "lbl-middleOpacity": "Mellersta opacitet",
+      "lbl-endColor": "Slutfärg",
+      "lbl-endOpacity": "Avsluta opacitet",
+      "lbl-velocityCurve": "Hastighetskurva",
+      "lbl-startVelocity": "Starthastighet",
+      "lbl-endVelocity": "Sluthastighet",
+      "lbl-angularVelocity": "Vinkelhastighet",
+      "info-ageRandomness": "Mängden variation mellan när partiklar skapas.",
+      "info-lifetime": "Den maximala åldern för en partikel innan den respawned.",
+      "info-lifetimeRandomness": "Mängden variation mellan partikellivslängder.",
+      "info-sizeRandomness": "Mängden variation mellan partikelns startstorlekar.",
+      "error-url": "Fel vid laddning från URL"
+    },
+    "clouds": {
+      "name": "Moln",
+      "description": "Sprite-baserad molnvolym.",
+      "lbl-image": "Sprite Bild",
+      "lbl-wroldScale": "Världsskala",
+      "lbl-dimensions": "Mått",
+      "lbl-noiseZoom": "Brus Zoom",
+      "lbl-noiseOffset": "Buller offset",
+      "lbl-spriteScale": "Sprite-skala",
+      "lbl-fogColor": "Dimma färg",
+      "lbl-fogRange": "Dimma räckvidd",
+      "error-url": "Fel vid laddning från URL"
+    },
+    "ocean": {
+      "name": "Ocean",
+      "description": "Havsyta med vågor och skum",
+      "lbl-normalMap": "Normal karta",
+      "lbl-distortionMap": "Förvrängningskarta",
+      "lbl-envMap": "Miljö karta",
+      "lbl-color": "Färg",
+      "lbl-shallowWaterColor": "Grunt vattenfärg",
+      "lbl-shallowToDeepDistance": "Grunt till djupt avstånd",
+      "lbl-opacityFadeDistance": "Opacitet Blekna Avstånd",
+      "lbl-opacityRange": "Opacitetsområde",
+      "lbl-shininess": "Glans",
+      "lbl-reflectivity": "Reflektionsförmåga",
+      "lbl-foamColor": "Skumfärg",
+      "lbl-foamSpeed": "Skumhastighet",
+      "lbl-foamTiling": "Skum kakel",
+      "lbl-bigWaveTiling": "Stor våg kakel",
+      "lbl-bigWaveSpeed": "Stor våghastighet",
+      "lbl-bigWaveHeight": "Stor våghöjd",
+      "lbl-waveSpeed": "Våghastighet",
+      "lbl-waveScale": "Vågskala",
+      "lbl-waveTiling": "Våg kakel",
+      "lbl-waveDistortionSpeed": "Vågförvrängningshastighet",
+      "lbl-waveDistortionTiling": "Vågförvrängning kakel",
+      "error-url": "Fel vid laddning från URL"
+    },
+    "water": {
+      "name": "Vatten",
+      "description": "Liten vattenyta"
+    },
+    "interior": {
+      "name": "Interiör",
+      "description": "En yta med kartlagd kubstruktur för att efterlikna interiöra miljöer",
+      "lbl-cubeMap": "Kubkartans struktur",
+      "lbl-tiling": "Kakel mängd",
+      "lbl-size": "Ytstorlek",
+      "error-url": "Fel vid laddning från URL"
+    },
+    "pointLight": {
+      "description": "Ett ljus som avger i alla riktningar från en enda punkt.",
+      "lbl-color": "Färg",
+      "lbl-intensity": "Intensitet",
+      "lbl-range": "Sortiment",
+      "lbl-decay": "Förfall"
+    },
+    "scene": {
+      "name": "Scen",
+      "description": "Scenens rotobjekt.",
+      "lbl-bgcolor": "Bakgrundsfärg",
+      "lbl-fogType": "Dimma typ",
+      "lbl-fogColor": "Dimma färg",
+      "lbl-forNearDistance": "Dimma nära avstånd",
+      "lbl-fogFarDistance": "Dimma långt avstånd",
+      "lbl-fogDensity": "Dimma densitet",
+      "lbl-audioSettings": "Använda positionsljud",
+      "lbl-avatarDistanceModel": "Avatar avståndsmodell",
+      "lbl-avatarRolloffFactor": "Avatar Rolloff-faktor",
+      "lbl-avatarRefDistance": "Avatar Ref Avstånd",
+      "lbl-avatarMaxDistance": "Avatar Max avstånd",
+      "lbl-mediaVolume": "Medievolym",
+      "lbl-mediaDistanceModel": "Modell för medieavstånd",
+      "lbl-mediaRolloffFactor": "Faktor för mediaavrullning",
+      "lbl-mediaRefDistance": "Media Ref Avstånd",
+      "lbl-mediaMaxDistance": "Media Max avstånd",
+      "lbl-mediaConeInnerAngle": "Media Cone inre vinkel",
+      "lbl-mediaConeOuterAngle": "Media Cone yttre vinkel",
+      "lbl-mediaConeOuterGain": "Media Cone yttre förstärkning",
+      "info-avatarDistanceModel": "Algorithim används för att beräkna ljudavrullning.",
+      "info-avatarRolloffFactor": "Ett dubbelt värde som beskriver hur snabbt volymen minskas när källan rör sig bort från lyssnaren. 0 till 1",
+      "info-avatarRolloffFactorInifinity": "Ett dubbelt värde som beskriver hur snabbt volymen minskas när källan rör sig bort från lyssnaren. 0 till oändligheten",
+      "info-avatarRefDistance": "Ett dubbelt värde som representerar referensavståndet för att minska volymen när ljudkällan rör sig längre från lyssnaren.",
+      "info-avatarMaxDistance": "Ett dubbelt värde som representerar det maximala avståndet mellan ljudkällan och lyssnaren, varefter volymen inte sänks ytterligare.",
+      "info-mediaDistanceModel": "Algorithim används för att beräkna ljudavrullning.",
+      "info-mediaRolloffFactor": "Ett dubbelt värde som beskriver hur snabbt volymen minskas när källan rör sig bort från lyssnaren. 0 till 1",
+      "info-mediaRolloffFactorInfinity": "Ett dubbelt värde som beskriver hur snabbt volymen minskas när källan rör sig bort från lyssnaren. 0 till oändligheten",
+      "info-mediaRefDistance": "Ett dubbelt värde som representerar referensavståndet för att minska volymen när ljudkällan rör sig längre från lyssnaren.",
+      "info-mediaMaxDistance": "Ett dubbelt värde som representerar det maximala avståndet mellan ljudkällan och lyssnaren, varefter volymen inte sänks ytterligare.",
+      "info-mediaConeInnerAngle": "Ett dubbelvärde som beskriver vinkeln, i grader, på en kon inuti vilken det inte kommer att finnas någon volymminskning.",
+      "info-mediaConeOuterAngle": "Ett dubbelvärde som beskriver vinkeln, i grader, på en kon utanför vilken volymen kommer att reduceras med ett konstant värde, definierat av attributet coneOuterGain.",
+      "info-mediaConeOuterGain": "Ett dubbelvärde som beskriver mängden volymminskning utanför konen som definieras av attributet coneOuterAngle. Standardvärdet är 0, vilket innebär att inget ljud kan höras.",
+      "lbl-simpleMaterials": "Använd enkla material",
+      "lbl-lods": "LOD",
+      "info-lods": "Ställer in avstånden på vilka detaljnivåer ändras.",
+      "info-simpleMaterials": "Konverterar alla dyra material till enklare material för att ta bort belastningen från scenåtergivning.",
+      "lbl-rendererSettings": "Åsidosätt renderingsinställningar",
+      "lbl-csm": "Kaskad skuggkartor",
+      "info-csm": "Möjliggör kaskad skuggkartor.",
+      "lbl-toneMapping": "Tonmappning",
+      "info-toneMapping": "Aktiverar tonmappning på scenrenderaren. Har ingen effekt när en efterbehandling är aktiverad.",
+      "lbl-toneMappingExposure": "Exponering för tonmappning",
+      "info-toneMappingExposure": "Anger exponeringen för tonmappning på scenåtergivningen. Har ingen effekt när en efterbehandling är aktiverad.",
+      "lbl-shadowMapType": "Typ av skuggkarta",
+      "info-shadowMapType": "Typ av skuggkarta",
+      "error-url": "Fel vid laddning från URL"
+    },
+    "sceneCamera": {
+      "name": "Scen förhandsgranskningskamera",
+      "description": "Kameran som används för att generera miniatyrbilden för din scen och startpositionen för förhandsgranskningskameran.",
+      "lbl-setFromViewPort": "Ställ in från Viewport"
+    },
+    "skybox": {
+      "name": "Skybox",
+      "description": "",
+      "lbl-timeOfDay": "Tid på dagen",
+      "lbl-color": "Färg",
+      "lbl-latitude": "Breddgrad",
+      "lbl-luminance": "Luminans",
+      "lbl-scattering": "Spridningsbelopp",
+      "lbl-scatteringDistance": "Spridningsavstånd",
+      "lbl-horizonStart": "Horizon Start",
+      "lbl-horizonEnd": "Horisontens slut",
+      "lbl-texture": "Textur",
+      "lbl-skyType": "Himmel typ",
+      "error-url": "Fel vid laddning från URL"
+    },
+    "spawnPoint": {
+      "name": "Spawn Point",
+      "description": "En punkt där människor kommer att visas när de kommer in på din scen.\nIkonen i visningsområdet representerar den faktiska storleken på en avatar."
+    },
+    "spotLight": {
+      "description": "Ett ljus som avger längs en riktning och lyser upp föremål i en kon.",
+      "lbl-color": "Färg",
+      "lbl-intensity": "Intensitet",
+      "lbl-penumbra": "Halvskugga",
+      "lbl-angle": "Vinkel",
+      "lbl-range": "Sortiment",
+      "lbl-decay": "Förfall"
+    },
+    "transform": {
+      "title": "Transformera",
+      "lbl-postition": "Position",
+      "lbl-rotation": "Rotation",
+      "lbl-scale": "Skala"
+    },
+    "triggereVolume": {
+      "description": "Anger en egenskap för målobjektet vid in- och avträde.",
+      "lbl-target": "Objekt",
+      "lbl-onenter": "Vid Enter",
+      "lbl-onexit": "Vid utgång",
+      "lbl-showHelper": "Visa hjälpnät",
+      "ph-errorNode": "Fel som saknas nod.",
+      "ph-selectNode": "Välj nod..."
+    },
+    "video": {
+      "name": "Video",
+      "description": "Laddar en video dynamiskt.",
+      "lbl-video": "Video",
+      "lbl-projection": "Projektion",
+      "lbl-islivestream": "Livestream",
+      "lbl-interactable": "Interagerande",
+      "lbl-id": "Element-ID",
+      "lbl-play": "Leka",
+      "lbl-pause": "Paus",
+      "error-url": "Fel vid laddning från URL"
+    },
+    "volumetric": {
+      "name": "Volymetriska",
+      "description": "Laddar dynamiskt en volymetrisk video.",
+      "uvolPaths": "UVOL-vägar",
+      "playmode": "Spela läge",
+      "playtitle": "Leka",
+      "pausetitle": "Paus"
+    },
+    "spline": {
+      "description": "Skapa och anpassa kurvor dynamiskt.",
+      "lbl-addNode": "Lägg till nod i kurvan."
+    },
+    "systemnode": {
+      "description": "Bifoga skript.",
+      "lbl-filePath": "URL",
+      "lbl-systemUpdateType": "Injektionspunkt",
+      "lbl-enableClient": "Klient",
+      "lbl-enableServer": "Server",
+      "lbl-args": "Args",
+      "error-url": "Fel vid laddning av skript från URL"
+    },
+    "portal": {
+      "lbl-portal": "Länkad portal",
+      "lbl-redirect": "Använd sidomdirigering",
+      "description": "En Portat för att teleportera spelare till angiven plats",
+      "lbl-locationName": "Plats",
+      "lbl-modelUrl": "Modellens URL",
+      "lbl-displayText": "Visa text",
+      "lbl-cubemapBake": "Cubemap baka",
+      "lbl-spawnPosition": "Spawn Position",
+      "lbl-spawnRotation": "Spawn Rotation",
+      "lbl-triggerPosition": "Utlösningsläge",
+      "lbl-triggerRotation": "Rotation av utlösare",
+      "lbl-triggerScale": "Utlösarskala"
+    },
+    "postprocessing": {
+      "name": "Efterbehandling",
+      "description": "För att tillämpa efterbehandlingseffekter på din scen."
+    }
+  },
+  "projects": {
+    "createProject": {
+      "header": "Nytt projekt",
+      "backLink": "Tillbaka till projekt",
+      "featured": "Utvalda",
+      "all": "Alla",
+      "newProject": "Nytt tomt projekt",
+      "ph-search": "Sök scener..."
+    },
+    "grid": {
+      "loading": "Lastning..."
+    },
+    "page": {
+      "header": "Välkommen",
+      "headerMsg": "Om du är ny här rekommenderar vi att du går igenom handledningen. Annars kan du hoppa direkt in och skapa ett projekt från grunden eller från en av våra mallar.",
+      "lbl-startTutorial": "Starta handledning",
+      "projects": "Projekt",
+      "lbl-newProject": "Nytt projekt"
+    }
+  },
+  "layout": {
+    "assetGrid": {
+      "loading": "Lastning...",
+      "placeObject": "Placera objekt",
+      "placeObjectAtOrigin": "Placera objekt vid ursprunget",
+      "copyURL": "Kopiera URL",
+      "openInNewTab": "Öppna URL på ny flik",
+      "deleteAsset": "Ta bort resurs"
+    },
+    "filebrowser": {
+      "addNewFolder": "Lägg till ny mapp",
+      "cutAsset": "Skära",
+      "copyAsset": "Kopia",
+      "pasteAsset": "Klistra",
+      "renameAsset": "Byt namn",
+      "viewAssetProperties": "Visa egenskaper"
+    }
+  },
+  "hierarchy": {
+    "lbl-rename": "Byt namn",
+    "lbl-duplicate": "Duplicera",
+    "lbl-group": "Grupp",
+    "lbl-delete": "Ta bort",
+    "lbl-expandAll": "Expandera alla",
+    "lbl-collapseAll": "Kollapsa alla",
+    "isseus": "Frågor:"
+  },
+  "dnd": {
+    "nodes": "{{count}} noder valda",
+    "models": "{{count}} Modeller valda",
+    "images": "{{count}} bilder valda",
+    "videos": "{{count}} videor i urval",
+    "audio": "{{count}} Ljudkällor valda"
+  },
+  "dialog": {
+    "title": "Redaktör",
+    "lbl-confirm": "Okej",
+    "lbl-cancel": "Annullera",
+    "exportProject": {
+      "title": "Exportera projekt",
+      "lbl-confirm": "Exportera projekt",
+      "lbl-combineMesh": "Kombinera maskor",
+      "lbl-removeUnused": "Ta bort oanvända objekt"
+    },
+    "performance": {
+      "title": "Prestandakontroll",
+      "lbl-confirm": "Publicera scen",
+      "learnMore": "Lära sig mer",
+      "lbl-polycount": "Antal polygoner",
+      "lbl-material": "Material",
+      "lbl-texture": "Texturer",
+      "lbl-lights": "Ljus",
+      "lbl-fileSize": "Filstorlek",
+      "info-polycount": "Vi rekommenderar att din scen inte använder mer än 50 000 trianglar för mobila enheter.",
+      "info-material": "Vi rekommenderar att du inte använder mer än 25 unika material i din scen för att minska dragningssamtal på mobila enheter.",
+      "info-texture": "Vi rekommenderar att dina texturer inte använder mer än 256 MB video-RAM för mobila enheter. Vi rekommenderar också att du inte använder texturer större än 2048 x 2048.",
+      "info-lights": "Även om dynamiska lampor inte är aktiverade på mobila enheter rekommenderar vi att du inte använder mer än tre lampor i din scen (exklusive omgivande lampor och halvklotsljus) för att din scen ska kunna köras på low-end-datorer.",
+      "info-fileSize": "Vi rekommenderar en slutlig filstorlek på högst 16 MB för anslutningar med låg bandbredd. Att minska filstorleken minskar den tid det tar att ladda ner din scen.",
+      "txt-polycount": "{{count}} Trianglar",
+      "txt-material": "{{count}} Material",
+      "txt-ram": "~{{count}} Video RAM",
+      "txt-texture": "{{count}} Stora texturer",
+      "txt-lights": "{{count}} Ljus"
+    },
+    "progress": {
+      "title": "Lastning...",
+      "msg": "Lastning...",
+      "lbl-cancel": "Annullera"
+    },
+    "publish": {
+      "title": "Publicera scen",
+      "lbl-confirm": "Spara och publicera",
+      "lbl-name": "Scenens namn",
+      "info-name": "Namnet måste vara mellan 4 och 64 tecken och får inte innehålla understreck"
+    },
+    "published": {
+      "title": "Scen publicerad",
+      "header": "Din scen har publicerats.",
+      "lbl-view": "Visa din scen"
+    },
+    "saveNewProject": {
+      "title": "Stöd",
+      "lbl-name": "Projektets namn",
+      "info-name": "Namnet måste vara mellan 4 och 64 tecken och får inte innehålla understreck",
+      "lbl-confirm": "Spara projekt"
+    },
+    "support": {
+      "title": "Stöd",
+      "header": "Behöver du rapportera ett problem?",
+      "msg": "Du kan lämna in ett <1>GitHub-problem</1> eller skicka e-post till oss för support på <3>{{mail}}</3>",
+      "discord": "Du kan också hitta oss på <1>Discord</1>"
+    }
+  },
+  "sources": {
+    "bingImage": {
+      "name": "Bilder på Bing",
+      "search": "Sök efter Bing"
+    },
+    "bingVideo": {
+      "name": "Bing-videor",
+      "search": "Sök efter Bing"
+    },
+    "element": {
+      "name": "Element"
+    },
+    "myAssets": {
+      "name": "Mina tillgångar"
+    },
+    "googlePoly": {
+      "name": "Google Poly",
+      "search": "Sök med Google"
+    },
+    "tenor": {
+      "name": "Tenor GIF",
+      "search": "Sök efter tenor",
+      "ph-search": "Sök GIF..."
+    },
+    "sketchfab": {
+      "name": "Skissfab",
+      "search": "Sök efter Sketchfab"
+    }
+  },
+  "asset": {
+    "dropZone": {
+      "title": "Överför resurs"
+    },
+    "imageSourcePanel": {
+      "ph-search": "Sök bilder..."
+    },
+    "videoSourcePanel": {
+      "ph-search": "Sök videor..."
+    },
+    "assetSourcePanel": {
+      "ph-search": "Sök efter resurser..."
+    },
+    "modelSourcePanel": {
+      "ph-search": "Sök modeller..."
+    },
+    "useUpload": {
+      "multipleFileError": "Indata accepterar inte flera filer.",
+      "mineTypeError": "\"{{name}}\" matchar inte följande mime-typer eller tillägg: {{types}}",
+      "progressTitle": "Ladda upp filer",
+      "progressMsg": "Ladda upp filer {{uploaded}} av {{total}}: {{percentage}}%",
+      "uploadError": "Uppladdningsfel",
+      "uploadErrorMsg": "Fel vid uppladdning av fil: {{message}}",
+      "uploadErrorDefaultMsg": "Det uppstod ett okänt fel"
+    }
+  },
+  "openLink": {
+    "description": "Klicka på Öppna för att navigera till länken.",
+    "lbl-open": "Öppna"
+  },
+  "interactableModel": {
+    "lbl-buy": "Köpa",
+    "lbl-learnMore": "Lära sig mer"
+  },
+  "corsProxyButton": {
+    "tooltip": "Använda Cors Proxy Server"
+  }
+}

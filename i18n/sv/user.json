@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Bekräftelse via e-post",
+      "resendEmail": "Kontrollera din e-post för att verifiera ditt konto. Om du inte fick ett e-postmeddelande klickar du på {{here}} för att skicka verifieringsmeddelandet igen.",
+      "haveAnAccount": "Har du ett konto?"
+    },
+    "forgotPassword": {
+      "header": "Glömt ditt lösenord",
+      "enterEmail": "Ange din registrerade e-postadress så skickar vi dig en länk för återställning av lösenord.",
+      "lbl-email": "E-postadress",
+      "lbl-submit": "Skicka länk",
+      "emailSent": "Återställ lösenord E-post skickades. Kontrollera din e-post."
+    },
+    "login": {
+      "email": "Skicka e-post | SMS",
+      "username": "Användarnamn + lösenord",
+      "social": "Social"
+    },
+    "magiklink": {
+      "header": "Inloggningslänk",
+      "descriptionEmail": "Ange din e-postadress så skickar vi dig en inloggningslänk via e-post.",
+      "descriptionSMS": "Ange ditt telefonnummer så skickar vi en inloggningslänk via SMS.",
+      "descriptionEmailSMS": "Ange din e-postadress eller ditt telefonnummer (10-siffrigt, endast USA) så skickar vi dig en inloggningslänk via e-post eller SMS.",
+      "descriptionSMSUS": "Ange ditt telefonnummer (10-siffrigt, endast USA) så skickar vi dig en inloggningslänk via SMS.",
+      "lbl-email": "E-postadress",
+      "lbl-emailPhone": "E-postadress eller telefonnummer",
+      "lbl-phone": "Telefonnummer",
+      "agree": "Jag godkänner ",
+      "terms": "Regler & Villkor",
+      "lbl-submit": "Skicka inloggningslänk",
+      "email-sent-msg": "Login Magic Link skickades. Kontrollera din e-post.",
+      "success-msg": "Login Magic Link skickades. Kontrollera din e-post eller SMS.",
+      "sms-sent-msg": "Login Magic Link skickades. Kontrollera ditt SMS."
+    },
+    "passwordLogin": {
+      "header": "Logga in",
+      "lbl-email": "E-postadress",
+      "lbl-password": "Lösenord",
+      "lbl-rememberMe": "Kom ihåg mig",
+      "lbl-signin": "Logga in",
+      "forgotPassword": "Glömt ditt lösenord?",
+      "signup": "Har du inget konto? Registrera sig",
+      "lbl-login": "Logga in",
+      "ph-password": "Lösenord",
+      "ph-email": "E-post"
+    },
+    "social": {
+      "gitHub": "Logga in med GitHub",
+      "google": "Logga in med Google",
+      "facebook": "Logga in med Facebook",
+      "linkedin": "Logga in med Linkedin",
+      "twitter": "Logga in med Twitter"
+    },
+    "register": {
+      "header": "Registrera sig",
+      "login": "Logga in",
+      "lbl-signup": "Registrera sig",
+      "lbl-password": "Lösenord",
+      "lbl-email": "E-postadress",
+      "passwordNotMatch": "Lösenord matchar inte",
+      "ph-password": "Lösenord",
+      "ph-confirmPassword": "Bekräfta lösenord",
+      "ph-email": "E-post"
+    },
+    "resetPassword": {
+      "header": "Återställ lösenord",
+      "description": "Ange ditt lösenord för din e-postadress",
+      "lbl-submit": "Återställ lösenord",
+      "lbl-password": "Lösenord",
+      "lbl-confirmPassword": "Bekräfta lösenord",
+      "passwordNotMatch": "Lösenord matchar inte",
+      "nowLoginYourAccount": "Du kan nu logga in på ditt konto",
+      "yourPasswordResetSuccess": "Ditt lösenord har återställts!"
+    },
+    "verifyEmail": {
+      "header": "Verifiera e-post",
+      "processing": "Vänta en stund medan du bearbetar ..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Platser",
+      "loading": "Lastning",
+      "col-name": "Namn",
+      "col-scene": "Scen",
+      "col-maxuser": "Maximalt antal användare",
+      "lbl-search": "Sök efter platser",
+      "lbl-new": "Ny"
+    },
+    "newLocation": {
+      "title": "Plats",
+      "success": "Sparas framgångsrikt.",
+      "failure": "Något gick fel.",
+      "removeSuccess": "Platsen har tagits bort.",
+      "nameInUse": "Namn används.",
+      "nameRequire": "Namn krävs.",
+      "validNumber": "Endast siffror (0-9) är tillåtna.",
+      "lbl-name": "Namn",
+      "lbl-maxuser": "Maximalt antal användare",
+      "lbl-scene": "Scen",
+      "lbl-type": "Typ",
+      "lbl-ve": "Video aktiverad",
+      "lbl-gme": "Globala medier aktiverade",
+      "lbl-update": "Uppdatera",
+      "lbl-create": "Skapa",
+      "tooltipCanNotBeDeleted": "Lobbyn kan inte raderas",
+      "confirmation": "Är du säker?",
+      "lbl-yes": "Ja",
+      "lbl-no": "Nej"
+    },
+    "share": {
+      "lbl-share": "Aktie",
+      "ph-phoneEmail": "Bjud in via e-post eller telefonnummer",
+      "lbl-phoneEmail": "Skicka till e-post eller telefonnummer",
+      "lbl-copy": "Kopia",
+      "lbl-send-invite": "Skicka inbjudan",
+      "title": "Dela din plats-URL med ditt team",
+      "linkCopied": "Länken kopieras till Urklipp."
+    },
+    "setting": {
+      "audio": "Ljud",
+      "lbl-volume": "Volym",
+      "lbl-microphone": "Mikrofon",
+      "graphics": "Grafik",
+      "controls": "Kontroller",
+      "lbl-control-type": "Typ av styrenhet",
+      "lbl-control-scheme": "Kontrollschema",
+      "lbl-resolution": "Resolution",
+      "lbl-shadow": "Skuggor",
+      "lbl-pp": "Efterbehandling",
+      "lbl-pbr": "Fullständig PBR",
+      "lbl-automatic": "Automatisk",
+      "xrusersetting": "XR-användarinställningar",
+      "rotation": "Rotation",
+      "rotation-smooth-speed": "Rotation jämn hastighet",
+      "rotation-angle": "Rotationsvinkel",
+      "moving": "Rörande",
+      "user-avatar": "Inställning av avatar",
+      "invert-rotation": "Invertera rotation och flytta pinnar",
+      "show-avatar": "Visa avatar"
+    },
+    "profile": {
+      "lbl-profile": "Profil",
+      "lbl-settings": "Inställningar",
+      "lbl-username": "Användarnamn",
+      "update-msg": "Användarnamnet uppdaterat",
+      "inviteCode": "Bjud in kod",
+      "youAreAn": "Du är en",
+      "youAreA": "Du är en",
+      "showUserId": "Visa användar-ID",
+      "hideUserId": "Dölj användar-ID",
+      "showApiKey": "Visa API-nyckel",
+      "hideApiKey": "Dölj API-nyckel",
+      "apiKey": "API-nyckel",
+      "logout": "Logga ut",
+      "connectPhone": "Anslut ditt telefonnummer",
+      "connectEmail": "Anslut din e-post",
+      "connectPhoneEmail": "Anslut din e-postadress eller ditt telefonnummer",
+      "or": "Eller",
+      "lbl-wallet": "Logga in med plånbok",
+      "ph-email": "E-post",
+      "ph-phone": "Telefonnummer",
+      "ph-phoneEmail": "Telefonnummer / e-post",
+      "phoneEmailError": "Ogiltig telefon # eller e-postadress",
+      "phoneError": "Ogiltig telefon #",
+      "emailError": "Ogiltig e-postadress",
+      "loginWithReadyPlayerMe": "Logga in med Ready Player Me",
+      "connectSocial": "Anslut till sociala konton",
+      "createOne": "Om du inte har ett konto skapas ett nytt åt dig",
+      "connections": {
+        "title": "Anslutningar",
+        "ipError": "Det går inte att ta bort aktiv identitetsprovider",
+        "disconnect": "frånkoppling",
+        "connect": "Ansluta"
+      },
+      "profileDropdown": {
+        "avatar": "Ikon för användarens avatar",
+        "profile": "Profil",
+        "adminConsole": "Administratörskonsol",
+        "logout": "Utloggning"
+      },
+      "userIcon": {
+        "lbl-name": "Ditt namn",
+        "lbl-update": "Uppdatera",
+        "userId": "Användar-ID",
+        "ph-uploadImg": "Ladda upp produktbild",
+        "lbl-selectAcvatar": "Välj Avatar",
+        "lbl-submit": "Inlämna"
+      },
+      "userSettings": {
+        "volume": "Volym",
+        "microphone": "Mikrofon",
+        "resolution": "Resolution",
+        "high": "Hög",
+        "low": "Låg",
+        "spatialAudio": "Använda rumsligt ljud",
+        "enterMuted": "Gå in i rummet avstängt"
+      }
+    },
+    "oauth": {
+      "authenticating": "Autentisering...",
+      "authFailed": "{{service}} autentiseringen misslyckades."
+    },
+    "magikLink": {
+      "wait": "Vänta en stund medan du bearbetar ..."
+    },
+    "dashboard": {
+      "header": "Instrumentbräda",
+      "dashboard": "Instrumentbräda",
+      "users": "Användare",
+      "feeds": "Feeds",
+      "instance": "Instans",
+      "locations": "Platser",
+      "invites": "Inbjuder",
+      "sessions": "Sessioner",
+      "groups": "Grupper",
+      "parties": "Fester",
+      "chats": "Chattar",
+      "content": "Innehållspaket",
+      "projects": "Projekt",
+      "scenes": "Scener",
+      "avatars": "Avatarer",
+      "benchmarking": "Riktmärkning",
+      "bots": "Bots"
+    }
+  },
+  "oauth": {
+    "authenticating": "Autentisering...",
+    "authFailed": "{{service}} autentiseringen misslyckades."
+  },
+  "magikLink": {
+    "wait": "Vänta en stund medan du bearbetar ..."
+  },
+  "dashboard": {
+    "header": "Instrumentbräda",
+    "dashboard": "Instrumentbräda",
+    "users": "Användare",
+    "feeds": "Feeds",
+    "instance": "Instans",
+    "locations": "Platser",
+    "routes": "Vägar",
+    "projects": "Projekt",
+    "invites": "Inbjuder",
+    "sessions": "Sessioner",
+    "groups": "Grupper",
+    "parties": "Fester",
+    "chats": "Chattar",
+    "content": "Innehållspaket",
+    "scenes": "Scener",
+    "avatars": "Avatarer",
+    "benchmarking": "Riktmärkning",
+    "bots": "Bots",
+    "setting": "Inställningar"
+  },
+  "avatar": {
+    "title": "Ladda upp avatar",
+    "lbl-browse": "Bläddra",
+    "lbl-thumbnail": "Tumnagel",
+    "lbl-upload": "Ladda upp",
+    "selectAvatar": "Välj Avatar...",
+    "selectThumbnail": "Välj Miniatyrbild...",
+    "rotate": "Rotera",
+    "pan": "Panna",
+    "noBone": "Obejct innehåller inga ben eller hud",
+    "outOfBound": "Objektet är inte bundet.",
+    "emptyObj": "Objektet är tomt.",
+    "maxTriangleError": "Objektet innehåller större än {{allowedTriangles}} ansikten.",
+    "selectValidFile": "Välj giltig 3D-avatarfil.",
+    "selectValidThumbnail": "Vald giltig miniatyrfil.",
+    "fileOversized": "Avatarfilstorleken måste vara mellan {{minSize}} MB och {{maxSize}} MB",
+    "confirmation": "Är du säker?",
+    "canNotBeRemoved": "Aktiv avatar kan inte tas bort",
+    "remove": "Ta bort avatar",
+    "uploadFiles": "Ladda upp filer",
+    "useUrlInstead": "Använd webbadress istället",
+    "avatar": "Avatar",
+    "cancel": "Annullera",
+    "createAvatar": "Skapa avatar",
+    "delete": "Ta bort",
+    "view": "Utsikt",
+    "uploadAvatarInfo": "Uppdatera avatarinformation",
+    "name": "Namn",
+    "enterName": "Ange namn",
+    "avatarInformation": "Avatar Information",
+    "description": "Beskrivning",
+    "key": "Nyckel",
+    "none": "Ingen",
+    "submit": "Inlämna",
+    "edit": "Redigera",
+    "avatarUrl": "Avatar url",
+    "upload-success-msg": "Avatar laddades upp framgångsrikt.",
+    "remove-success-msg": "Avatar laddades upp framgångsrikt.",
+    "warning-msg": "Avatarresursen är tom, har du synkroniserat avatarer till din statiska fillagring?"
+  },
+  "personMenu": {
+    "inviteToParty": "Bjud in till fest",
+    "addAsFriend": "Lägg till som vän",
+    "mute": "Stum",
+    "block": "Block"
+  },
+  "person": {
+    "you": "Du",
+    "yourScreen": "Din skärm",
+    "muteForEveryone": "Stäng av ljudet för alla",
+    "unmuteForEveryone": "Slå på ljudet för alla",
+    "muteMe": "Stäng av ljudet för mig",
+    "unmuteMe": "Slå på ljudet för mig",
+    "muteThisPerson": "Stäng av ljudet för den här personen",
+    "unmuteThisPerson": "Slå på ljudet för den här personen",
+    "openPictureInPicture": "Öppna bild i bild"
+  }
+}

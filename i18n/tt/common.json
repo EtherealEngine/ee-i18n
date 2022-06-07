@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Йөкләү бите..."
+  },
+  "tooltip": {
+    "pressKey": "{{tip}} {{message}}"
+  },
+  "toast": {
+    "joined": "кушылды",
+    "left": "сул тараф кешеләре,"
+  },
+  "navUserWidget": {
+    "login": "Керергә"
+  },
+  "loader": {
+    "connecting": "Дөньяга тоташтырыу...",
+    "entering": "Дөньяга керү...",
+    "loading": "Йөкләү...",
+    "objectRemaining": "{{count}} объект кала",
+    "objectRemainingPlural": "{{count}} объектлар кала",
+    "loadingObjects": "Әйберләрне йөкләү",
+    "loadingComplete": "Тулы йөкләү",
+    "joiningWorld": "Дөньяга кушылабыз"
+  },
+  "alert": {
+    "eventWasSuccess": "Вакыйга уңышлы булды",
+    "errorWasEncountered": "Тәхкыйк адашканнар һәлак булдылар.",
+    "eventInProgress": "Рухи яктан үсү",
+    "seconds": "секундлар",
+    "cancelCountdown": "Бу модальны ябу кире санауны кире кагачак"
+  },
+  "debug": {
+    "refresh": "Көч",
+    "stats": "Статистика",
+    "debugOptions": "Дебуг вариантлары",
+    "physicsDebug": "Физика",
+    "avatarDebug": "Аватар",
+    "nodeHelperDebug": "Төймә ярдәмче",
+    "gridDebug": "Челтәр",
+    "simpleMaterials": "Гади материаллар",
+    "tick": "Кәнган",
+    "worldStore": "Бөтендөнья кибете",
+    "engineStore": "Двигатель кибете",
+    "namedEntities": "Оешма дип аталган",
+    "networkObject": "Челтәр объекты",
+    "networkClients": "Челтәр клиентлары"
+  },
+  "recording": {
+    "videoRecorder": "Видеояссер",
+    "waitingForPermissions": "Рөхсәтне көтеп",
+    "selectVideoSource": "Видео чыганакны сайлагыз",
+    "screen": "Экран",
+    "camera": "Камера",
+    "microphone": "Микрофон",
+    "startRecording": "Язуны башларга",
+    "pauseRecording": "Пауза язу",
+    "resumeRecording": "Кабат язу",
+    "stopRecording": "Язуны туктат"
+  },
+  "typing": "Тайпинг...",
+  "gameServer": {
+    "browserError": "Браузер хатасы",
+    "browserErrorMessage": "Браузер шәхси браузер режимында саклауны якламый. Я башка браузерны тырышыгыз, яисә шәхси браузер режимыннан чыгу.",
+    "noAvailableServers": "Бернинди дә серверлар юк",
+    "noAvailableServersMessage": "Тоташтыру өчен сезгә бернинди сервер юк. Кабат тоташырга тырышу",
+    "worldDisconnected": "Дөнья өзелү",
+    "worldDisconnectedMessage": "Син дөнья белән бәйләнешеңне югалттың. Киләсе тапкыр чыкканчы яңадан яңадан тоташырга тырышабыз, югыйсә сез башка бер очракта алга ыргытылырсыз.",
+    "webGLNotEnabled": "WebGL",
+    "webGLNotEnabledMessage": "Браузер WebGL якламый, яисә инвалид. WebGL-ны тәкъдим итегез яки браузерның соңгы версиясенә яңартырга мөмкинлек бирегез.",
+    "youKickedFromWorld": "Син бу дөньядан котылгансың",
+    "youKickedFromWorldMessage": "Син бу дөньядан мондый сәбәпкә ия булдыңме ?",
+    "invalidLocation": "Чынсыз урнашу",
+    "cantFindLocation": "Урынын без таба алмыйбыз",
+    "misspelledOrNotExist": "Аны югалтырга мөмкин, яисә ул юк булырга мөмкин.",
+    "loading": "Йөкне күтәреп йөрүче мәсхүл-",
+    "low-frame-error": "Начар перфомия браузерда җиһаз тизләнешне кулланырга һәм браузерны яңадан торгызырга мөмкинлек бирә икәнен карап чыгыйк .",
+    "low-frame-title": "Яхшы тәҗрибә өчен җиһаз тизләнешне мөмкинлек итегез!"
+  },
+  "error": {
+    "loading-error": "Кулланучыларның мәгълүматын йөкләмәгән",
+    "validation-error": "Изге Язмаларны кулланырга тырышыгыз {{type}}",
+    "login-error": "Логин"
+  }
+}

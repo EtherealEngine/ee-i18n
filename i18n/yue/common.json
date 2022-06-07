@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "正在加載頁面..."
+  },
+  "tooltip": {
+    "pressKey": "按 {{tip}} 鍵 {{message}}"
+  },
+  "toast": {
+    "joined": "加入",
+    "left": "左"
+  },
+  "navUserWidget": {
+    "login": "登錄"
+  },
+  "loader": {
+    "connecting": "連接世界...",
+    "entering": "進入世界...",
+    "loading": "裝載。。。",
+    "objectRemaining": "剩餘{{count}}對象",
+    "objectRemainingPlural": "剩餘{{count}}對象",
+    "loadingObjects": "加載對象",
+    "loadingComplete": "加載完成",
+    "joiningWorld": "加入世界"
+  },
+  "alert": {
+    "eventWasSuccess": "活動成功",
+    "errorWasEncountered": "遇到錯誤",
+    "eventInProgress": "事件進行中",
+    "seconds": "秒",
+    "cancelCountdown": "關閉此模式將取消倒計時"
+  },
+  "debug": {
+    "refresh": "刷新",
+    "stats": "統計",
+    "debugOptions": "調試選項",
+    "physicsDebug": "物理",
+    "avatarDebug": "化身",
+    "nodeHelperDebug": "節點助手",
+    "gridDebug": "網格",
+    "simpleMaterials": "簡單材料",
+    "tick": "蜱",
+    "worldStore": "世界商店",
+    "engineStore": "發動機商店",
+    "namedEntities": "命名實體",
+    "networkObject": "網絡對象",
+    "networkClients": "網絡客戶耑"
+  },
+  "recording": {
+    "videoRecorder": "錄像機",
+    "waitingForPermissions": "等待權限",
+    "selectVideoSource": "選擇視頻源",
+    "screen": "屏幕",
+    "camera": "相機",
+    "microphone": "咪",
+    "startRecording": "開始錄製",
+    "pauseRecording": "暫停錄製",
+    "resumeRecording": "恢復錄製",
+    "stopRecording": "停止錄製"
+  },
+  "typing": "打字。。。",
+  "gameServer": {
+    "browserError": "瀏覽器錯誤",
+    "browserErrorMessage": "您的瀏覽器唔支持喺無痕瀏覽模式下存儲。 嘗試其他瀏覽器，或退出無痕瀏覽模式。",
+    "noAvailableServers": "沒有可用的服務器",
+    "noAvailableServersMessage": "冇任何服務器可供您連接。 嘗試重新連接",
+    "worldDisconnected": "世界斷開連接",
+    "worldDisconnectedMessage": "你有失去與世界嘅聯繫。 我哋將嘗試喺以下時間用完之前連接番，否則系統會把你轉發到其他實例。",
+    "webGLNotEnabled": "未啟用WebGL",
+    "webGLNotEnabledMessage": "您的瀏覽器唔撐WebGL，抑或它被禁用。 請啟用WebGL或考慮升級到最新版本嘅瀏覽器。",
+    "youKickedFromWorld": "你被踢出了世界",
+    "youKickedFromWorldMessage": "你被踢出呢個世界嘅原因如下",
+    "invalidLocation": "無效位置",
+    "cantFindLocation": "我哋搵唔到該位置",
+    "misspelledOrNotExist": "它可能拼寫錯誤，抑或它可能唔存在。",
+    "loading": "裝載",
+    "low-frame-error": "檢測到性能不佳，請考慮喺瀏覽器中啟用使用硬件加速並發佈瀏覽器番",
+    "low-frame-title": "啟用硬件加速以獲得更好嘅體驗！"
+  },
+  "error": {
+    "loading-error": "無法加載用戶數據",
+    "validation-error": "請輸入有效的 {{type}}",
+    "login-error": "登錄失敗"
+  }
+}

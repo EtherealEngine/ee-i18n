@@ -1,0 +1,202 @@
+{
+  "addComment": "Ongeza Maoni...",
+  "share": "Kushiriki",
+  "suggestions": "Mapendekezo kwa ajili yako",
+  "seeAll": "Tazama Yote",
+  "likes": "Anapenda",
+  "viewComments": "Tazama maoni yote ya {{count}}",
+  "more": "Zaidi",
+  "username": "jina la mtumiaji",
+  "fullName": "Jina la Surname",
+  "reportInApporpriate": "Ripoti Isiyofaa",
+  "unfollow": "Unfollow",
+  "goToPost": "Nenda kwenye Chapisho",
+  "shareModal": "Kushiriki",
+  "copyLink": "Nakili Kiungo",
+  "embed": "Pachika",
+  "cancel": "Katisha",
+  "confirm": "Thibitisha",
+  "save": "Hifadhi",
+  "profilePic": "picha ya wasifu wa {{user}}",
+  "ara": "Ara",
+  "follow": "Kufuata",
+  "flames": "Mioto",
+  "continue": "Kuendelea",
+  "partyInvitationSent": "Mwaliko wa chama umetumwa",
+  "arMedia": {
+    "back": "Nyuma",
+    "clip": "Klipu",
+    "backgrounds": "Asili",
+    "start": "Kuanza"
+  },
+  "arMediaform": {
+    "title": "Kichwa",
+    "type": "Aina",
+    "clip": "Klipu",
+    "background": "Mandharinyuma",
+    "scene": "Eneo",
+    "save": "Hifadhi",
+    "manifest-file": "Manifest .manifest faili",
+    "audio-file": "Faili ya Mp4",
+    "dracosis-file": "Faili ya Dracosis .uvol",
+    "preview-file": "Onyesha awali faili ya taswira"
+  },
+  "creator": {
+    "myVideos": "Video Zangu",
+    "savedVideos": "Video Zilizohifadhiwa",
+    "back": "Nyuma",
+    "blocked-list": "Orodha Iliyozuiwa",
+    "block-user": "Zuia Mtumiaji",
+    "dialog-content": "Hutaona wasifu na maudhui ya mtumiaji"
+  },
+  "creatorForm": {
+    "back": "Nyuma",
+    "edit": "Hariri Profaili",
+    "save": "Hifadhi",
+    "changeAvatar": "Badilisha taswira ya avatar",
+    "ph-selectPreview": "Teua mwoneko awali",
+    "ph-name": "Jina lako",
+    "ph-username": "Jina lako la mtumiaji",
+    "ph-email": "Barua pepe yako",
+    "ph-tags": "Tags",
+    "ph-link": "Kiungo",
+    "ph-aboutYou": "Zaidi kuhusu wewe",
+    "ph-twitter": "Twitter",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Jisajili"
+  },
+  "dashboard": {
+    "title": "Dashibodi",
+    "dashboard": "Dashibodi",
+    "users": "Watumiaji",
+    "feeds": "Vilishi",
+    "arMedia": "Vyombo vya Habari vya Video",
+    "editor": "Kihariri",
+    "creator": "Muumba"
+  },
+  "featured": {
+    "empty-list": "Hakuna vilishi kwa sasa..."
+  },
+  "feed": {
+    "back": "Nyuma",
+    "related": "Vilishi husika",
+    "is-repoted-message": "Chakula kinaripotiwa!"
+  },
+  "feedForm": {
+    "back": "Nyuma",
+    "thanks": "Shukrani kwa ajili ya kushiriki na kuboresha jamii yetu",
+    "share": "Shiriki kitu na jamii",
+    "upload": "Pakia Video",
+    "ph-selectVideo": "Teua Video",
+    "preview": "Onyesha awali taswira",
+    "ph-selectPreview": "Teua mwoneko awali",
+    "createFeed": "Ili kuunda kilishi lazima uwe na video na picha ya hakikisho!!!",
+    "ph-videoName": "Jina la video yako",
+    "ph-type": "Andika kile unachotaka kushiriki na jamii ... ",
+    "lbl-share": "Kushiriki",
+    "save": "Hifadhi na uende Ifuatayo"
+  },
+  "feedMenu": {
+    "featured": "Matukio",
+    "creators": "Waumbaji",
+    "feed": "Mlisho"
+  },
+  "header": {
+    "lbl-volumetric": "Volumetric"
+  },
+  "login": {
+    "account": "Je, una akaunti?",
+    "login": "Kuingia",
+    "resetPassword": "Weka upya kitufe bandia cha Nenosiri (hapa itakuwa kiungo kutoka kwa barua pepe)",
+    "notHavingAccount": "Je, huna akaunti?",
+    "signUp": "Jisajili",
+    "forgotPassword": "Umesahau nywila?",
+    "back": "Nyuma",
+    "or": "AU"
+  },
+  "comment": {
+    "add": "Ongeza maoni yako..."
+  },
+  "notification": {
+    "feedFire": " kufyatua chakula chako",
+    "feedBookmarked": " Weka alama kwenye kilishi chako",
+    "comment": " alitoa maoni ya malisho yako:",
+    "commentFire": " alifuta maoni yako kwa kulisha",
+    "follow": " Kuanza kukufuata",
+    "unfollow": " imekomesha kukufuata",
+    "followed": " Kukufuata",
+    "activity": "Shughuli"
+  },
+  "onBoarding": {
+    "welcome": "Karibu!",
+    "description": "Mkusanyiko mkubwa wa mipangilio 370+ ya prototyping ya iOS.",
+    "next": "Ijayo",
+    "discover": "Gundua makala,",
+    "news": "habari na machapisho",
+    "lines": "Ni hisia hizo ambazo zinaendesha upendo wetu wa unajimu na hamu yetu.",
+    "getStarted": "Anza",
+    "meetUp": "Kutana na",
+    "friends": "Marafiki.",
+    "meet": "Kukutana na marafiki"
+  },
+  "shareForm": {
+    "arcMedia": "Kushiriki",
+    "videoCreated": "Nilitengeneza video hii",
+    "shareWithBuddies": "Shiriki na marafiki",
+    "shareVideo": "Gawiza Video",
+    "save": "Hifadhi kwenye Roll ya Kamera",
+    "cancel": "Katisha",
+    "close": "Funga",
+    "addFeed": "Ongeza Kilishi"
+  },
+  "simpleModal": {
+    "emptyList": "Orodha tupu",
+    "followers": " Yafuatayo",
+    "following": " Wafuasi",
+    "flames": " Mioto"
+  },
+  "splash": {
+    "screen": "Skrini ya Splash",
+    "logo": "Nembo"
+  },
+  "story": {
+    "profilePic": "picha ya wasifu wa {{user}}"
+  },
+  "view": {
+    "cancel": "Katisha",
+    "choice": "Una njia mbili tofauti za kurekodi za kuchagua kutoka",
+    "verticalMode": "Hali wima ina wakati wa rekodi ya sec 30",
+    "horizontalMode": "Hali mlalo ina wakati wa rekodi usio na kikomo",
+    "start": "Kuanza",
+    "not-show": "Usiionyeshe tena",
+    "welcome": "Karibu kwenye ARC!  Tengeneza video za kibinafsi na moja ya holograms zetu na uichapishe kwenye njia zako za media ya kijamii!",
+    "step": "HATUA {{step}}",
+    "text-step-1": "Chagua hologram kutoka kwa maktaba.",
+    "text-step-2": "Hii ni Ukweli wa Augmented, kwa hivyo changanua nafasi na kamera yako kutoka upande hadi upande kwa sekunde 3-5 ambapo unataka utendaji wa hologram uwe.",
+    "text-step-3-part-1": "Gusa skrini mara moja kwenye eneo ambapo unataka hologram iliyotia nanga.",
+    "text-step-3-part-2": "KIDOKEZO!  Gusa mara moja mahali pengine ili kuhamisha hologram hadi nafasi nyingine.",
+    "text-step-3-part-3": "KIDOKEZO!  Unaweza kubadilisha ukubwa wa hologram kwa kufinya au kupanua skrini kwa kidole gumba chako na kidole cha index.",
+    "text-step-4-part-1": "Gusa mara mbili kitufe cha rekodi nyekundu ili KUANZA kurekodi video yako.",
+    "text-step-4-part-2": "Gusa mara mbili kitufe cha rekodi nyekundu hadi STOP."
+  },
+  "video": {
+    "back": "Nyuma"
+  },
+  "terms": {
+    "confirmTerms": "Nakubaliana na Masharti ya Huduma",
+    "confirmPolicy": "Nakubaliana na Sera ya Faragha"
+  },
+  "registration": {
+    "ph-phoneEmail": "Tumia simu / barua pepe",
+    "facebook": "Endelea na Facebook",
+    "google": "Endelea na Google",
+    "linkedin": "Endelea na Linkedin",
+    "twitter": "Endelea na Twitter",
+    "gitHub": "Endelea na GitHub",
+    "connect": "Unganisha barua pepe yako au nambari ya simu",
+    "logIn": "Ingia ndani",
+    "LogInTo": "Ingia kwenye",
+    "continueAsGuest": "Endelea kama mgeni"
+  }
+}

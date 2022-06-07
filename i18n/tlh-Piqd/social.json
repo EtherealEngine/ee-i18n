@@ -1,0 +1,202 @@
+{
+  "addComment": "\" ",
+  "share": "",
+  "suggestions": "",
+  "seeAll": "",
+  "likes": "",
+  "viewComments": "@____ ",
+  "more": "",
+  "username": "",
+  "fullName": "",
+  "reportInApporpriate": " ",
+  "unfollow": "",
+  "goToPost": "",
+  "shareModal": "",
+  "copyLink": "",
+  "embed": "",
+  "cancel": "",
+  "confirm": "",
+  "save": "",
+  "profilePic": " @____",
+  "ara": "",
+  "follow": "",
+  "flames": "",
+  "continue": "",
+  "partyInvitationSent": "",
+  "arMedia": {
+    "back": "",
+    "clip": "",
+    "backgrounds": "",
+    "start": ""
+  },
+  "arMediaform": {
+    "title": "",
+    "type": "",
+    "clip": "",
+    "background": "",
+    "scene": "",
+    "save": "",
+    "manifest-file": " ",
+    "audio-file": "",
+    "dracosis-file": "",
+    "preview-file": " "
+  },
+  "creator": {
+    "myVideos": " ",
+    "savedVideos": "",
+    "back": "",
+    "blocked-list": "",
+    "block-user": "",
+    "dialog-content": "  "
+  },
+  "creatorForm": {
+    "back": "",
+    "edit": "",
+    "save": "",
+    "changeAvatar": "",
+    "ph-selectPreview": "",
+    "ph-name": " ",
+    "ph-username": "",
+    "ph-email": "",
+    "ph-tags": "",
+    "ph-link": "",
+    "ph-aboutYou": "  ",
+    "ph-twitter": "",
+    "ph-instagram": "",
+    "ph-tiktok": "",
+    "sign-out": ""
+  },
+  "dashboard": {
+    "title": "[]",
+    "dashboard": "[]",
+    "users": "",
+    "feeds": "",
+    "arMedia": "",
+    "editor": "",
+    "creator": ""
+  },
+  "featured": {
+    "empty-list": ""
+  },
+  "feed": {
+    "back": "",
+    "related": "",
+    "is-repoted-message": "  "
+  },
+  "feedForm": {
+    "back": "",
+    "thanks": "  ",
+    "share": "   ",
+    "upload": "",
+    "ph-selectVideo": "",
+    "preview": "",
+    "ph-selectPreview": "",
+    "createFeed": "  !!!",
+    "ph-videoName": " ",
+    "ph-type": "\"    ",
+    "lbl-share": "",
+    "save": ""
+  },
+  "feedMenu": {
+    "featured": "",
+    "creators": "",
+    "feed": ""
+  },
+  "header": {
+    "lbl-volumetric": ""
+  },
+  "login": {
+    "account": " ?",
+    "login": "",
+    "resetPassword": "    **",
+    "notHavingAccount": " ?",
+    "signUp": "  ",
+    "forgotPassword": "   ",
+    "back": "",
+    "or": ""
+  },
+  "comment": {
+    "add": " "
+  },
+  "notification": {
+    "feedFire": "  ",
+    "feedBookmarked": " ",
+    "comment": "  \"",
+    "commentFire": "  ",
+    "follow": " ",
+    "unfollow": " ",
+    "followed": " ",
+    "activity": " "
+  },
+  "onBoarding": {
+    "welcome": "!",
+    "description": "+       ",
+    "next": "",
+    "discover": " ",
+    "news": "&  ",
+    "lines": "      ",
+    "getStarted": "",
+    "meetUp": "",
+    "friends": "",
+    "meet": ""
+  },
+  "shareForm": {
+    "arcMedia": "",
+    "videoCreated": "",
+    "shareWithBuddies": " ",
+    "shareVideo": "",
+    "save": "",
+    "cancel": "",
+    "close": "",
+    "addFeed": ""
+  },
+  "simpleModal": {
+    "emptyList": " ",
+    "followers": " ",
+    "following": " ",
+    "flames": " "
+  },
+  "splash": {
+    "screen": "",
+    "logo": ""
+  },
+  "story": {
+    "profilePic": " @____"
+  },
+  "view": {
+    "cancel": "",
+    "choice": "  ",
+    "verticalMode": "!",
+    "horizontalMode": "  ",
+    "start": "",
+    "not-show": "",
+    "welcome": "!  :   !",
+    "step": "@____",
+    "text-step-1": "   ",
+    "text-step-2": "    ",
+    "text-step-3-part-1": "   ",
+    "text-step-3-part-2": "!     ",
+    "text-step-3-part-3": "!        \"",
+    "text-step-4-part-1": "",
+    "text-step-4-part-2": "   "
+  },
+  "video": {
+    "back": ""
+  },
+  "terms": {
+    "confirmTerms": "  ",
+    "confirmPolicy": "  "
+  },
+  "registration": {
+    "ph-phoneEmail": "/  ",
+    "facebook": "",
+    "google": "",
+    "linkedin": " ",
+    "twitter": "",
+    "gitHub": "",
+    "connect": "  ",
+    "logIn": "",
+    "LogInTo": "",
+    "continueAsGuest": " "
+  }
+}

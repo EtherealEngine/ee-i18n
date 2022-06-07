@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Bet yuklanmoqda..."
+  },
+  "tooltip": {
+    "pressKey": "{{message}} uchun press {{tip}}"
+  },
+  "toast": {
+    "joined": "qo'shilgan",
+    "left": "chap tomon"
+  },
+  "navUserWidget": {
+    "login": "Kirish"
+  },
+  "loader": {
+    "connecting": "Dunyo bilan bog'lanish...",
+    "entering": "Dunyoga kirib...",
+    "loading": "Yuklanmoqda...",
+    "objectRemaining": "{{count}} obʼekt qoldigʻi",
+    "objectRemainingPlural": "{{count}} ob'ektlarning qoldig'i",
+    "loadingObjects": "Obʼektlar yuklanmoqda",
+    "loadingComplete": "Toʻliq yuklash",
+    "joiningWorld": "Dunyo bilan qo'shilish"
+  },
+  "alert": {
+    "eventWasSuccess": "Tadbir muvaffaqiyatli oʻtildi",
+    "errorWasEncountered": "Xatolik roʻy berdi",
+    "eventInProgress": "Tadbir davom etmoqda",
+    "seconds": "soniyalar",
+    "cancelCountdown": "Ushbu modal yopilishi hisoblashni bekor qiladi"
+  },
+  "debug": {
+    "refresh": "Yangilash",
+    "stats": "Statistika",
+    "debugOptions": "Debag parametrlari",
+    "physicsDebug": "Fizika",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Tugʻish yordamchisi",
+    "gridDebug": "Toʻr",
+    "simpleMaterials": "Oddiy materiallar",
+    "tick": "Boʻyiga",
+    "worldStore": "Jahon do'koni",
+    "engineStore": "Dvigatel doʻkoni",
+    "namedEntities": "Nomdor shaxslar",
+    "networkObject": "Tarmoq obʼekti",
+    "networkClients": "Tarmoq klientlari"
+  },
+  "recording": {
+    "videoRecorder": "Video yozib oluvchi",
+    "waitingForPermissions": "Huquqlar kutilmoqda",
+    "selectVideoSource": "Video manbasini tanlang",
+    "screen": "Ekran",
+    "camera": "Kamera",
+    "microphone": "Mikrofon",
+    "startRecording": "Yozishni boshlash",
+    "pauseRecording": "Yozuvni toʻxtatish",
+    "resumeRecording": "Yozishni davom ettirish",
+    "stopRecording": "Yozishni toʻxtatish"
+  },
+  "typing": "Yozib oʻtish",
+  "gameServer": {
+    "browserError": "Brauzer xatosi",
+    "browserErrorMessage": "Brauzeringiz shaxsiy brauzer rejimida saqlashni qo'llab-quvvatlamaydi. Boshqa brauzerni sinab ko'ring yoki shaxsiy ko'rib chiqish rejimidan chiqing.",
+    "noAvailableServers": "Mavjud server yoʻq",
+    "noAvailableServersMessage": "Ulanish uchun hech qanday server mavjud emas. Qayta ulanishga urinilmoqda",
+    "worldDisconnected": "Dunyo uzildi",
+    "worldDisconnectedMessage": "Dunyo bilan aloqangizni yo'qotib qo'ydingiz. Biz keyingi vaqt tugamay turib qayta ulanishga harakat qilamiz, aks holda sizni boshqa misolga yo'naltirishadi.",
+    "webGLNotEnabled": "WebGL yoqilmagan",
+    "webGLNotEnabledMessage": "Brauzeringiz WebGL-ni qo'llab-quvvatlamaydi yoki u o'chirib qo'yiladi. Iltimos, WebGL-ni yoqing yoki brauzeringizning so'nggi versiyasiga o'tishni o'ylab ko'ring.",
+    "youKickedFromWorld": "Dunyodan tepib bo'lding",
+    "youKickedFromWorldMessage": "Sizni bu dunyodan quyidagi sababga ko'ra tepishdi",
+    "invalidLocation": "Xato manzil",
+    "cantFindLocation": "Manzilni topa olmaymiz",
+    "misspelledOrNotExist": "Noto'g'ri yozilgan bo'lishi yoki mavjud bo'lmasligi mumkin.",
+    "loading": "yuklanmoqda",
+    "low-frame-error": "Noto'g'ri perfomans aniqlangan brauzeringizda Hardware-dan foydalanishni tezlashtirishni yoqishni o'ylab ko'ring va brauzeringizni qaytadan oching",
+    "low-frame-title": "Yaxshi tajribaga ega bo'lgan apparat tezlashtirishni yoqing!"
+  },
+  "error": {
+    "loading-error": "Foydalanuvchi maʼlumotlarini yuklab boʻlmadi",
+    "validation-error": "Iltimos haqiqiy {{type}} kiriting",
+    "login-error": "Tizimga kirish muvaffaqiyatsiz tugadi"
+  }
+}

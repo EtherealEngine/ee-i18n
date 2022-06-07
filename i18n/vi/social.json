@@ -1,0 +1,202 @@
+{
+  "addComment": "Thêm Chú thích...",
+  "share": "Chia sẻ",
+  "suggestions": "Gợi ý cho bạn",
+  "seeAll": "Xem Tất cả",
+  "likes": "Thích",
+  "viewComments": "Xem tất cả các bình luận {{count}}",
+  "more": "nhiều hơn",
+  "username": "tên người dùng",
+  "fullName": "Họ tên",
+  "reportInApporpriate": "Báo cáo Không phù hợp",
+  "unfollow": "Bỏ theo dõi",
+  "goToPost": "Đi tới Post",
+  "shareModal": "Chia sẻ",
+  "copyLink": "Nối kết Sao chép",
+  "embed": "Nhúng",
+  "cancel": "Hủy",
+  "confirm": "Xác nhận",
+  "save": "Cứu",
+  "profilePic": "Ảnh hồ sơ của {{user}}",
+  "ara": "Ara",
+  "follow": "Theo",
+  "flames": "Ngọn lửa",
+  "continue": "Tiếp tục",
+  "partyInvitationSent": "Lời mời dự tiệc được gửi",
+  "arMedia": {
+    "back": "Lưng",
+    "clip": "Cắt",
+    "backgrounds": "Nguồn gốc",
+    "start": "Bắt đầu"
+  },
+  "arMediaform": {
+    "title": "Tiêu đề",
+    "type": "Kiểu",
+    "clip": "Cắt",
+    "background": "Nền",
+    "scene": "Cảnh",
+    "save": "Cứu",
+    "manifest-file": "Biểu hiện tệp .manifest",
+    "audio-file": "Tệp Mp4",
+    "dracosis-file": "Tệp Dracosis .uvol",
+    "preview-file": "Xem trước tệp ảnh"
+  },
+  "creator": {
+    "myVideos": "Video của tôi",
+    "savedVideos": "Video đã lưu",
+    "back": "Lưng",
+    "blocked-list": "Danh sách Bị chặn",
+    "block-user": "Chặn Người dùng",
+    "dialog-content": "Bạn sẽ không thấy hồ sơ và nội dung của người dùng"
+  },
+  "creatorForm": {
+    "back": "Lưng",
+    "edit": "Sửa Hồ sơ",
+    "save": "Cứu",
+    "changeAvatar": "Thay đổi ảnh đại diện",
+    "ph-selectPreview": "Chọn xem trước",
+    "ph-name": "Tên bạn",
+    "ph-username": "Tên người dùng của bạn",
+    "ph-email": "Email của bạn",
+    "ph-tags": "Tags",
+    "ph-link": "Liên kết",
+    "ph-aboutYou": "Tìm hiểu thêm về bạn",
+    "ph-twitter": "Twitter",
+    "ph-instagram": "instagram",
+    "ph-tiktok": "tiktok",
+    "sign-out": "Đăng xuất"
+  },
+  "dashboard": {
+    "title": "Bảng điều khiển",
+    "dashboard": "Bảng điều khiển",
+    "users": "Người dùng",
+    "feeds": "Feeds",
+    "arMedia": "Phương tiện Video",
+    "editor": "Biên tập viên",
+    "creator": "Người sáng tạo"
+  },
+  "featured": {
+    "empty-list": "Không có nguồn cấp dữ liệu cho bây giờ ..."
+  },
+  "feed": {
+    "back": "Lưng",
+    "related": "Nguồn cấp dữ liệu liên quan",
+    "is-repoted-message": "Thức ăn được báo cáo!"
+  },
+  "feedForm": {
+    "back": "Lưng",
+    "thanks": "Cảm ơn bạn đã chia sẻ và cải thiện cộng đồng của chúng tôi",
+    "share": "Chia sẻ điều gì đó với cộng đồng",
+    "upload": "Tải lên Video",
+    "ph-selectVideo": "Chọn Video",
+    "preview": "Xem trước hình ảnh",
+    "ph-selectPreview": "Chọn xem trước",
+    "createFeed": "Để tạo nguồn cấp dữ liệu, bạn phải có video và hình ảnh xem trước!!!",
+    "ph-videoName": "Tên video của bạn",
+    "ph-type": "Hãy nhập những gì bạn muốn chia sẻ với cộng đồng... ",
+    "lbl-share": "Chia sẻ",
+    "save": "Lưu và đi Tiếp theo"
+  },
+  "feedMenu": {
+    "featured": "Nổi bật",
+    "creators": "Tác giả",
+    "feed": "Nguồn cấp dữ liệu"
+  },
+  "header": {
+    "lbl-volumetric": "Thể tích"
+  },
+  "login": {
+    "account": "Có tài khoản không?",
+    "login": "Đăng nhập",
+    "resetPassword": "Đặt lại mật khẩu Nút Giả mạo (đây sẽ là một liên kết từ email)",
+    "notHavingAccount": "Không có tài khoản?",
+    "signUp": "Đăng ký",
+    "forgotPassword": "Quên mật khẩu?",
+    "back": "Lưng",
+    "or": "HOẶC"
+  },
+  "comment": {
+    "add": "Thêm chú thích của bạn..."
+  },
+  "notification": {
+    "feedFire": " sa thải nguồn cấp dữ liệu của bạn",
+    "feedBookmarked": " đánh dấu nguồn cấp dữ liệu của bạn",
+    "comment": " nhận xét nguồn cấp dữ liệu của bạn:",
+    "commentFire": " đã bắn bình luận của bạn để cung cấp dữ liệu",
+    "follow": " bắt đầu theo dõi bạn",
+    "unfollow": " ngừng theo dõi bạn",
+    "followed": " đi theo anh",
+    "activity": "Hoạt động"
+  },
+  "onBoarding": {
+    "welcome": "Chào mừng!",
+    "description": "Bộ sưu tập lớn nhất của hơn 370 bố cục cho tạo mẫu iOS.",
+    "next": "Sau",
+    "discover": "Khám phá các bài viết,",
+    "news": "tin tức & bài viết",
+    "lines": "Đó là những cảm xúc thúc đẩy tình yêu thiên văn học và mong muốn của chúng ta.",
+    "getStarted": "Bắt đầu",
+    "meetUp": "Gặp gỡ với",
+    "friends": "bạn bè.",
+    "meet": "Gặp gỡ bạn bè"
+  },
+  "shareForm": {
+    "arcMedia": "Chia sẻ",
+    "videoCreated": "Tôi đã tạo video này",
+    "shareWithBuddies": "Chia sẻ với bạn bè",
+    "shareVideo": "Chia sẻ Video",
+    "save": "Lưu vào cuộn máy ảnh",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "addFeed": "Thêm Nguồn cấp dữ liệu"
+  },
+  "simpleModal": {
+    "emptyList": "Danh sách trống",
+    "followers": " Sau",
+    "following": " Theo",
+    "flames": " Ngọn lửa"
+  },
+  "splash": {
+    "screen": "Màn hình Bắn tung tóe",
+    "logo": "Logo"
+  },
+  "story": {
+    "profilePic": "Ảnh hồ sơ của {{user}}"
+  },
+  "view": {
+    "cancel": "Hủy",
+    "choice": "Bạn có hai chế độ ghi khác nhau để lựa chọn",
+    "verticalMode": "Chế độ dọc có thời gian kỷ lục 30 giây",
+    "horizontalMode": "Chế độ ngang có thời gian ghi không giới hạn",
+    "start": "Bắt đầu",
+    "not-show": "Đừng hiển thị nó một lần nữa",
+    "welcome": "Chào mừng bạn đến với ARC!  Tạo video cá nhân với một trong những hình ba chiều của chúng tôi và đăng nó lên các kênh truyền thông xã hội của bạn!",
+    "step": "Bước {{step}}",
+    "text-step-1": "Chọn hình ba chiều từ thư viện.",
+    "text-step-2": "Đây là Thực tế tăng cường, vì vậy hãy quét không gian bằng máy ảnh của bạn từ bên này sang bên kia trong 3-5 giây, nơi bạn muốn hiệu suất hình ba chiều.",
+    "text-step-3-part-1": "Gõ nhẹ vào màn hình một lần trên vị trí mà bạn muốn hình ba chiều được neo.",
+    "text-step-3-part-2": "MẸO!  Gõ nhẹ một lần ở nơi khác để di chuyển hình ba chiều đến vị trí khác.",
+    "text-step-3-part-3": "MẸO!  Bạn có thể thay đổi kích thước hình ba chiều bằng cách véo hoặc mở rộng màn hình bằng ngón tay cái và ngón trỏ.",
+    "text-step-4-part-1": "Nhấn đúp vào nút ghi màu đỏ để BẮT ĐẦU quay video của bạn.",
+    "text-step-4-part-2": "Nhấn đúp vào nút ghi màu đỏ để DỪNG."
+  },
+  "video": {
+    "back": "Lưng"
+  },
+  "terms": {
+    "confirmTerms": "Tôi đồng ý với các điều khoản dịch vụ",
+    "confirmPolicy": "Tôi đồng ý với chính sách bảo mật"
+  },
+  "registration": {
+    "ph-phoneEmail": "Sử dụng điện thoại / email",
+    "facebook": "Tiếp tục với Facebook",
+    "google": "Tiếp tục với Google",
+    "linkedin": "Tiếp tục với Linkedin",
+    "twitter": "Tiếp tục với Twitter",
+    "gitHub": "Tiếp tục với GitHub",
+    "connect": "Kết nối email hoặc số điện thoại của bạn",
+    "logIn": "Đăng nhập",
+    "LogInTo": "Đăng nhập vào",
+    "continueAsGuest": "Tiếp tục làm khách"
+  }
+}

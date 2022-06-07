@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Faqe ngarkimi..."
+  },
+  "tooltip": {
+    "pressKey": "Shtyp {{tip}} për të {{message}}"
+  },
+  "toast": {
+    "joined": "u bashkua",
+    "left": "Majtas"
+  },
+  "navUserWidget": {
+    "login": "Hyr"
+  },
+  "loader": {
+    "connecting": "Lidhja me botën...",
+    "entering": "Duke hyrë në botë...",
+    "loading": "Ngarkimi...",
+    "objectRemaining": "objekti {{count}} mbetur",
+    "objectRemainingPlural": "{{count}} objekte të mbetura",
+    "loadingObjects": "Ngarkimi i objekteve",
+    "loadingComplete": "Ngarkimi i plotë",
+    "joiningWorld": "Të bashkohemi me botën"
+  },
+  "alert": {
+    "eventWasSuccess": "Veprimtaria ishte e suksesshme",
+    "errorWasEncountered": "U ndesh një gabim",
+    "eventInProgress": "Ngjarja në proces",
+    "seconds": "sekonda",
+    "cancelCountdown": "Mbyllja e këtij modali do të anullojë numërimin mbrapsht"
+  },
+  "debug": {
+    "refresh": "Rifresko",
+    "stats": "Statistikat",
+    "debugOptions": "Opsionet e çbug",
+    "physicsDebug": "Fizika",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Ndihmësi i Nyjeve",
+    "gridDebug": "Rrjeta",
+    "simpleMaterials": "Materiale të thjeshta",
+    "tick": "Tik",
+    "worldStore": "World Store",
+    "engineStore": "Dyqani i Motorit",
+    "namedEntities": "Entitete të emëruara",
+    "networkObject": "Objekti i rrjetit",
+    "networkClients": "Klientët e rrjetit"
+  },
+  "recording": {
+    "videoRecorder": "Regjistrues videosh",
+    "waitingForPermissions": "Duke pritur për të drejtat",
+    "selectVideoSource": "Zgjidh burimin e videos",
+    "screen": "Ekrani",
+    "camera": "Kamera",
+    "microphone": "Mikrofon",
+    "startRecording": "Fillo regjistrimin",
+    "pauseRecording": "Pauzë regjistrimi",
+    "resumeRecording": "Rinis regjistrimin",
+    "stopRecording": "Ndalo regjistrimin"
+  },
+  "typing": "Daktilografimi...",
+  "gameServer": {
+    "browserError": "Gabim në shfletues",
+    "browserErrorMessage": "Shfletuesi juaj nuk suporton ruajtjen në modalitetin privat të shfletimit. Ose provo një shfletues tjetër, ose dil nga modaliteti privat i shfletimit.",
+    "noAvailableServers": "Asnjë server i disponueshëm",
+    "noAvailableServersMessage": "Nuk ka asnjë server në dispozicion për ju për t'u lidhur me. Përpjekje për t'u rilidhur",
+    "worldDisconnected": "Bota e shkëputur",
+    "worldDisconnectedMessage": "Ju keni humbur lidhjen tuaj me botën. Ne do të përpiqemi të rilidhemi para se të mbarojë koha tjetër, përndryshe ju do të përcilleni në një instancë tjetër.",
+    "webGLNotEnabled": "WebGL nuk u aktivua",
+    "webGLNotEnabledMessage": "Shfletuesi juaj nuk suporton WebGL, ose është i çaktivizuar. Ju lutem aktivizoni WebGL ose konsideroni përtëritjen në versionin më të fundit të shfletuesit tuaj.",
+    "youKickedFromWorld": "Të kanë përzënë nga bota.",
+    "youKickedFromWorldMessage": "Të përzunë nga kjo botë për arsyen e mëposhtme.",
+    "invalidLocation": "Vend i pavlefshëm",
+    "cantFindLocation": "Nuk mund ta gjejmë vendndodhjen.",
+    "misspelledOrNotExist": "Ajo mund të jetë e përjashtuar ose mund të mos ekzistojë.",
+    "loading": "ngarkimi",
+    "low-frame-error": "Zbuluar një perfomancë të dobët konsideroni mundësimin e përshpejtimit të Use Hardware në shfletuesin tuaj dhe rilaukoni shfletuesin tuaj",
+    "low-frame-title": "Aktivizo përshpejtimin e harduerit për përvojë më të mirë!"
+  },
+  "error": {
+    "loading-error": "Gabim gjatë ngarkimit të të dhënave të përdoruesit",
+    "validation-error": "Të lutem vëre {{type}}",
+    "login-error": "Dështoi hyrja"
+  }
+}

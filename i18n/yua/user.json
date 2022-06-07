@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Correo electrónico u ya'aliko'ob",
+      "resendEmail": "Much revise u correo electrónico utia'al u verificar tu yilaje'. Wa ma' recibiste jump'éel correo electrónico, beet clic ti' {{here}} utia'al u k'a' túuxtik le correo electrónico ti' verificación.",
+      "haveAnAccount": "Yaan wáaj teech jump'éel yilaje'."
+    },
+    "forgotPassword": {
+      "header": "Tin tu'ubsaj in contraseña",
+      "enterEmail": "Ts'otik a dirección correo electrónico registrada yéetel a enviaremos jump'éel enlace utia'al u restablecer le contraseña.",
+      "lbl-email": "Dirección correo electrónico",
+      "lbl-submit": "Túuxtik enlace",
+      "emailSent": "U tu túuxtaj yaal le correo electrónico ti' restablecer contraseña. Much revise u correo electrónico."
+    },
+    "login": {
+      "email": "Correo electrónico u | SMS",
+      "username": "K'aaba' usuario + Contraseña",
+      "social": "Ts'aa"
+    },
+    "magiklink": {
+      "header": "Enlace Chúunul xoknáalo'obo'",
+      "descriptionEmail": "Ingrese u dirección correo electrónico yéetel ti' enviaremos jump'éel enlace Chúunul xoknáalo'obo' tumen correo electrónico.",
+      "descriptionSMS": "Ts'otik a meyaj ku nu'ukul t'aan yéetel a enviaremos jump'éel enlace Chúunul xoknáalo'obo' yéetel SMS.",
+      "descriptionEmailSMS": "Ingrese u dirección ti' correo electrónico wa meyaj ku nu'ukul t'aan (10 dígitos, chéen ti' EE. UU.) yéetel ti' enviaremos jump'éel enlace Chúunul xoknáalo'obo' tumen correo electrónico wa SMS.",
+      "descriptionSMSUS": "Ingrese u meyaj ku nu'ukul t'aan (10 dígitos, chéen ti' EE. UU.) yéetel ti' enviaremos jump'éel enlace Chúunul xoknáalo'obo' yéetel SMS.",
+      "lbl-email": "Dirección correo electrónico",
+      "lbl-emailPhone": "Correo electrónico wa meyaj ku nu'ukul t'aan",
+      "lbl-phone": "Meyaj ku nu'ukul t'aan",
+      "agree": "Táan in de acuerdo con le ",
+      "terms": "Términos ka Condiciones",
+      "lbl-submit": "Túuxtik enlace Chúunul xoknáalo'obo'",
+      "email-sent-msg": "U tu túuxtaj yaal le enlace mágico ku Chúunul xoknáalo'obo'. Much revise u correo electrónico.",
+      "success-msg": "U tu túuxtaj yaal le enlace mágico ku Chúunul xoknáalo'obo'. Much revise u correo electrónico wa SMS.",
+      "sms-sent-msg": "U tu túuxtaj yaal le enlace mágico ku Chúunul xoknáalo'obo'. Much revise u SMS."
+    },
+    "passwordLogin": {
+      "header": "Kas a meyaja'",
+      "lbl-email": "Dirección correo electrónico",
+      "lbl-password": "Contraseña",
+      "lbl-rememberMe": "K'a'ajsa'al teen",
+      "lbl-signin": "Kas a meyaja'",
+      "forgotPassword": "Tu'ubsaj u contraseña.",
+      "signup": "Mina'an teech jump'éel yilaje'. Nuup'abáa",
+      "lbl-login": "Kas a meyaja'",
+      "ph-password": "Contraseña",
+      "ph-email": "Correo electrónico"
+    },
+    "social": {
+      "gitHub": "Máaxo'ob xoknáalo'obo' yéetel GitHub",
+      "google": "Máaxo'ob xoknáalo'obo' yéetel Google",
+      "facebook": "Máaxo'ob xoknáalo'obo' yéetel Facebook",
+      "linkedin": "Máaxo'ob xoknáalo'obo' yéetel Linkedin",
+      "twitter": "Máaxo'ob xoknáalo'obo' yéetel Twitter"
+    },
+    "register": {
+      "header": "Nuup'abáa",
+      "login": "Kas a meyaja'",
+      "lbl-signup": "Nuup'abáa",
+      "lbl-password": "Contraseña",
+      "lbl-email": "Dirección correo electrónico",
+      "passwordNotMatch": "Le contraseñas ma' bey",
+      "ph-password": "Contraseña",
+      "ph-confirmPassword": "Ya'aliko'ob contraseña",
+      "ph-email": "Correo electrónico"
+    },
+    "resetPassword": {
+      "header": "Restablecer contraseña",
+      "description": "Introduzca u contraseña utia'al u dirección correo electrónico",
+      "lbl-submit": "Restablecer contraseña",
+      "lbl-password": "Contraseña",
+      "lbl-confirmPassword": "Ya'aliko'ob contraseña",
+      "passwordNotMatch": "Le contraseñas ma' bey",
+      "nowLoginYourAccount": "Bejla'e' je'el máaxo'ob xoknáalo'obo' ti' tu yilaje'",
+      "yourPasswordResetSuccess": "U contraseña restableció belal!"
+    },
+    "verifyEmail": {
+      "header": "Verificar correo electrónico",
+      "processing": "Much espere jump'éel súutuko' ka' jo'op' procesa..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Ubicaciones",
+      "loading": "Kuuch",
+      "col-name": "K'aaba'",
+      "col-scene": "Beyo'",
+      "col-maxuser": "K'aas usuarios",
+      "lbl-search": "Kaxant ubicaciones",
+      "lbl-new": "Túumben"
+    },
+    "newLocation": {
+      "title": "Tu'ux ku yaantal",
+      "success": "Guardado belil.",
+      "failure": "Ba'ax jóok' k'aas.",
+      "removeSuccess": "Tu'ux ku yaantal eliminada belil.",
+      "nameInUse": "U k'aaba' u ti' búukinta'al.",
+      "nameRequire": "K'a'abet k'aaba'.",
+      "validNumber": "Chéen u permiten números (0-9).",
+      "lbl-name": "K'aaba'",
+      "lbl-maxuser": "K'aas usuarios",
+      "lbl-scene": "Beyo'",
+      "lbl-type": "Bin yano'ob",
+      "lbl-ve": "Vídeo habilitado",
+      "lbl-gme": "Medios kaxtik habilitados",
+      "lbl-update": "Actualizar",
+      "lbl-create": "Crear",
+      "tooltipCanNotBeDeleted": "Le lobby ma' u páajtal tselik",
+      "confirmation": "Muuk'a'an a t'aan?",
+      "lbl-yes": "Je'el",
+      "lbl-no": "Ma'"
+    },
+    "share": {
+      "lbl-share": "Ts'aaj",
+      "ph-phoneEmail": "Paay t'aantik k'iin tumen correo electrónico wa meyaj ku nu'ukul t'aan",
+      "lbl-phoneEmail": "Túuxtik u correo electrónico wa meyaj ku nu'ukul t'aan",
+      "lbl-copy": "Copiar",
+      "lbl-send-invite": "Túuxtik invitación",
+      "title": "Comparte u URL a tu'ux ku yaantal yéetel a nu'ukulil",
+      "linkCopied": "Enlace copiado le portapapeles."
+    },
+    "setting": {
+      "audio": "Audio",
+      "lbl-volume": "Volumen",
+      "lbl-microphone": "Micrófono",
+      "graphics": "Grafismo",
+      "controls": "Mandos",
+      "lbl-control-type": "Bin yano'ob controlador",
+      "lbl-control-scheme": "Esquema u kanik",
+      "lbl-resolution": "Resolución",
+      "lbl-shadow": "Sombras",
+      "lbl-pp": "Post Procesamiento",
+      "lbl-pbr": "PBR k'iini'",
+      "lbl-automatic": "Chéen tu juuna",
+      "xrusersetting": "Configuración de usuario de XR",
+      "rotation": "Rotación",
+      "rotation-smooth-speed": "Rotación Velocidad O'olkij",
+      "rotation-angle": "Ángulo rotación",
+      "moving": "Conmovedor",
+      "user-avatar": "Configuración le avatar",
+      "invert-rotation": "Invertir le rotación yéetel péeksik palos",
+      "show-avatar": "We'esik avatar"
+    },
+    "profile": {
+      "lbl-profile": "Perfil",
+      "lbl-settings": "Configuración",
+      "lbl-username": "K'aaba' usuario",
+      "update-msg": "K'aaba' usuario actualizado",
+      "inviteCode": "Código invitación",
+      "youAreAn": "Teech jump'éel",
+      "youAreA": "Teech jump'éel",
+      "showUserId": "We'esik ID usuario",
+      "hideUserId": "Taan in ta'akik ID usuario",
+      "showApiKey": "We'esik clave API",
+      "hideApiKey": "Taan in ta'akik clave API",
+      "apiKey": "Clave de API",
+      "logout": "Muts'ik in xoknáalo'obo'",
+      "connectPhone": "Conecta a meyaj ku nu'ukul t'aan",
+      "connectEmail": "Conecta a correo electrónico",
+      "connectPhoneEmail": "Conecta a correo electrónico wa meyaj ku nu'ukul t'aan",
+      "or": "O",
+      "lbl-wallet": "Máaxo'ob xoknáalo'obo' yéetel Wallet",
+      "ph-email": "Correo electrónico",
+      "ph-phone": "Meyaj ku nu'ukul t'aan",
+      "ph-phoneEmail": "Meyaj ku nu'ukul t'aan leti' correo electrónico",
+      "phoneEmailError": "Meyaj ku nu'ukul t'aan wa dirección correo electrónico ma' válidos",
+      "phoneError": "Nu'ukul t'aan ma' válido #",
+      "emailError": "Dirección correo electrónico ma' válida",
+      "loginWithReadyPlayerMe": "Inicie xoknáalo'obo' yéetel Ready Player in",
+      "connectSocial": "Conéctese yéetel ba'ax menta'abij ts'áabal",
+      "createOne": "Wa mina'an jump'éel yilaje', ku creará jump'éel nueva ti' tech",
+      "connections": {
+        "title": "Conexiones",
+        "ipError": "Ma' u páajtal luk'ul Teeche' le proveedor identidades activo",
+        "disconnect": "desconectar",
+        "connect": "Conectar"
+      },
+      "profileDropdown": {
+        "avatar": "Icono u avatar u usuario",
+        "profile": "Perfil",
+        "adminConsole": "Consola ma'alo'ob meyaj beetik",
+        "logout": "Muts'ik in xoknáalo'obo'"
+      },
+      "userIcon": {
+        "lbl-name": "A llamas",
+        "lbl-update": "Actualizar",
+        "userId": "ID usuario",
+        "ph-uploadImg": "Na'akal wíimbala' le producto",
+        "lbl-selectAcvatar": "Selecciona Avatar",
+        "lbl-submit": "Tuxt a meyaj"
+      },
+      "userSettings": {
+        "volume": "Volumen",
+        "microphone": "Micrófono",
+        "resolution": "Resolución",
+        "high": "Ka'anal",
+        "low": "Yáanal",
+        "spatialAudio": "Biilankiltej audio espacial",
+        "enterMuted": "Wokol ichil naja' ku silenciada"
+      }
+    },
+    "oauth": {
+      "authenticating": "Autenticación...",
+      "authFailed": "ba'alo' u autenticación {{service}}."
+    },
+    "magikLink": {
+      "wait": "Much espere jump'éel súutuko' ka' jo'op' procesa..."
+    },
+    "dashboard": {
+      "header": "Salpicadero",
+      "dashboard": "Salpicadero",
+      "users": "Usuarios",
+      "feeds": "Tuláakal",
+      "instance": "Instancia",
+      "locations": "Ubicaciones",
+      "invites": "Invita",
+      "sessions": "Sesiones",
+      "groups": "Ku",
+      "parties": "Pak'chaje'",
+      "chats": "Chats",
+      "content": "Paquetes contenido",
+      "projects": "Múuch' meyajo'ob.",
+      "scenes": "Escenas",
+      "avatars": "Avatares",
+      "benchmarking": "Yáax comparativa",
+      "bots": "Bots"
+    }
+  },
+  "oauth": {
+    "authenticating": "Autenticación...",
+    "authFailed": "ba'alo' u autenticación {{service}}."
+  },
+  "magikLink": {
+    "wait": "Much espere jump'éel súutuko' ka' jo'op' procesa..."
+  },
+  "dashboard": {
+    "header": "Salpicadero",
+    "dashboard": "Salpicadero",
+    "users": "Usuarios",
+    "feeds": "Tuláakal",
+    "instance": "Instancia",
+    "locations": "Ubicaciones",
+    "routes": "Rutas",
+    "projects": "Múuch' meyajo'ob.",
+    "invites": "Invita",
+    "sessions": "Sesiones",
+    "groups": "Ku",
+    "parties": "Pak'chaje'",
+    "chats": "Chats",
+    "content": "Paquetes contenido",
+    "scenes": "Escenas",
+    "avatars": "Avatares",
+    "benchmarking": "Yáax comparativa",
+    "bots": "Bots",
+    "setting": "Configuración"
+  },
+  "avatar": {
+    "title": "Na'akal avatar",
+    "lbl-browse": "Hojear",
+    "lbl-thumbnail": "Miniatura",
+    "lbl-upload": "Na'akal",
+    "selectAvatar": "Selecciona Avatar...",
+    "selectThumbnail": "Seleccione Miniatura...",
+    "rotate": "Rotar",
+    "pan": "Cacerola",
+    "noBone": "Obejct ma' ku taasik baako'obo' mix yoot'el",
+    "outOfBound": "Le objeto u paach límite.",
+    "emptyObj": "Le objeto Jojochil.",
+    "maxTriangleError": "Le objeto ku taasik caras mayores {{allowedTriangles}} .",
+    "selectValidFile": "Seleccione jump'éel archivo u avatar 3D válido.",
+    "selectValidThumbnail": "Archivo miniatura válido u seleccionado.",
+    "fileOversized": "Le Buka'aj u archivo u avatar k'a'ana'an u yaantal ichil {{minSize}} MB {{maxSize}} MB",
+    "confirmation": "Muuk'a'an a t'aan?",
+    "canNotBeRemoved": "Le avatar activo ma' u páajtal tselik",
+    "remove": "Tselik avatar",
+    "uploadFiles": "Na'akal archivos",
+    "useUrlInstead": "Meyaj url tu kúuchilo'ob",
+    "avatar": "Avatar",
+    "cancel": "Xu'uls a meyaj",
+    "createAvatar": "Crear avatar",
+    "delete": "Borrar",
+    "view": "Sáasil",
+    "uploadAvatarInfo": "Actualizar a'alajil t'aan ti' le avatar",
+    "name": "K'aaba'",
+    "enterName": "Introduzca u k'aaba'",
+    "avatarInformation": "A'alajil t'aan ti' le avatar",
+    "description": "Descripción",
+    "key": "Wach'ebo'",
+    "none": "Mix juntúul",
+    "submit": "Tuxt a meyaj",
+    "edit": "Editar",
+    "avatarUrl": "URL u avatar",
+    "upload-success-msg": "Avatar cargado belil.",
+    "remove-success-msg": "Avatar cargado belil.",
+    "warning-msg": "Recurso u avatar Jojochil, wáaj a sincronizado avatares yéetel a almacenamiento archivos estáticos."
+  },
+  "personMenu": {
+    "inviteToParty": "Paay t'aantik k'iin te' cha'ano'",
+    "addAsFriend": "Añadir je'el bix etail",
+    "mute": "Xma' t'aanil",
+    "block": "Bloquear"
+  },
+  "person": {
+    "you": "Teeche'",
+    "yourScreen": "A pantalla",
+    "muteForEveryone": "Mak a chi'ex utia'al tuláakal",
+    "unmuteForEveryone": "Desactiva utia'al tuláakal",
+    "muteMe": "Silenciar in",
+    "unmuteMe": "Desactivar in",
+    "muteThisPerson": "Silenciar le máaka'",
+    "unmuteThisPerson": "Activar ch'ench'enkilil le máak",
+    "openPictureInPicture": "Je'e wíimbala' ti' wíimbala'"
+  }
+}

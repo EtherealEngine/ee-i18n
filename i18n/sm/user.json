@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Imeli o le Faamauga",
+      "resendEmail": "Faamolemole siaki lau imeli e faamaonia ai lau faitotoa. Afai e te lei mauaina se imeli, faamolemole kiliki {{here}} e toe auina atu ai le imeli e faamaonia ai.",
+      "haveAnAccount": "E i ai se tala?"
+    },
+    "forgotPassword": {
+      "header": "Ua Galo le Uputatala",
+      "enterEmail": "Faamolemole ta i totonu lou tuatusi imeli ua lesitala ma o le a matou auina atu ia te oe se sootaga e toe seti ai le uputatala.",
+      "lbl-email": "Tuatusi Imeli",
+      "lbl-submit": "Auina Atu le Sootaga",
+      "emailSent": "Na auina atu le Toe Seti o le Imeli o le Uputatala. Faamolemole siaki lau imeli."
+    },
+    "login": {
+      "email": "| o le Imeli SMS",
+      "username": "Igoa Faaaoga + Uputatala",
+      "social": "Faaleagafesootai"
+    },
+    "magiklink": {
+      "header": "Sootaga e Alu ai i Totonu",
+      "descriptionEmail": "Faamolemole ta i totonu lou tuatusi imeli ma o le a matou auina atu ia te oe se sootaga e alu ai i totonu e ala i le Imeli.",
+      "descriptionSMS": "Faamolemole ta i totonu le numera o lau telefoni ma o le a matou auina atu ia te oe se sootaga e alu ai i totonu e ala i le SMS.",
+      "descriptionEmailSMS": "Faamolemole ta i totonu lou tuatusi imeli po o le numera o le telefoni (na o le 10 fuainumera, IS) ma o le a matou auina atu ia te oe se sootaga e alu ai i totonu e ala i le Imeli po o le SMS.",
+      "descriptionSMSUS": "Faamolemole ta i totonu lau numera o le telefoni (10 fuainumera, na o le IS) ma o le a matou auina atu ia te oe se sootaga e alu ai i totonu e ala i le SMS.",
+      "lbl-email": "Tuatusi imeli",
+      "lbl-emailPhone": "Imeli po o le numera o le Telefoni",
+      "lbl-phone": "Numera o le telefoni",
+      "agree": "Ua ou ioe i le ",
+      "terms": "Tuutuuga & Tulaga",
+      "lbl-submit": "Auina Atu le Sootaga e Alu ai i Totonu",
+      "email-sent-msg": "Na auina atu le Sootaga e Alu ai i Totonu. Faamolemole siaki lau Imeli.",
+      "success-msg": "Na auina atu le Sootaga e Alu ai i Totonu. Faamolemole siaki lau Imeli po o le SMS.",
+      "sms-sent-msg": "Na auina atu le Sootaga e Alu ai i Totonu. Faamolemole siaki lau SMS."
+    },
+    "passwordLogin": {
+      "header": "Saini e Alu i Totonu",
+      "lbl-email": "Tuatusi Imeli",
+      "lbl-password": "Uputatala",
+      "lbl-rememberMe": "Manatua a'u",
+      "lbl-signin": "Saini e Alu i Totonu",
+      "forgotPassword": "Ua galo le uputatala?",
+      "signup": "E le o i ai se faitotoa? Saini e Alu i Luga",
+      "lbl-login": "Alu i Totonu",
+      "ph-password": "Uputatala",
+      "ph-email": "Imeli"
+    },
+    "social": {
+      "gitHub": "Alu i totonu ma GitHub",
+      "google": "Alu i totonu ma le Google",
+      "facebook": "Alu i totonu i le Facebook",
+      "linkedin": "Alu i Totonu ma le Linkedin",
+      "twitter": "Alu i totonu i le Twitter"
+    },
+    "register": {
+      "header": "Saini e Alu i Luga",
+      "login": "Alu i Totonu",
+      "lbl-signup": "Saini e Alu i Luga",
+      "lbl-password": "Uputatala",
+      "lbl-email": "Tuatusi Imeli",
+      "passwordNotMatch": "E Le Tutusa Uputatala",
+      "ph-password": "Uputatala",
+      "ph-confirmPassword": "Faamautu le Uputatala",
+      "ph-email": "Imeli"
+    },
+    "resetPassword": {
+      "header": "Toe Seti le Uputatala",
+      "description": "Faamolemole ta i totonu lau uputatala mo lou tuatusi imeli",
+      "lbl-submit": "Toe Seti le Uputatala",
+      "lbl-password": "Uputatala",
+      "lbl-confirmPassword": "Faamautu le Uputatala",
+      "passwordNotMatch": "E Le Tutusa Uputatala",
+      "nowLoginYourAccount": "Ua mafai nei ona e alu i totonu o lau faitotoa",
+      "yourPasswordResetSuccess": "Ua manuia le toe setiina o lau uputatala!"
+    },
+    "verifyEmail": {
+      "header": "Faamaonia le Imeli",
+      "processing": "Faamolemole faatali mo sina taimi a o faagasolo..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Nofoaga",
+      "loading": "Utaina",
+      "col-name": "Igoa",
+      "col-scene": "Vaaiga",
+      "col-maxuser": "Tagata e Faaaogaina le Max",
+      "lbl-search": "Saili mo nofoaga",
+      "lbl-new": "Fou"
+    },
+    "newLocation": {
+      "title": "Nofoaga",
+      "success": "Manuia le Sefeina.",
+      "failure": "Sa i ai se mea na sese.",
+      "removeSuccess": "Manuia le aveesea o le nofoaga.",
+      "nameInUse": "O loo faaaogaina le igoa.",
+      "nameRequire": "E manaomia le igoa.",
+      "validNumber": "E na o fuainumera(0-9) e faatagaina.",
+      "lbl-name": "Igoa",
+      "lbl-maxuser": "Tagata e Faaaogaina le Max",
+      "lbl-scene": "Vaaiga",
+      "lbl-type": "Ituaiga",
+      "lbl-ve": "Ua Faatagaina le Vitio",
+      "lbl-gme": "Ua Mafai ona Maua Ala o Faasalalauga i le Lalolagi Atoa",
+      "lbl-update": "Faafou",
+      "lbl-create": "Fatu",
+      "tooltipCanNotBeDeleted": "E le mafai ona tapeina le vaega o loo i totonu",
+      "confirmation": "E te mautinoa?",
+      "lbl-yes": "Ioe",
+      "lbl-no": "Leai"
+    },
+    "share": {
+      "lbl-share": "Faasoa atu",
+      "ph-phoneEmail": "Valaaulia e ala i le imeli po o le numera o le telefoni",
+      "lbl-phoneEmail": "Auina atu i le imeli po o le numera o le telefoni",
+      "lbl-copy": "Kopi",
+      "lbl-send-invite": "Auina Atu le Valaaulia",
+      "title": "Faasoa atu lau URL o le Nofoaga i lau vaega",
+      "linkCopied": "Sootaga na kopiina i le laupapa."
+    },
+    "setting": {
+      "audio": "Otio",
+      "lbl-volume": "Volume",
+      "lbl-microphone": "Meafaaleoteleleo",
+      "graphics": "Graphics",
+      "controls": "Puleaina",
+      "lbl-control-type": "Ituaiga Pule o Mea Tautupe",
+      "lbl-control-scheme": "Fuafuaga o le Puleaina",
+      "lbl-resolution": "Filifiliga",
+      "lbl-shadow": "Ataata",
+      "lbl-pp": "Faagaoioia pe a Uma le Aoga",
+      "lbl-pbr": "PBR Atoa",
+      "lbl-automatic": "Otometi",
+      "xrusersetting": "Faatulagaga o le Tagata e Faaaogaina le XR",
+      "rotation": "Rotation",
+      "rotation-smooth-speed": "Rotation Smooth Speed",
+      "rotation-angle": "Rotation Angle",
+      "moving": "Siitia Ese Atu",
+      "user-avatar": "Faatulagaga o Avatar",
+      "invert-rotation": "Toe Faase'e ma Aveese Laau",
+      "show-avatar": "Faaali Avatar"
+    },
+    "profile": {
+      "lbl-profile": "Talaaga Otooto",
+      "lbl-settings": "Faatulagaga",
+      "lbl-username": "Igoa Faaaoga",
+      "update-msg": "Ua faafouina le Igoa Faaaoga",
+      "inviteCode": "Valaaulia le Numera Faalilolilo",
+      "youAreAn": "O oe o se",
+      "youAreA": "O oe o se",
+      "showUserId": "Faaali le ID a le Tagata e Faaaogaina",
+      "hideUserId": "Natia le ID a le Tagata Faaaoga",
+      "showApiKey": "Faaali le ki API",
+      "hideApiKey": "Natia le ki API",
+      "apiKey": "ki API",
+      "logout": "Alu i fafo",
+      "connectPhone": "Faafesootai le numera o lau telefoni",
+      "connectEmail": "Faafesootai lau imeli",
+      "connectPhoneEmail": "Faafesootai lau imeli po o le numera o le telefoni",
+      "or": "Po o le",
+      "lbl-wallet": "Alu i Totonu ma wallet",
+      "ph-email": "Imeli",
+      "ph-phone": "Numera Telefoni",
+      "ph-phoneEmail": "Numera Telefoni / Imeli",
+      "phoneEmailError": "E le o aoga le numera o le telefoni # po o le tuatusi imeli",
+      "phoneError": "Le aoga le telefoni #",
+      "emailError": "Tuatusi imeli e le o aoga",
+      "loginWithReadyPlayerMe": "Alu i Totonu ma le Masini Ua Saunia mo A'u",
+      "connectSocial": "Fesootai ma faitotoa faaagafesootai",
+      "createOne": "Afai e le o i ai sau faitotoa, o le a fatuina se faitotoa fou mo oe",
+      "connections": {
+        "title": "Fesootaiga",
+        "ipError": "E le mafai ona aveesea le Tagata e Tuuina Atu ma le Mataalia",
+        "disconnect": "• O le a le mea",
+        "connect": "Faafesootai"
+      },
+      "profileDropdown": {
+        "avatar": "Aikona a le Tagata e Faaaogaina",
+        "profile": "Talaaga Otooto",
+        "adminConsole": "Taitai o le Pulega",
+        "logout": "Logout"
+      },
+      "userIcon": {
+        "lbl-name": "Lou igoa",
+        "lbl-update": "Faafou",
+        "userId": "Id a le Tagata e Faaaogaina",
+        "ph-uploadImg": "Sii mai Le Ata o le Oloa",
+        "lbl-selectAcvatar": "Filifili Avatar",
+        "lbl-submit": "Auina Atu"
+      },
+      "userSettings": {
+        "volume": "Volume",
+        "microphone": "Meafaaleoteleleo",
+        "resolution": "Filifiliga",
+        "high": "Maualuga",
+        "low": "Maualalo",
+        "spatialAudio": "Faaaoga le Otio Moe",
+        "enterMuted": "Ta i Totonu le Potu ua Mu"
+      }
+    },
+    "oauth": {
+      "authenticating": "Faamaoniaina...",
+      "authFailed": "{{service}} le'i manuia le faamaoniga."
+    },
+    "magikLink": {
+      "wait": "Faamolemole faatali mo sina taimi a o faagasolo..."
+    },
+    "dashboard": {
+      "header": "Dashboard",
+      "dashboard": "Dashboard",
+      "users": "Tagata Faaaoga",
+      "feeds": "Fafagaina",
+      "instance": "Faataitaiga",
+      "locations": "Nofoaga",
+      "invites": "Valaaulia",
+      "sessions": "Sauniga",
+      "groups": "Vaega",
+      "parties": "Vaega",
+      "chats": "Chats",
+      "content": "Packs o Anotusi",
+      "projects": "Galuega Faatino",
+      "scenes": "Vaaiga",
+      "avatars": "Avatars",
+      "benchmarking": "Benchmarking",
+      "bots": "Bots"
+    }
+  },
+  "oauth": {
+    "authenticating": "Faamaoniaina...",
+    "authFailed": "{{service}} le'i manuia le faamaoniga."
+  },
+  "magikLink": {
+    "wait": "Faamolemole faatali mo sina taimi a o faagasolo..."
+  },
+  "dashboard": {
+    "header": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Tagata Faaaoga",
+    "feeds": "Fafagaina",
+    "instance": "Faataitaiga",
+    "locations": "Nofoaga",
+    "routes": "Routes",
+    "projects": "Galuega Faatino",
+    "invites": "Valaaulia",
+    "sessions": "Sauniga",
+    "groups": "Vaega",
+    "parties": "Vaega",
+    "chats": "Chats",
+    "content": "Packs o Anotusi",
+    "scenes": "Vaaiga",
+    "avatars": "Avatars",
+    "benchmarking": "Benchmarking",
+    "bots": "Bots",
+    "setting": "Faatulagaga"
+  },
+  "avatar": {
+    "title": "Sii mai Avatar",
+    "lbl-browse": "Browse",
+    "lbl-thumbnail": "Thumbnail",
+    "lbl-upload": "Sii mai",
+    "selectAvatar": "Filifili Avatar...",
+    "selectThumbnail": "Filifili le Ata...",
+    "rotate": "Rotate",
+    "pan": "Pan",
+    "noBone": "E le o i ai i le Obejct ni ponaivi po o ni pa'u",
+    "outOfBound": "Ua le toe i ai se mea faitino.",
+    "emptyObj": "E leai se mea o i ai.",
+    "maxTriangleError": "O mea faitino o loo i ai ni foliga e sili atu nai lo {{allowedTriangles}} foliga.",
+    "selectValidFile": "Filifili le faila o le avatar e 3d o loo aoga.",
+    "selectValidThumbnail": "Faila o le Thumbnail o loo aoga ua filifilia.",
+    "fileOversized": "O le tele o le faila Avatar e tatau ona i le va o le {{minSize}} MB ma le {{maxSize}} MB",
+    "confirmation": "E te mautinoa?",
+    "canNotBeRemoved": "E le mafai ona aveesea avatar o loo faaaogaina",
+    "remove": "Aveese le avatar",
+    "uploadFiles": "Sii mai faila",
+    "useUrlInstead": "Faaaoga le url nai lo lena",
+    "avatar": "Avatar",
+    "cancel": "Faaleaogaina",
+    "createAvatar": "Fatu Avatar",
+    "delete": "Tape",
+    "view": "Maimoa i ai",
+    "uploadAvatarInfo": "Faafou Faamatalaga o le ava",
+    "name": "Igoa",
+    "enterName": "Ta i totonu le igoa",
+    "avatarInformation": "Faamatalaga o Avatar",
+    "description": "Faamatalaga",
+    "key": "Ki",
+    "none": "E leai se tasi",
+    "submit": "Auina Atu",
+    "edit": "Faasa'o",
+    "avatarUrl": "Avatar url",
+    "upload-success-msg": "Na Manuia le Siiina Mai o Avatar.",
+    "remove-success-msg": "Na Manuia le Siiina Mai o Avatar.",
+    "warning-msg": "E le o i ai se punaoa o avatar, pe ua e faalaugatasiaina ea ia avatars i le teuina o lau faila e teu ai?"
+  },
+  "personMenu": {
+    "inviteToParty": "Valaaulia I Le Vaega",
+    "addAsFriend": "Faaopoopo o se Uo",
+    "mute": "Mute",
+    "block": "Poloka"
+  },
+  "person": {
+    "you": "O oe",
+    "yourScreen": "Lau Lau",
+    "muteForEveryone": "Mute mo tagata uma",
+    "unmuteForEveryone": "E le'i fuafuaina mo tagata uma",
+    "muteMe": "Moa a'u",
+    "unmuteMe": "Aua le faalavelave mai ia te au",
+    "muteThisPerson": "Moeiina le tagata lenei",
+    "unmuteThisPerson": "Aua nei toe faafouina lenei tagata",
+    "openPictureInPicture": "Tatala le Ata i le Ata"
+  }
+}

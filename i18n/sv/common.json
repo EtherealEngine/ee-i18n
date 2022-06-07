@@ -1,0 +1,84 @@
+{
+  "pageLoader": {
+    "loading": "Laddar sida ..."
+  },
+  "tooltip": {
+    "pressKey": "Tryck på {{tip}} för att {{message}}"
+  },
+  "toast": {
+    "joined": "förenad",
+    "left": "Vänster"
+  },
+  "navUserWidget": {
+    "login": "Logga in"
+  },
+  "loader": {
+    "connecting": "Ansluta till världen ...",
+    "entering": "Att komma in i världen ...",
+    "loading": "Lastning...",
+    "objectRemaining": "{{count}} objekt kvar",
+    "objectRemainingPlural": "{{count}} objekt kvar",
+    "loadingObjects": "Läsa in objekt",
+    "loadingComplete": "Laddar klart",
+    "joiningWorld": "Gå med i världen"
+  },
+  "alert": {
+    "eventWasSuccess": "Evenemanget lyckades",
+    "errorWasEncountered": "Ett fel påträffades",
+    "eventInProgress": "Händelse pågår",
+    "seconds": "Sekunder",
+    "cancelCountdown": "Om du stänger den här modalen avbryts nedräkningen"
+  },
+  "debug": {
+    "refresh": "Svalka",
+    "stats": "Statistik",
+    "debugOptions": "Felsökningsalternativ",
+    "physicsDebug": "Fysik",
+    "avatarDebug": "Avatar",
+    "nodeHelperDebug": "Nodhjälpare",
+    "gridDebug": "Gitter",
+    "simpleMaterials": "Enkla material",
+    "tick": "Fästing",
+    "worldStore": "Världsaffär",
+    "engineStore": "Motorlager",
+    "namedEntities": "Namngivna entiteter",
+    "networkObject": "Nätverksobjekt",
+    "networkClients": "Nätverksklienter"
+  },
+  "recording": {
+    "videoRecorder": "Videobandspelare",
+    "waitingForPermissions": "Väntar på behörigheter",
+    "selectVideoSource": "Välj videokälla",
+    "screen": "Skärm",
+    "camera": "Kamera",
+    "microphone": "Mikrofon",
+    "startRecording": "Börja spela in",
+    "pauseRecording": "Pausa inspelningen",
+    "resumeRecording": "Återuppta inspelningen",
+    "stopRecording": "Stoppa inspelningen"
+  },
+  "typing": "Maskinskrivning...",
+  "gameServer": {
+    "browserError": "Fel i webbläsaren",
+    "browserErrorMessage": "Din webbläsare stöder inte lagring i privat surfläge. Prova antingen en annan webbläsare eller avsluta privat surfläge.",
+    "noAvailableServers": "Inga tillgängliga servrar",
+    "noAvailableServersMessage": "Det finns inga servrar tillgängliga för dig att ansluta till. Försök att återansluta i",
+    "worldDisconnected": "Världen frånkopplad",
+    "worldDisconnectedMessage": "Du har tappat kontakten med världen. Vi försöker återansluta innan nästa tid tar slut, annars vidarebefordras du till en annan instans.",
+    "webGLNotEnabled": "WebGL är inte aktiverat",
+    "webGLNotEnabledMessage": "Din webbläsare stöder inte WebGL, eller så är den inaktiverad. Aktivera WebGL eller överväg att uppgradera till den senaste versionen av din webbläsare.",
+    "youKickedFromWorld": "Du har blivit sparkad från världen",
+    "youKickedFromWorldMessage": "Du sparkades från den här världen av följande anledning",
+    "invalidLocation": "Ogiltig plats",
+    "cantFindLocation": "Vi kan inte hitta platsen",
+    "misspelledOrNotExist": "Det kan vara felstavat, eller det kanske inte finns.",
+    "loading": "lastning",
+    "low-frame-error": "Upptäckte en dålig perfomance överväga att aktivera Använd hårdvaruacceleration i din webbläsare och relauch din webbläsare",
+    "low-frame-title": "Aktivera hårdvaruacceleration för bättre upplevelse!"
+  },
+  "error": {
+    "loading-error": "Det gick inte att ladda användardata",
+    "validation-error": "Vänligen ange giltig {{type}}",
+    "login-error": "Det gick inte att logga in"
+  }
+}

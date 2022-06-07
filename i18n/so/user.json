@@ -1,0 +1,313 @@
+{
+  "auth": {
+    "confirmEmail": {
+      "header": "Xaqiijinta Email",
+      "resendEmail": "Fadlan hubi emailkaaga si loo caddeeyo xisaabtaada. Haddii aadan helin emayl, fadlan riix {{here}} si aad dib u celiso emayl-ka xaqiijinta.",
+      "haveAnAccount": "Lahaan lahaan lahaansho xisaab?"
+    },
+    "forgotPassword": {
+      "header": "Ilowday Password",
+      "enterEmail": "Fadlan ku qor cinwaanka emailkaaga diiwaangashan, waxaanan kuu soo diri doonnaa link password reset.",
+      "lbl-email": "Email Address",
+      "lbl-submit": "U dir Link",
+      "emailSent": "Reset Password Email ayaa loo diray. Fadlan hubi in aad email."
+    },
+    "login": {
+      "email": "Email | SMS",
+      "username": "Magaca Isticmaalaha + Password",
+      "social": "Soomaali"
+    },
+    "magiklink": {
+      "header": "Login Link",
+      "descriptionEmail": "Fadlan qor cinwaanka emailkaaga oo waxaan kuu soo diri doonnaa link login ah via Email.",
+      "descriptionSMS": "Fadlan qor lambarka telefoonkaaga, annaguna waxaanu kuu soo diri doonnaa linkiga login-ka adoo ka marinaya SMS-ka.",
+      "descriptionEmailSMS": "Fadlan qor cinwaanka emailkaaga ama lambarka telefoonka (10 lambar, US kaliya) oo aan kuu soo diri doono link login ah via Email ama SMS.",
+      "descriptionSMSUS": "Fadlan qor lambarka telefoonka (10 lambar, US oo kaliya) oo aan kuu soo diri doono link login ah sms.",
+      "lbl-email": "cinwaanka Email",
+      "lbl-emailPhone": "lambarka email ama Telefoon",
+      "lbl-phone": "lambarka telefoonka",
+      "agree": "Waxaan ogolahay inaan ",
+      "terms": "Shuruudaha & Xaaladaha",
+      "lbl-submit": "U dir Login Link",
+      "email-sent-msg": "waxaa la soo diray Login Magic Link. Fadlan hubi aad Email.",
+      "success-msg": "waxaa la soo diray Login Magic Link. Fadlan hubi aad Email ama SMS.",
+      "sms-sent-msg": "waxaa la soo diray Login Magic Link. Fadlan hubi SMS-kaaga."
+    },
+    "passwordLogin": {
+      "header": "Gal",
+      "lbl-email": "Email Address",
+      "lbl-password": "Password",
+      "lbl-rememberMe": "Me xusuuso",
+      "lbl-signin": "Gal",
+      "forgotPassword": "Ma ilowday furaha sirta ah?",
+      "signup": "Ma haysataan xisaab? Diiwaangeli",
+      "lbl-login": "Soo gal",
+      "ph-password": "Password",
+      "ph-email": "Email"
+    },
+    "social": {
+      "gitHub": "Soo gal la leh GitHub",
+      "google": "Soo gal leh Google",
+      "facebook": "Soo gal la Facebook",
+      "linkedin": "Gal la Linkedin",
+      "twitter": "Soo gal la gal la Twitter"
+    },
+    "register": {
+      "header": "Diiwaangeli",
+      "login": "Soo gal",
+      "lbl-signup": "Diiwaangeli",
+      "lbl-password": "Password",
+      "lbl-email": "Email Address",
+      "passwordNotMatch": "Passwords Ha u dhigma",
+      "ph-password": "Password",
+      "ph-confirmPassword": "Password Xaqiiji",
+      "ph-email": "Email"
+    },
+    "resetPassword": {
+      "header": "Dib u-furka Password",
+      "description": "Fadlan qor password aad cinwaanka emailkaaga",
+      "lbl-submit": "Dib u-furka Password",
+      "lbl-password": "Password",
+      "lbl-confirmPassword": "Password Xaqiiji",
+      "passwordNotMatch": "Passwords Ha u dhigma",
+      "nowLoginYourAccount": "Waxaad hadda gasho kartaa xisaabtaada",
+      "yourPasswordResetSuccess": "Your password ayaa si guul leh dib loogu celiyay!"
+    },
+    "verifyEmail": {
+      "header": "Hubi Email",
+      "processing": "Fadlan sug daqiiqad inta aad ka baaraandegid..."
+    }
+  },
+  "usermenu": {
+    "locationTable": {
+      "title": "Goobaha",
+      "loading": "Loading",
+      "col-name": "magaca",
+      "col-scene": "Scene",
+      "col-maxuser": "Max Isticmaalayaasha",
+      "lbl-search": "Goobo ka raadi",
+      "lbl-new": "Cusub"
+    },
+    "newLocation": {
+      "title": "Goobta",
+      "success": "Badbaadiyo Guul.",
+      "failure": "Wax baa khaldamay.",
+      "removeSuccess": "Location saaro Guul.",
+      "nameInUse": "Magaca ayaa la isticmaalayaa.",
+      "nameRequire": "Name ayaa loo baahan yahay.",
+      "validNumber": "Lambaro kaliya(0-9) ayaa la ogol yahay.",
+      "lbl-name": "magaca",
+      "lbl-maxuser": "Max Isticmaalayaasha",
+      "lbl-scene": "Scene",
+      "lbl-type": "Noocyada",
+      "lbl-ve": "Video awood",
+      "lbl-gme": "Warbaahinta Global Awood",
+      "lbl-update": "Update",
+      "lbl-create": "Abuuri",
+      "tooltipCanNotBeDeleted": "Lobby lama tirtiri karo",
+      "confirmation": "Ma hubtaa?",
+      "lbl-yes": "Haa",
+      "lbl-no": "Maya"
+    },
+    "share": {
+      "lbl-share": "Share",
+      "ph-phoneEmail": "Ku martiqaad by email ama lambarka telefoonka",
+      "lbl-phoneEmail": "U dir email ama lambarka telefoonka",
+      "lbl-copy": "Nuqul",
+      "lbl-send-invite": "U dir Martiqaad",
+      "title": "La wadaag URL Location kooxdaada",
+      "linkCopied": "Link soo guuriyeen in clipboard."
+    },
+    "setting": {
+      "audio": "Audio",
+      "lbl-volume": "Volume",
+      "lbl-microphone": "Makarafoonka",
+      "graphics": "Graphics",
+      "controls": "Xakamaynta",
+      "lbl-control-type": "nooca maamusha",
+      "lbl-control-scheme": "Control Scheme",
+      "lbl-resolution": "Resolution",
+      "lbl-shadow": "shadow",
+      "lbl-pp": "Post Processing",
+      "lbl-pbr": "Full PBR",
+      "lbl-automatic": "Automatic",
+      "xrusersetting": "XR User Settings",
+      "rotation": "Wareegga",
+      "rotation-smooth-speed": "wareegga Speed siman siman",
+      "rotation-angle": "wareegga xaglaha",
+      "moving": "Guuritaanka",
+      "user-avatar": "Avatar Setting",
+      "invert-rotation": "Invert wareegga Oo Dhaqaaqaan ulo",
+      "show-avatar": "Muuji Avatar"
+    },
+    "profile": {
+      "lbl-profile": "Borofayl",
+      "lbl-settings": "Settings",
+      "lbl-username": "Username",
+      "update-msg": "Username updated",
+      "inviteCode": "U yeedh Code",
+      "youAreAn": "Waxaad tahay",
+      "youAreA": "Waxaad a",
+      "showUserId": "Tus idka User",
+      "hideUserId": "Qari idka User",
+      "showApiKey": "Muuji API muhiimka ah",
+      "hideApiKey": "Hide muhiimka ah API",
+      "apiKey": "muhiimka ah API",
+      "logout": "Log out",
+      "connectPhone": "Connect lambarkaaga telefoonkaaga",
+      "connectEmail": "Connect aad email",
+      "connectPhoneEmail": "Connect lambarka emailkaaga ama telefoonka",
+      "or": "ama",
+      "lbl-wallet": "Gal la Salada",
+      "ph-email": "Email",
+      "ph-phone": "Lambarka Telefoonka",
+      "ph-phoneEmail": "Lambarka Telefoonka / Email",
+      "phoneEmailError": "phone aan sharci ahayn # ama cinwaanka email",
+      "phoneError": "Telefoonka aan qasab ahayn #",
+      "emailError": "cinwaanka email aan qasab ahayn",
+      "loginWithReadyPlayerMe": "Login with Ready Player Me",
+      "connectSocial": "La xiriir akawnnada bulshada",
+      "createOne": "Haddii aadan haysan xisaab, mid cusub ayaa kuu abuuri doona",
+      "connections": {
+        "title": "xidhiidhada",
+        "ipError": "ma saari karaa Bixiyaha Aqoonsiga firfircoon",
+        "disconnect": "go'aan",
+        "connect": "Kuxir"
+      },
+      "profileDropdown": {
+        "avatar": "User Avatar Icon",
+        "profile": "Borofayl",
+        "adminConsole": "Admin Console",
+        "logout": "Soogalid"
+      },
+      "userIcon": {
+        "lbl-name": "Magacaaga",
+        "lbl-update": "Update",
+        "userId": "User id",
+        "ph-uploadImg": "Soo saarista Product Image",
+        "lbl-selectAcvatar": "Dooro Avatar",
+        "lbl-submit": "Gudbi"
+      },
+      "userSettings": {
+        "volume": "Volume",
+        "microphone": "Makarafoonka",
+        "resolution": "Resolution",
+        "high": "sare",
+        "low": "Low",
+        "spatialAudio": "Isticmaal Spatial Audio",
+        "enterMuted": "Gali Room Aamusney"
+      }
+    },
+    "oauth": {
+      "authenticating": "Authenticating ...",
+      "authFailed": "{{service}} aamisanaantii fashilantay."
+    },
+    "magikLink": {
+      "wait": "Fadlan sug daqiiqad inta aad ka baaraandegid..."
+    },
+    "dashboard": {
+      "header": "Dashboard",
+      "dashboard": "Dashboard",
+      "users": "Adeegsadayaasha",
+      "feeds": "Daaqsin",
+      "instance": "Tusaale ahaan",
+      "locations": "Goobaha",
+      "invites": "Invites",
+      "sessions": "Kalfadhiyada",
+      "groups": "Kooxo",
+      "parties": "Xisbiyada",
+      "chats": "Chats",
+      "content": "Xirmooyinka Content",
+      "projects": "Mashaariicda",
+      "scenes": "Muuqaallada",
+      "avatars": "Avatars",
+      "benchmarking": "Cabirka",
+      "bots": "Bots"
+    }
+  },
+  "oauth": {
+    "authenticating": "Authenticating ...",
+    "authFailed": "{{service}} aamisanaantii fashilantay."
+  },
+  "magikLink": {
+    "wait": "Fadlan sug daqiiqad inta aad ka baaraandegid..."
+  },
+  "dashboard": {
+    "header": "Dashboard",
+    "dashboard": "Dashboard",
+    "users": "Adeegsadayaasha",
+    "feeds": "Daaqsin",
+    "instance": "Tusaale ahaan",
+    "locations": "Goobaha",
+    "routes": "Wadooyinka",
+    "projects": "Mashaariicda",
+    "invites": "Invites",
+    "sessions": "Kalfadhiyada",
+    "groups": "Kooxo",
+    "parties": "Xisbiyada",
+    "chats": "Chats",
+    "content": "Xirmooyinka Content",
+    "scenes": "Muuqaallada",
+    "avatars": "Avatars",
+    "benchmarking": "Cabirka",
+    "bots": "Bots",
+    "setting": "Settings"
+  },
+  "avatar": {
+    "title": "Baan Boo Loo",
+    "lbl-browse": "Browse",
+    "lbl-thumbnail": "Thumbnail",
+    "lbl-upload": "Hore",
+    "selectAvatar": "Dooro Avatar...",
+    "selectThumbnail": "Dooro Thumbnail ...",
+    "rotate": "Rotate",
+    "pan": "Pan",
+    "noBone": "Caadadu wax lafo ah ama maqaar kuma jiraan",
+    "outOfBound": "Sheyga waa ka baxsanyahay xadka.",
+    "emptyObj": "Waxyigu waa madhan yahay.",
+    "maxTriangleError": "Shayga waxaa ku jira wax ka weyn wajiga {{allowedTriangles}} .",
+    "selectValidFile": "Dooro faylka avatar 3d ee saxda ah.",
+    "selectValidThumbnail": "Waxaa loo soo xulay faylka Thumbnail oo sax ah.",
+    "fileOversized": "size file Avatar waa in ay ahaataa inta u dhaxaysa {{minSize}} MB iyo {{maxSize}} MB",
+    "confirmation": "Ma hubtaa?",
+    "canNotBeRemoved": "Avatar Firfircoon lagama saari karo",
+    "remove": "Saar avatar",
+    "uploadFiles": "Geli files",
+    "useUrlInstead": "Isticmaal url halkii",
+    "avatar": "Avatar",
+    "cancel": "Jooji",
+    "createAvatar": "Abuur Avatar",
+    "delete": "delete",
+    "view": "View",
+    "uploadAvatarInfo": "Update avatar Information",
+    "name": "magaca",
+    "enterName": "Magaca geli",
+    "avatarInformation": "Avatar Information",
+    "description": "Tilmaan",
+    "key": "Key",
+    "none": "None",
+    "submit": "Gudbi",
+    "edit": "bedel",
+    "avatarUrl": "Avatar url",
+    "upload-success-msg": "Avatar Uploaded guul.",
+    "remove-success-msg": "Avatar Uploaded guul.",
+    "warning-msg": "khayraadka Avatar waa madhan, miyaad u simeen avatars in aad kaydinta file ma joogo?"
+  },
+  "personMenu": {
+    "inviteToParty": "Ku martiqaad Si Xisbiga",
+    "addAsFriend": "Ku dar Sida Friend",
+    "mute": "Aamusan",
+    "block": "Block"
+  },
+  "person": {
+    "you": "waxaad",
+    "yourScreen": "Your Screen",
+    "muteForEveryone": "Aamusnayn qof kasta",
+    "unmuteForEveryone": "Qof kasta oo aan u qaldami karin",
+    "muteMe": "I Tuute",
+    "unmuteMe": "Unmute me",
+    "muteThisPerson": "Aamus wuxuu ka mid yahay qofkan",
+    "unmuteThisPerson": "Unmute this person",
+    "openPictureInPicture": "Open Picture in Picture"
+  }
+}
